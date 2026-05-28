@@ -1,0 +1,15 @@
+{
+  "stage": 332,
+  "name": "Signed Execution Session",
+  "project": "QSP / VEP",
+  "purpose": "Bind an execution session to cryptographic signatures for audit evidence.",
+  "session_id": "stage332-demo-session",
+  "generated_by": "Motohiro Suzuki",
+  "evidence": {
+    "execution_session": "execution_session.json",
+    "gpg_signature": "execution_session.json.sig",
+    "sigstore_bundle": "execution_session.json.bundle"
+  },
+  "meaning": "This file is the audit target. Stage332 proves who generated the execution session and makes the session externally verifiable.",
+  "decision": "audit-signed"
+}
