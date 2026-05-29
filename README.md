@@ -1,58 +1,23 @@
 # Stage336: Safe Live Intelligence Fetcher
 
-Stage336 adds a safe live intelligence layer to the QSP/VEP evidence system.
+Stage336 adds a safe live intelligence layer to QSP/VEP.
 
-It periodically fetches public security and AI-risk metadata from sources such as:
+It collects only public security and AI-risk metadata.
 
-- GitHub Advisory metadata
-- CVE/NVD metadata
-- OWASP update metadata
-- arXiv research metadata
-
-## Safety Boundary
-
-Stage336 does **not** collect:
-
-- exploit code
-- attack prompts
-- payloads
-- bypass instructions
-- malware samples
-- automated attack logic
-
-It collects only safe audit metadata:
-
-- category
-- title
-- summary
-- published date
-- impact scope
-- tags
-- source URL
+It does not collect exploit code, attack prompts, payloads, malware, or reproduction instructions.
 
 ## Public Output
 
-The private fetcher generates public, safe metadata files:
+- docs/intel/index.html
+- docs/intel/index.json
 
-- `docs/intel/index.html`
-- `docs/intel/index.json`
+## Safety Policy
 
-## Private Core
-
-The fetcher implementation is kept private and excluded from GitHub:
-
-- `private_core/`
-- `data/`
-
-## Value
-
-Stage336 moves the system from a static evidence catalog to a live AI/security intelligence monitoring layer.
-
-This strengthens the product direction as:
-
-**AI safety audit infrastructure**
-
-not an attack or exploit platform.
+- metadata only
+- no exploit code
+- no attack prompts
+- no payload collection
+- no automated attack logic
 
 ## License
 
