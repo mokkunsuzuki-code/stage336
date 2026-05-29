@@ -1,0 +1,674 @@
+{
+  "stage": 336,
+  "system": "Safe Live Intelligence Fetcher",
+  "generated_at": "2026-05-29T03:53:57.080810+00:00",
+  "mode": "safe-metadata-only",
+  "item_count": 35,
+  "items": [
+    {
+      "id": "15b951e1028b814c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[tuf] tuf has platform-dependent delegation path matching",
+      "summary": "",
+      "published": "2026-05-28T22:46:13.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qp9x-wp8f-qgjj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e7ba8aedee8907e9",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[dulwich] Dulwich Vulnerable to Command Injection via Merge Driver Path",
+      "summary": "",
+      "published": "2026-05-28T22:29:22.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9277-mp7x-85jf",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "cf26ffb089c1aeea",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[dulwich] Dulwich has an arbitrary file write via NTFS-hostile tree entries on Windows",
+      "summary": "",
+      "published": "2026-05-28T22:28:06.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-897w-fcg9-f6xj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "18abb98841bb0a7e",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[shamefile] Shamefile has an arbitrary file read via shamefile.yaml in shame next",
+      "summary": "",
+      "published": "2026-05-28T20:02:14.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-x6p3-76f2-xxvh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ea6018121dfd4aed",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[local-deep-research] local-deep-research has an SSRF bypass in `safe_get`",
+      "summary": "",
+      "published": "2026-05-28T19:18:34.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-g23j-2vwm-5c25",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8d1a03f2c2167fa4",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mem0ai] mem0 server lacks authentication and authorization controls for its memory management API endpoints",
+      "summary": "",
+      "published": "2026-05-12T18:30:41.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jfv9-68m5-gjjr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "905af7186c91c7bd",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compliance-trestle] compliance-trestle Vulnerable to Remote Code Execution via Recursive Server-Side Template Injection (SSTI)",
+      "summary": "",
+      "published": "2026-05-28T19:01:38.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-gg2g-p7xc-qqmm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b1bd42836948187a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compliance-trestle] compliance-trestle Vulnerable to SSRF in Remote Fetching Subsystem",
+      "summary": "",
+      "published": "2026-05-28T18:27:13.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w76h-q7c6-jpjp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6c3f0b93f072cdbf",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pycti] OpenCTI: Privilege escalation via graphQL API is abusable by organization admins, due to incorrect ACL on userEdit relationAdd",
+      "summary": "",
+      "published": "2026-05-28T18:08:59.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q537-qhj4-wcjx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "44392c0189fa0fc1",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compliance-trestle] compliance-trestle - jinja has an Arbitrary File Write via Path Traversal",
+      "summary": "",
+      "published": "2026-05-28T17:44:03.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-4q5v-7g7x-j79w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5e44a54092f6b3df",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compliance-trestle] compliance-trestle Profile Import has an Arbitrary File Read via trestle:// URI and Relative Path Traversal",
+      "summary": "",
+      "published": "2026-05-28T17:37:08.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mj4x-vf5c-5xg8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "996da543d73565e1",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compliance-trestle] compliance-trestle Remote Fetching Mechanism has an Arbitrary File Write via Cache Path Traversal",
+      "summary": "",
+      "published": "2026-05-27T22:57:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-g3vg-vx23-3858",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8de89b43b1403baa",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[gpt-pilot] GPT-Pilot contains a command injection vulnerability in the Executor.run() method",
+      "summary": "",
+      "published": "2026-05-11T18:31:43.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-m85w-whwh-qvfx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e6c15c96b378af80",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mem0ai] mem0 server lacks authentication and authorization controls for its memory creation API endpoint",
+      "summary": "",
+      "published": "2026-05-12T18:30:41.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-cgx8-qgvr-f7vf",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3baf2f9f3b87cc09",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mem0ai] mem0 server lacks authentication and authorization controls for its memory deletion API endpoint",
+      "summary": "",
+      "published": "2026-05-12T18:30:41.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-gq6f-qwv9-rf4j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4f3ef9102531e3ac",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[fuxa-server] FUXA provides guest and invalid-token access to protected read APIs in secure mode",
+      "summary": "",
+      "published": "2026-05-28T20:33:11.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r9g5-7q8j-958c",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8c8a7dcfe8a6d6c3",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@kilocode/cli] @kilocode/cli Vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
+      "summary": "",
+      "published": "2026-05-18T00:31:36.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rpc6-9c4p-j5cg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "29cd991e78520123",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[shamefile] Shamefile has an arbitrary file read via shamefile.yaml in shame next",
+      "summary": "",
+      "published": "2026-05-28T20:02:14.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-x6p3-76f2-xxvh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6dac612139b912ce",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[fuxa-server] FUXA's Unauthenticated Project Data Disclosure Exposes Server-Side Scripts and Device Configurations",
+      "summary": "",
+      "published": "2026-05-27T22:51:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q3w6-q3hc-c5x6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "10b420dafea7a454",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[liquidjs] LiquidJS is Vulnerable to Remote Code Execution",
+      "summary": "",
+      "published": "2026-05-27T18:24:14.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-gf2q-c269-pqgc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8315648ed15d6a5f",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[liquidjs] LiquidJS Vulnerable to ReDoS via Quadratic Backtracking in `strip_html` Filter Regex",
+      "summary": "",
+      "published": "2026-05-27T18:08:19.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r7g9-xpmj-5fcq",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5c6e80c149166d1d",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[liquidjs] LiquidJS has a memory and render limit bypass via unbounded width padding in `date` filter (strftime)",
+      "summary": "",
+      "published": "2026-05-27T17:33:52.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hh27-hf48-9f5q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "fdf4adc05b675709",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@hapi/wreck] @hapi/wreck leaks sensitive `Proxy-Authorization` header across cross-hostname redirects",
+      "summary": "",
+      "published": "2026-05-27T00:38:09.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vhjm-w67q-g75c",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9cf01da068464bcb",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@hapi/content] @hapi/content header parser has a parameter smuggling issue that allows upload-filter bypass via duplicate parameters",
+      "summary": "",
+      "published": "2026-05-27T00:37:20.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-36hh-x5p5-jgc8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "69bebcb234747eff",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[tmp] tmp has Path Traversal via unsanitized prefix/postfix that enables directory escape",
+      "summary": "",
+      "published": "2026-05-27T00:34:06.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-ph9p-34f9-6g65",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "db9d5f51e06dcd0b",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[liquidjs] LiquidJS's `{% render %}` tag silently bypasses per-render `ownPropertyOnly:true` via `Context.spawn()`",
+      "summary": "",
+      "published": "2026-05-27T00:28:06.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9x9p-qf8f-mvjg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "936e3000cdb2091f",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[liquidjs] LiquidJS has a renderLimit DoS guard bypass via empty `{% for %}` body",
+      "summary": "",
+      "published": "2026-05-27T00:11:46.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8xx9-69p8-7jp3",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "50214677d5ad5c6e",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[liquidjs] LiquidJS's strip_html filter bypass via newline characters in HTML tags enables XSS",
+      "summary": "",
+      "published": "2026-05-27T00:09:12.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2qv6-9wx5-cwv4",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6495c544a5acc8a2",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[fuxa-server] FUXA Vulnerable to Unauthenticated Remote Code Execution via Script Test Mode Authorization Bypass",
+      "summary": "",
+      "published": "2026-05-26T23:44:52.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rg3m-cfq7-g6h6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b3c3da34eb4529f7",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[fuxa-server] FUXA has an unauthenticated arbitrary tag value disclosure via /api/getTagValue",
+      "summary": "",
+      "published": "2026-05-26T23:41:45.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fwcm-rqvw-j3p7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "12ba259b66051899",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@frangoteam/fuxa] FUXA Vulnerable to Pre-auth RCE via Path Manipulation & Configuration Injection",
+      "summary": "",
+      "published": "2026-05-26T23:40:42.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-p69w-mmfv-xrfj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "dc4aa62b082c2d1f",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@fedify/fedify] Fedify has an LD-Signature Bypass via JSON-LD Named-Graph Restructuring",
+      "summary": "",
+      "published": "2026-05-26T23:38:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9rfg-v8g9-9367",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "59169c53d161206e",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[yeoman-environment] yeoman-environment Vulnerable to Arbitrary Package Installation without User Confirmation",
+      "summary": "",
+      "published": "2026-05-26T23:10:38.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vv9j-gjw2-j8wp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e05f7fd6d46e8b7e",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[cryptpad] CryptPad has a Sanitizer Bypass in Diffmarked.js that Allows Arbitrary HTML Injection and Potential XSS",
+      "summary": "",
+      "published": "2026-05-26T19:05:10.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-g2g4-47gv-p72v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7965e1fa3acefa98",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@typebot.io/js] Typebot.io has stored XSS via `javascript`: URI in text bubble links — bot author executes JS on visitors' browsers",
+      "summary": "",
+      "published": "2026-05-26T18:00:24.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hqmv-v56g-4m47",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    }
+  ]
+}

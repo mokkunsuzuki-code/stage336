@@ -1,97 +1,58 @@
-# REMEDA Stage335
+# Stage336: Safe Live Intelligence Fetcher
 
-Stage335 adds a Safe AI Vulnerability Intelligence Fetcher on top of Stage334.
+Stage336 adds a safe live intelligence layer to the QSP/VEP evidence system.
 
-It separates public audit metadata from private internal verification logic.
+It periodically fetches public security and AI-risk metadata from sources such as:
 
-The public side contains safe metadata, classification, summaries, SHA256 hashes, and transparency logs.
-
-The private side can connect to future internal runners for safe reproduction, behavior matching, and verification.
-
----
-
-## Stage334 → Stage335
-
-Stage334:
-
-AI Vulnerability Watch Atlas
-
-↓
-
-safe AI risk categories
-
-Stage335:
-
-safe intelligence source policy
-
-↓
-
-safe metadata feed
-
-↓
-
-collection transparency log
-
-↓
-
-private runner preparation
-
----
-
-## Public / Private Separation
-
-### Public
-
-- safe metadata
-- vulnerability categories
-- summaries
-- source type
-- item count
-- SHA256
-- transparency log
-
-### Private
-
-- internal runner logic
-- safe reproduction templates
-- behavior matching rules
-- unsafe details
-- collection logic
-
----
+- GitHub Advisory metadata
+- CVE/NVD metadata
+- OWASP update metadata
+- arXiv research metadata
 
 ## Safety Boundary
 
-Stage335 does not publish:
+Stage336 does **not** collect:
 
 - exploit code
-- harmful prompts
-- weaponized payloads
-- attack automation
+- attack prompts
+- payloads
+- bypass instructions
+- malware samples
+- automated attack logic
 
-Stage335 is designed as AI safety audit infrastructure, not an attack database.
+It collects only safe audit metadata:
 
----
+- category
+- title
+- summary
+- published date
+- impact scope
+- tags
+- source URL
 
-## Public Files
+## Public Output
 
-- docs/stage335/index.html
-- docs/stage335/safe-intelligence-feed.json
-- docs/stage335/watch-summary.json
-- docs/stage335/collection-transparency-log.json
+The private fetcher generates public, safe metadata files:
 
----
+- `docs/intel/index.html`
+- `docs/intel/index.json`
 
-## Core Privacy
+## Private Core
 
-Ignored paths:
+The fetcher implementation is kept private and excluded from GitHub:
 
-- core/
-- private/
-- tools/
-- runner/
+- `private_core/`
+- `data/`
 
----
+## Value
+
+Stage336 moves the system from a static evidence catalog to a live AI/security intelligence monitoring layer.
+
+This strengthens the product direction as:
+
+**AI safety audit infrastructure**
+
+not an attack or exploit platform.
 
 ## License
 

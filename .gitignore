@@ -18,3 +18,12 @@ qsp_public/
 samples/
 schemas/
 stage328_decision.json
+
+# Stage336 private core - do not publish
+private_core/
+data/
+.env
+*.key
+*.pem
+*.p12
+*.pfx
