@@ -1,6 +1,5 @@
 core/
 private/
-tools/
 runner/
 *.key
 *.pem
@@ -27,3 +26,8 @@ data/
 *.pem
 *.p12
 *.pfx
+
+.venv/
+
+backup_stage336_docs/
+*.backup-before-stage336-move

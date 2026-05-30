@@ -1,22 +1,22 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-05-29T04:24:27.320591+00:00",
+  "generated_at": "2026-05-30T05:03:51.353543+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 35,
+  "item_count": 48,
   "items": [
     {
-      "id": "15b951e1028b814c",
+      "id": "3749759a82ae2858",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[tuf] tuf has platform-dependent delegation path matching",
+      "title": "[praisonai-platform] praisonai-platform: Any workspace member can promote themselves or others to owner via PATCH /workspaces/{id}/members/{user_id}",
       "summary": "",
-      "published": "2026-05-28T22:46:13.000Z",
+      "published": "2026-05-29T23:01:59.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qp9x-wp8f-qgjj",
+      "url": "https://github.com/advisories/GHSA-c2m8-4gcg-v22g",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "e7ba8aedee8907e9",
+      "id": "f797eb4414f6d475",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[dulwich] Dulwich Vulnerable to Command Injection via Merge Driver Path",
+      "title": "[praisonai-platform] praisonai-platform: Missing authorization on member removal enables full workspace takeover by any user regardless of role",
       "summary": "",
-      "published": "2026-05-28T22:29:22.000Z",
+      "published": "2026-05-29T22:57:05.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9277-mp7x-85jf",
+      "url": "https://github.com/advisories/GHSA-w388-2392-px73",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -44,17 +44,17 @@
       }
     },
     {
-      "id": "cf26ffb089c1aeea",
+      "id": "63a2ec3949d62af8",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[dulwich] Dulwich has an arbitrary file write via NTFS-hostile tree entries on Windows",
+      "title": "[praisonai-platform] praisonai-platform: Label endpoints' unchecked label_id/issue_id enable cross-workspace label IDOR (edit, delete, link)",
       "summary": "",
-      "published": "2026-05-28T22:28:06.000Z",
+      "published": "2026-05-29T22:51:07.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-897w-fcg9-f6xj",
+      "url": "https://github.com/advisories/GHSA-5jx9-w35f-vp65",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -63,17 +63,17 @@
       }
     },
     {
-      "id": "18abb98841bb0a7e",
+      "id": "83bdde9c8863b81b",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[shamefile] Shamefile has an arbitrary file read via shamefile.yaml in shame next",
+      "title": "[praisonai-platform] praisonai-platform: IDOR in dependency endpoints allows cross-workspace issue linking, reading, and deletion due to missing ownership checks",
       "summary": "",
-      "published": "2026-05-28T20:02:14.000Z",
+      "published": "2026-05-29T22:45:48.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-x6p3-76f2-xxvh",
+      "url": "https://github.com/advisories/GHSA-4x6r-9v57-3gqw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +82,17 @@
       }
     },
     {
-      "id": "ea6018121dfd4aed",
+      "id": "ea301f4a5759fbac",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[local-deep-research] local-deep-research has an SSRF bypass in `safe_get`",
+      "title": "[praisonai-platform] praisonai-platform: JWT signing key defaults to hardcoded \"dev-secret-change-me\", allowing token forgery for any user when PLATFORM_ENV is unset",
       "summary": "",
-      "published": "2026-05-28T19:18:34.000Z",
+      "published": "2026-05-29T22:42:46.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g23j-2vwm-5c25",
+      "url": "https://github.com/advisories/GHSA-3qg8-5g3r-79v5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +101,17 @@
       }
     },
     {
-      "id": "8d1a03f2c2167fa4",
+      "id": "bbe0e81b6d26ec56",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[mem0ai] mem0 server lacks authentication and authorization controls for its memory management API endpoints",
+      "title": "[praisonai-platform] PraisonAI Platform: Missing role checks let any workspace member become owner and control workspace membership",
       "summary": "",
-      "published": "2026-05-12T18:30:41.000Z",
+      "published": "2026-05-29T22:42:07.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jfv9-68m5-gjjr",
+      "url": "https://github.com/advisories/GHSA-h37g-4h4p-9x97",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +120,17 @@
       }
     },
     {
-      "id": "905af7186c91c7bd",
+      "id": "6a517a761179284c",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[compliance-trestle] compliance-trestle Vulnerable to Remote Code Execution via Recursive Server-Side Template Injection (SSTI)",
+      "title": "[praisonai-platform] PraisonAI Platform workspace-scoped routes allow cross-workspace object access by global object ID",
       "summary": "",
-      "published": "2026-05-28T19:01:38.000Z",
+      "published": "2026-05-29T22:35:13.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gg2g-p7xc-qqmm",
+      "url": "https://github.com/advisories/GHSA-6h6v-6m7w-7vxx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +139,17 @@
       }
     },
     {
-      "id": "b1bd42836948187a",
+      "id": "619261df0d62013e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[compliance-trestle] compliance-trestle Vulnerable to SSRF in Remote Fetching Subsystem",
+      "title": "[praisonai-platform] PraisonAI Platform has a cross-workspace IDOR + member-role privilege escalation",
       "summary": "",
-      "published": "2026-05-28T18:27:13.000Z",
+      "published": "2026-05-29T22:34:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-w76h-q7c6-jpjp",
+      "url": "https://github.com/advisories/GHSA-h8q5-cp56-rr65",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +158,17 @@
       }
     },
     {
-      "id": "6c3f0b93f072cdbf",
+      "id": "36d0f687f7d47b8e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pycti] OpenCTI: Privilege escalation via graphQL API is abusable by organization admins, due to incorrect ACL on userEdit relationAdd",
+      "title": "[praisonai-platform] praisonai-platform: list_issue_activity returns activity log for any issue regardless of workspace ownership",
       "summary": "",
-      "published": "2026-05-28T18:08:59.000Z",
+      "published": "2026-05-29T22:34:08.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-q537-qhj4-wcjx",
+      "url": "https://github.com/advisories/GHSA-27p4-pjqv-whgj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +177,17 @@
       }
     },
     {
-      "id": "44392c0189fa0fc1",
+      "id": "c833e065b73dcdad",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[compliance-trestle] compliance-trestle - jinja has an Arbitrary File Write via Path Traversal",
+      "title": "[praisonai-platform] PraisonAI has Cross-Workspace IDOR and Privilege Escalation via Platform API",
       "summary": "",
-      "published": "2026-05-28T17:44:03.000Z",
+      "published": "2026-05-29T22:32:45.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4q5v-7g7x-j79w",
+      "url": "https://github.com/advisories/GHSA-gv23-xrm3-8c62",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +196,17 @@
       }
     },
     {
-      "id": "5e44a54092f6b3df",
+      "id": "06fbabdcb80660ae",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[compliance-trestle] compliance-trestle Profile Import has an Arbitrary File Read via trestle:// URI and Relative Path Traversal",
+      "title": "[PraisonAI] PraisonAI has an Arbitrary File Write in Python API",
       "summary": "",
-      "published": "2026-05-28T17:37:08.000Z",
+      "published": "2026-05-29T22:31:49.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mj4x-vf5c-5xg8",
+      "url": "https://github.com/advisories/GHSA-hvhp-v2gc-268q",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +215,17 @@
       }
     },
     {
-      "id": "996da543d73565e1",
+      "id": "612ce11f6c61d405",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[compliance-trestle] compliance-trestle Remote Fetching Mechanism has an Arbitrary File Write via Cache Path Traversal",
+      "title": "[PraisonAI] PraisonAI's unauthenticated A2A official example can reach real LLM-driven `eval()` tool execution",
       "summary": "",
-      "published": "2026-05-27T22:57:37.000Z",
+      "published": "2026-05-29T22:31:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g3vg-vx23-3858",
+      "url": "https://github.com/advisories/GHSA-vg22-4gmj-prxw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +234,17 @@
       }
     },
     {
-      "id": "8de89b43b1403baa",
+      "id": "24ec7111270512db",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[gpt-pilot] GPT-Pilot contains a command injection vulnerability in the Executor.run() method",
+      "title": "[PraisonAI] PraisonAI vulnerable to unauthenticated arbitrary file read via MCP workflow.show, workflow.validate, deploy.validate",
       "summary": "",
-      "published": "2026-05-11T18:31:43.000Z",
+      "published": "2026-05-29T22:30:58.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-m85w-whwh-qvfx",
+      "url": "https://github.com/advisories/GHSA-9cr9-25q5-8prj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +253,17 @@
       }
     },
     {
-      "id": "e6c15c96b378af80",
+      "id": "bfcce0b0d211547e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[mem0ai] mem0 server lacks authentication and authorization controls for its memory creation API endpoint",
+      "title": "[PraisonAI] PraisonAI vulnerable to sandbox escape via `print.__self__` builtins module leak in `execute_code` (subprocess mode)",
       "summary": "",
-      "published": "2026-05-12T18:30:41.000Z",
+      "published": "2026-05-29T22:30:13.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cgx8-qgvr-f7vf",
+      "url": "https://github.com/advisories/GHSA-4mr5-g6f9-cfrh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +272,17 @@
       }
     },
     {
-      "id": "3baf2f9f3b87cc09",
+      "id": "bb3fea1f40dacf8c",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[mem0ai] mem0 server lacks authentication and authorization controls for its memory deletion API endpoint",
+      "title": "[praisonaiagents] PraisonAI vulnerable to sandbox escape via `print.__self__` builtins module leak in `execute_code` (subprocess mode)",
       "summary": "",
-      "published": "2026-05-12T18:30:41.000Z",
+      "published": "2026-05-29T22:30:13.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gq6f-qwv9-rf4j",
+      "url": "https://github.com/advisories/GHSA-4mr5-g6f9-cfrh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +291,17 @@
       }
     },
     {
-      "id": "4f3ef9102531e3ac",
-      "source": "github-advisory-npm",
+      "id": "e79a9d1ee22e6141",
+      "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[fuxa-server] FUXA provides guest and invalid-token access to protected read APIs in secure mode",
+      "title": "[PraisonAI] PraisonAI CLI automatically resolves @url mentions in prompt text and can read loopback URLs into model context",
       "summary": "",
-      "published": "2026-05-28T20:33:11.000Z",
+      "published": "2026-05-29T22:29:47.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r9g5-7q8j-958c",
+      "url": "https://github.com/advisories/GHSA-5cxw-77wg-jrf3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +310,17 @@
       }
     },
     {
-      "id": "8c8a7dcfe8a6d6c3",
-      "source": "github-advisory-npm",
+      "id": "b9dc16035f1e3a6d",
+      "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[@kilocode/cli] @kilocode/cli Vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
+      "title": "[praisonaiagents] PraisonAI CLI automatically resolves @url mentions in prompt text and can read loopback URLs into model context",
       "summary": "",
-      "published": "2026-05-18T00:31:36.000Z",
+      "published": "2026-05-29T22:29:47.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rpc6-9c4p-j5cg",
+      "url": "https://github.com/advisories/GHSA-5cxw-77wg-jrf3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +329,17 @@
       }
     },
     {
-      "id": "29cd991e78520123",
-      "source": "github-advisory-npm",
+      "id": "27eb2aa130d15c16",
+      "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[shamefile] Shamefile has an arbitrary file read via shamefile.yaml in shame next",
+      "title": "[PraisonAI] PraisonAI `deploy --type api` emits a Flask server with authentication disabled by default",
       "summary": "",
-      "published": "2026-05-28T20:02:14.000Z",
+      "published": "2026-05-29T22:29:20.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-x6p3-76f2-xxvh",
+      "url": "https://github.com/advisories/GHSA-8444-4fhq-fxpq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +348,17 @@
       }
     },
     {
-      "id": "6dac612139b912ce",
-      "source": "github-advisory-npm",
+      "id": "bf965829aeeb358b",
+      "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[fuxa-server] FUXA's Unauthenticated Project Data Disclosure Exposes Server-Side Scripts and Device Configurations",
+      "title": "[PraisonAI] PraisonAI call server exposes unauthenticated agent listing, invocation, and deletion when CALL_SERVER_TOKEN is unset",
       "summary": "",
-      "published": "2026-05-27T22:51:18.000Z",
+      "published": "2026-05-29T22:27:34.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-q3w6-q3hc-c5x6",
+      "url": "https://github.com/advisories/GHSA-86qc-r5v2-v6x6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +367,17 @@
       }
     },
     {
-      "id": "10b420dafea7a454",
-      "source": "github-advisory-npm",
+      "id": "c5fdbc07d8b47e88",
+      "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[liquidjs] LiquidJS is Vulnerable to Remote Code Execution",
+      "title": "[PraisonAI] PraisonAI spider_tools SSRF protection bypass via alternate loopback host encodings",
       "summary": "",
-      "published": "2026-05-27T18:24:14.000Z",
+      "published": "2026-05-29T22:27:09.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gf2q-c269-pqgc",
+      "url": "https://github.com/advisories/GHSA-5c6w-wwfq-7qqm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -386,17 +386,17 @@
       }
     },
     {
-      "id": "8315648ed15d6a5f",
+      "id": "933793a5fe15d70d",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[liquidjs] LiquidJS Vulnerable to ReDoS via Quadratic Backtracking in `strip_html` Filter Regex",
+      "title": "[@steipete/summarize] Summarize's hover summary feature allows malicious pages to dispatch synthetic mouseover events over attacker-controlled links",
       "summary": "",
-      "published": "2026-05-27T18:08:19.000Z",
+      "published": "2026-05-18T21:31:51.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r7g9-xpmj-5fcq",
+      "url": "https://github.com/advisories/GHSA-2r69-qgv3-hr65",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +405,17 @@
       }
     },
     {
-      "id": "5c6e80c149166d1d",
+      "id": "1cc9620e713a8ef5",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[liquidjs] LiquidJS has a memory and render limit bypass via unbounded width padding in `date` filter (strftime)",
+      "title": "[@steipete/summarize] Summarize contains a missing authorization vulnerability",
       "summary": "",
-      "published": "2026-05-27T17:33:52.000Z",
+      "published": "2026-05-18T21:31:51.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hh27-hf48-9f5q",
+      "url": "https://github.com/advisories/GHSA-67gq-6q8c-qqh6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +424,17 @@
       }
     },
     {
-      "id": "fdf4adc05b675709",
+      "id": "f83097d533799e46",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@hapi/wreck] @hapi/wreck leaks sensitive `Proxy-Authorization` header across cross-hostname redirects",
+      "title": "[@steipete/summarize] Summarize contains a missing authorization vulnerability",
       "summary": "",
-      "published": "2026-05-27T00:38:09.000Z",
+      "published": "2026-05-18T21:31:50.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-vhjm-w67q-g75c",
+      "url": "https://github.com/advisories/GHSA-5624-2pmv-jx46",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +443,17 @@
       }
     },
     {
-      "id": "9cf01da068464bcb",
+      "id": "2e8879d78f266168",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@hapi/content] @hapi/content header parser has a parameter smuggling issue that allows upload-filter bypass via duplicate parameters",
+      "title": "[@steipete/summarize] Summarize contains a path traversal vulnerability",
       "summary": "",
-      "published": "2026-05-27T00:37:20.000Z",
+      "published": "2026-05-18T21:31:50.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-36hh-x5p5-jgc8",
+      "url": "https://github.com/advisories/GHSA-8jr4-6r33-phwm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +462,17 @@
       }
     },
     {
-      "id": "69bebcb234747eff",
+      "id": "d20c593ae53d42b4",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[tmp] tmp has Path Traversal via unsanitized prefix/postfix that enables directory escape",
+      "title": "[@agenticmail/core] AgenticMail API/storage and outbound relay hardening fixes",
       "summary": "",
-      "published": "2026-05-27T00:34:06.000Z",
+      "published": "2026-05-29T19:23:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-ph9p-34f9-6g65",
+      "url": "https://github.com/advisories/GHSA-wjjv-3mj2-39hf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +481,17 @@
       }
     },
     {
-      "id": "db9d5f51e06dcd0b",
+      "id": "3559d024dde899b4",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[liquidjs] LiquidJS's `{% render %}` tag silently bypasses per-render `ownPropertyOnly:true` via `Context.spawn()`",
+      "title": "[@agenticmail/api] AgenticMail API/storage and outbound relay hardening fixes",
       "summary": "",
-      "published": "2026-05-27T00:28:06.000Z",
+      "published": "2026-05-29T19:23:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9x9p-qf8f-mvjg",
+      "url": "https://github.com/advisories/GHSA-wjjv-3mj2-39hf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +500,17 @@
       }
     },
     {
-      "id": "936e3000cdb2091f",
+      "id": "67266e38a3bbffec",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[liquidjs] LiquidJS has a renderLimit DoS guard bypass via empty `{% for %}` body",
+      "title": "[parse-server] Parse Server's GraphQL \"Did you mean ...?\" validation suggestions disclose schema to unauthenticated callers",
       "summary": "",
-      "published": "2026-05-27T00:11:46.000Z",
+      "published": "2026-05-29T19:18:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8xx9-69p8-7jp3",
+      "url": "https://github.com/advisories/GHSA-8cph-rgr4-g5vj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +519,17 @@
       }
     },
     {
-      "id": "50214677d5ad5c6e",
+      "id": "965a6eef3f994e70",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[liquidjs] LiquidJS's strip_html filter bypass via newline characters in HTML tags enables XSS",
+      "title": "[ngrok] ngrok is Vulnerable to Command Injection",
       "summary": "",
-      "published": "2026-05-27T00:09:12.000Z",
+      "published": "2026-05-18T18:31:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2qv6-9wx5-cwv4",
+      "url": "https://github.com/advisories/GHSA-qr28-p3wr-mxq3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +538,17 @@
       }
     },
     {
-      "id": "6495c544a5acc8a2",
+      "id": "49c1461629c4b0f1",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[fuxa-server] FUXA Vulnerable to Unauthenticated Remote Code Execution via Script Test Mode Authorization Bypass",
+      "title": "[vm2] NodeVM observability builtins leak host process and HTTP request data",
       "summary": "",
-      "published": "2026-05-26T23:44:52.000Z",
+      "published": "2026-05-29T18:20:45.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rg3m-cfq7-g6h6",
+      "url": "https://github.com/advisories/GHSA-9g8x-92q2-p28f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +557,17 @@
       }
     },
     {
-      "id": "b3c3da34eb4529f7",
+      "id": "cd6b041cce2bf7be",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[fuxa-server] FUXA has an unauthenticated arbitrary tag value disclosure via /api/getTagValue",
+      "title": "[vm2] NodeVM network builtin exclusions bypass via internal _http_client and _http_server",
       "summary": "",
-      "published": "2026-05-26T23:41:45.000Z",
+      "published": "2026-05-29T18:08:06.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fwcm-rqvw-j3p7",
+      "url": "https://github.com/advisories/GHSA-r9pm-gxmw-wv6p",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,17 +576,17 @@
       }
     },
     {
-      "id": "12ba259b66051899",
+      "id": "e762098bd42139b9",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@frangoteam/fuxa] FUXA Vulnerable to Pre-auth RCE via Path Manipulation & Configuration Injection",
+      "title": "[vm2] NodeVM builtin denylist bypass via process and inspector/promises allows host code execution",
       "summary": "",
-      "published": "2026-05-26T23:40:42.000Z",
+      "published": "2026-05-29T17:59:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p69w-mmfv-xrfj",
+      "url": "https://github.com/advisories/GHSA-rp36-8xq3-r6c4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -595,17 +595,17 @@
       }
     },
     {
-      "id": "dc4aa62b082c2d1f",
+      "id": "e36a199ce99ec1a2",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@fedify/fedify] Fedify has an LD-Signature Bypass via JSON-LD Named-Graph Restructuring",
+      "title": "[exifreader] ExifReader is vulnerable to denial of service via crafted ICC `mluc` tag",
       "summary": "",
-      "published": "2026-05-26T23:38:37.000Z",
+      "published": "2026-05-29T17:58:37.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9rfg-v8g9-9367",
+      "url": "https://github.com/advisories/GHSA-h64w-w9pr-82m4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -614,17 +614,17 @@
       }
     },
     {
-      "id": "59169c53d161206e",
+      "id": "137d0000a8d7e7d0",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[yeoman-environment] yeoman-environment Vulnerable to Arbitrary Package Installation without User Confirmation",
+      "title": "[exifreader] ExifReader is vulnerable to denial of service via unbounded decompression of image metadata",
       "summary": "",
-      "published": "2026-05-26T23:10:38.000Z",
+      "published": "2026-05-29T17:52:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-vv9j-gjw2-j8wp",
+      "url": "https://github.com/advisories/GHSA-rr89-w3h9-m66j",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -633,17 +633,17 @@
       }
     },
     {
-      "id": "e05f7fd6d46e8b7e",
+      "id": "f9530cec55210470",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[cryptpad] CryptPad has a Sanitizer Bypass in Diffmarked.js that Allows Arbitrary HTML Injection and Potential XSS",
+      "title": "[vm2] vm2 sandbox escape via JSPI-backed Promise `.finally()` species bypass",
       "summary": "",
-      "published": "2026-05-26T19:05:10.000Z",
+      "published": "2026-05-29T17:51:05.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g2g4-47gv-p72v",
+      "url": "https://github.com/advisories/GHSA-6j2x-vhqr-qr7q",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -652,17 +652,274 @@
       }
     },
     {
-      "id": "7965e1fa3acefa98",
+      "id": "f6036045b719e7ce",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@typebot.io/js] Typebot.io has stored XSS via `javascript`: URI in text bubble links — bot author executes JS on visitors' browsers",
+      "title": "[vm2] vm2 has a CVE-2023-37903 patch bypass: nesting:true without explicit require still allows full RCE",
       "summary": "",
-      "published": "2026-05-26T18:00:24.000Z",
+      "published": "2026-05-29T17:50:22.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hqmv-v56g-4m47",
+      "url": "https://github.com/advisories/GHSA-m4wx-m65x-ghrr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7badaa26cbf463fc",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[vm2] vm2's Bridge Proxy set trap ignores receiver parameter, enabling host object property injection via prototype chain",
+      "summary": "",
+      "published": "2026-05-29T17:49:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-c4cf-2hgv-2qv6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bd8a24b01c21a6de",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[vm2] vm2 has a sandbox escape via unblocked cross-realm Symbol.for keys + missing bridge write-trap symbol checks",
+      "summary": "",
+      "published": "2026-05-29T17:44:32.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-m5q2-4fm3-vfqp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "fc2d98ab8ad2e8cb",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[vm2] vm2 is Vulnerable to Sandbox Breakout Through Promise Species",
+      "summary": "",
+      "published": "2026-05-29T17:40:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-76w7-j9cq-rx2j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "45a48daf44c673a2",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software",
+      "summary": "Are AI agents tools, co-authors, or researchers? We present a quantified case study ($N=1$): a physicist supervising an AI coding agent (Claude Code, Sonnet and Opus models) over 12 work days and 57 sessions to build CLAX-PT, a differentiable one-loop perturbation theory module in JAX. We documented and classified 15 supervision events by intervention level.   The agent resolved ten autonomously by iterating against oracle tests. Two more by the physicist's domain knowledge. The three it could n",
+      "published": "2026-05-28T17:59:59Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "astro-ph.CO",
+        "cs.HC",
+        "cs.SE"
+      ],
+      "url": "https://arxiv.org/abs/2605.30353v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a2dfc2040946b814",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
+      "summary": "The pretraining data mixture of Large Language Models (LLMs) constitutes their \"digital DNA\", shaping model behaviors, capabilities, and failure modes. Yet this composition is rarely disclosed, making post-hoc auditing of data combination or provenance difficult. In this work, we formalize $\\textbf{Data Mixture Surgery (DMS)}$: given only generated text from a target LLM, estimate the domain-level distribution of its pretraining corpus under a predefined taxonomy. We propose $\\textbf{LLMSurgeon}",
+      "published": "2026-05-28T17:59:53Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2605.30348v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "65311ef143d69a41",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations",
+      "summary": "Printed circuit board (PCB) schematic design defines nearly all electronic hardware, but it remains manual and expertise-intensive. While generative AI has advanced digital and analog IC design, PCB schematic generation from natural-language intent is largely unexplored. This paper presents SchGen, the first large language model that generates editable PCB schematics from natural-language requests. The key challenge lies in the lack of an LLM-suited representation and a large-scale dataset. Curr",
+      "published": "2026-05-28T17:59:50Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2605.30345v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "fc8e5470ca04e6fd",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Efficient Test-Time Finetuning of LLMs via Convex Reconstruction and Gradient Caching",
+      "summary": "Test-time finetuning (TTFT) is a rapidly evolving paradigm that adapts a language model to each prompt by retrieving related sequences, updating the model on them, and then evaluating the prompt. However, TTFT is only practical if it is fast: selection and finetuning both happen per query, making each a direct bottleneck. Existing methods trade speed for quality: fast retrieval is often redundant, while stronger diversity-aware selection adds prohibitive per-query cost. We introduce HullFT, a ge",
+      "published": "2026-05-28T17:59:01Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2605.30337v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ef1ae8e4ba13dfb0",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Locally Coherent, Globally Incoherent: Bounding Compositional Incoherence in Multi-Component LLM Agents",
+      "summary": "Multi-component LLM agents assemble probabilistic claims from components that each see only part of a joint problem; the composition can violate basic probability axioms even when every component is locally coherent. We formalise this locally coherent, globally incoherent failure via the compositional residual eps*, the L2 distance from the composed quote to the joint coherent polytope, computable at runtime from system output and the declared cross-component coupling constraints. A product-stru",
+      "published": "2026-05-28T17:58:55Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2605.30335v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c47aa9e5b5fb7735",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Demystifying Data Organization for Enhanced LLM Training",
+      "summary": "Large Language Models (LLMs) have revolutionized various fields, yet their training efficiency is heavily reliant on effective data curation. While data selection has been widely studied, the strategic data organization for enhanced training remains an underexplored area, particularly since current LLMs are often trained for only one or a few epochs. This paper systematically explores the influence of data organization on LLM training by reusing pre-computed sample-level scores originally genera",
+      "published": "2026-05-28T17:58:53Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2605.30334v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "81a10284bd231357",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "COMPOSE: Composing Future Theorems from Citations and Formal Structure",
+      "summary": "A plausible future mathematical claim must satisfy two constraints: it should follow the direction of prior work and respect the formal dependencies that constrain what can validly follow. Existing approaches typically model only one of these sources, producing claims that are either weakly grounded or insufficiently motivated. We introduce grounded future mathematical generation, where the goal is to generate a plausible future theorem-like claim for an anchor paper using two complementary sour",
+      "published": "2026-05-28T17:58:42Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2605.30333v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1d9e242cf7ad32a9",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Colored Noise Diffusion Sampling",
+      "summary": "Diffusion models achieve state-of-the-art image synthesis, with their generative trajectories fundamentally exhibiting a spectral bias, resolving low-frequency global structures early and high-frequency fine details later. Conventional stochastic differential equation (SDE) solvers fail to account for this dynamic, naively injecting uniform white noise throughout the entire process and misusing the finite energy budget. In this work, we establish a mathematical framework that reconsiders SDE inf",
+      "published": "2026-05-28T17:58:13Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2605.30332v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b6967df2232b3b62",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?",
+      "summary": "Autonomous AI research agents aim to accelerate scientific discovery by automating the research pipeline, from hypothesis generation to peer review. However, existing benchmarks rarely test a fundamental bottleneck: whether Large Language Models can judge the methodological viability of a research idea before expending time and computational resources. We introduce SoundnessBench, a curated benchmark of 1,099 machine-learning research proposals reconstructed from ICLR submissions, labeled with r",
+      "published": "2026-05-28T17:57:37Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2605.30329v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6b2e9cbbe987043b",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "In-Context Reward Adaptation for Robust Preference Modeling",
+      "summary": "Reinforcement Learning from Human Feedback (RLHF) typically relies on static reward models to align Large Language Models with human preferences. However, human values are inherently diverse and heterogeneous, and a single reward model often lacks the robustness required to generalize to unseen preference domains. While existing multi-reward frameworks attempt to address this, they are often restricted to a fixed set of known domains and fail to adapt to unseen human distributions without costly",
+      "published": "2026-05-28T17:56:54Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2605.30323v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
