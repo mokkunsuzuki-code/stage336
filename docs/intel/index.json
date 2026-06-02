@@ -1,10 +1,143 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-01T04:24:18.470390+00:00",
+  "generated_at": "2026-06-02T04:17:48.145858+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 48,
+  "item_count": 47,
   "items": [
+    {
+      "id": "32ce9063dcbf1cc1",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[kas] kas checks out SHA-like git branches as valid commits",
+      "summary": "",
+      "published": "2026-06-01T14:26:36.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qjwp-hrq6-r26r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8b6d229f0bf24d18",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[praisonai-platform] praisonai-platform: Any workspace member can delete the entire workspace via DELETE /workspaces/{id}",
+      "summary": "",
+      "published": "2026-06-01T14:24:39.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-g8rr-7rj2-f627",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "406a7d4f44157c0b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[praisonai-platform] praisonai-platform: Issue endpoints accept any issue_id without workspace ownership check, cross-workspace read/update/delete IDOR",
+      "summary": "",
+      "published": "2026-06-01T14:24:12.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xwq8-frcg-77q8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2b5ffb1079776d9d",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[praisonai-platform] praisonai-platform: Any workspace member can add arbitrary user as owner via POST /workspaces/{id}/members",
+      "summary": "",
+      "published": "2026-06-01T14:23:39.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8g2p-pqm3-fcfh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "646d7aeb9ccd7297",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[praisonai-platform] praisonai-platform: Any workspace member can rewrite workspace name, description, and settings via PATCH /workspaces/{id}",
+      "summary": "",
+      "published": "2026-06-01T14:23:08.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rcmc-q9rj-4wmq",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "110aa1e31e9244b3",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[praisonai-platform] praisonai-platform: Comment endpoints accept any issue_id without workspace ownership check, cross-workspace comment read and post IDOR",
+      "summary": "",
+      "published": "2026-06-01T14:19:33.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-cp4f-5m9r-5jc2",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7437851935d28b79",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[praisonai-platform] praisonai-platform: Project endpoints accept any project_id without workspace ownership check, cross-workspace read/update/delete IDOR",
+      "summary": "",
+      "published": "2026-06-01T14:17:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-943m-6wx2-rc2j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "3749759a82ae2858",
       "source": "github-advisory-pip",
@@ -253,17 +386,17 @@
       }
     },
     {
-      "id": "bfcce0b0d211547e",
-      "source": "github-advisory-pip",
+      "id": "8b4876e996ef1f7d",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[PraisonAI] PraisonAI vulnerable to sandbox escape via `print.__self__` builtins module leak in `execute_code` (subprocess mode)",
+      "title": "[@vitest/browser] Vitest browser mode serves unsanitized otelCarrier query parameter as inline script",
       "summary": "",
-      "published": "2026-05-29T22:30:13.000Z",
+      "published": "2026-06-01T14:12:18.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4mr5-g6f9-cfrh",
+      "url": "https://github.com/advisories/GHSA-2h32-95rg-cppp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +405,17 @@
       }
     },
     {
-      "id": "bb3fea1f40dacf8c",
-      "source": "github-advisory-pip",
+      "id": "71d23412b717ecfb",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonaiagents] PraisonAI vulnerable to sandbox escape via `print.__self__` builtins module leak in `execute_code` (subprocess mode)",
+      "title": "[vitest] When Vitest UI server is listening, arbitrary file can be read and executed",
       "summary": "",
-      "published": "2026-05-29T22:30:13.000Z",
+      "published": "2026-06-01T14:09:53.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4mr5-g6f9-cfrh",
+      "url": "https://github.com/advisories/GHSA-5xrq-8626-4rwp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +424,17 @@
       }
     },
     {
-      "id": "e79a9d1ee22e6141",
-      "source": "github-advisory-pip",
+      "id": "1bf42f4302608d07",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[PraisonAI] PraisonAI CLI automatically resolves @url mentions in prompt text and can read loopback URLs into model context",
+      "title": "[dompurify] DOMPurify XSS via selectedcontent re-clone",
       "summary": "",
-      "published": "2026-05-29T22:29:47.000Z",
+      "published": "2026-06-01T14:07:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5cxw-77wg-jrf3",
+      "url": "https://github.com/advisories/GHSA-87xg-pxx2-7hvx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,74 +443,17 @@
       }
     },
     {
-      "id": "b9dc16035f1e3a6d",
-      "source": "github-advisory-pip",
+      "id": "2c7a49b4b7778b7f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonaiagents] PraisonAI CLI automatically resolves @url mentions in prompt text and can read loopback URLs into model context",
+      "title": "[@agenticmail/mcp] @agenticmail/mcp Missing Authentication for Critical Function",
       "summary": "",
-      "published": "2026-05-29T22:29:47.000Z",
+      "published": "2026-06-01T13:58:33.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5cxw-77wg-jrf3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "27eb2aa130d15c16",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[PraisonAI] PraisonAI `deploy --type api` emits a Flask server with authentication disabled by default",
-      "summary": "",
-      "published": "2026-05-29T22:29:20.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8444-4fhq-fxpq",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bf965829aeeb358b",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[PraisonAI] PraisonAI call server exposes unauthenticated agent listing, invocation, and deletion when CALL_SERVER_TOKEN is unset",
-      "summary": "",
-      "published": "2026-05-29T22:27:34.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-86qc-r5v2-v6x6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c5fdbc07d8b47e88",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[PraisonAI] PraisonAI spider_tools SSRF protection bypass via alternate loopback host encodings",
-      "summary": "",
-      "published": "2026-05-29T22:27:09.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5c6w-wwfq-7qqm",
+      "url": "https://github.com/advisories/GHSA-63gr-g7jc-v8rg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -633,171 +709,18 @@
       }
     },
     {
-      "id": "f9530cec55210470",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[vm2] vm2 sandbox escape via JSPI-backed Promise `.finally()` species bypass",
-      "summary": "",
-      "published": "2026-05-29T17:51:05.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6j2x-vhqr-qr7q",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f6036045b719e7ce",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[vm2] vm2 has a CVE-2023-37903 patch bypass: nesting:true without explicit require still allows full RCE",
-      "summary": "",
-      "published": "2026-05-29T17:50:22.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-m4wx-m65x-ghrr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7badaa26cbf463fc",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[vm2] vm2's Bridge Proxy set trap ignores receiver parameter, enabling host object property injection via prototype chain",
-      "summary": "",
-      "published": "2026-05-29T17:49:18.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-c4cf-2hgv-2qv6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bd8a24b01c21a6de",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[vm2] vm2 has a sandbox escape via unblocked cross-realm Symbol.for keys + missing bridge write-trap symbol checks",
-      "summary": "",
-      "published": "2026-05-29T17:44:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-m5q2-4fm3-vfqp",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fc2d98ab8ad2e8cb",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[vm2] vm2 is Vulnerable to Sandbox Breakout Through Promise Species",
-      "summary": "",
-      "published": "2026-05-29T17:40:15.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-76w7-j9cq-rx2j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ae1c8dac3d745f3c",
+      "id": "0880ff605000c9f7",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "SOCO: Benchmarking Semantic Object Correspondence in Vision Foundation Models",
-      "summary": "Measuring structured object understanding in vision foundation models remains challenging due to inconsistent evaluation protocols and limited part-level supervision. Semantic correspondence (SC) evaluates this capability by testing whether object parts can be matched across instances and categories under large variations in appearance, viewpoint, and geometry. To enable a systematic SC evaluation, we introduce SOCO, a new benchmark for Semantic Object Correspondence that introduces a taxonomy o",
-      "published": "2026-05-29T17:58:48Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV"
-      ],
-      "url": "https://arxiv.org/abs/2605.31597v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "55419cc7cc693603",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Stateful Online Monitoring Catches Distributed Agent Attacks",
-      "summary": "Language models can find thousands of severe software vulnerabilities, and agents are increasingly being misused for cyberattacks. To avoid detection, attackers frequently distribute their misuse, splitting a harmful task across many user accounts so each individual transcript looks benign. Because safety monitors score only one agent context at a time, they are structurally blind to misuse that is only visible in aggregate, across many accounts. We show this gap is real by building, to our know",
-      "published": "2026-05-29T17:57:00Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CR",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2605.31593v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "32904b1f1b660f14",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "CoFiDA-M: Concept-Aware Feature Modulation for Cross-Domain Adaptation with Image-Only Inference",
-      "summary": "Models for AI-based skin cancer screening suffer a severe performance drop when shifting from expert dermoscopic (source) images to consumer-grade clinical (target) images, hindering real-world deployment. Existing domain adaptation methods often ignore crucial semantic invariants, such as clinical concepts. While new foundation models like MONET can provide this semantic information as dense, probabilistic scores, this metadata is unavailable at test time, creating a deployment paradox for prac",
-      "published": "2026-05-29T17:56:36Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV"
-      ],
-      "url": "https://arxiv.org/abs/2605.31591v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bc6c87bcd4679ebc",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "TunerDiT: Training-free Progressive Steering of Diffusion Transformer for Multi-Event Video Generation",
-      "summary": "Text-to-video (T2V) generation faces challenging questions when generating videos with long horizons containing multiple events. Inspired by the intrinsics of the diffusion process, we probe video diffusion transformers (DiTs) and uncover intrinsic turning points in the DiT denoising trajectory where conditioning text affects generation from global layout to fine-grained details. Building on this finding, we present TunerDiT, a simple yet effective progressive steering method that requires no ad",
-      "published": "2026-05-29T17:56:09Z",
+      "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
+      "summary": "Recent multimodal large language models have demonstrated strong reasoning ability, yet their reliability as automated evaluators remains limited by a critical weakness: when visual evidence conflicts with textual cues, MLLM judges tend to reward plausible narratives over perceptually correct answers. We identify and systematically analyze this phenomenon, which we term Perceptual Judgment Bias. Through controlled visual perturbations, existing multimodal judges frequently anchor on the response",
+      "published": "2026-06-01T17:59:46Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CV",
         "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2605.31590v1",
+      "url": "https://arxiv.org/abs/2606.02578v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -806,18 +729,17 @@
       }
     },
     {
-      "id": "b89941df42b0fd67",
+      "id": "95cae295d8219199",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Language Models Learn Constructional Semantics, Not To Mention Syntax: Investigating LM Understanding of Paired-Focus Constructions",
-      "summary": "Grasping the semantics of rare constructions (form-meaning pairings) has been shown to be a challenging problem that has currently only been solved by the largest LLMs. It remains an open question if open-source models have robust constructional understanding, and if so, what learning dynamics underlie the acquisition of this knowledge. Focusing on a set of rare Paired-Focus constructions in English (e.g. \"let alone\", \"much less\"), we construct a novel dataset to test their meanings using both s",
-      "published": "2026-05-29T17:54:00Z",
+      "title": "From Zero to Hero: Training-Free Custom Concept Spawning in World Models",
+      "summary": "Autoregressive world models have emerged as a powerful paradigm for interactive video generation, allowing users to navigate dynamically generated environments through actions. These models are typically conditioned on a text prompt and/or a single reference frame, from which the entire world is generated. Yet the moment the user navigates beyond what is visible in that frame, the unseen regions are populated by the base model's priors, with no mechanism for the user to specify what should appea",
+      "published": "2026-06-01T17:59:05Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CL",
-        "cs.AI"
+        "cs.CV"
       ],
-      "url": "https://arxiv.org/abs/2605.31586v1",
+      "url": "https://arxiv.org/abs/2606.02575v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -826,19 +748,20 @@
       }
     },
     {
-      "id": "9e1a7c7d51e0aeb5",
+      "id": "baddc211de989c68",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
-      "summary": "Long-context reasoning remains a central challenge for large language models, which often fail to locate and integrate key information in extensive distracting content. Reinforcement learning with verifiable rewards (RLVR) has shown promise for this task, yet existing methods are limited by low-confusability distractors and sparse, outcome-only reward signals that cannot supervise intermediate reasoning steps. To address these issues, we introduce \\textsc{LongTraceRL}. For data construction, we ",
-      "published": "2026-05-29T17:51:40Z",
+      "title": "ClinEnv: An Interactive Multi-Stage Long Horizon EHR Environment for Agents",
+      "summary": "Clinical practice is not the selection of an answer from enumerated options: a physician gathers heterogeneous information incrementally and commits to sequential, irreversible decisions under uncertainty. Static benchmarks cannot probe and existing interactive medical benchmarks each compromise on at least one of them. We present ClinEnv, an interactive benchmark that evaluates LLMs as attending physicians over real inpatient admissions under a paradigm we term Longitudinal Inpatient Simulation",
+      "published": "2026-06-01T17:56:26Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CL",
         "cs.AI",
-        "cs.LG"
+        "cs.CL",
+        "cs.ET",
+        "cs.MA"
       ],
-      "url": "https://arxiv.org/abs/2605.31584v1",
+      "url": "https://arxiv.org/abs/2606.02568v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -847,17 +770,19 @@
       }
     },
     {
-      "id": "bb3b48f34e76fbf3",
+      "id": "4d5ed984887df4f2",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Choosing the Lens: Strategic Perspective Activation in Context-Dependent Argumentation",
-      "summary": "The same arguments often need to be evaluated under different external regimes. An agent with influence over the regime has a strategic lever that standard formalisms do not directly capture. We introduce context-dependent argumentation frameworks (CDAFs), an extension of Dung's theory in which a defeat function determines, per context, which attacks succeed. A perspective-labeled specialisation derives the defeat function from a relevance set $ρ$ and a priority $π$. The relevance set is the age",
-      "published": "2026-05-29T17:50:11Z",
+      "title": "Mergers Matter: Gravothermal Collapse in Dwarf Halos with Self-Interacting Dark Matter",
+      "summary": "Self-Interacting Dark Matter (SIDM) models with large cross sections at relative velocities below $\\sim100\\,{\\rm km \\, s}^{-1}$ can be tested with dwarf galaxy observations. We analyze six dark-matter-only zoom-in $\\sim10^{10}\\,{\\rm M}_\\odot$ halos with diverse assembly histories, adopting a cross section over mass of $σ/m = 70\\,cm^2 \\, g^{-1}$. We find that mergers inject orbital kinetic energy into the halo, altering the heat transport and the gravothermal evolution of the core. Three of the s",
+      "published": "2026-06-01T17:55:45Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.AI"
+        "astro-ph.GA",
+        "astro-ph.CO",
+        "hep-ph"
       ],
-      "url": "https://arxiv.org/abs/2605.31581v1",
+      "url": "https://arxiv.org/abs/2606.02566v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -866,17 +791,19 @@
       }
     },
     {
-      "id": "b24d6f3cfb21b390",
+      "id": "e616e35772083113",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Can Generative AI help people navigate Radical Moral Disagreements? The CONSIDER prototype",
-      "summary": "Radical Moral Disagreements (RMDs) are highly polarising topics that are increasingly censored in everyday life, with growing evidence suggesting that this polarisation carries measurable costs to public mental health. To address these challenges, some researchers have proposed Large Language Models (LLMs) as a means to support more democratic deliberation and better moral reasoning. Yet existing tools are poorly calibrated to help people navigate RMDs, because of their intense and divisive char",
-      "published": "2026-05-29T17:43:56Z",
+      "title": "IntraShuffler: A Privacy Preserving Framework for Heterogeneous DP Federated Learning",
+      "summary": "Heterogeneous Differential Privacy (HDP) in Federated Learning (FL) allows clients to select individual privacy budgets ($\\varepsilon_i$) according to institutional policies and data sensitivity. In practice, many HDP-FL systems employ $\\varepsilon$-aware server aggregation to improve model utility by re-weighting client updates according to their declared privacy budgets. However, gradient updates in FL retain structural patterns induced by non-independent and identically-distributed (non-IID) ",
+      "published": "2026-06-01T17:54:10Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.HC"
+        "cs.LG",
+        "cs.CR",
+        "cs.DC"
       ],
-      "url": "https://arxiv.org/abs/2605.31574v1",
+      "url": "https://arxiv.org/abs/2606.02563v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -885,18 +812,18 @@
       }
     },
     {
-      "id": "c87d6a76b995f617",
+      "id": "08e1ff0273a122fb",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "What Gets Unmasked First? Trajectory Analysis of Diffusion Models for Graph-to-Text Generation",
-      "summary": "We present the first systematic study of masked diffusion language models (MDLMs) for graph-to-text generation. We analyze MDLM generation trajectories -- the order in which tokens are unmasked during iterative decoding -- and find that, unlike autoregressive LLMs which generate text linearly, MDLMs naturally prioritize entities first, followed by relational and function words, with structural tokens resolved last. We further identify a previously undocumented failure mode of supervised fine-tun",
-      "published": "2026-05-29T17:29:35Z",
+      "title": "From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression",
+      "summary": "Post-training compression of Large Language Models (LLMs) removes entire architectural components, either deleting them or replacing them with fitted modules. Existing replacement-based methods share two design constraints: full-layer granularity and contiguous selection. We argue that this is overly restrictive: in fact, redundancy in pretrained transformers is not confined to contiguous regions, nor does it evenly distribute between Attention and FeedForward outputs, implying that different st",
+      "published": "2026-06-01T17:52:53Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CL",
         "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2605.31564v1",
+      "url": "https://arxiv.org/abs/2606.02559v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -905,17 +832,75 @@
       }
     },
     {
-      "id": "300c932c49c14a14",
+      "id": "0c35c6b84e1af9cc",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "What Am I Missing? Question-Answering as Hidden State Probing",
-      "summary": "Test-time reasoning has become a significant field of study since the introduction of chain-of-thought reasoning in large language models (LLMs). However, the mechanisms of this reasoning process are still under-explored -- from the same input prompt, and even the same partial solution, LLMs can produce varied answers if sampled multiple times. We propose to leverage question-asking as an inference-time intervention that articulates information about the model's hidden state. To achieve that, we",
-      "published": "2026-05-29T17:27:07Z",
+      "title": "HERO'S JOURNEY: Testing Complex Rule Induction with Text Games",
+      "summary": "We introduce HERO'S JOURNEY, a benchmark for rule induction in goal-directed episodic tasks, where agents must infer hidden rules from demonstrations and act on them through multi-step execution. HERO'S JOURNEY covers eight tasks across attribute and procedural induction families, each with four structural rule forms, controllable lexical grounding, and identifiability conditions. Evaluating state-of-the-art LLMs, we find that models show evidence of rule induction, but the ability is limited an",
+      "published": "2026-06-01T17:51:40Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CL"
       ],
-      "url": "https://arxiv.org/abs/2605.31561v1",
+      "url": "https://arxiv.org/abs/2606.02556v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c4ec790347765e86",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SN-WER: Script-Normalized WER for Multi-Script Indic ASR Evaluation",
+      "summary": "Word Error Rate (WER) is the dominant metric for automatic speech recognition (ASR), but it can overestimate errors when references and hypotheses encode the same words in different scripts. This issue is common in multilingual settings where ASR models may emit romanized text. We propose Script-Normalized WER (SN-WER), a training-free, evaluation-only scoring method that transliterates both reference and hypothesis text into a language-specific canonical script before computing WER. We evaluate",
+      "published": "2026-06-01T17:49:10Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2606.02548v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2d08f245ef87ce8e",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Pluralistic Leaderboards",
+      "summary": "Recent leaderboard-based evaluations of large language models aggregate user feedback by fitting a Bradley--Terry model to pairwise comparisons, producing a single global ranking based on a latent quality score. While appealing for its simplicity, this approach is incompatible with heterogeneous preferences: when LLMs are used across diverse tasks and use cases, users who favor fundamentally different model behaviors can be systematically misrepresented when collapsed into a single quality score",
+      "published": "2026-06-01T17:49:02Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.GT"
+      ],
+      "url": "https://arxiv.org/abs/2606.02547v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "214b407cf3da2c0e",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SimSD: Simple Speculative Decoding in Diffusion Language Models",
+      "summary": "Diffusion large language models (dLLMs) have recently emerged as a promising alternative to autoregressive (AR) LLMs, offering faster inference through parallel or blockwise decoding. However, their masked language modeling formulation remains incompatible with standard token-level speculative decoding, one of the most effective acceleration techniques for AR models. In AR decoding, the causal mask preserves temporally valid token-level contexts, enabling a target model to verify multiple drafte",
+      "published": "2026-06-01T17:46:46Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2606.02544v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
