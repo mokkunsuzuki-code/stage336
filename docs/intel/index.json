@@ -1,7 +1,7 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-02T04:17:48.145858+00:00",
+  "generated_at": "2026-06-03T04:27:17.767392+00:00",
   "mode": "safe-metadata-only",
   "item_count": 47,
   "items": [
@@ -709,101 +709,18 @@
       }
     },
     {
-      "id": "0880ff605000c9f7",
+      "id": "8845c271deb34ef2",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Mitigating Perceptual Judgment Bias in Multimodal LLM-as-a-Judge via Perceptual Perturbation and Reward Modeling",
-      "summary": "Recent multimodal large language models have demonstrated strong reasoning ability, yet their reliability as automated evaluators remains limited by a critical weakness: when visual evidence conflicts with textual cues, MLLM judges tend to reward plausible narratives over perceptually correct answers. We identify and systematically analyze this phenomenon, which we term Perceptual Judgment Bias. Through controlled visual perturbations, existing multimodal judges frequently anchor on the response",
-      "published": "2026-06-01T17:59:46Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2606.02578v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "95cae295d8219199",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "From Zero to Hero: Training-Free Custom Concept Spawning in World Models",
-      "summary": "Autoregressive world models have emerged as a powerful paradigm for interactive video generation, allowing users to navigate dynamically generated environments through actions. These models are typically conditioned on a text prompt and/or a single reference frame, from which the entire world is generated. Yet the moment the user navigates beyond what is visible in that frame, the unseen regions are populated by the base model's priors, with no mechanism for the user to specify what should appea",
-      "published": "2026-06-01T17:59:05Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV"
-      ],
-      "url": "https://arxiv.org/abs/2606.02575v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "baddc211de989c68",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "ClinEnv: An Interactive Multi-Stage Long Horizon EHR Environment for Agents",
-      "summary": "Clinical practice is not the selection of an answer from enumerated options: a physician gathers heterogeneous information incrementally and commits to sequential, irreversible decisions under uncertainty. Static benchmarks cannot probe and existing interactive medical benchmarks each compromise on at least one of them. We present ClinEnv, an interactive benchmark that evaluates LLMs as attending physicians over real inpatient admissions under a paradigm we term Longitudinal Inpatient Simulation",
-      "published": "2026-06-01T17:56:26Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CL",
-        "cs.ET",
-        "cs.MA"
-      ],
-      "url": "https://arxiv.org/abs/2606.02568v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4d5ed984887df4f2",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Mergers Matter: Gravothermal Collapse in Dwarf Halos with Self-Interacting Dark Matter",
-      "summary": "Self-Interacting Dark Matter (SIDM) models with large cross sections at relative velocities below $\\sim100\\,{\\rm km \\, s}^{-1}$ can be tested with dwarf galaxy observations. We analyze six dark-matter-only zoom-in $\\sim10^{10}\\,{\\rm M}_\\odot$ halos with diverse assembly histories, adopting a cross section over mass of $σ/m = 70\\,cm^2 \\, g^{-1}$. We find that mergers inject orbital kinetic energy into the halo, altering the heat transport and the gravothermal evolution of the core. Three of the s",
-      "published": "2026-06-01T17:55:45Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "astro-ph.GA",
-        "astro-ph.CO",
-        "hep-ph"
-      ],
-      "url": "https://arxiv.org/abs/2606.02566v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e616e35772083113",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "IntraShuffler: A Privacy Preserving Framework for Heterogeneous DP Federated Learning",
-      "summary": "Heterogeneous Differential Privacy (HDP) in Federated Learning (FL) allows clients to select individual privacy budgets ($\\varepsilon_i$) according to institutional policies and data sensitivity. In practice, many HDP-FL systems employ $\\varepsilon$-aware server aggregation to improve model utility by re-weighting client updates according to their declared privacy budgets. However, gradient updates in FL retain structural patterns induced by non-independent and identically-distributed (non-IID) ",
-      "published": "2026-06-01T17:54:10Z",
+      "title": "Skill-RM: Unifying Heterogeneous Evaluation Criteria via Agent Skill",
+      "summary": "Reward models (RMs) provide critical feedback signals for LLM post-training, notably in reinforced fine-tuning (RFT) and reinforcement learning (RL) pipelines. However, current reward evaluation relies on heterogeneous criteria such as rule-based verifiers, ground-truth references, procedural checklists, and complex rubrics, where a unified mechanism to integrate all types of evidence remains unexplored. To this end, we propose Skill Reward Model (Skill-RM), a unified framework that reformulates",
+      "published": "2026-06-02T17:56:57Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.LG",
-        "cs.CR",
-        "cs.DC"
+        "cs.CL"
       ],
-      "url": "https://arxiv.org/abs/2606.02563v1",
+      "url": "https://arxiv.org/abs/2606.03980v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -812,18 +729,76 @@
       }
     },
     {
-      "id": "08e1ff0273a122fb",
+      "id": "ff2c854033c91559",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "From Layers to Submodules: Rethinking Granularity in Replacement-Based LLM Compression",
-      "summary": "Post-training compression of Large Language Models (LLMs) removes entire architectural components, either deleting them or replacing them with fitted modules. Existing replacement-based methods share two design constraints: full-layer granularity and contiguous selection. We argue that this is overly restrictive: in fact, redundancy in pretrained transformers is not confined to contiguous regions, nor does it evenly distribute between Attention and FeedForward outputs, implying that different st",
-      "published": "2026-06-01T17:52:53Z",
+      "title": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories",
+      "summary": "The past few decades have witnessed significant advances in the design of machine learning algorithms, from early studies on task-specific shallow models to more general deep Large Language Models (LLMs). Despite showing promising results in tasks that require instant prediction or in-context learning, existing models lack the ability to continually learn and effectively transfer their temporal in-context knowledge to their long-term parameters. Inspired by human learning process, we introduce a",
+      "published": "2026-06-02T17:56:55Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2606.03979v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "64f347db764e99fe",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "The First Nozzle-Mounted Compton Camera Prompt Gamma Imaging System for In Vivo Proton Therapy Dose Verification",
+      "summary": "This study presents the first clinical integration and experimental demonstration of a nozzle-mounted Compton camera prompt gamma imaging (PGI) system for in vivo proton range verification. Four position-sensitive solid-state Compton camera modules, each containing four cadmium zinc telluride (CdZnTe) detector crystals, were integrated into a modified range shifter mounted directly on the treatment nozzle of a clinical proton therapy gantry. This compact fixed-geometry configuration maintained a",
+      "published": "2026-06-02T17:56:51Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "physics.med-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.03978v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "de80dc15c9e7a82c",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Flowing with Displacements and Tilts: Surface Operators in $O(N)$ Models",
+      "summary": "Defect conformal field theories have special operators of protected dimension known as displacements and tilts. They arise due to the breaking of global symmetries by the defect and the normalisations of their two-point functions are characteristics of the defect. In the case of surface defects, these normalisations are related to some of the anomaly coefficients in the surface effective action. To study these operators and their flows between different defect renormalization group fixed points ",
+      "published": "2026-06-02T17:56:18Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2606.03974v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "411a0f2ae2cee4f7",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Quantifying Faithful Confidence Expression in Large Reasoning Models",
+      "summary": "Reliable uncertainty communication is critical to the trustworthiness of LLMs, yet faithful calibration (FC)--the alignment between models' intrinsic and (linguistically) expressed confidence--is a persistent failure mode. This challenge is key for large reasoning models (LRMs), whose extended reasoning traces are often interpreted by users as evidence of deliberation, competence, and confidence. Despite the importance of FC and wide usage of LRMs, the extent to which LRMs can faithfully express",
+      "published": "2026-06-02T17:53:45Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CL",
         "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2606.02559v1",
+      "url": "https://arxiv.org/abs/2606.03969v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -832,75 +807,100 @@
       }
     },
     {
-      "id": "0c35c6b84e1af9cc",
+      "id": "d17807a58e2d7a4e",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "HERO'S JOURNEY: Testing Complex Rule Induction with Text Games",
-      "summary": "We introduce HERO'S JOURNEY, a benchmark for rule induction in goal-directed episodic tasks, where agents must infer hidden rules from demonstrations and act on them through multi-step execution. HERO'S JOURNEY covers eight tasks across attribute and procedural induction families, each with four structural rule forms, controllable lexical grounding, and identifiability conditions. Evaluating state-of-the-art LLMs, we find that models show evidence of rule induction, but the ability is limited an",
-      "published": "2026-06-01T17:51:40Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2606.02556v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c4ec790347765e86",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "SN-WER: Script-Normalized WER for Multi-Script Indic ASR Evaluation",
-      "summary": "Word Error Rate (WER) is the dominant metric for automatic speech recognition (ASR), but it can overestimate errors when references and hypotheses encode the same words in different scripts. This issue is common in multilingual settings where ASR models may emit romanized text. We propose Script-Normalized WER (SN-WER), a training-free, evaluation-only scoring method that transliterates both reference and hypothesis text into a language-specific canonical script before computing WER. We evaluate",
-      "published": "2026-06-01T17:49:10Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2606.02548v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2d08f245ef87ce8e",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Pluralistic Leaderboards",
-      "summary": "Recent leaderboard-based evaluations of large language models aggregate user feedback by fitting a Bradley--Terry model to pairwise comparisons, producing a single global ranking based on a latent quality score. While appealing for its simplicity, this approach is incompatible with heterogeneous preferences: when LLMs are used across diverse tasks and use cases, users who favor fundamentally different model behaviors can be systematically misrepresented when collapsed into a single quality score",
-      "published": "2026-06-01T17:49:02Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.GT"
-      ],
-      "url": "https://arxiv.org/abs/2606.02547v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "214b407cf3da2c0e",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "SimSD: Simple Speculative Decoding in Diffusion Language Models",
-      "summary": "Diffusion large language models (dLLMs) have recently emerged as a promising alternative to autoregressive (AR) LLMs, offering faster inference through parallel or blockwise decoding. However, their masked language modeling formulation remains incompatible with standard token-level speculative decoding, one of the most effective acceleration techniques for AR models. In AR decoding, the causal mask preserves temporally valid token-level contexts, enabling a target model to verify multiple drafte",
-      "published": "2026-06-01T17:46:46Z",
+      "title": "AlignAtt4LLM: Fast AlignAtt for Decoder-Only LLMs at IWSLT 2026 Simultaneous Speech Translation Task",
+      "summary": "We describe AlignAtt4LLM, an IWSLT 2026 simultaneous speech translation system for English to German, Italian, and Chinese. The system is a synchronous cascade: Qwen3-ASR with forced alignment produces an incrementally updated source transcript, and Gemma-4 E4B-it translates that prefix under an MT-side AlignAtt policy.   To our knowledge, this is the first application of AlignAtt to a decoder-only LLM, where the encoder-decoder cross-attention used by earlier AlignAtt systems is absent. We reco",
+      "published": "2026-06-02T17:52:18Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CL",
         "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2606.02544v1",
+      "url": "https://arxiv.org/abs/2606.03967v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "42a4053ee59509ec",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Agentic Chain-of-Thought Steering for Efficient and Controllable LLM Reasoning",
+      "summary": "Large language models improve final-answer accuracy through extended chain-of-thought reasoning, but often spend tokens inefficiently and offer little inference-time control. Existing efficient reasoning methods control thinking length by shortening, early-stopping, or compressing traces, leaving how the model thinks implicit. In this paper, we propose Agentic Chain-of-Thought Steering (ACTS), which formulates reasoning steering as a Markov decision process where a controller agent adaptively st",
+      "published": "2026-06-02T17:51:30Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2606.03965v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "06b993626a912d6e",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SNF-PRP: A Covert Integrating Sensing and Communications Framework",
+      "summary": "Integrated sensing and communication (ISAC) enables simultaneous sensing and data transmission but exposes a critical vulnerability: probing signals may be intercepted, revealing both the transmitted information and the act of sensing itself. Existing physical layer security approaches mitigate interception yet operate with detectable signals, leaving sensing activity observable to a passive warden. This paper introduces sub-noise-floor pseudo-random probing (SNF-PRP), a covert sensing framework",
+      "published": "2026-06-02T17:49:48Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "eess.SP"
+      ],
+      "url": "https://arxiv.org/abs/2606.03960v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1ee70f93b0b3d745",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Efficient ASR Training with Conversations that Never Happened",
+      "summary": "Conversational ASR for lower-resource languages and niche domains is limited by the scarcity of domain-matched multi-speaker training data. We propose an augmentation pipeline that generates scenario-level dialogues with participant metadata, maps speaker attributes to TTS voice profiles, and assembles synthesized utterances into speaker-aware simulated conversations. We evaluated five LLM families under single-generator, fixed-budget mixture, and scale-up settings using the same FastConformer-L",
+      "published": "2026-06-02T17:46:12Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.AI",
+        "cs.SD",
+        "eess.AS"
+      ],
+      "url": "https://arxiv.org/abs/2606.03957v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a363de2ba42f6891",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "VLESA: Vision-Language Embodied Safety Agent for Human Activity Monitoring",
+      "summary": "As AI systems increasingly assist humans in physical tasks, ensuring safety becomes paramount -- physical actions carry immediate and irreversible consequences that digital errors do not. We introduce the Vision-Language Embodied Safety Agent (VLESA), a framework that monitors human activities from egocentric video and triggers real-time safety interventions when dangerous actions are predicted. VLESA addresses intent-dependent safety where identical actions can be safe or dangerous depending on",
+      "published": "2026-06-02T17:42:17Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2606.03954v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
