@@ -1,10 +1,276 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-03T04:27:17.767392+00:00",
+  "generated_at": "2026-06-04T04:22:54.283259+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 47,
+  "item_count": 48,
   "items": [
+    {
+      "id": "e9537cb6a7c51405",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[jupyter_enterprise_gateway] Jupyter Enterprise Gateway: Kubernetes Manifest Injection in Jinja2 Template Rendering",
+      "summary": "",
+      "published": "2026-06-03T21:37:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-cfw7-6c5v-2wjq",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1ee1b20982740d15",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[jupyter_enterprise_gateway] Jupyter Enterprise Gateway: Jinja2 Template Server Side Template Injection resulting in Remote Code Execution",
+      "summary": "",
+      "published": "2026-06-03T21:36:05.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f49j-v924-fx9w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8cdc02cedcecb5da",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[aiohttp] AIOHTTP is vulnerable to cross-origin redirect with per-request cookies",
+      "summary": "",
+      "published": "2026-06-03T21:34:38.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hg6j-4rv6-33pg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0743ec7741548013",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[jupyter_enterprise_gateway] Jupyter Enterprise Gateway: ContainerProcessProxy._enforce_prohibited_ids Bypass",
+      "summary": "",
+      "published": "2026-06-03T21:30:10.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-chq7-94j8-cj28",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "fee9b1df3f101001",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[docling-core] Docling Core: Unsafe remote filename resolution",
+      "summary": "",
+      "published": "2026-06-03T21:16:25.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jmmv-h3mp-59v8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "dd7b0dc905baa41a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[docling-core] Docling Core: Insufficient validation of image reference URIs",
+      "summary": "",
+      "published": "2026-06-03T21:15:31.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-j5xp-7m2f-49jv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3083cf8b4ef2c9ca",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[docling] Docling: Unsafe URI and Path Handling in HTML Backend",
+      "summary": "",
+      "published": "2026-06-03T21:15:02.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q29v-xc37-wh5m",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b193917414e620be",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[docling] Docling: Potential Path Traversal via LaTeX \\includegraphics and \\input Commands",
+      "summary": "",
+      "published": "2026-06-03T21:14:35.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2j5p-7p5m-cvqr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e14b12b33ef13074",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[docling] Docling: Unsafe XML Entity Expansion in USPTO Patent Backend",
+      "summary": "",
+      "published": "2026-06-03T21:14:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-m88r-rg27-5xfg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8871faffc9dafe22",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[docling] Docling: Unsafe Archive Extraction and XML Parsing in METS-GBS Backend",
+      "summary": "",
+      "published": "2026-06-03T21:13:32.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r3xg-rg9j-67fv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "fb246e7b718f4c65",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[docling] Docling: Unsafe Playwright-based HTML Rendering",
+      "summary": "",
+      "published": "2026-06-03T21:09:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-pj2v-ggqh-cmq2",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "eb1887614f04bb84",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[malla] malla: Stored XSS via Meshtastic node names in multiple frontend pages",
+      "summary": "",
+      "published": "2026-06-03T21:06:27.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-ch57-39q2-4crm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "908d13132d1ebf39",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[aiohttp] AIOHTTP is Vulnerable to Deserialization of Untrusted Data",
+      "summary": "",
+      "published": "2026-06-03T20:56:54.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jg22-mg44-37j8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ec3cbb6580d220b6",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[docling] Docling: Unsafe Zip Extraction in EasyOCR Model Download",
+      "summary": "",
+      "published": "2026-06-03T20:02:42.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-cjqg-rq2h-2fvj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "32ce9063dcbf1cc1",
       "source": "github-advisory-pip",
@@ -120,17 +386,17 @@
       }
     },
     {
-      "id": "7437851935d28b79",
-      "source": "github-advisory-pip",
+      "id": "3ed143ad5b41acc2",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonai-platform] praisonai-platform: Project endpoints accept any project_id without workspace ownership check, cross-workspace read/update/delete IDOR",
+      "title": "[browserstack-runner] browserstack-runner vulnerable to Remote Code Execution via vm sandbox escape in _log HTTP handler",
       "summary": "",
-      "published": "2026-06-01T14:17:04.000Z",
+      "published": "2026-06-03T21:39:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-943m-6wx2-rc2j",
+      "url": "https://github.com/advisories/GHSA-6vr3-7wcx-v5g5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +405,17 @@
       }
     },
     {
-      "id": "3749759a82ae2858",
-      "source": "github-advisory-pip",
+      "id": "e7a4e08649b09cee",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonai-platform] praisonai-platform: Any workspace member can promote themselves or others to owner via PATCH /workspaces/{id}/members/{user_id}",
+      "title": "[browserstack-runner] browserstack-runner has an unauthenticated arbitrary file read via path traversal in HTTP server",
       "summary": "",
-      "published": "2026-05-29T23:01:59.000Z",
+      "published": "2026-06-03T21:38:40.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-c2m8-4gcg-v22g",
+      "url": "https://github.com/advisories/GHSA-8rpw-6cqh-2v9h",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +424,17 @@
       }
     },
     {
-      "id": "f797eb4414f6d475",
-      "source": "github-advisory-pip",
+      "id": "797ac83781352c32",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonai-platform] praisonai-platform: Missing authorization on member removal enables full workspace takeover by any user regardless of role",
+      "title": "[@remix-run/server-runtime] React Router vulnerable to DoS via unbounded path expansion in __manifest endpoint",
       "summary": "",
-      "published": "2026-05-29T22:57:05.000Z",
+      "published": "2026-06-03T21:05:17.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-w388-2392-px73",
+      "url": "https://github.com/advisories/GHSA-8x6r-g9mw-2r78",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +443,17 @@
       }
     },
     {
-      "id": "63a2ec3949d62af8",
-      "source": "github-advisory-pip",
+      "id": "2866169920380513",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonai-platform] praisonai-platform: Label endpoints' unchecked label_id/issue_id enable cross-workspace label IDOR (edit, delete, link)",
+      "title": "[react-router] React Router vulnerable to DoS via unbounded path expansion in __manifest endpoint",
       "summary": "",
-      "published": "2026-05-29T22:51:07.000Z",
+      "published": "2026-06-03T21:05:17.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5jx9-w35f-vp65",
+      "url": "https://github.com/advisories/GHSA-8x6r-g9mw-2r78",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +462,17 @@
       }
     },
     {
-      "id": "83bdde9c8863b81b",
-      "source": "github-advisory-pip",
+      "id": "d7994f5c7d476787",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonai-platform] praisonai-platform: IDOR in dependency endpoints allows cross-workspace issue linking, reading, and deletion due to missing ownership checks",
+      "title": "[react-router] React Router's vendored turbo-stream v2 allows arbitrary constructor invocation via TYPE_ERROR deserialization leading to Unauth RCE",
       "summary": "",
-      "published": "2026-05-29T22:45:48.000Z",
+      "published": "2026-06-03T21:03:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4x6r-9v57-3gqw",
+      "url": "https://github.com/advisories/GHSA-49rj-9fvp-4h2h",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +481,17 @@
       }
     },
     {
-      "id": "ea301f4a5759fbac",
-      "source": "github-advisory-pip",
+      "id": "598787077c464f10",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonai-platform] praisonai-platform: JWT signing key defaults to hardcoded \"dev-secret-change-me\", allowing token forgery for any user when PLATFORM_ENV is unset",
+      "title": "[react-router] React Router's same-origin redirect with path starting // causes open redirect via protocol-relative URL reinterpretation",
       "summary": "",
-      "published": "2026-05-29T22:42:46.000Z",
+      "published": "2026-06-03T20:58:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3qg8-5g3r-79v5",
+      "url": "https://github.com/advisories/GHSA-2j2x-hqr9-3h42",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +500,17 @@
       }
     },
     {
-      "id": "bbe0e81b6d26ec56",
-      "source": "github-advisory-pip",
+      "id": "9c72bb50b78a08c8",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonai-platform] PraisonAI Platform: Missing role checks let any workspace member become owner and control workspace membership",
+      "title": "[react-router] React Router vulnerable to XSS in unstable RSC redirect handling via javascript: redirect targets",
       "summary": "",
-      "published": "2026-05-29T22:42:07.000Z",
+      "published": "2026-06-03T20:33:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-h37g-4h4p-9x97",
+      "url": "https://github.com/advisories/GHSA-8646-j5j9-6r62",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +519,17 @@
       }
     },
     {
-      "id": "6a517a761179284c",
-      "source": "github-advisory-pip",
+      "id": "d958bf6babdf209e",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonai-platform] PraisonAI Platform workspace-scoped routes allow cross-workspace object access by global object ID",
+      "title": "[react-router] React Router has stored XSS via unescaped Location header in prerendered redirect HTML",
       "summary": "",
-      "published": "2026-05-29T22:35:13.000Z",
+      "published": "2026-06-03T20:33:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6h6v-6m7w-7vxx",
+      "url": "https://github.com/advisories/GHSA-f22v-gfqf-p8f3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +538,17 @@
       }
     },
     {
-      "id": "619261df0d62013e",
-      "source": "github-advisory-pip",
+      "id": "f9af48231660ec6c",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonai-platform] PraisonAI Platform has a cross-workspace IDOR + member-role privilege escalation",
+      "title": "[vite] launch-editor vulnerable to command injection via the crafted request on Windows",
       "summary": "",
-      "published": "2026-05-29T22:34:29.000Z",
+      "published": "2026-06-03T18:02:48.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-h8q5-cp56-rr65",
+      "url": "https://github.com/advisories/GHSA-c27g-q93r-2cwf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,93 +557,17 @@
       }
     },
     {
-      "id": "36d0f687f7d47b8e",
-      "source": "github-advisory-pip",
+      "id": "eca290b31c1de0da",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonai-platform] praisonai-platform: list_issue_activity returns activity log for any issue regardless of workspace ownership",
+      "title": "[launch-editor] launch-editor vulnerable to command injection via the crafted request on Windows",
       "summary": "",
-      "published": "2026-05-29T22:34:08.000Z",
+      "published": "2026-06-03T18:02:48.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-27p4-pjqv-whgj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c833e065b73dcdad",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[praisonai-platform] PraisonAI has Cross-Workspace IDOR and Privilege Escalation via Platform API",
-      "summary": "",
-      "published": "2026-05-29T22:32:45.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-gv23-xrm3-8c62",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "06fbabdcb80660ae",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[PraisonAI] PraisonAI has an Arbitrary File Write in Python API",
-      "summary": "",
-      "published": "2026-05-29T22:31:49.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-hvhp-v2gc-268q",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "612ce11f6c61d405",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[PraisonAI] PraisonAI's unauthenticated A2A official example can reach real LLM-driven `eval()` tool execution",
-      "summary": "",
-      "published": "2026-05-29T22:31:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-vg22-4gmj-prxw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "24ec7111270512db",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[PraisonAI] PraisonAI vulnerable to unauthenticated arbitrary file read via MCP workflow.show, workflow.validate, deploy.validate",
-      "summary": "",
-      "published": "2026-05-29T22:30:58.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9cr9-25q5-8prj",
+      "url": "https://github.com/advisories/GHSA-c27g-q93r-2cwf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,189 +728,18 @@
       }
     },
     {
-      "id": "d20c593ae53d42b4",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@agenticmail/core] AgenticMail API/storage and outbound relay hardening fixes",
-      "summary": "",
-      "published": "2026-05-29T19:23:29.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wjjv-3mj2-39hf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3559d024dde899b4",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@agenticmail/api] AgenticMail API/storage and outbound relay hardening fixes",
-      "summary": "",
-      "published": "2026-05-29T19:23:29.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wjjv-3mj2-39hf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "67266e38a3bbffec",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[parse-server] Parse Server's GraphQL \"Did you mean ...?\" validation suggestions disclose schema to unauthenticated callers",
-      "summary": "",
-      "published": "2026-05-29T19:18:01.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8cph-rgr4-g5vj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "965a6eef3f994e70",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[ngrok] ngrok is Vulnerable to Command Injection",
-      "summary": "",
-      "published": "2026-05-18T18:31:29.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qr28-p3wr-mxq3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "49c1461629c4b0f1",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[vm2] NodeVM observability builtins leak host process and HTTP request data",
-      "summary": "",
-      "published": "2026-05-29T18:20:45.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9g8x-92q2-p28f",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "cd6b041cce2bf7be",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[vm2] NodeVM network builtin exclusions bypass via internal _http_client and _http_server",
-      "summary": "",
-      "published": "2026-05-29T18:08:06.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-r9pm-gxmw-wv6p",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e762098bd42139b9",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[vm2] NodeVM builtin denylist bypass via process and inspector/promises allows host code execution",
-      "summary": "",
-      "published": "2026-05-29T17:59:23.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-rp36-8xq3-r6c4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e36a199ce99ec1a2",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[exifreader] ExifReader is vulnerable to denial of service via crafted ICC `mluc` tag",
-      "summary": "",
-      "published": "2026-05-29T17:58:37.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-h64w-w9pr-82m4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "137d0000a8d7e7d0",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[exifreader] ExifReader is vulnerable to denial of service via unbounded decompression of image metadata",
-      "summary": "",
-      "published": "2026-05-29T17:52:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-rr89-w3h9-m66j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8845c271deb34ef2",
+      "id": "9837eb4a5a188e8a",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Skill-RM: Unifying Heterogeneous Evaluation Criteria via Agent Skill",
-      "summary": "Reward models (RMs) provide critical feedback signals for LLM post-training, notably in reinforced fine-tuning (RFT) and reinforcement learning (RL) pipelines. However, current reward evaluation relies on heterogeneous criteria such as rule-based verifiers, ground-truth references, procedural checklists, and complex rubrics, where a unified mechanism to integrate all types of evidence remains unexplored. To this end, we propose Skill Reward Model (Skill-RM), a unified framework that reformulates",
-      "published": "2026-06-02T17:56:57Z",
+      "title": "STRIDE: Training Data Attribution via Sparse Recovery from Subset Perturbations",
+      "summary": "Training Data Attribution (TDA) seeks to trace a model's predictions back to its training data. The gold standard for TDA relies on causal interventions, observing how a model changes when data is added or removed, but repeated retraining is computationally challenging for Large Language Models (LLMs). Consequently, most approaches approximate this effect in the parameter space using gradients. However, tracking gradients across billions of parameters is not only prohibitively expensive but reli",
+      "published": "2026-06-03T17:59:36Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.LG",
         "cs.CL"
       ],
-      "url": "https://arxiv.org/abs/2606.03980v1",
+      "url": "https://arxiv.org/abs/2606.05165v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -729,18 +748,17 @@
       }
     },
     {
-      "id": "ff2c854033c91559",
+      "id": "94441e537e3cf307",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories",
-      "summary": "The past few decades have witnessed significant advances in the design of machine learning algorithms, from early studies on task-specific shallow models to more general deep Large Language Models (LLMs). Despite showing promising results in tasks that require instant prediction or in-context learning, existing models lack the ability to continually learn and effectively transfer their temporal in-context knowledge to their long-term parameters. Inspired by human learning process, we introduce a",
-      "published": "2026-06-02T17:56:55Z",
+      "title": "Controllable Dynamic 3D Shape Generation via 3D Trajectories and Text",
+      "summary": "We introduce T2Mo, a feed-forward framework for controllable dynamic 3D shape generation conditioned on 3D trajectories and text. Due to the inherent ambiguity of language, generating precisely intended motions using text alone remains challenging. To address this, we adopt 3D trajectories as controllable spatial guidance, specifying the exact paths along which selected points should move. By combining both, T2Mo generates object motions that spatially adhere to the given trajectories while glob",
+      "published": "2026-06-03T17:58:01Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.LG",
-        "cs.AI"
+        "cs.CV"
       ],
-      "url": "https://arxiv.org/abs/2606.03979v1",
+      "url": "https://arxiv.org/abs/2606.05162v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -749,137 +767,19 @@
       }
     },
     {
-      "id": "64f347db764e99fe",
+      "id": "c9f69d18ea66a94b",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "The First Nozzle-Mounted Compton Camera Prompt Gamma Imaging System for In Vivo Proton Therapy Dose Verification",
-      "summary": "This study presents the first clinical integration and experimental demonstration of a nozzle-mounted Compton camera prompt gamma imaging (PGI) system for in vivo proton range verification. Four position-sensitive solid-state Compton camera modules, each containing four cadmium zinc telluride (CdZnTe) detector crystals, were integrated into a modified range shifter mounted directly on the treatment nozzle of a clinical proton therapy gantry. This compact fixed-geometry configuration maintained a",
-      "published": "2026-06-02T17:56:51Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "physics.med-ph"
-      ],
-      "url": "https://arxiv.org/abs/2606.03978v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "de80dc15c9e7a82c",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Flowing with Displacements and Tilts: Surface Operators in $O(N)$ Models",
-      "summary": "Defect conformal field theories have special operators of protected dimension known as displacements and tilts. They arise due to the breaking of global symmetries by the defect and the normalisations of their two-point functions are characteristics of the defect. In the case of surface defects, these normalisations are related to some of the anomaly coefficients in the surface effective action. To study these operators and their flows between different defect renormalization group fixed points ",
-      "published": "2026-06-02T17:56:18Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "hep-th"
-      ],
-      "url": "https://arxiv.org/abs/2606.03974v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "411a0f2ae2cee4f7",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Quantifying Faithful Confidence Expression in Large Reasoning Models",
-      "summary": "Reliable uncertainty communication is critical to the trustworthiness of LLMs, yet faithful calibration (FC)--the alignment between models' intrinsic and (linguistically) expressed confidence--is a persistent failure mode. This challenge is key for large reasoning models (LRMs), whose extended reasoning traces are often interpreted by users as evidence of deliberation, competence, and confidence. Despite the importance of FC and wide usage of LRMs, the extent to which LRMs can faithfully express",
-      "published": "2026-06-02T17:53:45Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2606.03969v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d17807a58e2d7a4e",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "AlignAtt4LLM: Fast AlignAtt for Decoder-Only LLMs at IWSLT 2026 Simultaneous Speech Translation Task",
-      "summary": "We describe AlignAtt4LLM, an IWSLT 2026 simultaneous speech translation system for English to German, Italian, and Chinese. The system is a synchronous cascade: Qwen3-ASR with forced alignment produces an incrementally updated source transcript, and Gemma-4 E4B-it translates that prefix under an MT-side AlignAtt policy.   To our knowledge, this is the first application of AlignAtt to a decoder-only LLM, where the encoder-decoder cross-attention used by earlier AlignAtt systems is absent. We reco",
-      "published": "2026-06-02T17:52:18Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2606.03967v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "42a4053ee59509ec",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Agentic Chain-of-Thought Steering for Efficient and Controllable LLM Reasoning",
-      "summary": "Large language models improve final-answer accuracy through extended chain-of-thought reasoning, but often spend tokens inefficiently and offer little inference-time control. Existing efficient reasoning methods control thinking length by shortening, early-stopping, or compressing traces, leaving how the model thinks implicit. In this paper, we propose Agentic Chain-of-Thought Steering (ACTS), which formulates reasoning steering as a Markov decision process where a controller agent adaptively st",
-      "published": "2026-06-02T17:51:30Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2606.03965v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "06b993626a912d6e",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "SNF-PRP: A Covert Integrating Sensing and Communications Framework",
-      "summary": "Integrated sensing and communication (ISAC) enables simultaneous sensing and data transmission but exposes a critical vulnerability: probing signals may be intercepted, revealing both the transmitted information and the act of sensing itself. Existing physical layer security approaches mitigate interception yet operate with detectable signals, leaving sensing activity observable to a passive warden. This paper introduces sub-noise-floor pseudo-random probing (SNF-PRP), a covert sensing framework",
-      "published": "2026-06-02T17:49:48Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "eess.SP"
-      ],
-      "url": "https://arxiv.org/abs/2606.03960v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1ee70f93b0b3d745",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Efficient ASR Training with Conversations that Never Happened",
-      "summary": "Conversational ASR for lower-resource languages and niche domains is limited by the scarcity of domain-matched multi-speaker training data. We propose an augmentation pipeline that generates scenario-level dialogues with participant metadata, maps speaker attributes to TTS voice profiles, and assembles synthesized utterances into speaker-aware simulated conversations. We evaluated five LLM families under single-generator, fixed-budget mixture, and scale-up settings using the same FastConformer-L",
-      "published": "2026-06-02T17:46:12Z",
+      "title": "Streaming Communication in Multi-Agent Reasoning",
+      "summary": "Multi-agent reasoning systems adopt a \"generate-then-transfer\" paradigm that forces end-to-end latency to scale linearly with pipeline depth. We introduce StreamMA, a multi-agent reasoning system that streams each reasoning step to downstream agents as soon as it is generated, pipelining adjacent agents and thus reducing latency. Surprisingly, this pipelining also improves effectiveness: because multi-step reasoning quality is non-uniform and early steps are more reliable than later ones, workin",
+      "published": "2026-06-03T17:57:04Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CL",
         "cs.AI",
-        "cs.SD",
-        "eess.AS"
+        "cs.MA"
       ],
-      "url": "https://arxiv.org/abs/2606.03957v1",
+      "url": "https://arxiv.org/abs/2606.05158v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -888,19 +788,134 @@
       }
     },
     {
-      "id": "a363de2ba42f6891",
+      "id": "8dfc8fc5c9ecfdd5",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "VLESA: Vision-Language Embodied Safety Agent for Human Activity Monitoring",
-      "summary": "As AI systems increasingly assist humans in physical tasks, ensuring safety becomes paramount -- physical actions carry immediate and irreversible consequences that digital errors do not. We introduce the Vision-Language Embodied Safety Agent (VLESA), a framework that monitors human activities from egocentric video and triggers real-time safety interventions when dangerous actions are predicted. VLESA addresses intent-dependent safety where identical actions can be safe or dangerous depending on",
-      "published": "2026-06-02T17:42:17Z",
+      "title": "Activation-Based Active Learning for In-Context Learning: Challenges and Insights",
+      "summary": "Deep active learning has previously been explored for LLM in-context sample selection, but not with methods that utilise recent advances in understanding of transformer activations. In this paper, we test the hypothesis that model activations could provide a fine-grained signal to optimise the selection of in-context examples. We present the most comprehensive analysis to date of MLP activation-based deep active learning methods applied to in-context learning, including how different attention m",
+      "published": "2026-06-03T17:39:29Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CV",
-        "cs.LG",
-        "cs.RO"
+        "cs.CL",
+        "cs.LG"
       ],
-      "url": "https://arxiv.org/abs/2606.03954v1",
+      "url": "https://arxiv.org/abs/2606.05134v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "10ce6b369a363f31",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Towards Efficient and Evidence-grounded Mobility Prediction with LLM-Driven Agent",
+      "summary": "Individual-level mobility prediction is central to urban simulation, transportation planning, and policy analysis. Supervised sequence models achieve strong accuracy but require task-specific training and offer limited decision-level transparency. Recent LLM-based methods improve interpretability, yet mostly rely on static prompts and single-pass inference, limiting their ability to seek additional evidence when mobility signals are weak or conflicting. We propose \\method{}, a training-free LLM-",
+      "published": "2026-06-03T17:34:01Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2606.05130v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ff9e0647a94b3f31",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Preserving Data Privacy in Learning Causal Structure with Fully Homomorphic Encryption",
+      "summary": "Preserving data privacy is an important topic in structural data management and data mining. However, the issue of privacy leakage in distributed causal structure learning is a persistent challenge, especially in cases where data transmission and computation are required. In this paper, we propose a method based on fully homomorphic encryption (FHE) that performs calculations on ciphertexts, keeping data encrypted in transition and computation. Nevertheless, adopting FHE to causal structure lear",
+      "published": "2026-06-03T17:33:14Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2606.05129v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "61f93d8f94585617",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "A-Live: Passive Liveness Detection via Neuromuscular Micro-Motion Signatures on Commodity Sensors",
+      "summary": "Liveness detection has evolved from a safeguard against presentation and replay attacks in biometric authentication to a broader requirement for distinguishing human users from non-human agents in modern digital systems. The emergence of generative and agentic AI further amplifies this need, positioning liveness as a fundamental security primitive. Existing approaches face key limitations, including reliance on explicit user interaction, specialized hardware, vulnerability to increasingly realis",
+      "published": "2026-06-03T17:30:30Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CR"
+      ],
+      "url": "https://arxiv.org/abs/2606.05126v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3e971728955b024b",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Self-Evaluation Is Already There: Eliciting Latent Judge Calibration in Base LLMs with Minimal Data",
+      "summary": "Large language models are increasingly evaluated by other models, raising a natural question: can a model predict how a judge will score its own output? We find that the ability is largely present before any targeted training: prompted few-shot, a base model already predicts an external judge's multi-attribute quality scores on open-ended responses well above chance across three benchmarks. We introduce Self-Evaluation Elicitation (SEE), a method that surfaces this latent ability through a short",
+      "published": "2026-06-03T17:27:16Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2606.05122v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2360fc6857103b8b",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Does Artificial Intelligence Advance Science?",
+      "summary": "This paper examines whether and how artificial intelligence (AI) advances scientific creativity. Drawing on scientific publications, the primary output of researchers, we analyze over one million publications from OpenAlex to investigate the relationship between AI adoption and multiple dimensions of scientific creativity, including novelty (recombinant novelty and object novelty) and impact (3-year short-run citation impact and 10-year long-run citation impact). We find that AI publications are",
+      "published": "2026-06-03T17:23:58Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CY"
+      ],
+      "url": "https://arxiv.org/abs/2606.05118v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7e874401b5b2342a",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "A problem of Andrews and Dhar on partitions",
+      "summary": "This paper is motivated by a broad question about AI-assisted mathematics: can an AI system help discover and certify an explicit bijection between two infinite sequences of complicated combinatorial sets already known to be equinumerous? The challenge is to find a reversible structure explaining that equality uniformly across the sequence. We give an affirmative test case in the setting of a partition problem. Andrews and Dhar introduced two partition families $\\mathcal{C}_3(n)$ and $\\mathcal{D",
+      "published": "2026-06-03T17:22:10Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "math.CO"
+      ],
+      "url": "https://arxiv.org/abs/2606.05117v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
