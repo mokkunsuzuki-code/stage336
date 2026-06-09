@@ -1,22 +1,22 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-08T04:20:36.866377+00:00",
+  "generated_at": "2026-06-09T03:51:21.008371+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 33,
+  "item_count": 37,
   "items": [
     {
-      "id": "558003fadc2a6468",
+      "id": "4930a8b312850d21",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[mlflow] MLflow is vulnerable to an authorization bypass affecting the AJAX endpoint",
+      "title": "[dulwich] Dulwich has unbounded memory allocation in receive-pack from crafted thin packs",
       "summary": "",
-      "published": "2026-04-07T15:30:50.000Z",
+      "published": "2026-06-08T23:43:42.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-46r5-x6jq-v8g6",
+      "url": "https://github.com/advisories/GHSA-xrvj-v92f-53gj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "af66cd35ccc697d0",
+      "id": "c9c23f47fb21e542",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langflow] langflow has Unauthenticated IDOR on Image Downloads",
+      "title": "[mistune] Mistune has XSS via unescaped figclass/figwidth in Figure directive",
       "summary": "",
-      "published": "2026-03-20T20:47:10.000Z",
+      "published": "2026-05-08T23:43:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7grx-3xcx-2xv5",
+      "url": "https://github.com/advisories/GHSA-58cw-g322-p94v",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -44,17 +44,17 @@
       }
     },
     {
-      "id": "1ebd1298935a3f13",
+      "id": "91a5b0e66f50ccd6",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langflow] Langflow has an Arbitrary File Write (RCE) via v2 API",
+      "title": "[awslabs-aws-api-mcp-server] AWS API MCP File Access Restriction Bypass",
       "summary": "",
-      "published": "2026-03-19T17:46:43.000Z",
+      "published": "2026-03-17T20:33:15.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g2j9-7rj2-gm6c",
+      "url": "https://github.com/advisories/GHSA-2cpp-j2fc-qhp7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -63,17 +63,17 @@
       }
     },
     {
-      "id": "e8edaf56a6795583",
+      "id": "f4966b931febb0bd",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langflow] Langflow is Missing Ownership Verification in API Key Deletion (IDOR)",
+      "title": "[langflow] Unauthenticated Remote Code Execution in Langflow via Public Flow Build Endpoint",
       "summary": "",
-      "published": "2026-03-18T12:58:35.000Z",
+      "published": "2026-03-17T20:05:05.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rf6x-r45m-xv3w",
+      "url": "https://github.com/advisories/GHSA-vwmf-pq79-vjvx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +82,17 @@
       }
     },
     {
-      "id": "7a2928691a3cb162",
+      "id": "08c27f9fb5df7c23",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[jwcrypto] JWCrypto: JWE ZIP decompression bomb",
+      "title": "[dulwich] Dulwich doesn't sanitize commit subjects in `porcelain.format_patch`",
       "summary": "",
-      "published": "2026-04-08T00:16:14.000Z",
+      "published": "2026-06-08T23:04:48.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fjrm-76x2-c4q4",
+      "url": "https://github.com/advisories/GHSA-555p-6grf-mh7f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +101,17 @@
       }
     },
     {
-      "id": "ddfdb1b8922e93d8",
+      "id": "63536e2e0e790017",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[bugsink] Bugsink: DOS using large numbers of event tags",
+      "title": "[pyspark] Apache Spark has Inadequate Encryption Strength",
       "summary": "",
-      "published": "2026-06-05T21:45:40.000Z",
+      "published": "2025-10-15T09:30:17.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5x67-j5xg-c5gj",
+      "url": "https://github.com/advisories/GHSA-6p6v-m64v-jx8q",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +120,17 @@
       }
     },
     {
-      "id": "0c3bb55b700bb7c8",
+      "id": "beaf1f72f9f79a45",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[bugsink] Bugsink: Project scoping missing in sourcemap and debug-file lookup",
+      "title": "[pyload-ng] pyLoad has an Arbitrary File Write via Path Traversal in edit_package()",
       "summary": "",
-      "published": "2026-06-05T21:44:33.000Z",
+      "published": "2026-03-05T00:32:19.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5389-f7vh-wxj8",
+      "url": "https://github.com/advisories/GHSA-6px9-j4qr-xfjw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +139,17 @@
       }
     },
     {
-      "id": "64d8e6b6b0761d6d",
+      "id": "7c9aaed2edb90ca1",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[bugsink] Bugsink: Issue bulk actions can affect another project’s issue if its UUID is known",
+      "title": "[pretix] pretix: API leaks check-in data between events of the same organizer",
       "summary": "",
-      "published": "2026-06-05T21:43:56.000Z",
+      "published": "2026-04-08T15:31:44.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g5vc-q7qc-v939",
+      "url": "https://github.com/advisories/GHSA-wr8q-c73g-m7gp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +158,17 @@
       }
     },
     {
-      "id": "d598baecc8952279",
+      "id": "a3b52171a3e1c5f9",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[bugsink] Bugsink: Issue event views can show an event from another project if its UUID is known",
+      "title": "[openhands-ai] OpenHands is Vulnerable to Command Injection through its Git Diff Handler",
       "summary": "",
-      "published": "2026-06-05T21:43:23.000Z",
+      "published": "2026-03-25T21:54:55.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-vx2f-6m6h-9frf",
+      "url": "https://github.com/advisories/GHSA-7h8w-hj9j-8rjw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +177,17 @@
       }
     },
     {
-      "id": "40f745094c0f8cb7",
+      "id": "cf7373539dffc40a",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pyarrow] Apache Arrow: Potential use-after-free when reading IPC file with pre-buffering",
+      "title": "[onnx] ONNX Untrusted Model Repository Warnings Suppressed by silent=True in onnx.hub.load() — Silent Supply-Chain Attack",
       "summary": "",
-      "published": "2026-02-17T15:31:35.000Z",
+      "published": "2026-03-16T16:23:28.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rgxp-2hwp-jwgg",
+      "url": "https://github.com/advisories/GHSA-hqmj-h5c6-369m",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +196,17 @@
       }
     },
     {
-      "id": "ccdececd54b08f16",
+      "id": "5e3c059dd2c76eb4",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[ait-core] NASA AMMOS Instrument Toolkit: Path traversal resulting in arbitrary file append (can be triggered over the network by unauthenticated attacker)",
+      "title": "[products-isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
       "summary": "",
-      "published": "2026-06-05T18:11:27.000Z",
+      "published": "2026-03-02T20:14:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p462-prxw-mjx4",
+      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +215,17 @@
       }
     },
     {
-      "id": "8cb420ed493beb89",
+      "id": "3d40acd77326caeb",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vantage6] Improper Access Control in vantage6 node",
+      "title": "[dash-uploader] dash-uploader has a directory traversal vulnerability",
       "summary": "",
-      "published": "2026-06-05T16:45:45.000Z",
+      "published": "2026-05-08T18:31:35.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-x9f6-9rvm-mmrg",
+      "url": "https://github.com/advisories/GHSA-3rf6-x59v-5jfv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +234,17 @@
       }
     },
     {
-      "id": "d8cdbede4319ae00",
+      "id": "a1ed5f8798dd3845",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vantage6] Vantage6: Set admin user and password from environment or configuration",
+      "title": "[authlib] Authlib OAuth 2.0 has Open Redirect in Authorization API that allows attacker-controlled redirect_uri through unsupported response_type",
       "summary": "",
-      "published": "2026-06-05T16:45:22.000Z",
+      "published": "2026-06-08T17:52:04.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fgmc-2hqj-86v4",
+      "url": "https://github.com/advisories/GHSA-w8p2-r796-3vmq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +253,17 @@
       }
     },
     {
-      "id": "7bc2c2ec3fb08c81",
+      "id": "7674aeb8d1dc92b6",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[apache-airflow-providers-amazon] Apache Airflow Amazon provider: Prevent unauthorized access to team-scoped secrets in AWS Secrets Manager and SSM Parameter Store backends",
+      "title": "[geonode] GeoNode contains a server-side request forgery vulnerability in the service registration endpoint",
       "summary": "",
-      "published": "2026-05-19T21:32:03.000Z",
+      "published": "2026-06-08T12:51:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g9qc-qf28-hhqx",
+      "url": "https://github.com/advisories/GHSA-hw9r-6m78-w6h3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +272,17 @@
       }
     },
     {
-      "id": "4685ac73cbd2be90",
+      "id": "b91b9885c86258bd",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[apache-airflow-providers-cncf-kubernetes] Apache Airflow CNCF Kubernetes provider: JWT Token Exposure in KubernetesExecutor Command-Line Arguments",
+      "title": "[geonode] Duplicate Advisory: GeoNode contains a server-side request forgery vulnerability in the service registration endpoint",
       "summary": "",
-      "published": "2026-05-19T21:32:03.000Z",
+      "published": "2026-04-10T21:31:15.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-524w-vq63-2xhf",
+      "url": "https://github.com/advisories/GHSA-v8f7-cg9p-w5jx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +291,17 @@
       }
     },
     {
-      "id": "1a121a45089f9188",
-      "source": "github-advisory-pip",
+      "id": "a48678b191a366d3",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonai-platform] praisonai-platform: Agent endpoints accept any agent_id without workspace ownership check, cross-workspace read/update/delete IDOR",
+      "title": "[json-web-token] json-web-token library is vulnerable to a JWT algorithm confusion attack",
       "summary": "",
-      "published": "2026-06-05T16:28:32.000Z",
+      "published": "2023-11-17T22:48:15.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7p8g-6c6g-h9w7",
+      "url": "https://github.com/advisories/GHSA-4xw9-cx39-r355",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +310,17 @@
       }
     },
     {
-      "id": "10c43b27da93dd55",
-      "source": "github-advisory-pip",
+      "id": "8bf3a9d7a78cb5d3",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vantage6] Vantage6: No limit on emails sent for password/MFA reset",
+      "title": "[@actual-app/sync-server] Actual Sync-server Gocardless service is logging sensitive data including bearer tokens and account numbers",
       "summary": "",
-      "published": "2026-06-05T15:21:59.000Z",
+      "published": "2025-10-20T17:55:59.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5549-c5q7-fj65",
+      "url": "https://github.com/advisories/GHSA-xvp7-8vm8-xfxx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +329,17 @@
       }
     },
     {
-      "id": "6633b697025310eb",
-      "source": "github-advisory-pip",
+      "id": "10259d443d2df086",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vantage6] Vantage6: 2FA can be circumvented with hacked email access",
+      "title": "[fuxa-server] FUXA's scheduler API missing admin check enables operator-to-admin escalation via scheduled device actions",
       "summary": "",
-      "published": "2026-06-05T15:24:35.000Z",
+      "published": "2026-06-08T23:07:02.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4c5c-2vc3-x5w2",
+      "url": "https://github.com/advisories/GHSA-8ghr-w65f-j3qr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +348,112 @@
       }
     },
     {
-      "id": "4f36b7ee2f5eff57",
-      "source": "github-advisory-pip",
+      "id": "42e070a856acd14d",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[apache-airflow] Apache Airflow Exposes Secrets in Variables Saved as JSON Dictionaries",
+      "title": "[fuxa-server] FUXA has SQL Injection in its TDengine DAQ connector via backslash bypass of escapeTdString",
       "summary": "",
-      "published": "2026-04-18T09:30:20.000Z",
+      "published": "2026-06-08T23:06:43.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-w9r4-94fj-xp69",
+      "url": "https://github.com/advisories/GHSA-h9fj-c2qr-76g2",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "beba7f20ab819cfe",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[fuxa-server] FUXA: Unauthenticated SSRF via Socket.IO DEVICE_WEBAPI_REQUEST and DEVICE_PROPERTY with response reading",
+      "summary": "",
+      "published": "2026-06-08T23:06:40.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w86f-rf9w-h3x6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9f31c914e0dac90e",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[actual] actual Allows Electron to Run As Node",
+      "summary": "",
+      "published": "2026-06-08T18:21:26.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-7rvm-xjpp-63r9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "71d23412b717ecfb",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[vitest] When Vitest UI server is listening, arbitrary file can be read and executed",
+      "summary": "",
+      "published": "2026-06-01T14:09:53.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5xrq-8626-4rwp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a880519d040105d6",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[cryptiles] Insufficient Entropy in cryptiles",
+      "summary": "",
+      "published": "2018-09-11T18:22:50.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rq8g-5pc5-wrhr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1f599860eb2f46f7",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[vm2] VM2 Has a WASM Sandbox Escape",
+      "summary": "",
+      "published": "2026-05-05T16:44:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-ffh4-j6h5-pg66",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +519,18 @@
       }
     },
     {
-      "id": "ac3907b205c63141",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using sanitization bypass through nested SVGs",
-      "summary": "",
-      "published": "2026-06-05T20:09:38.000Z",
+      "id": "e1344f9674321107",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
+      "summary": "Vision-language model (VLM) agents are increasingly deployed in interactive game environments. Yet game benchmarks for VLM agents typically report a single first-attempt score per (agent, game) pair, focus on single-agent Solo play, and lack unified protocols for evaluating heterogeneous agent classes (commercial VLMs, open-weight VLMs, and specialized game policies) on the same footing. We address these gaps with OmniGameArena, a real-time benchmark of twelve newly built Unreal Engine 5 games s",
+      "published": "2026-06-08T17:59:43Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CV",
+        "cs.AI"
       ],
-      "url": "https://github.com/advisories/GHSA-mh5m-5hw4-5c69",
+      "url": "https://arxiv.org/abs/2606.09826v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +539,17 @@
       }
     },
     {
-      "id": "a2e8116b81304d2c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nocodb] NocoDB: OAuth Tokens Persist Through Security Events",
-      "summary": "",
-      "published": "2026-06-05T16:43:09.000Z",
+      "id": "29aedc71e5cd86ba",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Rethinking the Divergence Regularization in LLM RL",
+      "summary": "Reinforcement learning (RL) has become a key component of post-training large language models (LLMs). In practice, LLM RL is often off-policy because of training-inference mismatch and policy staleness, making trust-region control essential for stable optimization. Mainstream methods such as PPO and GRPO approximate this control with a ratio-clipping mechanism, but the importance ratio can be a poor proxy for distributional shift in long-tailed vocabularies. Recent work such as DPPO addresses th",
+      "published": "2026-06-08T17:58:23Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.LG"
       ],
-      "url": "https://github.com/advisories/GHSA-g72g-r7m4-9x4g",
+      "url": "https://arxiv.org/abs/2606.09821v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +558,19 @@
       }
     },
     {
-      "id": "80587d0c0e26959e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[dbgate-api] DbGate: Remote Code Execution via functionName injection in loadReader endpoint",
-      "summary": "",
-      "published": "2026-06-05T16:39:38.000Z",
+      "id": "2f82915b7b763787",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "AHA-WAM:Asynchronous Horizon-Adaptive World-Action Modeling with Observation-Guided Context Routing",
+      "summary": "World-action models have emerged as a promising paradigm for robot manipulation, jointly modeling visual scene dynamics and actions to inject physical priors into policy learning. However, existing world-action models couple world prediction and action execution at the same temporal resolution, forcing the world branch to model near-term frame variations that are redundant and weakly informative. We posit that strictly binding world prediction and action execution to the same temporal rhythm may",
+      "published": "2026-06-08T17:55:18Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
       ],
-      "url": "https://github.com/advisories/GHSA-hv83-ggc4-v385",
+      "url": "https://arxiv.org/abs/2606.09811v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +579,17 @@
       }
     },
     {
-      "id": "528c21ed9094c284",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@sync-in/server] Sync-in Server: SSRF protection bypass via IPv4-mapped IPv6 addresses in regExpPrivateIP",
-      "summary": "",
-      "published": "2026-06-05T16:34:59.000Z",
+      "id": "e33ed0bfcd5c8108",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Evaluation Cards: An Interpretive Layer for AI Evaluation Reporting",
+      "summary": "AI evaluation results are produced at scale but reported inconsistently across leaderboards, model cards, benchmark papers, and company blogs. The cost is interpretive: readers cannot reliably compare results across sources, identify what a report omits, or trace an aggregate claim to its underlying evidence. Recent efforts address isolated components but leave three gaps: they cover only narrow slices of the evaluation lifecycle and do not compose into a single interpretable record; they specif",
+      "published": "2026-06-08T17:55:02Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI"
       ],
-      "url": "https://github.com/advisories/GHSA-q4x5-8cj6-52wg",
+      "url": "https://arxiv.org/abs/2606.09809v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +598,17 @@
       }
     },
     {
-      "id": "e259c317fd07341e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[dbgate-api] Authenticated Remote Code Execution via loadReader functionName code injection in DbGate",
-      "summary": "",
-      "published": "2026-06-05T16:30:59.000Z",
+      "id": "42996aa024a05ed7",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "On the viability of Transatlantic Quantum Entanglement Distribution using Combined Satellite and Stratospheric Relay Nodes",
+      "summary": "To explore the pathways toward establishing a global quantum network, we investigate several link architectures for transatlantic quantum entanglement distribution over a 6,500 km ground distance. We define free-space link configurations involving satellites and stratospheric high altitude platforms (HAPs), using today's technology and without relying on quantum memories and repeaters. Considering link budgets, space radiation, orbital characteristics, and system complexity we find that a hybrid",
+      "published": "2026-06-08T17:54:15Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "quant-ph"
       ],
-      "url": "https://github.com/advisories/GHSA-wm5r-5qp3-5vxf",
+      "url": "https://arxiv.org/abs/2606.09805v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +617,19 @@
       }
     },
     {
-      "id": "d0dd06933d642578",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[dbgate] DbGate: Zip Slip in archive/unzip allows arbitrary file write leading to RCE",
-      "summary": "",
-      "published": "2026-06-05T16:26:01.000Z",
+      "id": "1b5b30a5434ce13f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Echo-Memory: A Controlled Study of Memory in Action World Models",
+      "summary": "We present \\textbf{Echo-Memory}, a controlled study of memory mechanisms in action-conditioned world models. These models generate multi-segment videos from a first frame, text prompt, and camera-action sequence, but their central failure is often memory rather than local image synthesis: after the camera leaves and returns, the scene or salient object may silently change. Existing memory designs are hard to compare because gains are entangled with backbone, training, retrieval, and evaluation d",
+      "published": "2026-06-08T17:54:10Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CV",
+        "cs.GR",
+        "cs.LG"
       ],
-      "url": "https://github.com/advisories/GHSA-h535-j5hr-mv56",
+      "url": "https://arxiv.org/abs/2606.09803v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +638,19 @@
       }
     },
     {
-      "id": "0eb2b550ea15c089",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[dbgate-serve] DbGate: Unauthenticated Remote Code Execution via JSON Script Runner",
-      "summary": "",
-      "published": "2026-06-05T16:25:23.000Z",
+      "id": "bb985a1b22b8af52",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "FASE: Fast Adaptive Semantic Entropy for Code Quality",
+      "summary": "Multi-agent code generation offers a promising paradigm for autonomous software development by simulating the human software engineering lifecycle. However, system reliability remains hindered by LLM hallucinations and error propagation across interacting agents. While semantic entropy provides a principled way to quantify uncertainty without ground-truth answers, current methods often rely on costly LLM-driven equivalence checks. In this work, we introduce Fast Adaptive Semantic Entropy (FASE),",
+      "published": "2026-06-08T17:53:05Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.SE",
+        "cs.AI",
+        "cs.MA"
       ],
-      "url": "https://github.com/advisories/GHSA-8v3q-9vmx-36vc",
+      "url": "https://arxiv.org/abs/2606.09800v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +659,17 @@
       }
     },
     {
-      "id": "316f13e383c2e1a2",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nocodb] NocoDB: Missing Ownership Check in MCP Attachment Read",
-      "summary": "",
-      "published": "2026-06-05T16:22:28.000Z",
+      "id": "32292d225dc1915f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Principled Uncertainty in Clinical AI: End-to-End Bayesian Modelling and Algorithmic Equity Auditing Across Multimodal Patient Data",
+      "summary": "Clinical artificial intelligence (AI) systems routinely produce predictions without principled quantification of uncertainty, limiting their trustworthiness in high-stakes medical environments. This paper presents an integrated research programme addressing two interconnected problems: (1) the development of a fully end-to-end Bayesian uncertainty modelling framework for multimodal clinical data, and (2) the application of calibrated uncertainty estimates as a formal measure of algorithmic equit",
+      "published": "2026-06-08T17:44:15Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CY"
       ],
-      "url": "https://github.com/advisories/GHSA-xxpj-q764-9r6q",
+      "url": "https://arxiv.org/abs/2606.09789v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,17 +678,17 @@
       }
     },
     {
-      "id": "9b9877ab72be4958",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nocodb] NocoDB: Stored Cross-Site Scripting via Form View Redirect URL",
-      "summary": "",
-      "published": "2026-06-05T16:20:44.000Z",
+      "id": "095ca2296f9dd1fe",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Cohort-based Semantic Labeling: AI-Enabled Recovery of Visualization Semantics from Deployed SVGs",
+      "summary": "Many web-based visualizations are deployed as Scalable Vector Graphics (SVG), a format that faithfully preserves visual appearance but typically omits the higher-level semantic structure needed for machine interpretation. Once rendered and published, information about a visualization's components, roles, and encodings is no longer explicitly available, limiting downstream operations such as querying, accessibility augmentation, explanation, personalization, and transformation. To address this ga",
+      "published": "2026-06-08T17:40:53Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.HC"
       ],
-      "url": "https://github.com/advisories/GHSA-hj85-ph9q-78jg",
+      "url": "https://arxiv.org/abs/2606.09782v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -595,36 +697,19 @@
       }
     },
     {
-      "id": "42043dac398047c8",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nocodb] NocoDB: OAuth Authorization Code Race Condition",
-      "summary": "",
-      "published": "2026-06-05T16:20:32.000Z",
+      "id": "198c3b2b536b4744",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Fully-implicit Particle-in-Cell model of a Magnetic Nozzle with electromagnetic power deposition",
+      "summary": "A fraction of the electromagnetic power used to generate and heat the plasma in helicon sources and electrodeless plasma thrusters can leak into the outer expansion region, interacting with the plasma in the magnetic nozzle and affecting the performance of the device. This work analyzes the properties of the plasma in a convergent-divergent magnetic nozzle when right-hand polarized waves of varying amplitude propagate into it. This is accomplished with a 1D3V fully-implicit, Vlasov-Darwin partic",
+      "published": "2026-06-08T17:31:50Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "physics.plasm-ph",
+        "physics.app-ph",
+        "physics.comp-ph"
       ],
-      "url": "https://github.com/advisories/GHSA-8m7c-hf24-5g47",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "5b991a66572924b6",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nocodb] NocoDB: Path Traversal via SQLite Source Filename",
-      "summary": "",
-      "published": "2026-06-05T16:20:20.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wvqj-9wv4-7ff5",
+      "url": "https://arxiv.org/abs/2606.09771v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
