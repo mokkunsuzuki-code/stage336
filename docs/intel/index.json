@@ -1,10 +1,105 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-11T04:17:24.068009+00:00",
+  "generated_at": "2026-06-12T04:18:23.423320+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 33,
+  "item_count": 40,
   "items": [
+    {
+      "id": "6f3f48c6801a2fe7",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[wsgidav] WsgiDAV encoded dot segments can escape filesystem share roots",
+      "summary": "",
+      "published": "2026-06-11T20:28:45.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wxq4-cc2q-338q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "74b9be03adab30ca",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[kolibri] Kolibri has Unauthenticated Server-Side Request Forgery (SSRF) in RemoteFacilityUserViewset",
+      "summary": "",
+      "published": "2026-06-11T17:10:33.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-4mj9-pf4r-cqrc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d1f89a22bd22634e",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[zeroconf] python-zeroconf: Unbounded TC-deferred queue allows LAN-local memory exhaustion via spoofed-source flood",
+      "summary": "",
+      "published": "2026-06-11T13:28:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9663-mqmp-p9mm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a1c128704b199378",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[meta-ads-mcp] Meta Ads MCP: Unauthenticated HTTP MCP Tool Execution Leaks Operator Meta Access Token",
+      "summary": "",
+      "published": "2026-06-11T13:28:29.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9gw6-46qc-99vr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9ef05dae92914870",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pdm] PDM: Project-Controlled `.pdm-plugins` Content Executes Before CLI Parsing",
+      "summary": "",
+      "published": "2026-06-11T13:25:28.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qq6c-99pv-prvf",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "370c5314a84a94a4",
       "source": "github-advisory-pip",
@@ -291,17 +386,17 @@
       }
     },
     {
-      "id": "4b0bfd29dcc7ccd3",
-      "source": "github-advisory-pip",
+      "id": "bda1370feccfc4b9",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[sap-ai-sdk-base] SAP Cloud SDK for AI Python has OS Command Injection when Program Objects Execution is Enabled",
+      "title": "[@hapi/inert] @hapi/inert has a static-file confinement bypass via sibling-prefix path",
       "summary": "",
-      "published": "2023-03-14T06:30:16.000Z",
+      "published": "2026-06-11T17:10:15.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xxhh-59gh-6ffx",
+      "url": "https://github.com/advisories/GHSA-rcvq-m9j9-6f4g",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +405,17 @@
       }
     },
     {
-      "id": "4e83a91471ff9717",
-      "source": "github-advisory-pip",
+      "id": "c45db36e6b99b494",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nvflare] NVIDIA NVFlare Dashboard: Authorization bypass through user-controlled key via user management and authentication system",
+      "title": "[@cyntler/react-doc-viewer] @cyntler/react-doc-viewer's TXTRenderer fails to sanitize file content and explicitly casts raw data as a ReactNode",
       "summary": "",
-      "published": "2026-04-28T21:36:12.000Z",
+      "published": "2026-05-20T18:31:36.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jqp3-qrgh-4846",
+      "url": "https://github.com/advisories/GHSA-fvhg-p4hf-79x3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +424,17 @@
       }
     },
     {
-      "id": "b43f6c376e409d97",
-      "source": "github-advisory-pip",
+      "id": "896cfbe7b69b2b0d",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pywasm3] pywasm3 has Improper Restriction of Operations within the Bounds of a Memory Buffer",
+      "title": "[@grpc/grpc-js] @grpc/grpc-js: A malformed request can cause a server crash",
       "summary": "",
-      "published": "2025-06-19T18:31:47.000Z",
+      "published": "2026-06-11T13:27:54.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rrmw-gv85-w824",
+      "url": "https://github.com/advisories/GHSA-5375-pq7m-f5r2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +443,93 @@
       }
     },
     {
-      "id": "3e1310c8f612849e",
-      "source": "github-advisory-pip",
+      "id": "0dd2496c10c4da0a",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pywasm3] pywasm3 contains a Use-After-Free in ForEachModule",
+      "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
       "summary": "",
-      "published": "2024-11-09T00:30:42.000Z",
+      "published": "2026-06-11T13:27:44.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-46r6-92jg-22jg",
+      "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "63b02875704eb40c",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[joi] joi has an uncaught RangeError on deeply nested input through recursive `link()` schemas",
+      "summary": "",
+      "published": "2026-06-11T13:27:32.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q7cg-457f-vx79",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "80366df8a8dc7c2c",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@openzeppelin/wizard] OpenZeppelin Contracts Wizard has Code Injection in Generated Hardhat and Foundry Tests via Unsanitized opts.name / opts.uri",
+      "summary": "",
+      "published": "2026-06-11T13:27:24.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-4x76-22x2-rx8v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "78ce43841716c278",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@hapi/wreck] @hapi/wreck: Sensitive credential headers leak across cross-port and cross-scheme redirects",
+      "summary": "",
+      "published": "2026-06-11T13:27:05.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-x426-x7cc-3fpc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "65d0d7c417dac39e",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@element-hq/element-call-embedded] Element Call reports full URLs of visited pages to analytics server",
+      "summary": "",
+      "published": "2026-06-11T13:26:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6vhh-4xw6-h2h2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +576,17 @@
       }
     },
     {
-      "id": "aad637a0947aec87",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@papra/webhooks] Papra HTTP redirect bypass can lead to SSRF via webhook delivery system",
-      "summary": "",
-      "published": "2026-06-10T13:39:10.000Z",
+      "id": "3361635d4042fa5c",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "summary": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing environments and updated task conditions. To address this gap, we introduce EvoArena, a benchmark suite that models environment changes as sequences of progressive updates across terminal, software, and so",
+      "published": "2026-06-11T17:59:59Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CL"
       ],
-      "url": "https://github.com/advisories/GHSA-5g86-85rp-f9hx",
+      "url": "https://arxiv.org/abs/2606.13681v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +595,17 @@
       }
     },
     {
-      "id": "d521bc3827ffee2c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@hulumi/baseline] @hulumi/baseline: AccountFoundation reuse paths silently downgrade GuardDuty / Security Hub posture",
-      "summary": "",
-      "published": "2026-06-10T13:38:59.000Z",
+      "id": "338662317667aa68",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Automated reproducibility assessments in the social and behavioral sciences using large language models",
+      "summary": "Reproducibility in the social and behavioral sciences is typically evaluated by independent researchers who reanalyze the original data to assess whether the published findings can be recovered. However, such approaches are resource-intensive and difficult to scale. Here, we show that large language models (LLMs) can automate reproducibility assessments. Using N=76 published studies with predefined claims from the behavioral and social sciences, we compare LLM-generated analysis with the origina",
+      "published": "2026-06-11T17:58:36Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI"
       ],
-      "url": "https://github.com/advisories/GHSA-cj8g-prcm-mfg5",
+      "url": "https://arxiv.org/abs/2606.13670v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +614,17 @@
       }
     },
     {
-      "id": "0b750984eed166c8",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@hulumi/drift] @hulumi/drift: Drift classifier fails open on adapter errors and over-promotes Mixed verdicts",
-      "summary": "",
-      "published": "2026-06-10T13:38:50.000Z",
+      "id": "2cd51f928461131a",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Agents-K1: Towards Agent-native Knowledge Orchestration",
+      "summary": "Current LLM-based research agents have advanced through agent orchestration, yet largely overlook scientific knowledge orchestration. Existing works often reduce papers to abstracts, surface mentions, and flat \\texttt{cites} edges, omitting key entities, claims, evidence, mechanisms, and method lineages essential for scientific reasoning. To this end, we introduce \\textbf{Agents-K1}, an end-to-end knowledge orchestration pipeline that converts raw documents into agent-native scientific knowledge",
+      "published": "2026-06-11T17:58:35Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI"
       ],
-      "url": "https://github.com/advisories/GHSA-32g3-35g9-wc9g",
+      "url": "https://arxiv.org/abs/2606.13669v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +633,17 @@
       }
     },
     {
-      "id": "98e75d75df6dc826",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@hulumi/baseline] @hulumi/baseline: AccountFoundation audit-delivery S3 bucket could be silently weakened",
-      "summary": "",
-      "published": "2026-06-10T13:38:37.000Z",
+      "id": "a62a2c6fa00982c0",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
+      "summary": "With the growth of LLMs' (Large Language Models) capabilities, there has been an increasing push to curate high quality datasets by filtering samples in the training data. In general, Data Attribution (DA) methods aim to estimate how individual samples in a training dataset can precondition a model to generate certain outputs. As an example, one might be interested in which samples in the data could be the source of toxic behavior after training the LLM. Many methods quantify this conditioning t",
+      "published": "2026-06-11T17:58:33Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CL"
       ],
-      "url": "https://github.com/advisories/GHSA-2mxr-p26x-mj73",
+      "url": "https://arxiv.org/abs/2606.13668v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +652,17 @@
       }
     },
     {
-      "id": "7cc2d1e20042a80c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@hulumi/policies] @hulumi/policies has a HULUMI-H5 bypass via decoy sibling resources targeting a different bucket",
-      "summary": "",
-      "published": "2026-06-10T13:38:15.000Z",
+      "id": "6b57c747d22604dd",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
+      "summary": "Tool-augmented LLM agents commonly rely on step-wise atomic tool calls, where each invocation, observation, and value transfer is exposed in the main reasoning trace. This creates an \\emph{execution-granularity mismatch}: locally deterministic tool workflows are unfolded into repeated model-visible decisions, consuming context and forcing the model to manage low-level dataflow in the trace. We introduce \\textbf{HyperTool}, a unified executable MCP-style tool interface that changes the model-visi",
+      "published": "2026-06-11T17:56:36Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CL"
       ],
-      "url": "https://github.com/advisories/GHSA-9vc9-4jv3-rf86",
+      "url": "https://arxiv.org/abs/2606.13663v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +671,18 @@
       }
     },
     {
-      "id": "227d622e416a3e93",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@hulumi/policies] @hulumi/policies bypasses policy packs with a forged Pulumi-URN logical name",
-      "summary": "",
-      "published": "2026-06-10T13:37:38.000Z",
+      "id": "165fb4e7fa161031",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+      "summary": "LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scientific solutions, and have produced results that outperform human-designed approaches. As model capabilities continue to improve, we argue that the bottleneck for autonomous scientific discovery is shifting from prescribing agent workflows to designing agent environments: the resources, constraints, and interfac",
+      "published": "2026-06-11T17:56:35Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI",
+        "cs.CL"
       ],
-      "url": "https://github.com/advisories/GHSA-rhgj-6g2c-frmm",
+      "url": "https://arxiv.org/abs/2606.13662v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +691,17 @@
       }
     },
     {
-      "id": "74147dcc44b7e27e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@hulumi/policies] @hulumi/policies bypasses IAM-role policy checks when the role trusts multiple OIDC providers",
-      "summary": "",
-      "published": "2026-06-10T13:37:08.000Z",
+      "id": "3b20afe129b80ec3",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Before You Think: System 0, AI-Mediated Cognition and Cognitive Colonization",
+      "summary": "This paper examines three recent frameworks for understanding the cognitive and epistemic consequences of artificial intelligence: Tri-System Theory, Thinkframes, and System 0. It argues that while the first two capture important dimensions of AI's influence on individual reasoning and collective epistemic practices, System 0 occupies a theoretically distinctive position that neither can fully replicate. The paper introduces the concept of cognitive colonization, according to which AI systems ca",
+      "published": "2026-06-11T17:54:59Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI"
       ],
-      "url": "https://github.com/advisories/GHSA-g759-4pxw-6692",
+      "url": "https://arxiv.org/abs/2606.13658v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +710,18 @@
       }
     },
     {
-      "id": "0208bed0086fe2cf",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[shell-quote] shell-quote quote() does not escape newlines in object .op values",
-      "summary": "",
-      "published": "2026-06-09T14:27:15.000Z",
+      "id": "8a248a459a966ffd",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Operadic consistency: a label-free signal for compositional reasoning failures in LLMs",
+      "summary": "Detecting LLM reasoning failures at inference time without ground-truth labels has motivated a wide range of confidence baselines, including self-consistency, semantic entropy, and P(True), built on within-question sampling and self-evaluation. Operad theory, the formalism for systems built by iterated substitution, suggests a complementary diagnostic: a model's direct answer to a compositional query should agree with the answer it produces by composing a stated decomposition of the same query. ",
+      "published": "2026-06-11T17:50:40Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CL",
+        "cs.LG"
       ],
-      "url": "https://github.com/advisories/GHSA-w7jw-789q-3m8p",
+      "url": "https://arxiv.org/abs/2606.13649v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +730,17 @@
       }
     },
     {
-      "id": "dc4aa62b082c2d1f",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@fedify/fedify] Fedify has an LD-Signature Bypass via JSON-LD Named-Graph Restructuring",
-      "summary": "",
-      "published": "2026-05-26T23:38:37.000Z",
+      "id": "5c7af219eac71017",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Surflo: Consistent 3D Surface Flow Model with Global State",
+      "summary": "Geometry is invariant to viewpoint, which makes any collection of images a redundant encoding of a single 3D state. Existing feed-forward reconstruction models fail to exploit this: per-view methods emit overlapping, unaligned pointmaps that grow linearly with input count, while global-latent methods commit to a fixed, low-resolution output. We introduce Surflo, which compresses a variable number of unposed RGB views into K latent tokens-one global state-and decodes oriented 3D surface points by",
+      "published": "2026-06-11T17:48:38Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CV"
       ],
-      "url": "https://github.com/advisories/GHSA-9rfg-v8g9-9367",
+      "url": "https://arxiv.org/abs/2606.13644v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,55 +749,17 @@
       }
     },
     {
-      "id": "a48678b191a366d3",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[json-web-token] json-web-token library is vulnerable to a JWT algorithm confusion attack",
-      "summary": "",
-      "published": "2023-11-17T22:48:15.000Z",
+      "id": "63ee26f879418edd",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "The Moving Drone: Negotiating Agency Between the Voice and the Virtual",
+      "summary": "Melodic material in Hindustani music is presented in relation to a tonic, usually sustained by the tanpura, a four-stringed drone instrument. Rooted in Hindustani music, 'The Moving Drone' sets the traditionally static drone into motion that, throughout the performance, gains increasing agency transitioning from reactive to more proactive roles. The work employs four independent loopers in Max/MSP to function as 'virtual' drones. They are populated cyclically in real-time as the vocalist improvi",
+      "published": "2026-06-11T17:47:01Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.SD"
       ],
-      "url": "https://github.com/advisories/GHSA-4xw9-cx39-r355",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8bf3a9d7a78cb5d3",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@actual-app/sync-server] Actual Sync-server Gocardless service is logging sensitive data including bearer tokens and account numbers",
-      "summary": "",
-      "published": "2025-10-20T17:55:59.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-xvp7-8vm8-xfxx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "10259d443d2df086",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[fuxa-server] FUXA's scheduler API missing admin check enables operator-to-admin escalation via scheduled device actions",
-      "summary": "",
-      "published": "2026-06-08T23:07:02.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8ghr-w65f-j3qr",
+      "url": "https://arxiv.org/abs/2606.13640v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
