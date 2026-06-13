@@ -1,10 +1,86 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-12T04:18:23.423320+00:00",
+  "generated_at": "2026-06-13T04:07:07.007540+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 40,
+  "item_count": 46,
   "items": [
+    {
+      "id": "c409de79e53a8612",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[tornado] Tornado has out-of-bounds memory access via C extension",
+      "summary": "",
+      "published": "2026-06-12T18:30:19.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-cx3h-4qpv-8hc9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "373ccecba2e51e49",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pypdf] pypdf: Possible long runtimes for zero-only width values in cross-reference streamsuntimes for zero-only width values in cross-reference streams",
+      "summary": "",
+      "published": "2026-06-12T18:29:59.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-248m-82v9-q6g6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "fc23f0833d111439",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pypdf] pypdf: Possible large memory usage for large offsets for layout mode text",
+      "summary": "",
+      "published": "2026-06-12T18:29:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-cj93-chg6-vgv8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c0f7b9d9f105f522",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mlflow] MLflow authenticated users can enumerate any registered model versions due to lack of per-model permissions checks",
+      "summary": "",
+      "published": "2026-05-21T06:31:31.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w5xq-c4pf-ghq7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "6f3f48c6801a2fe7",
       "source": "github-advisory-pip",
@@ -310,17 +386,17 @@
       }
     },
     {
-      "id": "81398c81a344924d",
-      "source": "github-advisory-pip",
+      "id": "0c83e551ed58398a",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[torch] PyTorch Tuple Handler is Vulnerable to Memory Corruption through Manipulation of None Argument",
+      "title": "[cordova-plugin-inappbrowser] Cordova Plugin InAppBrowser: iOS: Arbitrary Cordova callback IDs can be dispatched without validation from InAppBrowser WebViews.",
       "summary": "",
-      "published": "2025-03-10T12:30:55.000Z",
+      "published": "2026-06-08T12:30:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-c678-jfcj-6jmf",
+      "url": "https://github.com/advisories/GHSA-q42j-x8rq-pjg6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +405,17 @@
       }
     },
     {
-      "id": "238fc631ee98c801",
-      "source": "github-advisory-pip",
+      "id": "fefb99df64328655",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[tendenci] Tendenci CMS Contains a Cross-site Scripting Vulnerability in its Jobs Module",
+      "title": "[fabric] Fabric.js improper escaping in fabric.Gradient colorStops leads to XSS in SVG serialization",
       "summary": "",
-      "published": "2026-02-03T00:30:18.000Z",
+      "published": "2026-06-12T21:00:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g7hj-29xq-r64w",
+      "url": "https://github.com/advisories/GHSA-w22m-hvvm-xmwx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +424,17 @@
       }
     },
     {
-      "id": "a002e37e53322350",
-      "source": "github-advisory-pip",
+      "id": "c32d950c436a7f44",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[tendenci] Tendenci is Vulnerable to CSV Formula Injection through its Contact Form Message Field",
+      "title": "[esbuild] esbuild: Missing binary integrity verification in Deno module enables remote code execution via NPM_CONFIG_REGISTRY",
       "summary": "",
-      "published": "2026-01-28T18:30:48.000Z",
+      "published": "2026-06-12T20:08:59.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4q3w-jgfx-4792",
+      "url": "https://github.com/advisories/GHSA-gv7w-rqvm-qjhr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +443,188 @@
       }
     },
     {
-      "id": "61064bc0e290eb60",
-      "source": "github-advisory-pip",
+      "id": "120cee2f9c561ead",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[sentry] Sentry: Superusers can execute arbitrary commands by injecting malicious pickle-serialized objects through audit log entry data parameter",
+      "title": "[esbuild] esbuild allows arbitrary file read when running the development server on Windows",
       "summary": "",
-      "published": "2026-05-10T15:31:19.000Z",
+      "published": "2026-06-12T20:08:53.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-444r-2whx-3685",
+      "url": "https://github.com/advisories/GHSA-g7r4-m6w7-qqqr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "63b02875704eb40c",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[joi] joi has an uncaught RangeError on deeply nested input through recursive `link()` schemas",
+      "summary": "",
+      "published": "2026-06-11T13:27:32.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q7cg-457f-vx79",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "21544d0a4cd32bb2",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@budibase/server] Budibase: Basic app users can exfiltrate stored REST datasource auth by rewriting datasource base URL",
+      "summary": "",
+      "published": "2026-06-12T18:28:40.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3gp5-q4jw-3v94",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0a160288f70644b7",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@budibase/server] Budibase: Webhook schema endpoint authorization bypass allows unauthenticated mutation of webhook and automation schema",
+      "summary": "",
+      "published": "2026-06-12T18:28:34.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qhv3-wjg8-6fx6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "416a14fc112f2013",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@budibase/server] Budibase: Workspace-scoped builder escalates to global admin via /api/public/v1/roles/assign",
+      "summary": "",
+      "published": "2026-06-12T18:28:26.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6xp4-cf37-ppjh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "668a08a887135d15",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@budibase/server] Budibase: Unvalidated VectorDB Host Parameter Enables SSRF",
+      "summary": "",
+      "published": "2026-06-12T18:27:45.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-cv96-5348-p5p8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "50f253db5407e1bc",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@budibase/backend-core] Budibase: Unanchored Regex in `matchers.ts` Allows CSRF Bypass via Query String Injection in Budibase Worker",
+      "summary": "",
+      "published": "2026-06-12T18:23:41.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wxq7-x3qp-vcr8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9503232d62e8b7ce",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@budibase/server] Budibase: SSRF via OAuth2 Config Validation — Missing fetchWithBlacklist Protection",
+      "summary": "",
+      "published": "2026-06-12T15:08:28.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-g6qx-g4pr-92v7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "16589fe501b54ff3",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[budibase] Budibase: SSRF via User-Controlled queryId in Automation Execute Query Step",
+      "summary": "",
+      "published": "2026-06-12T15:08:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6964-pp88-6wp9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e303f314660c0e23",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@langchain/langgraph-checkpoint-mongodb] LangGraph has NoSQL parameter injection in MongoDBSaver, allowing cross-tenant state access",
+      "summary": "",
+      "published": "2026-06-12T15:05:32.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-98xf-r82g-9mhx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -435,139 +682,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-5375-pq7m-f5r2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0dd2496c10c4da0a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
-      "summary": "",
-      "published": "2026-06-11T13:27:44.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "63b02875704eb40c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[joi] joi has an uncaught RangeError on deeply nested input through recursive `link()` schemas",
-      "summary": "",
-      "published": "2026-06-11T13:27:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q7cg-457f-vx79",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "80366df8a8dc7c2c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@openzeppelin/wizard] OpenZeppelin Contracts Wizard has Code Injection in Generated Hardhat and Foundry Tests via Unsanitized opts.name / opts.uri",
-      "summary": "",
-      "published": "2026-06-11T13:27:24.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4x76-22x2-rx8v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "78ce43841716c278",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@hapi/wreck] @hapi/wreck: Sensitive credential headers leak across cross-port and cross-scheme redirects",
-      "summary": "",
-      "published": "2026-06-11T13:27:05.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-x426-x7cc-3fpc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "65d0d7c417dac39e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@element-hq/element-call-embedded] Element Call reports full URLs of visited pages to analytics server",
-      "summary": "",
-      "published": "2026-06-11T13:26:17.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6vhh-4xw6-h2h2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8f2a3752e646580f",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@whiskeysockets/baileys] Baileys has message upsert / hist sync spoofing and app state corruption when using maliciously crafted protocolMessage payload",
-      "summary": "",
-      "published": "2026-06-10T19:33:20.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qvv5-jq5g-4cgg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8f7991a00f44e0ac",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[baileys] Baileys has message upsert / hist sync spoofing and app state corruption when using maliciously crafted protocolMessage payload",
-      "summary": "",
-      "published": "2026-06-10T19:33:20.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qvv5-jq5g-4cgg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
