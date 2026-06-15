@@ -1,7 +1,7 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-14T04:24:14.834874+00:00",
+  "generated_at": "2026-06-15T04:47:32.437294+00:00",
   "mode": "safe-metadata-only",
   "item_count": 46,
   "items": [
@@ -690,17 +690,118 @@
       }
     },
     {
-      "id": "3361635d4042fa5c",
+      "id": "6f59aa9e0b86b603",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
-      "summary": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing environments and updated task conditions. To address this gap, we introduce EvoArena, a benchmark suite that models environment changes as sequences of progressive updates across terminal, software, and so",
-      "published": "2026-06-11T17:59:59Z",
+      "title": "OmniVideo-100K: A Dataset for Audio-Visual Reasoning through Structured Scripts and Evidence Chains",
+      "summary": "Current automated pipelines for audio-visual Question Answering (QA) generally adopt a ``video-caption-QA'' paradigm. However, these methods typically segment videos into short clips and generate separate descriptions for audio and visual modalities. This decoupled processing severs inherent associations between sounds and their visual sources, while independent clip processing often causes inconsistent descriptions of the same entity across segments. Furthermore, coupling long-text comprehensio",
+      "published": "2026-06-12T17:59:55Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2606.14702v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5573cede2e3a3b5e",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "RepFusion: Leveraging Multimodal Priors for Denoising in Representation Space",
+      "summary": "Large language models (LLMs) are widely used in text-to-image (T2I) systems, but they are typically limited to text encoding, while denoising is handled by newly trained generative backbones. The emergence of representation autoencoders (RAEs) shifts the generation target toward semantically structured visual representations, creating a latent space that is more compatible with pretrained LLM priors. Inspired by multimodal LLMs (MLLMs), where an MLP projector is sufficient to align clean visual ",
+      "published": "2026-06-12T17:59:51Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2606.14700v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "87d1ea44a0a3d8e3",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control",
+      "summary": "Reconstructing articulated 3D objects is important for animation, gaming, and robotic simulations. Recent neural networks can estimate the articulated structure of 3D objects, but their generalization remains limited by the scarcity of annotated data for this task. To address this gap, we introduce Instruct-Particulate, a model that takes a 3D mesh together with a target kinematic specification, including part descriptions, connectivity, joint types, and optional point prompts, and predicts the ",
+      "published": "2026-06-12T17:59:36Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV",
+        "cs.GR",
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2606.14699v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "76aa68de581d48eb",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Persona-Pruner: Sculpting Lightweight Models for Role-Playing",
+      "summary": "Language Models (LMs) have shown remarkable potential as role-playing chatbots, delivering consistent, stylized interactions when given a specification of a character or user persona. However, applying these capabilities to real-world applications (e.g., ecosystems with numerous NPCs interacting simultaneously) exposes a critical inefficiency due to the excessive computational cost. In this paper, we question the necessity of dedicating a full, generalist model to a single persona, hypothesizing",
+      "published": "2026-06-12T17:58:08Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2606.14695v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3c29d345130c0103",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Flood and Harvest: The Provable Necessity of Trivia for Generating Valuable Mathematics via the Lens of Language Generation in the Limit",
+      "summary": "AI systems coupled to proof assistants now generate formal mathematics at scale, and the gap between what a checker can verify and what a mathematician would value has become the binding constraint. We model the generation of valuable mathematics as nested language generation in the limit: a verifiable formal language $F$, accessed through a membership oracle (the proof checker), contains an unknown valuable language $H \\in \\mathcal{H}$ revealed only through an adversarial enumeration of a core ",
+      "published": "2026-06-12T17:52:24Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL",
+        "cs.DS"
+      ],
+      "url": "https://arxiv.org/abs/2606.14688v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "13bf2ca78b2f2517",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "AgentSpec: Understanding Embodied Agent Scaffolds Through Controlled Composition",
+      "summary": "LLM agents are increasingly built not as single model calls, but as scaffolded systems that combine reasoning, memory, reflection, action execution, and learning. While such scaffolds often improve performance, they are often embedded in tightly coupled pipelines, making it difficult to isolate component contributions, compare alternative designs, or understand how module interactions shape agent behavior. We introduce AgentSpec, a modular specification framework that represents embodied agents ",
+      "published": "2026-06-12T17:39:49Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CL"
       ],
-      "url": "https://arxiv.org/abs/2606.13681v1",
+      "url": "https://arxiv.org/abs/2606.14674v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -709,94 +810,18 @@
       }
     },
     {
-      "id": "338662317667aa68",
+      "id": "849d22e8c48ae641",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Automated reproducibility assessments in the social and behavioral sciences using large language models",
-      "summary": "Reproducibility in the social and behavioral sciences is typically evaluated by independent researchers who reanalyze the original data to assess whether the published findings can be recovered. However, such approaches are resource-intensive and difficult to scale. Here, we show that large language models (LLMs) can automate reproducibility assessments. Using N=76 published studies with predefined claims from the behavioral and social sciences, we compare LLM-generated analysis with the origina",
-      "published": "2026-06-11T17:58:36Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2606.13670v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2cd51f928461131a",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Agents-K1: Towards Agent-native Knowledge Orchestration",
-      "summary": "Current LLM-based research agents have advanced through agent orchestration, yet largely overlook scientific knowledge orchestration. Existing works often reduce papers to abstracts, surface mentions, and flat \\texttt{cites} edges, omitting key entities, claims, evidence, mechanisms, and method lineages essential for scientific reasoning. To this end, we introduce \\textbf{Agents-K1}, an end-to-end knowledge orchestration pipeline that converts raw documents into agent-native scientific knowledge",
-      "published": "2026-06-11T17:58:35Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2606.13669v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a62a2c6fa00982c0",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
-      "summary": "With the growth of LLMs' (Large Language Models) capabilities, there has been an increasing push to curate high quality datasets by filtering samples in the training data. In general, Data Attribution (DA) methods aim to estimate how individual samples in a training dataset can precondition a model to generate certain outputs. As an example, one might be interested in which samples in the data could be the source of toxic behavior after training the LLM. Many methods quantify this conditioning t",
-      "published": "2026-06-11T17:58:33Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2606.13668v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6b57c747d22604dd",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents",
-      "summary": "Tool-augmented LLM agents commonly rely on step-wise atomic tool calls, where each invocation, observation, and value transfer is exposed in the main reasoning trace. This creates an \\emph{execution-granularity mismatch}: locally deterministic tool workflows are unfolded into repeated model-visible decisions, consuming context and forcing the model to manage low-level dataflow in the trace. We introduce \\textbf{HyperTool}, a unified executable MCP-style tool interface that changes the model-visi",
-      "published": "2026-06-11T17:56:36Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2606.13663v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "165fb4e7fa161031",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
-      "summary": "LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scientific solutions, and have produced results that outperform human-designed approaches. As model capabilities continue to improve, we argue that the bottleneck for autonomous scientific discovery is shifting from prescribing agent workflows to designing agent environments: the resources, constraints, and interfac",
-      "published": "2026-06-11T17:56:35Z",
+      "title": "Towards Direct Latent-Space Synthesis for Parallel Branches in LLM-Agent Workflows",
+      "summary": "Large language models increasingly serve as execution engines for agentic systems, yet they still consume context through a sequential text interface. This creates a mismatch with modern structured agent workflows, in which independent branches explore subtasks, retrieve evidence, or generate candidate solutions before a final synthesis step. Existing systems typically merge these branches by concatenating their textual outputs, which discards the parallel structure and incurs redundant prefill ",
+      "published": "2026-06-12T17:39:29Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.AI",
         "cs.CL"
       ],
-      "url": "https://arxiv.org/abs/2606.13662v1",
+      "url": "https://arxiv.org/abs/2606.14672v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -805,37 +830,17 @@
       }
     },
     {
-      "id": "3b20afe129b80ec3",
+      "id": "196c46fcf9cb77b9",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Before You Think: System 0, AI-Mediated Cognition and Cognitive Colonization",
-      "summary": "This paper examines three recent frameworks for understanding the cognitive and epistemic consequences of artificial intelligence: Tri-System Theory, Thinkframes, and System 0. It argues that while the first two capture important dimensions of AI's influence on individual reasoning and collective epistemic practices, System 0 occupies a theoretically distinctive position that neither can fully replicate. The paper introduces the concept of cognitive colonization, according to which AI systems ca",
-      "published": "2026-06-11T17:54:59Z",
+      "title": "When to Write and When to Suppress: Route-Specialized Dual Adapters for Memory-Assisted Knowledge Editing",
+      "summary": "Knowledge editing systems must update selected facts while preserving nearby but irrelevant behavior. This paper studies this problem in a memory-assisted setting where an edit memory is retrieved at inference time and a parameter-efficient adapter corrects the model's object preference. We argue that the central design question is not only how to write an edit, but also when to suppress it. We introduce \\method{}, a route-specialized dual-adapter editor. A relevance router first decides whether",
+      "published": "2026-06-12T17:37:32Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2606.13658v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8a248a459a966ffd",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Operadic consistency: a label-free signal for compositional reasoning failures in LLMs",
-      "summary": "Detecting LLM reasoning failures at inference time without ground-truth labels has motivated a wide range of confidence baselines, including self-consistency, semantic entropy, and P(True), built on within-question sampling and self-evaluation. Operad theory, the formalism for systems built by iterated substitution, suggests a complementary diagnostic: a model's direct answer to a compositional query should agree with the answer it produces by composing a stated decomposition of the same query. ",
-      "published": "2026-06-11T17:50:40Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL",
         "cs.LG"
       ],
-      "url": "https://arxiv.org/abs/2606.13649v1",
+      "url": "https://arxiv.org/abs/2606.14668v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -844,17 +849,17 @@
       }
     },
     {
-      "id": "5c7af219eac71017",
+      "id": "863193c19c7870f5",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Surflo: Consistent 3D Surface Flow Model with Global State",
-      "summary": "Geometry is invariant to viewpoint, which makes any collection of images a redundant encoding of a single 3D state. Existing feed-forward reconstruction models fail to exploit this: per-view methods emit overlapping, unaligned pointmaps that grow linearly with input count, while global-latent methods commit to a fixed, low-resolution output. We introduce Surflo, which compresses a variable number of unposed RGB views into K latent tokens-one global state-and decodes oriented 3D surface points by",
-      "published": "2026-06-11T17:48:38Z",
+      "title": "The Self-Aware Body: A User-Centered Framework for Designing Therapeutic Sonic Interactions",
+      "summary": "This chapter presents a framework for designing therapeutic sonic interaction technologies, with a focus on movement sonification: the real-time conversion of bodily motion into sound that serves as feedback during motor rehabilitation. Despite growing evidence for their effectiveness, technologies implementing movement sonification are yet to be systematically adopted as part of clinical practice, potentially due to a lack of standardized development methodologies as well as inadequate integrat",
+      "published": "2026-06-12T17:34:29Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CV"
+        "cs.HC"
       ],
-      "url": "https://arxiv.org/abs/2606.13644v1",
+      "url": "https://arxiv.org/abs/2606.14664v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -863,17 +868,18 @@
       }
     },
     {
-      "id": "63ee26f879418edd",
+      "id": "a7a6a53bc4557895",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "The Moving Drone: Negotiating Agency Between the Voice and the Virtual",
-      "summary": "Melodic material in Hindustani music is presented in relation to a tonic, usually sustained by the tanpura, a four-stringed drone instrument. Rooted in Hindustani music, 'The Moving Drone' sets the traditionally static drone into motion that, throughout the performance, gains increasing agency transitioning from reactive to more proactive roles. The work employs four independent loopers in Max/MSP to function as 'virtual' drones. They are populated cyclically in real-time as the vocalist improvi",
-      "published": "2026-06-11T17:47:01Z",
+      "title": "Giving AI a Headache: Acoustic Adversarial Attacks to Computer Vision Applications",
+      "summary": "Artificial Intelligence (AI) is increasingly used to automate a variety of real-world computer vision (CV) applications, such as autonomous vehicle control, facial recognition, and security cameras. Recent research has shown that acoustic vibration can induce real physical motion in cameras, interfering with their internal stabilization mechanisms. Because the motion falls outside the conditions the stabilization system was designed to handle, the system introduces artifacts into the frame, caus",
+      "published": "2026-06-12T17:22:53Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.SD"
+        "cs.CV",
+        "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2606.13640v1",
+      "url": "https://arxiv.org/abs/2606.14658v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
