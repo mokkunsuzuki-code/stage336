@@ -1,22 +1,22 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-17T04:25:31.022767+00:00",
+  "generated_at": "2026-06-18T04:18:28.331621+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 40,
+  "item_count": 44,
   "items": [
     {
-      "id": "a10cebee65321f4b",
+      "id": "1f2b8448c1137700",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[litellm] LiteLLM: Authentication Bypass via Host Header Injection",
+      "title": "[vantage6] vantage6 node has an Improper Access Control issue",
       "summary": "",
-      "published": "2026-06-16T23:38:26.000Z",
+      "published": "2026-06-05T16:45:45.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4xpc-pv4p-pm3w",
+      "url": "https://github.com/advisories/GHSA-x9f6-9rvm-mmrg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "6524662c9d1f4187",
+      "id": "b13e21b09b53cd8a",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[yt-dlp] yt-dlp: Arbitrary command injection possible if --exec option used with yt-dlp",
+      "title": "[langflow] Langflow: Unauthenticated file upload leads to DoS (space exhaustion) and information leak",
       "summary": "",
-      "published": "2026-06-16T22:29:14.000Z",
+      "published": "2026-06-17T18:43:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-69qj-pvh9-c5wg",
+      "url": "https://github.com/advisories/GHSA-x223-p2gf-v735",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -44,17 +44,17 @@
       }
     },
     {
-      "id": "d399a98861badeb8",
+      "id": "5acfe4e9234deccd",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[yt-dlp] yt-dlp: Arbitrary code execution via manifest downloads with aria2c",
+      "title": "[nova] OpenStack Nova: Nova scheduler hint injection bypasses Placement resource claims and scheduling constraints",
       "summary": "",
-      "published": "2026-06-16T21:13:47.000Z",
+      "published": "2026-06-16T21:32:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-vx4q-3cr2-7cg2",
+      "url": "https://github.com/advisories/GHSA-mfg3-p6m3-gjgr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -63,17 +63,17 @@
       }
     },
     {
-      "id": "7e526b2e1cdf9d4a",
+      "id": "a37eedd591f619af",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[crawl4ai] Crawl4AI: SSRF via proxy settings in the Docker server bypasses the crawl-URL SSRF check",
+      "title": "[open-webui] Open WebUI: Any authenticated user can read other users' private notes via Socket.IO",
       "summary": "",
-      "published": "2026-06-16T21:02:55.000Z",
+      "published": "2026-06-17T18:05:21.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6qhc-x826-342c",
+      "url": "https://github.com/advisories/GHSA-8788-j68r-3cgh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +82,17 @@
       }
     },
     {
-      "id": "e12cf16253a0715a",
+      "id": "3b3450546043c0a7",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[crawl4ai] Crawl4AI: Arbitrary file write (symlink/TOCTOU) plus log and webhook-header injection in Docker server",
+      "title": "[open-webui] Open WebUI: Authenticated users can target arbitrary configured Ollama backends via unguarded url_idx path parameter",
       "summary": "",
-      "published": "2026-06-16T21:02:19.000Z",
+      "published": "2026-06-17T18:01:50.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7cx2-g3h9-382p",
+      "url": "https://github.com/advisories/GHSA-9rpj-v7hf-vv2w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +101,17 @@
       }
     },
     {
-      "id": "42880aeea1aa47dc",
+      "id": "4f07024b1aba1dda",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[crawl4ai] Crawl4AI: LLM credential exfiltration in Docker server via request base_url and env: token resolution",
+      "title": "[open-webui] Open WebUI: RAG ACL Bypass in Milvus Multitenancy Mode",
       "summary": "",
-      "published": "2026-06-16T21:00:31.000Z",
+      "published": "2026-06-17T17:57:43.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-f989-c77f-r2cq",
+      "url": "https://github.com/advisories/GHSA-p5cp-r7rg-qpxc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +120,17 @@
       }
     },
     {
-      "id": "5c1f3788e3dea989",
+      "id": "daf98b7c420fbe62",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[crawl4ai] Crawl4AI: SSRF filter bypass in Docker server via IPv6 transition forms (NAT64 / 6to4 / unspecified / v4-mapped)",
+      "title": "[open-webui] Open WebUI: SSRF Protection Bypass in Playwright Web Loader via HTTP Redirects",
       "summary": "",
-      "published": "2026-06-16T21:00:04.000Z",
+      "published": "2026-06-17T17:55:44.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4qqr-vv2q-cmr5",
+      "url": "https://github.com/advisories/GHSA-jrfp-m64g-pcwv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +139,17 @@
       }
     },
     {
-      "id": "cc35186521606ca5",
+      "id": "752402951f035e54",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[yt-dlp] yt-dlp: Dangerous file type creation via insufficient filename sanitization (Bypass of CVE-2024-38519)",
+      "title": "[open-webui] Open WebUI: Path traversal / SSRF in terminal server proxy via encoded path traversal",
       "summary": "",
-      "published": "2026-06-16T20:59:42.000Z",
+      "published": "2026-06-17T17:55:28.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-c6mh-fpjc-4pr3",
+      "url": "https://github.com/advisories/GHSA-r2wg-2mcr-66rv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +158,17 @@
       }
     },
     {
-      "id": "00d92bdf0b06a083",
+      "id": "c3d0dee1ac1e7633",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[yt-dlp] yt-dlp: File Downloader cookie leak with curl",
+      "title": "[openclaw] Duplicate Advisory: MCP Streamable HTTP redirects could forward configured custom headers to another origin",
       "summary": "",
-      "published": "2026-06-16T20:16:56.000Z",
+      "published": "2026-06-16T21:31:57.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-f7j3-774f-rfhj",
+      "url": "https://github.com/advisories/GHSA-x7cf-6gp3-q5f8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +177,17 @@
       }
     },
     {
-      "id": "d71ff0af88382c09",
+      "id": "f7106a946d9ab17f",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[crawl4ai] Crawl4AI: Multiple Docker API Vulnerabilities - File Write, SSRF, Auth Bypass, XSS, JS Execution",
+      "title": "[open-webui] Open WebUI BOLA: `search_knowledge_files` Allows Unauthorized Knowledge Base File Enumeration",
       "summary": "",
-      "published": "2026-06-16T20:13:30.000Z",
+      "published": "2026-06-17T14:31:16.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-365w-hqf6-vxfg",
+      "url": "https://github.com/advisories/GHSA-cx9v-4qj2-jrw6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +196,17 @@
       }
     },
     {
-      "id": "20ee271b57d0d552",
+      "id": "5d696f882a7b8657",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[crawl4ai] Crawl4AI: AST Sandbox Escape via gi_frame.f_back Chain - Pre-Auth RCE in Docker API",
+      "title": "[open-webui] Open WebUI Prompt history IDOR: unbound history_id allows cross-prompt read and deletion",
       "summary": "",
-      "published": "2026-06-16T20:13:07.000Z",
+      "published": "2026-06-17T14:16:50.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qxjp-w3pj-48m7",
+      "url": "https://github.com/advisories/GHSA-4r4w-2wgp-w7cj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +215,17 @@
       }
     },
     {
-      "id": "11f136c96fd240f8",
+      "id": "b59d04b21e8462e5",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vllm] vLLM: OpenAI auth bypass",
+      "title": "[open-webui] Open WebUI: Sibling-Prefix Path Traversal via /cache/{path}",
       "summary": "",
-      "published": "2026-06-16T17:36:41.000Z",
+      "published": "2026-06-17T14:16:25.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-94f4-hr76-p5j6",
+      "url": "https://github.com/advisories/GHSA-j2c8-v969-8r5c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +234,17 @@
       }
     },
     {
-      "id": "f31e24ec6fac7155",
+      "id": "9f93c3c31abec1ef",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langflow] Langflow: Unauthenticated Shareable Playground arbitrary local or S3 file read",
+      "title": "[open-webui] Open WebUI: Stored XSS to Account Takeover via Model Profile Images",
       "summary": "",
-      "published": "2026-06-16T17:36:00.000Z",
+      "published": "2026-06-17T14:15:52.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rcjh-r59h-gq37",
+      "url": "https://github.com/advisories/GHSA-v2qm-5wxj-qhj7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +253,17 @@
       }
     },
     {
-      "id": "c4a3f82ced24fb3a",
+      "id": "fd6303856efaff18",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langflow] Langflow: Unauthenticated RCE in Shareable Playgrounds",
+      "title": "[open-webui] Open WebUI: Forged model meta.knowledge allows cross-user file read and deletion",
       "summary": "",
-      "published": "2026-06-16T17:35:32.000Z",
+      "published": "2026-06-17T14:15:33.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-v5ff-9q35-q26f",
+      "url": "https://github.com/advisories/GHSA-vjqm-6gcc-62cr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +272,17 @@
       }
     },
     {
-      "id": "9d06e018e4e9ff1a",
+      "id": "29e030e3a4829c87",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langflow] Langflow: Path Traversal in Knowledge Bases API via Creation Endpoint",
+      "title": "[open-webui] Open WebUI: Stored XSS in Mermaid Markdown Preview",
       "summary": "",
-      "published": "2026-06-16T17:35:09.000Z",
+      "published": "2026-06-17T14:14:05.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-79ph-745m-6wxq",
+      "url": "https://github.com/advisories/GHSA-v8qj-hxv7-mgvv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +291,17 @@
       }
     },
     {
-      "id": "7f212cc36872d796",
+      "id": "90447ef9caeb3487",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vllm] vLLM: Security Check Bypass via assert Statement in Activation Function Loading Allows Arbitrary Code Execution",
+      "title": "[open-webui] Open WebUI: Forged chat-file link allows cross-user file read and deletion",
       "summary": "",
-      "published": "2026-06-16T17:34:49.000Z",
+      "published": "2026-06-17T14:12:20.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-q8gq-377p-jq3r",
+      "url": "https://github.com/advisories/GHSA-vrhc-3fr6-pc3c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +310,17 @@
       }
     },
     {
-      "id": "ec6d98b3427e235e",
+      "id": "0c5511b8dd932cba",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langflow] Langflow: IDOR/BOLA in Monitor API — Missing Ownership Enforcement on 7 Endpoints",
+      "title": "[open-webui] Open WebUI: Cross-user file disclosure via /api/chat/completions image_url field",
       "summary": "",
-      "published": "2026-06-16T17:34:21.000Z",
+      "published": "2026-06-17T14:11:44.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9c59-2mvc-vfr8",
+      "url": "https://github.com/advisories/GHSA-wch8-mhj5-9frg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +329,17 @@
       }
     },
     {
-      "id": "dd40ebce0966903c",
+      "id": "afb2e46ed9c22ce7",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langchain-anthropic] LangChain: Path traversal and sandbox escape in LangChain file-search middleware and loaders",
+      "title": "[open-webui] Open WebUI: Redirect-Bypass SSRF in OAuth `_process_picture_url` (incomplete-fix sibling of CVE-2026-45401)",
       "summary": "",
-      "published": "2026-06-16T15:03:14.000Z",
+      "published": "2026-06-17T14:10:56.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gr75-jv2w-4656",
+      "url": "https://github.com/advisories/GHSA-226f-f24g-524w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,55 +348,17 @@
       }
     },
     {
-      "id": "dd6956eeca585555",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[langchain] LangChain: Path traversal and sandbox escape in LangChain file-search middleware and loaders",
-      "summary": "",
-      "published": "2026-06-16T15:03:14.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-gr75-jv2w-4656",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a38d3db343ea55d8",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[nltk] Natural Language Toolkit (NLTK): URL-Encoded Path Traversal in nltk.data.load() Allows Arbitrary Local File Read",
-      "summary": "",
-      "published": "2026-06-16T14:34:15.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-p4gq-832x-fm9v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "723c72d431f3b38e",
+      "id": "c6186bebf984f77b",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@earendil-works/pi-coding-agent] Pi Agent: Potential XSS in HTML session exports via Markdown URL sanitization bypass",
+      "title": "[webpack-dev-server] webpack-dev-server vulnerable to HMR WebSocket interception via permissive user proxies",
       "summary": "",
-      "published": "2026-06-16T23:43:15.000Z",
+      "published": "2026-06-17T18:13:31.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7v5m-pr3q-6453",
+      "url": "https://github.com/advisories/GHSA-mx8g-39q3-5c79",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +367,17 @@
       }
     },
     {
-      "id": "8466c259312c3055",
+      "id": "9b12f014cae608ea",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@mariozechner/pi-coding-agent] Pi Agent: Potential XSS in HTML session exports via Markdown URL sanitization bypass",
+      "title": "[multer] Multer vulnerable to Denial of Service via deeply nested field names",
       "summary": "",
-      "published": "2026-06-16T23:43:15.000Z",
+      "published": "2026-06-17T18:12:27.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7v5m-pr3q-6453",
+      "url": "https://github.com/advisories/GHSA-72gw-mp4g-v24j",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +386,17 @@
       }
     },
     {
-      "id": "d64a5b1c831d4805",
+      "id": "b43481076705ca27",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@nuxt/rspack-builder] @nuxt/webpack-builder and @nuxt/rspack-builder dev server same-origin check bypassed when Sec-Fetch-Site, Origin, and Referer are all absent (incomplete fix ",
+      "title": "[multer] Multer vulnerable to Denial of Service via incomplete cleanup of aborted uploads",
       "summary": "",
-      "published": "2026-06-16T23:39:16.000Z",
+      "published": "2026-06-17T18:11:48.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-x6qj-4h56-5rj5",
+      "url": "https://github.com/advisories/GHSA-3p4h-7m6x-2hcm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +405,17 @@
       }
     },
     {
-      "id": "3678270380eb290d",
+      "id": "4c3aa88dcee1b60c",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@nuxt/webpack-builder] @nuxt/webpack-builder and @nuxt/rspack-builder dev server same-origin check bypassed when Sec-Fetch-Site, Origin, and Referer are all absent (incomplete fix",
+      "title": "[@anthropic-ai/claude-code] Claude Code: Out-of-Band Data Exfiltration via Pre-Approved HuggingFace Domain in WebFetch",
       "summary": "",
-      "published": "2026-06-16T23:39:16.000Z",
+      "published": "2026-06-17T18:06:06.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-x6qj-4h56-5rj5",
+      "url": "https://github.com/advisories/GHSA-fg94-h982-f3mm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +424,17 @@
       }
     },
     {
-      "id": "019316b1752948ca",
+      "id": "2e3b9b333a3d900a",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nuxt] Cross-site scripting via <NoScript> slot content in Nuxt's head components",
+      "title": "[openclaw] OpenClaw: MCP Streamable HTTP redirects could forward configured custom headers to another origin",
       "summary": "",
-      "published": "2026-06-16T23:38:47.000Z",
+      "published": "2026-06-17T17:55:06.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-m3q2-p4fw-w38m",
+      "url": "https://github.com/advisories/GHSA-rjxq-qqhf-8hwh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +443,17 @@
       }
     },
     {
-      "id": "1c95a3f31965e1fe",
+      "id": "6413aad23799b00f",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[n8n] n8n: SecurityScorecard Node Leaks API Token to User-Controlled Host",
+      "title": "[nocodb] NocoDB: Server-Side Request Forgery via Spreadsheet Import Endpoint",
       "summary": "",
-      "published": "2026-06-16T23:34:10.000Z",
+      "published": "2026-06-17T14:08:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rm2v-h48j-895m",
+      "url": "https://github.com/advisories/GHSA-hmcr-rmjq-47qr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +462,17 @@
       }
     },
     {
-      "id": "90f42acaa2d3c2c8",
+      "id": "1fc71a6825e5a072",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[n8n] n8n: MCP Browser HTTP Transport Exposes Unauthenticated Browser-Control Sessions",
+      "title": "[nocodb] NocoDB: Server-Side Request Forgery via Base Migration URL",
       "summary": "",
-      "published": "2026-06-16T23:32:31.000Z",
+      "published": "2026-06-17T14:08:04.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qrx8-25qr-5r7v",
+      "url": "https://github.com/advisories/GHSA-h6vv-pcq8-7xm4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +481,17 @@
       }
     },
     {
-      "id": "d8882e9a2b34876e",
+      "id": "858a687a151afb5f",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[n8n] n8n: Cross-Tenant Credential Takeover via Dynamic Credentials EE Endpoints",
+      "title": "[nocodb] NocoDB: Stored Cross-Site Scripting via Secure Attachment",
       "summary": "",
-      "published": "2026-06-16T23:32:08.000Z",
+      "published": "2026-06-17T14:07:52.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2j5h-858j-5mpf",
+      "url": "https://github.com/advisories/GHSA-6mhr-74x2-98v9",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +500,17 @@
       }
     },
     {
-      "id": "fef1989ab3242ea9",
+      "id": "260f9322aa5918e9",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[n8n] n8n: Credential Exfiltration via Permission Bypass",
+      "title": "[nocodb] NocoDB: Refresh Tokens Persist Through Password Recovery",
       "summary": "",
-      "published": "2026-06-16T23:02:05.000Z",
+      "published": "2026-06-17T14:07:33.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-pmqw-72cg-wx85",
+      "url": "https://github.com/advisories/GHSA-r989-7g3j-wjhw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +519,17 @@
       }
     },
     {
-      "id": "446088fe2aa2cef8",
+      "id": "6ffc9995cdf3e85a",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[n8n] n8n: Denial of Service via ZIP decompression in webhook workflow",
+      "title": "[nocodb] NocoDB: Server-Side Request Forgery via Spreadsheet Fetch URL",
       "summary": "",
-      "published": "2026-06-16T23:01:51.000Z",
+      "published": "2026-06-17T14:06:43.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jqpw-qww5-cj4c",
+      "url": "https://github.com/advisories/GHSA-gprh-27j3-g5h4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,19 +538,152 @@
       }
     },
     {
-      "id": "4a5729b53d6e60e3",
+      "id": "295958d59d13e936",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[chrome-devtools-mcp] Chrome DevTools for agents: daemon.pid write follows symlinks in /tmp fallback runtime directory",
+      "summary": "",
+      "published": "2026-06-17T14:01:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3pvj-jv98-qhjq",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "02119b104ddea7cb",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[n8n] n8n: Wrong OAuth Scope on Evaluation Test Runs Endpoints",
+      "summary": "",
+      "published": "2026-06-17T13:55:59.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-664h-gpgq-h6xx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1eb75391f21ef48b",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@earendil-works/pi-coding-agent] Pi Agent: Pi loads project-local extensions without approval",
+      "summary": "",
+      "published": "2026-06-17T13:55:44.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mqxh-6gq7-558m",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c0483cf5db2e184f",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@mariozechner/pi-coding-agent] Pi Agent: Predictable temporary extension install paths allow local privilege escalation on shared Linux hosts",
+      "summary": "",
+      "published": "2026-06-17T13:55:13.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jfgx-wxx8-mp94",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "87f6e9c2f4170eec",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@earendil-works/pi-coding-agent] Pi Agent: Predictable temporary extension install paths allow local privilege escalation on shared Linux hosts",
+      "summary": "",
+      "published": "2026-06-17T13:55:13.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jfgx-wxx8-mp94",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e863c01fce2310d6",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@earendil-works/pi-coding-agent] Pi Agent: Race condition in Pi auth.json writes could expose stored credentials",
+      "summary": "",
+      "published": "2026-06-17T13:54:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r95r-rj6r-c39x",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "84e7c817fb1f4bba",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "ReproRepo: Scaling Reproducibility Audits with GitHub Repository Issues",
-      "summary": "Reproducing research results from papers and released code is central to scientific progress. Existing works have introduced benchmarks to evaluate whether LLM agents can assist with reproducibility, but they are difficult to scale due to their reliance on substantial manual effort for data curation and evaluation. We introduce ReproRepo, a scalable framework for reproducibility evaluation that leverages human-raised GitHub issues as naturally occurring supervision on realistic reproduction bloc",
-      "published": "2026-06-16T17:58:05Z",
+      "title": "Learning User Simulators with Turing Rewards",
+      "summary": "Learning to simulate human users in interactive settings could advance the training of agent assistants, evaluation of personalization systems, research in the social sciences, and more. Existing approaches generally do so by training a large language model (LLM) to match a single ground truth response, either by maximizing the log probability or by using a similarity reward. We instead propose {Turing-RL}: a Turing-Test-based reinforcement learning approach for training user simulator models. {",
+      "published": "2026-06-17T17:58:48Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2606.19336v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "61de9cbf473447eb",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Freeing the Law with LOCUS: A Local Ordinance Corpus for the United States",
+      "summary": "Progress in legal AI increasingly depends on access to authoritative legal text at scale. Yet one of the most consequential layers of American law remains largely absent from existing machine-readable corpora: local ordinances. Local codes govern zoning, housing, business licensing, public health, noise, animal control, and many other domains of everyday regulation, but they are fragmented across vendor platforms designed for human browsing rather than bulk research access. We introduce LOCUS - ",
+      "published": "2026-06-17T17:58:22Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CL",
-        "cs.AI",
+        "cs.CY",
         "cs.LG"
       ],
-      "url": "https://arxiv.org/abs/2606.18237v1",
+      "url": "https://arxiv.org/abs/2606.19334v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -597,39 +692,39 @@
       }
     },
     {
-      "id": "81c505e42e026262",
+      "id": "9191dfbc8b9c4b75",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "MAJIC: Leveraging Articulatory Motion for Speech-based Emotion Recognition",
-      "summary": "We introduce MAJIC, a multimodal emotion recognition system that leverages articulatory motion of the jaw and facial muscles for speech-based emotion recognition (SER). While most SER systems perform well on datasets with strongly expressed emotional speech of trained actors, their performance often degrades when emotional expressions become more subtle. We explore this challenge by engineering features from articulatory motion and integrating them with audio features using a multi-task learning",
-      "published": "2026-06-16T17:53:34Z",
+      "title": "Reference-Driven Multi-Speaker Audio Scene Generation from In-the-Wild Priors",
+      "summary": "Existing multi-speaker dialogue systems bind speakers to utterances through structured supervision: per-turn tags, multi-stream transcriptions, or learnable speaker embeddings. These systems operate within speech-only pipelines that produce clean vocal sequences without the ambient texture of real conversations. We take a different approach. Our method, ScenA, conditions a text-to-audio flow-matching foundation model, pretrained on large-scale in-the-wild data, directly on multiple reference voi",
+      "published": "2026-06-17T17:51:50Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.HC"
-      ],
-      "url": "https://arxiv.org/abs/2606.18228v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a80ff521b9a869f7",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Learning Red Agent Policy from Observations for Neurosymbolic Autonomous Cyber Agents",
-      "summary": "With sophisticated cyber-attacks becoming increasingly prevalent, modern networks require intelligent autonomous cyber-defense agents trained via Reinforcement Learning (RL). These agents employ neurosymbolic approaches such as behavior trees with learning-enabled components (LECs) to learn, reason, adapt, and implement security rules while maintaining critical operations. However, these autonomous networks are partially observable systems, i.e., the cyber-attacker's (red agent's) actions are no",
-      "published": "2026-06-16T17:50:41Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CR",
+        "cs.SD",
         "cs.AI",
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2606.19325v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8f970174d9b9e57e",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Explaining Attention with Program Synthesis",
+      "summary": "A longstanding goal of research on interpretable deep learning is to replace opaque neural computations with human-meaningful symbolic descriptions. In this paper, we propose an approach for approximating the behavior of components of deep networks with executable programs. We focus on attention heads in transformer language models. For a given head, we first compute its associated attention matrices on a collection of randomly selected training examples. Next, we prompt a pre-trained language m",
+      "published": "2026-06-17T17:40:55Z",
+      "impact_scope": "metadata-only",
+      "tags": [
         "cs.LG",
-        "eess.SY"
+        "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2606.18223v1",
+      "url": "https://arxiv.org/abs/2606.19317v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -638,18 +733,17 @@
       }
     },
     {
-      "id": "9cdae0bbaf052c56",
+      "id": "959fa1db375b4046",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Gatling: Rapid-Fire Consensus from Parallel Composition",
-      "summary": "Consensus protocols form the core of blockchains and other replicated state machines, ensuring that all correct nodes process the same totally ordered log of input transactions. In fault-free executions, performance is driven by the good-case transaction latency -- the time between a transaction becoming known to all nodes and its confirmation by the consensus protocol -- which depends on both how frequently proposals are made and, once made, how quickly they are confirmed. While prior work has ",
-      "published": "2026-06-16T17:48:47Z",
+      "title": "Diffusion-Proof: Recipe for Formal Theorem Proving Beyond Auto-Regressive Generation",
+      "summary": "Enhancing the formal math reasoning capabilities of Large Language Models (LLMs) has become a key focus in both mathematical and computer science communities in recent years. While significant progress has been made in using state-of-the-art Auto-Regressive (AR) LLMs for formal theorem proving, these models suffer from inherent limitations. Their next-token prediction generation methods may yield suboptimal performance due to the challenges of long-range coherence and the compounding of errors o",
+      "published": "2026-06-17T17:38:32Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CR",
-        "cs.DC"
+        "cs.LG"
       ],
-      "url": "https://arxiv.org/abs/2606.18220v1",
+      "url": "https://arxiv.org/abs/2606.19315v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -658,37 +752,18 @@
       }
     },
     {
-      "id": "1d6d36ba6b48b088",
+      "id": "5d77b1ae66f297ac",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Zone of Proximal Policy Optimization: Teacher in Prompts, Not Gradients",
-      "summary": "Knowledge distillation transfers a teacher's competence to a small student but is brittle in the small-student regime: forcing the student to imitate logits from a much larger teacher concentrates it on the teacher's sharpest modes, hurting generalization on benchmark families beyond the training corpus. Reinforcement learning (RL) avoids logit imitation by training on the student's own rollouts. However, on questions where every rollout fails-yielding zero advantage and being silently discarded",
-      "published": "2026-06-16T17:46:02Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2606.18216v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "02db4952761b28df",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "RubricsTree: Scalable and Evolving Open-Ended Evaluation of Personal Health Agents across Health Memory and Medical Skills",
-      "summary": "The LLM-empowered personal health agents with user health (sensor) metrics have offered a promising pathway to alleviate global disparities in healthcare access. However, large-scale clinical deployment remains constrained by an open-ended evaluation bottleneck: physician annotation is reliable but costly and unscalable, while LLM-as-a-judge evaluators are scalable but subjective, inconsistent, and sometimes clinically misaligned. We introduce RubricsTree, a scalable evaluation framework with an",
-      "published": "2026-06-16T17:34:53Z",
+      "title": "Enhancing Decision-Making with Large Language Models through Multi-Agent Fictitious Play",
+      "summary": "Large language model (LLM)-based multi-agent systems (MAS) have demonstrated great potential in solving tasks with execution complexity, by distributing subtasks across cooperative agents. However, this divide-and-conquer paradigm falls short on decision-making tasks that are also prevalent in the real world. These tasks require simultaneous reasoning from the stances of all involved stakeholders whose decisions are mutually dependent and thus cannot be solved in isolation. We characterize this ",
+      "published": "2026-06-17T17:31:06Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CL",
-        "cs.AI"
+        "cs.MA"
       ],
-      "url": "https://arxiv.org/abs/2606.18203v1",
+      "url": "https://arxiv.org/abs/2606.19308v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -697,18 +772,55 @@
       }
     },
     {
-      "id": "e48ff6565ba0f4ea",
+      "id": "2487d41d2c9fc62d",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Seeing Is Not Screening: Multimodal Hidden Instruction Attacks on Agent Skill Scanners",
-      "summary": "Agent skills are emerging as an important attack surface in LLM-based systems. Through an empirical study of existing skill scanners, we find that current defenses primarily rely on textual descriptions, manifests, and source code as the main signals for security analysis, which can leave visually conveyed malicious intent insufficiently examined. This creates a practical blind spot: harmful operational instructions hidden in images may bypass scanning while still being recoverable by multimodal",
-      "published": "2026-06-16T17:29:11Z",
+      "title": "Secret key-distribution over networks with node-based adversarial errors",
+      "summary": "We study the multiple key-cast problem in network coding under active node-based adversaries. In multiple key-cast, a source generates independent secret keys to be securely and reliably delivered to designated terminal subsets. The network adversary can observe \\(\\ell_o\\) nodes, inject additive or overwrite errors into \\(\\ell_e\\) nodes, and simultaneously observe and corrupt \\(\\ell_{oe}\\) nodes, while having full knowledge of the topology and coding operations. Adversarial models of similar nat",
+      "published": "2026-06-17T17:28:54Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CR",
+        "cs.IT"
+      ],
+      "url": "https://arxiv.org/abs/2606.19305v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e50cdcdb25fbd862",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Direct Tests of Black Hole Accretion Rate Prescriptions: I. Bondi Accretion at Different Scales",
+      "summary": "We present spatially resolved parsec-scale measurements of nuclear conditions (gas density and kinetic temperature) relevant for black hole accretion rate predictions in the Seyfert 2 galaxy, NGC 1068. We inject these parameters into the prescription for a Bondi-like accretion model, then compare the resulting accretion rate prediction to the empirical accretion rate derived from hard X-ray observations. Cosmological simulations have spatial resolution ranging from $\\sim$10 pc to $\\sim$kpc scale",
+      "published": "2026-06-17T17:04:21Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "astro-ph.GA"
+      ],
+      "url": "https://arxiv.org/abs/2606.19285v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7d6f8ecc482e3eb6",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "A Unified Framework for Efficient Remote Sensing Visual Question Answering: Adapting Dual, Hybrid, and Encoder-Decoder Architectures",
+      "summary": "Visual Question Answering (VQA) in the Remote Sensing (RS) domain presents unique challenges due to the high resolution, multi scale object distribution, and semantic complexity of aerial imagery. While general domain Foundation Models have achieved remarkable success, their direct application to RSVQA is hindered by massive domain shifts and the computationally prohibitive nature of full fine tuning. This study presents a comparative analysis of RS Adapter, a Parameter Efficient Fine Tuning (PE",
+      "published": "2026-06-17T16:52:26Z",
+      "impact_scope": "metadata-only",
+      "tags": [
         "cs.CV"
       ],
-      "url": "https://arxiv.org/abs/2606.18198v1",
+      "url": "https://arxiv.org/abs/2606.19277v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -717,57 +829,17 @@
       }
     },
     {
-      "id": "284e08dffc732d6f",
+      "id": "3ba94e445dbb98f0",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Learning from the Self-future: On-policy Self-distillation for dLLMs",
-      "summary": "On-policy self-distillation (OPSD) has proven effective for post-training large language models (LLMs), yet its application to diffusion LLMs (dLLMs) remains unexplored. Existing OPSD methods are inherently autoregressive-centric. They inject privileged information via left-to-right prefix conditioning with token-level divergence supervision, a design that fundamentally conflicts with the arbitraryorder generation of dLLMs. We introduce d-OPSD, the first OPSD framework tailored for dLLMs. Our ap",
-      "published": "2026-06-16T17:24:57Z",
+      "title": "TurboServe: Serving Streaming Video Generation Efficiently and Economically",
+      "summary": "Streaming video generation is emerging as a new serving workload in which users interact with long-lived sessions that generate video progressively, chunk by chunk. Unlike offline video generation or typical LLM serving, streaming video generation must preserve session state across active and idle periods, repeatedly schedule ongoing sessions, and deliver each chunk under a tight latency target. This creates two key serving challenges in multi-user, multi-GPU environments: session duration heter",
+      "published": "2026-06-17T16:48:36Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CL"
+        "cs.DC"
       ],
-      "url": "https://arxiv.org/abs/2606.18195v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4b51a33c8026db4a",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "A Red-Team Study of Anthropic Fable 5 & Opus 4.8 Models",
-      "summary": "We evaluate the adversarial robustness of two frontier large language models (LLMs) developed by Anthropic, Fable 5 and Opus 4.8, against four families of automated jailbreak attack across 7 826 harmful intents spanning a ten-category harm taxonomy. Using the HackAgent red-teaming framework, hundreds of thousands of adversarial attempts were generated and every apparent success was independently re-adjudicated by a panel of three judge models (majority vote). Both models resist the majority of a",
-      "published": "2026-06-16T17:23:58Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CR",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2606.18193v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "73be5c4741882604",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "The Stanford EDGAR Filings Dataset: Reconstructing U.S. Corporate and Financial Disclosures into Layout-Faithful and Token-Efficient Pretraining Data",
-      "summary": "As high-quality public web corpora become increasingly exhausted, clean long-context documents have become a scarce and expensive source of training data for large language models (LLMs). Existing long-context corpora are often proprietary and costly to acquire, synthetically generated, or concentrated in narrow domains such as programming. We introduce the Stanford EDGAR Filings Dataset (SEFD), an open reconstruction of SEC filings into layout-faithful MultiMarkdown for financial language model",
-      "published": "2026-06-16T17:22:34Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2606.18192v1",
+      "url": "https://arxiv.org/abs/2606.19271v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
