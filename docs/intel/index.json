@@ -1,22 +1,22 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-19T04:46:14.004175+00:00",
+  "generated_at": "2026-06-20T04:00:11.370531+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 50,
+  "item_count": 49,
   "items": [
     {
-      "id": "d41c1793aee70a5c",
+      "id": "dc7a0d9f21be4de9",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[kubectl-mcp-server] Open Source Kubectl MCP Server vulnerable to arbitrary code execution via user interaction with crafted HTML page",
+      "title": "[aqt] Anki's local HTTP server does not sufficiently validate requests",
       "summary": "",
-      "published": "2026-05-12T18:30:38.000Z",
+      "published": "2026-06-19T22:10:57.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-94gr-w3q5-rfqr",
+      "url": "https://github.com/advisories/GHSA-869j-r97x-hx2g",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "8afc3ae2a64be331",
+      "id": "3a1cb36bef5bcfbb",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langflow-base] Langflow: DoS Through Lack of File Size Restriction via Deprecated Unauthenticated File Upload API",
+      "title": "[pydantic-settings] pydantic-settings: NestedSecretsSettingsSource follows symlinks outside secrets_dir, enabling local file read and bypassing secrets_dir_max_size",
       "summary": "",
-      "published": "2026-04-20T03:34:42.000Z",
+      "published": "2026-06-19T22:10:42.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-vvfc-fp59-m92g",
+      "url": "https://github.com/advisories/GHSA-4xgf-cpjx-pc3j",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -44,17 +44,17 @@
       }
     },
     {
-      "id": "c24d22eec4cb0398",
+      "id": "36fb8e291247aab1",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[crawl4ai] Crawl4AI: Unauthenticated SSRF on the Docker server streaming crawl path (/crawl/stream)",
+      "title": "[langsmith] LangSmith SDK TracingMiddleware: Arbitrary server-side file read",
       "summary": "",
-      "published": "2026-06-18T17:25:50.000Z",
+      "published": "2026-06-19T22:10:34.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-wm69-2pc3-rmmf",
+      "url": "https://github.com/advisories/GHSA-f4xh-w4cj-qxq8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -63,17 +63,17 @@
       }
     },
     {
-      "id": "81cacd01be535a89",
+      "id": "cf2a9ddc153db6f7",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[crawl4ai] Crawl4AI: Unauthenticated RCE via Chromium launch-argument injection in browser_config.extra_args",
+      "title": "[zeep] Zeep: Server-Side Request Forgery (SSRF)",
       "summary": "",
-      "published": "2026-06-18T17:25:34.000Z",
+      "published": "2026-06-19T22:10:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r253-r9jw-qg44",
+      "url": "https://github.com/advisories/GHSA-4cc2-g9w2-fhf6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +82,17 @@
       }
     },
     {
-      "id": "6dc6afac5b71153f",
+      "id": "9e7b72c0bc20f8b1",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[crawl4ai] Crawl4AI: Arbitrary file write (path traversal) in crawler downloads can lead to RCE",
+      "title": "[aqt] Anki: User scripts in iframes have access to the internal Anki API",
       "summary": "",
-      "published": "2026-06-18T17:25:13.000Z",
+      "published": "2026-06-19T22:10:19.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2jq4-q6vv-4cp3",
+      "url": "https://github.com/advisories/GHSA-cw6h-ffmh-x6vh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +101,17 @@
       }
     },
     {
-      "id": "825a1bc3a3567445",
+      "id": "74dfc5e6ce6a397a",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[netlicensing-mcp] netlicensing-mcp: REST Path Traversal Bypasses Token Redaction",
+      "title": "[ChatterBot] ChatterBot: Symlink-Following Arbitrary Write via UbuntuCorpusTrainer",
       "summary": "",
-      "published": "2026-06-18T17:22:02.000Z",
+      "published": "2026-06-19T22:08:08.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hxpf-9xvq-wph8",
+      "url": "https://github.com/advisories/GHSA-wvrh-2f4m-924v",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +120,17 @@
       }
     },
     {
-      "id": "bce2dcedc91bbcf1",
+      "id": "1fb729c5f9715261",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[marimo] marimo contains a reflected cross-site scripting vulnerability in the notebook page",
+      "title": "[everos] EverOS: Path traversal in EverOS /api/v1/memory/add via unvalidated sender_id",
       "summary": "",
-      "published": "2026-06-18T00:32:36.000Z",
+      "published": "2026-06-19T21:43:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8m59-7xv8-735h",
+      "url": "https://github.com/advisories/GHSA-c795-2g9c-j48m",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +139,17 @@
       }
     },
     {
-      "id": "3832920065eabf96",
+      "id": "9561bf8b208af8fe",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pghoard] PGHoard: Password written to debug log",
+      "title": "[stigmem-node] stigmem-node: decay sweep expires and counts facts across all tenants (cross-tenant BOLA)",
       "summary": "",
-      "published": "2026-06-18T15:05:20.000Z",
+      "published": "2026-06-19T21:43:02.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mpx4-jmpr-vm8v",
+      "url": "https://github.com/advisories/GHSA-6gqw-jqv7-v88m",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +158,17 @@
       }
     },
     {
-      "id": "48e36ea15f312dc9",
+      "id": "649fd34be1fe0189",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pipecat-ai] Pipecat: Telephony WebSocket `/ws` Unauthenticated Call-Control Abuse via Attacker-Supplied Call SID",
+      "title": "[stigmem-node] stistigmem-node: quarantine review surface exposes and mutates other tenants' quarantined facts (cross-tenant BOLA)",
       "summary": "",
-      "published": "2026-06-18T15:05:17.000Z",
+      "published": "2026-06-19T21:43:00.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-j8cv-x86q-rj85",
+      "url": "https://github.com/advisories/GHSA-xhv3-q4xx-349r",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +177,17 @@
       }
     },
     {
-      "id": "f095b88a85dfbe05",
+      "id": "3910b199822fa834",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[jupyter-server] Jupyter Server: Stored XSS in `NbconvertFileHandler` / `NbconvertPostHandler` via missing `sandbox` CSP",
+      "title": "[stigmem-node] stigmem-node: RTBF tombstones are mis-attributed and suppress reads tenant-blind (cross-tenant BOLA)",
       "summary": "",
-      "published": "2026-06-18T15:04:07.000Z",
+      "published": "2026-06-19T21:42:57.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fcw5-x6j4-ccmp",
+      "url": "https://github.com/advisories/GHSA-x26h-xmv8-gxf7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +196,17 @@
       }
     },
     {
-      "id": "10b2c88f6a28d9f5",
+      "id": "84c0cb99e59e08b0",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[bbot] BBOT: Symlink-Following Arbitrary Write via github_workflows Module",
+      "title": "[msgpack] MessagePack for Python: Out-of-bounds read / crash on Unpacker reuse after a caught error",
       "summary": "",
-      "published": "2026-06-18T15:04:00.000Z",
+      "published": "2026-06-19T21:42:55.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rvp7-w75q-9fv2",
+      "url": "https://github.com/advisories/GHSA-6v7p-g79w-8964",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +215,17 @@
       }
     },
     {
-      "id": "778d7ca9eec67a31",
+      "id": "2acee98edff0013c",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[bbot] BBOT: Arbitrary File Write in postman_download Module",
+      "title": "[praisonai] Duplicate Advisory: PraisonAI has Memory State Leakage and Path Traversal in MultiAgent Context Handling",
       "summary": "",
-      "published": "2026-06-18T15:03:38.000Z",
+      "published": "2026-06-19T00:31:37.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-m54h-vhf9-3w3m",
+      "url": "https://github.com/advisories/GHSA-fwh2-95jw-g4j6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +234,17 @@
       }
     },
     {
-      "id": "aba8c6b2f36bfd65",
+      "id": "1da52f1727dd748c",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[bbot] BBOT: Server-Side Request Forgery (SSRF) in docker_pull module via WWW-Authenticate realm parsing",
+      "title": "[praisonai] Duplicate Advisory: PraisonAI: Coarse-Grained Tool Approval Cache Bypasses Per-Invocation Consent for Shell Commands",
       "summary": "",
-      "published": "2026-06-18T15:03:25.000Z",
+      "published": "2026-06-19T00:31:37.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3mp7-vp6j-2mxx",
+      "url": "https://github.com/advisories/GHSA-x44p-gg67-52fc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +253,17 @@
       }
     },
     {
-      "id": "c4a31a5f3662ba6c",
+      "id": "38feaf3b0ce434e1",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[bbot] BBOT: Path traversal (Zip-Slip) in unarchive module - incomplete fix for CVE-2025-10284",
+      "title": "[langflow] Langflow: BaseFileComponent-based nodes arbitrary file read with RCE exploit",
       "summary": "",
-      "published": "2026-06-18T15:02:35.000Z",
+      "published": "2026-06-19T21:18:24.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3vgw-585j-4m45",
+      "url": "https://github.com/advisories/GHSA-ccv6-r384-xp75",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +272,17 @@
       }
     },
     {
-      "id": "e70a4a849ce0acb0",
+      "id": "cb1f559ff1ecf0c1",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[praisonai-platform] praisonai-platform: Authorization Bypass Through User-Controlled Key",
+      "title": "[langflow] Langflow: Unauthenticated DoS through multipart form boundary file upload",
       "summary": "",
-      "published": "2026-06-18T14:48:35.000Z",
+      "published": "2026-06-19T21:17:37.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2fjj-qqg8-fg7x",
+      "url": "https://github.com/advisories/GHSA-qwqc-p3q8-wcg9",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +291,17 @@
       }
     },
     {
-      "id": "c12e4f9d9f063659",
+      "id": "975b05ac0e2d9512",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[picklescan] Duplicate Advisory: picklescan has Arbitrary file read using `io.FileIO`",
+      "title": "[langflow] Langflow: Logout button does not clear session",
       "summary": "",
-      "published": "2026-06-17T18:35:57.000Z",
+      "published": "2026-06-19T21:17:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5v23-73v4-w2fp",
+      "url": "https://github.com/advisories/GHSA-7hw8-6q6r-4276",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +310,17 @@
       }
     },
     {
-      "id": "e4667f0833e677cc",
+      "id": "2e049085299ffbf2",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[picklescan] Duplicate Advisory: PickleScan's pkgutil.resolve_name has a universal blocklist bypass",
+      "title": "[langflow] Langflow: IDOR Vulnerability in `/api/v1/responses` Endpoint Allows Authenticated Attackers to Access Another User's Flow",
       "summary": "",
-      "published": "2026-06-17T18:35:57.000Z",
+      "published": "2026-06-19T21:16:46.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-82fg-2r99-h7v6",
+      "url": "https://github.com/advisories/GHSA-qrpv-q767-xqq2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +329,17 @@
       }
     },
     {
-      "id": "2806f6b618fbd75c",
+      "id": "2b705ae1179366d5",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[picklescan] Duplicate Advisory: Picklescan does not block ctypes",
+      "title": "[py7zr] py7zr: O(n^2) algorithmic complexity DoS in PackInfo._read()",
       "summary": "",
-      "published": "2026-06-17T18:35:56.000Z",
+      "published": "2026-06-19T21:16:33.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7f79-rvx6-vxc4",
+      "url": "https://github.com/advisories/GHSA-h4gh-22qq-72r7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +348,17 @@
       }
     },
     {
-      "id": "016a9e37725706c2",
+      "id": "66cb719fdc262c87",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[picklescan] Duplicate Advisory: Picklescan vulnerable to Arbitrary File Writing",
+      "title": "[py7zr] py7zr: Decompression bomb (zip bomb) denial of service via unchecked extraction size",
       "summary": "",
-      "published": "2026-06-17T18:35:56.000Z",
+      "published": "2026-06-19T21:16:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rmpp-8wf5-xx5q",
+      "url": "https://github.com/advisories/GHSA-gjrg-mpp7-g774",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +367,17 @@
       }
     },
     {
-      "id": "0d97360b5f4481cf",
+      "id": "24415eed4daf429a",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[picklescan] Duplicate Advisory: Picklescan (scan_pytorch) Bypass via dynamic eval MAGIC_NUMBER",
+      "title": "[vcrpy] VCR.py: Arbitrary code execution via unsafe YAML deserialization of cassette files",
       "summary": "",
-      "published": "2026-06-17T18:35:57.000Z",
+      "published": "2026-06-19T21:15:47.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cc5p-54x3-hcf8",
+      "url": "https://github.com/advisories/GHSA-rpj2-4hq8-938g",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -386,17 +386,17 @@
       }
     },
     {
-      "id": "8a4646492fcbece4",
+      "id": "03742f9ea8d4263e",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[dssrf] dssrf: every IPv6 category bypasses is_url_safe",
+      "title": "[@merill/lokka] Lokka: Azure Resource Manager URL path validation issue",
       "summary": "",
-      "published": "2026-05-06T18:13:32.000Z",
+      "published": "2026-06-19T22:10:39.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8p33-q827-ghj5",
+      "url": "https://github.com/advisories/GHSA-g2gw-q38m-vjfc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +405,17 @@
       }
     },
     {
-      "id": "5f5f060844a9c2c8",
+      "id": "18197bc5bc4cc7a5",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[signalk-server] Signal K Server: Server-Side Request Forgery via Remote Connection Endpoints",
+      "title": "[@jhb.software/payload-cloudinary-plugin] @jhb.software/payload-cloudinary-plugin: Arbitrary Cloudinary API Parameter Signing",
       "summary": "",
-      "published": "2026-06-18T21:13:36.000Z",
+      "published": "2026-06-19T22:10:37.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-q59x-jc9f-gfqf",
+      "url": "https://github.com/advisories/GHSA-h5x8-xp6m-x6q4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +424,17 @@
       }
     },
     {
-      "id": "68c55e1e1aa62bbc",
+      "id": "ca7bfe00a68162f7",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[gemini-mcp-tool] gemini-mcp-tool vulnerable to OS command injection and @file exfiltration via prompt quoting (CVE-2026-0755)",
+      "title": "[appium-mcp] appium-mcp: Unescaped Locator Data XSS in MCP-UI Resource (createLocatorGeneratorUI)",
       "summary": "",
-      "published": "2026-06-18T20:44:58.000Z",
+      "published": "2026-06-19T21:43:14.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4h5r-5jm8-jxjm",
+      "url": "https://github.com/advisories/GHSA-x975-rgx4-5fh4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +443,17 @@
       }
     },
     {
-      "id": "8617c7940e311d17",
+      "id": "408accff5c8244ab",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[gemini-mcp-tool] Duplicate Advisory: gemini-mcp-tool vulnerable to OS command injection and @file exfiltration via prompt quoting (CVE-2026-0755)",
+      "title": "[@zenalexa/unicli] Uni-CLI: Legacy HTTP MCP transport accepted browser-originated localhost requests",
       "summary": "",
-      "published": "2026-01-23T06:31:23.000Z",
+      "published": "2026-06-19T21:43:09.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-28qq-5f47-r5x2",
+      "url": "https://github.com/advisories/GHSA-v3f4-w7r7-v3hm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +462,17 @@
       }
     },
     {
-      "id": "8ac95d5a598a3ff7",
+      "id": "7feac71f8dc54d80",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] OpenClaw: Internal/webchat command auth could inherit ownerAllowFrom wildcard state",
+      "title": "[mcp-searxng]  SearXNG MCP Server: DNS-resolved Private Hostname SSRF in `web_url_read`",
       "summary": "",
-      "published": "2026-06-18T20:44:06.000Z",
+      "published": "2026-06-19T21:42:46.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4hpg-mp64-x7xq",
+      "url": "https://github.com/advisories/GHSA-mrvx-jmjw-vggc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +481,17 @@
       }
     },
     {
-      "id": "c03bb08e93bef7b7",
+      "id": "fe4f653cb6d02591",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: Internal/webchat command auth could inherit ownerAllowFrom wildcard state",
+      "title": "[parse-server] parse-server: LiveQuery discloses object data to a subscriber across an ACL read-access change",
       "summary": "",
-      "published": "2026-06-16T21:31:59.000Z",
+      "published": "2026-06-19T21:42:48.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r2fx-hp6p-pgrm",
+      "url": "https://github.com/advisories/GHSA-97pr-9hgg-3p8r",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +500,17 @@
       }
     },
     {
-      "id": "fd512ecfda0ed17c",
+      "id": "852be36c0f8f3429",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] OpenClaw: Empty-scope device re-pairing could confuse caller scope containment",
+      "title": "[mcp-searxng]  SearXNG MCP Server: Unbounded Response Body Read Bypasses URL Size Limit in `web_url_read`",
       "summary": "",
-      "published": "2026-06-18T20:42:40.000Z",
+      "published": "2026-06-19T21:42:43.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8mg9-j9cf-54cj",
+      "url": "https://github.com/advisories/GHSA-xcqx-9jf5-w339",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +519,17 @@
       }
     },
     {
-      "id": "69ee056419705dca",
+      "id": "319ff794ca647e93",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: Empty-scope device re-pairing could confuse caller scope containment",
+      "title": "[network-ai] Network-AI: EnvironmentManager.backup() follows symlinked directories and copies files outside the environment root into backups",
       "summary": "",
-      "published": "2026-06-16T21:31:59.000Z",
+      "published": "2026-06-19T21:42:36.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hc4w-hm59-9w88",
+      "url": "https://github.com/advisories/GHSA-6x2m-p4xp-wg22",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +538,17 @@
       }
     },
     {
-      "id": "55c7e8b40946ceed",
+      "id": "881de7607f4e35ee",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] OpenClaw: Workspace-derived service PATH could influence trash command selection",
+      "title": "[network-ai] Network-AI: EnvironmentManager.restore() backup ID path traversal copies arbitrary directories into environment data",
       "summary": "",
-      "published": "2026-06-18T20:41:36.000Z",
+      "published": "2026-06-19T21:42:38.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rx78-29qr-5hq8",
+      "url": "https://github.com/advisories/GHSA-48x2-6pr9-2jjf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +557,17 @@
       }
     },
     {
-      "id": "9e8ac5a93103d235",
+      "id": "ca45056b04519e26",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: Workspace-derived service PATH could influence trash command selection",
+      "title": "[network-ai] Network-AI: ApprovalInbox HTTP server has no authentication — anyone can approve pending agent actions",
       "summary": "",
-      "published": "2026-06-16T21:32:00.000Z",
+      "published": "2026-06-19T21:42:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2w22-3f6x-3hf4",
+      "url": "https://github.com/advisories/GHSA-mxjx-28vx-xjjj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,17 +576,17 @@
       }
     },
     {
-      "id": "439f6cb28f711431",
+      "id": "16c5e68f56d55a4e",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] OpenClaw: Workspace .env STATE_DIRECTORY could influence bundled runtime dependency roots",
+      "title": "[network-ai] Network-AI: AgentRuntime sandbox path-prefix checks allow file access outside the configured base directory",
       "summary": "",
-      "published": "2026-06-18T20:39:19.000Z",
+      "published": "2026-06-19T21:42:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-wc84-j36w-pw4x",
+      "url": "https://github.com/advisories/GHSA-jvcm-f35g-w78p",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -595,17 +595,17 @@
       }
     },
     {
-      "id": "974aabdefde6dbdc",
+      "id": "9d2b4d2f057a5511",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: Workspace .env STATE_DIRECTORY could influence bundled runtime dependency roots",
+      "title": "[network-ai] Network-AI: Poisoned environment backup manifest allows arbitrary recursive deletion during backup pruning",
       "summary": "",
-      "published": "2026-06-16T21:31:59.000Z",
+      "published": "2026-06-19T21:42:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4qgr-57jq-93vh",
+      "url": "https://github.com/advisories/GHSA-2fmp-9rvw-hc96",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -614,17 +614,17 @@
       }
     },
     {
-      "id": "5ca6046e6661377c",
+      "id": "832d41562cd86eff",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] OpenClaw: Discord allowFrom could bind to mutable display names",
+      "title": "[@bitbonsai/mcpvault] MCPVault: PathFilter restricted directories (.git/.obsidian/node_modules) only denied at vault root, not nested",
       "summary": "",
-      "published": "2026-06-18T20:36:31.000Z",
+      "published": "2026-06-19T21:42:24.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cw4q-gqg5-g38h",
+      "url": "https://github.com/advisories/GHSA-9c83-rr99-vfwj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -633,17 +633,17 @@
       }
     },
     {
-      "id": "954365c3cdaa8770",
+      "id": "3d9f679fe90f026b",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: Discord allowFrom could bind to mutable display names",
+      "title": "[@sveltia/cms] Sveltia CMS: Stored XSS in Markdown/RichText preview via unsandboxed same-origin iframe",
       "summary": "",
-      "published": "2026-06-16T21:31:58.000Z",
+      "published": "2026-06-19T21:42:20.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p44v-rx83-vjp4",
+      "url": "https://github.com/advisories/GHSA-h5jc-78hr-3pc9",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -652,17 +652,17 @@
       }
     },
     {
-      "id": "d19b17a14ffb4dbe",
+      "id": "63636f93c02a3a7d",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] OpenClaw: Focus command could miss controlScope enforcement",
+      "title": "[ts-deepmerge] ts-deepmerge: Prototype Method Override leads to DoS",
       "summary": "",
-      "published": "2026-06-18T20:34:46.000Z",
+      "published": "2026-06-19T06:31:56.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mpc8-jxjh-qpgh",
+      "url": "https://github.com/advisories/GHSA-87mf-gv2c-c62c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -671,17 +671,17 @@
       }
     },
     {
-      "id": "e73bd5eb089309e0",
+      "id": "9162684c1e3ec0dd",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: Focus command could miss controlScope enforcement",
+      "title": "[@outerbase/studio] Outerbase Studio: Stored XSS in Text Widget Leads to Authentication Token Exposure",
       "summary": "",
-      "published": "2026-06-16T21:31:58.000Z",
+      "published": "2026-06-19T21:18:44.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gw2c-6hcg-5g52",
+      "url": "https://github.com/advisories/GHSA-wwf9-7jrc-rv4q",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -690,17 +690,17 @@
       }
     },
     {
-      "id": "d008f4307b939ef5",
+      "id": "3cc7d2a00c7af2ea",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] OpenClaw: Workspace .env npm_execpath could influence bundled runtime dependency install",
+      "title": "[@tinacms/app] TinaCMS: Cross-origin postMessage handlers and rich-text URL-sanitization bypass enable stored XSS and session takeover",
       "summary": "",
-      "published": "2026-06-18T20:33:54.000Z",
+      "published": "2026-06-19T21:15:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-24vr-rprv-67rf",
+      "url": "https://github.com/advisories/GHSA-g5qx-h5f3-mp2f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -709,17 +709,17 @@
       }
     },
     {
-      "id": "787eab18f03ac5c3",
+      "id": "5c06345dcade86ef",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: Workspace .env npm_execpath could influence bundled runtime dependency install",
+      "title": "[tinacms] TinaCMS: Cross-origin postMessage handlers and rich-text URL-sanitization bypass enable stored XSS and session takeover",
       "summary": "",
-      "published": "2026-06-16T21:31:58.000Z",
+      "published": "2026-06-19T21:15:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qp5j-jr73-m2pw",
+      "url": "https://github.com/advisories/GHSA-g5qx-h5f3-mp2f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -728,36 +728,17 @@
       }
     },
     {
-      "id": "09bba15d781d16af",
+      "id": "d2927c3359c4b6c4",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] OpenClaw: Linux and macOS exec allowlists skipped configured argument patterns",
+      "title": "[@tinacms/cli] @tinacms/cli: Remote Code Execution in @tinacms/cli via Forestry migration — unsanitised __TINA_INTERNAL__ marker in user-controlled YAML labels",
       "summary": "",
-      "published": "2026-06-18T20:33:22.000Z",
+      "published": "2026-06-19T21:15:16.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-v2ww-5rh7-2h5v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "df14ae91cbf72818",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: Linux and macOS exec allowlists skipped configured argument patterns",
-      "summary": "",
-      "published": "2026-06-16T21:31:59.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3v3j-737j-7g74",
+      "url": "https://github.com/advisories/GHSA-4936-9hrh-qqpw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
