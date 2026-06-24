@@ -1,10 +1,200 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-23T03:53:01.226683+00:00",
+  "generated_at": "2026-06-24T03:53:55.192963+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 39,
+  "item_count": 47,
   "items": [
+    {
+      "id": "8234b674a34538cb",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[litellm] LiteLLM allows a user to modify their own user_role via the /user/update endpoint",
+      "summary": "",
+      "published": "2026-05-21T21:30:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wpfp-gwwc-vwq6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9f69866c3f549e6a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[litellm] LiteLLM allows an authenticated internal_user to create API keys with access to routes that their role does not permit",
+      "summary": "",
+      "published": "2026-05-21T21:30:36.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qrc4-49gv-mv9m",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "89e24d607c80e6cb",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[Flask-Security] Flask-Security has an Open Redirect issue",
+      "summary": "",
+      "published": "2026-06-23T22:46:31.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w2j7-f3c6-g8cw",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8f266140590ad3ad",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[motioneye] motionEye Partial Authentication Bypass: Unauthenticated Admin Credential Theft via Path Traversal",
+      "summary": "",
+      "published": "2026-06-23T19:09:29.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-phv5-334h-mxcw",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1616ba53755504ae",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[motioneye] motionEye: LFI → pass‑the‑hash admin → unsafe restore → unauth action exec (RCE)",
+      "summary": "",
+      "published": "2026-06-23T18:53:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qxvg-h7q2-hcxh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ba1b77c2a032c931",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[motioneye] motionEye's missing authentication on ActionHandler allows unauthenticated camera action execution",
+      "summary": "",
+      "published": "2026-06-23T18:37:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-j67x-q29f-qcvv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8395cb76ca2f9c57",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[motioneye] motionEye's Absolute Path Traversal in Media File Handlers Allows Arbitrary File Read",
+      "summary": "",
+      "published": "2026-06-23T18:32:46.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rw9q-97r9-8gvh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7596cb34d59d27ec",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[OctoPrint] OctoPrint has possible file exfiltration via query parameters on upload endpoints",
+      "summary": "",
+      "published": "2026-06-23T18:03:54.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-j4h9-pm27-4rfw",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4b9a6ceac15e705b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[glances] Glances has arbitrary file write and command execution via `secure_popen` redirection and chaining operators in AMP command configuration",
+      "summary": "",
+      "published": "2026-06-23T17:59:01.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3vwc-qwhc-3mj7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c19676b86da98a31",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[OctoPrint] OctoPrint has XSS in its Suppressed Command Notifications",
+      "summary": "",
+      "published": "2026-06-23T17:15:14.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-p6qx-ghxm-389h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "8de7e0f76a87cf28",
       "source": "github-advisory-pip",
@@ -158,226 +348,17 @@
       }
     },
     {
-      "id": "132cfe463ae35053",
-      "source": "github-advisory-pip",
+      "id": "d9833595979bcf9a",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[motioneye] motionEye's World-Readable Configuration File Exposes Admin Password Hash",
+      "title": "[@budibase/server] Budibase has nonymous NoSQL operator injection via published-app query templates",
       "summary": "",
-      "published": "2026-06-22T17:11:36.000Z",
+      "published": "2026-06-23T17:43:10.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rhgp-6wq6-9j67",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a39e8df15c279b15",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[motioneye] motionEye has an Arbitrary File Read via Path Traversal in Picture/Movie Preview Endpoint",
-      "summary": "",
-      "published": "2026-06-22T17:10:38.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g9fx-5r4h-pcw3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8e9c9870599df049",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pycti] OpenCTI has Semi-Blind SSRF via Unvalidated External URL in Data Ingestion Feature",
-      "summary": "",
-      "published": "2026-06-22T17:01:22.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-ffm6-vvph-g5f5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dec6cc19ae2bc932",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pycti] OpenCTI May Bypass Introspection Restriction",
-      "summary": "",
-      "published": "2026-06-22T16:43:24.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4mvw-j8r9-xcgc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dc7a0d9f21be4de9",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[aqt] Anki's local HTTP server does not sufficiently validate requests",
-      "summary": "",
-      "published": "2026-06-19T22:10:57.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-869j-r97x-hx2g",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3a1cb36bef5bcfbb",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pydantic-settings] pydantic-settings: NestedSecretsSettingsSource follows symlinks outside secrets_dir, enabling local file read and bypassing secrets_dir_max_size",
-      "summary": "",
-      "published": "2026-06-19T22:10:42.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4xgf-cpjx-pc3j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "36fb8e291247aab1",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[langsmith] LangSmith SDK TracingMiddleware: Arbitrary server-side file read",
-      "summary": "",
-      "published": "2026-06-19T22:10:34.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f4xh-w4cj-qxq8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "cf2a9ddc153db6f7",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[zeep] Zeep: Server-Side Request Forgery (SSRF)",
-      "summary": "",
-      "published": "2026-06-19T22:10:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4cc2-g9w2-fhf6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "9e7b72c0bc20f8b1",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[aqt] Anki: User scripts in iframes have access to the internal Anki API",
-      "summary": "",
-      "published": "2026-06-19T22:10:19.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cw6h-ffmh-x6vh",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "74dfc5e6ce6a397a",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[ChatterBot] ChatterBot: Symlink-Following Arbitrary Write via UbuntuCorpusTrainer",
-      "summary": "",
-      "published": "2026-06-19T22:08:08.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wvrh-2f4m-924v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1fb729c5f9715261",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[everos] EverOS: Path traversal in EverOS /api/v1/memory/add via unvalidated sender_id",
-      "summary": "",
-      "published": "2026-06-19T21:43:12.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-c795-2g9c-j48m",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "9561bf8b208af8fe",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[stigmem-node] stigmem-node: decay sweep expires and counts facts across all tenants (cross-tenant BOLA)",
-      "summary": "",
-      "published": "2026-06-19T21:43:02.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6gqw-jqv7-v88m",
+      "url": "https://github.com/advisories/GHSA-8qv3-p479-cj62",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -728,17 +709,193 @@
       }
     },
     {
-      "id": "7feac71f8dc54d80",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[mcp-searxng]  SearXNG MCP Server: DNS-resolved Private Hostname SSRF in `web_url_read`",
-      "summary": "",
-      "published": "2026-06-19T21:42:46.000Z",
+      "id": "bdc24ea8a89d426d",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "BenchX: Benchmarking AI Models for Cancer Detection and Localization with Demographic and Protocol Biases",
+      "summary": "Artificial intelligence (AI) has achieved remarkable success in medical imaging, but it is widely recognized that these models often perform inconsistently across real-world clinical settings. Such inconsistencies occur when patient demographics and imaging protocols vary, for example, in detecting small tumors, analyzing scans from different contrast phases, or evaluating patients of different ages or sexes. To quantify these inconsistencies, we develop a large-scale, open benchmark of 85,355 C",
+      "published": "2026-06-23T17:58:59Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CV"
       ],
-      "url": "https://github.com/advisories/GHSA-mrvx-jmjw-vggc",
+      "url": "https://arxiv.org/abs/2606.24883v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1cc0891052dc3823",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "The Sylow Divisor Condition: a Resolution of Erdős Problem 768",
+      "summary": "We resolve Erdős Problem 768. Let $A(x)$ count the positive integers $n\\le x$ such that, for every prime $p\\mid n$, there is a divisor $d>1$ of $n$ with $d\\equiv 1 \\pmod p$. Erdős asked whether $A(x)/x=\\exp(-(c+o(1))\\sqrt{\\log x}\\log\\log x)$ for some constant $c>0$. We prove that this holds with $c=1/(2\\sqrt{\\log 2})$; equivalently, $\\log(x/A(x))/(\\sqrt{\\log x}\\log\\log x)$ tends to $1/(2\\sqrt{\\log 2})$. The lower bound is obtained from primes in disjoint logarithmic intervals using a fourth-mome",
+      "published": "2026-06-23T17:51:30Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "math.NT"
+      ],
+      "url": "https://arxiv.org/abs/2606.24872v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "359172d3dabce8b1",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "\"Zooming In\" on Agentic Web Browsers as Assistive Technologies: A Case Study with a Low-Vision Technology Expert",
+      "summary": "Agentic Web Browsers (AWBs), powered by Large Language Models (LLMs), are emerging as autonomous systems capable of navigating the Web on behalf of users. Beyond enhancing productivity, they could also offer significant promise as Assistive Technologies (ATs) for visually-impaired individuals, transforming web interaction into a fluid conversational exchange. In this paper, we present a case study with a low-vision technology expert, examining how AWBs can support visually-impaired users in web ",
+      "published": "2026-06-23T17:48:47Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.HC"
+      ],
+      "url": "https://arxiv.org/abs/2606.24870v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0b94f18c8839b88a",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "First-Order Recoverability Collapse in Self-Referential Information Decoders",
+      "summary": "We study adaptive systems coupling inference to irreversible action under sustained nonequilibrium driving. Treating information processing as a thermodynamic load, we model them as finite-capacity decoders whose irreversible commitments eliminate counterfactual options, and characterize recoverable operation by a feasibility margin and a stability diagnostic fixing when irreversible action is admissible. Under sustained overload -- induced flux exceeding effective integrative capacity -- loss o",
+      "published": "2026-06-23T17:43:41Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cond-mat.stat-mech",
+        "cs.IT"
+      ],
+      "url": "https://arxiv.org/abs/2606.24861v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d42b3be8a7243042",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "summary": "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents. Existing open efforts such as SWE-Smith, SERA, and Nemotron-Terminal typically target a single benchmark, leaving open the question of how to train models that generalize across diverse agentic tasks. The OpenThoughts-Agent (OT-Agent) project addresses this gap with a fully open data curation pipeline for training agentic models. We conduct",
+      "published": "2026-06-23T17:34:29Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2606.24855v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7ad4b4b3f20b49cb",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "It's Complicated: On the Design and Evaluation of AI-Powered AAC Interfaces",
+      "summary": "Artificial intelligence (AI) can enhance what people who use augmentative and alternative communication (AAC) are able to do with their systems. However, evaluating AI-powered AAC interfaces can be difficult. People are intersectional beings and current evaluation metrics can struggle to capture the multifaceted and nuanced desires people may have for their AAC. We explore the complicated nature of six AAC problem spaces, explore how AI might be used in these spaces, and suggest more robust meth",
+      "published": "2026-06-23T17:34:18Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2606.24854v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "129c5d337a5f77a8",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
+      "summary": "Unified multi-modal large language models (MLLMs) have achieved strong text-to-image generation quality, but still struggle with structure-aware prompt following, where object counts, spatial relations, attribute bindings, and coarse layouts must be preserved. We attribute this limitation in part to the entanglement of structural planning and appearance rendering within a single conditioning stream. To address this issue, we propose Implicit Visual Chain-of-Thought (IV-CoT), a latent visual reas",
+      "published": "2026-06-23T17:28:00Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2606.24849v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4f7a1bfb652f2c9a",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Bridging the Manifold Gap: Riemannian Residual Line Search for One-Step Image Editing",
+      "summary": "One-step diffusion editors are fast because they avoid inversion and iterative optimization, but a single transport update must be aggressive enough to realize the target prompt and conservative enough to preserve the source image--and no fixed update strength satisfies both demands across edit types. We treat this tension as a post-hoc candidate-selection problem on top of energy-field transport rather than as a new editing model. Our proposed method, Riemannian Residual Line Search, first buil",
+      "published": "2026-06-23T17:23:53Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2606.24844v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "919d0bea93978cdd",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models",
+      "summary": "Prompt-based learning has emerged as a dominant paradigm in natural language processing. This study explores the impact of diverse pre-training objectives on the performance of encoder-decoder pre-trained language models across generation and question answering tasks, with a focus on commonsense knowledge retrieval and completion. We highlight the benefits of incorporating multiple objectives during both pre-training and fine-tuning stages. We introduce the Match Task to Objective (MTO) framewor",
+      "published": "2026-06-23T17:21:03Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2606.24841v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "521f3bb52ddd96bd",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Grading the Grader: Lessons from Evaluating an Agentic Data Analysis System",
+      "summary": "Agentic data analysis systems produce rich outputs, including code, numerical results, and verbal diagnostics. This makes them more challenging to evaluate than single-turn LLM responses. It is therefore necessary to distinguish genuine disagreement between an agent's output and a ground-truth answer from grading artifacts. We investigate how reliably automated graders assess such a system and what strategies improve grading quality by applying LAMBDA, a multi-agent data-analysis system, on 153 ",
+      "published": "2026-06-23T17:18:28Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "stat.AP"
+      ],
+      "url": "https://arxiv.org/abs/2606.24839v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
