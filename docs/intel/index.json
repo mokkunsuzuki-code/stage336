@@ -1,10 +1,200 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-25T03:55:30.289697+00:00",
+  "generated_at": "2026-06-26T04:01:22.865232+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 47,
+  "item_count": 48,
   "items": [
+    {
+      "id": "e22ee895a53c662b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lemur] Lemur: ACME SSRF + creator-equality IDOR lead to AWS IAM/PKI compromise",
+      "summary": "",
+      "published": "2026-06-25T22:07:19.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-v2wp-frmc-5q3v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "715802a7a75ca032",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lemur]  Lemur: JWT verifier honors attacker-supplied alg, enabling ATO",
+      "summary": "",
+      "published": "2026-06-25T22:05:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r9gp-7f88-9r54",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5bd601ab9100d57d",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lemur] Lemur user-update path stores plaintext passwords",
+      "summary": "",
+      "published": "2026-06-25T22:02:12.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q437-g7fv-2jvv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f44b900228906d52",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lemur] Lemur Privilege Escalation: Non-admin role members can rewrite role membership via PUT /api/1/roles/<id>",
+      "summary": "",
+      "published": "2026-06-25T22:01:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-x3vf-mgxj-7785",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d4ac5e7d600a0251",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lemur] Lemur: Crafted CRL/OCSP URLs in uploaded certificates lead to post-authentication SSRF",
+      "summary": "",
+      "published": "2026-06-25T21:58:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-54vg-pfh7-jq95",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4329f3ae931d0cd4",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lemur] Lemur has an authorization bypass in StrictRolePermission / AuthorityCreatorPermission",
+      "summary": "",
+      "published": "2026-06-25T18:48:39.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qcqw-jwxc-2hqg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f0bdd6f6a63682f5",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[amazon-braket-sdk] amazon-braket-sdk vulnerable to Insecure Deserialization via pickle.loads()",
+      "summary": "",
+      "published": "2026-06-25T18:34:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-g697-2xrc-gc46",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9613b21fd7f921b7",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[langgraph-sdk] LangGraph SDK has unsafe URL path construction",
+      "summary": "",
+      "published": "2026-06-25T18:32:35.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w39p-vh2g-g8g5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9b4182ece03148ca",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[langgraph-checkpoint] LangGraph Checkpoint: Unsafe JSON deserialization in checkpoint loading",
+      "summary": "",
+      "published": "2026-06-25T18:25:42.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fjqc-hq36-qh5p",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d558794d8b825254",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[justhtml] justhtml: to_markdown() code-span blank-line breakout enables XSS",
+      "summary": "",
+      "published": "2026-06-25T17:35:52.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jf6w-2mvx-633j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "8234b674a34538cb",
       "source": "github-advisory-pip",
@@ -177,17 +367,17 @@
       }
     },
     {
-      "id": "c19676b86da98a31",
-      "source": "github-advisory-pip",
+      "id": "3b53943c40a38f3f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[OctoPrint] OctoPrint has XSS in its Suppressed Command Notifications",
+      "title": "[neotoma] neotoma has tenant isolation gap in relationship query endpoints",
       "summary": "",
-      "published": "2026-06-23T17:15:14.000Z",
+      "published": "2026-06-25T17:46:49.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p6qx-ghxm-389h",
+      "url": "https://github.com/advisories/GHSA-wrr4-782v-jhwh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +386,17 @@
       }
     },
     {
-      "id": "8de7e0f76a87cf28",
-      "source": "github-advisory-pip",
+      "id": "f9890f4c0aa59b1c",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[zeroconf] zeroconf: Unvalidated rdlength in record payload readers allows LAN-local cache corruption via crafted mDNS packet",
+      "title": "[i18next-fs-backend] i18next-fs-backend vulnerable to prototype pollution via crafted missing-key string",
       "summary": "",
-      "published": "2026-06-22T23:07:44.000Z",
+      "published": "2026-06-25T17:28:46.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qc2x-6f54-m6h9",
+      "url": "https://github.com/advisories/GHSA-2933-q333-qg83",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +405,17 @@
       }
     },
     {
-      "id": "59bd6cfd9423903a",
-      "source": "github-advisory-pip",
+      "id": "3a3839fc59371491",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[glances] Glances: XML-RPC Server Missing Host Header Validation Enables DNS Rebinding Attack",
+      "title": "[i18next-http-middleware] i18next-http-middleware: MissingKeyHandler does not reject keys whose segments contain prototype-polluting names",
       "summary": "",
-      "published": "2026-06-22T21:31:44.000Z",
+      "published": "2026-06-25T17:28:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-w856-8p3r-p338",
+      "url": "https://github.com/advisories/GHSA-f49m-vf83-692w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,112 +424,17 @@
       }
     },
     {
-      "id": "cf9b3375e3e7bf64",
-      "source": "github-advisory-pip",
+      "id": "c3e94adb39820177",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[glances] Glances: XML-RPC Multi-Origin CORS Configuration Silently Falls Back to Wildcard (Incomplete Fix for CVE-2026-33533)",
+      "title": "[@anthropic-ai/claude-code] @anthropic-ai/claude-code has an Insecure Temporary File in /copy Command that Enables Response Disclosure and Symlink-Based File Write",
       "summary": "",
-      "published": "2026-06-22T21:27:24.000Z",
+      "published": "2026-06-25T16:53:00.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-87qc-fj39-wccr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "616996bb0c602e88",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[glances] Glances has Insecure Pickle Deserialization in its Version Cache that Leads to Arbitrary Code Execution",
-      "summary": "",
-      "published": "2026-06-22T21:21:07.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9837-48hr-q32j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c0bdf5d9b6be4c24",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[glances] Glances is Vulnerable to Command Injection via KVM/QEMU VM Domain Names in glances/plugins/vms/engines/virsh.py",
-      "summary": "",
-      "published": "2026-06-22T21:14:06.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-v5r2-qh84-fjx5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0507df8c3391e286",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[motioneye] motionEye: Authentication possible via password hash",
-      "summary": "",
-      "published": "2026-06-22T20:59:31.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-r3cw-c95m-wfh9",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "205cb3df835452d8",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[comfyui-manager] ComfyUI-Manager has an Unprotected Alternate Channel (CWE-420)",
-      "summary": "",
-      "published": "2026-06-22T19:58:24.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-95pq-hr8p-f5g7",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1ad03dbee7f7bd91",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[comfyui-manager] Duplicate Advisory: ComfyUI-Manager has an Unprotected Alternate Channel (CWE-420)",
-      "summary": "",
-      "published": "2026-01-05T18:30:22.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2hc9-cc65-xwj8",
+      "url": "https://github.com/advisories/GHSA-4vp2-6q8c-pvq2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -633,231 +728,17 @@
       }
     },
     {
-      "id": "03742f9ea8d4263e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@merill/lokka] Lokka: Azure Resource Manager URL path validation issue",
-      "summary": "",
-      "published": "2026-06-19T22:10:39.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g2gw-q38m-vjfc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "18197bc5bc4cc7a5",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@jhb.software/payload-cloudinary-plugin] @jhb.software/payload-cloudinary-plugin: Arbitrary Cloudinary API Parameter Signing",
-      "summary": "",
-      "published": "2026-06-19T22:10:37.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-h5x8-xp6m-x6q4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ca7bfe00a68162f7",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[appium-mcp] appium-mcp: Unescaped Locator Data XSS in MCP-UI Resource (createLocatorGeneratorUI)",
-      "summary": "",
-      "published": "2026-06-19T21:43:14.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-x975-rgx4-5fh4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "408accff5c8244ab",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@zenalexa/unicli] Uni-CLI: Legacy HTTP MCP transport accepted browser-originated localhost requests",
-      "summary": "",
-      "published": "2026-06-19T21:43:09.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-v3f4-w7r7-v3hm",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "73ed3d1596be6921",
+      "id": "9375640ae5202dbf",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "RevengeBench: Reverse Engineering Code-Space Policies from Behavioral Experiments",
-      "summary": "For most of scientific history, researchers studying behavior could only infer hidden mechanisms from outward actions: an inverse problem that becomes more tractable when observation is augmented by targeted intervention. We pose a computational analogue: given only behavioral traces of an agent in a game environment, can a learner reconstruct the underlying decision program as executable code, and how much does this reconstruction improve with the ability to design controlled experiments? We in",
-      "published": "2026-06-24T17:59:46Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2606.26094v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "05f4f1fc7bacb0c1",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Real-Time Voice AI Hears but Does Not Listen",
-      "summary": "Speech conveys information through both words and vocal delivery. We evaluate four leading production realtime voice systems-OpenAI's GPT Realtime 2, Google's Gemini 3.1 Flash Live, and Alibaba's Qwen3.5 Omni Plus and Omni Flash-on tasks where the words and the delivery patterns both convey meaningful information. Across three consequential scenarios, all four systems act on the words rather than the voice. They end calls with crying callers who insist nothing is wrong, approve wire transfers au",
-      "published": "2026-06-24T17:55:38Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL",
-        "eess.AS"
-      ],
-      "url": "https://arxiv.org/abs/2606.26083v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "18aac59070b7f9d3",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
-      "summary": "Process reward models enable fine-grained, step-level evaluation of LLMs, yet building them for agentic settings remains prohibitively difficult: long-horizon interactions, irreversible actions, and stochastic environment feedback make both human annotation and Monte Carlo estimation infeasible at scale. In this work, we show that reinforcement learning (RL) post-training already provides the ingredients for effective step-level scoring, eliminating the need for dedicated reward model training a",
-      "published": "2026-06-24T17:54:08Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2606.26080v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4f7e4112cfa14886",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Same Evidence, Different Answer: Auditing Order Sensitivity in Multimodal Large Language Models",
-      "summary": "Standard benchmarks for multimodal large language models (MLLMs) score each item on one canonical ordering and miss whether order-irrelevant shuffling changes the answer, a baseline reliability property called for by emerging AI evaluation guidelines. We introduce Facet-Probe, a five-facet audit (option, evidence-chunk, document-rank, image-set, and mixed-modality ordering) of 18 frontier and open-weight MLLMs. A Bayesian item-response model separates ordering noise from per-facet bias, and a sa",
-      "published": "2026-06-24T17:53:26Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL",
-        "cs.CV",
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2606.26079v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fe2a143f1bc649d9",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Glossy Silicate Clouds on the Scorched Dayside of LTT9779b",
-      "summary": "Discovered deep within the \"Neptunian desert\", LTT9779b remains the only known ultra-hot Neptune, prompting significant speculation regarding its unique formation and evolutionary history. Its exceptionally high geometric albedo has previously been attributed either to the presence of clouds or to an extremely metal-rich atmosphere. Here, we present a comprehensive panchromatic analysis of its dayside atmosphere using JWST NIRISS and NIRSpec/G395H observations to characterize its atmospheric str",
-      "published": "2026-06-24T17:50:29Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "astro-ph.EP"
-      ],
-      "url": "https://arxiv.org/abs/2606.26075v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "21292c591df15a16",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment",
-      "summary": "A central goal of safety research is determining whether a model is misaligned. Prior work has largely focused on detecting concerning behavior. But behavior alone does not establish misalignment: a concerning action can arise from benign causes such as confusion. This motivates model forensics: investigating whether the action was driven by malign intent. In this paper, we propose a baseline protocol for model forensics consisting of two steps, iterated as needed. First, we read the chain of th",
-      "published": "2026-06-24T17:45:47Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2606.26071v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6d3b6a32ab5f3e95",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "When Certainty Is an Artifact: Keyword Lexicon Blindness and the (Mis)Measurement of Rhetorical Stance",
-      "summary": "Can a statistically significant, large-effect-size finding in computational social science be entirely an artifact of the measurement instrument? We present a case where the answer appears to be yes. Analyzing 85 interviews across four public intellectuals (2016--2026), we find a robust negative-affect/emphatic-certainty lexical co-occurrence pattern under keyword-based scoring ($r = 0.72$--$0.93$, $p < 0.01$ for all four speakers). Replacing keyword counting with LLM-based zero-shot semantic cl",
-      "published": "2026-06-24T17:36:39Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2606.26062v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "570f3fdb36c457f8",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "DomainShuttle: Freeform Open Domain Subject-driven Text-to-video Generation",
-      "summary": "Open domain subject-driven text-to-video (S2V) generation has drawn significant interest in academia and industry. Open domain S2V mainly involves two scenarios: in-domain, which requires retaining the reference subject features as much as possible, and cross-domain, which preserves the intrinsic features of the subject while allowing subject-irrelevant properties to vary flexibly according to the text prompt. Existing methods primarily focus on maximizing subject fidelity in in-domain scenarios",
-      "published": "2026-06-24T17:33:13Z",
+      "title": "Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards",
+      "summary": "Most unified large multimodal models (LMMs) that support both visual understanding and image generation still rely on curated post-training supervision, such as human annotations, preference labels, or external reward models. We ask whether a unified LMM can improve both abilities autonomously using only unlabeled images. We propose a self-evolving training framework with three internal roles: a Proposer that generates visual questions, a Solver that answers and evaluates them, and a Generator t",
+      "published": "2026-06-25T17:59:57Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CV"
       ],
-      "url": "https://arxiv.org/abs/2606.26058v1",
+      "url": "https://arxiv.org/abs/2606.27376v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -866,19 +747,55 @@
       }
     },
     {
-      "id": "95f7a77712f2c415",
+      "id": "580ef3f64125b942",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems",
-      "summary": "AI agents are granted access to tools, APIs, and other infrastructure, making them active principals in those systems. The dominant approach places controls inside the agent's own runtime: system prompts, output filters, and guardrail libraries. Any control in the agent's address space is reachable by inputs that influence it; this generalizes to any AI system with sufficient reach into its own runtime, a class we term escapable AI systems.   We identify four properties that an authorization mec",
-      "published": "2026-06-24T17:32:27Z",
+      "title": "DnA: Denoising Attention for Visual Tasks",
+      "summary": "The softmax activation in multihead attention (MHA) is the de facto standard for attention-based models in visual perception tasks. However, standard softmax can produce noisy attention patterns that dilute relevant features and degrade its performance. In this paper, we propose Denoising Attention or DnA, in which, first, a positive query identifies which image features belong to the correct class, and a negative query identifies closely associated but irrelevant image features. DnA then projec",
+      "published": "2026-06-25T17:59:48Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.AI",
-        "cs.CR",
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2606.27372v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5c89d0b372527637",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Don't Settle at the Mode! Mitigating Diversity Collapse in Pretrained Flow Models via Feature Self-Guidance",
+      "summary": "State-of-the-art flow models generate stunning images from text or image prompts. However, they suffer from diversity collapse when generating multiple samples under the same conditioning. Existing methods address this issue via either latent guidance, which has limited effectiveness, or sample selection, which relies on external reward models that incur significant inference-time overhead. In this work, we introduce an efficient, training-free self-guidance mechanism to mitigate diversity colla",
+      "published": "2026-06-25T17:59:47Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2606.27371v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "17c149aeaceabd75",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Reinforcement Learning without Ground-Truth Solutions can Improve LLMs",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) for training LLMs typically rely on ground-truth answers to assign rewards, limiting their applicability to tasks where the ground-truth solution is unknown. We introduce a \\textbf{R}anking-\\textbf{i}nduced \\textbf{VER}ifiable framework (RiVER) that trains LLMs on score-based optimization tasks without ground-truth solutions, using deterministic execution feedback as continuous-valued supervision. When applying group-relative RL to such conti",
+      "published": "2026-06-25T17:59:36Z",
+      "impact_scope": "metadata-only",
+      "tags": [
         "cs.LG"
       ],
-      "url": "https://arxiv.org/abs/2606.26057v1",
+      "url": "https://arxiv.org/abs/2606.27369v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -887,20 +804,113 @@
       }
     },
     {
-      "id": "1f8f067c68a3a2f2",
+      "id": "bc6f7a65f5e9397a",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Natural Ungrokking: Asymmetric Control of Which Rules Survive Pretraining",
-      "summary": "Midway through an ordinary pretraining run, a small language model learns the pronoun-gender rule: cued with a girl's name (\"Sue cried because\"), it resolves the next pronoun to she, generalizing to held-out probes (0.94 by step 925). By step 3,500 the same model scores near zero on the same probes, although the rule's evidence is still in the training data. We call this within-run reversal natural ungrokking: the corpus decides, with no trace in the loss curve, which learned rules a model keeps",
-      "published": "2026-06-24T17:27:13Z",
+      "title": "When are likely answers right? On Sequence Probability and Correctness in LLMs",
+      "summary": "Many decoding methods for large language models can be understood as shifting probability mass toward outputs that are more likely under the model, either locally at the token level or globally at the sequence level. Therefore, their success depends on a fundamental question: when does sequence probability, that is, the conditional probability of a continuation given a prompt, actually align with correctness? In this paper, we set out to quantify this relationship across decoding methods, models",
+      "published": "2026-06-25T17:58:02Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.LG",
-        "cond-mat.dis-nn",
-        "cs.AI",
+        "stat.ML",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2606.27359v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e6eff76c5151bb64",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "CHIA: An open-source framework for principled, agentic AI-driven hardware/software co-design research",
+      "summary": "Agentic artificial intelligence shows great promise for radically improving the pace of innovation in hardware/software co-design research across computer architecture, systems, compilers, and VLSI. Thus far, however, applications of AI in these contexts have generally been demonstrated in isolated settings on small-scale problems, due to the difficulty of designing and deploying complex AI-infused hardware and software development workflows.   This paper introduces CHIA, an open-source hardware",
+      "published": "2026-06-25T17:55:37Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AR"
+      ],
+      "url": "https://arxiv.org/abs/2606.27350v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "98f5027ffdf10e49",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Mapping Political-Elite Networks in Europe with a Multilingual Joint Entity-Relation Extraction Pipeline",
+      "summary": "Whether political elites organise into rent-seeking coalitions that capture public resources or civic networks that sustain governance is a central question in comparative politics. Yet observing these complex, informal, and adversarial ties at scale has historically required intensive manual coding, while automated text-as-data methods have largely been limited to simple co-occurrence. Recent large language model (LLM) approaches offer a path forward but often rely on proprietary APIs, lack cro",
+      "published": "2026-06-25T17:51:59Z",
+      "impact_scope": "metadata-only",
+      "tags": [
         "cs.CL"
       ],
-      "url": "https://arxiv.org/abs/2606.26050v1",
+      "url": "https://arxiv.org/abs/2606.27347v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "06cda3874db20cb5",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "RayPE: Ray-Space Positional Encoding for 3D-Aware Video Generation",
+      "summary": "Modern video diffusion transformers position their tokens through RoPE on the (u,v,t) axes -- a description of the camera's sampling grid that says nothing about the 3D structure of the scene. We observe that the geometric relation between two camera rays is captured by the Plucker reciprocal product, which is bilinear in the two rays -- the same algebraic form as the dot product in Transformer attention. Building on this analogy, we propose RayPE, a positional-encoding extension that injects pe",
+      "published": "2026-06-25T17:51:02Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2606.27345v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a4589a3acfb6cbc8",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SAM2Matting: Generalized Image and Video Matting",
+      "summary": "Despite impressive advances in image matting, video matting remains challenging due to the inherent gap between high-level tracking, which requires frame-wise understanding, and low-level matting, which focuses on extremely fine-grained details. Existing methods attempt this with expensive and narrowly-scoped video matting datasets, which may limit out-of-domain generalization and compromise tracking robustness. We rethink the paradigm with SAM2Matting, a tracker-to-matting framework that advanc",
+      "published": "2026-06-25T17:48:27Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2606.27339v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "23c79757f94714b5",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Jet impingement cooling with multi-stage ducted electroaerodynamic actuators",
+      "summary": "Modern high-performance mobile electronics impose extreme constraints on thermal management, and traditional cooling methods often fail to meet requirements for power density, form factor, and durability. Jet impingement cooling offers a compelling solution but is typically hindered by the need for bulky ancillary hardware. Here, we demonstrate that compact arrays of reduced-scale electroaerodynamic (EAD) plasma actuators, which are silent, solid-state devices with no moving parts, can be used f",
+      "published": "2026-06-25T17:47:05Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "eess.SY"
+      ],
+      "url": "https://arxiv.org/abs/2606.27338v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
