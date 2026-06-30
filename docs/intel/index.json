@@ -1,7 +1,7 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-29T04:15:54.737393+00:00",
+  "generated_at": "2026-06-30T03:57:00.690437+00:00",
   "mode": "safe-metadata-only",
   "item_count": 29,
   "items": [
@@ -348,6 +348,44 @@
       }
     },
     {
+      "id": "75a7e76962d9e0dd",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[smtp-server] smtp-server's command parser memory exhaustion denial-of-service",
+      "summary": "",
+      "published": "2026-05-15T15:30:45.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fv2f-rw9f-v9cm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "feb31ce22c071665",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[js-yaml] JS-YAML: Quadratic-complexity DoS in merge key handling via repeated aliases",
+      "summary": "",
+      "published": "2026-06-15T17:15:07.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-h67p-54hq-rp68",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
       "id": "06d9074d5470f928",
       "source": "github-advisory-npm",
       "category": "software-advisory",
@@ -511,44 +549,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-3qhv-2rgh-x77r",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "95c68d28d6215c6c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[pnpm] pnpm Vulnerable to Arbitrary File Write/Delete via Malicious Patch File (Path Traversal)",
-      "summary": "",
-      "published": "2026-06-26T22:59:48.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-rxhj-4m44-96r4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ef20e56a08ce6d2b",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[pnpm] pnpm binds unscoped user-level npm auth credentials to a repository-selected registry",
-      "summary": "",
-      "published": "2026-06-26T22:59:25.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cjhr-43r9-cfmw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
