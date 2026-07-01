@@ -1,22 +1,22 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-06-30T03:57:00.690437+00:00",
+  "generated_at": "2026-07-01T04:12:02.269600+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 29,
+  "item_count": 44,
   "items": [
     {
-      "id": "04b2b49107ec7ec4",
+      "id": "2a28a7882f5d86be",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[mcp-pinot-server] mcp-pinot: Unauthenticated tool invocation via default oauth_enabled=False + host 0.0.0.0 bind",
+      "title": "[pyfory] Apache Fory PyFory Deserialization of Untrusted Data",
       "summary": "",
-      "published": "2026-06-26T21:05:43.000Z",
+      "published": "2026-05-21T18:33:09.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-73cv-556c-w3g6",
+      "url": "https://github.com/advisories/GHSA-m5gw-83w2-7749",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "83ba9917771168b7",
+      "id": "68729050c07e4813",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[mcp-memory-service] mcp-memory-service: OAuth read-only clients can write and delete memories through MCP tools/call",
+      "title": "[openmed] OpenMed vulnerable to remote code injection through privacy-filter model loading path",
       "summary": "",
-      "published": "2026-06-26T21:04:38.000Z",
+      "published": "2026-06-02T18:31:33.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2r68-g678-7qr3",
+      "url": "https://github.com/advisories/GHSA-m3v4-v5gx-7wf5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -44,17 +44,17 @@
       }
     },
     {
-      "id": "bbe705f431e78e2e",
+      "id": "3a3eb8ac26950cec",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[dosage] Dosage Vulnerable to Stored Cross-Site Scripting (XSS) in HTML/RSS Output Handlers",
+      "title": "[openbabel] Open Babel has heap buffer overflow in SMILES OBSmilesParser::ParseSmiles",
       "summary": "",
-      "published": "2026-06-26T21:03:43.000Z",
+      "published": "2026-06-30T21:27:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-75mw-h36v-2jv7",
+      "url": "https://github.com/advisories/GHSA-j35x-w4gj-pf7w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -63,17 +63,17 @@
       }
     },
     {
-      "id": "95b911ea4a9475a5",
+      "id": "946405188933ace8",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[joserfc] joserfc: b64=false RFC7797 JWS payloads bypass JWSRegistry payload-size limits during deserialization",
+      "title": "[openbabel] Duplicate Advisory: Open Babel has heap buffer overflow in SMILES OBSmilesParser::ParseSmiles",
       "summary": "",
-      "published": "2026-06-26T20:59:38.000Z",
+      "published": "2025-09-26T03:31:07.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-wphv-vfrh-23q5",
+      "url": "https://github.com/advisories/GHSA-9p6c-jcw8-x98f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +82,17 @@
       }
     },
     {
-      "id": "04c32600a595df01",
+      "id": "8463d3f3dba56727",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[flawfinder] Flawfinder output manipulation via untrusted filenames and source text",
+      "title": "[openbabel] Open Babel has out-of-bounds write (overlapping memcpy) in zipstream basic_unzip_streambuf::underflow",
       "summary": "",
-      "published": "2026-06-26T20:52:25.000Z",
+      "published": "2026-06-30T21:25:25.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4c3c-r6p8-c863",
+      "url": "https://github.com/advisories/GHSA-8j3x-m868-cpw8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +101,17 @@
       }
     },
     {
-      "id": "a56c725c7f5121ea",
+      "id": "dc362a8c8569737f",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[python-socketio] python-socketio: Binary attachment accumulation can cause denial of service",
+      "title": "[openbabel] Duplicate Advisory: Open Babel has out-of-bounds write (overlapping memcpy) in zipstream basic_unzip_streambuf::underflow",
       "summary": "",
-      "published": "2026-06-26T20:51:58.000Z",
+      "published": "2025-09-26T03:31:07.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5w7q-77mv-v69f",
+      "url": "https://github.com/advisories/GHSA-5gfq-xrq4-34rj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +120,17 @@
       }
     },
     {
-      "id": "ff289ed22716d748",
+      "id": "e8a4086805a693ec",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[python-engineio] python-engineio has unbound thread allocation that can cause denial of service",
+      "title": "[openbabel] Open Babel has Use-after-free in GAMESS GAMESSOutputFormat::ReadMolecule",
       "summary": "",
-      "published": "2026-06-26T20:51:37.000Z",
+      "published": "2026-06-30T18:48:57.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cgwc-pv48-fhj5",
+      "url": "https://github.com/advisories/GHSA-pp85-5j63-xpq3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +139,17 @@
       }
     },
     {
-      "id": "189c263cae2d5561",
+      "id": "c4c19ca1c0ddbf06",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[semantic-router] semantic-router exposed to compromised litellm wheel (CVE-2026-42208) via unbounded transitive pin",
+      "title": "[openbabel] Duplicate Advisory: Open Babel has Use-after-free in GAMESS GAMESSOutputFormat::ReadMolecule",
       "summary": "",
-      "published": "2026-06-26T20:51:20.000Z",
+      "published": "2025-09-26T03:31:07.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-98x5-vq43-vc5p",
+      "url": "https://github.com/advisories/GHSA-5fgf-q57f-wwqf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +158,17 @@
       }
     },
     {
-      "id": "b5a00b85d6276668",
+      "id": "7f9c50e76c1abab0",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[python-engineio] python-engineio has possible denial of service due to maximum payload size sometimes not being enforced",
+      "title": "[openbabel] Open Babel has a NULL pointer dereference in CDXML OBAtom::GetExplicitValence",
       "summary": "",
-      "published": "2026-06-26T20:48:18.000Z",
+      "published": "2026-06-30T18:47:28.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-m9gh-vj53-gvh9",
+      "url": "https://github.com/advisories/GHSA-rxpr-wq63-jr7p",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +177,17 @@
       }
     },
     {
-      "id": "a2f172dac0a67b5e",
+      "id": "b643733f2a8c015a",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nono-py] nono-py's policy JSON accepts unknown security fields",
+      "title": "[openbabel] Duplicate Advisory: Open Babel has a NULL pointer dereference in CDXML OBAtom::GetExplicitValence",
       "summary": "",
-      "published": "2026-06-26T20:41:59.000Z",
+      "published": "2026-03-02T06:32:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-m8j6-rc5x-wv36",
+      "url": "https://github.com/advisories/GHSA-fg6r-xgp8-x64r",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +196,17 @@
       }
     },
     {
-      "id": "931d4a42f1cfa39c",
+      "id": "ab6fe00d3e4fcf4d",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nono-py] nono-py vulnerable to authorization bypass / policy confusion",
+      "title": "[openbabel] Open Babel has NULL pointer dereference in MOL2 OBAtom::SetFormalCharge",
       "summary": "",
-      "published": "2026-06-26T20:39:43.000Z",
+      "published": "2026-06-30T18:47:00.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9j7f-3r4p-pwh6",
+      "url": "https://github.com/advisories/GHSA-4w5w-4fhm-q483",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +215,17 @@
       }
     },
     {
-      "id": "5f98960a3d16c5e0",
+      "id": "4df6b5e4e5b80b19",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[backpropagate] Backpropagate: backprop ui --auth and backprop ui --share do not enforce authentication",
+      "title": "[openbabel] Duplicate Advisory: Open Babel has NULL pointer dereference in MOL2 OBAtom::SetFormalCharge",
       "summary": "",
-      "published": "2026-06-26T20:34:29.000Z",
+      "published": "2026-02-19T18:31:51.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-f65r-h4g3-3h9h",
+      "url": "https://github.com/advisories/GHSA-3f56-w4g2-mx64",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +234,17 @@
       }
     },
     {
-      "id": "d54e05a27f303280",
+      "id": "b42ae97f22a5ed78",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nono-py] nono-py has proxy-only network fallback bypass on older Linux kernels",
+      "title": "[openbabel] Open Babel has an out-of-bounds read in CIF transform3d::DescribeAsString",
       "summary": "",
-      "published": "2026-06-26T20:33:48.000Z",
+      "published": "2026-06-30T18:46:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-72w7-mf9g-733p",
+      "url": "https://github.com/advisories/GHSA-6xw4-2g22-26h8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +253,17 @@
       }
     },
     {
-      "id": "78b9230aa90845cf",
+      "id": "2a5b2904d77eaa0f",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pydantic-ai-slim] pydantic-ai: SSRF blocklist bypass via IPv4-compatible, SIIT/IVI, and local NAT64 IPv6 addresses (incomplete fix of CVE-2026-46678)",
+      "title": "[openbabel] Duplicate Advisory: Open Babel has an out-of-bounds read in CIF transform3d::DescribeAsString",
       "summary": "",
-      "published": "2026-06-26T19:17:56.000Z",
+      "published": "2026-02-19T18:31:51.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cg7w-rg45-pc59",
+      "url": "https://github.com/advisories/GHSA-2m54-8m6g-qf93",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +272,17 @@
       }
     },
     {
-      "id": "63b43c3f96a4bf75",
+      "id": "eebb53f7d4cddc8b",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pydantic-ai] pydantic-ai: SSRF blocklist bypass via IPv4-compatible, SIIT/IVI, and local NAT64 IPv6 addresses (incomplete fix of CVE-2026-46678)",
+      "title": "[vllm] vllm has Improper Resource Shutdown or Release",
       "summary": "",
-      "published": "2026-06-26T19:17:56.000Z",
+      "published": "2026-05-26T15:32:10.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cg7w-rg45-pc59",
+      "url": "https://github.com/advisories/GHSA-98f3-hwg4-4rf7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +291,17 @@
       }
     },
     {
-      "id": "e22ee895a53c662b",
+      "id": "270695dc3042d1fe",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[lemur] Lemur: ACME SSRF + creator-equality IDOR lead to AWS IAM/PKI compromise",
+      "title": "[hermes-agent] hermes-agent has an Incorrect Comparison",
       "summary": "",
-      "published": "2026-06-25T22:07:19.000Z",
+      "published": "2026-05-26T13:30:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-v2wp-frmc-5q3v",
+      "url": "https://github.com/advisories/GHSA-cv5c-mh6j-wvp9",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +310,17 @@
       }
     },
     {
-      "id": "715802a7a75ca032",
+      "id": "b627dcdc0dc299d0",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[lemur]  Lemur: JWT verifier honors attacker-supplied alg, enabling ATO",
+      "title": "[apache-airflow-providers-fab] Apache Airflow FAB Auth Manager contains an LDAP filter injection vulnerability",
       "summary": "",
-      "published": "2026-06-25T22:05:17.000Z",
+      "published": "2026-05-26T13:30:41.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r9gp-7f88-9r54",
+      "url": "https://github.com/advisories/GHSA-g283-w6fp-c4fc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +329,169 @@
       }
     },
     {
-      "id": "5bd601ab9100d57d",
+      "id": "5e25bd4146d82f54",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[lemur] Lemur user-update path stores plaintext passwords",
+      "title": "[apache-airflow-providers-google] Apache Airflow providers-google's `ComputeEngineSSHHook` disables SSH host-key verification by default",
       "summary": "",
-      "published": "2026-06-25T22:02:12.000Z",
+      "published": "2026-05-26T13:30:40.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-q437-g7fv-2jvv",
+      "url": "https://github.com/advisories/GHSA-g9v5-gjwf-9rwx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "08df90161dfee1ce",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mlflow] MLflow allows unauthorized access to multipart upload endpoints when the `--serve-artifacts` mode is enabled",
+      "summary": "",
+      "published": "2026-05-26T13:30:39.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8c7q-86fq-vvmh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f9576121aa67f5c6",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[hermes-agent] hermes-agent has a sandbox issue",
+      "summary": "",
+      "published": "2026-05-26T13:30:32.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wm96-9gfh-vvgq",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2687c68ef557b0d6",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` injection",
+      "summary": "",
+      "published": "2026-06-05T20:29:43.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vg35-5wq7-3x7w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c83fa583a0e3b5fc",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@adonisjs/bodyparser] @adonisjs/bodyparser has an incomplete fix for CVE-2026-25754",
+      "summary": "",
+      "published": "2026-06-30T18:34:32.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qcm7-3vpr-hj5h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "21ef0d7ff3b895af",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@cedar-policy/authorization-for-expressjs] @cedar-policy/authorization-for-expressjs has an authorization bypass via query string manipulation",
+      "summary": "",
+      "published": "2026-06-30T18:09:13.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-g4w6-vmgf-xqvx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6af126f38b37b809",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[blitz] Blitz has a Cross-site Scripting issue",
+      "summary": "",
+      "published": "2026-05-26T13:30:53.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-h2p9-cr4h-px24",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "765573cd8ffb6101",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@koa/router] @koa/router has an Access Control Bypass",
+      "summary": "",
+      "published": "2026-05-26T13:30:54.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-47p6-69vm-vw6v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f7933dcb8a832d26",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[echarts] Apache ECharts has a cross-site scripting (XSS) vulnerability",
+      "summary": "",
+      "published": "2026-05-26T13:30:40.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fgmj-fm8m-jvvx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +652,19 @@
       }
     },
     {
-      "id": "b9b48dddae3a9d9b",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[pnpm] pnpm: Repository-controlled configDependencies can select a pacquet native install engine",
-      "summary": "",
-      "published": "2026-06-26T23:20:47.000Z",
+      "id": "7c399ab5b28100c8",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+      "summary": "LLM agents increasingly act over long horizons, where a single trajectory can contain hundreds or thousands of actions. In these settings, outcome-only rewards provide too sparse guidance, failing to inform the model about the goodness of intermediate actions. Dense supervision methods aim to solve this problem by scoring intermediate steps, from intrinsic confidence to self-distillation and embedding similarities. However, it is common practice to evaluate them by measuring the downstream perfo",
+      "published": "2026-06-30T17:58:23Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
       ],
-      "url": "https://github.com/advisories/GHSA-gj8w-mvpf-x27x",
+      "url": "https://arxiv.org/abs/2606.32034v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +673,17 @@
       }
     },
     {
-      "id": "fb6cb996d69a0677",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[pnpm] pnpm: Manifest identity spoof satisfies allowBuilds and runs attacker lifecycle",
-      "summary": "",
-      "published": "2026-06-26T23:18:13.000Z",
+      "id": "af4540e8ba0b9543",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SpheRoPE: Zero-Shot Optimization-Free 360 Panorama Generation with Spherical RoPE",
+      "summary": "We present a zero-shot, training-free and optimization-free framework for generating 360 panoramic images and videos by directly injecting spherical priors into pre-trained diffusion transformers. Existing methods either rely on costly fine-tuning on scarce panoramic data that limits generalization, or leverage multi-step optimization that incurs prohibitive inference latency. We observe that contemporary generative models natively exhibit some panoramic priors from large-scale training. However",
+      "published": "2026-06-30T17:57:04Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CV"
       ],
-      "url": "https://github.com/advisories/GHSA-5wx6-mg75-v57r",
+      "url": "https://arxiv.org/abs/2606.32033v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +692,157 @@
       }
     },
     {
-      "id": "ff84625ddff8c489",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[pnpm] pnpm: Repository config can expand victim environment secrets into registry requests before scripts run",
-      "summary": "",
-      "published": "2026-06-26T23:12:25.000Z",
+      "id": "49d21ea5d891abbb",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
+      "summary": "Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive processes. Yet LLMs exhibit systemic deficiencies in key metacognitive faculties: they hallucinate with high confidence, fail to recognize knowledge boundaries, and misrepresent their internal uncertainty--undermining trustworthiness and reliability. Since monitoring task performance and adapting behavior accordingly are central to metacognition, we posit that models capab",
+      "published": "2026-06-30T17:56:01Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CL",
+        "cs.AI"
       ],
-      "url": "https://github.com/advisories/GHSA-3qhv-2rgh-x77r",
+      "url": "https://arxiv.org/abs/2606.32032v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c266e29e553ba29d",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors",
+      "summary": "While large language models (LLMs) perform well on table tasks, they still make data referencing errors (DREs), i.e., incorrectly citing or omitting table values, despite understanding the table structure. Beyond final-answer accuracy, DREs directly compromise the correctness and reliability of intermediate reasoning steps. Yet prior studies have only offered limited, small-scale analyses. In this work, we present the first systematic evaluation of tabular data referencing errors across differen",
+      "published": "2026-06-30T17:54:50Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2606.32029v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9f0c5e43c3137fb8",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Generative Skill Composition for LLM Agents",
+      "summary": "Recent LLM agents benefit from skills for solving complex tasks. Skills encapsulate modular packages of procedural knowledge and instructions for performing specialized tasks, such as setting up a sandboxed environment, running a test suite, or refactoring a function across multiple files. As skill libraries grow and become reusable across tasks and domains, selecting an appropriate skill composition has emerged as a central bottleneck. Existing approaches fall into two categories. One exposes t",
+      "published": "2026-06-30T17:53:09Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2606.32025v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "524f5bfd2c86a444",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "CoMet: Context and Multiplicity Decomposition for Multimodal Uncertainty Estimation",
+      "summary": "Uncertainty estimation has been a long-standing challenge in AI models; it amounts to \"knowing what you don't know,\" and metacognition is notoriously difficult even for humans (cf. the Dunning-Kruger effect). Although it is still far from solved even in simpler classification systems, tackling it in multimodal large language models (MLLMs) is becoming increasingly important. Within MLLMs, uncertainty can stem from any of the diverse sources as well as from their relationships, and further can st",
+      "published": "2026-06-30T17:46:09Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2606.32012v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4dde084c44879ef7",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Surrogate Fidelity: When Can Open LLMs Explain Closed Ones?",
+      "summary": "Mechanistic interpretability (MI) requires full access to model internals, yet the APIs for most widely deployed language models at best expose log-probabilities over output tokens. This creates a surrogate problem: when do measurements made on open models allow us to make claims about a closed model? We evaluate surrogate fidelity at the prediction, attribution, and representation levels. For binary classification tasks, log-odds provide an API-compatible scalar readout of the model's represent",
+      "published": "2026-06-30T17:43:44Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2606.32008v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "77a5c13db6855d30",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Efficient entanglement of three remote single-atom quantum-network nodes",
+      "summary": "Entanglement distributed over a set of individually addressable qubit nodes is the enabling resource for a plethora of applications ranging from tests of quantum physics to secure and modular quantum information networks. Entanglement between two memory qubits has been realized on various platforms, but extension to more nodes remains rare and formidably challenging. The principal bottleneck is the efficiency of the light-matter interfaces connecting the qubit nodes to their communication channe",
+      "published": "2026-06-30T17:38:48Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.32006v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ed04db9fc850520c",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "PolicyGuard: From Organizational Policies to Neuro-SymbolicCompliance Review Engines",
+      "summary": "Policy-grounded document review requires determining whether a target document complies with organization-specific policies, guidelines, or playbooks. While large language models can assist with policy interpretation and document analysis, end-to-end prompting leaves the applied policy logic implicit, making compliance decisions difficult to inspect, update, and test. We present PolicyGuard, a neuro-symbolic framework for policy-grounded document compliance review. PolicyGuard converts organizat",
+      "published": "2026-06-30T17:37:57Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.LG",
+        "cs.LO",
+        "cs.SC"
+      ],
+      "url": "https://arxiv.org/abs/2606.32004v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "310016c5c9f3fb02",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Self-Study Reconsidered: The Hidden Fragility of Learning from Self-Generated QA",
+      "summary": "Language models are increasingly taught from synthetic question--answer (QA) supervision: a model generates questions about a document, answers them from the same text, and the resulting pairs are used to fine-tune, distill, or compress knowledge into another model. We show that this generation step is not neutral preprocessing. It is an implicit policy that both selects which evidence becomes training signal and decides how that evidence is answered, and it is fragile at both stages. When choos",
+      "published": "2026-06-30T17:35:14Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2606.32002v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
