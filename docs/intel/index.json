@@ -1,10 +1,143 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-07-08T02:56:41.406395+00:00",
+  "generated_at": "2026-07-09T03:35:42.705469+00:00",
   "mode": "safe-metadata-only",
   "item_count": 49,
   "items": [
+    {
+      "id": "94096743ea7d2d1e",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[serena-agent] Serena: Unauthenticated Flask dashboard on fixed port enables DNS rebinding → memory poisoning → RCE",
+      "summary": "",
+      "published": "2026-07-08T21:12:08.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-37h2-6p4f-mp3q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6c6f101ddbdcd551",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pip]  pip: Path traversal in console_scripts/gui_scripts entry point names allows installing scripts outside of target directory",
+      "summary": "",
+      "published": "2026-06-01T18:31:53.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wf93-45jw-7689",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "62f7428a6ed14951",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[trapster] Trapster Community: Unauthenticated malformed DNS compression pointers crash per-packet honeypot handler",
+      "summary": "",
+      "published": "2026-07-08T20:24:46.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mxwc-wh95-pw4g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "cacb2a7d3187a3a5",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lxml_html_clean] `lxml_html_clean.Cleaner` does not strip `javascript:` URLs from namespaced URL attributes",
+      "summary": "",
+      "published": "2026-07-08T20:23:22.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-4jhm-jv67-739f",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "282720a2566ea68a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[apache-airflow] Apache Airflow: Auth manager doesn't invalidate JWT tokens after users click logout",
+      "summary": "",
+      "published": "2026-06-01T09:31:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vr7m-c6v4-8cx8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9a1e9300eb03a2c8",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[apache-airflow-core] Apache Airflow: Execution API JWT leaked via KubernetesExecutor worker command-line args",
+      "summary": "",
+      "published": "2026-06-01T09:31:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5j6p-jrrm-6x94",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8b0a69a1ce823f5d",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[ironic] OpenStack Ironic is Vulnerable to Inclusion of Functionality from Untrusted Control Sphere",
+      "summary": "",
+      "published": "2026-04-28T06:30:29.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wqpv-c3pp-3m58",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "9a7a55641baf389a",
       "source": "github-advisory-pip",
@@ -253,17 +386,17 @@
       }
     },
     {
-      "id": "50935e8b9a179618",
-      "source": "github-advisory-pip",
+      "id": "9355af68f4ef5f90",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[open-webui] Open WebUI vulnerable to stored XSS via unescaped markdown token in MarkdownTokens.svelte leading to full account takeover and RCE via functions",
+      "title": "[waku] Waku has an Open Redirect via `unstable_redirect` Helper",
       "summary": "",
-      "published": "2026-07-07T16:50:59.000Z",
+      "published": "2026-07-08T20:30:21.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9f4f-jv96-8766",
+      "url": "https://github.com/advisories/GHSA-43fc-v873-qw85",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,112 +405,17 @@
       }
     },
     {
-      "id": "9b716a75239fe989",
-      "source": "github-advisory-pip",
+      "id": "b0003213f917ff1b",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[open-webui] Open WebUI  allows limited stored XSS vila uploaded html file",
+      "title": "[waku] Waku: Cross-Origin CSRF on RSC Server Action Dispatch",
       "summary": "",
-      "published": "2026-07-07T16:50:43.000Z",
+      "published": "2026-07-08T20:27:11.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8gh5-qqh8-hq3x",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "03b564ddd07c0e55",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[archivebox] Viewing wget extractor output while logged in as an admin allows archived JS to execute in the admins context",
-      "summary": "",
-      "published": "2023-10-19T16:13:50.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cr45-98w9-gwqx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a291c0a66ada9650",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[onnx] ONNX has Null Pointer Dereference in Upsample Version Converter Adapter (Zero Inputs)",
-      "summary": "",
-      "published": "2026-07-07T13:02:10.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-hwpq-hmq9-wj77",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "977373c2951e28c6",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[kiwitcms] Kiwi TCMS vulnerable to stored XSS via JavaScript: URI in extra_link field (TestPlan & TestCase)",
-      "summary": "",
-      "published": "2026-07-06T21:49:41.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-473p-56xx-vg67",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ca6c6511db4d6803",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[kiwitcms] Kiwi TCMS has an Open Redirect via unvalidated next parameter in account confirmation endpoint",
-      "summary": "",
-      "published": "2026-07-06T21:27:27.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-hmj5-jm8h-h9fh",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "22949104c2348eb6",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[langroid] Langroid: Neo4jChatAgent executes LLM-generated Cypher without validation (prompt-to-Cypher injection; config-conditional RCE), mirroring the SQLChatAgent bug fixed in C",
-      "summary": "",
-      "published": "2026-07-06T21:22:43.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2pq5-3q89-j7cc",
+      "url": "https://github.com/advisories/GHSA-75w3-gmqx-993q",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -709,173 +747,58 @@
       }
     },
     {
-      "id": "70ab551b35de5d77",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using through data-mce- prefixed src, href, style attributes",
-      "summary": "",
-      "published": "2026-06-05T20:27:50.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q742-qvgc-gc2f",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "565684343a601897",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[9router] 9router: Login brute-force protection bypass via spoofed X-Forwarded-For header",
-      "summary": "",
-      "published": "2026-07-06T21:46:20.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-7cfm-pqrj-xgq7",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3cfe14d6087b9423",
+      "id": "794e8e388a147e00",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation",
-      "summary": "Recently, Vision-Language-Action (VLA) models have demonstrated strong generalization across diverse tasks. However, effective robotic manipulation in physical environments fundamentally requires geometric understanding and spatial reasoning. While some VLA approaches attempt to incorporate 3D information, they are constrained by limited data availability and geometric information loss in current 3D encoding pipelines, and fail to jointly capture 3D geometry and temporally structured actions in ",
-      "published": "2026-07-07T17:59:47Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "url": "https://arxiv.org/abs/2607.06564v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "627043ef43fcd2a0",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Vision as Unified Multimodal Generation",
-      "summary": "We formulate computer vision as unified multimodal generation, where heterogeneous visual tasks are expressed in the native text and image generation spaces of a unified multimodal model, without task-specific architectures. Under this formulation, SenseNova-Vision uses natural-language instructions and optional visual prompts to specify tasks, target regions or views, and decoding conventions, and generates responses as text for symbolic outputs, images for dense spatial predictions, or mixed t",
-      "published": "2026-07-07T17:58:33Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV"
-      ],
-      "url": "https://arxiv.org/abs/2607.06560v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e700ce764c17c6e6",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Rethinking Indic AI from a Lens of Cultural Heritage Preservation",
-      "summary": "As Artificial Intelligence (AI) makes inroads into different parts of the Indian subcontinent, there is significant interest in studying how AI impacts the linguistic and cultural foundations of this civilization. AI is seen as a ''double-edged sword'' where on the one hand, it can enable access and inclusion for a large population, on the other, it can homogenize worldviews and exclude underrepresented languages and worldviews. In this paper, we try to characterize this problem by addressing th",
-      "published": "2026-07-07T17:51:10Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2607.06544v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "925a18d9484f0a8a",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "CAIRN: Cross-Room 3D Scene Understanding with Topology-Aware Large Multimodal Models",
-      "summary": "Existing 3D scene-grounded Large Language Models (3D-LLMs) focus on answering questions grounded in simplified single-room 3D scenes, lacking the ability to reason over real-world household environments containing multiple interconnected rooms and diverse object categories. We introduce CAIRN, a topology-aware 3D-LLM for multi-room 3D scene understanding. CAIRN aligns transformer attention with scene hierarchy, giving the model explicit awareness of object-level relations and room-level connecti",
-      "published": "2026-07-07T17:39:41Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV"
-      ],
-      "url": "https://arxiv.org/abs/2607.06534v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "288daf412a7205ca",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "The Large Cancer Assistant (LCA): A Model-Agnostic Orchestration Framework for Scalable Clinical Decision Support in Oncology",
-      "summary": "- Objective: Multimodal deep learning models in oncology are currently limited by monolithic designs that rigidly couple data ingestion, clinical routing, and artificial intelligence (AI) inference. To address this inflexibility, we propose the Large Cancer Assistant (LCA), a model-agnostic, post-hoc orchestration framework designed for scalable clinical decision support. - Methods: The LCA is mathematically formalized as a 7-tuple architecture grounded in the principle of Algorithmic Impermeabi",
-      "published": "2026-07-07T17:38:47Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2607.06531v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "06e0d36ed052b100",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Trust-Aware Citation Cartel Ranking in Scholarly Knowledge Graphs",
-      "summary": "Citation-based systems usually treat each citation as an equal signal of scholarly influence, although citations can express very different relationships: direct method use, result comparison, broad background, or weak ceremonial acknowledgement. This distinction is crucial for citation-cartel analysis because dense internal citation alone is not suspicious; legitimate research communities are also densely connected. We present a trust-aware pipeline that combines citation graph structure with s",
-      "published": "2026-07-07T17:33:12Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.SI"
-      ],
-      "url": "https://arxiv.org/abs/2607.06528v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e8d1ff73ccd6b202",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "RSF-GLLM: Bridging the Semantic Gap in Multi-Hop Knowledge Graph QA via Recurrent Soft-Flow and Decoupled LLM Generation",
-      "summary": "Multi-hop Question Answering over Knowledge Graphs faces a critical challenge: traditional retrieve-then-read pipelines break differentiability, preventing the retriever from learning to bridge the semantic gap where intermediate nodes lack lexical overlap with the query. To address this, we propose RSF-GLLM, a framework decoupling differentiable graph reasoning from answer generation. Our Recurrent Soft-Flow (RSF) module employs a GRU-guided query updater to propagate continuous relevance score",
-      "published": "2026-07-07T17:32:36Z",
+      "title": "Co-LMLM: Continuous-Query Limited Memory Language Models",
+      "summary": "Limited memory language models (LMLMs) externalize factual knowledge during pretraining to a knowledge base (KB), rather than memorizing it in their weights. During generation, the model then fetches knowledge from the KB as needed. This recently introduced paradigm provides multiple advantages, including knowledge control capabilities that remain beyond conventional LLMs. We propose continuous-query LMLM (CO-LMLM), where the KB pairs continuous keys with textual knowledge values, a significant ",
+      "published": "2026-07-08T17:59:45Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2607.07707v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d8df130028f1f6be",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "From Noisy Traces to Root Causes: Structural Trajectory Analysis and Causal Extraction for Agent Optimization",
+      "summary": "The optimization of long-horizon agents increasingly relies on reflection-based mechanisms, where a large language model (LLM) acts as an optimizer to diagnose agent failures and improve agent policies. However, real execution traces are difficult to use directly for optimization: large trace collections are often redundant and heterogeneous, making optimization inefficient and prone to overfitting to low-value failures; meanwhile, each individual trajectory also contains many irrelevant steps, ",
+      "published": "2026-07-08T17:57:27Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2607.07702v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "968d6632392de6db",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass",
+      "summary": "Analytical workloads operating on data stored in external database systems face a fundamental bottleneck: data access is guarded entirely by the database driver, like JDBC or ODBC, forcing all reads through query execution and other driver layers that are not designed for bulk columnar analytics. We present Jailbreak, an approach that bypasses the database engine entirely by reading storage files directly and materializing data as in-memory columnar buffers. Jailbreak's key insight is that datab",
+      "published": "2026-07-08T17:55:00Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.DB",
         "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2607.06527v1",
+      "url": "https://arxiv.org/abs/2607.07696v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -884,17 +807,19 @@
       }
     },
     {
-      "id": "48ea1a67120e709c",
+      "id": "5850fe4d44816e90",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Crossroads: A Smart Contract Layer for Chain-Abstracted Assets",
-      "summary": "This paper introduces Crossroads, a smart contract layer for chain-abstracted assets. In Crossroads, assets from nearly any chain are represented on a single backend blockchain as ERC-20 tokens. As a result, any asset can participate in smart-contract-based exchange, lending, or privacy applications on a single unified platform. So while Crossroads offers cross-chain bridging, a common, partial approach to alleviating the fragmentation of the blockchain ecosystem today, this is just one service ",
-      "published": "2026-07-07T17:31:30Z",
+      "title": "Institutional Red-Teaming: Deployment Rules, Not Just Models, Causally Shape Multi-Agent AI Safety",
+      "summary": "We introduce institutional red-teaming, an evaluation methodology for testing deployment rules in multi-agent AI: hold the agents, objectives, and task state fixed, vary only one rule, and attribute the resulting change in collective behavior to that rule. We instantiate the methodology in IABench-CA, a consequence-allocation benchmark spanning 228 contexts, five canonical rules, and seven model populations (33,924 games), with a normative cooperative reference and auto-labelled reasoning traces",
+      "published": "2026-07-08T17:53:56Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CR"
+        "cs.AI",
+        "cs.GT",
+        "cs.MA"
       ],
-      "url": "https://arxiv.org/abs/2607.06525v1",
+      "url": "https://arxiv.org/abs/2607.07695v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -903,19 +828,19 @@
       }
     },
     {
-      "id": "270bc6c34e64bb60",
+      "id": "4f2185d6739a5425",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Differentially private quantum sensor networks",
-      "summary": "Quantum sensing is a promising technology capable of demonstrating clear advantage over comparable classical techniques for precise measurement. One application of quantum sensing is in function estimation, which can be done using a network of entangled quantum sensors, allowing for measurements with greater optimal sensitivity than unentangled sensing protocols. In cases where quantum sensor networks will be used to measure data that should remain private (e.g., biomedical data), it is imperati",
-      "published": "2026-07-07T17:27:30Z",
+      "title": "Selective Timestep Weighting and Advantage-Based Replay for Sample-Efficient Diffusion RLHF",
+      "summary": "Reinforcement learning from human feedback (RLHF) has emerged as a powerful paradigm for aligning generative models with human preferences. However, applying RLHF to diffusion models remains highly feedback inefficient, as existing approaches typically require large amounts of human or reward model evaluations. This limitation reduces the practicality of diffusion RLHF in realworld settings where feedback is the primary bottleneck. In this paper, we propose two complementary strategies that subs",
+      "published": "2026-07-08T17:49:49Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "quant-ph",
-        "cs.CR",
-        "cs.IT"
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
       ],
-      "url": "https://arxiv.org/abs/2607.06521v1",
+      "url": "https://arxiv.org/abs/2607.07693v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -924,17 +849,94 @@
       }
     },
     {
-      "id": "f898eaeaf018f12a",
+      "id": "0fe48bd0bcdc1411",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "FreqDepthKV: Frequency-Guided Depth Sharing for Robust KV Cache Compression in Long-Context LLM Inference",
-      "summary": "Long-context LLM inference is increasingly limited by the memory and bandwidth cost of KV caches, yet aggressive compression can remove the layer-specific evidence needed for retrieval and multi-step reasoning. We introduce FreqDepthKV, an inference-time cache compression method that factorizes adjacent-layer KV states into shared low-frequency depth components and sparse high-frequency residuals. A lightweight online probe assigns attention heads to shared-depth, residual-depth, or exact cache ",
-      "published": "2026-07-07T17:26:28Z",
+      "title": "Agent Delivery Engineering Predictive Reliability Framework",
+      "summary": "Long-horizon LLM multi-agent systems face reliability risks invisible to infrastructure monitoring. We propose the ADE Predictive Reliability Framework (ADE-PRF), enabling proactive health trajectory prediction from passive degradation detection. ADE-PRF aggregates 20 heterogeneous signals across five layers into a Trust Margin (TM) metric (39.2-point dynamic range). Triple-method parallel prediction enables 8-hour forecasts: the Exponential method achieves MAE=1.228, Direction Accuracy=76.8%, w",
+      "published": "2026-07-08T17:49:08Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.MA"
+      ],
+      "url": "https://arxiv.org/abs/2607.07689v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5214fa4d3243ab36",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "ECGLight: Compute-Light Framework For Paper ECG Digitization and Myocardial Infarction Screening",
+      "summary": "Electrocardiography (ECG) is one of the most widely used tests for diagnosing cardiovascular disease. Yet several remote clinics still utilize paper ECG printouts for their analysis due to limited connectivity and computational capacity. As a result, vast numbers of physical ECGs obtained in remote areas still remain incapable of being accessed by contemporary artificial-intelligence (AI)-based decision support as they require high computational resources or strong high-speed internet connectivi",
+      "published": "2026-07-08T17:42:00Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2607.07683v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ba6b8ccb2f7eb7ec",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SkillCenter: A Large-Scale Source-Grounded Skill Library for Autonomous AI Agents",
+      "summary": "Autonomous AI agents can execute complex tasks with limited human review, yet they often lack the grounded operational knowledge to make their outputs not just executable but correct, secure, and maintainable. We introduce SkillCenter, to our knowledge the largest open skill library for agents by total count: 216,938 structured skills across 24 domain bundles. A SkillGate-filtered pipeline contributes 114,565 source-grounded skills from peer-reviewed journals, ArXiv, and over 24,000 technical so",
+      "published": "2026-07-08T17:34:28Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2607.06519v1",
+      "url": "https://arxiv.org/abs/2607.07676v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "21b0b89d4860ed58",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
+      "summary": "Despite the recent promise in robot control, video generative models suffer from a domain mismatch due to their primary focus on content creation. For example, their design inherently prioritizes visual fidelity and creativity over computational efficiency and physical realism. In this work, we present LingBot-Video, a DiT-based video pretraining paradigm specifically tailored for embodied intelligence. From the architecture perspective, we adopt the Mixture-of-Experts (MoE), instead of dense, f",
+      "published": "2026-07-08T17:33:40Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2607.07675v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4d94c33ce755b6d1",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models",
+      "summary": "Medicine is inherently multimodal, requiring clinicians to synthesize information across diverse data streams. Yet the development of multimodal foundation models is constrained by limited access to large-scale, high-quality clinical data. Although PubMed Central (PMC) offers a complementary source of expert-authored image-text data, existing PMC-derived resources remain limited in fidelity, reproducibility, and clinical validation. We introduce MedPMC, an automated, continuously updatable frame",
+      "published": "2026-07-08T17:26:49Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2607.07673v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
