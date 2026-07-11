@@ -1,10 +1,162 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-07-10T03:37:23.156702+00:00",
+  "generated_at": "2026-07-11T02:52:53.023612+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 49,
+  "item_count": 40,
   "items": [
+    {
+      "id": "93846fbfb656cd80",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[clauster] Clauster: Non-loopback deployments can serve the dashboard unauthenticated when auth.enabled is unset",
+      "summary": "",
+      "published": "2026-07-10T20:37:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-h4g2-xfmw-q2c9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "fdeccb47d8859032",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mcp-atlassian] mcp-atlassian: Arbitrary file read via missing path validation in confluence_upload_attachment",
+      "summary": "",
+      "published": "2026-07-10T19:34:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-g5r6-gv6m-f5jv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "abd307679f82dd64",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mcp-atlassian] mcp-atlassian: Arbitrary server-side file read via attachment upload",
+      "summary": "",
+      "published": "2026-07-10T19:34:30.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wm45-qh3g-v83f",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "732e45c8e8a9f845",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[BabelDOC] BabelDOC: Arbitrary Code Execution via CMap Pickle Deserialization in babeldoc/pdfminer/cmapdb.py",
+      "summary": "",
+      "published": "2026-07-10T19:32:44.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-m8gf-v64p-gfmg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3b3edc39f86d6236",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mlflow] MLflow: Environment variable injection in AI Gateway secrets enables server-side credential exfiltration",
+      "summary": "",
+      "published": "2026-06-03T09:30:28.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-g35p-px32-whv6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "07610312b851b8ef",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[credsweeper] CredSweeper: Recursive archive size-limit bypass in deep scanner allows crafted compressed inputs to exhaust resources",
+      "summary": "",
+      "published": "2026-07-10T19:25:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9mqm-qcwf-5qhg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2d66a9464f4e1442",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mcp-atlassian] MCP Atlassian: DNS-rebinding TOCTOU bypass of the SSRF fix (CVE-2026-27826)",
+      "summary": "",
+      "published": "2026-07-10T18:01:22.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-489g-7rxv-6c8q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c939bb4236519ffc",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[code-index-mcp] Code Index MCP is vulnerable to Uncontrolled Resource Consumption",
+      "summary": "",
+      "published": "2026-06-03T00:30:27.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-647r-72hf-4vmh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "608adc5b7241fe69",
       "source": "github-advisory-pip",
@@ -234,17 +386,17 @@
       }
     },
     {
-      "id": "bb6b17c187b3bbb7",
-      "source": "github-advisory-pip",
+      "id": "9806acfa1943aebf",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[apache-airflow] Apache Airflow Vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
+      "title": "[safeinstall-cli] SafeInstall agent guard shell parsing can miss raw package execution",
       "summary": "",
-      "published": "2026-06-01T09:31:14.000Z",
+      "published": "2026-07-10T19:34:14.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-33g2-gx67-c2h3",
+      "url": "https://github.com/advisories/GHSA-xrmc-c5cg-rv7x",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +405,17 @@
       }
     },
     {
-      "id": "37fc03263c002af7",
-      "source": "github-advisory-pip",
+      "id": "78d40e4ba62e4b44",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[apache-airflow] Apache Airflow has a Link Following issue",
+      "title": "[@wonderwhy-er/desktop-commander] DesktopCommanderMCP is vulnerable to SSRF",
       "summary": "",
-      "published": "2026-06-01T09:31:13.000Z",
+      "published": "2026-06-03T00:30:27.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-89cj-xrpx-j79m",
+      "url": "https://github.com/advisories/GHSA-5xx3-j724-wmx5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +424,17 @@
       }
     },
     {
-      "id": "3ff12390c921eff7",
-      "source": "github-advisory-pip",
+      "id": "2cf0ee5fac2fff99",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[apache-airflow] Apache Airflow has a Missing Authorization issue",
+      "title": "[@wonderwhy-er/desktop-commander] DesktopCommanderMCP is vulnerable to Uncontrolled Resource Consumption",
       "summary": "",
-      "published": "2026-06-01T09:31:13.000Z",
+      "published": "2026-06-03T00:30:27.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-x2x7-p37c-43cr",
+      "url": "https://github.com/advisories/GHSA-r87g-78mx-3wg4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +443,17 @@
       }
     },
     {
-      "id": "fef9e3fd3a54dfa3",
-      "source": "github-advisory-pip",
+      "id": "0006a933c50a18ab",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[prefect] Prefect has an Authentication Middleware Bypass when URL paths are appended with 'health' or 'ready'",
+      "title": "[tarteaucitronjs] tarteaucitron: data-cookie attribute can be used to delete arbitrary cookies",
       "summary": "",
-      "published": "2026-06-02T09:36:15.000Z",
+      "published": "2026-07-10T16:05:00.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-c635-393c-hcx2",
+      "url": "https://github.com/advisories/GHSA-jxj7-g6gm-49j7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +462,17 @@
       }
     },
     {
-      "id": "23673c730508dfc5",
-      "source": "github-advisory-pip",
+      "id": "e59097533fbcfce3",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[apache-airflow] Apache Airflow has a Sensitive Cookie in HTTPS Session Without 'Secure' Attribute",
+      "title": "[@libp2p/gossipsub] libp2p: CPU DoS via oversized IHAVE and IWANT control message arrays",
       "summary": "",
-      "published": "2026-06-01T09:31:13.000Z",
+      "published": "2026-07-10T16:04:49.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-95v7-h9j5-gvjr",
+      "url": "https://github.com/advisories/GHSA-cwc9-cp4j-mcvv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,55 +481,17 @@
       }
     },
     {
-      "id": "3059b517a7a83e40",
-      "source": "github-advisory-pip",
+      "id": "4a3851bb2f4e0c87",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[apache-airflow] Apache Airflow vulnerable to Improper Neutralization of Special Elements Used in a Template Engine",
+      "title": "[morgan] morgan vulnerable to Log Forging via unneutralized control characters in :remote-user",
       "summary": "",
-      "published": "2026-06-01T09:31:14.000Z",
+      "published": "2026-07-10T14:32:15.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-c85c-g9wv-pph2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7d764e79e536344f",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[mlflow] MLflow: Any authenticated user can enumerate all gateway secrets, endpoints, and model definitions",
-      "summary": "",
-      "published": "2026-06-02T06:30:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-r5m9-wm49-959f",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7e46748e7031a031",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[apache-airflow] Apache Airflow Vulnerable to Authorization Bypass Through User-Controlled Key",
-      "summary": "",
-      "published": "2026-06-01T09:31:14.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mxq5-f9c5-w4p5",
+      "url": "https://github.com/advisories/GHSA-4vj7-5mj6-jm8m",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -644,300 +758,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-392p-2q2v-4372",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6d5337713ad3fc2b",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[better-auth] Better Auth has insecure cryptographic defaults in oidcProvider: alg=none advertised and plain PKCE accepted by default",
-      "summary": "",
-      "published": "2026-07-07T20:55:41.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9h47-pqcx-hjr4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "acedb26f884c1d31",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[better-auth] Better Auth has stored XSS in the auth-server origin via javascript: redirect_uri in oidc-provider and mcp",
-      "summary": "",
-      "published": "2026-07-07T20:55:28.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-86j7-9j95-vpqj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c81b63caf7d48741",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[better-auth] Better Auth has an account takeover issue via OAuth auto-link to unverified pre-registered email",
-      "summary": "",
-      "published": "2026-07-07T20:55:13.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g38m-r43w-p2q7",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7e5e2e504cbb2144",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[better-auth] Better Auth vulnerable to unauthorized invitation acceptance via unverified email match in organization plugin",
-      "summary": "",
-      "published": "2026-07-07T20:54:51.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-fmh4-wcc4-5jm3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bd854e8c3dccfae0",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@better-auth/oauth-provider] @better-auth/oauth-provider may provide access tokens for unauthorized audiences via unbound resource indicators",
-      "summary": "",
-      "published": "2026-07-07T20:54:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-p2fr-6hmx-4528",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bbcad61a5a37346b",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "OPSD-V: On-Policy Self-Distillation for Post-Training Few-Step Autoregressive Video Generators",
-      "summary": "We propose OPSD-V, an on-policy self-distillation paradigm for post-training few-step autoregressive (AR) video diffusion models. Existing few-step AR video generators can produce long videos with low latency, but still suffer from error accumulation and weakened motion dynamics during long autoregressive rollout. OPSD-V reduces long-horizon degradation while preserving the original few-step inference path. The key idea is to introduce real long-video data as temporal context during training and",
-      "published": "2026-07-09T17:59:11Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV"
-      ],
-      "url": "https://arxiv.org/abs/2607.08766v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f5a3b76a664d0901",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
-      "summary": "Scientific ideas rarely start from a blank page. They inherit mechanisms, repair known limitations, and recombine pieces of earlier work, much like biological genomes. Current benchmarks still say little about whether AI systems can follow this inheritance structure. We present IdeaGene-Bench (IG-Bench), a benchmark for scientific lineage reasoning and lineage-grounded idea generation. IG-Bench is organized around the IdeaGene framework: each paper or proposal is represented as a set of minimal,",
-      "published": "2026-07-09T17:55:53Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2607.08758v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0d63afa2c6608548",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "DegenDetector: Symbolic Recovery of Parameter Degeneracies in Bayesian Posteriors",
-      "summary": "We introduce DegenDetector, a framework for identifying and characterizing parameter degeneracies in posterior distributions as closed-form symbolic equations. By combining mutual information screening with alternating symbolic regression, we facilitate automated and interpretable identification of degenerate relationships without domain-specific input. While standard tools such as corner plots can indicate that correlations exist, they do not reveal the underlying functional form. DegenDetector",
-      "published": "2026-07-09T17:54:08Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "astro-ph.IM"
-      ],
-      "url": "https://arxiv.org/abs/2607.08755v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c4197d1ebb40dcf9",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "SLORR: Simple and Efficient In-Training Low-Rank Regularization",
-      "summary": "Low-rank factorization is widely used to compress neural networks, but modern models are often not naturally amenable to aggressive factorization without significant accuracy loss. Existing training-time low-rank regularizers can improve compressibility, but they often require SVDs of large weight matrices, modify the model architecture (introducing additional trainable parameters), or rely on stateful cached quantities. To address these limitations, we introduce SLORR, a simple, stateless, and ",
-      "published": "2026-07-09T17:51:50Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2607.08754v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "cd5b2fb98f9d9cd7",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Using AI-based Learning Assistants in Higher Education: A Large-Scale Descriptive Analysis",
-      "summary": "In this study, we present a large-scale descriptive analysis of the use of an AI-based learning assistant (Syntea) in higher education. Based on objective log data from 77,543 students enrolled in distance studies, we examine usage patterns across gender, age group, study cluster, degree, and study mode. To date, existing research on educational chatbots has largely relied on comparatively small samples and self-reported survey data, while large-scale evidence on actual usage behavior remains li",
-      "published": "2026-07-09T17:49:14Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.HC"
-      ],
-      "url": "https://arxiv.org/abs/2607.08748v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "5a21747930a8198a",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
-      "summary": "Generating realistic 3D human motions in real-time within interactive applications is key for animation, simulation, and humanoid robotics. While recent offline motion generation approaches offer precise control via text and kinematic constraints, they lack the inference speed required for interactive settings. Conversely, existing online methods enable real-time synthesis but often sacrifice controllability or struggle with complex text semantics and long-horizon goals due to limited context wi",
-      "published": "2026-07-09T17:41:49Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.GR",
-        "cs.CV",
-        "cs.LG",
-        "cs.RO"
-      ],
-      "url": "https://arxiv.org/abs/2607.08741v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4ec8a27e02a1ff75",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
-      "summary": "Large language model (LLM) applications increasingly use explicit workflows for tool use, retrieval, branching, checkpointing, and human approval. Existing workflow systems already address many execution concerns. This paper proposes a Lisp-inspired but language-independent conceptual model: symbolic forms, object identity, and live-image thinking are used as explanatory lenses, not implementation commitments. In this model, workflow definitions, workflow instances, inference records, context sn",
-      "published": "2026-07-09T17:40:46Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.PL",
-        "cs.SE"
-      ],
-      "url": "https://arxiv.org/abs/2607.08740v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "71dff954f9b8910b",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs",
-      "summary": "Post-training quantization is widely used to deploy large language models in resource-constrained settings, yet its evaluation relies almost exclusively on accuracy and perplexity. We show that these metrics fail to capture behavioral changes induced by quantization. We introduce correctness agreement, a decision-level metric that measures overlap in correct predictions between a base model and its quantized variants, independent of absolute accuracy. Across multiple models and quantization sche",
-      "published": "2026-07-09T17:35:02Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2607.08734v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a9770c9f6eb28fc9",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Super Weights in LLMs and the Failure of Selective Training",
-      "summary": "Recent work identified Super Weights, individual parameters whose removal degrades model performance by orders of magnitude. We show that this degradation due to pruning Super Weights does not universally apply to all LLMs. Furthermore, if these parameters are so important, Super Weight-aware training should be effective. We show the opposite. Training Super Weights in isolation (100 to 8,192 parameters) drops accuracy to random-guessing levels on both OLMo-1B and OLMo-7B, and expanding to local",
-      "published": "2026-07-09T17:35:00Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2607.08733v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ab174938e50cb437",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Validity of LLMs as data annotators: AMALIA on authority",
-      "summary": "A national language model offers a linguistic community its own instrument for measuring what its citizens say and value. Portugal's AMALIA, a publicly funded 9B-parameter model for European Portuguese, appears competitive on agreement alone: asked to code the moral foundation of authority, it agrees with trained human coders to within six F1 points of open models eight to thirteen times its size. Yet agreement is reliability, not validity. For theoretical constructs that must be inferred rather",
-      "published": "2026-07-09T17:34:25Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL",
-        "cs.AI",
-        "cs.CY"
-      ],
-      "url": "https://arxiv.org/abs/2607.08731v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
