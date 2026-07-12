@@ -1,10 +1,48 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-07-11T02:52:53.023612+00:00",
+  "generated_at": "2026-07-12T03:17:28.969310+00:00",
   "mode": "safe-metadata-only",
   "item_count": 40,
   "items": [
+    {
+      "id": "2e2ab3018a942890",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[daphne] daphne: WebSocket handshake header smuggling through autobahn splitlines() mishandling of non-standard line separators",
+      "summary": "",
+      "published": "2026-06-03T15:30:43.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xh68-hfp5-5x5m",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a7266fc6c733437a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[daphne] daphne: Unauthenticated attackers can cause excessive memory consumption by sending arbitrarily large WebSocket messages/frames",
+      "summary": "",
+      "published": "2026-06-03T15:30:42.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rrc9-mx66-ffcm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "93846fbfb656cd80",
       "source": "github-advisory-pip",
@@ -340,44 +378,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-cg3x-89rc-x9mw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "00a2d3d0dcd16b74",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[apache-airflow] Apache Airflow Vulnerable to Deserialization of Untrusted Data",
-      "summary": "",
-      "published": "2026-06-01T09:31:14.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2r5m-76wx-56gx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "aadb2dd6914592aa",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[apache-airflow] Apache Airflow has an Incorrect Authorization issue",
-      "summary": "",
-      "published": "2026-06-01T09:31:14.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-x5wm-j6wh-2834",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
