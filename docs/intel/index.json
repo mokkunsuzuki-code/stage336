@@ -1,9 +1,9 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-07-12T03:17:28.969310+00:00",
+  "generated_at": "2026-07-13T03:20:10.438938+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 40,
+  "item_count": 50,
   "items": [
     {
       "id": "2e2ab3018a942890",
@@ -758,6 +758,202 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-392p-2q2v-4372",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3d101810af1a6c95",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Impact of Benign Connectivity Variations on Intrusion Detection for Encrypted OPC UA Traffic in Industrial Private 5G Networks",
+      "summary": "Machine learning (ML)-based intrusion detection systems (IDSs) are increasingly used to monitor encrypted industrial communication. However, their behavior under realistic private 5G operating conditions remains insufficiently understood. This paper investigates the impact of benign connectivity variations on ML-based IDSs for encrypted Open Platform Communications Unified Architecture (OPC UA) traffic in industrial private 5G networks. Experimental results show that legitimate connectivity even",
+      "published": "2026-07-10T17:58:55Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CR"
+      ],
+      "url": "https://arxiv.org/abs/2607.09659v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4a93b196f8a0df6f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "OpenLongTail: Generative Scaling of Long-Tail Driving Data",
+      "summary": "Scaling robust driving policies is fundamentally bottlenecked by the scarcity of edge cases in curated datasets. While the real world continuously captures these critical events, such long-tail events remain underutilized when collected from heterogeneous sources. Specifically, diverse but valuable in-the-wild long-tail videos lack the full view coverage required for training policy models, often missing multi-view poses or originating solely from monocular dash cameras. This modality gap preven",
+      "published": "2026-07-10T17:54:14Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2607.09655v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2b0b38bd0245a199",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Evolution of Accuracy and Visual-Cognitive Errors in a Decade of Vision-Language AI Models",
+      "summary": "Vision language models (VLMs) have made remarkable progress in visual reasoning during the last decade. Most evaluations have used simple scenes (MS-COCO) that do not showcase complex human interactions or behaviors, only a handful of non-curated human descriptions as a benchmark, and have not focused on understanding the model's error types. Here, we introduce the Complex Social Behavior (CSB) dataset, containing 100 images depicting complex social interactions/behaviors. We analyze the progres",
+      "published": "2026-07-10T17:53:37Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2607.09654v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "61bef4ad4bff1ff9",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents",
+      "summary": "Internet of Things (IoT) systems are inherently vulnerable due to constrained hardware, outdated firmware, and insecure default configurations, creating a need for scalable and adaptive security testing approaches. While recent adoptions of Large Language Model (LLM) agents have demonstrated promise in penetration testing and Capture-the-Flag (CTF) environments, their application to IoT specific vulnerabilities remains unexplored. This paper presents an autonomous multi-agent framework, referred",
+      "published": "2026-07-10T17:52:29Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2607.09653v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "fb43b3d95d5038a4",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "ConceptSMILE: Auditing the Trustworthiness of Concept-Based Explainable AI",
+      "summary": "Concept-based explainable artificial intelligence (AI) can make model reasoning more human-understandable, but concept-level outputs are not automatically trustworthy. We introduce ConceptSMILE, a model-agnostic perturbation-based auditing framework for evaluating the reliability of concept-based explanations. Rather than replacing SMILE, ConceptSMILE extends its perturbation-based logic from feature- or region-level attribution to the auditing of human-understandable concept explanations. The f",
+      "published": "2026-07-10T17:47:38Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2607.09649v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5b7823d458f7d28d",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Lean-QIT: Towards a Formal Infrastructure for Quantum Information Theory",
+      "summary": "Quantum information theory (QIT) characterizes the capabilities and fundamental limits of quantum information processing, underpinning quantum communication, computation, and error correction. Formalizing its coding theorems requires connecting finite-block protocols, analytic inequalities, and asymptotic limits within a unified machine-checked framework. Existing developments, however, lack a reusable operational layer that defines codes, error criteria, achievable rates, and capacities indepen",
+      "published": "2026-07-10T17:28:26Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "quant-ph",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2607.09632v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8ac4ce9ca11fb24f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Indirect and Direct AI Scaffolding for Computational Problem Posing: A Pilot Experience Report",
+      "summary": "Problem posing is a valuable learning activity in computing education, encouraging learners to actively construct, refine, and reflect on problems rather than simply solving them. This experience report presents the design and pilot deployment of two LLM-powered scaffolding systems for supporting problem posing across two computational scenarios with different levels of task openness. Both systems assessed student-generated problems using Bloom's Taxonomy-based criteria and applied the same asse",
+      "published": "2026-07-10T17:25:34Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.HC"
+      ],
+      "url": "https://arxiv.org/abs/2607.09628v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4f564da5ebbec6e9",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "On the accretivity and m-accretivity of Laplacians and porous medium-type operators on graphs",
+      "summary": "We study the accretivity and m-accretivity of Laplacian and porous medium-type operators on weighted graphs. In particular, we give several conditions that imply these properties for maximal operators and investigate when these operators agree with various restrictions. For porous medium-type operators on $\\ell^1$ and for Laplacians on $\\ell^p$ for $p \\in [1,\\infty)$, we show that there always exists a dense subset of the domain on which the maximal operator is m-accretive. As a consequence, we ",
+      "published": "2026-07-10T17:23:48Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "math.FA"
+      ],
+      "url": "https://arxiv.org/abs/2607.09625v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3165b2dcab86a079",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "LLM for EDA in Front-End Design: Challenges and Opportunities",
+      "summary": "As chip complexity increases and time-to-market pressures grow, front-end design has become a critical bottleneck in chip development. Recently, Large Language Models (LLMs) have shown great potential in Electronic Design Automation (EDA). Beyond specification understanding, LLMs show the potential to serve as a unified intelligent interface for hardware description language (HDL) generation, testbench construction, and design space exploration. The rise of agentic AI, represented by pioneering ",
+      "published": "2026-07-10T17:15:54Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.ET",
+        "cs.AR",
+        "cs.LG",
+        "eess.SY"
+      ],
+      "url": "https://arxiv.org/abs/2607.09616v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4539a45871b081cb",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Mosaic: Runtime-Efficient Multi-Agent Embodied Planning",
+      "summary": "LLM-based multi-agent embodied planning remains impractical due to prohibitively high execution latency. We identify failed actions as the dominant bottleneck, stemming from two core challenges: inaccurate state tracking under partial observability and inefficient coordination that produces redundant or conflicting actions. We introduce Mosaic, a runtime-efficient multi-agent planning framework that addresses both challenges. Mosaic maintains accurate yet lightweight state tracking through agent",
+      "published": "2026-07-10T16:57:37Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.MA"
+      ],
+      "url": "https://arxiv.org/abs/2607.09603v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
