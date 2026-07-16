@@ -1,10 +1,295 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-07-15T02:42:39.852671+00:00",
+  "generated_at": "2026-07-16T02:49:32.809221+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 25,
+  "item_count": 44,
   "items": [
+    {
+      "id": "d11049c6e906a247",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[infinistore] bytedance InfiniStore: Denial of Service via Non-Cryptographic Hashing in InfiniStore KV Map",
+      "summary": "",
+      "published": "2026-06-05T03:31:34.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2vrg-7rqv-prf9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "581a1915d75e8156",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[ironic] OpenStack Ironic: Crafted JSON String to Certain Endpoints on the API or JSON-RPC Service May Result in Service Crash",
+      "summary": "",
+      "published": "2026-06-05T00:31:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q3g8-rjrx-59ph",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "fb7830250b8b9b9f",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[ddtrace] dd-trace-py: Improper parsing of W3C baggage headers may lead to DoS",
+      "summary": "",
+      "published": "2026-07-15T22:55:24.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mw54-j2v2-42hr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "96e5b01e6e1aa0eb",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[django-haystack] django-haystack: Remote Code Execution via `eval()` in Elasticsearch Result Deserialization",
+      "summary": "",
+      "published": "2026-07-15T22:42:28.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r3hx-x5rh-p9vv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9380e2184312e36b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[neutron] OpenStack Neutron: Neutron port RBAC policy bypass allows project managers to set trusted device owners on shared networks",
+      "summary": "",
+      "published": "2026-06-04T18:30:32.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qmc5-gv6v-8p22",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7f557a2eeb6ad044",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[oslo.messaging] OpenStack oslo.messaging does not verify RabbitMQ broker hostname during TLS handshake",
+      "summary": "",
+      "published": "2026-06-04T18:30:31.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-76qh-xr7q-h39m",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ac0d74b94358c68c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lmcache] LMCache: 16-bit multimodal hash collision can poison KV cache entries",
+      "summary": "",
+      "published": "2026-06-04T18:30:31.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3hh9-752g-5g22",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "40491aa4b0c5218c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[cyberdrop-dl-patched] Pixeldrain API key shared with unverified thirdparty sites",
+      "summary": "",
+      "published": "2026-07-15T22:00:53.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f5pf-q7c7-m3vv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2d43bce7b090975c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[tensorzero] TensorZero Gateway: Arbitrary file read and SSRF in internal object storage endpoint",
+      "summary": "",
+      "published": "2026-07-15T21:59:40.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-824w-x939-6cmc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "27f3b9a869bdaf9f",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[fiftyone] FiftyOne App server uses wildcard CORS (Access-Control-Allow-Origin: *), enabling cross-origin reads of local server data",
+      "summary": "",
+      "published": "2026-07-15T21:57:29.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q78p-hj9h-5466",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2d5b1a205bd5c8fc",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[streamlit] Streamlit @st.cache_data hash collision via fixed sampling seed and PIL P-mode palette omission",
+      "summary": "",
+      "published": "2026-06-04T12:30:26.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vqwp-45wm-r9r5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "33424ff44c191be8",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[gptcache] GPTCache: File and image cache keys collide because BufferedReader.peek() only reads the buffered prefix",
+      "summary": "",
+      "published": "2026-06-04T15:30:40.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xfqj-4cr9-9gr5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "018d56963a98933e",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mlflow] MLflow: Deterministic sampling in dataset digest enables predictable collisions",
+      "summary": "",
+      "published": "2026-06-04T12:30:26.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5qmp-p3c4-72qj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b6b40c5d7edc7817",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[langbot] LangBot: Authenticated RCE Via MCP Configuration",
+      "summary": "",
+      "published": "2026-07-15T17:39:34.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3pvh-63gf-j9mw",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a38ffebe02d27059",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[garminconnect] garminconnect Has Insecure Permission Assignment for Garmin OAuth Token Store",
+      "summary": "",
+      "published": "2026-07-15T17:33:00.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wjhr-76vg-2hvc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "f4118ec5ab998802",
       "source": "github-advisory-pip",
@@ -63,17 +348,17 @@
       }
     },
     {
-      "id": "cf96b3235817fdb5",
-      "source": "github-advisory-pip",
+      "id": "c63ed1af15c185ca",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[mistral] OpenStack Mistral allows Arbitrary Remote Code Execution when the API is exposed",
+      "title": "[@andrea9293/mcp-documentation-server] @andrea9293/mcp-documentation-server: Web UI API binds to all interfaces without authentication by default",
       "summary": "",
-      "published": "2026-06-04T06:30:25.000Z",
+      "published": "2026-07-15T23:26:57.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9hfw-w3f4-c4p8",
+      "url": "https://github.com/advisories/GHSA-6f5r-5672-72j7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +367,17 @@
       }
     },
     {
-      "id": "8745c965c4a0ed76",
-      "source": "github-advisory-pip",
+      "id": "5dc7b6a619003e75",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[gradio] Gradio: Audio cache key ignores metadata when saving numpy audio outputs",
+      "title": "[systeminformation] systeminformation: OS command injection in networkInterfaces() via interfaces(5) source-directive path on Linux",
       "summary": "",
-      "published": "2026-06-04T00:30:25.000Z",
+      "published": "2026-07-15T23:09:28.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6655-8ph2-63j3",
+      "url": "https://github.com/advisories/GHSA-5xpp-75jx-m839",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +386,17 @@
       }
     },
     {
-      "id": "02204a8035dd5b4f",
-      "source": "github-advisory-pip",
+      "id": "94175fb0ccd6526b",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ironic] OpenStack Ironic allows Boot Script Injection",
+      "title": "[dd-trace] dd-trace-js: Improper parsing of W3C baggage headers may lead to DoS",
       "summary": "",
-      "published": "2026-06-04T00:30:25.000Z",
+      "published": "2026-07-15T22:58:52.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jrh2-f5jc-xpgr",
+      "url": "https://github.com/advisories/GHSA-wxqq-gcq8-c443",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +405,17 @@
       }
     },
     {
-      "id": "edf54122a348493a",
-      "source": "github-advisory-pip",
+      "id": "cd1738170639abe1",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[mlrun] mlrun: DataFrame hash collisions can cause dataset artifact path conflicts and silent data corruption",
+      "title": "[websocket-driver] websocket-driver: Resource limit bypass via message compression",
       "summary": "",
-      "published": "2026-06-03T21:30:31.000Z",
+      "published": "2026-07-15T22:08:17.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-phx2-3w66-h4pw",
+      "url": "https://github.com/advisories/GHSA-mp7j-qc5w-4988",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +424,17 @@
       }
     },
     {
-      "id": "1a5b5597d05c308f",
-      "source": "github-advisory-pip",
+      "id": "b256cab26b86a766",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[wasmtime-bin] Wasmtime: Memory leak in C API with `externref` and `anyref` types",
+      "title": "[websocket-driver] websocket-driver: Message corruption via abuse of protocol length headers",
       "summary": "",
-      "published": "2026-07-14T17:48:35.000Z",
+      "published": "2026-07-15T22:07:24.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-vvp9-h8p2-xwfc",
+      "url": "https://github.com/advisories/GHSA-xv26-6w52-cph6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +443,17 @@
       }
     },
     {
-      "id": "1674743c44486f0c",
-      "source": "github-advisory-pip",
+      "id": "70aed5f25ccd1d9c",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[app-store-server-library] Apple App Store Server Python Library: SignedDataVerifier accepts stale OCSP GOOD responses and can bypass certificate revocation checks",
+      "title": "[obsidian-local-rest-api] obsidian-local-rest-api: Authenticated path traversal via URL-encoded %2F in /vault/{path} — arbitrary host file read/write/delete",
       "summary": "",
-      "published": "2026-07-13T23:49:14.000Z",
+      "published": "2026-07-15T21:56:45.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8f6j-263m-g72x",
+      "url": "https://github.com/advisories/GHSA-62gx-5q78-wrvx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +462,17 @@
       }
     },
     {
-      "id": "f96855256fd466f4",
-      "source": "github-advisory-pip",
+      "id": "edbf6bae55ab744e",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[json-repair] json_repair: Circular JSON Schema `$ref` causes unbounded CPU DoS",
+      "title": "[nodemailer] Nodemailer’s addressparser is vulnerable to DoS caused by recursive calls",
       "summary": "",
-      "published": "2026-07-13T23:41:39.000Z",
+      "published": "2025-12-01T20:44:25.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xf7x-x43h-rpqh",
+      "url": "https://github.com/advisories/GHSA-rcmh-qjqh-p98v",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +481,36 @@
       }
     },
     {
-      "id": "9392677128d0367b",
-      "source": "github-advisory-pip",
+      "id": "ba99914577599e15",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[DIRAC] DIRAC: SQL injection and lack of access control in PilotManager service",
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability through `mce:protected` comments",
       "summary": "",
-      "published": "2026-07-13T18:38:13.000Z",
+      "published": "2026-06-05T20:29:07.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7xw9-549r-8jrc",
+      "url": "https://github.com/advisories/GHSA-v98h-vmpc-fpqv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6b288bcc646ae5f1",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@modelcontextprotocol/sdk] Anthropic's MCP TypeScript SDK has a ReDoS vulnerability",
+      "summary": "",
+      "published": "2026-01-05T21:30:33.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8r9q-7v3j-jr4g",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +652,17 @@
       }
     },
     {
-      "id": "9806acfa1943aebf",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[safeinstall-cli] SafeInstall agent guard shell parsing can miss raw package execution",
-      "summary": "",
-      "published": "2026-07-10T19:34:14.000Z",
+      "id": "bf64a16536ee2c3b",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Building Shor's Algorithm in Lean: An Agentic Formalization of Quantum Attacks on RSA-2048 and P-256",
+      "summary": "Large language models are increasingly assisting with demanding formal theorem-proving tasks, particularly when grounded in machine-checked libraries such as Lean. Agentic systems further amplify this process by searching, reusing, and extending existing formal developments to uncover new discoveries. In quantum computing, Shor's algorithm and its variants present such a demanding case for Lean formalization. In this work, we formalize this algorithm family in Lean through agentic formalization:",
+      "published": "2026-07-15T17:56:58Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "quant-ph"
       ],
-      "url": "https://github.com/advisories/GHSA-xrmc-c5cg-rv7x",
+      "url": "https://arxiv.org/abs/2607.14082v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +671,17 @@
       }
     },
     {
-      "id": "78d40e4ba62e4b44",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@wonderwhy-er/desktop-commander] DesktopCommanderMCP is vulnerable to SSRF",
-      "summary": "",
-      "published": "2026-06-03T00:30:27.000Z",
+      "id": "eae8c4eca6e52cae",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "VisualRepair: Dynamic Tool Calling and Region Focusing for Visual Software Issue Repair",
+      "summary": "Automated Program Repair (APR) has witnessed significant progress with the advent of Large Language Models (LLMs). However, as modern software systems increasingly expose rich graphical user interfaces, effectively leveraging visual information from bug screenshots has become essential for understanding bugs and generating accurate fixes in multimodal scenarios. Real-world issue reports frequently contain heterogeneous visual attachments including UI screenshots, IDE snapshots, GIFs, and text-ce",
+      "published": "2026-07-15T17:48:16Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.SE"
       ],
-      "url": "https://github.com/advisories/GHSA-5xx3-j724-wmx5",
+      "url": "https://arxiv.org/abs/2607.14075v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -386,17 +690,18 @@
       }
     },
     {
-      "id": "2cf0ee5fac2fff99",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@wonderwhy-er/desktop-commander] DesktopCommanderMCP is vulnerable to Uncontrolled Resource Consumption",
-      "summary": "",
-      "published": "2026-06-03T00:30:27.000Z",
+      "id": "ebff83b12dbcbbe0",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Screening of Biosecurity Features in Metagenomic Data with Evo 2 Probes",
+      "summary": "Genomic foundation models such as Evo 2 learn rich sequence representations, but their value for biosecurity screening is largely unexplored. We ask how much biosecurity-relevant signal is linearly accessible in these representations by training minimal linear and attention probes on frozen Evo 2 layer-26 activations, without fine-tuning the underlying model. Across held-out metagenomic test sets, the probes detect antimicrobial resistance (AMR) with strong discrimination: a linear probe reaches",
+      "published": "2026-07-15T17:38:02Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "q-bio.GN",
+        "cs.LG"
       ],
-      "url": "https://github.com/advisories/GHSA-r87g-78mx-3wg4",
+      "url": "https://arxiv.org/abs/2607.14070v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +710,17 @@
       }
     },
     {
-      "id": "0006a933c50a18ab",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[tarteaucitronjs] tarteaucitron: data-cookie attribute can be used to delete arbitrary cookies",
-      "summary": "",
-      "published": "2026-07-10T16:05:00.000Z",
+      "id": "51521f1ba7eed523",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters",
+      "summary": "Forecasters are evaluated by backtesting, which replays resolved questions and grades the probability the system would have assigned before the outcome was known. For LLMs, two channels leak the answer into this test. A model that retrieves can surface reports written after the event, turning forecasting into a lookup, and each new model is trained on data closer to the event, so a question that lay in the future for last year's models sits inside this year's training data. Either way, the test ",
+      "published": "2026-07-15T17:21:43Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CL"
       ],
-      "url": "https://github.com/advisories/GHSA-jxj7-g6gm-49j7",
+      "url": "https://arxiv.org/abs/2607.14051v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +729,17 @@
       }
     },
     {
-      "id": "e59097533fbcfce3",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@libp2p/gossipsub] libp2p: CPU DoS via oversized IHAVE and IWANT control message arrays",
-      "summary": "",
-      "published": "2026-07-10T16:04:49.000Z",
+      "id": "3297fb49ef2bd97e",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
+      "summary": "The emergence of Chain-of-Thought (CoT) reasoning has significantly enhanced the ability of large language models (LLMs) to tackle complex, multi-step tasks. However, when errors occur, current interaction approaches typically involve re-generating another response that may make mistakes again, or users laboriously flag the faulty step in follow-up turns that may get responses <You are right, I made a mistake here> followed by similar errors recurring. To address this issue, we propose an effici",
+      "published": "2026-07-15T17:16:43Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI"
       ],
-      "url": "https://github.com/advisories/GHSA-cwc9-cp4j-mcvv",
+      "url": "https://arxiv.org/abs/2607.14049v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +748,19 @@
       }
     },
     {
-      "id": "4a3851bb2f4e0c87",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[morgan] morgan vulnerable to Log Forging via unneutralized control characters in :remote-user",
-      "summary": "",
-      "published": "2026-07-10T14:32:15.000Z",
+      "id": "8c23173f1d26ed6c",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "PhysClaw-0: A Symbiotic Agentic System for Robot Autonomy via Language Corrections",
+      "summary": "Autonomous data collection governs the volume and quality of real-world trajectories for manipulation policy learning. Existing pipelines reduce human effort via self-resetting, VLM verification, or language-guided correction, yet episode-scoped fixes must be reissued whenever the same failure recurs, so oversight cost grows with session length rather than with the number of distinct problems. We present PhysClaw-0, a human-robot symbiotic agentic system in which corrections are retained and reu",
+      "published": "2026-07-15T17:16:24Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.RO",
+        "cs.HC",
+        "eess.SY"
       ],
-      "url": "https://github.com/advisories/GHSA-4vj7-5mj6-jm8m",
+      "url": "https://arxiv.org/abs/2607.14047v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +769,74 @@
       }
     },
     {
-      "id": "e96bb67b0f2e3784",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@jsonbored/gittensory-mcp] Gittensory: Missing contributor-scoped access control on profile endpoint and MCP tool leaks miner financial data",
-      "summary": "",
-      "published": "2026-07-09T13:44:51.000Z",
+      "id": "f912bcd52916ea46",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Earthquaker-AI: A Retrieval-Augmented Generation Framework with Rubric-Based Assessment for Primary School Earthquake Education",
+      "summary": "This paper presents Earthquaker-AI, a hybrid educational framework building upon a previously implemented educational robotics project by integrating a conversational AI assistant based on Retrieval-Augmented Generation. It aims to enhance earthquake preparedness and conscious action among primary-school students. The system extends the award-winning STEM project Earthquaker moving from mechanical simulation with Lego WeDo2 to cognitive and metacognitive processing. The robotics component uses L",
+      "published": "2026-07-15T17:15:16Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI"
       ],
-      "url": "https://github.com/advisories/GHSA-382c-vx95-w3p5",
+      "url": "https://arxiv.org/abs/2607.14046v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bd9a0c764b509902",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "LLMs for Qualitative and Mixed-Methods Social Network Analysis",
+      "summary": "This manuscript explores the integration of Large Language Models (LLMs) into the field of qualitative and mixed-methods social network analysis (SNA). We argue that the primary focus of this integration should be on enhancing the depth and rigor of qualitative SNA, rather than on replacing human researchers with automated systems. We begin by outlining the core principles of qualitative and mixed-methods SNA, emphasizing the importance of understanding the meaning of ties, the role of narrative",
+      "published": "2026-07-15T17:14:12Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.SI"
+      ],
+      "url": "https://arxiv.org/abs/2607.14045v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ab1d735691f67618",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "AI-accelerated End-to-End Framework for Rapid Professional Upskilling",
+      "summary": "By 2030, 59 of every 100 workers will need reskilling or upskilling, yet the average time to close an enterprise skills gap grew from roughly 3 days in 2014 to 36 days in 2018. Most current frameworks accelerate single stages of upskilling programs and generally lack industry validation. We present an end-to-end framework that applies AI acceleration across five stages of knowledge acquisition, content development, content review and verification, teaching, and assessment development; with a str",
+      "published": "2026-07-15T17:14:03Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2607.14044v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "db672c20a1e44341",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Can an Old Dog Be Taught New Tricks? Taking LLMs Beyond Sentence Level Translation",
+      "summary": "Automatic translation systems, from CAT tools to MT, overwhelmingly treat translation as a sentence-by-sentence act. This paper asks whether LLMs can be moved beyond that paradigm through whole-document, corpus-informed translation. We present PAT (Pragmatic Auto-Translator), a RAG-based system that pairs user-configured specifications with context from a comparable corpus of authentic longform texts in U.S. English and Latin American Spanish, passing retrieved paragraph-, section-, and document",
+      "published": "2026-07-15T17:10:24Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2607.14040v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
