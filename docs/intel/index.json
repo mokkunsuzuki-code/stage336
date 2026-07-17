@@ -1,10 +1,105 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-07-16T02:49:32.809221+00:00",
+  "generated_at": "2026-07-17T02:51:55.581014+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 44,
+  "item_count": 32,
   "items": [
+    {
+      "id": "a38d3db343ea55d8",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] Natural Language Toolkit (NLTK): URL-Encoded Path Traversal in nltk.data.load() Allows Arbitrary Local File Read",
+      "summary": "",
+      "published": "2026-06-16T14:34:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-p4gq-832x-fm9v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "793057323b756dc6",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mcp] MCP Python SDK: WebSocket server transport does not support Host/Origin validation",
+      "summary": "",
+      "published": "2026-07-16T20:14:34.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vj7q-gjh5-988w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "486b519d0b862b6c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mcp] MCP Python SDK: HTTP transports serve session requests without verifying the authenticated principal",
+      "summary": "",
+      "published": "2026-07-16T19:58:53.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jpw9-pfvf-9f58",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4d62fbbc99df5c96",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mcp] MCP Python SDK: Experimental task handlers allow any client to access and cancel other clients' tasks",
+      "summary": "",
+      "published": "2026-07-16T19:56:12.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hvrp-rf83-w775",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "115a1a21888f6cd8",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[ansible-core] ansible-core: Argument injection in ansible-galaxy role install leads to arbitrary code execution",
+      "summary": "",
+      "published": "2026-06-05T09:33:46.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w8p5-mx5w-cpqj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "d11049c6e906a247",
       "source": "github-advisory-pip",
@@ -207,139 +302,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-vqwp-45wm-r9r5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "33424ff44c191be8",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[gptcache] GPTCache: File and image cache keys collide because BufferedReader.peek() only reads the buffered prefix",
-      "summary": "",
-      "published": "2026-06-04T15:30:40.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-xfqj-4cr9-9gr5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "018d56963a98933e",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[mlflow] MLflow: Deterministic sampling in dataset digest enables predictable collisions",
-      "summary": "",
-      "published": "2026-06-04T12:30:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5qmp-p3c4-72qj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b6b40c5d7edc7817",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[langbot] LangBot: Authenticated RCE Via MCP Configuration",
-      "summary": "",
-      "published": "2026-07-15T17:39:34.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3pvh-63gf-j9mw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a38ffebe02d27059",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[garminconnect] garminconnect Has Insecure Permission Assignment for Garmin OAuth Token Store",
-      "summary": "",
-      "published": "2026-07-15T17:33:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wjhr-76vg-2hvc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f4118ec5ab998802",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[ms-swift] ms-swift: Image Cache Hash Collision via Missing Dimension Metadata",
-      "summary": "",
-      "published": "2026-06-04T12:30:25.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-prfw-69r3-wqxf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4b197b0351dfe936",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[netlicensing-mcp] NetLicensing-MCP: Unauthenticated Use of Server-Side NetLicensing API Key in HTTP Mode",
-      "summary": "",
-      "published": "2026-07-14T20:47:19.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-x9vc-9ffq-p3gj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d2d636ee45a714da",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[ironic] OpenStack Ironic allows file overwrite via directory traversal during deployment with a crafted ISO image",
-      "summary": "",
-      "published": "2026-06-04T06:30:25.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9v62-qx4c-44x5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -644,199 +606,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-xw9q-2mv6-9fr8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bf64a16536ee2c3b",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Building Shor's Algorithm in Lean: An Agentic Formalization of Quantum Attacks on RSA-2048 and P-256",
-      "summary": "Large language models are increasingly assisting with demanding formal theorem-proving tasks, particularly when grounded in machine-checked libraries such as Lean. Agentic systems further amplify this process by searching, reusing, and extending existing formal developments to uncover new discoveries. In quantum computing, Shor's algorithm and its variants present such a demanding case for Lean formalization. In this work, we formalize this algorithm family in Lean through agentic formalization:",
-      "published": "2026-07-15T17:56:58Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "quant-ph"
-      ],
-      "url": "https://arxiv.org/abs/2607.14082v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "eae8c4eca6e52cae",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "VisualRepair: Dynamic Tool Calling and Region Focusing for Visual Software Issue Repair",
-      "summary": "Automated Program Repair (APR) has witnessed significant progress with the advent of Large Language Models (LLMs). However, as modern software systems increasingly expose rich graphical user interfaces, effectively leveraging visual information from bug screenshots has become essential for understanding bugs and generating accurate fixes in multimodal scenarios. Real-world issue reports frequently contain heterogeneous visual attachments including UI screenshots, IDE snapshots, GIFs, and text-ce",
-      "published": "2026-07-15T17:48:16Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.SE"
-      ],
-      "url": "https://arxiv.org/abs/2607.14075v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ebff83b12dbcbbe0",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Screening of Biosecurity Features in Metagenomic Data with Evo 2 Probes",
-      "summary": "Genomic foundation models such as Evo 2 learn rich sequence representations, but their value for biosecurity screening is largely unexplored. We ask how much biosecurity-relevant signal is linearly accessible in these representations by training minimal linear and attention probes on frozen Evo 2 layer-26 activations, without fine-tuning the underlying model. Across held-out metagenomic test sets, the probes detect antimicrobial resistance (AMR) with strong discrimination: a linear probe reaches",
-      "published": "2026-07-15T17:38:02Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "q-bio.GN",
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2607.14070v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "51521f1ba7eed523",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Hindcast: Replaying Prediction Markets to Evaluate LLM Forecasters",
-      "summary": "Forecasters are evaluated by backtesting, which replays resolved questions and grades the probability the system would have assigned before the outcome was known. For LLMs, two channels leak the answer into this test. A model that retrieves can surface reports written after the event, turning forecasting into a lookup, and each new model is trained on data closer to the event, so a question that lay in the future for last year's models sits inside this year's training data. Either way, the test ",
-      "published": "2026-07-15T17:21:43Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2607.14051v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3297fb49ef2bd97e",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Deep Interaction: An Efficient Human-AI Interaction Method for Large Reasoning Models",
-      "summary": "The emergence of Chain-of-Thought (CoT) reasoning has significantly enhanced the ability of large language models (LLMs) to tackle complex, multi-step tasks. However, when errors occur, current interaction approaches typically involve re-generating another response that may make mistakes again, or users laboriously flag the faulty step in follow-up turns that may get responses <You are right, I made a mistake here> followed by similar errors recurring. To address this issue, we propose an effici",
-      "published": "2026-07-15T17:16:43Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2607.14049v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8c23173f1d26ed6c",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "PhysClaw-0: A Symbiotic Agentic System for Robot Autonomy via Language Corrections",
-      "summary": "Autonomous data collection governs the volume and quality of real-world trajectories for manipulation policy learning. Existing pipelines reduce human effort via self-resetting, VLM verification, or language-guided correction, yet episode-scoped fixes must be reissued whenever the same failure recurs, so oversight cost grows with session length rather than with the number of distinct problems. We present PhysClaw-0, a human-robot symbiotic agentic system in which corrections are retained and reu",
-      "published": "2026-07-15T17:16:24Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.RO",
-        "cs.HC",
-        "eess.SY"
-      ],
-      "url": "https://arxiv.org/abs/2607.14047v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f912bcd52916ea46",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Earthquaker-AI: A Retrieval-Augmented Generation Framework with Rubric-Based Assessment for Primary School Earthquake Education",
-      "summary": "This paper presents Earthquaker-AI, a hybrid educational framework building upon a previously implemented educational robotics project by integrating a conversational AI assistant based on Retrieval-Augmented Generation. It aims to enhance earthquake preparedness and conscious action among primary-school students. The system extends the award-winning STEM project Earthquaker moving from mechanical simulation with Lego WeDo2 to cognitive and metacognitive processing. The robotics component uses L",
-      "published": "2026-07-15T17:15:16Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2607.14046v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bd9a0c764b509902",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "LLMs for Qualitative and Mixed-Methods Social Network Analysis",
-      "summary": "This manuscript explores the integration of Large Language Models (LLMs) into the field of qualitative and mixed-methods social network analysis (SNA). We argue that the primary focus of this integration should be on enhancing the depth and rigor of qualitative SNA, rather than on replacing human researchers with automated systems. We begin by outlining the core principles of qualitative and mixed-methods SNA, emphasizing the importance of understanding the meaning of ties, the role of narrative",
-      "published": "2026-07-15T17:14:12Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.SI"
-      ],
-      "url": "https://arxiv.org/abs/2607.14045v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ab1d735691f67618",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "AI-accelerated End-to-End Framework for Rapid Professional Upskilling",
-      "summary": "By 2030, 59 of every 100 workers will need reskilling or upskilling, yet the average time to close an enterprise skills gap grew from roughly 3 days in 2014 to 36 days in 2018. Most current frameworks accelerate single stages of upskilling programs and generally lack industry validation. We present an end-to-end framework that applies AI acceleration across five stages of knowledge acquisition, content development, content review and verification, teaching, and assessment development; with a str",
-      "published": "2026-07-15T17:14:03Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2607.14044v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "db672c20a1e44341",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Can an Old Dog Be Taught New Tricks? Taking LLMs Beyond Sentence Level Translation",
-      "summary": "Automatic translation systems, from CAT tools to MT, overwhelmingly treat translation as a sentence-by-sentence act. This paper asks whether LLMs can be moved beyond that paradigm through whole-document, corpus-informed translation. We present PAT (Pragmatic Auto-Translator), a RAG-based system that pairs user-configured specifications with context from a comparable corpus of authentic longform texts in U.S. English and Latin American Spanish, passing retrieved paragraph-, section-, and document",
-      "published": "2026-07-15T17:10:24Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2607.14040v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
