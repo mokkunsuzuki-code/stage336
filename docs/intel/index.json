@@ -1,22 +1,22 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-07-20T03:28:10.200042+00:00",
+  "generated_at": "2026-07-21T02:54:38.922519+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 47,
+  "item_count": 44,
   "items": [
     {
-      "id": "aac5ffe6d50375e0",
+      "id": "a01de1e968d72b0d",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pocketsphinx] PocketSphinx: Buffer overflows in language and acoustic model loading code",
+      "title": "[pillow] Pillow: Controlled heap out-of-bounds write in Pillow `ImageCmsTransform.apply()` via output mode mismatch",
       "summary": "",
-      "published": "2026-07-17T21:19:17.000Z",
+      "published": "2026-07-20T23:19:00.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-56r5-2p2f-7cxp",
+      "url": "https://github.com/advisories/GHSA-9hw9-ch79-4vh6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "afa33b5c8d14fe5a",
+      "id": "8cb0d0a8bd15b074",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[proot-distro] PRoot-Distro has Path Traversal in proot-distro copy — Arbitrary Read, Write, and Persistent Code Execution Outside Container Rootfs",
+      "title": "[pillow] Pillow JPEG2000 tiled decode retains a growing scratch buffer and can be used for denial of service",
       "summary": "",
-      "published": "2026-07-17T20:25:37.000Z",
+      "published": "2026-07-20T23:18:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mfr4-mq8w-vmg6",
+      "url": "https://github.com/advisories/GHSA-vjc4-5qp5-m44j",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -44,17 +44,17 @@
       }
     },
     {
-      "id": "d0cdff032e0bdbcf",
+      "id": "70eccdcf6fc3cd98",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Flask-Reuploaded] Flask-Reuploaded: Extension-denylist bypass via case-folding asymmetry in name-override path (incomplete-fix variant of CVE-2026-27641)",
+      "title": "[pillow] Pillow EpsImagePlugin negative %%BeginBinary byte count causes infinite loop denial of service",
       "summary": "",
-      "published": "2026-07-17T20:11:35.000Z",
+      "published": "2026-07-20T23:11:51.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-937x-gpqr-72gg",
+      "url": "https://github.com/advisories/GHSA-pg7v-jwj7-p798",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -63,17 +63,17 @@
       }
     },
     {
-      "id": "3d8144fb5e4db6a2",
+      "id": "7a98f5b61a200cad",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[prompty] Prompty: Arbitrary file read via file reference expansion",
+      "title": "[Pillow] Pillow: Decompression Bomb DoS via PdfParser.PdfStream.decode()",
       "summary": "",
-      "published": "2026-07-17T19:46:05.000Z",
+      "published": "2026-07-20T23:11:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
+      "url": "https://github.com/advisories/GHSA-jjj6-mw9f-p565",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +82,17 @@
       }
     },
     {
-      "id": "a1b8320d1a38da0a",
+      "id": "a5c50386437ac162",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[meta-ads-mcp] meta-ads-mcp: X-Pipeboard-Token Header Auth Bypass Reuses Operator Meta Token",
+      "title": "[Pillow] Pillow: Heap out-of-bounds write `Image.paste()` / `Image.crop()` via signed coordinate overflow",
       "summary": "",
-      "published": "2026-07-17T18:48:54.000Z",
+      "published": "2026-07-20T23:09:53.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2v2f-mvfg-ph56",
+      "url": "https://github.com/advisories/GHSA-6r8x-57c9-28j4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +101,17 @@
       }
     },
     {
-      "id": "535f5858306549b7",
+      "id": "67ed6dc8ff2307df",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[meta-ads-mcp] meta-ads-mcp: Server-Side Request Forgery (SSRF) in `upload_ad_image` via Unrestricted `image_url` Fetch",
+      "title": "[Pillow] Pillow TGA RLE encoder can serialize up to ~57 KB of adjacent heap data into generated images",
       "summary": "",
-      "published": "2026-07-17T18:47:31.000Z",
+      "published": "2026-07-20T23:09:36.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-45gf-fjxp-cjpq",
+      "url": "https://github.com/advisories/GHSA-fj7v-r99m-22gq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +120,17 @@
       }
     },
     {
-      "id": "348693bc5689f832",
+      "id": "f4d823630dd68cf7",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[sh] sh _uid does not drop supplementary groups (incomplete privilege drop)",
+      "title": "[Pillow] Pillow: Heap out-of-bounds write in `ImageFilter.RankFilter` via integer overflow in `ImagingExpand`",
       "summary": "",
-      "published": "2026-07-17T18:41:38.000Z",
+      "published": "2026-07-20T23:08:58.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-q38v-wp89-2w55",
+      "url": "https://github.com/advisories/GHSA-xj96-63gp-2gmr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +139,17 @@
       }
     },
     {
-      "id": "ca8d0405bb77d06b",
+      "id": "1f52801897001bdd",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[plone.restapi] plone.restapi: Stored XSS by spoofing mime type",
+      "title": "[lightrag-hku] LightRAG is Vulnerable to Authentication Bypass: hardcoded DEFAULT_TOKEN_SECRET and public /auth-status defeat LIGHTRAG_API_KEY protection",
       "summary": "",
-      "published": "2026-07-17T18:36:34.000Z",
+      "published": "2026-07-20T21:46:37.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8rqh-vxpr-x77p",
+      "url": "https://github.com/advisories/GHSA-f4vv-55c2-5789",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +158,17 @@
       }
     },
     {
-      "id": "280000f6831e1aba",
+      "id": "08b5eb0f2b9b94c8",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[plone.app.textfield] plone.app.textfield: Stored XSS by spoofing mime type",
+      "title": "[lightrag-hku] LightRAG: CORS Wildcard + Credentials Enables Any-Origin Credentialed Requests",
       "summary": "",
-      "published": "2026-07-17T18:35:57.000Z",
+      "published": "2026-07-20T21:45:25.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4r4f-gg25-rmg5",
+      "url": "https://github.com/advisories/GHSA-6x6h-qqr7-855w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +177,17 @@
       }
     },
     {
-      "id": "26145900dc896f44",
+      "id": "1513edfd0d5c737d",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vllm] vLLM: Speech-to-text upload size limit is enforced after full UploadFile read",
+      "title": "[mistune] Mistune renderers/html.safe_url: HARMFUL_PROTOCOLS list misses legacy and chained schemes that historically chain to `javascript:` execution",
       "summary": "",
-      "published": "2026-07-17T17:16:17.000Z",
+      "published": "2026-07-20T21:35:30.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-v82g-2437-67m2",
+      "url": "https://github.com/advisories/GHSA-qfrw-5rxm-mhh2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +196,17 @@
       }
     },
     {
-      "id": "68d8c946a385b242",
+      "id": "a3a6da70e719863e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vllm] vLLM: ReDoS via structured_outputs.regex compiled without timeout in xgrammar and outlines backends",
+      "title": "[mistune] Mistune toc / TableOfContents directive: heading IDs use predictable `toc_N` numbering with no slugification, allowing collision with attacker-controlled `id=\"toc_N\"` con",
       "summary": "",
-      "published": "2026-07-17T17:10:37.000Z",
+      "published": "2026-07-20T21:35:11.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rwxx-mrjm-wc2m",
+      "url": "https://github.com/advisories/GHSA-2hm2-hc3v-44h9",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +215,17 @@
       }
     },
     {
-      "id": "99efd165ec940511",
+      "id": "6fb31f2cc9836c4c",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vllm] vLLM has Remote DoS via Invalid Recovered Token Reinjection",
+      "title": "[mistune] Mistune: Arbitrary File Read via Include directive path traversal",
       "summary": "",
-      "published": "2026-07-17T17:08:03.000Z",
+      "published": "2026-07-20T21:34:53.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8wr5-jm2h-8r4f",
+      "url": "https://github.com/advisories/GHSA-r4rv-85jg-w4mf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +234,17 @@
       }
     },
     {
-      "id": "b738bff086bb1364",
+      "id": "84b45eb39236aa50",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[torch] PyTorch is vulnerable to memory corruption through its torch.jit.script function",
+      "title": "[mistune] Mistune plugins/formatting: quadratic-time parsing on long runs of `~~x~~`, `==x==`, and `^^x^^` markers (strikethrough / mark / insert)",
       "summary": "",
-      "published": "2025-03-31T15:30:48.000Z",
+      "published": "2026-07-20T21:34:37.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rrmf-rvhw-rf47",
+      "url": "https://github.com/advisories/GHSA-c8j7-8cv4-2xmq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +253,17 @@
       }
     },
     {
-      "id": "ccdbaf0351e802e0",
+      "id": "8c64f64b24e0a7fd",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[sanic-cors] sanic-cors contains an improper regular expression in the try_match() function",
+      "title": "[mistune] Mistune: XSS via unescaped class option in Admonition directive",
       "summary": "",
-      "published": "2026-06-05T15:32:25.000Z",
+      "published": "2026-07-20T21:34:14.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-94jw-hqvj-vw74",
+      "url": "https://github.com/advisories/GHSA-g97x-gvcm-x72h",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +272,17 @@
       }
     },
     {
-      "id": "efc72a3c659f56f0",
+      "id": "bdb75c89f679d07e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vllm] vLLM: Processing differential in multi-channel audio downmixing enables hidden-input/moderation bypass for audio models",
+      "title": "[mistune] Mistune: XSS via percent-encoded javascript URI bypass in safe_url()",
       "summary": "",
-      "published": "2026-07-17T16:52:53.000Z",
+      "published": "2026-07-20T21:32:49.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6c4r-fmh3-7rh8",
+      "url": "https://github.com/advisories/GHSA-8c25-4j27-2rv3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +291,17 @@
       }
     },
     {
-      "id": "7f2943b9b29d6327",
+      "id": "486f87b91b68cccc",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vllm] vLLM: temperature=NaN and temperature=Infinity bypass validation and propagate to GPU kernels",
+      "title": "[mistune] Mistune inline_parser: quadratic-time parsing on long runs of `**x**` and `***x***` emphasis pairs",
       "summary": "",
-      "published": "2026-06-17T14:02:22.000Z",
+      "published": "2026-07-20T21:32:40.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7h4p-rffg-7823",
+      "url": "https://github.com/advisories/GHSA-4j32-57v6-6g45",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +310,17 @@
       }
     },
     {
-      "id": "2875c957c9368536",
+      "id": "8922135680fd7e4c",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vllm] vLLM: OOM Denial of Service via Audio Decompression Bomb",
+      "title": "[praisonaiagents] PraisonAI: Arbitrary File Read via `@file:` Mention Path Traversal",
       "summary": "",
-      "published": "2026-06-17T14:06:22.000Z",
+      "published": "2026-06-18T13:57:00.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6pr9-rp53-2pmc",
+      "url": "https://github.com/advisories/GHSA-2rcg-mm5h-xchx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +329,74 @@
       }
     },
     {
-      "id": "aef7459d1d42cb87",
+      "id": "5d0f0fa3445c0d60",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mistune] Mistune directives/include: mutual `.. include::` recursion crashes the renderer with `RecursionError`, denial of service via two attacker-controlled markdown files",
+      "summary": "",
+      "published": "2026-07-20T21:24:42.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8mpj-m6qm-5qr8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ef7b5a39de5cb9e6",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mistune] Mistune block_parser: quadratic-time parsing on long lists of repeated reference-link definitions",
+      "summary": "",
+      "published": "2026-07-20T21:24:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-ffq3-xpv3-j92q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1845d53385cf35f9",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[Pillow] Pillow: WindowsViewer.get_command() OS command injection via unescaped shell path",
+      "summary": "",
+      "published": "2026-07-20T21:14:14.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-4x4j-2g7c-83w6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "446e78bcec8267cf",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[adm-zip] adm-zip: Crafted ZIP file triggers 4GB memory allocation",
+      "title": "[astro] Astro: composable `astro/hono` pipeline bypasses `security.checkOrigin` when `middleware()` is absent or misordered",
       "summary": "",
-      "published": "2026-07-10T18:32:19.000Z",
+      "published": "2026-07-20T23:26:27.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xcpc-8h2w-3j85",
+      "url": "https://github.com/advisories/GHSA-8mv7-9c27-98vc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +405,17 @@
       }
     },
     {
-      "id": "ce207be842de979d",
+      "id": "138709e8198d2b0c",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[angular] Angular's deprecated package has a Cross-Site Scripting issue",
+      "title": "[@astrojs/netlify] @astrojs/netlify generates an overly-broad Netlify Image CDN allowlist because remotePatterns.pathname metacharacters are not escaped",
       "summary": "",
-      "published": "2026-06-24T21:30:44.000Z",
+      "published": "2026-07-20T23:24:34.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7x27-g8rg-x87w",
+      "url": "https://github.com/advisories/GHSA-hp3v-mfqw-h74c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +424,17 @@
       }
     },
     {
-      "id": "de204c3b9ccf91a6",
+      "id": "c80aa73cade990a9",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@tak-ps/cloudtak] CloudTAK: Authenticated full-read SSRF in the /api/esri* routes — user-controlled URL fetched with no IP-classification guard",
+      "title": "[body-parser] body-parser vulnerable to denial of service when invalid limit value silently disables size enforcement",
       "summary": "",
-      "published": "2026-07-17T21:35:10.000Z",
+      "published": "2026-07-20T23:23:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r95q-fp26-h3hc",
+      "url": "https://github.com/advisories/GHSA-v422-hmwv-36x6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -386,17 +443,17 @@
       }
     },
     {
-      "id": "e5301f9cfbdc891a",
+      "id": "bbc699182db08db2",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[exifreader] ExifReader HEIC/AVIF ISO-BMFF parser throws uncaught RangeError on truncated boxes",
+      "title": "[@astrojs/node] @astrojs/node: Backslash-prefixed paths not recognized as internal by trailing-slash redirect",
       "summary": "",
-      "published": "2026-07-17T20:19:39.000Z",
+      "published": "2026-07-20T23:22:22.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g77h-45rf-hcx4",
+      "url": "https://github.com/advisories/GHSA-r557-wffq-wvrc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +462,17 @@
       }
     },
     {
-      "id": "1d13d78635c0eef9",
+      "id": "17aba982fafded76",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@prompty/core] Prompty: Arbitrary code execution via JavaScript frontmatter in TypeScript loader",
+      "title": "[astro] Astro: XSS via unescaped spread attribute names in renderHTMLElement (incomplete fix for CVE-2026-54298)",
       "summary": "",
-      "published": "2026-07-17T19:53:34.000Z",
+      "published": "2026-07-20T23:21:58.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-c4gh-rv8h-q9vw",
+      "url": "https://github.com/advisories/GHSA-f48w-9m4c-m7f5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +481,17 @@
       }
     },
     {
-      "id": "1fc114f7bf3d6369",
+      "id": "08324931a9802a7a",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@prompty/core] Prompty: Arbitrary file read via file reference expansion",
+      "title": "[@astrojs/rss] @astrojs/rss: XML Injection via Unescaped RSS Feed Fields",
       "summary": "",
-      "published": "2026-07-17T19:46:05.000Z",
+      "published": "2026-07-20T23:21:47.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
+      "url": "https://github.com/advisories/GHSA-8j5q-mfj2-5q9q",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +500,17 @@
       }
     },
     {
-      "id": "6e508d52b3365f44",
+      "id": "45cab726e112bf50",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[mcp-memory-keeper] mcp-memory-keeper: Arbitrary local file read in context_import via unvalidated filePath",
+      "title": "[astro] Astro: Cross-site scripting via unescaped transition:* directive values on hydrated islands",
       "summary": "",
-      "published": "2026-07-17T19:23:07.000Z",
+      "published": "2026-07-20T23:21:02.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-f7wf-v2vw-mpcx",
+      "url": "https://github.com/advisories/GHSA-7pw4-f3q4-r2p2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +519,17 @@
       }
     },
     {
-      "id": "431b5cbce7d76ec3",
+      "id": "222a827f25ea9701",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@tak-ps/cloudtak] TAK-PS-Stats Web UI: Authenticated full-read SSRF in CloudTAK basemap import (PUT /api/basemap) — no IP-classification guard",
+      "title": "[axios] Axios Node HTTP adapter can use an inherited proxy after interceptor config cloning",
       "summary": "",
-      "published": "2026-07-17T19:02:37.000Z",
+      "published": "2026-07-20T22:40:07.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-vqrw-qphh-p34v",
+      "url": "https://github.com/advisories/GHSA-gcfj-64vw-6mp9",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +538,17 @@
       }
     },
     {
-      "id": "fecdaa931b01a980",
+      "id": "e10242eeed42991f",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ws] Denial of Service in ws",
+      "title": "[axios] Axios form serializer maxDepth bypass via {} metatoken",
       "summary": "",
-      "published": "2019-06-04T19:37:52.000Z",
+      "published": "2026-07-20T22:38:04.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5v72-xg48-5rpm",
+      "url": "https://github.com/advisories/GHSA-hcpx-6fm6-wx23",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +557,17 @@
       }
     },
     {
-      "id": "7e39bc3f4846d2cc",
+      "id": "202a93fc8c01697d",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[node-git-server] Unauthorized File Access in node-git-server",
+      "title": "[axios] Axios: Nested axios option objects can consume polluted prototype values",
       "summary": "",
-      "published": "2020-09-03T21:15:19.000Z",
+      "published": "2026-07-20T22:37:31.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cv3v-7846-6pxm",
+      "url": "https://github.com/advisories/GHSA-7q8q-rj6j-mhjq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +576,17 @@
       }
     },
     {
-      "id": "6b30bc099b55f63a",
+      "id": "28342936981b072e",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[claude-mem] claude-mem: The computeObservationContentHash Function is Vulnerable to Hash Collision",
+      "title": "[axios] Axios: HTTP/2 streamed uploads bypass `maxBodyLength`",
       "summary": "",
-      "published": "2026-06-05T15:32:23.000Z",
+      "published": "2026-07-20T22:37:03.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5gvr-v6qv-h5mm",
+      "url": "https://github.com/advisories/GHSA-mwf2-3pr3-8698",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +595,17 @@
       }
     },
     {
-      "id": "c63ed1af15c185ca",
+      "id": "c2af147d82dec482",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@andrea9293/mcp-documentation-server] @andrea9293/mcp-documentation-server: Web UI API binds to all interfaces without authentication by default",
+      "title": "[axios] Axios: Fetch adapter `ReadableStream` uploads bypass `maxBodyLength`",
       "summary": "",
-      "published": "2026-07-15T23:26:57.000Z",
+      "published": "2026-07-20T22:27:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6f5r-5672-72j7",
+      "url": "https://github.com/advisories/GHSA-jqh4-m9w3-8hp9",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +614,17 @@
       }
     },
     {
-      "id": "5dc7b6a619003e75",
+      "id": "56374e7d53bdaf39",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[systeminformation] systeminformation: OS command injection in networkInterfaces() via interfaces(5) source-directive path on Linux",
+      "title": "[axios] Axios: Prototype pollution gadgets can alter axios request construction",
       "summary": "",
-      "published": "2026-07-15T23:09:28.000Z",
+      "published": "2026-07-20T22:25:07.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5xpp-75jx-m839",
+      "url": "https://github.com/advisories/GHSA-mmx7-hfxf-jppx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,17 +633,17 @@
       }
     },
     {
-      "id": "94175fb0ccd6526b",
+      "id": "441ea224b2a9b0a8",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[dd-trace] dd-trace-js: Improper parsing of W3C baggage headers may lead to DoS",
+      "title": "[axios] Axios: NO_PROXY bypass for 0.0.0.0 local addresses in axios",
       "summary": "",
-      "published": "2026-07-15T22:58:52.000Z",
+      "published": "2026-07-20T22:20:18.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-wxqq-gcq8-c443",
+      "url": "https://github.com/advisories/GHSA-f4gw-2p7v-4548",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -595,153 +652,18 @@
       }
     },
     {
-      "id": "cd1738170639abe1",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[websocket-driver] websocket-driver: Resource limit bypass via message compression",
-      "summary": "",
-      "published": "2026-07-15T22:08:17.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mp7j-qc5w-4988",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b256cab26b86a766",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[websocket-driver] websocket-driver: Message corruption via abuse of protocol length headers",
-      "summary": "",
-      "published": "2026-07-15T22:07:24.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-xv26-6w52-cph6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "70aed5f25ccd1d9c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[obsidian-local-rest-api] obsidian-local-rest-api: Authenticated path traversal via URL-encoded %2F in /vault/{path} — arbitrary host file read/write/delete",
-      "summary": "",
-      "published": "2026-07-15T21:56:45.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-62gx-5q78-wrvx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "edbf6bae55ab744e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nodemailer] Nodemailer’s addressparser is vulnerable to DoS caused by recursive calls",
-      "summary": "",
-      "published": "2025-12-01T20:44:25.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-rcmh-qjqh-p98v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ba99914577599e15",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability through `mce:protected` comments",
-      "summary": "",
-      "published": "2026-06-05T20:29:07.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-v98h-vmpc-fpqv",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6b288bcc646ae5f1",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@modelcontextprotocol/sdk] Anthropic's MCP TypeScript SDK has a ReDoS vulnerability",
-      "summary": "",
-      "published": "2026-01-05T21:30:33.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8r9q-7v3j-jr4g",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6609505c2449ad9d",
+      "id": "45eea863ca42f989",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Cosmological Evidence for Dark Axion-Dark Baryon Interactions from Apparent Phantom Crossing",
-      "summary": "Interactions between dark matter and dark energy can lead to an apparent phantom-crossing behavior that mimics the expansion history preferred by the latest cosmological observations from DESI baryon acoustic oscillations (BAO), Cosmic Microwave Background (CMB), and Type Ia supernovae (SNe Ia) data. In a previous paper [Khoury, Lin, and Trodden 2025 arXiv:2503.16415], we proposed a concrete particle physics realization of this idea, consisting of a strongly coupled dark sector in which a dark a",
-      "published": "2026-07-17T17:59:37Z",
+      "title": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
+      "summary": "Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances into a single scalar value, offering no mechanism to condition on specific aspects. To bridge this gap, we introduce a large-scale dataset of human similarity judgments over image triplets, where each triplet is annotated across multiple, free-form semantic aspects of similarity. Benchmarking a broa",
+      "published": "2026-07-20T17:59:51Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "astro-ph.CO",
-        "gr-qc",
-        "hep-ph",
-        "hep-th"
-      ],
-      "url": "https://arxiv.org/abs/2607.16191v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "14287a50e5990201",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "PagedWeight: Efficient MoE LLM Serving with Dynamic Quality-Aware Weight Quantization",
-      "summary": "Mixture-of-Experts (MoE) is a popular class of large language models (LLMs), offering high efficiency and accuracy. However, in KV-cache-intensive serving scenarios, MoEs often exhibit a tension between the GPU memory requirements of the model weights and the growing KV cache. We propose PagedWeight, a novel management method for MoE LLM serving that dynamically quantizes MoE model's weights at runtime and balances expert-weight precision with the KV cache sizes. PagedWeight exposes and effectiv",
-      "published": "2026-07-17T17:58:29Z",
-      "impact_scope": "metadata-only",
-      "tags": [
+        "cs.CV",
         "cs.LG"
       ],
-      "url": "https://arxiv.org/abs/2607.16184v1",
+      "url": "https://arxiv.org/abs/2607.18237v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -750,135 +672,18 @@
       }
     },
     {
-      "id": "6f0303b0f3dd0296",
+      "id": "aa68c1d5627f7672",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities",
-      "summary": "Connected and Autonomous Vehicles (CAVs) rely on interconnected software and hardware components, including sensors, Electronic Control Units, in-vehicle infotainment systems, and telematics units, where vulnerabilities can compromise assets, users, and vehicle operations. These vulnerabilities are commonly documented as plain text in the Common Vulnerabilities and Exposures (CVE) database; however, security practitioners require structured information about affected assets, types of weaknesses,",
-      "published": "2026-07-17T17:55:19Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CR",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2607.16175v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a29006e1d5625b8b",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Rapid structural evolution of neutron-rich silicon isotopes toward N = 28",
-      "summary": "Neutron-rich Si isotopes represent a unique case of shell evolution, exhibiting a robust shell closure at $N=20$ and pronounced quadrupole collectivity at $N = 28$. We report lifetime measurements of excited states in $^{40}$Si and the first simultaneous lifetime and heavy-ion inelastic-scattering measurements in $^{41}$Si. In $^{40}$Si, the extracted lifetimes for the $2_1^+$ and $(2_2^+)$ states indicate moderate quadrupole collectivity at $N=26$, together with signatures of triaxiality. In $^",
-      "published": "2026-07-17T17:54:38Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "nucl-ex",
-        "nucl-th"
-      ],
-      "url": "https://arxiv.org/abs/2607.16174v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fb95add73eb95aa8",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Vision-Language-Motion Maps: An Open-Vocabulary, Uncertainty-Aware, Queryable Motion Attribute for 3D Scene Maps",
-      "summary": "Open-vocabulary 3D maps let robots answer language queries about what and where, but they assume a static world and cannot answer queries about how scene elements behave. We introduce Vision-Language-Motion Maps (VLMM), an open-vocabulary, natural-language-queryable 3D map in which each element carries a fused motion attribute: a VLM/LLM semantic movability prior combined with geometrically observed cross-frame motion, together with a per-element uncertainty. Queries reduce to attribute filters ",
-      "published": "2026-07-17T17:53:13Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.RO"
-      ],
-      "url": "https://arxiv.org/abs/2607.16173v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0ed296d05e854430",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Adaptive Fault Injection Planning for Multi-Layer Self-Healing AI Infrastructure",
-      "summary": "Modern GPU-accelerator platforms rely on multi-layer self-healing pipelines that span hardware, firmware, management software, and orchestration. When faults propagate across layer boundaries, they can bypass detection, corrupt diagnosis, or trigger conflicting remediations--yet conventional fault-injection campaigns test each layer in isolation. We present ADA-ST, an adaptive fault-injection methodology that uses a weighted fault-propagation graph to guide cross-layer scenario selection. We con",
-      "published": "2026-07-17T17:40:46Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.ET"
-      ],
-      "url": "https://arxiv.org/abs/2607.16161v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "10377668b8ae4671",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Impact of eccentricity and higher-modes on neutron star-black hole parameter estimation",
-      "summary": "Detections of gravitational waves from neutron star-black hole systems provide avenues for studying extreme matter, constraining binary formation channels, and testing the nature of compact objects in strong gravity. Eccentric signatures in the signal further enhance this potential by improving parameter estimation and offering clues about binary formation. Because eccentricity is primarily imprinted during the inspiral phase, it is often weakly constrained or missed entirely in binary black hol",
-      "published": "2026-07-17T17:16:31Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "astro-ph.HE"
-      ],
-      "url": "https://arxiv.org/abs/2607.16135v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0c21f645b6da9b54",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "When Do Multi-Agent Systems Help? An Information Bottleneck Perspective",
-      "summary": "LLM powered multi-agent systems (MAS) have emerged as a promising paradigm for complex tasks. However, their advantages over single-agent systems (SAS) remain unclear, with performance varying inconsistently across settings. Here, we provide an information bottleneck perspective on elucidating the differences between MAS and SAS. Specifically, our key observation is that a SAS accumulates its full reasoning trace in one shared context, while a MAS uses isolated local contexts connected by bounde",
-      "published": "2026-07-17T17:13:44Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2607.16133v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4a65dd2bd106b1aa",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "ToolSciVer: Multimodal Scientific Claim Verification with Visual Tool Augmented Reinforcement Learning",
-      "summary": "Multimodal Scientific Claim Verification (MSCV) requires models to verify scientific claims using visually grounded evidence from papers, including figures, tables, charts, and textual context. However, existing methods often fail because they struggle to locate decisive visual evidence, accurately read structured scientific visuals, and integrate multimodal observations into reliable reasoning. We introduce ToolSciVer, the first tool-augmented framework for MSCV to our knowledge. ToolSciVer equ",
-      "published": "2026-07-17T17:11:50Z",
+      "title": "Automated Discovery Has No Universally Superior Harness",
+      "summary": "Autonomous discovery systems such as OpenEvolve and TTT-Discover are often used as general-purpose harnesses. However, in practice these are composite systems combining several design choices about archives, parent selection, exploration, and budget allocation into a single recipe. Because discovery runs are expensive and inherently stochastic, existing harnesses are often compared using too few independent trials to distinguish key methodological improvements from run-to-run variance. We system",
+      "published": "2026-07-20T17:59:37Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CL",
         "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2607.16131v1",
+      "url": "https://arxiv.org/abs/2607.18235v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -887,19 +692,158 @@
       }
     },
     {
-      "id": "10404eced8837bbf",
+      "id": "ab195a183e2222d5",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "A Methodology for Auditable Trustworthiness Levels in AI Lifecycle Governance",
-      "summary": "AI governance increasingly requires judgments about whether an AI system remains adequately trustworthy over time, whether observed changes are tolerable, and how such judgments should be documented in a transparent and contestable way. Yet existing work on AI trustworthiness remains either too high-level to support lifecycle monitoring and reassessment or too narrowly metric-driven to connect with governance needs. We therefore propose a lightweight methodology for auditable trustworthiness lev",
-      "published": "2026-07-17T17:11:22Z",
+      "title": "Theoretical uncertainties in reconstructing model parameters with gravitational waves from supercooled phase transitions",
+      "summary": "Future interferometers may detect a gravitational-wave (GW) signal from a cosmological first-order phase transition. Reconstructing the underlying particle-physics model from such a signal requires theoretical control over the map from microphysics to the spectrum. For classically scale-invariant extensions of the Standard Model, which generically predict strongly supercooled transitions and strong GW signals, this map depends sensitively on the treatment of quantum and thermal corrections to th",
+      "published": "2026-07-20T17:59:02Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CY",
-        "cs.AI",
-        "eess.SY"
+        "hep-ph",
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
       ],
-      "url": "https://arxiv.org/abs/2607.16130v1",
+      "url": "https://arxiv.org/abs/2607.18233v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e188f211feaa9b5a",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief",
+      "summary": "Users frequently express their beliefs to large language models (LLMs). In some situations, the LLM should accept these contextual beliefs as true. In others, they should stick to their prior knowledge. Notably, users' expressions of belief (EoBs) can take linguistically diverse forms - using presuppositions, evidential and certainty markers, or varied tones - each of which may have a different persuasiveness over the LLMs. We introduce a typology to systematically evaluate how different EoBs af",
+      "published": "2026-07-20T17:58:31Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2607.18232v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f71548fbb91bd813",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
+      "summary": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cross-model and out-of-distribution shifts. This work studies domain generalization for pixel-level image tampering detection in modern VLMs like ChatGPT, Gemini, Qwen-Image, etc., aiming to learn tampering localization models that remain robust across diverse VLM-generated manipulation distributions.",
+      "published": "2026-07-20T17:58:13Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2607.18230v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "340f6da9b5186618",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Logical Judgments Under Pressure: Diagnosing Syllogistic Stability with Learned Soft Prefixes",
+      "summary": "To test how correct logical judgments respond to learned context, we prepend a soft prefix to an exactly labeled syllogistic reasoning benchmark while keeping the model fixed. Soft prefixes are opaque continuous vectors, so we characterize them through the behavior they induce across controlled variations in logical form and interface. By studying which prefixes succeed and how their effects generalize, we characterize how learned contextual pressure can override correct judgments and expose lim",
+      "published": "2026-07-20T17:58:05Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2607.18228v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e69a2ab147c067db",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis",
+      "summary": "Foundation models have emerged as a driving force in computational pathology, with the potential to transform cancer diagnosis, prognosis, and treatment selection by learning transferable representations from large-scale histopathology data. A growing landscape of pathology foundation models now spans diverse data sources, architectures, and downstream applications. However, most pretrained models operate only at the image-tile level, use restrictive licenses, and remain computationally expensiv",
+      "published": "2026-07-20T17:52:33Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2607.18218v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a303918853b6fb35",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
+      "summary": "Pruning long context for coding agents has been a vital technology for efficient context management. While existing context pruning methods such as SWE-Pruner realize this by attaching a separate code classifier, we find the agent itself encodes internal representations indicating the relevance of code context when reading tool output. Based on this finding, we propose SWE-Pruner Pro, which prunes tool outputs directly inside the agent. Concretely, a small head turns the agent's own internal rep",
+      "published": "2026-07-20T17:47:44Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.SE"
+      ],
+      "url": "https://arxiv.org/abs/2607.18213v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "cb7ceb9fdf82d91e",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "QuantiSpect: A Structure-Aware Lightweight 3D CNN Pre-Decoder for Scalable Surface Code Quantum Error Correction",
+      "summary": "Real-time decoding is a critical bottleneck for large-scale fault-tolerant quantum computing. AI-based neural pre-decoders locally correct most physical errors before passing residual syndromes to a global decoder, enabling sub-microsecond latencies. However, existing architectures carry significant overhead from dense 3D convolutions. We present QuantiSpect, a lightweight 3D convolutional neural network (CNN) pre-decoder for the rotated surface code, built on the decoding pipeline of Chamberlan",
+      "published": "2026-07-20T17:43:08Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.18204v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1ca76d7d32699060",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Hardware Robustness of Sample-Based Quantum Diagonalization",
+      "summary": "Sample-based Quantum Diagonalization (SQD) is a hybrid quantum-classical method that replaces variational optimization with a self-consistent recovery loop over QPU samples. Although SQD is considered robust to noisy samples and imperfect classical inputs, its robustness across practical deployment choices has not been systematically analyzed. As a result, shot budgets, qubit layouts, noise mitigation strategies, and the coupled-cluster singles and doubles (CCSD) amplitudes that initialize the a",
+      "published": "2026-07-20T17:36:08Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "quant-ph",
+        "cs.CR"
+      ],
+      "url": "https://arxiv.org/abs/2607.18196v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
