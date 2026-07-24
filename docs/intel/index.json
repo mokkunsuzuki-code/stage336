@@ -1,10 +1,86 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-07-23T03:13:51.793203+00:00",
+  "generated_at": "2026-07-24T02:53:52.412755+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 24,
+  "item_count": 30,
   "items": [
+    {
+      "id": "39ec5fdc53e91603",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pypdf] pypdf: Possible infinite loop for not terminated inline images (ASCII85 and ASCIIHex filter)",
+      "summary": "",
+      "published": "2026-07-23T16:37:07.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-g867-7843-wf8q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "67a9d9493f0f6d13",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pypdf] pypdf: Possible infinite loop for not terminated inline images",
+      "summary": "",
+      "published": "2026-07-23T16:36:41.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5xf7-4p34-54qr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "32759da57869aba7",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pypdf] pypdf: Possible long runtimes for repeated malformed cross-reference entries",
+      "summary": "",
+      "published": "2026-07-23T15:07:33.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-55h5-xmcq-c37v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f969d730245bd4b7",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pypdf] pypdf: Possible large memory usage for wrong image dimensions",
+      "summary": "",
+      "published": "2026-07-23T15:06:58.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5qjq-93h5-hrgp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "73525de898bfd694",
       "source": "github-advisory-pip",
@@ -215,17 +291,17 @@
       }
     },
     {
-      "id": "15e8f6f88bdb13bb",
-      "source": "github-advisory-pip",
+      "id": "11f5146e2ea26093",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[GitPython] GitPython: Command Injection via git long-option prefix abbreviation bypass of CVE-2026-42215 blocklist",
+      "title": "[react-router] React Router: Open redirect via backslash in <Link> and useNavigate (CVE-2025-68470 bypass)",
       "summary": "",
-      "published": "2026-07-21T19:43:43.000Z",
+      "published": "2026-07-23T19:38:28.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2f96-g7mh-g2hx",
+      "url": "https://github.com/advisories/GHSA-wrjc-x8rr-h8h6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +310,17 @@
       }
     },
     {
-      "id": "f05e4cb3b81c2419",
-      "source": "github-advisory-pip",
+      "id": "9f3cc6b448501807",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[GitPython] GitPython unsafe clone option gate bypass through joined short options",
+      "title": "[react-router] React Router: Open redirect leading to XSS",
       "summary": "",
-      "published": "2026-07-21T19:43:14.000Z",
+      "published": "2026-07-23T19:36:31.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-v396-v7q4-x2qj",
+      "url": "https://github.com/advisories/GHSA-jjmj-jmhj-qwj2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +329,17 @@
       }
     },
     {
-      "id": "beb3171ee9a30046",
-      "source": "github-advisory-pip",
+      "id": "bbb1c0317de71742",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pyasn1] pyasn1: Uncontrolled resource consumption when converting decoded REAL values",
+      "title": "[react-router-dom] React Router: Open redirect leading to XSS",
       "summary": "",
-      "published": "2026-07-21T19:11:20.000Z",
+      "published": "2026-07-23T19:36:31.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hm4w-wwcw-mr6r",
+      "url": "https://github.com/advisories/GHSA-jjmj-jmhj-qwj2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +348,207 @@
       }
     },
     {
-      "id": "3fd83280c081a1a9",
-      "source": "github-advisory-pip",
+      "id": "de6938f317ea9cb0",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pyasn1] pyasn1: Quadratic complexity in OBJECT IDENTIFIER and RELATIVE-OID processing allows denial of service",
+      "title": "[react-router] React Router: RSCErrorHandler Missing Protocol Validation (XSS)",
       "summary": "",
-      "published": "2026-07-21T19:11:03.000Z",
+      "published": "2026-07-23T19:35:57.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8ppf-4f7h-5ppj",
+      "url": "https://github.com/advisories/GHSA-h8fp-f39c-q6mh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ab172c85f7f9925b",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[react-router] React Router: Arbitrary Constructor Injection via deserializeErrors() in React Router SSR Hydration",
+      "summary": "",
+      "published": "2026-07-23T19:34:14.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-337j-9hxr-rhxg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b45628d04b50bd42",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[find-my-way] find-my-way: DDoS with HTTP2",
+      "summary": "",
+      "published": "2026-07-23T19:33:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-c96f-x56v-gq3h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5739cfd7af4ee473",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[postcss] PostCSS: Arbitrary file read and information disclosure via attacker-controlled sourceMappingURL in CSS comments",
+      "summary": "",
+      "published": "2026-07-23T15:06:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6g55-p6wh-862q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "55ed15c99d4600a3",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[next-auth] Auth.js: Configuration errors can cause existence-based auth checks to fail open (auth object populated with an error)",
+      "summary": "",
+      "published": "2026-07-23T14:52:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8fpg-xm3f-6cx3",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3db54d59c53ecb3d",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[next-auth] Auth.js: getToken() throws an uncaught exception on malformed Bearer authorization headers",
+      "summary": "",
+      "published": "2026-07-23T14:42:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xmf8-cvqr-rfgj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a2a30838af55e7e1",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@auth/core] Auth.js: getToken() throws an uncaught exception on malformed Bearer authorization headers",
+      "summary": "",
+      "published": "2026-07-23T14:42:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xmf8-cvqr-rfgj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1723a7793678ea84",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[next-auth] Auth.js: Email normalizer validates the address before Unicode normalization, allowing a homoglyph @ bypass",
+      "summary": "",
+      "published": "2026-07-23T14:40:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-7rqj-j65f-68wh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5f0fa47c95241e78",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@auth/core] Auth.js: Email normalizer validates the address before Unicode normalization, allowing a homoglyph @ bypass",
+      "summary": "",
+      "published": "2026-07-23T14:40:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-7rqj-j65f-68wh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2e44c2d57dd3b20f",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[next-auth] Auth.js: OAuth state, nonce, and PKCE check cookies are not bound to the provider that created them",
+      "summary": "",
+      "published": "2026-07-23T14:31:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-x445-f3h2-j279",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a7418d20b7f5218c",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@auth/core] Auth.js: OAuth state, nonce, and PKCE check cookies are not bound to the provider that created them",
+      "summary": "",
+      "published": "2026-07-23T14:31:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-x445-f3h2-j279",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -302,158 +568,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-652q-gvq3-74qv",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "814ab58506f4d2ea",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[n8n] n8n: PostgresTrigger Node SQL Injection Allows Authenticated Users to Execute Arbitrary SQL on Connected PostgreSQL Instances",
-      "summary": "",
-      "published": "2026-07-22T23:20:03.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-jqwr-vx3p-r266",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b5e20f96d2786848",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[n8n] n8n: Cross-Tenant Module-Cache Poisoning in the JS Task Runner",
-      "summary": "",
-      "published": "2026-07-22T23:18:39.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9cmh-xcqm-5hqr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a7bd19972f959fe0",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next] Next.js: Server-Side Request Forgery in Server Actions on custom servers",
-      "summary": "",
-      "published": "2026-07-22T23:09:48.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-89xv-2m56-2m9x",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fba37ff2f774dd60",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next] Next.js: Cache confusion of response bodies for requests with bodies",
-      "summary": "",
-      "published": "2026-07-22T23:08:17.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-68g3-v927-f742",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "12be01064d2f362f",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next] Next.js: Cache confusion of response bodies for requests with bodies containing invalid UTF-8 byte sequences",
-      "summary": "",
-      "published": "2026-07-22T23:06:12.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4633-3j49-mh5q",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "816cacb634861e09",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next] Next.js: Unbounded Server Action payload in Edge runtime",
-      "summary": "",
-      "published": "2026-07-22T23:02:43.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4c39-4ccg-62r3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4abf177adb5d69e3",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next] Next.js: Server-Side Request Forgery in rewrites via attacker-controlled destination hostname",
-      "summary": "",
-      "published": "2026-07-22T23:02:23.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-p9j2-gv94-2wf4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "37d6478498bbb46d",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next] Next.js: Denial of Service in the Image Optimization API using SVGs",
-      "summary": "",
-      "published": "2026-07-22T23:02:05.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q8wf-6r8g-63ch",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
