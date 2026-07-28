@@ -1,10 +1,29 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-07-27T03:28:33.600907+00:00",
+  "generated_at": "2026-07-28T02:44:46.398391+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 46,
+  "item_count": 36,
   "items": [
+    {
+      "id": "24027c19b865f30c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nanobot-ai] Nanobot contains a server-side request forgery vulnerability in the web_fetch tool",
+      "summary": "",
+      "published": "2026-06-01T21:30:44.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-434r-7c99-hwf3",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "a75c690068655c55",
       "source": "github-advisory-pip",
@@ -367,17 +386,17 @@
       }
     },
     {
-      "id": "3ed1685d787632bf",
-      "source": "github-advisory-pip",
+      "id": "1df6081ea978224f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Unauthenticated WebSocket Access to Collaborative Document Handlers (ydoc:awareness:update, ydoc:document:leave)",
+      "title": "[@steipete/summarize-core] @steipete/summarize is Vulnerable to Disk Exhaustion via Crafted Media Responses",
       "summary": "",
-      "published": "2026-07-24T16:59:44.000Z",
+      "published": "2026-06-11T21:31:56.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gmfw-g93r-vg53",
+      "url": "https://github.com/advisories/GHSA-q9xm-f36c-xm3q",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -663,222 +682,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-2xgg-r2wc-c5r2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "88c3e0db205cd830",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@budibase/server]  Budibase: NoSQL Injection via JSON Parameter Interpolation in MongoDB Query Execution",
-      "summary": "",
-      "published": "2026-07-24T21:25:51.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qw6m-8fw2-2v64",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ea80f32061d3289a",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
-      "summary": "LLM training is shifting from manual design and annotation to interaction-driven self-evolution. However, existing self-evolutionary methods face a fundamental dilemma between task diversity and verification reliability: environment-bound methods obtain precise feedback but confine learning to narrow domains, while open-ended self-generation broadens the task space but lacks reliable verification, allowing misleading rewards to pollute the training loop. We identify agent skills as a powerful mi",
-      "published": "2026-07-24T17:59:22Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2607.22529v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bb7afc79979b4fed",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Explainable Reinforcement Learning for assisting Air Traffic Controllers",
-      "summary": "To effectively integrate AI into high-stakes, critical environments such as healthcare, autonomous driving, and aviation--and to advance toward higher levels of automation and seamless human-AI collaboration--building trust in AI-driven solutions is essential. Trust, in turn, is closely linked to the explainability of AI systems. The rapid advancements in AI across various domains have underscored the challenges of establishing trust, raising increasing interest in AI explainability even more wh",
-      "published": "2026-07-24T17:56:38Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2607.22525v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f3bea210dbbf6256",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents",
-      "summary": "Adding procedural skills to an LLM agent is typically evaluated by average improvement in task success. However, this metric hides an important cost: skills can also make agents worse. We measure both sides by comparing agents with and without skills across nearly 6,000 runs spanning two office automation benchmarks and three model harness stacks. This allows us to distinguish two outcomes. A regression is a task solved without skills but failed after skills are added. A residual failure is a ta",
-      "published": "2026-07-24T17:50:03Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2607.22520v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b20895de32282e2b",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Dysphagia Risk Stratification in Head and Neck Cancer via Two-Stage PRO-Clinical Stacking",
-      "summary": "Dysphagia is a debilitating late effect of head and neck cancer (HNC) treatment, yet timely identification of at-risk patients remains challenging in survivorship care. Definitive assessment relies on videofluoroscopic imaging, as captured by the Dynamic Imaging Grade of Swallowing Toxicity (CTCAE-DIGEST), which, while validated, requires specialized equipment, trained personnel, and significant patient burden, limiting its routine use in surveillance. Patient-reported outcomes (PROs), by contra",
-      "published": "2026-07-24T17:34:26Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2607.22514v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "9ecfdc5eab9c0c5b",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Opaque Epistemic Mediation: How LLM Deployment Configurations Shape the Validation of Pseudo-Science",
-      "summary": "Commercial large language models are increasingly used as knowledge references, yet their stance on contested scientific claims is neither stable nor transparent. We tested how four major LLM families (Claude, Grok, GPT, Gemini) evaluate ethnonationalist pseudo-science derived from Frank Salter's biosocial framework across four temporal snapshots (October 2025-February 2026), via both API and web interfaces. Grok's Fast versions (which power the default user experience on X) consistently assigne",
-      "published": "2026-07-24T17:32:43Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CY",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2607.22513v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "435b1ce0f11f8f9a",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
-      "summary": "Automating theoretical research is constrained not only by the generation of candidate results, but also by their reliable evaluation. A common approach is to close the research loop with a large language model (LLM) reviewer. However, such reviewers remain empirically unreliable: they may accept fabricated papers and detect them at rates close to chance (Bad Scientist, 2025). We present CausalForge, a framework for automated theoretical research in causal inference grounded in the Lean proof as",
-      "published": "2026-07-24T17:32:35Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "stat.ML",
-        "cs.AI",
-        "cs.LG",
-        "econ.EM"
-      ],
-      "url": "https://arxiv.org/abs/2607.22511v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a1f16cb6b75b65be",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Measurement of Born Cross Section for $e^+e^-\\to K_S^0\\barΞ^+Σ^-+\\rm{c.c.}$ at $\\sqrt{s} = 3.51-4.95$ GeV",
-      "summary": "Using $e^+e^-$ collision data collected with the BESIII detector at the BEPCII collider corresponding to a total integrated luminosity of 44~fb$^{-1}$, we present the first measurement of the Born cross sections for the process $e^+e^-\\to K_S^0\\barΞ^+Σ^-+\\rm{c.c.}$ at 56 center-of-mass energies from 3.510 to 4.951~GeV. By fitting the dressed cross sections of $e^+e^-\\to K_S^0\\barΞ^+Σ^-+\\rm{c.c.}$ with the assumption of a power-law function plus a charmonium(-like) resonance, i.e. $ψ(3770)$, $ψ(4",
-      "published": "2026-07-24T17:27:35Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "hep-ex"
-      ],
-      "url": "https://arxiv.org/abs/2607.22507v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "cfa92273801678f4",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "$n$-Absolutely pure and $n$-flat modules, revisited",
-      "summary": "We revisit the concepts of $n$-absolutely pure and $n$-flat modules, and their relation with $n$-coherent rings in the sense of Lee. We provide new proofs for some known claims about these modules and rings, and show other new properties. We also give some corrections to the existing literature.",
-      "published": "2026-07-24T16:52:52Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "math.RA"
-      ],
-      "url": "https://arxiv.org/abs/2607.22482v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8b8a08517643885d",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation",
-      "summary": "Large Language Model (LLM)-based Test-Driven Development (TDD) has advanced automated code generation. However, existing approaches depend heavily on human-crafted test cases and cannot operate effectively when only natural-language requirements are available. Although recent work enables automatic test generation, it often overlooks the inherent stochasticity of LLMs, leading to two key defects: faulty tests generate misleading feedback that distorts code optimization, while mixed-quality test ",
-      "published": "2026-07-24T16:39:06Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.SE",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2607.22471v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dbc4cec8d4201daf",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Effects of long-chain branching, short-chain branching, and polydispersity on pressure sensitive rheology of polymer melts",
-      "summary": "The rheological behavior of polymer melts under high pressure is a critical factor in many industrial processes like injection molding and extrusion, yet it is often inadequately characterized. At operating pressures that can exceed 100 MPa, viscosity can increase by orders of magnitude, making atmospheric-pressure data insufficient for accurate process simulation. This pressure induced viscosity increase is highly dependent on molecular architectures of the materials. This study aims to deconst",
-      "published": "2026-07-24T16:34:12Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cond-mat.soft",
-        "physics.flu-dyn"
-      ],
-      "url": "https://arxiv.org/abs/2607.22469v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
