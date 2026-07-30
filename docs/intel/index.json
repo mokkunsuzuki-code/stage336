@@ -1,10 +1,86 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-07-29T02:51:55.793388+00:00",
+  "generated_at": "2026-07-30T02:36:58.503848+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 44,
+  "item_count": 36,
   "items": [
+    {
+      "id": "b5515ae1a9edf66b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[proot-distro] proot-distro has a Container Isolation Bypass via Crafted Restore Archive",
+      "summary": "",
+      "published": "2026-07-29T16:42:11.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-7h3g-4w2f-fj2f",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "130d3b098c983757",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[proot-distro] `proot-distro install` has a Symlink Escape (Arbitrary Host File Write) via Malicious Tar Archive",
+      "summary": "",
+      "published": "2026-07-29T16:32:34.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9xq3-3fqg-4vg7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4e2009cf87c2ff1a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[matrix-commander] olm dependency deprecation: CVE-2022-39255 and CVE-2024-45193",
+      "summary": "",
+      "published": "2026-07-29T16:11:45.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wchh-9x6h-7f6p",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8a1c311b2d441ca0",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[penelope-shell-handler] Penelope unsafe tar extraction allows arbitrary local file write via crafted session archive",
+      "summary": "",
+      "published": "2026-07-29T15:34:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f42x-p2mx-hm8r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "c5c40ce963b5664c",
       "source": "github-advisory-pip",
@@ -310,17 +386,17 @@
       }
     },
     {
-      "id": "6f8971ecb4f55ea0",
-      "source": "github-advisory-pip",
+      "id": "b6d4df7ad6fdf69b",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pytonapi] pytonapi has a Webhook Custom Path Authentication Bypass",
+      "title": "[mathlive] mathlive's Lack of Escaping of HTML allows for XSS",
       "summary": "",
-      "published": "2026-07-28T17:09:02.000Z",
+      "published": "2026-07-29T17:21:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3fcr-jvgp-7f58",
+      "url": "https://github.com/advisories/GHSA-fm7p-gw32-828p",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +405,17 @@
       }
     },
     {
-      "id": "e6a0f82972e41d27",
-      "source": "github-advisory-pip",
+      "id": "cd8089bd0aa77b4e",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[qti-neon] QTINeon has unauthenticated relay-to-host amplification via unbounded RECONNECT_REQUEST forwarding",
+      "title": "[@aws/agentcore] AgentCore CLI Bedrock Agent Import Vulnerable to Code Injection via Improper Triple-Quote Escaping",
       "summary": "",
-      "published": "2026-07-28T16:36:47.000Z",
+      "published": "2026-07-29T16:10:46.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-85rg-p3fr-xc2f",
+      "url": "https://github.com/advisories/GHSA-m4x6-gwgp-4pm7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +424,17 @@
       }
     },
     {
-      "id": "24027c19b865f30c",
-      "source": "github-advisory-pip",
+      "id": "a6727b186f6c3338",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nanobot-ai] Nanobot contains a server-side request forgery vulnerability in the web_fetch tool",
+      "title": "[decompress] decompress: Arbitrary File Write via Archive Extraction (Zip Slip)",
       "summary": "",
-      "published": "2026-06-01T21:30:44.000Z",
+      "published": "2026-06-05T09:33:46.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-434r-7c99-hwf3",
+      "url": "https://github.com/advisories/GHSA-h39j-r5qq-r9mm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +443,131 @@
       }
     },
     {
-      "id": "a75c690068655c55",
-      "source": "github-advisory-pip",
+      "id": "02cdc1160f2bde4b",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[bedrock-agentcore] AWS Bedrock AgentCore: Improper neutralization of argument delimiters in the Python SDK install_packages()",
+      "title": "[@dynatrace-oss/dynatrace-mcp-server] @dynatrace-oss/dynatrace-mcp-server's create_dynatrace_notebook missing the human-approval gate",
       "summary": "",
-      "published": "2026-07-24T22:38:56.000Z",
+      "published": "2026-07-29T15:36:19.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-j6g5-3hh3-pgw8",
+      "url": "https://github.com/advisories/GHSA-pc2w-4mq8-32qw",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a5395ba2916a6dbf",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to code injection via unescaped OpenAPI path strings in generated method bodies",
+      "summary": "",
+      "published": "2026-07-29T14:35:02.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w284-33mx-6g9v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6300c32ec8fdea0e",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to code injection via unescaped enum string values",
+      "summary": "",
+      "published": "2026-07-29T14:33:00.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5f94-x226-ccpm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6f147a9902939b07",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in axios http-client template",
+      "summary": "",
+      "published": "2026-07-29T14:31:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-38c3-wv3c-v3xj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "93dfeedabbf60ecf",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to Server-Side Request Forgery via spec `$ref`",
+      "summary": "",
+      "published": "2026-07-29T14:28:58.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-x36r-4347-pm5x",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d3f5a1ffa87d0edd",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in fetch http-client template",
+      "summary": "",
+      "published": "2026-07-29T14:26:38.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hqj5-cw9f-rx67",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f0930e9178e433aa",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to authorization-token exfiltration via spec `$ref`",
+      "summary": "",
+      "published": "2026-07-29T14:22:46.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-h754-fxp7-88wx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -492,355 +682,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-7wpj-vvmv-pgm8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1df6081ea978224f",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@steipete/summarize-core] @steipete/summarize is Vulnerable to Disk Exhaustion via Crafted Media Responses",
-      "summary": "",
-      "published": "2026-06-11T21:31:56.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q9xm-f36c-xm3q",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c7a9e4be381c3b1a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@frontmcp/adapters] FrontMCP: Server-Side Request Forgery (SSRF) in the OpenAPI adapter spec-change poller",
-      "summary": "",
-      "published": "2026-07-24T22:40:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8q49-2h5h-434x",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d77723e69420fbaf",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[quasar] Quasar: Prototype pollution in the extend() utility",
-      "summary": "",
-      "published": "2026-07-24T22:36:45.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3r53-75j5-3g7j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "236543045d1637ec",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[shescape] Shescape: Quadratic-time denial of service in the flag-protection",
-      "summary": "",
-      "published": "2026-07-24T22:35:08.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-gm3r-q2wp-hw87",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bfef50a298c11deb",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[shescape] Shescape: Home-directory disclosure in assignment context on Unix with Dash",
-      "summary": "",
-      "published": "2026-07-24T22:34:39.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q53c-4prm-w95q",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6277075eb946be46",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[shescape] Shescape: Shell injection via unescaped parentheses on Windows with CMD",
-      "summary": "",
-      "published": "2026-07-24T22:34:23.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-w4hw-qcx7-56pr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d7fe38564c49a47c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[shescape] Shescape: Path disclosure on Unix with Zsh",
-      "summary": "",
-      "published": "2026-07-24T22:33:38.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6v4m-fw66-8r4x",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "da27854afa248dda",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[brace-expansion] brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
-      "summary": "",
-      "published": "2026-07-24T21:53:14.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "62475ad2a5e53a6a",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment",
-      "summary": "Technological races create tension between speed and safety: actors may gain by moving faster than competitors, even when risky development is harmful. This is prominent in debates about artificial intelligence (AI), where competitive pressure is often argued to incentivise riskier, less safety-conscious development. We study this using a framed behavioural experiment based on an idealised AI race, in which paired participants repeatedly chose between Safe and Unsafe development under an uncerta",
-      "published": "2026-07-28T17:44:03Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CY",
-        "cs.GT",
-        "econ.GN"
-      ],
-      "url": "https://arxiv.org/abs/2607.26034v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0528e23af09fcd0f",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "LLM4OSC: Profile-Bound Natural Language Control with Deterministic Validation for Open Sound Control",
-      "summary": "Open Sound Control (OSC) is the dominant wire protocol for real-time parametric control in professional audio, live performance, and virtual production. Large language models can emit plausible OSC, but they hallucinate addresses, mishandle type tags, and fail under paraphrase- unacceptable in show-critical contexts. We present LLM4OSC, a local-first architecture in which models propose structured intent JSON over a human-reviewed device profile, and deterministic code validates, clamps, and enc",
-      "published": "2026-07-28T17:36:22Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.HC",
-        "cs.SD",
-        "eess.AS"
-      ],
-      "url": "https://arxiv.org/abs/2607.26024v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6fda646aa7dfaa17",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "CHARM: A Multimodal Graph Foundation Model with Hierarchical Context Modeling for Zero-Shot Transfer",
-      "summary": "Graph foundation models (GFMs) have emerged as a promising paradigm for transferring knowledge across graph domains and tasks. Real-world graphs associate nodes with text, images, and other modalities, making multimodal graphs essential for representing complex entities and relations. Moreover, collecting labels and adapting models for every new graph domain is costly and often infeasible, motivating zero-shot transfer. Unfortunately, zero-shot transfer on multimodal graphs remains underexplored",
-      "published": "2026-07-28T17:35:26Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2607.26023v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "657500b8c049bddd",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "UniMem: Complementary Episodic-to-Parametric Memory for Boundary-Agnostic Task Streams",
-      "summary": "Memory is essential for LLM agents to accumulate task experience and reuse task-specific execution strategies. However, real-world deployment over boundary-agnostic and evolving task streams exposes a fundamental stability-plasticity dilemma. External retrieval-based memory can rapidly absorb new evidence, but it often fails to internalize recurring execution patterns and incurs inference-time retrieval overhead. Parametric memory enables stable and efficient execution once learned, but typicall",
-      "published": "2026-07-28T17:28:21Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2607.26017v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "5a04e63298490be7",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "MAC-Gyver: Open, Programmable, Scheduling for AI-RAN 6G Systems",
-      "summary": "Cellular networks are integrating Artificial Intelli- gence (AI) into radio access network control. The MAC scheduler is a promising target because it allocates a limited resource, spectrum, at every slot, under competing latency, throughput, and reliability requirements. However, most learning-based sched- ulers are evaluated only in simulation. Production schedulers are difficult to modify, and realistic stress tests require more radio hardware than most laboratories can provide. We present MA",
-      "published": "2026-07-28T17:24:53Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.NI"
-      ],
-      "url": "https://arxiv.org/abs/2607.26012v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bc177465b392b964",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Causal Green function decomposition for quantum black hole seismology",
-      "summary": "The growing sensitivity of gravitational-wave detectors enables increasingly precise tests of black hole (BH) ringdown spectroscopy. BH quasinormal modes (QNMs) are, however, spectrally unstable: small near-horizon modifications can produce a drastically different QNM spectrum, while causality requires the prompt ringdown to remain BH-like until the reflected signal returns. Quantum BHs with substantial interior reflection provide a natural setting for this tension, yet the relation between thei",
-      "published": "2026-07-28T17:23:17Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "gr-qc"
-      ],
-      "url": "https://arxiv.org/abs/2607.26010v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8b056ae861ea9ca9",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "RepoReasoner: Evaluating Repository-Level Code Reasoning Ability of Long-Context Language Models",
-      "summary": "Recent large language models (LLMs) have shown strong performance on software engineering tasks, yet most existing benchmarks evaluate code reasoning at the function level, where all relevant information is localized. This setting fails to reflect real-world development, which requires reasoning across multiple files and complex dependency structures. We introduce RepoReasoner, a benchmark for evaluating repository-level code reasoning. It assesses two complementary abilities: Output Prediction,",
-      "published": "2026-07-28T17:12:41Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.SE"
-      ],
-      "url": "https://arxiv.org/abs/2607.25996v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3b2e0033eb5040ca",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Does Runtime Topology Context Improve LLM-Generated Kubernetes Security Patches?",
-      "summary": "Kubernetes is central to the cloud-native ecosystem, orchestrating containerised workloads. Recent work suggests that large language models (LLMs) can automate cluster security remediation, generating configuration patches from Kubernetes Security Posture Management (KSPM) findings without human authoring. Such systems, however, prompt the model with each finding in isolation from the live service call graph, assuming general hardening knowledge suffices. This assumption breaks down whenever a p",
-      "published": "2026-07-28T17:12:12Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CR",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2607.25995v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4b2adafd030bd820",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents",
-      "summary": "Recently, memory management has become a key infrastructure for LLM-based agents, as it directly affects long-horizon reasoning, personalized responses, and knowledge reuse. However, existing LLM memory systems typically adopt a coarse-grained (utility-agnostic) manner that treats heterogeneous user-LLM interaction records uniformly, leading to redundant and low-impact records persisting in the memory repository. To address this challenge, we present MemLens, a value-aware memory management syst",
-      "published": "2026-07-28T17:08:56Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.DB",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2607.25992v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6686d91d7b5ac53f",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Phantom Evidence: How and Why Generative AI Manufactures False Positives in Science",
-      "summary": "Four centuries ago Francis Bacon warned against the anticipations of nature, hasty generalization that wins assent on a few facts, and set against it the table of absence: checking that a property fails to appear where it should not. The demand was that looking convincing should not, on its own, count as evidence. Science has professed that demand ever since, while in practice letting persuasiveness do the work of evidence. It could be let to do so because making something persuasive was itself ",
-      "published": "2026-07-28T17:07:12Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "q-bio.NC"
-      ],
-      "url": "https://arxiv.org/abs/2607.25991v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
