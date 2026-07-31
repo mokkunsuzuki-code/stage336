@@ -1,10 +1,143 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-07-30T02:36:58.503848+00:00",
+  "generated_at": "2026-07-31T03:18:10.195560+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 36,
+  "item_count": 47,
   "items": [
+    {
+      "id": "04650004311572bd",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[flyto-core] Flyto2 Core: Guarded HTTP modules follow redirects into internal space without per-hop SSRF revalidation",
+      "summary": "",
+      "published": "2026-07-30T14:48:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-c9hr-64h3-gxpc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "da1d7dbc35e68d7c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[flyto-core] Flyto2 Core: Multiple HTTP-family modules fetch client-controlled URLs without the SSRF guard their siblings apply (SSRF to internal/metadata)",
+      "summary": "",
+      "published": "2026-07-30T14:48:05.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-pgwh-4jj4-qm8v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "61d995b38482f228",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[flyto-core] Flyto2 Core: Unauthenticated flyto-verification /run: callback_url SSRF and internal runner-secret exfiltration",
+      "summary": "",
+      "published": "2026-07-30T14:47:41.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jx74-cqjv-2c67",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a2ed81a5a315672e",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[flyto-core] Flyto2 Core: LLM/API keys leak to an attacker-controlled base_url",
+      "summary": "",
+      "published": "2026-07-30T14:47:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qq9q-xgm3-xv9g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "dba54d4c1e624ca5",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[flyto-core] Flyto2 Core: ${env.VAR} interpolation reads any env secret despite env.get being denylisted",
+      "summary": "",
+      "published": "2026-07-30T14:47:01.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hr7p-wg7r-hg9m",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "37cbcceee0d7508a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[flyto-core] Flyto2 Core: Arbitrary file write via image.download (and other file-writing modules)",
+      "summary": "",
+      "published": "2026-07-30T14:46:43.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2956-977x-2w3r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "11db2ace71b4534f",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[linuxfabrik-lib] linuxfabrik-lib: fetch() forwards credential headers across a cross-origin redirect",
+      "summary": "",
+      "published": "2026-07-30T14:46:13.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-4jc5-g844-4x33",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "b5515ae1a9edf66b",
       "source": "github-advisory-pip",
@@ -253,17 +386,17 @@
       }
     },
     {
-      "id": "c76d42549f17eeb5",
-      "source": "github-advisory-pip",
+      "id": "ba3b7c5004d61388",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[datamodel-code-generator] datamodel-code-generator: Authorization / request headers leaked to cross-origin redirect target when fetching remote schemas",
+      "title": "[@aws-amplify/codegen-ui-react] AWS Amplify Studio UI Component Properties Has an Input Validation Issue",
       "summary": "",
-      "published": "2026-07-28T21:32:08.000Z",
+      "published": "2026-07-30T20:57:24.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r5vv-ff45-prp2",
+      "url": "https://github.com/advisories/GHSA-hf3j-86p7-mfw8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +405,17 @@
       }
     },
     {
-      "id": "7ad8c76fa0678210",
-      "source": "github-advisory-pip",
+      "id": "6fd31617423c8493",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[datamodel-code-generator] datamodel-code-generator vulnerable to SSRF via --url: no host/IP validation, follows redirects",
+      "title": "[d3-color] d3-color vulnerable to ReDoS",
       "summary": "",
-      "published": "2026-07-28T21:30:18.000Z",
+      "published": "2022-09-29T14:12:55.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rfr2-mq9m-x2qx",
+      "url": "https://github.com/advisories/GHSA-36jr-mh4h-2g58",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +424,17 @@
       }
     },
     {
-      "id": "450b4ad86b7d8964",
-      "source": "github-advisory-pip",
+      "id": "1005a76d33057325",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[datamodel-code-generator] datamodel-code-generator vulnerable to arbitrary local file read via XSD `schemaLocation` (`xs:include`/`xs:import`) path traversal, with no remote-ref g",
+      "title": "[degit] degit has a Command Injection issue",
       "summary": "",
-      "published": "2026-07-28T21:26:41.000Z",
+      "published": "2026-06-09T06:31:59.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-442q-2j6p-642g",
+      "url": "https://github.com/advisories/GHSA-77c7-pq4r-6mcq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,74 +443,17 @@
       }
     },
     {
-      "id": "9523009478de3d99",
-      "source": "github-advisory-pip",
+      "id": "b49fcde11dbea338",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[deepsearcher] zilliztech deep-searcher has an Incorrect Privilege Assignment issue",
+      "title": "[dssrf] dssrf has an SSRF bypass with remove_at_symbol_in_string",
       "summary": "",
-      "published": "2026-06-08T00:30:25.000Z",
+      "published": "2026-07-30T16:26:52.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-43px-gpwc-q84v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c40d70e22cbc74f7",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[hermes-agent] hermes-agent has an Injection issue",
-      "summary": "",
-      "published": "2026-06-01T06:30:27.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-33qv-c5qm-799v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4becd5bc4a7a4bf9",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[hermes-agent] hermes-agent has an Uncontrolled Resource Consumption issue",
-      "summary": "",
-      "published": "2026-06-01T06:30:27.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-pmqc-57g8-c22c",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "323f5eae3806e638",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[hermes-agent] hermes-agent has an Injection issue",
-      "summary": "",
-      "published": "2026-06-01T06:30:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-xq8w-9jvx-gm3v",
+      "url": "https://github.com/advisories/GHSA-cg4g-m8jx-vjv2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -633,17 +709,20 @@
       }
     },
     {
-      "id": "07f3565bbec6dba2",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[qti-neon] QTINeon has unauthenticated relay-to-host amplification via unbounded RECONNECT_REQUEST forwarding",
-      "summary": "",
-      "published": "2026-07-28T16:36:47.000Z",
+      "id": "8a94878e815317d4",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Learning to Trace Seiberg Dualities",
+      "summary": "Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two systems are dual, even when all of the \"rules of the game\" are well-known. Said differently, when confronted with two systems, how can one efficiently establish that they are in fact dual? In this paper we use machine learning methods to address this question for Seiberg dualities of su",
+      "published": "2026-07-30T17:59:56Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "hep-th",
+        "cs.AI",
+        "cs.LG",
+        "hep-ph"
       ],
-      "url": "https://github.com/advisories/GHSA-85rg-p3fr-xc2f",
+      "url": "https://arxiv.org/abs/2607.28628v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -652,17 +731,17 @@
       }
     },
     {
-      "id": "12523753cf359234",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@novu/application-generic] @novu/application-generic: `validateUrlSsrf` permits CGNAT (100.64.0.0/10) destinations — affects Workflow HTTP request step + Webhook filter condition",
-      "summary": "",
-      "published": "2026-07-28T14:59:22.000Z",
+      "id": "2d8fa0da07d687ff",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+      "summary": "Embodied intelligence faces a fundamental data bottleneck. Models must capture how first-person perception, whole-body motion, dexterous manipulation, object state, sound, and touch evolve together as humans pursue goals over time. Existing datasets fragment this experience across viewpoints, modalities, or spatial scales, leaving the full perception-action loop only partially observed. We introduce the Ambient Capture Engine (ACE), a human-centric data engine that transforms real home environme",
+      "published": "2026-07-30T17:59:50Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CV"
       ],
-      "url": "https://github.com/advisories/GHSA-vg6v-j97m-h5xq",
+      "url": "https://arxiv.org/abs/2607.28625v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -671,17 +750,161 @@
       }
     },
     {
-      "id": "b2c6494edba4218c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@wakaru/cli] @wakaru/cli arbitrary file write during bundle unpack",
-      "summary": "",
-      "published": "2026-07-28T14:44:01.000Z",
+      "id": "621a2e3424b771e9",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+      "summary": "Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and AI agents need to locate relevant information, verify their provenance, and assemble cross-paper answers manually. We present AskChem, a claim-centered infrastructure for cross-paper chemistry search. AskChem changes the unit of retrieval from the paper to the provenance-carrying c",
+      "published": "2026-07-30T17:59:11Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CL",
+        "cs.AI",
+        "cs.IR",
+        "cs.LG"
       ],
-      "url": "https://github.com/advisories/GHSA-7wpj-vvmv-pgm8",
+      "url": "https://arxiv.org/abs/2607.28618v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "cdfc05a5e8f25d5a",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "summary": "System prompts are instructions configured by developers to govern the behaviors of foundation models in AI applications. They are used throughout commercial AI products, but are rarely disclosed to the public or regulators, creating a serious trust and accountability gap in the wide deployment of AI systems. In this paper, we introduce Artificial Intelligence System Prompt Assurance (AISPA), a user-centric framework for systematically auditing system prompts in AI systems. AISPA examines specif",
+      "published": "2026-07-30T17:58:58Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY",
+        "cs.HC"
+      ],
+      "url": "https://arxiv.org/abs/2607.28617v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "34b0f76874b68d7c",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Logical computation with canonical lifted product codes",
+      "summary": "High-rate quantum low-density parity-check (qLDPC) codes encode many logical qubits with low physical-qubit overhead, but realizing efficient fault-tolerant computation on such dense encodings remains a major challenge. Generic, code-agnostic techniques such as code surgery and gate teleportation apply broadly, but are difficult to make modular, low-overhead, and fully certifiable on complex high-rate codes whose structure is left unexploited. Here we overcome these obstacles by co-designing the",
+      "published": "2026-07-30T17:55:34Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.28605v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "94c239684e210eed",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Pauli Encodings & Unclonable Encryption",
+      "summary": "The unclonable bit question asks whether quantum encryption can prevent an adversary from producing two systems that both reveal the plaintext once the key is disclosed. We introduce and study Pauli Encodings, a simple class of one-bit encryption schemes whose ciphertexts are normalized eigenspace projectors of Pauli strings. For every Pauli Encoding with K Pauli strings, we prove a universal lower bound $1/2+1/(2\\sqrt{K})$ on the optimal monogamy-of-entanglement winning probability, together wi",
+      "published": "2026-07-30T17:54:03Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.28602v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2554b89c113e4562",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments",
+      "summary": "Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation. Each task must couple a realistic software state with a specification, development tools, and reliable verification. To expand this supply, we present Change2Task, a system grounded in repository history that converts merged pull requests into verified tasks on healthy modern revisions of the same repository. It aligns historical evidence with evolved code, reconstructs ta",
+      "published": "2026-07-30T17:44:31Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.SE",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2607.28591v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "755412c198318a53",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks",
+      "summary": "SWE-bench-like benchmarks are widely used for evaluating LLM's issue resolution capability. They typically follow a common construction pipeline: each PR (Pull Request) is paired with its linked issue by extracting issue references from the PR description; the issue description is used as the problem statement, and the PR patch serves as the test oracle. However, due to the inherent complexity of developing and maintaining large repositories, such PR-Issue pairings are often misaligned in practi",
+      "published": "2026-07-30T17:42:44Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2607.28587v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5decf99b940ee7e9",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Sample More, Reflect Less: Self-Refine and Reflexion Lose to Repeated Sampling at Equal Token Cost, from 1.5B to 7B",
+      "summary": "Methods that make a language model plan, criticise and rewrite its own answer, reflect on mistakes, pick the best of several attempts, or debate with copies of itself nearly all make it generate far more text than a single chain of thought. Because generating more text raises accuracy by itself, a gain over one chain of thought does not show the method's idea is what helped. Wang et al. (2024) reported that a simple baseline, sampling the same question repeatedly and keeping the most common answ",
+      "published": "2026-07-30T17:38:23Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2607.28576v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bf20435e3f85f3b0",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering",
+      "summary": "Recursive self-improvement (RSI) requires AI systems that improve the process of building AI (i.e., AI4AI); machine learning engineering (MLE) offers a concrete, executable testbed for studying this capability. We introduce OpenMLE, an open full-stack system for RSI research in MLE, spanning verifiable task environments with execution feedback (OpenMLE-Gym), operator learning (OpenMLE-RL), and long-horizon search (OpenMLE-Evo). On this stack we post-train Frontis-MA1 (35B) as a meta-evolution ag",
+      "published": "2026-07-30T17:34:01Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2607.28568v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
