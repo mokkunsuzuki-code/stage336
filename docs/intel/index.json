@@ -1,10 +1,333 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-04T02:48:24.059248+00:00",
+  "generated_at": "2026-08-05T02:44:45.310881+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 31,
+  "item_count": 40,
   "items": [
+    {
+      "id": "7b64ad29374f89ba",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: A folder write-collaborator can permanently delete the owner's chats by deleting a shared subfolder",
+      "summary": "",
+      "published": "2026-08-04T20:58:12.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3cg5-48j3-v4gv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0f3ed9611c2d458c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Any authenticated user can stall a worker via a knowledge-search pattern that backtracks catastrophically",
+      "summary": "",
+      "published": "2026-08-04T20:56:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2f54-p244-32q6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d1b8421ae2cf9303",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Stored XSS via unescaped KaTeX render-error fallback in rendered messages",
+      "summary": "",
+      "published": "2026-08-04T20:54:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-pwxh-7358-jq2x",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "60131e77fe3db1e8",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Tool source code disclosed to read-only users via the tool list and get endpoints",
+      "summary": "",
+      "published": "2026-08-04T20:51:41.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3r7g-q6cg-q2vx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4268812a9f72e444",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Unapproved accounts can open terminal sessions via a WebSocket auth path missing the role check",
+      "summary": "",
+      "published": "2026-08-04T20:45:00.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5gpj-vj23-vhhv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6d1217d56116dd33",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Instance-wide stall via automation recurrence rules that force multi-second parsing",
+      "summary": "",
+      "published": "2026-08-04T20:42:34.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-73cq-mcgh-379c",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "58478eb034c1130c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: DNS Rebinding SSRF Bypass",
+      "summary": "",
+      "published": "2026-08-04T20:38:34.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-h6x2-583h-x99r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d0fe966fa5d32723",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Cross-user file content disclosure via request-scoped direct model knowledge metadata",
+      "summary": "",
+      "published": "2026-08-04T20:35:53.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6xhv-rxhv-pwm4",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f62782cce2e39b02",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Deletion of directories and file embeddings in other knowledge bases via sync cleanup",
+      "summary": "",
+      "published": "2026-08-04T20:35:47.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jxc9-xmc4-gr23",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "33cf0b0cb30f349d",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Same-origin XSS to account takeover via terminal file-preview iframe hardcoding allow-same-origin",
+      "summary": "",
+      "published": "2026-08-04T20:02:03.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3xpf-xq7r-v8c5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "554554447aa1f2b9",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Any authenticated user can reach internal services and cloud metadata via NAT64-encoded URLs",
+      "summary": "",
+      "published": "2026-08-04T19:59:36.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8x5v-cpv7-8jjp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bd614ec66641601d",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Users denied the image-generation permission can still generate images via chat completions",
+      "summary": "",
+      "published": "2026-08-04T19:56:57.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-g423-grf7-98rv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7875394cee895ee7",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Client-side SSRF via unrestricted external resource loading in Vega/Vega-Lite chart rendering",
+      "summary": "",
+      "published": "2026-08-04T19:54:57.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rffm-9q57-q649",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d4cb9c181d2d2b84",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Any authenticated user can cancel another user's chat generation via the chat delete endpoint",
+      "summary": "",
+      "published": "2026-08-04T19:54:49.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3vf6-64vr-3g56",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "293332ecbdd712c3",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Account takeover via OAuth token exchange accepting tokens issued to any client",
+      "summary": "",
+      "published": "2026-08-04T19:52:01.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rq84-p6rr-vf89",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0f8ae2a0fb3a40ba",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Any member with write access to a standard channel can edit or delete other members' messages",
+      "summary": "",
+      "published": "2026-08-04T19:45:39.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mj5r-jf49-m3w7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "02803c8381816906",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: SSRF into internal services via unvalidated sub-resource requests in the Playwright web loader",
+      "summary": "",
+      "published": "2026-08-04T19:40:48.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w2rx-84hp-gg95",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "a4b5ca0a302bba46",
       "source": "github-advisory-pip",
@@ -63,340 +386,17 @@
       }
     },
     {
-      "id": "0499ee97e5fb5777",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[aiohttp] AIOHTTP: Out-of-bounds heap read in C HTTP response parser error path (malformed chunked response)",
-      "summary": "",
-      "published": "2026-08-03T20:51:13.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cq5v-8q36-5273",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "de63de1c8655a9a7",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[aiohttp] AIOHTTP: HTTP request smuggling via WebSocket upgrade",
-      "summary": "",
-      "published": "2026-08-03T20:46:10.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mfx4-hv73-q22v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7cce511ab1e301a7",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[aiohttp] AIOHTTP: WebSocket client accepts compressed frames without negotiated permessage-deflate",
-      "summary": "",
-      "published": "2026-08-03T20:40:55.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mq44-7p77-q5h7",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "aa77566c434c531a",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[black] Black: Arbitrary file writes from unsanitized user input in cache file name",
-      "summary": "",
-      "published": "2026-03-12T18:33:10.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3936-cmfr-pm3m",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "db07a98ac7d18ee8",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[GitPython] GitPython: Arbitrary file truncation via git rev-list --output argument injection in unguarded Commit.count",
-      "summary": "",
-      "published": "2026-08-03T20:23:17.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-p538-c434-8v24",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e09af23375d40092",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[GitPython] GitPython: Incomplete unsafe_git_archive_options denylist omits --add-file / --add-virtual-file, enabling arbitrary file read via Repo.archive()",
-      "summary": "",
-      "published": "2026-08-03T20:14:28.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-539m-9xh6-q6rr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "47ff880451c5710a",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[GitPython] GitPython: Unguarded git option forwarding in IndexFile.checkout() and TagReference.create() enables arbitrary file overwrite and arbitrary file read",
-      "summary": "",
-      "published": "2026-08-03T20:09:56.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3f7w-8rr8-f37f",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "df9454ef741a308b",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[gemini-bridge] gemini-bridge vulnerable to arbitrary local file read via consult_gemini_with_files inline mode",
-      "summary": "",
-      "published": "2026-07-31T22:31:20.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-c5px-58j2-7fqp",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f2aa39cdf8009d89",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[PyJWT] PyJWKClient: missing scheme allowlist enables CVE-2024-21643-class SSRF + token forgery via file://, ftp://, data: schemes",
-      "summary": "",
-      "published": "2026-06-15T19:28:41.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-993g-76c3-p5m4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ffd544fae0f705e5",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pyjwt] PyJWKClient unbounded JWKS endpoint requests via attacker-controlled kid values (DoS)",
-      "summary": "",
-      "published": "2026-06-15T17:28:46.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-fhv5-28vv-h8m8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "30e64253d68c788a",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[monai] MONAI: Unsafe functions lead to pickle deserialization rce",
-      "summary": "",
-      "published": "2026-04-07T20:17:21.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-89gg-p5r5-q6r4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fce60ab9e61e866b",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pyasn1] pyasn1 BER/CER/DER decoder denial of service via unbounded long-form tag IDs",
-      "summary": "",
-      "published": "2026-07-21T19:10:11.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-m4p7-r5rc-7g4j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "31b5d8917444983a",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[thumbor] Thumbor has path traversal via post-validation URL decoding bypass in file_loader",
-      "summary": "",
-      "published": "2026-07-31T19:03:54.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cj54-hpcc-gj6h",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2cc3d78b81b61368",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[thumbor] Thumbor proportion filter allows unbounded post-transform resize leading to remote DoS",
-      "summary": "",
-      "published": "2026-07-31T19:00:44.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-phj3-59pf-cp83",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d23f334b34fbf9ac",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[thumbor] Thumbor has Regex Denial of Service (ReDoS) in `convolution` filter",
-      "summary": "",
-      "published": "2026-07-31T18:58:28.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5vjc-7cxw-4w6j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1bf4890c3711f473",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[thumbor] Thumbor convolution filter allows divide-by-zero in C extension leading to remote DoS",
-      "summary": "",
-      "published": "2026-07-31T18:54:55.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cqjp-jf4r-h5q9",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d817bc90a3f3d931",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[thumbor] Thumbor has HMAC validation bypass via multiple .replace() calls when removing URL signature",
-      "summary": "",
-      "published": "2026-07-31T18:51:54.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mw3h-qjxj-6xg9",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ab8c6e632cbfa3f1",
+      "id": "347eeaec29661a37",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[jsonata] jsonata: Malicious inputs to \"$toMillis\" function can cause resource exhaustion",
+      "title": "[ghost] Ghost: Paid gift memberships obtainable at minimal cost via the donations feature",
       "summary": "",
-      "published": "2026-07-02T20:13:55.000Z",
+      "published": "2026-08-04T21:57:48.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-86vw-mfpg-wwv9",
+      "url": "https://github.com/advisories/GHSA-xm43-3m56-w3wf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +405,17 @@
       }
     },
     {
-      "id": "7079724ac453e930",
+      "id": "e0b1ac52802a77aa",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[sequelize] Sequelize: SQL Injection (Oracle DB)",
+      "title": "[ghost] Ghost: Member existence leak via magic link sign-in response",
       "summary": "",
-      "published": "2026-08-03T20:29:50.000Z",
+      "published": "2026-08-04T21:56:13.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-v8fg-2rw7-q452",
+      "url": "https://github.com/advisories/GHSA-chgm-3698-jm42",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +424,17 @@
       }
     },
     {
-      "id": "83681b704201f8b6",
+      "id": "d1fae76559956275",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[hono] Hono: ReDoS in CORS middleware via Access-Control-Request-Headers",
+      "title": "[@nuxt/ui] @nuxt/ui: UAuthForm / UForm SSR markup omits `method`, leaking credentials via GET if submitted before hydration",
       "summary": "",
-      "published": "2026-08-03T20:23:30.000Z",
+      "published": "2026-07-02T20:16:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8j4g-w8fx-2239",
+      "url": "https://github.com/advisories/GHSA-gj2h-2fpw-fhv9",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +443,17 @@
       }
     },
     {
-      "id": "48f292ac296d8599",
+      "id": "667e3b1511941002",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ip-address] ip-address: Address4 decodes leading-zero octets as decimal while resolvers decode them as octal, allowing SSRF and trust-boundary bypass",
+      "title": "[@tryghost/activitypub] XSS in Ghost's ActivityPub client",
       "summary": "",
-      "published": "2026-08-03T19:59:44.000Z",
+      "published": "2026-08-04T21:54:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mwp4-54f8-5fhr",
+      "url": "https://github.com/advisories/GHSA-xpp7-93x6-v29m",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +462,17 @@
       }
     },
     {
-      "id": "efa6cdb806f5ee3c",
+      "id": "57e93fad1ec6dc96",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ip-address] ip-address: a CIDR suffix on the parsed address suppresses special-use classification and can bypass SSRF and trust-boundary checks",
+      "title": "[ghost] Ghost: Session Fixation in Ghost Admin",
       "summary": "",
-      "published": "2026-08-03T19:59:33.000Z",
+      "published": "2026-08-04T21:53:53.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4xrf-jv44-h6hh",
+      "url": "https://github.com/advisories/GHSA-7mpp-r37j-x5wh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +481,17 @@
       }
     },
     {
-      "id": "e2ed6f05cf39741a",
+      "id": "087984b0626c64f1",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ip-address] ip-address: misclassification of IPv4-mapped/NAT64 IPv6 addresses can bypass SSRF and trust-boundary checks",
+      "title": "[ghost] Ghost: Theme Upload Path Traversal",
       "summary": "",
-      "published": "2026-08-03T19:52:33.000Z",
+      "published": "2026-08-04T21:49:56.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-22jq-vg5j-6vgg",
+      "url": "https://github.com/advisories/GHSA-cjc9-q5gf-327p",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +500,17 @@
       }
     },
     {
-      "id": "a1426fab9d8931b5",
+      "id": "7e303ca8c980f56a",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[undici] undici vulnerable to CRLF Injection via blob-like body 'type' property",
+      "title": "[ghost] Ghost: Database Backup Path Traversal",
       "summary": "",
-      "published": "2026-08-03T19:33:53.000Z",
+      "published": "2026-08-04T21:41:33.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-m8rv-5g2x-5cg5",
+      "url": "https://github.com/advisories/GHSA-cj62-hvv2-2q5h",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +519,17 @@
       }
     },
     {
-      "id": "49ae3dc2f2983174",
+      "id": "b17c5530da9f335a",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[undici] undici vulnerable to cross-user information disclosure via whitespace around equals in Cache-Control directives",
+      "title": "[ghost] Ghost: Server-Side Request Forgery in Image Fetching",
       "summary": "",
-      "published": "2026-08-03T19:32:12.000Z",
+      "published": "2026-08-04T21:38:17.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jr45-8vmc-qm54",
+      "url": "https://github.com/advisories/GHSA-gcvv-72q8-9v76",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +538,17 @@
       }
     },
     {
-      "id": "9945cc8d77a1bf5f",
+      "id": "2b8c5c115a7e877b",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[undici] undici vulnerable to cookie attribute injection via unsanitized domain and unparsed setCookie fields",
+      "title": "[ghost] Ghost: Blind Password Hash Disclosure in Ghost Admin API",
       "summary": "",
-      "published": "2026-08-03T19:30:52.000Z",
+      "published": "2026-08-04T21:28:35.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-v3r7-h72x-cjcm",
+      "url": "https://github.com/advisories/GHSA-jm22-3w23-5q7w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +557,17 @@
       }
     },
     {
-      "id": "d432b7f784975c7a",
+      "id": "3c0e67d6bcf99753",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[undici] undici vulnerable to downstream response desynchronization via retry interceptor",
+      "title": "[@remix-run/router] React Router's same-origin redirect with path starting // causes open redirect via protocol-relative URL reinterpretation",
       "summary": "",
-      "published": "2026-08-03T19:24:33.000Z",
+      "published": "2026-06-03T20:58:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8xcm-r25x-g524",
+      "url": "https://github.com/advisories/GHSA-2j2x-hqr9-3h42",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,17 +576,188 @@
       }
     },
     {
-      "id": "eb99d0adb38557ed",
+      "id": "ebf4c1797de2c7fa",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[undici] undici vulnerable to cross-user information disclosure and parse-time crash via degenerate private cache directives",
+      "title": "[ghost] Ghost: Mobiledoc image-size fetch SSRF",
       "summary": "",
-      "published": "2026-08-03T19:19:47.000Z",
+      "published": "2026-08-04T21:25:21.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4cwx-7wf7-3272",
+      "url": "https://github.com/advisories/GHSA-g366-23fw-ggp6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "42a4f35cc71cd201",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[ghost] Ghost: Server-side request forgery via DNS rebinding in external request handling",
+      "summary": "",
+      "published": "2026-08-04T21:24:12.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-ch52-px8q-f22j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c9f8db123fe8a3e6",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[ghost] Ghost: Private IP filtering bypass to make server-side requests to internal services",
+      "summary": "",
+      "published": "2026-08-04T21:13:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wvp2-4qqp-4h3r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "573d9bcda81131ca",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[ghost] Ghost: Archived Offers can be Redeemed",
+      "summary": "",
+      "published": "2026-08-04T21:11:12.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-4wx2-7gvj-qfq3",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "18f615014779151d",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[ghost] Ghost: File Upload Content-Type Spoofing",
+      "summary": "",
+      "published": "2026-08-04T21:05:39.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-944x-pm95-3jpr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1d53ab9ebb0e02eb",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[ghost] Ghost: Cross-Site Scripting in Universal Import",
+      "summary": "",
+      "published": "2026-08-04T21:03:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2gx6-7gx2-wwcf",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "231a0fe8229f56fe",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@hypequery/clickhouse] @hypequery/clickhouse has SQL Injection in parameter escaping that allows arbitrary SQL execution",
+      "summary": "",
+      "published": "2026-07-28T22:19:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6wcc-39rp-hh9p",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "baaa85b9b8705c10",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[flowise] Flowise: Unauthenticated OAuth2 token refresh endpoint returns access tokens — enables token theft for any connected service",
+      "summary": "",
+      "published": "2026-08-04T19:37:36.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qgvm-j2hm-6m38",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "484ab1844791592b",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[flowise-components] Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
+      "summary": "",
+      "published": "2026-08-04T19:29:26.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5xvg-pmgg-3mxr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "fde2809a70dc1f66",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[flowise] Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
+      "summary": "",
+      "published": "2026-08-04T19:29:26.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5xvg-pmgg-3mxr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
