@@ -1,9 +1,9 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-05T02:44:45.310881+00:00",
+  "generated_at": "2026-08-06T02:48:07.180966+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 40,
+  "item_count": 29,
   "items": [
     {
       "id": "7b64ad29374f89ba",
@@ -386,17 +386,17 @@
       }
     },
     {
-      "id": "347eeaec29661a37",
+      "id": "cc83e7393cd2f3ca",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ghost] Ghost: Paid gift memberships obtainable at minimal cost via the donations feature",
+      "title": "[nuxt] Nuxt: Unauthenticated CPU exhaustion parsing and hashing the Nuxt island endpoint body before hash validation",
       "summary": "",
-      "published": "2026-08-04T21:57:48.000Z",
+      "published": "2026-08-05T21:43:03.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xm43-3m56-w3wf",
+      "url": "https://github.com/advisories/GHSA-9pgf-384g-p7mv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +405,17 @@
       }
     },
     {
-      "id": "e0b1ac52802a77aa",
+      "id": "e468095bab958559",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ghost] Ghost: Member existence leak via magic link sign-in response",
+      "title": "[nuxt] Nuxt: Server-Side Remote Code Execution via Runtime Template Injection in Nuxt Server Island Props",
       "summary": "",
-      "published": "2026-08-04T21:56:13.000Z",
+      "published": "2026-08-05T21:29:55.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-chgm-3698-jm42",
+      "url": "https://github.com/advisories/GHSA-9473-5f9j-94wq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +424,17 @@
       }
     },
     {
-      "id": "d1fae76559956275",
+      "id": "741f5a8a9e387919",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@nuxt/ui] @nuxt/ui: UAuthForm / UForm SSR markup omits `method`, leaking credentials via GET if submitted before hydration",
+      "title": "[@nuxt/devtools] Unauthenticated Nuxt DevTools RPC allows arbitrary command execution on the developer's host",
       "summary": "",
-      "published": "2026-07-02T20:16:12.000Z",
+      "published": "2026-08-05T21:27:39.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gj2h-2fpw-fhv9",
+      "url": "https://github.com/advisories/GHSA-279x-mwfv-vcqv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +443,17 @@
       }
     },
     {
-      "id": "667e3b1511941002",
+      "id": "ab11e84d49467c68",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@tryghost/activitypub] XSS in Ghost's ActivityPub client",
+      "title": "[nuxt] Nuxt: Unauthorized Component Instantiation via Server Island Props",
       "summary": "",
-      "published": "2026-08-04T21:54:01.000Z",
+      "published": "2026-08-05T21:21:33.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xpp7-93x6-v29m",
+      "url": "https://github.com/advisories/GHSA-48hr-524c-v5w3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +462,17 @@
       }
     },
     {
-      "id": "57e93fad1ec6dc96",
+      "id": "6e3fba93c917be62",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ghost] Ghost: Session Fixation in Ghost Admin",
+      "title": "[nuxt] Nuxt runtime payload cache discloses another user's SSR data across users and to unauthenticated clients",
       "summary": "",
-      "published": "2026-08-04T21:53:53.000Z",
+      "published": "2026-08-05T21:14:33.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7mpp-r37j-x5wh",
+      "url": "https://github.com/advisories/GHSA-wm8w-6qjm-cv43",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +481,17 @@
       }
     },
     {
-      "id": "087984b0626c64f1",
+      "id": "0720016ac244a1e7",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ghost] Ghost: Theme Upload Path Traversal",
+      "title": "[nuxt] Nuxt route rules silently dropped for mixed-case paths, bypassing appMiddleware auth gates (incomplete fix for CVE-2026-53721)",
       "summary": "",
-      "published": "2026-08-04T21:49:56.000Z",
+      "published": "2026-08-05T21:05:18.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cjc9-q5gf-327p",
+      "url": "https://github.com/advisories/GHSA-hxvh-4h3w-prp9",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +500,17 @@
       }
     },
     {
-      "id": "7e303ca8c980f56a",
+      "id": "09af057b2c5c07f9",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ghost] Ghost: Database Backup Path Traversal",
+      "title": "[nuxt] Nuxt: Unauthenticated out-of-memory crash via unbounded v-for expansion in island rendering",
       "summary": "",
-      "published": "2026-08-04T21:41:33.000Z",
+      "published": "2026-08-05T20:59:04.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cj62-hvv2-2q5h",
+      "url": "https://github.com/advisories/GHSA-hxcr-hm88-mpq6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +519,17 @@
       }
     },
     {
-      "id": "b17c5530da9f335a",
+      "id": "4e7c6e317dc18760",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ghost] Ghost: Server-Side Request Forgery in Image Fetching",
+      "title": "[electron] Electron: Sandboxed iframes can launch external protocol handlers",
       "summary": "",
-      "published": "2026-08-04T21:38:17.000Z",
+      "published": "2026-08-05T17:56:50.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gcvv-72q8-9v76",
+      "url": "https://github.com/advisories/GHSA-p2rr-rvmm-c5fp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,226 +538,17 @@
       }
     },
     {
-      "id": "2b8c5c115a7e877b",
+      "id": "2e893a4bb0cf7181",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ghost] Ghost: Blind Password Hash Disclosure in Ghost Admin API",
+      "title": "[electron] Electron: DevTools embedder handler executes arbitrary files via shell open",
       "summary": "",
-      "published": "2026-08-04T21:28:35.000Z",
+      "published": "2026-08-05T17:49:14.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jm22-3w23-5q7w",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3c0e67d6bcf99753",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@remix-run/router] React Router's same-origin redirect with path starting // causes open redirect via protocol-relative URL reinterpretation",
-      "summary": "",
-      "published": "2026-06-03T20:58:01.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2j2x-hqr9-3h42",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ebf4c1797de2c7fa",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[ghost] Ghost: Mobiledoc image-size fetch SSRF",
-      "summary": "",
-      "published": "2026-08-04T21:25:21.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g366-23fw-ggp6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "42a4f35cc71cd201",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[ghost] Ghost: Server-side request forgery via DNS rebinding in external request handling",
-      "summary": "",
-      "published": "2026-08-04T21:24:12.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-ch52-px8q-f22j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c9f8db123fe8a3e6",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[ghost] Ghost: Private IP filtering bypass to make server-side requests to internal services",
-      "summary": "",
-      "published": "2026-08-04T21:13:16.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wvp2-4qqp-4h3r",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "573d9bcda81131ca",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[ghost] Ghost: Archived Offers can be Redeemed",
-      "summary": "",
-      "published": "2026-08-04T21:11:12.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4wx2-7gvj-qfq3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "18f615014779151d",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[ghost] Ghost: File Upload Content-Type Spoofing",
-      "summary": "",
-      "published": "2026-08-04T21:05:39.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-944x-pm95-3jpr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1d53ab9ebb0e02eb",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[ghost] Ghost: Cross-Site Scripting in Universal Import",
-      "summary": "",
-      "published": "2026-08-04T21:03:51.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2gx6-7gx2-wwcf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "231a0fe8229f56fe",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@hypequery/clickhouse] @hypequery/clickhouse has SQL Injection in parameter escaping that allows arbitrary SQL execution",
-      "summary": "",
-      "published": "2026-07-28T22:19:23.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6wcc-39rp-hh9p",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "baaa85b9b8705c10",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[flowise] Flowise: Unauthenticated OAuth2 token refresh endpoint returns access tokens — enables token theft for any connected service",
-      "summary": "",
-      "published": "2026-08-04T19:37:36.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qgvm-j2hm-6m38",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "484ab1844791592b",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[flowise-components] Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
-      "summary": "",
-      "published": "2026-08-04T19:29:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5xvg-pmgg-3mxr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fde2809a70dc1f66",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[flowise] Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
-      "summary": "",
-      "published": "2026-08-04T19:29:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5xvg-pmgg-3mxr",
+      "url": "https://github.com/advisories/GHSA-f2r8-jv7c-xqmp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
