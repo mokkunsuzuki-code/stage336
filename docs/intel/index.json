@@ -1,10 +1,105 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-06T02:48:07.180966+00:00",
+  "generated_at": "2026-08-07T02:48:39.779990+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 29,
+  "item_count": 37,
   "items": [
+    {
+      "id": "8b5e27e74070bb81",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[h2] h2: Duplicate Host header could facilitate request smuggling",
+      "summary": "",
+      "published": "2026-08-06T21:53:41.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6hr6-w5qg-qmwg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f52d83e7becf5497",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[awscli] AWS CLI: Disabled SSH host key verification in Amazon AWS CLI EMR helper commands",
+      "summary": "",
+      "published": "2026-08-06T20:15:30.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hqvf-45jj-mccq",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c62cd0bd90aa4287",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[langgraph-checkpoint-sqlite] LangGraph: Namespace prefix matching crosses segment boundaries in Postgres and SQLite stores",
+      "summary": "",
+      "published": "2026-08-06T19:03:12.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-47pj-3jcm-6whg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "05ad3b5fe7844d6d",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[langgraph-checkpoint-postgres] LangGraph: Namespace prefix matching crosses segment boundaries in Postgres and SQLite stores",
+      "summary": "",
+      "published": "2026-08-06T19:03:12.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-47pj-3jcm-6whg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "991575ed873a19aa",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[aiosend] aiosend: Deserialization of request body before signature verification (Pre-auth DoS) in webhook handler",
+      "summary": "",
+      "published": "2026-05-22T17:27:56.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-7m8f-hgjq-8gc9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "7b64ad29374f89ba",
       "source": "github-advisory-pip",
@@ -291,112 +386,17 @@
       }
     },
     {
-      "id": "0f8ae2a0fb3a40ba",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Any member with write access to a standard channel can edit or delete other members' messages",
-      "summary": "",
-      "published": "2026-08-04T19:45:39.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mj5r-jf49-m3w7",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "02803c8381816906",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: SSRF into internal services via unvalidated sub-resource requests in the Playwright web loader",
-      "summary": "",
-      "published": "2026-08-04T19:40:48.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-w2rx-84hp-gg95",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a4b5ca0a302bba46",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[cryptography] python-cryptography verifier accepts wildcard DNS names allowing escape from permittedSubtrees",
-      "summary": "",
-      "published": "2026-08-03T21:26:57.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-m2h6-j472-rp4c",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "822cfa12a7235f8c",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[cryptography] python-cryptography: Duplicate self-signed intermediates can cause exponential path-building",
-      "summary": "",
-      "published": "2026-08-03T21:26:50.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-jwv3-5hgf-82ww",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e0b38a89c827be01",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[cryptography] cryptography: PKCS#7 EnvelopedData decryption exposes a Bleichenbacher oracle through distinguishable errors and timing",
-      "summary": "",
-      "published": "2026-08-03T21:17:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g6cj-pr64-35w5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "cc83e7393cd2f3ca",
+      "id": "651a6f08a04b1ce3",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nuxt] Nuxt: Unauthenticated CPU exhaustion parsing and hashing the Nuxt island endpoint body before hash validation",
+      "title": "[re2] node-re2: Out-of-bounds heap read in `replace`/`split` via a `Buffer` ending in a truncated multi-byte UTF-8 character → adjacent heap memory disclosed to JavaScript",
       "summary": "",
-      "published": "2026-08-05T21:43:03.000Z",
+      "published": "2026-08-06T21:26:14.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9pgf-384g-p7mv",
+      "url": "https://github.com/advisories/GHSA-j4r3-hg7j-8chg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +405,17 @@
       }
     },
     {
-      "id": "e468095bab958559",
+      "id": "974666c2443d9b2d",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nuxt] Nuxt: Server-Side Remote Code Execution via Runtime Template Injection in Nuxt Server Island Props",
+      "title": "[re2] node-re2: String.prototype.replace(re2, template) aborts the Node process (uncatchable ToLocalChecked on empty MaybeLocal) when the result exceeds V8's max string length",
       "summary": "",
-      "published": "2026-08-05T21:29:55.000Z",
+      "published": "2026-08-06T21:19:36.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9473-5f9j-94wq",
+      "url": "https://github.com/advisories/GHSA-8hcv-x26h-mcgp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +424,17 @@
       }
     },
     {
-      "id": "741f5a8a9e387919",
+      "id": "552365e192bcb3a6",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@nuxt/devtools] Unauthenticated Nuxt DevTools RPC allows arbitrary command execution on the developer's host",
+      "title": "[ngx-extended-pdf-viewer] ngx-extended-pdf-viewer bundles a version of pdf.js vulnerable to CVE-2026-16633",
       "summary": "",
-      "published": "2026-08-05T21:27:39.000Z",
+      "published": "2026-08-06T21:13:59.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-279x-mwfv-vcqv",
+      "url": "https://github.com/advisories/GHSA-w9hm-4m3m-fxmm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +443,17 @@
       }
     },
     {
-      "id": "ab11e84d49467c68",
+      "id": "a65f2d125a0cde28",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nuxt] Nuxt: Unauthorized Component Instantiation via Server Island Props",
+      "title": "[pdfjs-dist] PDF.js: Arbitrary JavaScript execution upon opening a malicious PDF",
       "summary": "",
-      "published": "2026-08-05T21:21:33.000Z",
+      "published": "2026-08-06T21:12:27.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-48hr-524c-v5w3",
+      "url": "https://github.com/advisories/GHSA-hq66-cqwq-w95j",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +462,17 @@
       }
     },
     {
-      "id": "6e3fba93c917be62",
+      "id": "0052e8ed98806911",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nuxt] Nuxt runtime payload cache discloses another user's SSR data across users and to unauthenticated clients",
+      "title": "[js-yaml] JS-YAML: Quadratic CPU consumption in !!omap resolution (3.x and 4.x) — CVE-2026-59870 fix not backported",
       "summary": "",
-      "published": "2026-08-05T21:14:33.000Z",
+      "published": "2026-08-06T20:27:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-wm8w-6qjm-cv43",
+      "url": "https://github.com/advisories/GHSA-5p4m-2wfm-xmqj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +481,17 @@
       }
     },
     {
-      "id": "0720016ac244a1e7",
+      "id": "a6cae81c03012802",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nuxt] Nuxt route rules silently dropped for mixed-case paths, bypassing appMiddleware auth gates (incomplete fix for CVE-2026-53721)",
+      "title": "[nx] Nx: Zip-Slip in the self-hosted remote cache",
       "summary": "",
-      "published": "2026-08-05T21:05:18.000Z",
+      "published": "2026-08-06T20:10:03.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hxvh-4h3w-prp9",
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +500,17 @@
       }
     },
     {
-      "id": "09af057b2c5c07f9",
+      "id": "4bde082afbe06b3e",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nuxt] Nuxt: Unauthenticated out-of-memory crash via unbounded v-for expansion in island rendering",
+      "title": "[@nx/powerpack-shared-fs-cache] Nx: Zip-Slip in the self-hosted remote cache",
       "summary": "",
-      "published": "2026-08-05T20:59:04.000Z",
+      "published": "2026-08-06T20:10:03.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hxcr-hm88-mpq6",
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +519,17 @@
       }
     },
     {
-      "id": "4e7c6e317dc18760",
+      "id": "31edfc0a6fac3a67",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[electron] Electron: Sandboxed iframes can launch external protocol handlers",
+      "title": "[@nx/powerpack-azure-cache] Nx: Zip-Slip in the self-hosted remote cache",
       "summary": "",
-      "published": "2026-08-05T17:56:50.000Z",
+      "published": "2026-08-06T20:10:03.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p2rr-rvmm-c5fp",
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +538,169 @@
       }
     },
     {
-      "id": "2e893a4bb0cf7181",
+      "id": "5721f1468cea5769",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[electron] Electron: DevTools embedder handler executes arbitrary files via shell open",
+      "title": "[@nx/powerpack-gcs-cache] Nx: Zip-Slip in the self-hosted remote cache",
       "summary": "",
-      "published": "2026-08-05T17:49:14.000Z",
+      "published": "2026-08-06T20:10:03.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-f2r8-jv7c-xqmp",
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f6ce1d0127c7051e",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@nx/powerpack-s3-cache] Nx: Zip-Slip in the self-hosted remote cache",
+      "summary": "",
+      "published": "2026-08-06T20:10:03.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2cae232697ee9467",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@nx/shared-fs-cache] Nx: Zip-Slip in the self-hosted remote cache",
+      "summary": "",
+      "published": "2026-08-06T20:10:03.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c7816c2755558c7f",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@nx/azure-cache] Nx: Zip-Slip in the self-hosted remote cache",
+      "summary": "",
+      "published": "2026-08-06T20:10:03.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2ab5d1fa7f53a684",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@nx/gcs-cache] Nx: Zip-Slip in the self-hosted remote cache",
+      "summary": "",
+      "published": "2026-08-06T20:10:03.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b61a05e0092d84ff",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@nx/s3-cache] Nx: Zip-Slip in the self-hosted remote cache",
+      "summary": "",
+      "published": "2026-08-06T20:10:03.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e7f125dd41cba4cf",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[mermaid] Mermaid radar diagrams are vulnerable to DoS",
+      "summary": "",
+      "published": "2026-08-06T20:01:07.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rhh3-jpg6-66xh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a514b9e2e4f35208",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[mermaid] Mermaid configuration APIs allow prototype pollution",
+      "summary": "",
+      "published": "2026-08-06T19:59:10.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-c4c3-pg64-4m4v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "53d91650f81512fb",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[mermaid] Mermaid allows CSS injection applying to sibling elements of the diagram",
+      "summary": "",
+      "published": "2026-08-06T19:55:31.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6x64-9x62-f2gx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
