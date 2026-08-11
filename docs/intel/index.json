@@ -1,10 +1,29 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-10T02:01:04.759506+00:00",
+  "generated_at": "2026-08-11T01:56:45.305040+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 28,
+  "item_count": 26,
   "items": [
+    {
+      "id": "61d995b38482f228",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[flyto-core] Flyto2 Core: Unauthenticated flyto-verification /run: callback_url SSRF and internal runner-secret exfiltration",
+      "summary": "",
+      "published": "2026-07-30T14:47:41.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jx74-cqjv-2c67",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "5eb88a4348b13a8a",
       "source": "github-advisory-pip",
@@ -196,17 +215,36 @@
       }
     },
     {
-      "id": "aa15e0ab5fb5b29e",
-      "source": "github-advisory-pip",
+      "id": "b411e829e33cebef",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[django] Django: cache middleware may expose private responses when unrelated request cookies are present",
+      "title": "[fast-uri] fast-uri vulnerable to path traversal via percent-encoded dot segments",
       "summary": "",
-      "published": "2026-07-07T15:32:57.000Z",
+      "published": "2026-05-08T17:15:09.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3h9f-r86x-qvjx",
+      "url": "https://github.com/advisories/GHSA-q3j6-qgpj-74h6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "026662e41201ffbe",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via percent-encoded authority delimiters",
+      "summary": "",
+      "published": "2026-05-08T19:13:01.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-v39h-62p7-jpjc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -454,82 +492,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-qwww-vcr4-c8h2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7917924e2231f6b7",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[axios] Duplicate Advisory: Axios: Prototype pollution auth subfields can inject Basic auth",
-      "summary": "",
-      "published": "2026-08-01T15:30:27.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-38gx-cfqf-f652",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8f351e21551aec58",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@astrojs/vercel] Astro: Unauthenticated path override in the @astrojs/vercel ISR function",
-      "summary": "",
-      "published": "2026-07-20T23:25:07.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-x27w-589x-frm2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8c5ce5d7e46f9409",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@sveltejs/kit] SvelteKit: ReDoS (O(n^2)) in content negotiation — unauthenticated DoS via the Accept header",
-      "summary": "",
-      "published": "2026-08-07T16:50:02.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-29g2-3rmr-qm68",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "5267900bd2404bd8",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nuxt] Nuxt dev server discloses project root and workspace UUID via the Chrome DevTools workspace endpoint",
-      "summary": "",
-      "published": "2026-08-07T16:45:21.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-7c4v-fwgw-9rf7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
