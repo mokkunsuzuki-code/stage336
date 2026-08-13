@@ -1,10 +1,143 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-12T02:08:57.676687+00:00",
+  "generated_at": "2026-08-13T02:11:18.799245+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 26,
+  "item_count": 29,
   "items": [
+    {
+      "id": "a0e053c71538d172",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[ansible-jailexec] Ansible FreeBSD Jail Connection Plugin: Jail escape via symlink following in put_file (host-side root mv)",
+      "summary": "",
+      "published": "2026-08-12T23:21:06.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-cxgv-hp74-jj7r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e31d9f2644a89d24",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[tablib] tablib: Stored XSS in the HTML export via unescaped dataset title",
+      "summary": "",
+      "published": "2026-08-12T03:31:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-gqgw-jghv-mxwx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "387a2e96a073cc08",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] NLTK vulnerable to Eval Injection via collocations CLI arguments",
+      "summary": "",
+      "published": "2026-07-25T00:31:47.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-848c-c2cx-j7qx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ff79b49468ffcfe0",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mcp-server-kubernetes] mcp-server-kubernetes argument injection can expose Kubernetes cluster credentials",
+      "summary": "",
+      "published": "2026-07-10T21:32:32.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wmg3-h8mf-wgvr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e766117a40c3ccd8",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[apache-airflow] apache-airflow DAG source authorization bypass exposes co-located DAG source",
+      "summary": "",
+      "published": "2026-07-07T12:31:36.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-4fh7-7jx4-8f6c",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1762b7925b3610b8",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[stata-mcp] MCP-for-Stata: Stata Command Injection via Unsanitized `package` in `ado_package_install`",
+      "summary": "",
+      "published": "2026-08-12T19:23:38.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-49m4-vp58-wgc9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "600e4fddf9dab36a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compliance-trestle] compliance-trestle has an URLSecurityValidator SSRF allowlist bypass via IPv4-mapped IPv6 and 0.0.0.0",
+      "summary": "",
+      "published": "2026-08-12T15:21:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-h47f-gmjp-m7rr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "61d995b38482f228",
       "source": "github-advisory-pip",
@@ -139,17 +272,17 @@
       }
     },
     {
-      "id": "0844898fd72f7318",
-      "source": "github-advisory-pip",
+      "id": "f7dbbebfe0eb7e1c",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[keras] Keras archive extraction utilities allow path traversal and arbitrary file writes",
+      "title": "[extract-zip] extract-zip unvalidated symlink path traversal",
       "summary": "",
-      "published": "2026-06-11T15:31:33.000Z",
+      "published": "2026-06-26T18:34:00.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hqp4-2352-xf5r",
+      "url": "https://github.com/advisories/GHSA-jmr9-qjv8-65gv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,55 +291,17 @@
       }
     },
     {
-      "id": "538ce98303efad5e",
-      "source": "github-advisory-pip",
+      "id": "4a594ea480238888",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[django] Django: signed cookies are vulnerable to salt namespace collisions",
+      "title": "[@hono/node-server] Node.js Adapter for Hono: Path traversal in `serve-static` on Windows via encoded backslash (`%5C`)",
       "summary": "",
-      "published": "2026-06-03T15:30:43.000Z",
+      "published": "2026-07-21T18:17:25.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-h7pc-vwp9-298g",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "afc01f1b60b3cd05",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[django] Django: UpdateCacheMiddleware may disclose cached responses due to case-sensitive Cache-Control handling",
-      "summary": "",
-      "published": "2026-06-03T15:30:43.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8cjm-8mp7-r2xf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d29f6dca2d94ffc9",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[django]  Django: GDALRaster may over-read heap memory when constructed from bytes",
-      "summary": "",
-      "published": "2026-07-07T15:32:57.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-crhf-3pfg-w68w",
+      "url": "https://github.com/advisories/GHSA-frvp-7c67-39w9",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -454,44 +549,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-wcx4-wpfv-mc5c",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6cb2254022b331de",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[jsii-diff] Duplicate Advisory: Command Injection in jsii-diff via npm: package argument",
-      "summary": "",
-      "published": "2026-07-15T21:31:22.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-h738-vh6g-q8gh",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c6a772666274fdeb",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[react-router] React Router: RSC Mode CSRF Bypass Allows Action Execution Before 400 Response",
-      "summary": "",
-      "published": "2026-07-24T16:44:43.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qwww-vcr4-c8h2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
