@@ -1,10 +1,29 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-14T02:09:22.606608+00:00",
+  "generated_at": "2026-08-15T01:22:56.800685+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 35,
+  "item_count": 36,
   "items": [
+    {
+      "id": "860fcf6980c4e0ba",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mcp-contextforge-gateway] ContextForge: DNS TOCTOU race condition causes SSRF protection bypass (`/admin/gateways/test`)",
+      "summary": "",
+      "published": "2026-08-14T19:49:14.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9hgc-g3w5-67cm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "eaad3e489548322a",
       "source": "github-advisory-pip",
@@ -329,17 +348,93 @@
       }
     },
     {
-      "id": "5eb88a4348b13a8a",
-      "source": "github-advisory-pip",
+      "id": "6b74a63bf01e1896",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[keras] Keras: HDF5 links can disclose local file contents",
+      "title": "[@ooples/token-optimizer-mcp] Token Optimizer MCP: Unauthenticated Path Traversal in Dashboard Session Log API Endpoints",
       "summary": "",
-      "published": "2026-08-02T06:30:20.000Z",
+      "published": "2026-08-14T21:43:54.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-m8wh-29wm-52mv",
+      "url": "https://github.com/advisories/GHSA-76pc-mqxp-3rq5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "57076ff090179853",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@ooples/token-optimizer-mcp] Token Optimizer MCP: OS command injection in smart_user via username in get-user-info",
+      "summary": "",
+      "published": "2026-08-14T21:42:06.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-49mq-fc6q-3h46",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9ef93d7fa7a8b95e",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@budibase/server] Budibase: SSRF in Automation Steps - Webhook, Zapier, N8N, Slack, Discord Bypass IP Blacklist",
+      "summary": "",
+      "published": "2026-08-14T19:18:47.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5fpj-28rv-84r7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4d027e8ab4431b06",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[nuxt] Nuxt: Reflected XSS in `<NuxtLink>` via unsanitised `javascript:` or `data:` URL",
+      "summary": "",
+      "published": "2026-06-16T13:49:36.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-934w-87qh-qr26",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d8845069b42827dc",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[nuxt] Nuxt: URL-handling weaknesses in `navigateTo` and `reloadNuxtApp`: SSR open redirect, client-side script execution via the `open` option, and protocol-relative bypass in `re",
+      "summary": "",
+      "published": "2026-06-16T13:47:52.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-c9cv-mq2m-ppp3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -587,82 +682,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-q3j6-qgpj-74h6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "026662e41201ffbe",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via percent-encoded authority delimiters",
-      "summary": "",
-      "published": "2026-05-08T19:13:01.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-v39h-62p7-jpjc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d9f3de14d9c486e5",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[showdown] showdown metadata title handling allows cross-site scripting",
-      "summary": "",
-      "published": "2026-07-06T21:30:43.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cr32-g25g-vxjj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8790808b649ed126",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[showdown] showdown allows stored cross-site scripting through table header ID injection",
-      "summary": "",
-      "published": "2026-07-07T00:30:59.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-22g5-r2x5-97cx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "67f71021cfcce023",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[image-size] image-size: ICNS parser allows denial of service through an infinite loop",
-      "summary": "",
-      "published": "2026-06-10T15:31:30.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-w3rx-r6r6-pgpr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
