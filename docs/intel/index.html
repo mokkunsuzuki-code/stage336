@@ -32,7 +32,7 @@
   </ul>
 
   <h2>Latest Intelligence Metadata</h2>
-  <p>Generated at: <code>2026-08-17T01:24:44.641685+00:00</code></p>
+  <p>Generated at: <code>2026-08-18T01:21:30.309667+00:00</code></p>
   <p>JSON: <a href="./index.json">index.json</a></p>
 
   <table>
@@ -46,6 +46,110 @@
     </thead>
     <tbody>
       
+        <tr>
+          <td>software-advisory</td>
+          <td>[mlflow] MLflow: Unauthenticated full-read SSRF in webhook delivery: _validate_webhook_url bypassed via unvalidated HTTP redirects (and DNS rebinding)</td>
+          <td>2026-08-17T21:58:51.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-7gwp-5pfp-969j">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[sglang] SGLang is Vulnerable to DoS via the data_hash Function</td>
+          <td>2026-06-04T00:30:25.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-jrcc-j37m-v8fg">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[atomic-agents-stack] atomic-agents-stack: Parallel helper/delegate batch reserves $0 for models absent from the pricing table, bypassing the cost-cap fan-out guard</td>
+          <td>2026-08-17T21:50:01.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-j659-8xh6-5pq5">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[atomic-agents-stack] atomic-agents-stack: HTTP MCP catalog accepts cleartext http and spawns catalog-supplied commands (MITM to RCE)</td>
+          <td>2026-08-17T21:49:55.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-xhcr-cqfr-m3hv">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[sqlparse] sqlparse: Inefficient Regex Handling of Dollar-Quoted SQL Literals Leads to ReDoS (Denial of Service)</td>
+          <td>2026-08-17T17:49:55.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-prg7-hcfm-mfcr">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[sqlparse] sqlparse: TokenList.__init__ materializes O(subtree) value per group, causing CPU DoS before depth/token caps trigger</td>
+          <td>2026-08-17T17:49:47.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-pwgv-4x5q-6m9f">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[sqlparse] sqlparse: Quadratic O(n²) DoS in group_comments</td>
+          <td>2026-08-17T17:21:00.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-f2ff-p2ww-7p4p">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[glances] Glances: as_dict_secure() Value-Level Bypass Leaks Credentials in URL Values via /api/4/config</td>
+          <td>2026-08-17T17:20:48.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-4h34-v6r8-mmjc">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[glances] Glances: `--disable-config-exec` does not cover on-alert action commands (incomplete fix of CVE-2026-53925)</td>
+          <td>2026-08-17T17:20:37.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-59fj-m2j6-hcxh">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[glances] Glances: Incomplete fix of CVE-2026-32608: action-template sanitizer is bypassed by nested stat values (process 'cmdline') → OS command injection</td>
+          <td>2026-08-17T17:20:24.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-73wf-9vmv-5pv9">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[sqlparse] sqlparse: Generated Python and PHP snippets allow SQL string breakout through unescaped backslashes</td>
+          <td>2026-08-17T17:20:11.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-3496-9g83-7v6x">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[glances] Glances: REST API CORS Credentials Guard Uses Exact-Match Instead of Membership Test — Bypassed by Any Multi-Origin Allowlist Containing the Wildcard</td>
+          <td>2026-08-17T17:04:51.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-fp27-88fp-2phg">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[glances] Glances has a command injection bypass of action-template sanitizer via cross-field shell-operator reconstruction</td>
+          <td>2026-08-17T16:36:37.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-qcpp-8x79-hhp3">source</a></td>
+        </tr>
+        
+
         <tr>
           <td>software-advisory</td>
           <td>[mcp-contextforge-gateway] ContextForge: DNS TOCTOU race condition causes SSRF protection bypass (`/admin/gateways/test`)</td>
@@ -104,89 +208,105 @@
 
         <tr>
           <td>software-advisory</td>
-          <td>[atomic-agents-stack] atomic-agents-stack: Dashboard HTTP server path traversal allows arbitrary file read</td>
-          <td>2026-08-13T14:17:13.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-rm43-82j9-r4mj">source</a></td>
+          <td>[mlflow] MLflow: CreateModelVersion source validation does not check READ permission on referenced run_id</td>
+          <td>2026-08-17T21:59:09.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-gqch-g4w5-7qcw">source</a></td>
         </tr>
         
 
         <tr>
           <td>software-advisory</td>
-          <td>[pydantic-ai] Pydantic AI: Unvalidated UploadedFile references in UI adapters allow server-side file access using the application's credentials</td>
-          <td>2026-08-13T14:16:26.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-h7p7-w5gc-xj3w">source</a></td>
+          <td>[mlflow] MLflow: LogInputs endpoint bypasses per-run UPDATE authorization in basic-auth</td>
+          <td>2026-08-17T21:59:01.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-3p64-6gvh-82v5">source</a></td>
         </tr>
         
 
         <tr>
           <td>software-advisory</td>
-          <td>[pydantic-ai-slim] Pydantic AI: Unvalidated UploadedFile references in UI adapters allow server-side file access using the application's credentials</td>
-          <td>2026-08-13T14:16:26.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-h7p7-w5gc-xj3w">source</a></td>
+          <td>[9router] 9Router: Authenticated Server-Side Request Forgery (SSRF) via OIDC Provider Test Endpoint</td>
+          <td>2026-08-17T21:58:43.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-8g4w-4ffg-8vgx">source</a></td>
         </tr>
         
 
         <tr>
           <td>software-advisory</td>
-          <td>[ansible-jailexec] Ansible FreeBSD Jail Connection Plugin: Jail escape via symlink following in put_file (host-side root mv)</td>
-          <td>2026-08-12T23:21:06.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-cxgv-hp74-jj7r">source</a></td>
+          <td>[chrome-devtools-mcp] chrome-devtools-mcp: validatePath() does not canonicalize symlinks before enforcing roots</td>
+          <td>2026-08-17T21:56:12.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-8qf9-62x2-82pp">source</a></td>
         </tr>
         
 
         <tr>
           <td>software-advisory</td>
-          <td>[tablib] tablib: Stored XSS in the HTML export via unescaped dataset title</td>
-          <td>2026-08-12T03:31:18.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-gqgw-jghv-mxwx">source</a></td>
+          <td>[ep_etherpad-lite] Etherpad has stored XSS in HTML export via unescaped attribute-pool values</td>
+          <td>2026-08-17T17:49:38.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-2jp7-wwpg-3p9w">source</a></td>
         </tr>
         
 
         <tr>
           <td>software-advisory</td>
-          <td>[nltk] NLTK vulnerable to Eval Injection via collocations CLI arguments</td>
-          <td>2026-07-25T00:31:47.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-848c-c2cx-j7qx">source</a></td>
+          <td>[ep_etherpad-lite] Etherpad addressed weak token RNG, login timing, plugin path handling, API request handling</td>
+          <td>2026-08-17T17:49:21.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-92hr-gmr6-h8cp">source</a></td>
         </tr>
         
 
         <tr>
           <td>software-advisory</td>
-          <td>[mcp-server-kubernetes] mcp-server-kubernetes argument injection can expose Kubernetes cluster credentials</td>
-          <td>2026-07-10T21:32:32.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-wmg3-h8mf-wgvr">source</a></td>
+          <td>[vm2] vm2 has Memory Exhaustion DoS via bufferAllocLimit Bypass</td>
+          <td>2026-08-17T17:32:57.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-v836-6xw4-9cx3">source</a></td>
         </tr>
         
 
         <tr>
           <td>software-advisory</td>
-          <td>[apache-airflow] apache-airflow DAG source authorization bypass exposes co-located DAG source</td>
-          <td>2026-07-07T12:31:36.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-4fh7-7jx4-8f6c">source</a></td>
+          <td>[vm2] vm2: NodeVM `builtin: ['*']` exposes `os` and `dns` — process-wide observability reads AND writes that hijack the host (sibling class of GHSA-9g8x-92q2-p28f)</td>
+          <td>2026-08-17T17:32:47.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-m5w8-4gq2-6f8x">source</a></td>
         </tr>
         
 
         <tr>
           <td>software-advisory</td>
-          <td>[stata-mcp] MCP-for-Stata: Stata Command Injection via Unsanitized `package` in `ado_package_install`</td>
-          <td>2026-08-12T19:23:38.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-49m4-vp58-wgc9">source</a></td>
+          <td>[vm2] vm2: Sandbox Breakout Using Dangerous Host Proto Mutators</td>
+          <td>2026-08-17T17:32:41.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-cfcw-xp6x-25gj">source</a></td>
         </tr>
         
 
         <tr>
           <td>software-advisory</td>
-          <td>[compliance-trestle] compliance-trestle has an URLSecurityValidator SSRF allowlist bypass via IPv4-mapped IPv6 and 0.0.0.0</td>
-          <td>2026-08-12T15:21:17.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-h47f-gmjp-m7rr">source</a></td>
+          <td>[vm2] VM2 has Missing Error.cause Sanitization that Enables Sandbox Escape to RCE</td>
+          <td>2026-08-17T17:32:34.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-m283-3h24-438v">source</a></td>
         </tr>
         
 
         <tr>
           <td>software-advisory</td>
-          <td>[flyto-core] Flyto2 Core: Unauthenticated flyto-verification /run: callback_url SSRF and internal runner-secret exfiltration</td>
-          <td>2026-07-30T14:47:41.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-jx74-cqjv-2c67">source</a></td>
+          <td>[vm2] vm2's bufferAllocLimit cap bypassed by Buffer.concat and Buffer.from arrayLike</td>
+          <td>2026-08-17T17:32:10.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-gmc2-2x9w-cgh9">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[@medplum/core] Medplum: Improper Validation of Redirect URI in External Auth Callback allows Authorization Code Leakage</td>
+          <td>2026-08-17T13:36:17.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-m44r-7c5h-m6mj">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[deepmerge-ts] DeepmergeTS has stack exhaustion when merging recursive object graphs</td>
+          <td>2026-08-17T13:32:13.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-ggr8-5vv4-36mx">source</a></td>
         </tr>
         
 
@@ -243,94 +363,6 @@
           <td>[@genql/cli] Genql: inject arbitrary JavaScript or TypeScript via a GraphQL schema</td>
           <td>2026-07-16T21:30:38.000Z</td>
           <td><a href="https://github.com/advisories/GHSA-w757-xvvv-vgfw">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[pnpm] pnpm: Repository-controlled configDependencies can select a pacquet native install engine</td>
-          <td>2026-06-26T23:20:47.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-gj8w-mvpf-x27x">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[nanoid] nanoid: custom generators can loop indefinitely when size is zero</td>
-          <td>2026-07-29T15:31:12.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-2v37-7h3g-55p8">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[decompress] decompress allows arbitrary hardlink creation during archive extraction</td>
-          <td>2026-07-10T00:31:25.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-jwp9-9v96-94mx">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[nuxt] Duplicate Advisory: Nuxt dev server discloses project root and workspace UUID via the Chrome DevTools workspace endpoint</td>
-          <td>2026-08-11T15:32:37.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-4jjw-pwvw-q6w3">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[hashi-vault-js] hashi-vault-js: Vault token and secret values exposed in thrown errors</td>
-          <td>2026-08-13T14:14:32.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-5pq8-3ffp-7w5m">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[ep_etherpad-lite] ep_etherpad-lite: Device-to-device author-token transfer endpoint is replayable, never expires, and exposes the cleartext author token</td>
-          <td>2026-08-13T14:12:44.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-vqfp-p66c-xrp9">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[ep_etherpad-lite] ep_etherpad-lite: Import/export uses Math.random() for temp file paths; predictable paths on shared /tmp enable symlink-based file overwrite</td>
-          <td>2026-08-13T14:11:07.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-2jwf-f4xq-f24h">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[ep_etherpad-lite] ep_etherpad-lite: Cache-poisoning Cross-site Scripting and Open Redirect via x-proxy-path Header</td>
-          <td>2026-08-13T13:46:07.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-fjgc-3mj7-8rg8">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[extract-zip] extract-zip unvalidated symlink path traversal</td>
-          <td>2026-06-26T18:34:00.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-jmr9-qjv8-65gv">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[@hono/node-server] Node.js Adapter for Hono: Path traversal in `serve-static` on Windows via encoded backslash (`%5C`)</td>
-          <td>2026-07-21T18:17:25.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-frvp-7c67-39w9">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[fast-uri] fast-uri vulnerable to path traversal via percent-encoded dot segments</td>
-          <td>2026-05-08T17:15:09.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-q3j6-qgpj-74h6">source</a></td>
         </tr>
         
     </tbody>

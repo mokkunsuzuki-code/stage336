@@ -1,10 +1,257 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-17T01:24:44.641685+00:00",
+  "generated_at": "2026-08-18T01:21:30.309667+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 36,
+  "item_count": 40,
   "items": [
+    {
+      "id": "72aac167df8c5b83",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mlflow] MLflow: Unauthenticated full-read SSRF in webhook delivery: _validate_webhook_url bypassed via unvalidated HTTP redirects (and DNS rebinding)",
+      "summary": "",
+      "published": "2026-08-17T21:58:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-7gwp-5pfp-969j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "35ab7d11a1cf8643",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[sglang] SGLang is Vulnerable to DoS via the data_hash Function",
+      "summary": "",
+      "published": "2026-06-04T00:30:25.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jrcc-j37m-v8fg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a94609db62420d0f",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[atomic-agents-stack] atomic-agents-stack: Parallel helper/delegate batch reserves $0 for models absent from the pricing table, bypassing the cost-cap fan-out guard",
+      "summary": "",
+      "published": "2026-08-17T21:50:01.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-j659-8xh6-5pq5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4e1278ca74973a05",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[atomic-agents-stack] atomic-agents-stack: HTTP MCP catalog accepts cleartext http and spawns catalog-supplied commands (MITM to RCE)",
+      "summary": "",
+      "published": "2026-08-17T21:49:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xhcr-cqfr-m3hv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0e4dcdf9a51fb08b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[sqlparse] sqlparse: Inefficient Regex Handling of Dollar-Quoted SQL Literals Leads to ReDoS (Denial of Service)",
+      "summary": "",
+      "published": "2026-08-17T17:49:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-prg7-hcfm-mfcr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c40dd943328a2b81",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[sqlparse] sqlparse: TokenList.__init__ materializes O(subtree) value per group, causing CPU DoS before depth/token caps trigger",
+      "summary": "",
+      "published": "2026-08-17T17:49:47.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-pwgv-4x5q-6m9f",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bcacdc3d32ee72c7",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[sqlparse] sqlparse: Quadratic O(n²) DoS in group_comments",
+      "summary": "",
+      "published": "2026-08-17T17:21:00.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f2ff-p2ww-7p4p",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9de798f3b731542b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[glances] Glances: as_dict_secure() Value-Level Bypass Leaks Credentials in URL Values via /api/4/config",
+      "summary": "",
+      "published": "2026-08-17T17:20:48.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-4h34-v6r8-mmjc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d71f3d555b3eda74",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[glances] Glances: `--disable-config-exec` does not cover on-alert action commands (incomplete fix of CVE-2026-53925)",
+      "summary": "",
+      "published": "2026-08-17T17:20:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-59fj-m2j6-hcxh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "35ab0d2bfd2fc795",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[glances] Glances: Incomplete fix of CVE-2026-32608: action-template sanitizer is bypassed by nested stat values (process 'cmdline') → OS command injection",
+      "summary": "",
+      "published": "2026-08-17T17:20:24.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-73wf-9vmv-5pv9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bb437f59542dd2eb",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[sqlparse] sqlparse: Generated Python and PHP snippets allow SQL string breakout through unescaped backslashes",
+      "summary": "",
+      "published": "2026-08-17T17:20:11.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3496-9g83-7v6x",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c4b8aae3c3dc2903",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[glances] Glances: REST API CORS Credentials Guard Uses Exact-Match Instead of Membership Test — Bypassed by Any Multi-Origin Allowlist Containing the Wildcard",
+      "summary": "",
+      "published": "2026-08-17T17:04:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fp27-88fp-2phg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "96cb0697e2a33842",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[glances] Glances has a command injection bypass of action-template sanitizer via cross-field shell-operator reconstruction",
+      "summary": "",
+      "published": "2026-08-17T16:36:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qcpp-8x79-hhp3",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "860fcf6980c4e0ba",
       "source": "github-advisory-pip",
@@ -139,17 +386,17 @@
       }
     },
     {
-      "id": "a776e0540966289f",
-      "source": "github-advisory-pip",
+      "id": "d172a389ea4970dc",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[atomic-agents-stack] atomic-agents-stack: Dashboard HTTP server path traversal allows arbitrary file read",
+      "title": "[mlflow] MLflow: CreateModelVersion source validation does not check READ permission on referenced run_id",
       "summary": "",
-      "published": "2026-08-13T14:17:13.000Z",
+      "published": "2026-08-17T21:59:09.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rm43-82j9-r4mj",
+      "url": "https://github.com/advisories/GHSA-gqch-g4w5-7qcw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +405,17 @@
       }
     },
     {
-      "id": "dbdbe2a8c9fe73b2",
-      "source": "github-advisory-pip",
+      "id": "d7c30c6148a2bcc5",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pydantic-ai] Pydantic AI: Unvalidated UploadedFile references in UI adapters allow server-side file access using the application's credentials",
+      "title": "[mlflow] MLflow: LogInputs endpoint bypasses per-run UPDATE authorization in basic-auth",
       "summary": "",
-      "published": "2026-08-13T14:16:26.000Z",
+      "published": "2026-08-17T21:59:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-h7p7-w5gc-xj3w",
+      "url": "https://github.com/advisories/GHSA-3p64-6gvh-82v5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +424,17 @@
       }
     },
     {
-      "id": "ae4b19a488c12810",
-      "source": "github-advisory-pip",
+      "id": "fcdd1887e7817cea",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pydantic-ai-slim] Pydantic AI: Unvalidated UploadedFile references in UI adapters allow server-side file access using the application's credentials",
+      "title": "[9router] 9Router: Authenticated Server-Side Request Forgery (SSRF) via OIDC Provider Test Endpoint",
       "summary": "",
-      "published": "2026-08-13T14:16:26.000Z",
+      "published": "2026-08-17T21:58:43.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-h7p7-w5gc-xj3w",
+      "url": "https://github.com/advisories/GHSA-8g4w-4ffg-8vgx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +443,17 @@
       }
     },
     {
-      "id": "a0e053c71538d172",
-      "source": "github-advisory-pip",
+      "id": "05e716d0764509a6",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ansible-jailexec] Ansible FreeBSD Jail Connection Plugin: Jail escape via symlink following in put_file (host-side root mv)",
+      "title": "[chrome-devtools-mcp] chrome-devtools-mcp: validatePath() does not canonicalize symlinks before enforcing roots",
       "summary": "",
-      "published": "2026-08-12T23:21:06.000Z",
+      "published": "2026-08-17T21:56:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cxgv-hp74-jj7r",
+      "url": "https://github.com/advisories/GHSA-8qf9-62x2-82pp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +462,17 @@
       }
     },
     {
-      "id": "e31d9f2644a89d24",
-      "source": "github-advisory-pip",
+      "id": "821a8d9692b7d6a0",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[tablib] tablib: Stored XSS in the HTML export via unescaped dataset title",
+      "title": "[ep_etherpad-lite] Etherpad has stored XSS in HTML export via unescaped attribute-pool values",
       "summary": "",
-      "published": "2026-08-12T03:31:18.000Z",
+      "published": "2026-08-17T17:49:38.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gqgw-jghv-mxwx",
+      "url": "https://github.com/advisories/GHSA-2jp7-wwpg-3p9w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +481,17 @@
       }
     },
     {
-      "id": "387a2e96a073cc08",
-      "source": "github-advisory-pip",
+      "id": "92ce60e9db2cb46f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nltk] NLTK vulnerable to Eval Injection via collocations CLI arguments",
+      "title": "[ep_etherpad-lite] Etherpad addressed weak token RNG, login timing, plugin path handling, API request handling",
       "summary": "",
-      "published": "2026-07-25T00:31:47.000Z",
+      "published": "2026-08-17T17:49:21.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-848c-c2cx-j7qx",
+      "url": "https://github.com/advisories/GHSA-92hr-gmr6-h8cp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +500,17 @@
       }
     },
     {
-      "id": "ff79b49468ffcfe0",
-      "source": "github-advisory-pip",
+      "id": "bcac230af333775b",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[mcp-server-kubernetes] mcp-server-kubernetes argument injection can expose Kubernetes cluster credentials",
+      "title": "[vm2] vm2 has Memory Exhaustion DoS via bufferAllocLimit Bypass",
       "summary": "",
-      "published": "2026-07-10T21:32:32.000Z",
+      "published": "2026-08-17T17:32:57.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-wmg3-h8mf-wgvr",
+      "url": "https://github.com/advisories/GHSA-v836-6xw4-9cx3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +519,17 @@
       }
     },
     {
-      "id": "e766117a40c3ccd8",
-      "source": "github-advisory-pip",
+      "id": "1aff3830ed78489a",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[apache-airflow] apache-airflow DAG source authorization bypass exposes co-located DAG source",
+      "title": "[vm2] vm2: NodeVM `builtin: ['*']` exposes `os` and `dns` — process-wide observability reads AND writes that hijack the host (sibling class of GHSA-9g8x-92q2-p28f)",
       "summary": "",
-      "published": "2026-07-07T12:31:36.000Z",
+      "published": "2026-08-17T17:32:47.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4fh7-7jx4-8f6c",
+      "url": "https://github.com/advisories/GHSA-m5w8-4gq2-6f8x",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +538,17 @@
       }
     },
     {
-      "id": "1762b7925b3610b8",
-      "source": "github-advisory-pip",
+      "id": "8e3a5bd8b027ed07",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[stata-mcp] MCP-for-Stata: Stata Command Injection via Unsanitized `package` in `ado_package_install`",
+      "title": "[vm2] vm2: Sandbox Breakout Using Dangerous Host Proto Mutators",
       "summary": "",
-      "published": "2026-08-12T19:23:38.000Z",
+      "published": "2026-08-17T17:32:41.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-49m4-vp58-wgc9",
+      "url": "https://github.com/advisories/GHSA-cfcw-xp6x-25gj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +557,17 @@
       }
     },
     {
-      "id": "600e4fddf9dab36a",
-      "source": "github-advisory-pip",
+      "id": "4c38cb3bc72ff654",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[compliance-trestle] compliance-trestle has an URLSecurityValidator SSRF allowlist bypass via IPv4-mapped IPv6 and 0.0.0.0",
+      "title": "[vm2] VM2 has Missing Error.cause Sanitization that Enables Sandbox Escape to RCE",
       "summary": "",
-      "published": "2026-08-12T15:21:17.000Z",
+      "published": "2026-08-17T17:32:34.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-h47f-gmjp-m7rr",
+      "url": "https://github.com/advisories/GHSA-m283-3h24-438v",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +576,55 @@
       }
     },
     {
-      "id": "61d995b38482f228",
-      "source": "github-advisory-pip",
+      "id": "e0f845f31b91392f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[flyto-core] Flyto2 Core: Unauthenticated flyto-verification /run: callback_url SSRF and internal runner-secret exfiltration",
+      "title": "[vm2] vm2's bufferAllocLimit cap bypassed by Buffer.concat and Buffer.from arrayLike",
       "summary": "",
-      "published": "2026-07-30T14:47:41.000Z",
+      "published": "2026-08-17T17:32:10.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jx74-cqjv-2c67",
+      "url": "https://github.com/advisories/GHSA-gmc2-2x9w-cgh9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b2f5b38617168cba",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@medplum/core] Medplum: Improper Validation of Redirect URI in External Auth Callback allows Authorization Code Leakage",
+      "summary": "",
+      "published": "2026-08-17T13:36:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-m44r-7c5h-m6mj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "dedf482643e023ac",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[deepmerge-ts] DeepmergeTS has stack exhaustion when merging recursive object graphs",
+      "summary": "",
+      "published": "2026-08-17T13:32:13.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-ggr8-5vv4-36mx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -473,215 +758,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-w757-xvvv-vgfw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b9b48dddae3a9d9b",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[pnpm] pnpm: Repository-controlled configDependencies can select a pacquet native install engine",
-      "summary": "",
-      "published": "2026-06-26T23:20:47.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-gj8w-mvpf-x27x",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "64afeedebbfe2a93",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nanoid] nanoid: custom generators can loop indefinitely when size is zero",
-      "summary": "",
-      "published": "2026-07-29T15:31:12.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2v37-7h3g-55p8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "edd4301ffb68d6a9",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[decompress] decompress allows arbitrary hardlink creation during archive extraction",
-      "summary": "",
-      "published": "2026-07-10T00:31:25.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-jwp9-9v96-94mx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a1f0597c7642ee6e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nuxt] Duplicate Advisory: Nuxt dev server discloses project root and workspace UUID via the Chrome DevTools workspace endpoint",
-      "summary": "",
-      "published": "2026-08-11T15:32:37.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4jjw-pwvw-q6w3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "62a8d5f2db8a7035",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[hashi-vault-js] hashi-vault-js: Vault token and secret values exposed in thrown errors",
-      "summary": "",
-      "published": "2026-08-13T14:14:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5pq8-3ffp-7w5m",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a1b48796db486cf5",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[ep_etherpad-lite] ep_etherpad-lite: Device-to-device author-token transfer endpoint is replayable, never expires, and exposes the cleartext author token",
-      "summary": "",
-      "published": "2026-08-13T14:12:44.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-vqfp-p66c-xrp9",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7d94f00667044cc9",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[ep_etherpad-lite] ep_etherpad-lite: Import/export uses Math.random() for temp file paths; predictable paths on shared /tmp enable symlink-based file overwrite",
-      "summary": "",
-      "published": "2026-08-13T14:11:07.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2jwf-f4xq-f24h",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7be1b5d9bd1aea0f",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[ep_etherpad-lite] ep_etherpad-lite: Cache-poisoning Cross-site Scripting and Open Redirect via x-proxy-path Header",
-      "summary": "",
-      "published": "2026-08-13T13:46:07.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-fjgc-3mj7-8rg8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f7dbbebfe0eb7e1c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[extract-zip] extract-zip unvalidated symlink path traversal",
-      "summary": "",
-      "published": "2026-06-26T18:34:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-jmr9-qjv8-65gv",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4a594ea480238888",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@hono/node-server] Node.js Adapter for Hono: Path traversal in `serve-static` on Windows via encoded backslash (`%5C`)",
-      "summary": "",
-      "published": "2026-07-21T18:17:25.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-frvp-7c67-39w9",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b411e829e33cebef",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[fast-uri] fast-uri vulnerable to path traversal via percent-encoded dot segments",
-      "summary": "",
-      "published": "2026-05-08T17:15:09.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q3j6-qgpj-74h6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
