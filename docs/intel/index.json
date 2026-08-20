@@ -1,10 +1,105 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-19T01:24:03.320875+00:00",
+  "generated_at": "2026-08-20T01:22:25.446818+00:00",
   "mode": "safe-metadata-only",
   "item_count": 40,
   "items": [
+    {
+      "id": "78a31d9c02f1c08d",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[geolens] GeoLens's authorization and cache-scope flaws disclose private dataset data and metadata to unauthorized users (fixed in 1.2.4)",
+      "summary": "",
+      "published": "2026-08-19T19:22:59.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-p77j-g7h5-r2vw",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "26070ae660d66774",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[document-merge-service] Document Merge Service vulnerable to RCE via SSTI (xlsx tempaltes)",
+      "summary": "",
+      "published": "2026-08-19T19:17:19.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w47q-945m-q9pc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ef91a6ea89cabe04",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[copier] Copier has a trust-prefix bypass via path traversal that runs tasks unprompted",
+      "summary": "",
+      "published": "2026-08-19T19:16:54.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9gmc-jqmh-3rvm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d1e5f82222cd9b6c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[langgraph-api] langgraph-api: Incomplete assistant authorization in LangGraph Server run creation",
+      "summary": "",
+      "published": "2026-08-19T18:56:03.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jfj5-wrj9-63x4",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "22ea53516ec6d7b7",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[langgraph-api] langgraph-api: Relative webhook targets in LangGraph Server can reach in-process routes without authentication",
+      "summary": "",
+      "published": "2026-08-19T18:55:57.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2c9q-c2q9-qgqv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "f05f7f607cee25ad",
       "source": "github-advisory-pip",
@@ -291,17 +386,17 @@
       }
     },
     {
-      "id": "fb809e742565e7a1",
-      "source": "github-advisory-pip",
+      "id": "35a08a7f11312a72",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[resdata] resdata has Classic Buffer Overflow, Improper Validation of Array Index, NULL Pointer Dereference and Out-of-bounds Read",
+      "title": "[@tinacms/cli] Tina: Cross-origin `POST /media/upload/*` requests can write arbitrary files into the Tina dev server media root",
       "summary": "",
-      "published": "2026-08-18T20:11:04.000Z",
+      "published": "2026-08-19T21:56:36.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-pr85-w493-9w3x",
+      "url": "https://github.com/advisories/GHSA-rgr9-r7mj-mf6x",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +405,17 @@
       }
     },
     {
-      "id": "446eb7da44326aa9",
-      "source": "github-advisory-pip",
+      "id": "10275bd54ee580d6",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[mobsf] MobSF Vulnerable to Arbitrary File Read via Path Traversal in ZIP Uploads",
+      "title": "[next-tinacms-cloudinary] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
       "summary": "",
-      "published": "2026-08-18T18:01:26.000Z",
+      "published": "2026-08-19T21:56:30.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8j49-mmcx-4mp5",
+      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +424,17 @@
       }
     },
     {
-      "id": "b1060e58472d1573",
-      "source": "github-advisory-pip",
+      "id": "1ee90a66664470ef",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[mobsf] MobSF's CSRF checks not enforced after Django migration",
+      "title": "[next-tinacms-azure] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
       "summary": "",
-      "published": "2026-08-18T18:01:13.000Z",
+      "published": "2026-08-19T21:56:30.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3p54-567p-2wpr",
+      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +443,17 @@
       }
     },
     {
-      "id": "1468c34f3f8a5012",
-      "source": "github-advisory-pip",
+      "id": "994fdb79ec54dd85",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[mobsf] MobSF has SSRF port restriction bypass in assetlinks_check",
+      "title": "[next-tinacms-dos] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
       "summary": "",
-      "published": "2026-08-18T18:01:03.000Z",
+      "published": "2026-08-19T21:56:30.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-95px-34x5-p37h",
+      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +462,188 @@
       }
     },
     {
-      "id": "3a5fff619922fa43",
-      "source": "github-advisory-pip",
+      "id": "c92d488e3fbcaffd",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[mobsf] MobSF Vulnerable to Zip Bomb Denial of Service via Per-File Size Limit Bypass in ZIP/APK Extraction",
+      "title": "[next-tinacms-s3] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
       "summary": "",
-      "published": "2026-08-18T18:00:47.000Z",
+      "published": "2026-08-19T21:56:30.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-x768-8642-mmq9",
+      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0dbc9642a1496be4",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@logto/tunnel] logto-tunnel serves files outside --experience-path via path traversal",
+      "summary": "",
+      "published": "2026-08-19T20:24:06.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rxjr-6c9q-h67x",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "32ca1cfdba671897",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[mcp-searxng] SearXNG Basic Authentication Credentials Exposed Through MCP Logs and JSON-RPC Error Responses",
+      "summary": "",
+      "published": "2026-08-19T19:32:46.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hjwh-xvfw-qrwj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c7b40cbef4fe2a91",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[mcp-searxng] SearXNG MCP Server: Additional hardened-mode SSRF bypasses",
+      "summary": "",
+      "published": "2026-08-19T19:23:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wppf-h75h-6pm6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "48f42e4b4ac299cc",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[mcp-searxng] SearXNG MCP Server is Vulnerable to SSRF in web_url_read: the internal-address guard is disabled by default (MCP_HTTP_HARDEN off)",
+      "summary": "",
+      "published": "2026-08-19T19:23:08.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q87f-qc2r-2gw4",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c4be7398d7fb1504",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@contentful/mcp-tools] Contentful MCP Server: export_space/import_space tools pass LLM-controlled `host`/`proxy` args to CMA client, redirecting server PAT to attacker-controlled ",
+      "summary": "",
+      "published": "2026-08-19T19:17:00.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2xhg-73j7-rrgx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "53d802a7826f219a",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@contentful/mcp-server] Contentful MCP Server: export_space/import_space tools pass LLM-controlled `host`/`proxy` args to CMA client, redirecting server PAT to attacker-controlled",
+      "summary": "",
+      "published": "2026-08-19T19:17:00.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2xhg-73j7-rrgx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f6d8b264d949c3c8",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[claude-faf-mcp] claude-faf-mcp has an arbitrary local file read/write via unconfined `path` argument in FAF tools",
+      "summary": "",
+      "published": "2026-08-19T19:15:25.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rr55-jp92-8wp2",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "cc25cd4adbf03a9a",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[faf-mcp] faf-mcp has an arbitrary local file read/write via unconfined `path` argument in FAF tools",
+      "summary": "",
+      "published": "2026-08-19T19:15:13.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-j4r7-8ph4-43g3",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c8d526b16ef15ed4",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[grok-faf-mcp] grok-faf-mcp has an arbitrary local file read via unconfined `path` argument in FAF tools",
+      "summary": "",
+      "published": "2026-08-19T19:15:01.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-cc2g-gq8c-r332",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -492,272 +758,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-w26r-fwg8-rcp3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ab46e03b578e3f90",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@rhinostone/swig-django] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
-      "summary": "",
-      "published": "2026-08-18T16:31:16.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "795e0a27330adee6",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@rhinostone/swig-jinja2] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
-      "summary": "",
-      "published": "2026-08-18T16:31:16.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0242845c335b9956",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@rhinostone/swig-twig] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
-      "summary": "",
-      "published": "2026-08-18T16:31:16.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7577e23728de918e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@rhinostone/swig-core] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
-      "summary": "",
-      "published": "2026-08-18T16:31:16.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "06d27ace8708b715",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@rhinostone/swig] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
-      "summary": "",
-      "published": "2026-08-18T16:31:16.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d172a389ea4970dc",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[mlflow] MLflow: CreateModelVersion source validation does not check READ permission on referenced run_id",
-      "summary": "",
-      "published": "2026-08-17T21:59:09.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-gqch-g4w5-7qcw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d7c30c6148a2bcc5",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[mlflow] MLflow: LogInputs endpoint bypasses per-run UPDATE authorization in basic-auth",
-      "summary": "",
-      "published": "2026-08-17T21:59:01.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3p64-6gvh-82v5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fcdd1887e7817cea",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[9router] 9Router: Authenticated Server-Side Request Forgery (SSRF) via OIDC Provider Test Endpoint",
-      "summary": "",
-      "published": "2026-08-17T21:58:43.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8g4w-4ffg-8vgx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "05e716d0764509a6",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[chrome-devtools-mcp] chrome-devtools-mcp: validatePath() does not canonicalize symlinks before enforcing roots",
-      "summary": "",
-      "published": "2026-08-17T21:56:12.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8qf9-62x2-82pp",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "821a8d9692b7d6a0",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[ep_etherpad-lite] Etherpad has stored XSS in HTML export via unescaped attribute-pool values",
-      "summary": "",
-      "published": "2026-08-17T17:49:38.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2jp7-wwpg-3p9w",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "92ce60e9db2cb46f",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[ep_etherpad-lite] Etherpad addressed weak token RNG, login timing, plugin path handling, API request handling",
-      "summary": "",
-      "published": "2026-08-17T17:49:21.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-92hr-gmr6-h8cp",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bcac230af333775b",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[vm2] vm2 has Memory Exhaustion DoS via bufferAllocLimit Bypass",
-      "summary": "",
-      "published": "2026-08-17T17:32:57.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-v836-6xw4-9cx3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1aff3830ed78489a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[vm2] vm2: NodeVM `builtin: ['*']` exposes `os` and `dns` — process-wide observability reads AND writes that hijack the host (sibling class of GHSA-9g8x-92q2-p28f)",
-      "summary": "",
-      "published": "2026-08-17T17:32:47.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-m5w8-4gq2-6f8x",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8e3a5bd8b027ed07",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[vm2] vm2: Sandbox Breakout Using Dangerous Host Proto Mutators",
-      "summary": "",
-      "published": "2026-08-17T17:32:41.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cfcw-xp6x-25gj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
