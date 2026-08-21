@@ -1,22 +1,22 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-20T01:22:25.446818+00:00",
+  "generated_at": "2026-08-21T01:26:18.379946+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 40,
+  "item_count": 28,
   "items": [
     {
-      "id": "78a31d9c02f1c08d",
+      "id": "b574441fab09a408",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[geolens] GeoLens's authorization and cache-scope flaws disclose private dataset data and metadata to unauthorized users (fixed in 1.2.4)",
+      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
       "summary": "",
-      "published": "2026-08-19T19:22:59.000Z",
+      "published": "2026-08-20T18:45:27.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p77j-g7h5-r2vw",
+      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "26070ae660d66774",
+      "id": "e9e8e9f48c249936",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[document-merge-service] Document Merge Service vulnerable to RCE via SSTI (xlsx tempaltes)",
+      "title": "[wagtail] Wagtail: Improper permission handling when copying snippets",
       "summary": "",
-      "published": "2026-08-19T19:17:19.000Z",
+      "published": "2026-08-20T18:45:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-w47q-945m-q9pc",
+      "url": "https://github.com/advisories/GHSA-x5cx-w6p2-mxf2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -44,17 +44,17 @@
       }
     },
     {
-      "id": "ef91a6ea89cabe04",
+      "id": "cb035fa2f20c0143",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[copier] Copier has a trust-prefix bypass via path traversal that runs tasks unprompted",
+      "title": "[wagtail] Wagtail: Improper restriction handling on descendant collections in Documents and Images API",
       "summary": "",
-      "published": "2026-08-19T19:16:54.000Z",
+      "published": "2026-08-20T18:45:14.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9gmc-jqmh-3rvm",
+      "url": "https://github.com/advisories/GHSA-c2xx-cjmh-9q8f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -63,17 +63,17 @@
       }
     },
     {
-      "id": "d1e5f82222cd9b6c",
+      "id": "4513a71cd2f59ccc",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langgraph-api] langgraph-api: Incomplete assistant authorization in LangGraph Server run creation",
+      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
       "summary": "",
-      "published": "2026-08-19T18:56:03.000Z",
+      "published": "2026-08-20T18:45:09.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jfj5-wrj9-63x4",
+      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +82,17 @@
       }
     },
     {
-      "id": "22ea53516ec6d7b7",
+      "id": "d414435ce49ebc88",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[langgraph-api] langgraph-api: Relative webhook targets in LangGraph Server can reach in-process routes without authentication",
+      "title": "[django-cms] django CMS: Missing authorization in `render_object_structure` discloses non-PageContent placeholder structure to low-privileged staff",
       "summary": "",
-      "published": "2026-08-19T18:55:57.000Z",
+      "published": "2026-08-20T18:42:50.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2c9q-c2q9-qgqv",
+      "url": "https://github.com/advisories/GHSA-8qj2-c6q4-f399",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +101,17 @@
       }
     },
     {
-      "id": "f05f7f607cee25ad",
+      "id": "84144695019eb74f",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[linuxfabrik-lib] linuxfabrik-lib: Arbitrary root file read via live --test argument (lib.lftest) across sudoers-whitelisted plugins (LPE)",
+      "title": "[django-cms] django CMS: Broken access control in page *Duplicate* allows reading the content of any page (cross-site / restriction bypass)",
       "summary": "",
-      "published": "2026-08-18T21:18:59.000Z",
+      "published": "2026-08-20T18:42:44.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rh9c-rqvg-f7pr",
+      "url": "https://github.com/advisories/GHSA-6x92-6vx4-5fwr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +120,17 @@
       }
     },
     {
-      "id": "55cb8c2d6fc98351",
+      "id": "62db9befdb0923cf",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[lemur] Lemur: Any user can revoke arbitrary certificates at the CA by uploading a duplicate record and revoking it",
+      "title": "[django-cms] django CMS: Stored XSS in edit-mode plugin exception rendering",
       "summary": "",
-      "published": "2026-08-18T20:51:48.000Z",
+      "published": "2026-08-20T18:42:36.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-pxmc-2ffp-8j67",
+      "url": "https://github.com/advisories/GHSA-hvq6-2r72-p2x7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +139,17 @@
       }
     },
     {
-      "id": "db29d28666293280",
+      "id": "47816ae1eee2de2d",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[lemur] Lemur: Missing authorization check on POST /certificates/<id>/export for plugins with requires_key = False",
+      "title": "[wagtail] Wagtail: Improper restriction handling on Pages admin API",
       "summary": "",
-      "published": "2026-08-18T20:51:42.000Z",
+      "published": "2026-08-20T18:42:25.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4h97-p9wq-chqj",
+      "url": "https://github.com/advisories/GHSA-3vrh-m9w7-v94f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +158,17 @@
       }
     },
     {
-      "id": "28dc3fa0847aa163",
-      "source": "github-advisory-pip",
+      "id": "b8ffb06436d675f1",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[lemur] Lemur: Sub-CA creation never checks `AuthorityPermission` on the parent authority",
+      "title": "[gettext-converter] gettext-converter: Prototype pollution in js2i18next() via crafted translation keys",
       "summary": "",
-      "published": "2026-08-18T20:51:37.000Z",
+      "published": "2026-08-20T20:11:13.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g7p5-89mh-248h",
+      "url": "https://github.com/advisories/GHSA-f4jp-rw7w-ccwg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +177,17 @@
       }
     },
     {
-      "id": "d4aca13ebdfe80a1",
-      "source": "github-advisory-pip",
+      "id": "a0dffa3626f1a00a",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[lemur] Lemur: Unchecked `replaces[]` lets any user silence notifications and hijack auto-rotation for arbitrary certificates",
+      "title": "[@nocobase/server] NocoBase: Arbitrary File Write chained with Local file Inclusion leads to Remote code execution",
       "summary": "",
-      "published": "2026-08-18T20:51:33.000Z",
+      "published": "2026-08-20T18:42:21.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cfh6-pv5c-38jv",
+      "url": "https://github.com/advisories/GHSA-ghvf-qf6h-g8x5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +196,17 @@
       }
     },
     {
-      "id": "4a3623f97b231180",
-      "source": "github-advisory-pip",
+      "id": "daee004087782c46",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[lemur] Lemur: Authenticated low-privilege users can read plaintext destination credentials (SFTP password / private-key passphrase) via the destinations API",
+      "title": "[@whyour/qinglong] Qinglong has an incomplete fix for CVE-2026-3965: Improper Authentication",
       "summary": "",
-      "published": "2026-08-18T20:51:26.000Z",
+      "published": "2026-08-20T18:36:59.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6c8m-q6g9-vrw3",
+      "url": "https://github.com/advisories/GHSA-v667-gc2r-2xm7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +215,17 @@
       }
     },
     {
-      "id": "08cc571cea64cb63",
-      "source": "github-advisory-pip",
+      "id": "7e7ae45c34c9e3c2",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[lemur] Lemur: Incomplete fix for GHSA-v2wp-frmc-5q3v -- ACME authority update endpoint allows non-admin to replace `acme_url` with internal IP, bypassing allowlist",
+      "title": "[node-opcua] node-opcua missing nonce verification in UserNameIdentityToken authentication",
       "summary": "",
-      "published": "2026-08-18T20:51:21.000Z",
+      "published": "2026-08-20T18:35:33.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-v5rc-cpwc-cfpr",
+      "url": "https://github.com/advisories/GHSA-mq36-523m-x7vv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +234,17 @@
       }
     },
     {
-      "id": "730d7459a2527ccf",
-      "source": "github-advisory-pip",
+      "id": "ed7ea21bae2d205e",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[lemur] Lemur: SSRF protection in certificate revocation checking bypassable via HTTP redirects and DNS rebinding (incomplete fix for GHSA-54vg-pfh7-jq95)",
+      "title": "[next-video] next-video: Unauthenticated arbitrary file read via /api/video request handler",
       "summary": "",
-      "published": "2026-08-18T20:51:12.000Z",
+      "published": "2026-08-20T18:35:11.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-f3qq-49m6-rw8f",
+      "url": "https://github.com/advisories/GHSA-2p39-2jf3-fv2q",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +253,17 @@
       }
     },
     {
-      "id": "3ade87576766111a",
-      "source": "github-advisory-pip",
+      "id": "ebd7e0b92553d1b6",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[lemur] Lemur: Server-Side Request Forgery via the ACME client following server-controlled URLs",
+      "title": "[node-opcua] node-opcua: Unbounded nonce cache enables unauthenticated heap exhaustion DoS",
       "summary": "",
-      "published": "2026-08-18T20:51:07.000Z",
+      "published": "2026-08-20T18:35:41.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xpmj-wjcp-6pww",
+      "url": "https://github.com/advisories/GHSA-6wvw-vrw4-363w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +272,17 @@
       }
     },
     {
-      "id": "1c4289f3a1a6e969",
-      "source": "github-advisory-pip",
+      "id": "0650b0b41a22fd29",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[devpi-server] devpi-server may leak database contents",
+      "title": "[@steipete/summarize] @steipete/summarize vulnerable to SSRF via podcast:transcript URL fetch",
       "summary": "",
-      "published": "2026-08-18T20:41:21.000Z",
+      "published": "2026-06-11T21:31:57.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-m5pq-69xg-vcq3",
+      "url": "https://github.com/advisories/GHSA-3vx2-vqx8-jxfg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,93 +291,17 @@
       }
     },
     {
-      "id": "9dfcffa8e3f57265",
-      "source": "github-advisory-pip",
+      "id": "9c0d0f00f0734cea",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[monai] MONAI: Unsafe deserialization in NumpyReader allows arbitrary code execution via malicious .npy files",
+      "title": "[@nocobase/plugin-backups] NocoBase backup restore schema name allows command injection",
       "summary": "",
-      "published": "2026-08-18T20:22:42.000Z",
+      "published": "2026-08-20T18:30:15.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-wg9g-w2j2-8pgr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d3c01b00b55421b3",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[MONAI] MONAI vulnerable to OS command injection",
-      "summary": "",
-      "published": "2026-08-18T20:22:38.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-rghg-q7wp-9767",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dd95e66d6775a16d",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[monai] Incomplete Fix in MONAI: algo_from_pickle() pickle.loads() RCE still present in v1.5.2 despite GHSA-89gg-p5r5-q6r4 claiming      patch",
-      "summary": "",
-      "published": "2026-08-18T20:22:30.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qxq5-qhx6-94qw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2cbbc3ec9d2d08e7",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[vllm] vLLM is vulnerable to an Out-of-Memory (OOM) Denial of Service (DoS) attack due to unbounded frame count processing in the `VideoMediaIO.load_base64()` method",
-      "summary": "",
-      "published": "2026-06-11T12:32:44.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wcwg-c5fc-9vrc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c7a546e0001a680f",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[surfio] surfio has an out-of-bounds read",
-      "summary": "",
-      "published": "2026-08-18T20:12:55.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-rcr2-hggw-43wm",
+      "url": "https://github.com/advisories/GHSA-p853-83gj-wjj3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -606,158 +530,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-rr55-jp92-8wp2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "cc25cd4adbf03a9a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[faf-mcp] faf-mcp has an arbitrary local file read/write via unconfined `path` argument in FAF tools",
-      "summary": "",
-      "published": "2026-08-19T19:15:13.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-j4r7-8ph4-43g3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c8d526b16ef15ed4",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[grok-faf-mcp] grok-faf-mcp has an arbitrary local file read via unconfined `path` argument in FAF tools",
-      "summary": "",
-      "published": "2026-08-19T19:15:01.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cc2g-gq8c-r332",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6200299be893573c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[meshcentral] MeshCentral has unsanitized data fields",
-      "summary": "",
-      "published": "2026-08-18T20:09:35.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-c7hr-448w-65px",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a69b504d4d400abb",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[magicmirror] MagicMirror socket payload secret placeholder expansion can disclose SECRET_* environment variables",
-      "summary": "",
-      "published": "2026-08-18T18:00:16.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q4gh-4ffp-5cg8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4a5a889311aa3832",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@geolens/sdk] GeoLens: Cross-dataset authorization bypass discloses private dataset metadata, schema, sample values, table rows, and raster/vector tile data",
-      "summary": "",
-      "published": "2026-08-18T18:00:07.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-p23g-mvhj-jh3j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bcccc337ca02540d",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[magicmirror] MagicMirror: ssrf calendar .js",
-      "summary": "",
-      "published": "2026-08-18T17:26:51.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-w6x9-28jw-hq7j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1d4f7cdd8eea4bfe",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[magicmirror] MagicMirror newsfeed Socket.IO notification allows blind server-side request forgery",
-      "summary": "",
-      "published": "2026-08-18T17:26:46.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-998g-7v5w-cr7g",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a95f8e83f48846ee",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[magicmirror] MagicMirror Socket.IO module namespaces bypass configured IP whitelist and allow unauthenticated server-side actions",
-      "summary": "",
-      "published": "2026-08-18T17:26:41.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-w26r-fwg8-rcp3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
