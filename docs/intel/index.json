@@ -1,10 +1,48 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-21T01:26:18.379946+00:00",
+  "generated_at": "2026-08-22T01:21:37.513959+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 28,
+  "item_count": 31,
   "items": [
+    {
+      "id": "bd9bedf82f216b00",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[hydra-core] Hydra: hydra.utils.instantiate with untrusted config can lead to code execution",
+      "summary": "",
+      "published": "2026-08-21T20:57:31.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2cp2-2r3c-7p7r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a3a4eb73eb5218a3",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[xinference] Xinference vulnerable to remote code execution via unsafe `eval()` in Llama3 tool-call parsing",
+      "summary": "",
+      "published": "2026-08-21T20:56:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-x2rj-828p-hx9m",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "b574441fab09a408",
       "source": "github-advisory-pip",
@@ -120,17 +158,17 @@
       }
     },
     {
-      "id": "62db9befdb0923cf",
-      "source": "github-advisory-pip",
+      "id": "f630655ca546f71e",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[django-cms] django CMS: Stored XSS in edit-mode plugin exception rendering",
+      "title": "[jsonata] JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
       "summary": "",
-      "published": "2026-08-20T18:42:36.000Z",
+      "published": "2026-08-21T21:04:19.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hvq6-2r72-p2x7",
+      "url": "https://github.com/advisories/GHSA-66mm-25pp-rfff",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +177,131 @@
       }
     },
     {
-      "id": "47816ae1eee2de2d",
-      "source": "github-advisory-pip",
+      "id": "adc4c2749c73f336",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[wagtail] Wagtail: Improper restriction handling on Pages admin API",
+      "title": "[jsonata] JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
       "summary": "",
-      "published": "2026-08-20T18:42:25.000Z",
+      "published": "2026-08-21T20:58:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3vrh-m9w7-v94f",
+      "url": "https://github.com/advisories/GHSA-2943-5xfg-gq5f",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "73dd6657a9b0f9e6",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[jsonata] JSONata: Arbitrary Code Execution via crafted JSONata expressions",
+      "summary": "",
+      "published": "2026-08-21T20:57:07.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8gq3-vp5j-2grp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8e8934ce117663c6",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@keystone-6/core] Keystone vulnerable to `graphql.maxTake` bypass with negative `take`",
+      "summary": "",
+      "published": "2026-08-21T20:55:11.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-cqmq-8755-7xvh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8bb3b32e60a9fa39",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[defuddle] Defuddle vulnerable to XSS via unescaped attribute interpolation in site extractors",
+      "summary": "",
+      "published": "2026-08-21T20:54:56.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jg4p-g6xj-4qmf",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7e85b8e4f4a3743f",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[unleash-server] Unleash: Global Mustache.escape override disables HTML escaping process-wide, enabling Slack/Teams link-injection via unrestricted username",
+      "summary": "",
+      "published": "2026-08-21T19:14:52.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w4mq-xh27-6xpx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "60dba32c8ef81b2b",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[unleash-server] Unleash: Addon webhook URL is dialed server-side with no internal-address filtering, enabling SSRF to internal services / cloud metadata and exfiltration of config",
+      "summary": "",
+      "published": "2026-08-21T19:14:45.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5vf6-jrqr-78fj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "037d3342bae55278",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[unleash-server] Unleash: Unauthenticated single-request DoS via OpenAPI validation error formatter",
+      "summary": "",
+      "published": "2026-08-21T19:14:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r5pq-6chh-j3xp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +405,17 @@
       }
     },
     {
-      "id": "ebd7e0b92553d1b6",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[node-opcua] node-opcua: Unbounded nonce cache enables unauthenticated heap exhaustion DoS",
-      "summary": "",
-      "published": "2026-08-20T18:35:41.000Z",
+      "id": "b89450cf653d6420",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+      "summary": "Large Language Models (LLMs) increasingly require selective removal of harmful or sensitive knowledge, called unlearning, yet existing methods and benchmarks fail to evaluate this capability completely. Current approaches rely on disjoint forget and retain sets composed of independent facts, and measure success using simple and direct factual recall. This framing fails to capture a key requirement of unlearning, namely the ability to eliminate harmful behaviors while preserving benign and benefi",
+      "published": "2026-08-20T17:59:57Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CL"
       ],
-      "url": "https://github.com/advisories/GHSA-6wvw-vrw4-363w",
+      "url": "https://arxiv.org/abs/2608.20338v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +424,17 @@
       }
     },
     {
-      "id": "0650b0b41a22fd29",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@steipete/summarize] @steipete/summarize vulnerable to SSRF via podcast:transcript URL fetch",
-      "summary": "",
-      "published": "2026-06-11T21:31:57.000Z",
+      "id": "1eaace162ede5982",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
+      "summary": "Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. Beyond retaining each identity, the model must bind every reference to a distinct person and location, while training-time identity losses must establish correspondence among several noisy predicted faces. We introduce WithEveryone, a unified framework for generating group images up to ten reference identities. WithEveryone injects each selected identity as an addressed token, pr",
+      "published": "2026-08-20T17:59:53Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CV"
       ],
-      "url": "https://github.com/advisories/GHSA-3vx2-vqx8-jxfg",
+      "url": "https://arxiv.org/abs/2608.20336v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +443,17 @@
       }
     },
     {
-      "id": "9c0d0f00f0734cea",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@nocobase/plugin-backups] NocoBase backup restore schema name allows command injection",
-      "summary": "",
-      "published": "2026-08-20T18:30:15.000Z",
+      "id": "44db25cc59f545e0",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Swift-Image: Exploring the Performance Frontier of Compact Unified Image Generation Models",
+      "summary": "We present Swift-Image, a compact unified model for text-to-image generation, single-image editing, and multi-image editing. Our goal is to explore how far a relatively small visual generator can be pushed through systematic training engineering under a constrained computational budget. Swift-Image adopts an efficient 6B single-stream DiT and a progressive training pipeline that evolves from broad semantic coverage to higher resolution, stronger visual quality, and unified generation-editing sup",
+      "published": "2026-08-20T17:59:52Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CV"
       ],
-      "url": "https://github.com/advisories/GHSA-p853-83gj-wjj3",
+      "url": "https://arxiv.org/abs/2608.20334v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +462,18 @@
       }
     },
     {
-      "id": "35a08a7f11312a72",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@tinacms/cli] Tina: Cross-origin `POST /media/upload/*` requests can write arbitrary files into the Tina dev server media root",
-      "summary": "",
-      "published": "2026-08-19T21:56:36.000Z",
+      "id": "b38131050c0c7863",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+      "summary": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction. A chatbot-administered, image-augmented stated-preference survey collected mode choices from student commuters across five predefined weather scenarios, yielding 454 respondent-scenario observations",
+      "published": "2026-08-20T17:57:42Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI",
+        "cs.CL"
       ],
-      "url": "https://github.com/advisories/GHSA-rgr9-r7mj-mf6x",
+      "url": "https://arxiv.org/abs/2608.20320v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +482,19 @@
       }
     },
     {
-      "id": "10275bd54ee580d6",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next-tinacms-cloudinary] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
-      "summary": "",
-      "published": "2026-08-19T21:56:30.000Z",
+      "id": "4ff7c70d22694ff5",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subsequent run, including the one that produces the next agent. Whether RSI is feasible therefore turns on whether an agent can design training algorithms. No benchmark isolates that ability: existing sui",
+      "published": "2026-08-20T17:56:59Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
       ],
-      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
+      "url": "https://arxiv.org/abs/2608.20318v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +503,17 @@
       }
     },
     {
-      "id": "1ee90a66664470ef",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next-tinacms-azure] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
-      "summary": "",
-      "published": "2026-08-19T21:56:30.000Z",
+      "id": "8e31003e34549ee2",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+      "summary": "Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most effectively at the lowest cost. Routing requires estimating each specialist's expected return, but this value estimation has a cost. Cheap estimators (e.g., embedding-based predictors) are fast but noisy, while accurate estimators (e.g., fine-tuned models with access to retrieval results or partial r",
+      "published": "2026-08-20T17:54:37Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI"
       ],
-      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
+      "url": "https://arxiv.org/abs/2608.20316v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +522,17 @@
       }
     },
     {
-      "id": "994fdb79ec54dd85",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next-tinacms-dos] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
-      "summary": "",
-      "published": "2026-08-19T21:56:30.000Z",
+      "id": "1b1f5abc28225e96",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+      "summary": "Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models. Recent work has shown that targeted mid-training can strengthen reasoning-intensive abilities such as math and science, and can also improve agentic capabilities in software-engineering settings. In this work, we study the parallel but less explored agentic capability: general tool use. We present MidTool, an open corpus construction pipeline for agentic tool-use mid-training that c",
+      "published": "2026-08-20T17:53:59Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI"
       ],
-      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
+      "url": "https://arxiv.org/abs/2608.20314v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -386,17 +541,17 @@
       }
     },
     {
-      "id": "c92d488e3fbcaffd",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next-tinacms-s3] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
-      "summary": "",
-      "published": "2026-08-19T21:56:30.000Z",
+      "id": "c70d425fe91abcdb",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery",
+      "summary": "Egocentric video offers scalable manipulation data for embodied AI, yet recovering metric 3D hand trajectories remains challenging due to severe object occlusion and frequent out-of-sight gaps. Existing single-frame and windowed temporal regressors fail when hand shortly leaves the frame, while recent video diffusion models (VDMs) rely on heavy, stochastic multi-step sampling as pixel-space renderers. We instead repurpose VDM into a deterministic geometry encoder. A single forward pass over the ",
+      "published": "2026-08-20T17:46:24Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CV"
       ],
-      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
+      "url": "https://arxiv.org/abs/2608.20308v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +560,17 @@
       }
     },
     {
-      "id": "0dbc9642a1496be4",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@logto/tunnel] logto-tunnel serves files outside --experience-path via path traversal",
-      "summary": "",
-      "published": "2026-08-19T20:24:06.000Z",
+      "id": "fbb78276da4c7dad",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Calibration-Induced Degeneracy in LLM Financial Forecasting: An Audit-Trailed Case Study on Next-Day Market Risk",
+      "summary": "Costly LLM features matter only if calibration lets them affect the forecast. We document a failure of this link in a next-day risk study of two broad-market funds. Full-history scoring preceded the 2022 calibration. Calibration then set all four LLM weights to zero. The 856 later scores therefore could not affect the evaluation. We call this calibration-induced degeneracy. Allowing signed weights reactivated all four mappings. None improved forecasts after familywise correction. By contrast, a ",
+      "published": "2026-08-20T17:42:21Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "q-fin.RM"
       ],
-      "url": "https://github.com/advisories/GHSA-rxjr-6c9q-h67x",
+      "url": "https://arxiv.org/abs/2608.20304v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,112 +579,18 @@
       }
     },
     {
-      "id": "32ca1cfdba671897",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[mcp-searxng] SearXNG Basic Authentication Credentials Exposed Through MCP Logs and JSON-RPC Error Responses",
-      "summary": "",
-      "published": "2026-08-19T19:32:46.000Z",
+      "id": "18b64a711fa6d7d2",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Zero-Sum Power Factor Games",
+      "summary": "Variable active power injections arising from device behavior or compromised dispatch complicate voltage regulation in electric power networks with distributed energy resources (DERs). An operator can limit the resulting voltage deviations by remotely selecting DER reactive power parameters before observing the active power injections. IEEE Standard 1547-2018 specifies constant power factor as one such control mode, coupling each device's reactive power to its realized active power. Using a line",
+      "published": "2026-08-20T17:37:41Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "eess.SY",
+        "math.OC"
       ],
-      "url": "https://github.com/advisories/GHSA-hjwh-xvfw-qrwj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c7b40cbef4fe2a91",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[mcp-searxng] SearXNG MCP Server: Additional hardened-mode SSRF bypasses",
-      "summary": "",
-      "published": "2026-08-19T19:23:16.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wppf-h75h-6pm6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "48f42e4b4ac299cc",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[mcp-searxng] SearXNG MCP Server is Vulnerable to SSRF in web_url_read: the internal-address guard is disabled by default (MCP_HTTP_HARDEN off)",
-      "summary": "",
-      "published": "2026-08-19T19:23:08.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q87f-qc2r-2gw4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c4be7398d7fb1504",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@contentful/mcp-tools] Contentful MCP Server: export_space/import_space tools pass LLM-controlled `host`/`proxy` args to CMA client, redirecting server PAT to attacker-controlled ",
-      "summary": "",
-      "published": "2026-08-19T19:17:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2xhg-73j7-rrgx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "53d802a7826f219a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@contentful/mcp-server] Contentful MCP Server: export_space/import_space tools pass LLM-controlled `host`/`proxy` args to CMA client, redirecting server PAT to attacker-controlled",
-      "summary": "",
-      "published": "2026-08-19T19:17:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2xhg-73j7-rrgx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f6d8b264d949c3c8",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[claude-faf-mcp] claude-faf-mcp has an arbitrary local file read/write via unconfined `path` argument in FAF tools",
-      "summary": "",
-      "published": "2026-08-19T19:15:25.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-rr55-jp92-8wp2",
+      "url": "https://arxiv.org/abs/2608.20298v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
