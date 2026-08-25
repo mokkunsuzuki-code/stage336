@@ -1,10 +1,105 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-24T01:27:11.183740+00:00",
+  "generated_at": "2026-08-25T01:23:58.339834+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 21,
+  "item_count": 24,
   "items": [
+    {
+      "id": "a7c4dc1f5cfac99a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[django-cms] django CMS: Page cache ignores plugin-declared Vary headers (disclosure & poisoning)",
+      "summary": "",
+      "published": "2026-08-24T20:09:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fwjf-m4qw-9f2x",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2a197082cbce2afe",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[django-cms] django CMS: Plugin move endpoint allows cyclic reparenting (DoS)",
+      "summary": "",
+      "published": "2026-08-24T20:09:43.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8jj7-4v57-frf5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d670adf75dde5bcd",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[chromadb] ChromaDB has a code injection vulnerability",
+      "summary": "",
+      "published": "2026-06-12T18:31:56.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-36p7-vc44-83pf",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "74fae730f6e7ffcc",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[chromadb] ChromaDB's SimpleRBACAuthorizationProvider doesn't check which tenant, database, or collection a permission applies to",
+      "summary": "",
+      "published": "2026-06-12T18:31:56.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xph7-9rjv-w5fr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ba1697253d14a9bc",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[chromadb] ChromaDB allows any authenticated users to arbitrarily read, write, update, or delete data in any tenant's collection",
+      "summary": "",
+      "published": "2026-06-12T18:31:56.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2wm9-hf6c-p5cr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "bd9bedf82f216b00",
       "source": "github-advisory-pip",
@@ -120,36 +215,17 @@
       }
     },
     {
-      "id": "d414435ce49ebc88",
-      "source": "github-advisory-pip",
+      "id": "5c35d36b7643f7a3",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[django-cms] django CMS: Missing authorization in `render_object_structure` discloses non-PageContent placeholder structure to low-privileged staff",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Slack and Zalo webhook secrets could remain active after secrets.reload",
       "summary": "",
-      "published": "2026-08-20T18:42:50.000Z",
+      "published": "2026-06-13T00:34:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8qj2-c6q4-f399",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "84144695019eb74f",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[django-cms] django CMS: Broken access control in page *Duplicate* allows reading the content of any page (cross-site / restriction bypass)",
-      "summary": "",
-      "published": "2026-08-20T18:42:44.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6x92-6vx4-5fwr",
+      "url": "https://github.com/advisories/GHSA-p68j-q8j9-jwf5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -378,25 +454,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-mq36-523m-x7vv",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ed7ea21bae2d205e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next-video] next-video: Unauthenticated arbitrary file read via /api/video request handler",
-      "summary": "",
-      "published": "2026-08-20T18:35:11.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2p39-2jf3-fv2q",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
