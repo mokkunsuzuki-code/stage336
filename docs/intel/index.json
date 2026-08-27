@@ -1,10 +1,143 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-26T01:27:20.472467+00:00",
+  "generated_at": "2026-08-27T08:16:39.137659+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 34,
+  "item_count": 46,
   "items": [
+    {
+      "id": "f28466f9b8dbca29",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[asyncssh] asyncssh has SCP Path Traversal to Arbitrary File Write",
+      "summary": "",
+      "published": "2026-08-26T15:34:22.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2wxc-x7rj-hg8f",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d48f794898579332",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[asyncssh] asyncssh has an incomplete fix for CVE-2026-45309 — AuthorizedKeysFile %u still escapes the intended directory via a leading ~ (and weakly via ${ENV}) username substitut",
+      "summary": "",
+      "published": "2026-08-26T15:32:00.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qr67-gv47-xwwh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "51b3242460313d0c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[senaite.core] senaite.core Vulnerable to Eval Injection and Missing Authorization",
+      "summary": "",
+      "published": "2026-08-26T15:28:47.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jrw6-7x4q-w25j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "56c72200a5f602f7",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[openwisp-ipam] OpenWISP IPAM has broken object-level authorization: ExportSubnetView lets a member of one organization export another organization's subnet and all its IP addresse",
+      "summary": "",
+      "published": "2026-08-26T14:38:10.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-x287-5c68-36wp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e4f2309ee8920699",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pantheon-agents] Trojanized pantheon-agents 0.6.1 and 0.6.2 on PyPI ship a credential stealer (supply-chain account compromise)",
+      "summary": "",
+      "published": "2026-08-26T14:36:45.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-93qj-5q5v-3c2h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bdfbe461590a0a82",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[kas] kas Persistently Disables SSH Host Key Checking",
+      "summary": "",
+      "published": "2026-08-26T14:18:24.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mv8m-v9v6-5f94",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2558842e84c06320",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[starlette-admin] Starlette-Admin's unvalidated `order_by` parameter allows ordering by hidden columns (info-exposure oracle) and HTTP 500 DoS",
+      "summary": "",
+      "published": "2026-08-26T14:14:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6753-gr46-6wpr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "657bf97a6a58f7be",
       "source": "github-advisory-pip",
@@ -234,17 +367,17 @@
       }
     },
     {
-      "id": "8ab77986dae255ad",
-      "source": "github-advisory-pip",
+      "id": "49975aa14e38d33f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[qwed] qwed Vulnerable to Authenticated Remote Code Execution via Unsafe SymPy `parse_expr()`",
+      "title": "[suneditor] SunEditor Embed Plugin has DOM XSS via External Script Element After Iframe Embed",
       "summary": "",
-      "published": "2026-08-25T16:25:19.000Z",
+      "published": "2026-08-26T15:26:24.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-q27q-98j4-9pfv",
+      "url": "https://github.com/advisories/GHSA-w93q-cq9w-58p7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +386,17 @@
       }
     },
     {
-      "id": "9efa5d63085c4868",
-      "source": "github-advisory-pip",
+      "id": "eebfd3919b5bcdb9",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[djust] djust authentication bypass: a login_required / on_mount LiveView mount redirect does not close the WebSocket, allowing an unauthenticated client to dispatch event-handler ",
+      "title": "[youtransfer] YouTransfer has an issue in the sendmail transport integration that allows arbitrary code execution",
       "summary": "",
-      "published": "2026-08-25T16:06:31.000Z",
+      "published": "2026-06-15T21:30:41.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xx4j-w367-7247",
+      "url": "https://github.com/advisories/GHSA-68mc-h6h8-79wj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +405,17 @@
       }
     },
     {
-      "id": "9cbe1e208a5db6a0",
-      "source": "github-advisory-pip",
+      "id": "d5ffcc08047ffc87",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nextcloud-mcp-server] nextcloud-mcp-server: Unauthenticated `POST /webhooks/nextcloud` allows arbitrary vector data deletion when `WEBHOOK_SECRET` is unset ( default )",
+      "title": "[@logtape/syslog] @logtape/syslog: syslog log injection via unescaped control characters and unvalidated SD-NAME keys",
       "summary": "",
-      "published": "2026-08-25T16:04:15.000Z",
+      "published": "2026-08-26T14:28:04.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8vh3-g2qg-2h2c",
+      "url": "https://github.com/advisories/GHSA-8h6h-x5pq-56fq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,36 +424,17 @@
       }
     },
     {
-      "id": "5e46cb320b093baf",
-      "source": "github-advisory-pip",
+      "id": "bde01e1bfeb77fb1",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[utcp-http] utcp-http has an OAuth2 `tokenUrl` Trust Boundary Bypass in OpenAPI Conversion",
+      "title": "[@budibase/server] Budibase authenticated arbitrary S3 signed upload URL issuance via `/api/attachments/:datasourceId/url`",
       "summary": "",
-      "published": "2026-08-25T15:57:03.000Z",
+      "published": "2026-08-26T14:07:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8cp3-qxj6-px34",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fdf0e103891dfb58",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[utcp-websocket] utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
-      "summary": "",
-      "published": "2026-08-25T15:52:30.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-ppx3-28rw-8fpf",
+      "url": "https://github.com/advisories/GHSA-6x9p-4r67-5gjx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,17 +690,18 @@
       }
     },
     {
-      "id": "ccede909966a51ad",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[pickem] pickem vulnerable to terminal escape-sequence injection via unsanitized item text",
-      "summary": "",
-      "published": "2026-08-25T15:59:11.000Z",
+      "id": "27796a0d9ab3c0af",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+      "summary": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in-context learning (ICL) turns generalization into a problem of task specification. To achieve cross-task generalization, we bring this paradigm to robotic manipulation, and argue that the natural task",
+      "published": "2026-08-26T17:59:34Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.RO",
+        "cs.CV"
       ],
-      "url": "https://github.com/advisories/GHSA-8qx3-8gm5-9cj2",
+      "url": "https://arxiv.org/abs/2608.26103v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -595,17 +710,21 @@
       }
     },
     {
-      "id": "5c35d36b7643f7a3",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Slack and Zalo webhook secrets could remain active after secrets.reload",
-      "summary": "",
-      "published": "2026-06-13T00:34:32.000Z",
+      "id": "b2585d4f09a3f291",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
+      "summary": "Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic patterns. These limitations hinder fine-grained, biomechanically grounded feedback. We introduce MyoMechanix, a multimodal ecosystem for weight-loaded actions that aligns motion with muscle activity. Expert-annotated, it contains 7,500+ samples of 20 actions from 38 subjects, with s",
+      "published": "2026-08-26T17:56:33Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CV",
+        "cs.AI",
+        "cs.ET",
+        "cs.HC",
+        "cs.LG"
       ],
-      "url": "https://github.com/advisories/GHSA-p68j-q8j9-jwf5",
+      "url": "https://arxiv.org/abs/2608.26094v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -614,17 +733,19 @@
       }
     },
     {
-      "id": "f630655ca546f71e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[jsonata] JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
-      "summary": "",
-      "published": "2026-08-21T21:04:19.000Z",
+      "id": "aab05185df901c05",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher's Role",
+      "summary": "Designing machine learning algorithms for wireless resource management is labour-intensive: the architecture, the loss function and the training recipe are all specified by hand. We demonstrate that this design layer can be surrendered to an autonomous agent in its entirety. We adopt the autoresearch protocol, in which an AI coding agent edits a training script, runs a fixed-budget experiment, and retains or discards the change according to a single immutable metric. We grant the agent authority",
+      "published": "2026-08-26T17:56:00Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.LG",
+        "cs.IT",
+        "eess.SY"
       ],
-      "url": "https://github.com/advisories/GHSA-66mm-25pp-rfff",
+      "url": "https://arxiv.org/abs/2608.26093v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -633,17 +754,136 @@
       }
     },
     {
-      "id": "adc4c2749c73f336",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[jsonata] JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
-      "summary": "",
-      "published": "2026-08-21T20:58:01.000Z",
+      "id": "120a765effe25110",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "From Producing to Validating: How AI Is Deskilling Freelancers",
+      "summary": "Generative AI is promoted as a way to enhance knowledge work, yet its benefits and drawbacks fall unevenly across the workforce. Freelance and gig workers, who commonly lack the upskilling pathways available to traditional employees, face heightened risks to both skill development and job security as AI adoption advances. We review empirical evidence on AI's impact on knowledge-worker workflows and upskilling, then predict the primary and downstream effects of AI adoption among clients and worke",
+      "published": "2026-08-26T17:51:34Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.HC"
       ],
-      "url": "https://github.com/advisories/GHSA-2943-5xfg-gq5f",
+      "url": "https://arxiv.org/abs/2608.26089v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "efa2353a5e10c9b9",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Planetary Prediction Engine: Autonomous Geospatial Prediction via Intelligent Data Selection and Foundation Model Embeddings",
+      "summary": "Addressing critical global challenges, from food security and disaster risk to disease outbreaks and socio-economic vulnerability, demands high-fidelity geospatial modeling. However, building predictive planetary models remains bottlenecked by a fragmented data ecosystem, requiring manual data retrieval, multimodal data curation and fusion along with iterative model selection. We present the Planetary Prediction Engine (PPE), an autonomous AI system that executes this end-to-end workflow directl",
+      "published": "2026-08-26T17:50:52Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2608.26088v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "68979e22a6a3401a",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "TraceML: An Empirical Analysis of Human-Agent Planning in Machine Learning Development",
+      "summary": "Large language models write correct code for isolated problems but remain far weaker at autonomous machine-learning development, where an agent must revise data pipelines, models, and validation over hours of feedback, and on most competitions still finishes below strong human competitors. Outcome-based benchmarks record this gap but not its cause, because they grade the final submission and discard the development process behind it. We introduce TraceML, which pairs human and agent work on the ",
+      "published": "2026-08-26T17:50:13Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2608.26086v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2758777422c7ee0f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
+      "summary": "Collective intelligence can emerge when individuals coordinate through a shared environment, allowing local actions to accumulate into durable social organization. Language-model agents offer a new substrate for this process, yet most multi-agent systems rely on direct conversation, predefined roles, or centralized workflows. It remains unclear whether decentralized agents can build functional technologies and outperform independent search. Here, initially homogeneous LLM agents in SwarmWorld se",
+      "published": "2026-08-26T17:45:34Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cond-mat.mtrl-sci",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.26081v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "aa6a5dbb774733d2",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "From Fleet to Lab: Revisiting the Security and Complexity of Industrial Rowhammer Mitigation",
+      "summary": "This paper studies efficient and secure Rowhammer mitigation at the Memory-Controller (MC). Rowhammer mitigation faces a fundamental tradeoff between tracking storage and mitigation rate: precise trackers (such as Misra-Gries) avoid unnecessary mitigations but require large CAM structures, whereas sampling-based schemes (such as PARA) require no storage but incur frequent mitigations even when not under attack. Microsoft recently deployed Sigries, an MC-side Rowhammer defense that combines an un",
+      "published": "2026-08-26T17:38:45Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CR",
+        "cs.AR"
+      ],
+      "url": "https://arxiv.org/abs/2608.26072v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "fe1f194d0cf6b02b",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models",
+      "summary": "Vision-Language-Action (VLA) models have demonstrated effectiveness in robot manipulation, yet state-of-the-art models such as pi0.5 operate under a single-frame paradigm, limiting their ability to retain past observations and develop precise spatial perception. In this paper, we propose StreamPI, a streaming multimodal temporal modeling framework that equips single-frame VLA with temporal reasoning capability without introducing any additional parameters. One core design is instruction-anchored",
+      "published": "2026-08-26T17:33:19Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2608.26067v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "34818da9958ac9ad",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Neural-Network and Reduced-order Modeling Workflows for AI-Driven CFD: Fast Response Surfaces, Reduced Dynamics and Jet in Cross-flow Examples",
+      "summary": "Highly resolved computational fluid dynamics (CFD) simulations are essential for design but too expensive for dense design-space sampling. This chapter presents an AI-driven CFD workflow that combines scalar-response modeling and reduced-order dynamics using jet-in-cross-flow examples. A reacting hydrogen jet-in-cross-flow study is first used to train a multilayer perceptron (MLP) mapping injector spacing to unburnt hydrogen throughput, wall heat transfer, and bulk temperature concentration, wit",
+      "published": "2026-08-26T17:32:41Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2608.26064v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
