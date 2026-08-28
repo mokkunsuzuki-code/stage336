@@ -1,10 +1,48 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-27T08:16:39.137659+00:00",
+  "generated_at": "2026-08-28T10:18:27.120876+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 46,
+  "item_count": 48,
   "items": [
+    {
+      "id": "cfb497944e44c6c1",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[aiosmtplib] aiosmtplib: STARTTLS response injection",
+      "summary": "",
+      "published": "2026-08-27T23:32:22.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vxj7-4xrp-5vr4",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5e7b8e5db7c174b0",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[webob] WebOb: Open redirect in Location header normalization via leading C0 control / space characters",
+      "summary": "",
+      "published": "2026-08-27T22:10:07.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6hx8-3wjj-gr8g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "f28466f9b8dbca29",
       "source": "github-advisory-pip",
@@ -348,17 +386,93 @@
       }
     },
     {
-      "id": "b4ef0595b7a3f601",
-      "source": "github-advisory-pip",
+      "id": "2180fefd1b77bfa5",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ironic] OpenStack Ironic can return unredacted sensitive information when applying a PATCH to update fields in volume properties",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: QQBot streaming command could mutate config without explicit allowFrom",
       "summary": "",
-      "published": "2026-06-14T06:30:24.000Z",
+      "published": "2026-06-13T00:34:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-j4cw-mcg2-2q78",
+      "url": "https://github.com/advisories/GHSA-r27j-fxmq-rg2q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ebd7e0b92553d1b6",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[node-opcua] node-opcua: Unbounded nonce cache enables unauthenticated heap exhaustion DoS",
+      "summary": "",
+      "published": "2026-08-20T18:35:41.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6wvw-vrw4-363w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3b6a8d1938a24601",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[libreoffice-convert] libreoffice-convert vulnerable to path traversal / arbitrary file write",
+      "summary": "",
+      "published": "2026-08-27T17:23:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-gmxc-r82q-347r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "202a4143beb1b166",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[n8n-nodes-sqlite3] n8n-nodes-sqlite3 vulnerable to path traversal via user-controlled database file path (db_path parameter)",
+      "summary": "",
+      "published": "2026-08-27T17:06:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q7m3-rhxg-7vxr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ea7126ffd644b742",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[pacote] pacote is vulnerable to Denial of Service (DoS) via the addGitSha function",
+      "summary": "",
+      "published": "2026-05-26T13:30:54.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w4pp-8pjf-rmxw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -614,218 +728,17 @@
       }
     },
     {
-      "id": "40fe7d4447cb8aef",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's POSIX node system.run safe-bin allowlist could be widened by shell expansion",
-      "summary": "",
-      "published": "2026-06-13T00:34:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-gwcq-453v-2frr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "cfcfc22d386f44b1",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@platejs/media] Plate: Media embed provider metadata can bypass URL sanitization and execute iframe JavaScript",
-      "summary": "",
-      "published": "2026-08-25T16:29:25.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qj6x-xx2h-8hvv",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fb635c40cbdf114a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[browse-mcp] browse-mcp has an arbitrary file write via unconfined download and state paths",
-      "summary": "",
-      "published": "2026-08-25T16:28:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-m9mq-7m7q-xc6p",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7b86823e995b1060",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[urllib] urllib's cross-origin redirects preserve credential-bearing request headers, leading to potential credential leakage",
-      "summary": "",
-      "published": "2026-08-25T16:19:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-hq3h-g68c-hp78",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "27796a0d9ab3c0af",
+      "id": "c00f668e1e1702b9",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
-      "summary": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in-context learning (ICL) turns generalization into a problem of task specification. To achieve cross-task generalization, we bring this paradigm to robotic manipulation, and argue that the natural task",
-      "published": "2026-08-26T17:59:34Z",
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we introduce CritICL, a novel inference-time framework that improves reasoning while maintaining high efficiency. Our key insight is that LLM failure modes exhibit structured patterns across model scales within the same family. Instead of treating failures",
+      "published": "2026-08-27T17:59:30Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.RO",
-        "cs.CV"
-      ],
-      "url": "https://arxiv.org/abs/2608.26103v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b2585d4f09a3f291",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
-      "summary": "Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic patterns. These limitations hinder fine-grained, biomechanically grounded feedback. We introduce MyoMechanix, a multimodal ecosystem for weight-loaded actions that aligns motion with muscle activity. Expert-annotated, it contains 7,500+ samples of 20 actions from 38 subjects, with s",
-      "published": "2026-08-26T17:56:33Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV",
-        "cs.AI",
-        "cs.ET",
-        "cs.HC",
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2608.26094v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "aab05185df901c05",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher's Role",
-      "summary": "Designing machine learning algorithms for wireless resource management is labour-intensive: the architecture, the loss function and the training recipe are all specified by hand. We demonstrate that this design layer can be surrendered to an autonomous agent in its entirety. We adopt the autoresearch protocol, in which an AI coding agent edits a training script, runs a fixed-budget experiment, and retains or discards the change according to a single immutable metric. We grant the agent authority",
-      "published": "2026-08-26T17:56:00Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.IT",
-        "eess.SY"
-      ],
-      "url": "https://arxiv.org/abs/2608.26093v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "120a765effe25110",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "From Producing to Validating: How AI Is Deskilling Freelancers",
-      "summary": "Generative AI is promoted as a way to enhance knowledge work, yet its benefits and drawbacks fall unevenly across the workforce. Freelance and gig workers, who commonly lack the upskilling pathways available to traditional employees, face heightened risks to both skill development and job security as AI adoption advances. We review empirical evidence on AI's impact on knowledge-worker workflows and upskilling, then predict the primary and downstream effects of AI adoption among clients and worke",
-      "published": "2026-08-26T17:51:34Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.HC"
-      ],
-      "url": "https://arxiv.org/abs/2608.26089v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "efa2353a5e10c9b9",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Planetary Prediction Engine: Autonomous Geospatial Prediction via Intelligent Data Selection and Foundation Model Embeddings",
-      "summary": "Addressing critical global challenges, from food security and disaster risk to disease outbreaks and socio-economic vulnerability, demands high-fidelity geospatial modeling. However, building predictive planetary models remains bottlenecked by a fragmented data ecosystem, requiring manual data retrieval, multimodal data curation and fusion along with iterative model selection. We present the Planetary Prediction Engine (PPE), an autonomous AI system that executes this end-to-end workflow directl",
-      "published": "2026-08-26T17:50:52Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2608.26088v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "68979e22a6a3401a",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "TraceML: An Empirical Analysis of Human-Agent Planning in Machine Learning Development",
-      "summary": "Large language models write correct code for isolated problems but remain far weaker at autonomous machine-learning development, where an agent must revise data pipelines, models, and validation over hours of feedback, and on most competitions still finishes below strong human competitors. Outcome-based benchmarks record this gap but not its cause, because they grade the final submission and discard the development process behind it. We introduce TraceML, which pairs human and agent work on the ",
-      "published": "2026-08-26T17:50:13Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2608.26086v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2758777422c7ee0f",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
-      "summary": "Collective intelligence can emerge when individuals coordinate through a shared environment, allowing local actions to accumulate into durable social organization. Language-model agents offer a new substrate for this process, yet most multi-agent systems rely on direct conversation, predefined roles, or centralized workflows. It remains unclear whether decentralized agents can build functional technologies and outperform independent search. Here, initially homogeneous LLM agents in SwarmWorld se",
-      "published": "2026-08-26T17:45:34Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cond-mat.mtrl-sci",
         "cs.CL"
       ],
-      "url": "https://arxiv.org/abs/2608.26081v1",
+      "url": "https://arxiv.org/abs/2608.27455v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -834,18 +747,79 @@
       }
     },
     {
-      "id": "aa6a5dbb774733d2",
+      "id": "a0d6a4419427d06f",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "From Fleet to Lab: Revisiting the Security and Complexity of Industrial Rowhammer Mitigation",
-      "summary": "This paper studies efficient and secure Rowhammer mitigation at the Memory-Controller (MC). Rowhammer mitigation faces a fundamental tradeoff between tracking storage and mitigation rate: precise trackers (such as Misra-Gries) avoid unnecessary mitigations but require large CAM structures, whereas sampling-based schemes (such as PARA) require no storage but incur frequent mitigations even when not under attack. Microsoft recently deployed Sigries, an MC-side Rowhammer defense that combines an un",
-      "published": "2026-08-26T17:38:45Z",
+      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowl",
+      "published": "2026-08-27T17:59:11Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.27454v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "332c47fa7d81b0f3",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach?",
+      "summary": "AI agents are poised to become a primary interface to digital products, acting across email, files, payments, and personal data. People without professional software backgrounds need understandable, reusable ways to control actions across services. We examine a mechanism in which a language model maps actions to plain-language consequence categories with user-authored \"allow\", \"ask\", or \"never\" rules. We ask what is gained and lost when decisions are made in advance as reusable rules rather than",
+      "published": "2026-08-27T17:56:38Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.HC",
+        "cs.CR"
+      ],
+      "url": "https://arxiv.org/abs/2608.27443v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2a0f301d2ecd6419",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+      "summary": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly and time-consuming. Although recent work explores large language models (LLMs) for automated code review, most approaches oversimplify code review into a single-round, static decision task, which fails to capture the multi-round interactive nature and the complex problem-solving processes inherent in realistic review sce",
+      "published": "2026-08-27T17:56:24Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.27442v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "62fbd7423af8b103",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+      "summary": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone. Existing automatic red-teaming methods often rely on fixed attacks, while recent agentic attackers coordinate multiple jailbreak tools and show stronger potential through trajectory-based retrieval. However, such retrieval can reuse misleading experiences due to retrieval bias and unc",
+      "published": "2026-08-27T17:55:33Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CR",
-        "cs.AR"
+        "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2608.26072v1",
+      "url": "https://arxiv.org/abs/2608.27439v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -854,17 +828,76 @@
       }
     },
     {
-      "id": "fe1f194d0cf6b02b",
+      "id": "4a8cb212bc9bf506",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models",
-      "summary": "Vision-Language-Action (VLA) models have demonstrated effectiveness in robot manipulation, yet state-of-the-art models such as pi0.5 operate under a single-frame paradigm, limiting their ability to retain past observations and develop precise spatial perception. In this paper, we propose StreamPI, a streaming multimodal temporal modeling framework that equips single-frame VLA with temporal reasoning capability without introducing any additional parameters. One core design is instruction-anchored",
-      "published": "2026-08-26T17:33:19Z",
+      "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
+      "summary": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited work) traceable. A single trust domain does not satisfy both cheaply. We present Persona-Execution Separation (PES): persona and execution reside in different trust domains, connected by a governed contract bridge. The persona is singly-homed and may drift; execution is faceless and audited. Status summaries may return;",
+      "published": "2026-08-27T17:50:07Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2608.27427v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d7369f4aaf8cb552",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners",
+      "summary": "Static scanners are increasingly used to identify executable or otherwise unsafe content in machine- learning artifacts, yet conventional evaluation metrics characterize only cases where a scanner yields a usable security judgment. We evaluate ModelScan, ModelAudit, and Fickling using a controlled, artifact-backed benchmark on a synthetic corpus of 170 Pickle and PyTorch focused artifacts across 145 specimen families, 135 of which have binary security ground truth and 10 of which are intentional",
+      "published": "2026-08-27T17:49:28Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2608.27424v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "664b6eb860b257ab",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Boosting LLM Exploration via Weak-Model Guidance in RLVR",
+      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) significantly improves LLM reasoning but often causes a drop in policy entropy, leading to narrowed reasoning coverage and degraded pass@$k$ for large $k$. While existing methods mitigate this entropy collapse through algorithmic regularizations, cross-model non-parametric perturbation is also neglected. In this work, we propose a simple yet effective approach to preserve the generative diversity of LLMs during RLVR. Instead of relying solely",
+      "published": "2026-08-27T17:45:50Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.27420v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "79789483fb966d73",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information",
+      "summary": "Vision-language models (VLMs) can locate an image region referred to by a text prompt and route the corresponding visual evidence to the output, yet the internal mechanism behind this behavior is not understood. Inspired by retrieval heads in large language models, we ask whether VLMs contain an analogous mechanism for visual retrieval. We answer affirmatively by introducing Visual Retrieval Heads (VRHs), a small subset of attention heads (about 1.7-2.6%) that are causally responsible for ground",
+      "published": "2026-08-27T17:43:58Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CV"
       ],
-      "url": "https://arxiv.org/abs/2608.26067v1",
+      "url": "https://arxiv.org/abs/2608.27417v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -873,17 +906,17 @@
       }
     },
     {
-      "id": "34818da9958ac9ad",
+      "id": "183c7d41c615af5f",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Neural-Network and Reduced-order Modeling Workflows for AI-Driven CFD: Fast Response Surfaces, Reduced Dynamics and Jet in Cross-flow Examples",
-      "summary": "Highly resolved computational fluid dynamics (CFD) simulations are essential for design but too expensive for dense design-space sampling. This chapter presents an AI-driven CFD workflow that combines scalar-response modeling and reduced-order dynamics using jet-in-cross-flow examples. A reacting hydrogen jet-in-cross-flow study is first used to train a multilayer perceptron (MLP) mapping injector spacing to unburnt hydrogen throughput, wall heat transfer, and bulk temperature concentration, wit",
-      "published": "2026-08-26T17:32:41Z",
+      "title": "Reservoir: A Large-Scale Simulated Dataset for Training and Evaluating Epidemiological Models",
+      "summary": "Large-scale, standardized datasets have driven many advances in AI-based scientific modeling, from protein structure prediction to natural language processing. Infectious disease epidemiology is increasingly adopting AI methods for forecasting, surveillance, and outbreak analytics, but the time-series data available to train them remains orders of magnitude smaller than the corpora behind the advances seen in other fields. Because the scope of real-world epidemiological data cannot practically r",
+      "published": "2026-08-27T17:36:46Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "physics.flu-dyn"
+        "q-bio.PE"
       ],
-      "url": "https://arxiv.org/abs/2608.26064v1",
+      "url": "https://arxiv.org/abs/2608.27408v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
