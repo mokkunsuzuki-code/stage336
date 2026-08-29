@@ -1,10 +1,200 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-28T10:18:27.120876+00:00",
+  "generated_at": "2026-08-29T06:18:01.701883+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 48,
+  "item_count": 37,
   "items": [
+    {
+      "id": "1e608e0aff33bb8c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[RestrictedPython] RestrictedPython guard hooks can be shadowed via positional-only arguments",
+      "summary": "",
+      "published": "2026-08-28T22:51:35.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-ffg3-p8fm-mjx2",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9af9a2ad2f1d9072",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[aiir] AIIR verification and policy gates could report success without enforcing the control (fail-open)",
+      "summary": "",
+      "published": "2026-08-28T19:20:32.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-73p9-6hrp-8qhr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "684fed89023501d7",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[plone.app.event] plone.app.event vulnerable to denial of service via iCalendar import",
+      "summary": "",
+      "published": "2026-08-28T18:59:42.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r82h-mqw3-fc56",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b06c9de1b4bf39a1",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[Weblate] Weblate has IDOR in GroupViewSet that allows authenticated project manager to gain unauthorized read access to any private project",
+      "summary": "",
+      "published": "2026-08-28T18:47:29.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2q2q-jr9g-v9rf",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1ddb3c3c76674fe0",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[weblate] Private Weblate projects vulnerable to observable object existence disclosure via globally scoped object lookups",
+      "summary": "",
+      "published": "2026-08-28T18:46:54.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2p9g-x3cv-5hh4",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0ce99e0bed9dc607",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[Protego] Protego has exponential backtracking ReDoS in robots.txt URL wildcard matching",
+      "summary": "",
+      "published": "2026-08-28T18:43:02.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wjmf-p669-5m5p",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0cf83d6658c445cf",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[plone.app.portlets] plone.app.portlets vulnerable to denial of service via RSS feed portlet",
+      "summary": "",
+      "published": "2026-08-28T18:41:35.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-x5g3-w747-2h8q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3eb546e060b2898e",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[piccolo-admin] piccolo-admin has a privilege escalation issue - admin to superuser via session-token disclosure in GET /api/tables/sessions/.",
+      "summary": "",
+      "published": "2026-08-28T18:14:13.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2gh4-jmwq-rr8w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b4146c038ff8571b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[WsgiDAV] WsgiDAV MySQL provider has a blind SQL injection",
+      "summary": "",
+      "published": "2026-08-28T18:12:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-p6gw-4frg-j7jw",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "81f615c192b144c2",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compliance-trestle] Trestle has Server-Side Template Injection (SSTI) via Recursive Template Re-evaluation of Untrusted Data",
+      "summary": "",
+      "published": "2026-08-28T16:15:38.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jw39-3688-r4rx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "cfb497944e44c6c1",
       "source": "github-advisory-pip",
@@ -120,17 +310,17 @@
       }
     },
     {
-      "id": "e4f2309ee8920699",
-      "source": "github-advisory-pip",
+      "id": "7e1fc442e2df8a63",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pantheon-agents] Trojanized pantheon-agents 0.6.1 and 0.6.2 on PyPI ship a credential stealer (supply-chain account compromise)",
+      "title": "[mariadb] MariaDB has  possible SQL injection in Buffer parameter escaping under big5/gbk/sjis/cp932/gb18030 client charsets",
       "summary": "",
-      "published": "2026-08-26T14:36:45.000Z",
+      "published": "2026-08-28T22:53:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-93qj-5q5v-3c2h",
+      "url": "https://github.com/advisories/GHSA-g5xc-5w98-jfvm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +329,17 @@
       }
     },
     {
-      "id": "bdfbe461590a0a82",
-      "source": "github-advisory-pip",
+      "id": "1b0221d49da6db3b",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[kas] kas Persistently Disables SSH Host Key Checking",
+      "title": "[mariadb] MariaDB has Cleartext Transmission of Sensitive Information and Insufficiently Protected Credentials",
       "summary": "",
-      "published": "2026-08-26T14:18:24.000Z",
+      "published": "2026-08-28T22:04:53.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mv8m-v9v6-5f94",
+      "url": "https://github.com/advisories/GHSA-42r5-vhpq-m858",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +348,17 @@
       }
     },
     {
-      "id": "2558842e84c06320",
-      "source": "github-advisory-pip",
+      "id": "5df02dc479a29d26",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[starlette-admin] Starlette-Admin's unvalidated `order_by` parameter allows ordering by hidden columns (info-exposure oracle) and HTTP 500 DoS",
+      "title": "[mariadb] MariaDB's connector leaks the cleartext password to an MitM despite `ssl: true`",
       "summary": "",
-      "published": "2026-08-26T14:14:37.000Z",
+      "published": "2026-08-28T19:03:38.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6753-gr46-6wpr",
+      "url": "https://github.com/advisories/GHSA-cqhc-2h57-wpxf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +367,17 @@
       }
     },
     {
-      "id": "657bf97a6a58f7be",
-      "source": "github-advisory-pip",
+      "id": "379aea67c2873555",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[jupyterhub] JupyterHub has Unauthenticated Denial of Service via Unbounded Username Logging on Failed Login",
+      "title": "[9router] 9router: Unauthenticated `/v1` proxy access via `Host`-header spoofing → open AI relay + SSRF",
       "summary": "",
-      "published": "2026-08-25T19:29:19.000Z",
+      "published": "2026-08-28T18:33:20.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p43p-whwx-q52h",
+      "url": "https://github.com/advisories/GHSA-86m2-fcxq-5q7c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +386,17 @@
       }
     },
     {
-      "id": "31258d51cb4fc417",
-      "source": "github-advisory-pip",
+      "id": "6dcdff654154fb5c",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[icalendar] icalendar has Algorithmic Complexity in Equality",
+      "title": "[9router] 9router: Unauthenticated LLM proxy access via /codex rewrite authorization bypass",
       "summary": "",
-      "published": "2026-08-25T19:27:31.000Z",
+      "published": "2026-08-28T18:32:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cv84-9p8j-fj68",
+      "url": "https://github.com/advisories/GHSA-8gmq-j984-vp4r",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +405,17 @@
       }
     },
     {
-      "id": "00c302ef8cb5b454",
-      "source": "github-advisory-pip",
+      "id": "0250ae91164d66e3",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[chainlit] Chainlist has SSRF via MCP SSE and streamable-http transports that allows unauthenticated internal network access",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Same-host trusted-proxy deployments could accept local forged identity headers",
       "summary": "",
-      "published": "2026-08-25T19:21:40.000Z",
+      "published": "2026-06-13T00:34:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hvfh-5mj3-5f3j",
+      "url": "https://github.com/advisories/GHSA-3qg8-hq7j-jj33",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +424,17 @@
       }
     },
     {
-      "id": "6078048219400ba2",
-      "source": "github-advisory-pip",
+      "id": "e5c1c2da80848bc2",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[chainlit] Chainlit has command injection via MCP stdio transport that allows unauthenticated remote code execution",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: QQBot pre-dispatch slash commands could skip allowFrom checks",
       "summary": "",
-      "published": "2026-08-25T19:19:28.000Z",
+      "published": "2026-06-13T00:34:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-w3fx-mc44-mf6j",
+      "url": "https://github.com/advisories/GHSA-35c7-4r45-9gv3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,131 +443,17 @@
       }
     },
     {
-      "id": "5596d38c7242938f",
-      "source": "github-advisory-pip",
+      "id": "6651668028f31b21",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[eml_parser] eml_parser vulnerable to DoS via deeply nested parens in Received headers",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Mattermost handlers could fall open when channel type was missing",
       "summary": "",
-      "published": "2026-08-25T18:27:18.000Z",
+      "published": "2026-06-13T00:34:33.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g7gc-gmgp-wgqg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "820f7dccc5fe5041",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[eml_parser] eml_parser has parser DoS via deeply nested parentheses in e-mail headers",
-      "summary": "",
-      "published": "2026-08-25T18:25:47.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-m66c-fw79-6359",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e68af106382c1d8c",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[eml_parser] eml_parser has a URL extraction bypass via HTML entities in URLs",
-      "summary": "",
-      "published": "2026-08-25T18:23:16.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-fxgq-9m89-cxj9",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d7dcd4bc365ee960",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[utcp-gql] Duplicate Advisory: utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
-      "summary": "",
-      "published": "2026-06-15T03:30:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-vg9f-q4xh-62r4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1e95af80ed95271c",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[mcp-contextforge-gateway] mcp-contextforge-gateway has Server-Side Template Injection (SSTI) leading to Remote Code Execution in `PromptService._render_template` via unsandboxed J",
-      "summary": "",
-      "published": "2026-08-25T17:42:11.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-vwf3-4xxj-qg6h",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "9125f81b547f930a",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[reachy-mini] reachy_mini Allows Unrestricted Upload of File with Dangerous Type",
-      "summary": "",
-      "published": "2026-08-25T17:38:43.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-m2pc-3q4q-w6jr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1f5f5dfe2da6768c",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[justhtml] Duplicate Advisory: Uncontrolled recursion DoS in JustHTML() via deeply nested HTML",
-      "summary": "",
-      "published": "2026-08-23T15:33:06.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-892m-gcq8-2468",
+      "url": "https://github.com/advisories/GHSA-chqm-wxm2-w73w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -435,291 +511,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-gmxc-r82q-347r",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "202a4143beb1b166",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[n8n-nodes-sqlite3] n8n-nodes-sqlite3 vulnerable to path traversal via user-controlled database file path (db_path parameter)",
-      "summary": "",
-      "published": "2026-08-27T17:06:55.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q7m3-rhxg-7vxr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ea7126ffd644b742",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[pacote] pacote is vulnerable to Denial of Service (DoS) via the addGitSha function",
-      "summary": "",
-      "published": "2026-05-26T13:30:54.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-w4pp-8pjf-rmxw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "49975aa14e38d33f",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[suneditor] SunEditor Embed Plugin has DOM XSS via External Script Element After Iframe Embed",
-      "summary": "",
-      "published": "2026-08-26T15:26:24.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-w93q-cq9w-58p7",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "eebfd3919b5bcdb9",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[youtransfer] YouTransfer has an issue in the sendmail transport integration that allows arbitrary code execution",
-      "summary": "",
-      "published": "2026-06-15T21:30:41.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-68mc-h6h8-79wj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d5ffcc08047ffc87",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@logtape/syslog] @logtape/syslog: syslog log injection via unescaped control characters and unvalidated SD-NAME keys",
-      "summary": "",
-      "published": "2026-08-26T14:28:04.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8h6h-x5pq-56fq",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bde01e1bfeb77fb1",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@budibase/server] Budibase authenticated arbitrary S3 signed upload URL issuance via `/api/attachments/:datasourceId/url`",
-      "summary": "",
-      "published": "2026-08-26T14:07:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6x9p-4r67-5gjx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d25acf2de570b839",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@intlify/vue-i18n-core] Vue I18n Allows Prototype Pollution in `handleFlatJson`",
-      "summary": "",
-      "published": "2025-03-07T15:58:24.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-p2ph-7g93-hw3m",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "02cacc621d34d6c6",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@arikusi/deepseek-mcp-server] @arikusi/deepseek-mcp-server: Missing Authentication on Self-Hosted HTTP MCP Endpoint",
-      "summary": "",
-      "published": "2026-08-25T18:38:30.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-72f3-6w86-7rv3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "090af7fe2d6bc18d",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@arikusi/deepseek-mcp-server] @arikusi/deepseek-mcp-server has an Authorization Bypass Through User-Controlled Key",
-      "summary": "",
-      "published": "2026-08-25T18:37:27.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-fh3r-g96v-f578",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "74b63faa17b55092",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[sublinear-time-solver] consciousness-explorer / sublinear-time-solver MCP export_state has an arbitrary file write",
-      "summary": "",
-      "published": "2026-08-25T18:35:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-xc9g-j69q-37xw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1f7b14eeeaf270c6",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[consciousness-explorer] consciousness-explorer / sublinear-time-solver MCP export_state has an arbitrary file write",
-      "summary": "",
-      "published": "2026-08-25T18:35:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-xc9g-j69q-37xw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a7bb35649d947f46",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[whistle] Whistle vulnerable to path traversal",
-      "summary": "",
-      "published": "2026-08-25T18:32:06.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3vfr-4gwf-qxfp",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "80a7a8da071e2e6e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[mediasoup] mediasoup: SCTP state cookie lacks cryptographic authentication, enabling unauthorized association establishment (RFC 9260 violation)",
-      "summary": "",
-      "published": "2026-08-25T18:17:21.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-p7x2-g5cq-fhmq",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f066da5e029fa353",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Node pairing reconnection could confuse approval scope state",
-      "summary": "",
-      "published": "2026-06-13T00:34:33.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-c85p-9pvr-f7f5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "af40fa460acf6858",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: PowerShell encoded-command aliases could miss exec allowlist checks",
-      "summary": "",
-      "published": "2026-06-13T00:34:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-ffhm-8fwq-7q27",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
