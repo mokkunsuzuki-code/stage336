@@ -1,7 +1,7 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-30T04:27:16.529962+00:00",
+  "generated_at": "2026-08-31T04:32:01.643836+00:00",
   "mode": "safe-metadata-only",
   "item_count": 37,
   "items": [
@@ -519,176 +519,17 @@
       }
     },
     {
-      "id": "c00f668e1e1702b9",
+      "id": "85feb2bb89d9ad9e",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
-      "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we introduce CritICL, a novel inference-time framework that improves reasoning while maintaining high efficiency. Our key insight is that LLM failure modes exhibit structured patterns across model scales within the same family. Instead of treating failures",
-      "published": "2026-08-27T17:59:30Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2608.27455v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a0d6a4419427d06f",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
-      "summary": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowl",
-      "published": "2026-08-27T17:59:11Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2608.27454v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "332c47fa7d81b0f3",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach?",
-      "summary": "AI agents are poised to become a primary interface to digital products, acting across email, files, payments, and personal data. People without professional software backgrounds need understandable, reusable ways to control actions across services. We examine a mechanism in which a language model maps actions to plain-language consequence categories with user-authored \"allow\", \"ask\", or \"never\" rules. We ask what is gained and lost when decisions are made in advance as reusable rules rather than",
-      "published": "2026-08-27T17:56:38Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.HC",
-        "cs.CR"
-      ],
-      "url": "https://arxiv.org/abs/2608.27443v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2a0f301d2ecd6419",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
-      "summary": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly and time-consuming. Although recent work explores large language models (LLMs) for automated code review, most approaches oversimplify code review into a single-round, static decision task, which fails to capture the multi-round interactive nature and the complex problem-solving processes inherent in realistic review sce",
-      "published": "2026-08-27T17:56:24Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.SE",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2608.27442v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "62fbd7423af8b103",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
-      "summary": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone. Existing automatic red-teaming methods often rely on fixed attacks, while recent agentic attackers coordinate multiple jailbreak tools and show stronger potential through trajectory-based retrieval. However, such retrieval can reuse misleading experiences due to retrieval bias and unc",
-      "published": "2026-08-27T17:55:33Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CR",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2608.27439v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4a8cb212bc9bf506",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
-      "summary": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited work) traceable. A single trust domain does not satisfy both cheaply. We present Persona-Execution Separation (PES): persona and execution reside in different trust domains, connected by a governed contract bridge. The persona is singly-homed and may drift; execution is faceless and audited. Status summaries may return;",
-      "published": "2026-08-27T17:50:07Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.SE",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2608.27427v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d7369f4aaf8cb552",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners",
-      "summary": "Static scanners are increasingly used to identify executable or otherwise unsafe content in machine- learning artifacts, yet conventional evaluation metrics characterize only cases where a scanner yields a usable security judgment. We evaluate ModelScan, ModelAudit, and Fickling using a controlled, artifact-backed benchmark on a synthetic corpus of 170 Pickle and PyTorch focused artifacts across 145 specimen families, 135 of which have binary security ground truth and 10 of which are intentional",
-      "published": "2026-08-27T17:49:28Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CR",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2608.27424v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "664b6eb860b257ab",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Boosting LLM Exploration via Weak-Model Guidance in RLVR",
-      "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) significantly improves LLM reasoning but often causes a drop in policy entropy, leading to narrowed reasoning coverage and degraded pass@$k$ for large $k$. While existing methods mitigate this entropy collapse through algorithmic regularizations, cross-model non-parametric perturbation is also neglected. In this work, we propose a simple yet effective approach to preserve the generative diversity of LLMs during RLVR. Instead of relying solely",
-      "published": "2026-08-27T17:45:50Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2608.27420v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "79789483fb966d73",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Retrieval Heads Meet Vision: Uncovering How VLMs Locate and Extract Visual Information",
-      "summary": "Vision-language models (VLMs) can locate an image region referred to by a text prompt and route the corresponding visual evidence to the output, yet the internal mechanism behind this behavior is not understood. Inspired by retrieval heads in large language models, we ask whether VLMs contain an analogous mechanism for visual retrieval. We answer affirmatively by introducing Visual Retrieval Heads (VRHs), a small subset of attention heads (about 1.7-2.6%) that are causally responsible for ground",
-      "published": "2026-08-27T17:43:58Z",
+      "title": "GeBDA: Building Damage Assessment as Text-Based Sequence Prediction",
+      "summary": "Conventionally, Building Damage Assessment (BDA) is tackled either with dedicated network architectures or by fine-tuning geospatial image foundation models. In this work, we ask whether a general-purpose Vision-Language Model (VLM) can localize buildings and grade their damage through autoregressive sequence generation alone. We cast BDA as predicting a variable-length set of bounding boxes, each specified by its coordinates and a damage label. Our preliminary implementation, based on the open ",
+      "published": "2026-08-28T17:44:55Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CV"
       ],
-      "url": "https://arxiv.org/abs/2608.27417v1",
+      "url": "https://arxiv.org/abs/2608.28567v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -697,17 +538,179 @@
       }
     },
     {
-      "id": "183c7d41c615af5f",
+      "id": "dba6f1d33b256177",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Reservoir: A Large-Scale Simulated Dataset for Training and Evaluating Epidemiological Models",
-      "summary": "Large-scale, standardized datasets have driven many advances in AI-based scientific modeling, from protein structure prediction to natural language processing. Infectious disease epidemiology is increasingly adopting AI methods for forecasting, surveillance, and outbreak analytics, but the time-series data available to train them remains orders of magnitude smaller than the corpora behind the advances seen in other fields. Because the scope of real-world epidemiological data cannot practically r",
-      "published": "2026-08-27T17:36:46Z",
+      "title": "On two proofs of $d^2$ mixing of weighted Dikin walks",
+      "summary": "We study the mixing time of weighted Dikin walks for sampling from exponential distributions on polytopes and truncated positive-semidefinite (PSD) cones. Our first result gives a general total-variation mixing bound under strong self-concordance, $\\barν$-symmetry, and mixed-trace regularity on the local metric. The key idea is to control the Metropolis--Hastings acceptance probability on a high-probability region rather than at every point. Applying this framework to the Lee--Sidford, Lewis-wei",
+      "published": "2026-08-28T17:43:58Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "q-bio.PE"
+        "cs.DS",
+        "cs.LG",
+        "math.OC",
+        "math.PR",
+        "stat.CO"
       ],
-      "url": "https://arxiv.org/abs/2608.27408v1",
+      "url": "https://arxiv.org/abs/2608.28566v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2c72dcf3ad51467a",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "DARTS: Decoder-Aware Representation Tuning via Surgery for Model Merging",
+      "summary": "Model merging combines multiple task-specific fine-tuned LLMs into a single multi-task model without additional training. However, merged models are known to suffer from representation bias: systematic drift between the merged model's hidden states and those of each individual source model. Prior work (Yang et al., 2024a) study and mitigate this bias for encoder-based vision models using a lightweight correction module trained with L1 loss. However, such bias is not studied for decoder models du",
+      "published": "2026-08-28T17:22:47Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2608.28547v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e47b7623d93e4dc0",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Offline-Verifiable Accountability for Cross-Organization Agent Messaging: A Preserved Evidence-Bundle Approach",
+      "summary": "Cross-organization agent workflows require preserved evidence that remains independently verifiable during later audit or dispute review. They may involve multiple organizations, delegated actions, policy-relevant events, and disputed accountability claims. This is difficult when live systems are unavailable, controlled by one party, or not trusted by all participants. Existing mechanisms provide useful pieces, including authenticated logging, delegation semantics, signed checkpoints, and consis",
+      "published": "2026-08-28T17:18:49Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CR",
+        "cs.MA"
+      ],
+      "url": "https://arxiv.org/abs/2608.28542v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8fb335da59ac77f0",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models",
+      "summary": "A code world model accepted by a sampling gate can be exactly right on everything the gate can see and arbitrarily wrong beyond it. We characterize what a certified model can know, and what its errors can cost, when the omission is an annular freeze mode enclosing an unreachable interior. The gate quotient makes the question precise: acceptance-with-certainty determines the model exactly on the reachable query set; beyond reach is gauge. On a minimal ring instrument we prove the extreme case (a ",
+      "published": "2026-08-28T17:14:58Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2608.28541v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4763d350a5fa2119",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "InstructMesh: Selective Refinement of Generative 3D Models for Fabrication",
+      "summary": "Recent advances in generative AI allow users to create 3D models from text or images. However, these models prioritize visual plausibility over geometric accuracy, often generating results with flaws that compromise their intended use post-fabrication. We present InstructMesh, an interactive post-generation refinement tool that enables selective repair of generative 3D models through region selection and targeted operations, such as opening or sealing voids, or adjusting local thickness. Users c",
+      "published": "2026-08-28T17:09:42Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2608.28534v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a69a4c617420ddc4",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "xTRUCE: A Provably Safe Arbiter for Multi-xApp Conflict Mitigation in Agentic O-RAN",
+      "summary": "The open radio access network (O-RAN) is evolving toward agentic operation, where large language model (LLM)-driven xApps/rApps generate control proposals under operator intents. However, such proposals may be conflicting, infeasible, or hallucinated, and no existing system jointly provides proposal-independent safety, priority-aware reconciliation, and traceable feedback. To this end, we propose a provably safe arbiter, namely xTRUCE, in the near-real-time (Near-RT) RAN intelligent controller f",
+      "published": "2026-08-28T17:08:53Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.NI",
+        "eess.SY"
+      ],
+      "url": "https://arxiv.org/abs/2608.28532v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "cdcee08773b532ac",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Relaxed Sender Anonymity for CBDC Interbank Settlement: A Zero-Knowledge Approach on Permissioned EVM",
+      "summary": "Central Bank Digital Currency (CBDC) interbank settlement systems operating on Distributed Ledger Technology (DLT) face a fundamental trade-off: blockchain transparency enables trustless verification but exposes commercially sensitive bilateral transaction flows to all network participants. We propose a confidential interbank settlement protocol for permissioned Ethereum-compatible networks that resolves this tension through a relaxed sender anonymity model tailored to regulatory AML/CFT require",
+      "published": "2026-08-28T17:08:02Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CR",
+        "cs.DC"
+      ],
+      "url": "https://arxiv.org/abs/2608.28529v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "31c3528558db2088",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
+      "summary": "We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models. We find that ASR errors can lead to harmful instructions being accepted and executed by EAI models, thereby reducing safety. We simulate ASR errors and combine them with existing safety benchmarks (SafeAgentBench and POEX) to evaluate how different errors affect embodied AI safety. We find that some of them preserve semantic structure but increase harmful ambig",
+      "published": "2026-08-28T16:55:32Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.CL",
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2608.28518v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "438e7a5b4d8c8e5e",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Rethinking Vulnerability Remediation as a Capacity Allocation Problem",
+      "summary": "As AI accelerates vulnerability discovery, remediation throughput may become a greater constraint than prioritisation accuracy. This study evaluates vulnerability remediation as a flow-control problem using Apache Jira, Mozilla Bugzilla, Red Hat security errata, five public Jira organisations, and an npm dependency graph. Apache resolution times are strongly heavy-tailed, while 94-100% of arrivals in the primary issue trackers enter queues estimated to be at or above capacity. Queue-context mode",
+      "published": "2026-08-28T16:42:53Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.SE"
+      ],
+      "url": "https://arxiv.org/abs/2608.28509v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
