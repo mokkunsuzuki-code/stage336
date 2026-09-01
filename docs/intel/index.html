@@ -32,7 +32,7 @@
   </ul>
 
   <h2>Latest Intelligence Metadata</h2>
-  <p>Generated at: <code>2026-08-31T04:32:01.643836+00:00</code></p>
+  <p>Generated at: <code>2026-09-01T04:14:10.889110+00:00</code></p>
   <p>JSON: <a href="./index.json">index.json</a></p>
 
   <table>
@@ -46,6 +46,30 @@
     </thead>
     <tbody>
       
+        <tr>
+          <td>software-advisory</td>
+          <td>[snowflake-connector-python] Snowflake Connector for Python improperly verifies TLS hostnames</td>
+          <td>2026-07-16T09:32:17.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-5cc2-282f-jjq2">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[mlflow]  MLflow AI Gateway permits SSRF through an unvalidated api_base</td>
+          <td>2026-08-05T09:31:18.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-h7x2-h6g9-p789">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[lmdeploy] lmdeploy: Hardcoded trust_remote_code=True is an implicit unsafe remote-code load path with no user opt-out</td>
+          <td>2026-05-21T19:33:32.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-9xq9-36w5-q796">source</a></td>
+        </tr>
+        
+
         <tr>
           <td>software-advisory</td>
           <td>[RestrictedPython] RestrictedPython guard hooks can be shadowed via positional-only arguments</td>
@@ -144,33 +168,49 @@
 
         <tr>
           <td>software-advisory</td>
-          <td>[asyncssh] asyncssh has SCP Path Traversal to Arbitrary File Write</td>
-          <td>2026-08-26T15:34:22.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-2wxc-x7rj-hg8f">source</a></td>
+          <td>[jsondiffpatch]  jsondiffpatch patch APIs are vulnerable to prototype pollution</td>
+          <td>2026-05-16T06:30:29.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-j4fx-xxwh-2485">source</a></td>
         </tr>
         
 
         <tr>
           <td>software-advisory</td>
-          <td>[asyncssh] asyncssh has an incomplete fix for CVE-2026-45309 — AuthorizedKeysFile %u still escapes the intended directory via a leading ~ (and weakly via ${ENV}) username substitut</td>
-          <td>2026-08-26T15:32:00.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-qr67-gv47-xwwh">source</a></td>
+          <td>[decode-uri-component] decode-uri-component: Denial of service via exponential decoding of malformed percent-encoded input</td>
+          <td>2026-08-31T22:10:20.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-vcc3-ghjq-m6fr">source</a></td>
         </tr>
         
 
         <tr>
           <td>software-advisory</td>
-          <td>[senaite.core] senaite.core Vulnerable to Eval Injection and Missing Authorization</td>
-          <td>2026-08-26T15:28:47.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-jrw6-7x4q-w25j">source</a></td>
+          <td>[engine.io] Socket.IO: Engine.IO WebTransport SID DoS</td>
+          <td>2026-08-31T21:28:12.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-gr94-w7qr-f4j3">source</a></td>
         </tr>
         
 
         <tr>
           <td>software-advisory</td>
-          <td>[openwisp-ipam] OpenWISP IPAM has broken object-level authorization: ExportSubnetView lets a member of one organization export another organization's subnet and all its IP addresse</td>
-          <td>2026-08-26T14:38:10.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-x287-5c68-36wp">source</a></td>
+          <td>[@hono/oauth-providers] @hono/oauth-providers: OAuth state check fails open on omitted state, enabling login CSRF and forced account linking</td>
+          <td>2026-08-31T20:30:50.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-fm3f-ch8h-qw8q">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[axios] Duplicate Advisory: Axios: Deep formToJSON Key Recursion Can Cause Denial of Service</td>
+          <td>2026-08-01T15:30:27.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-4ww2-rjh2-xpv9">source</a></td>
+        </tr>
+        
+
+        <tr>
+          <td>software-advisory</td>
+          <td>[axios] Duplicate Advisory: Axios: Prototype pollution gadgets can alter axios request construction</td>
+          <td>2026-08-01T15:30:27.000Z</td>
+          <td><a href="https://github.com/advisories/GHSA-f2r5-pqh9-r8f8">source</a></td>
         </tr>
         
 
@@ -215,130 +255,82 @@
         
 
         <tr>
-          <td>software-advisory</td>
-          <td>[openclaw] Duplicate Advisory: OpenClaw: Same-host trusted-proxy deployments could accept local forged identity headers</td>
-          <td>2026-06-13T00:34:32.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-3qg8-hq7j-jj33">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[openclaw] Duplicate Advisory: OpenClaw: QQBot pre-dispatch slash commands could skip allowFrom checks</td>
-          <td>2026-06-13T00:34:32.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-35c7-4r45-9gv3">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[openclaw] Duplicate Advisory: OpenClaw: Mattermost handlers could fall open when channel type was missing</td>
-          <td>2026-06-13T00:34:33.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-chqm-wxm2-w73w">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[openclaw] Duplicate Advisory: OpenClaw: QQBot streaming command could mutate config without explicit allowFrom</td>
-          <td>2026-06-13T00:34:32.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-r27j-fxmq-rg2q">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[node-opcua] node-opcua: Unbounded nonce cache enables unauthenticated heap exhaustion DoS</td>
-          <td>2026-08-20T18:35:41.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-6wvw-vrw4-363w">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>software-advisory</td>
-          <td>[libreoffice-convert] libreoffice-convert vulnerable to path traversal / arbitrary file write</td>
-          <td>2026-08-27T17:23:16.000Z</td>
-          <td><a href="https://github.com/advisories/GHSA-gmxc-r82q-347r">source</a></td>
+          <td>research</td>
+          <td>Local Private Information Retrieval for Graph-Based Replicated Systems</td>
+          <td>2026-08-31T17:50:47Z</td>
+          <td><a href="https://arxiv.org/abs/2608.31150v1">source</a></td>
         </tr>
         
 
         <tr>
           <td>research</td>
-          <td>GeBDA: Building Damage Assessment as Text-Based Sequence Prediction</td>
-          <td>2026-08-28T17:44:55Z</td>
-          <td><a href="https://arxiv.org/abs/2608.28567v1">source</a></td>
+          <td>Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification</td>
+          <td>2026-08-31T17:48:24Z</td>
+          <td><a href="https://arxiv.org/abs/2608.31142v1">source</a></td>
         </tr>
         
 
         <tr>
           <td>research</td>
-          <td>On two proofs of $d^2$ mixing of weighted Dikin walks</td>
-          <td>2026-08-28T17:43:58Z</td>
-          <td><a href="https://arxiv.org/abs/2608.28566v1">source</a></td>
+          <td>OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques</td>
+          <td>2026-08-31T17:44:25Z</td>
+          <td><a href="https://arxiv.org/abs/2608.31137v1">source</a></td>
         </tr>
         
 
         <tr>
           <td>research</td>
-          <td>DARTS: Decoder-Aware Representation Tuning via Surgery for Model Merging</td>
-          <td>2026-08-28T17:22:47Z</td>
-          <td><a href="https://arxiv.org/abs/2608.28547v1">source</a></td>
+          <td>DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening</td>
+          <td>2026-08-31T17:40:43Z</td>
+          <td><a href="https://arxiv.org/abs/2608.31128v1">source</a></td>
         </tr>
         
 
         <tr>
           <td>research</td>
-          <td>Offline-Verifiable Accountability for Cross-Organization Agent Messaging: A Preserved Evidence-Bundle Approach</td>
-          <td>2026-08-28T17:18:49Z</td>
-          <td><a href="https://arxiv.org/abs/2608.28542v1">source</a></td>
+          <td>Development and characterization of a wingless ICPC HPGe detector with thin amorphous-Ge contacts</td>
+          <td>2026-08-31T17:35:55Z</td>
+          <td><a href="https://arxiv.org/abs/2608.31123v1">source</a></td>
         </tr>
         
 
         <tr>
           <td>research</td>
-          <td>An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models</td>
-          <td>2026-08-28T17:14:58Z</td>
-          <td><a href="https://arxiv.org/abs/2608.28541v1">source</a></td>
+          <td>PaperGym: Rubric-Centered Evolution for Research-Plan Generation</td>
+          <td>2026-08-31T17:31:18Z</td>
+          <td><a href="https://arxiv.org/abs/2608.31119v1">source</a></td>
         </tr>
         
 
         <tr>
           <td>research</td>
-          <td>InstructMesh: Selective Refinement of Generative 3D Models for Fabrication</td>
-          <td>2026-08-28T17:09:42Z</td>
-          <td><a href="https://arxiv.org/abs/2608.28534v1">source</a></td>
+          <td>When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning</td>
+          <td>2026-08-31T17:30:05Z</td>
+          <td><a href="https://arxiv.org/abs/2608.31118v1">source</a></td>
         </tr>
         
 
         <tr>
           <td>research</td>
-          <td>xTRUCE: A Provably Safe Arbiter for Multi-xApp Conflict Mitigation in Agentic O-RAN</td>
-          <td>2026-08-28T17:08:53Z</td>
-          <td><a href="https://arxiv.org/abs/2608.28532v1">source</a></td>
+          <td>InsightToast: Proactive Information Retrieval & Glanceable Visualization in the Side Channel of Data-Rich Meetings</td>
+          <td>2026-08-31T17:22:43Z</td>
+          <td><a href="https://arxiv.org/abs/2608.31115v1">source</a></td>
         </tr>
         
 
         <tr>
           <td>research</td>
-          <td>Relaxed Sender Anonymity for CBDC Interbank Settlement: A Zero-Knowledge Approach on Permissioned EVM</td>
-          <td>2026-08-28T17:08:02Z</td>
-          <td><a href="https://arxiv.org/abs/2608.28529v1">source</a></td>
+          <td>Unconditional Certified Randomness without Structure</td>
+          <td>2026-08-31T17:17:49Z</td>
+          <td><a href="https://arxiv.org/abs/2608.31112v1">source</a></td>
         </tr>
         
 
         <tr>
           <td>research</td>
-          <td>When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI</td>
-          <td>2026-08-28T16:55:32Z</td>
-          <td><a href="https://arxiv.org/abs/2608.28518v1">source</a></td>
-        </tr>
-        
-
-        <tr>
-          <td>research</td>
-          <td>Rethinking Vulnerability Remediation as a Capacity Allocation Problem</td>
-          <td>2026-08-28T16:42:53Z</td>
-          <td><a href="https://arxiv.org/abs/2608.28509v1">source</a></td>
+          <td>Aspire: Can Models Self-Evolve from Vague Goals?</td>
+          <td>2026-08-31T17:14:59Z</td>
+          <td><a href="https://arxiv.org/abs/2608.31111v1">source</a></td>
         </tr>
         
     </tbody>

@@ -1,10 +1,67 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-08-31T04:32:01.643836+00:00",
+  "generated_at": "2026-09-01T04:14:10.889110+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 37,
+  "item_count": 36,
   "items": [
+    {
+      "id": "e75840f41b02fee2",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[snowflake-connector-python] Snowflake Connector for Python improperly verifies TLS hostnames",
+      "summary": "",
+      "published": "2026-07-16T09:32:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5cc2-282f-jjq2",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "29309981a1c34eb3",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mlflow]  MLflow AI Gateway permits SSRF through an unvalidated api_base",
+      "summary": "",
+      "published": "2026-08-05T09:31:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-h7x2-h6g9-p789",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "34d34d932be30bec",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lmdeploy] lmdeploy: Hardcoded trust_remote_code=True is an implicit unsafe remote-code load path with no user opt-out",
+      "summary": "",
+      "published": "2026-05-21T19:33:32.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9xq9-36w5-q796",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "1e608e0aff33bb8c",
       "source": "github-advisory-pip",
@@ -234,17 +291,17 @@
       }
     },
     {
-      "id": "f28466f9b8dbca29",
-      "source": "github-advisory-pip",
+      "id": "a142ce55a694a347",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[asyncssh] asyncssh has SCP Path Traversal to Arbitrary File Write",
+      "title": "[jsondiffpatch]  jsondiffpatch patch APIs are vulnerable to prototype pollution",
       "summary": "",
-      "published": "2026-08-26T15:34:22.000Z",
+      "published": "2026-05-16T06:30:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2wxc-x7rj-hg8f",
+      "url": "https://github.com/advisories/GHSA-j4fx-xxwh-2485",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +310,17 @@
       }
     },
     {
-      "id": "d48f794898579332",
-      "source": "github-advisory-pip",
+      "id": "48166bd3a93277e4",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[asyncssh] asyncssh has an incomplete fix for CVE-2026-45309 — AuthorizedKeysFile %u still escapes the intended directory via a leading ~ (and weakly via ${ENV}) username substitut",
+      "title": "[decode-uri-component] decode-uri-component: Denial of service via exponential decoding of malformed percent-encoded input",
       "summary": "",
-      "published": "2026-08-26T15:32:00.000Z",
+      "published": "2026-08-31T22:10:20.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qr67-gv47-xwwh",
+      "url": "https://github.com/advisories/GHSA-vcc3-ghjq-m6fr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +329,17 @@
       }
     },
     {
-      "id": "51b3242460313d0c",
-      "source": "github-advisory-pip",
+      "id": "99fc884fa67af5a6",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[senaite.core] senaite.core Vulnerable to Eval Injection and Missing Authorization",
+      "title": "[engine.io] Socket.IO: Engine.IO WebTransport SID DoS",
       "summary": "",
-      "published": "2026-08-26T15:28:47.000Z",
+      "published": "2026-08-31T21:28:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jrw6-7x4q-w25j",
+      "url": "https://github.com/advisories/GHSA-gr94-w7qr-f4j3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +348,55 @@
       }
     },
     {
-      "id": "56c72200a5f602f7",
-      "source": "github-advisory-pip",
+      "id": "42257f268d4f4f7b",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openwisp-ipam] OpenWISP IPAM has broken object-level authorization: ExportSubnetView lets a member of one organization export another organization's subnet and all its IP addresse",
+      "title": "[@hono/oauth-providers] @hono/oauth-providers: OAuth state check fails open on omitted state, enabling login CSRF and forced account linking",
       "summary": "",
-      "published": "2026-08-26T14:38:10.000Z",
+      "published": "2026-08-31T20:30:50.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-x287-5c68-36wp",
+      "url": "https://github.com/advisories/GHSA-fm3f-ch8h-qw8q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5da65376e22a60af",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[axios] Duplicate Advisory: Axios: Deep formToJSON Key Recursion Can Cause Denial of Service",
+      "summary": "",
+      "published": "2026-08-01T15:30:27.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-4ww2-rjh2-xpv9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "91bd7b99142b0c84",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[axios] Duplicate Advisory: Axios: Prototype pollution gadgets can alter axios request construction",
+      "summary": "",
+      "published": "2026-08-01T15:30:27.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f2r5-pqh9-r8f8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,252 +500,21 @@
       }
     },
     {
-      "id": "0250ae91164d66e3",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Same-host trusted-proxy deployments could accept local forged identity headers",
-      "summary": "",
-      "published": "2026-06-13T00:34:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3qg8-hq7j-jj33",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e5c1c2da80848bc2",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: QQBot pre-dispatch slash commands could skip allowFrom checks",
-      "summary": "",
-      "published": "2026-06-13T00:34:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-35c7-4r45-9gv3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6651668028f31b21",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Mattermost handlers could fall open when channel type was missing",
-      "summary": "",
-      "published": "2026-06-13T00:34:33.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-chqm-wxm2-w73w",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2180fefd1b77bfa5",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: QQBot streaming command could mutate config without explicit allowFrom",
-      "summary": "",
-      "published": "2026-06-13T00:34:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-r27j-fxmq-rg2q",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ebd7e0b92553d1b6",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[node-opcua] node-opcua: Unbounded nonce cache enables unauthenticated heap exhaustion DoS",
-      "summary": "",
-      "published": "2026-08-20T18:35:41.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6wvw-vrw4-363w",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3b6a8d1938a24601",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[libreoffice-convert] libreoffice-convert vulnerable to path traversal / arbitrary file write",
-      "summary": "",
-      "published": "2026-08-27T17:23:16.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-gmxc-r82q-347r",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "85feb2bb89d9ad9e",
+      "id": "35185d10c7290ecd",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "GeBDA: Building Damage Assessment as Text-Based Sequence Prediction",
-      "summary": "Conventionally, Building Damage Assessment (BDA) is tackled either with dedicated network architectures or by fine-tuning geospatial image foundation models. In this work, we ask whether a general-purpose Vision-Language Model (VLM) can localize buildings and grade their damage through autoregressive sequence generation alone. We cast BDA as predicting a variable-length set of bounding boxes, each specified by its coordinates and a damage label. Our preliminary implementation, based on the open ",
-      "published": "2026-08-28T17:44:55Z",
+      "title": "Local Private Information Retrieval for Graph-Based Replicated Systems",
+      "summary": "We rethink the definition of privacy in multi-server, graph-replicated private information retrieval (PIR) systems, by introducing a novel setting where the user's privacy is governed by the servers' storage structure. In classical graph-replicated PIR, the user retrieves a single message stored at the servers, while hiding the message index from each server. In our proposed privacy setting, the user is concerned with hiding the message index from a particular server, only if that server stores ",
+      "published": "2026-08-31T17:50:47Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CV"
-      ],
-      "url": "https://arxiv.org/abs/2608.28567v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dba6f1d33b256177",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "On two proofs of $d^2$ mixing of weighted Dikin walks",
-      "summary": "We study the mixing time of weighted Dikin walks for sampling from exponential distributions on polytopes and truncated positive-semidefinite (PSD) cones. Our first result gives a general total-variation mixing bound under strong self-concordance, $\\barν$-symmetry, and mixed-trace regularity on the local metric. The key idea is to control the Metropolis--Hastings acceptance probability on a high-probability region rather than at every point. Applying this framework to the Lee--Sidford, Lewis-wei",
-      "published": "2026-08-28T17:43:58Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.DS",
-        "cs.LG",
-        "math.OC",
-        "math.PR",
-        "stat.CO"
-      ],
-      "url": "https://arxiv.org/abs/2608.28566v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2c72dcf3ad51467a",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "DARTS: Decoder-Aware Representation Tuning via Surgery for Model Merging",
-      "summary": "Model merging combines multiple task-specific fine-tuned LLMs into a single multi-task model without additional training. However, merged models are known to suffer from representation bias: systematic drift between the merged model's hidden states and those of each individual source model. Prior work (Yang et al., 2024a) study and mitigate this bias for encoder-based vision models using a lightweight correction module trained with L1 loss. However, such bias is not studied for decoder models du",
-      "published": "2026-08-28T17:22:47Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2608.28547v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e47b7623d93e4dc0",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Offline-Verifiable Accountability for Cross-Organization Agent Messaging: A Preserved Evidence-Bundle Approach",
-      "summary": "Cross-organization agent workflows require preserved evidence that remains independently verifiable during later audit or dispute review. They may involve multiple organizations, delegated actions, policy-relevant events, and disputed accountability claims. This is difficult when live systems are unavailable, controlled by one party, or not trusted by all participants. Existing mechanisms provide useful pieces, including authenticated logging, delegation semantics, signed checkpoints, and consis",
-      "published": "2026-08-28T17:18:49Z",
-      "impact_scope": "metadata-only",
-      "tags": [
+        "cs.IT",
         "cs.CR",
-        "cs.MA"
-      ],
-      "url": "https://arxiv.org/abs/2608.28542v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8fb335da59ac77f0",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models",
-      "summary": "A code world model accepted by a sampling gate can be exactly right on everything the gate can see and arbitrarily wrong beyond it. We characterize what a certified model can know, and what its errors can cost, when the omission is an annular freeze mode enclosing an unreachable interior. The gate quotient makes the question precise: acceptance-with-certainty determines the model exactly on the reachable query set; beyond reach is gauge. On a minimal ring instrument we prove the extreme case (a ",
-      "published": "2026-08-28T17:14:58Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2608.28541v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4763d350a5fa2119",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "InstructMesh: Selective Refinement of Generative 3D Models for Fabrication",
-      "summary": "Recent advances in generative AI allow users to create 3D models from text or images. However, these models prioritize visual plausibility over geometric accuracy, often generating results with flaws that compromise their intended use post-fabrication. We present InstructMesh, an interactive post-generation refinement tool that enables selective repair of generative 3D models through region selection and targeted operations, such as opening or sealing voids, or adjusting local thickness. Users c",
-      "published": "2026-08-28T17:09:42Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2608.28534v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a69a4c617420ddc4",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "xTRUCE: A Provably Safe Arbiter for Multi-xApp Conflict Mitigation in Agentic O-RAN",
-      "summary": "The open radio access network (O-RAN) is evolving toward agentic operation, where large language model (LLM)-driven xApps/rApps generate control proposals under operator intents. However, such proposals may be conflicting, infeasible, or hallucinated, and no existing system jointly provides proposal-independent safety, priority-aware reconciliation, and traceable feedback. To this end, we propose a provably safe arbiter, namely xTRUCE, in the near-real-time (Near-RT) RAN intelligent controller f",
-      "published": "2026-08-28T17:08:53Z",
-      "impact_scope": "metadata-only",
-      "tags": [
+        "cs.DB",
         "cs.NI",
-        "eess.SY"
+        "eess.SP"
       ],
-      "url": "https://arxiv.org/abs/2608.28532v1",
+      "url": "https://arxiv.org/abs/2608.31150v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -659,39 +523,19 @@
       }
     },
     {
-      "id": "cdcee08773b532ac",
+      "id": "c81ab53028c005b1",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Relaxed Sender Anonymity for CBDC Interbank Settlement: A Zero-Knowledge Approach on Permissioned EVM",
-      "summary": "Central Bank Digital Currency (CBDC) interbank settlement systems operating on Distributed Ledger Technology (DLT) face a fundamental trade-off: blockchain transparency enables trustless verification but exposes commercially sensitive bilateral transaction flows to all network participants. We propose a confidential interbank settlement protocol for permissioned Ethereum-compatible networks that resolves this tension through a relaxed sender anonymity model tailored to regulatory AML/CFT require",
-      "published": "2026-08-28T17:08:02Z",
+      "title": "Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification",
+      "summary": "The 2025--2026 AI market has seen a wave of stealth releases: frontier models launched anonymously on developer platforms under codenames. For their users, identity determines data-handling terms, supply-chain risk, and capability expectations. No validated methodology exists for black-box identity verification of anonymous models: practitioner checklists lack accuracy evidence, and self-identification is untrustworthy by design. We propose a four-stage forensic audit protocol for API-served mod",
+      "published": "2026-08-31T17:48:24Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CR",
-        "cs.DC"
-      ],
-      "url": "https://arxiv.org/abs/2608.28529v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "31c3528558db2088",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
-      "summary": "We investigate whether automatic speech recognition (ASR) errors in user input can lead to unsafe outputs from Embodied AI (EAI) models. We find that ASR errors can lead to harmful instructions being accepted and executed by EAI models, thereby reducing safety. We simulate ASR errors and combine them with existing safety benchmarks (SafeAgentBench and POEX) to evaluate how different errors affect embodied AI safety. We find that some of them preserve semantic structure but increase harmful ambig",
-      "published": "2026-08-28T16:55:32Z",
-      "impact_scope": "metadata-only",
-      "tags": [
+        "cs.SE",
         "cs.AI",
-        "cs.CL",
-        "cs.RO"
+        "cs.CR"
       ],
-      "url": "https://arxiv.org/abs/2608.28518v1",
+      "url": "https://arxiv.org/abs/2608.31142v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -700,17 +544,154 @@
       }
     },
     {
-      "id": "438e7a5b4d8c8e5e",
+      "id": "af56fbc0f6fd523c",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Rethinking Vulnerability Remediation as a Capacity Allocation Problem",
-      "summary": "As AI accelerates vulnerability discovery, remediation throughput may become a greater constraint than prioritisation accuracy. This study evaluates vulnerability remediation as a flow-control problem using Apache Jira, Mozilla Bugzilla, Red Hat security errata, five public Jira organisations, and an npm dependency graph. Apache resolution times are strongly heavy-tailed, while 94-100% of arrivals in the primary issue trackers enter queues estimated to be at or above capacity. Queue-context mode",
-      "published": "2026-08-28T16:42:53Z",
+      "title": "OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques",
+      "summary": "Ontology alignment (OA) has evolved through several methodological paradigms, ranging from lexical and structural aligners to knowledge graph embedding (KGE) models and, more recently, Large Language Model (LLM)-based approaches. Although modern OA frameworks provide unified ecosystems for deploying these heterogeneous aligners, mechanisms for systematically reconciling their complementary and sometimes conflicting predictions remain relatively underexplored. We present OntoAligner-Ensemble, a m",
+      "published": "2026-08-31T17:44:25Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.SE"
+        "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2608.28509v1",
+      "url": "https://arxiv.org/abs/2608.31137v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6a118ba87f786b3f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening",
+      "summary": "Large language models (LLMs) offer promising clinical decision support but remain vulnerable to hallucinated facts, unsupported recommendations, and citation errors. We present DIASENTINEL, a fully on-premise multi-agent system for one-year type 2 diabetes mellitus (T2DM) risk screening and guideline-grounded report generation from electronic health records (EHRs). The system integrates calibrated risk prediction, deterministic clinical signal extraction, Reciprocal Rank Fusion over American Dia",
+      "published": "2026-08-31T17:40:43Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.31128v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "65ab685551e24f92",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Development and characterization of a wingless ICPC HPGe detector with thin amorphous-Ge contacts",
+      "summary": "High-purity germanium (HPGe) detectors with thin amorphous-germanium (a-Ge) contacts can provide bipolar charge blocking and surface passivation while minimizing contact-related inactive thickness. We report the fabrication and characterization of a p-type inverted coaxial point-contact (ICPC) HPGe detector using thin a-Ge contacts in a wingless geometry that avoids the protective wing structure used in our previous prototype. The detector was fabricated from a USD-grown, zone-refined HPGe cryst",
+      "published": "2026-08-31T17:35:55Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "physics.ins-det",
+        "hep-ex",
+        "nucl-ex"
+      ],
+      "url": "https://arxiv.org/abs/2608.31123v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b208aabbf7ad9d1b",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "PaperGym: Rubric-Centered Evolution for Research-Plan Generation",
+      "summary": "Research planning is the decisive capability of AI scientists. Yet a research plan admits no verifiable answer, so reinforcement learning lacks the environment it requires: tasks paired with a critic. Rubrics extracted from scientific papers can supply the critic. Existing pipelines, however, draw the question and the criteria from the same content, so the reward can be earned by paraphrase. The rubric is further compressed into a single scalar per rollout. We introduce PaperGym, a unified frame",
+      "published": "2026-08-31T17:31:18Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.31119v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8b3ba3bc74121ca3",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning",
+      "summary": "The effect of Large Language Model (LLM) scale on ontology learning (OL) performance remains insufficiently characterized. We present a controlled evaluation of 13 models spanning dense and Mixture-of-Experts variants from the Qwen3.5 and Qwen3.6 lineages, together with proprietary GPT release variants, using the OntoLearner retrieval-augmented generation pipeline. All models are evaluated with the same embedding model, retrieval configuration, prompt templates, decoding settings, datasets, and ",
+      "published": "2026-08-31T17:30:05Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2608.31118v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d0ca48b64b680be1",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "InsightToast: Proactive Information Retrieval & Glanceable Visualization in the Side Channel of Data-Rich Meetings",
+      "summary": "Missing institutional context during meetings can impede effective participation. Retrieving relevant information, often scattered across heterogeneous internal and external sources, requires costly task-switching that disrupts both individual focus and collective conversational flow, particularly detrimental during cognitively demanding tasks such as decision-making. We introduce InsightToast, a mixed-initiative application that monitors verbal discourse in real time, identifies topics and info",
+      "published": "2026-08-31T17:22:43Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.HC",
+        "cs.IR"
+      ],
+      "url": "https://arxiv.org/abs/2608.31115v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3eb2e229a92b5e7d",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Unconditional Certified Randomness without Structure",
+      "summary": "We obtain a certified randomness protocol in the quantum random oracle model. The protocol is non-interactive and publicly verifiable with a classical verifier, and is based on Yamakawa and Zhandry's proof of quantumness [JACM'24]. We prove unconditional security of this protocol against adversaries making subexponentially-many adaptive quantum queries to the random oracle.   Prior work on certified randomness relative to a random oracle additionally assumed the Aaronson--Ambainis conjecture or ",
+      "published": "2026-08-31T17:17:49Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "quant-ph",
+        "cs.CR"
+      ],
+      "url": "https://arxiv.org/abs/2608.31112v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a39e9772b3b825f8",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
+      "summary": "Many important forms of human learning begin with a vague goal, such as \"become a better physicist\" or \"improve at research.\" Learners must interpret the goal, identify capability gaps, decide how to learn, and determine whether they have actually improved. In contrast, existing work on LLM self-evolution typically begins with tasks and evaluation metrics specified by humans, reducing self-evolution to optimizing an explicit objective rather than deciding what and how to learn. We introduce ASPI",
+      "published": "2026-08-31T17:14:59Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.31111v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
