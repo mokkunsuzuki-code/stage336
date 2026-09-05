@@ -1,10 +1,276 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-09-04T03:36:48.097142+00:00",
+  "generated_at": "2026-09-05T03:37:06.581198+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 47,
+  "item_count": 50,
   "items": [
+    {
+      "id": "5945083953883677",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[vllm]  vLLM: Incomplete CVE-2025-62164 remediation can be bypassed by concurrent prompt parts",
+      "summary": "",
+      "published": "2026-09-04T21:39:02.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-pr7f-p5mw-fc87",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d43fb2d95b81abda",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[vllm] vLLM: ReDoS via structured_outputs.regex in the lm-format-enforcer backend (no compile timeout) — missed sibling of GHSA-rwxx-mrjm-wc2m",
+      "summary": "",
+      "published": "2026-09-04T21:37:00.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-48jh-3gj7-fg8v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6198c02b5434eb54",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[vllm] vLLM: Unauthenticated Internal Path and Username Disclosure via Validation Error Messages",
+      "summary": "",
+      "published": "2026-09-04T21:36:33.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hwrm-c4cx-rf4j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "84cb83a8392d0df3",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[vllm] vLLM: Derender endpoints decode caller-supplied GenerateResponse token IDs without output bounds",
+      "summary": "",
+      "published": "2026-09-04T21:32:07.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8737-qx52-hjff",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "822cfa12a7235f8c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[cryptography] python-cryptography: Duplicate self-signed intermediates can cause exponential path-building",
+      "summary": "",
+      "published": "2026-08-03T21:26:50.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jwv3-5hgf-82ww",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "557d4d88b227b199",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[apache-airflow] Apache Airflow exposes deferred trigger kwargs in task-instance API responses",
+      "summary": "",
+      "published": "2026-07-07T12:31:36.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-22hf-vx2v-gjff",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b66fdfd631599020",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[apache-airflow] Apache Airflow exposes sensitive JSON Variable values through the Bulk Variables API",
+      "summary": "",
+      "published": "2026-07-07T12:31:35.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-563f-2439-rmq4",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ff7f4ba111c4d353",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[apache-airflow] Apache Airflow exposes secrets backend credentials through the Config API",
+      "summary": "",
+      "published": "2026-07-07T12:31:35.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9933-5rrp-mfwx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "38ff881b3e934115",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[apache-airflow] Apache Airflow exposes unreadable DAG identifiers in the scheduling dependencies graph",
+      "summary": "",
+      "published": "2026-07-07T12:31:35.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3322-mjxh-9mp5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4bd6790f405f169e",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[apache-airflow] Apache Airflow allows code execution through unsafe serialized DAG deserialization",
+      "summary": "",
+      "published": "2026-07-07T12:31:35.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2943-9672-r45w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d9bd26aaedb59079",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[apache-airflow-providers-google] Apache Airflow Google provider allows path traversal through GCS object names",
+      "summary": "",
+      "published": "2026-07-06T12:31:30.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-v3mh-27qj-w836",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "85e709b821234cf8",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[apache-airflow-providers-ftp] Apache Airflow FTP provider: FTP Provider does not protect FTPS data channel (missing PROT_P)",
+      "summary": "",
+      "published": "2026-06-26T09:30:46.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fgch-86x8-fv43",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "869dccf2ed53a8b6",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[openharness-ai] OpenHarness remote resume commands expose other users' saved session snapshots",
+      "summary": "",
+      "published": "2026-06-23T18:31:40.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-399c-3gm2-p29v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b6a1225b56f12ffa",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[openharness-ai] OpenHarness remote project-context commands allow persistent prompt poisoning",
+      "summary": "",
+      "published": "2026-06-23T18:31:40.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-24cw-228q-3rx9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "8f83ec02f1d96656",
       "source": "github-advisory-pip",
@@ -120,283 +386,17 @@
       }
     },
     {
-      "id": "ebd2fb6550a2ac2a",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[unstructured] unstructured: Server-Side Request Forgery in the URL-based partitioning",
-      "summary": "",
-      "published": "2026-09-03T17:02:46.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4mvj-m6j5-pmf7",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2531bb11125870b1",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[scrapy] Scrapy: S3DownloadHandler sends signed S3 requests over plaintext HTTP by default",
-      "summary": "",
-      "published": "2026-09-02T22:50:44.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-76g3-c3x4-crvx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ddb3e2e84ecc2a88",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[omnigent] Omnigent Guardrail policy bypass: shell-command parser fails open in policies/builtins/_shell.py",
-      "summary": "",
-      "published": "2026-09-02T22:40:07.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-7mqg-cx4g-x2rf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f2b9c4f484ba256d",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[omnigent] Omnigent: Unvalidated os_env.cwd in agent bundle yields arbitrary host filesystem access on runners without OMNIGENT_RUNNER_WORKSPACE",
-      "summary": "",
-      "published": "2026-09-02T22:00:54.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-p8rw-8qj3-hf33",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "9aaf9ae59e4f0332",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[omnigent] Omnigent: Shared Agent Bundle Overwrite Leads to Authenticated Runner RCE",
-      "summary": "",
-      "published": "2026-09-02T21:55:11.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-jrrm-9hc7-2v3h",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b152026e18aa66ef",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[omnigent] Omnigent: Uploaded Agent Bundle Allows Authenticated Runner RCE via Python Callable Tools",
-      "summary": "",
-      "published": "2026-09-02T21:54:52.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-756x-9hf6-q4h4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "840d4271e911ee11",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[open-webui] Withdrawn Advisory: Open WebUI Access Control",
-      "summary": "",
-      "published": "2025-03-20T12:32:45.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cfvq-fj53-j2c7",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "272daa4c33d1f483",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[open-webui] Withdrawn Advisory: Open WebUI JWT Key Handler",
-      "summary": "",
-      "published": "2026-03-09T21:31:38.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2rf6-9rc8-rqch",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "391685c2473e35e3",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[open-webui] Withdrawn Advisory: Open WebUI/ZDI-CAN-28259",
-      "summary": "",
-      "published": "2026-01-23T06:31:24.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-vh96-p962-544h",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a76cf8dbae91a1d6",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[nltk] NLTK: Default ENFORCE=False Disables All pathsec Security Controls",
-      "summary": "",
-      "published": "2026-09-02T15:40:33.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-p3m8-78j2-g5p3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "574ad50d969435d5",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[nltk] Duplicate Advisory: [CWE-1188] Default ENFORCE=False Disables All pathsec Security Controls",
-      "summary": "",
-      "published": "2026-08-22T15:31:03.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8vh5-mgjj-w6hg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "32ae5f83c0239dd0",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[nltk] NLTK: SSRF Fail-Open in validate_network_url() via DNS Resolution Failure",
-      "summary": "",
-      "published": "2026-09-02T15:39:39.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3gqm-fcw5-w839",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "efc2322f853928d7",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[nltk] Duplicate Advisory: nltk: SSRF Fail-Open in validate_network_url() via DNS Resolution Failure",
-      "summary": "",
-      "published": "2026-08-22T15:31:03.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qg9p-xrhj-435m",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1789cea124a7fef5",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[nltk] Natural Language Toolkit (NLTK) has unbounded recursion in JSONTaggedDecoder.decode_obj() may cause DoS",
-      "summary": "",
-      "published": "2026-03-18T20:17:43.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-rf74-v2fm-23pw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0e7a36a22f2cb9da",
+      "id": "32b920e6a3e5497c",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[siyuan] Duplicate Advisory: SiYuan: Cross-boundary content disclosure via getBacklinkDoc/getBackmentionDoc (publish mode): reader-reachable rendered DOM of publish-forbidden docs;",
+      "title": "[@typespec/spector] TypeSpec: Unauthenticated Remote Shutdown of Spector Mock Server via POST /.admin/stop",
       "summary": "",
-      "published": "2026-08-03T15:32:47.000Z",
+      "published": "2026-09-04T21:43:13.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2mmh-4rf8-7xg6",
+      "url": "https://github.com/advisories/GHSA-7q9c-hpx7-9cwm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +405,17 @@
       }
     },
     {
-      "id": "433a5e10d5fb4428",
+      "id": "7987b9cc80e242d8",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[toml] toml-node: Uncontrolled Recursion",
+      "title": "[@jupyterlab/git] jupyterlab-git extension: Stored XSS leading to RCE",
       "summary": "",
-      "published": "2026-09-03T20:56:13.000Z",
+      "published": "2026-06-19T19:36:04.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-82x6-q7mm-w9cf",
+      "url": "https://github.com/advisories/GHSA-f962-v9hr-pfg5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +424,17 @@
       }
     },
     {
-      "id": "31acf74321655bbc",
+      "id": "111aa8b89fe40e21",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[toml] toml-node: Prototype Pollution Leads to `Object.prototype` Corruption via `__proto__` Key-Path Desynchronization",
+      "title": "[danger] danger allows local OS command injection through crafted file paths",
       "summary": "",
-      "published": "2026-09-03T20:55:32.000Z",
+      "published": "2026-07-23T00:31:28.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-v5mp-jgw5-2x6j",
+      "url": "https://github.com/advisories/GHSA-3x93-p86w-5jvh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +443,17 @@
       }
     },
     {
-      "id": "59ebdf10a9f0e716",
+      "id": "b1a9065d851a594e",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[phoenix] Phoenix: Presence keys colliding with `Object.prototype` members break existence checks",
+      "title": "[codewhale] CodeWhale: Project config `allow_shell` override enables arbitrary shell command execution via cloned repository",
       "summary": "",
-      "published": "2026-09-03T20:30:33.000Z",
+      "published": "2026-09-04T18:14:09.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-63mc-hw7g-86rr",
+      "url": "https://github.com/advisories/GHSA-gx45-xrj5-g6c4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +462,17 @@
       }
     },
     {
-      "id": "cd888d6a60974829",
+      "id": "4ad6231bf6fae744",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[stream-json] stream-json: pick/ignore/filter/replace filters are O(depth²) on nested input — small crafted JSON blocks the event loop for seconds→minutes (DoS)",
+      "title": "[deepseek-tui] CodeWhale: Project config `allow_shell` override enables arbitrary shell command execution via cloned repository",
       "summary": "",
-      "published": "2026-09-03T20:27:53.000Z",
+      "published": "2026-09-04T18:14:09.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-528h-pc64-c93x",
+      "url": "https://github.com/advisories/GHSA-gx45-xrj5-g6c4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +481,17 @@
       }
     },
     {
-      "id": "b96c7a2861033922",
+      "id": "8588f04eafd7941e",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[sanitize-html] ApostropheCMS: Mutation-XSS / allowedTags bypass via literal `</textarea/>` solidus close",
+      "title": "[codewhale] CodeWhale: rlm_eval auto-approves arbitrary Python execution, bypassing the user's approval policy (RCE)",
       "summary": "",
-      "published": "2026-09-03T20:07:16.000Z",
+      "published": "2026-09-04T18:12:15.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jxwj-j7wr-gfrw",
+      "url": "https://github.com/advisories/GHSA-wrj3-vj8c-784f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +500,17 @@
       }
     },
     {
-      "id": "74eab86b8baca77c",
+      "id": "4b6d97e40f225ccd",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[apostrophe] ApostropheCMS: Missing destination-parent authorization in page `move()` allows a low-privileged editor to move and re-rank pages inside a restricted subtree",
+      "title": "[deepseek-tui] CodeWhale: rlm_eval auto-approves arbitrary Python execution, bypassing the user's approval policy (RCE)",
       "summary": "",
-      "published": "2026-09-03T20:05:08.000Z",
+      "published": "2026-09-04T18:12:15.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-wr5r-wqp2-x4fh",
+      "url": "https://github.com/advisories/GHSA-wrj3-vj8c-784f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +519,17 @@
       }
     },
     {
-      "id": "4e2abee75befd42a",
+      "id": "59bf6e9545201005",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@toon-format/toon] TOON: Prototype pollution when decoding untrusted TOON input",
+      "title": "[codewhale] CodeWhale: Argument Injection in `git_blame` Tool Allows Arbitrary File Read Without Approval",
       "summary": "",
-      "published": "2026-09-03T19:52:08.000Z",
+      "published": "2026-09-04T18:11:45.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p95v-992w-h6c3",
+      "url": "https://github.com/advisories/GHSA-c6mw-8xh8-gpq6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +538,17 @@
       }
     },
     {
-      "id": "ac29fa6fbaebac04",
+      "id": "4a9a00f3a3dec376",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[claude-code-templates] Claude Code Templates: Unauthenticated OS command injection (RCE) in Claude Code Studio server (--studio)",
+      "title": "[deepseek-tui] CodeWhale: Argument Injection in `git_blame` Tool Allows Arbitrary File Read Without Approval",
       "summary": "",
-      "published": "2026-09-03T19:50:47.000Z",
+      "published": "2026-09-04T18:11:45.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-79wm-x847-7cvg",
+      "url": "https://github.com/advisories/GHSA-c6mw-8xh8-gpq6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +557,17 @@
       }
     },
     {
-      "id": "79494597028637e3",
+      "id": "25e1b721784277c7",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[orval] Orval: RCE via OpenAPI path -> unescaped request-URL template literal (backtick breakout)",
+      "title": "[codewhale] CodeWhale: SSRF‌ bypass - TOCTOU on DNS failure for DNS pinning",
       "summary": "",
-      "published": "2026-09-03T19:17:32.000Z",
+      "published": "2026-09-04T18:05:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fg9p-mrxr-hvq7",
+      "url": "https://github.com/advisories/GHSA-6v2g-fpxh-pmmh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,17 +576,17 @@
       }
     },
     {
-      "id": "c17ab79c4db5118c",
+      "id": "1855e5aa7d8a3175",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[orval] Orval: RCE via servers[].url -> unescaped request-URL template literal (with getBaseUrlFromSpecification)",
+      "title": "[deepseek-tui] CodeWhale: SSRF‌ bypass - TOCTOU on DNS failure for DNS pinning",
       "summary": "",
-      "published": "2026-09-03T19:06:52.000Z",
+      "published": "2026-09-04T18:05:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-88f2-fpv8-89q2",
+      "url": "https://github.com/advisories/GHSA-6v2g-fpxh-pmmh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -595,17 +595,17 @@
       }
     },
     {
-      "id": "44c0b5ebbb48ca3d",
+      "id": "19b9697eee1f0a83",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[orval] Orval: Import-time RCE via schema default -> zod module-level template literal",
+      "title": "[codewhale] CodeWhale: js_execution leaks parent environment to model context via missing env scrub",
       "summary": "",
-      "published": "2026-09-03T19:03:03.000Z",
+      "published": "2026-09-04T18:03:08.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-w727-8j6c-2rj4",
+      "url": "https://github.com/advisories/GHSA-h539-c7r8-3xq4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -614,17 +614,17 @@
       }
     },
     {
-      "id": "a0190a9293f1c8a7",
+      "id": "39bcf20a0e114b7d",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[orval] Orval: Import-time RCE via array-items default -> zod module-level template literal",
+      "title": "[deepseek-tui] CodeWhale: js_execution leaks parent environment to model context via missing env scrub",
       "summary": "",
-      "published": "2026-09-03T18:38:20.000Z",
+      "published": "2026-09-04T18:03:08.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2h9g-j24r-h63g",
+      "url": "https://github.com/advisories/GHSA-h539-c7r8-3xq4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -633,17 +633,17 @@
       }
     },
     {
-      "id": "d14ecdaf4a903c88",
+      "id": "55d242e4e2dcfe22",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[orval] Orval: Import-time RCE via header-parameter default -> zod module-level template literal",
+      "title": "[codewhale] CodeWhale: Argument Injection in `git_show` Tool Allows Arbitrary File Write Without Approval",
       "summary": "",
-      "published": "2026-09-03T18:32:03.000Z",
+      "published": "2026-09-04T18:02:37.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8j6p-r8jg-mxqh",
+      "url": "https://github.com/advisories/GHSA-7j5w-7r7x-9v27",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -652,17 +652,17 @@
       }
     },
     {
-      "id": "e682e8dfa32f4bb7",
+      "id": "39ec7c19886608a1",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[orval] Orval: RCE via schema property name -> computed-property-key injection in the MSW mock generator",
+      "title": "[deepseek-tui] CodeWhale: Argument Injection in `git_show` Tool Allows Arbitrary File Write Without Approval",
       "summary": "",
-      "published": "2026-09-03T18:26:12.000Z",
+      "published": "2026-09-04T18:02:37.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2w86-xfrc-g85r",
+      "url": "https://github.com/advisories/GHSA-7j5w-7r7x-9v27",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -671,17 +671,17 @@
       }
     },
     {
-      "id": "00fe447ef4f46080",
+      "id": "323910ea17a79520",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[orval] Orval: Import-time RCE via enum-typed default -> zod module-level template literal",
+      "title": "[codewhale] CodeWhale: exec_shell_interact sends LLM-controlled input to a running shell without an approval prompt (privilege escalation)",
       "summary": "",
-      "published": "2026-09-03T18:20:55.000Z",
+      "published": "2026-09-04T18:02:10.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3575-w9fc-c2j6",
+      "url": "https://github.com/advisories/GHSA-g29h-pfmp-qp9r",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -690,17 +690,74 @@
       }
     },
     {
-      "id": "53225151b8a5bd4a",
+      "id": "28a21dff985fab9b",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[orval] Orval: Import-time RCE via query parameter name -> computed-property-key injection in the zod cli",
+      "title": "[deepseek-tui] CodeWhale: exec_shell_interact sends LLM-controlled input to a running shell without an approval prompt (privilege escalation)",
       "summary": "",
-      "published": "2026-09-03T18:18:09.000Z",
+      "published": "2026-09-04T18:02:10.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-653q-5476-x79g",
+      "url": "https://github.com/advisories/GHSA-g29h-pfmp-qp9r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "992fb12a478b74cd",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[codewhale] CodeWhale: Project config `instructions` override enables arbitrary file read into AI system prompt via cloned repository",
+      "summary": "",
+      "published": "2026-09-04T18:00:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-62f5-cp2p-vq95",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "08f930e887be343c",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[deepseek-tui] CodeWhale: Project config `instructions` override enables arbitrary file read into AI system prompt via cloned repository",
+      "summary": "",
+      "published": "2026-09-04T18:00:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-62f5-cp2p-vq95",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f18d66586ca4c6e2",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[payload] Payload CMS default account-unlock access allows authenticated users to reset other accounts' lockouts",
+      "summary": "",
+      "published": "2026-06-26T18:33:59.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jg8r-5jh2-v2xj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
