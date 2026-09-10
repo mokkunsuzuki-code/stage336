@@ -1,10 +1,162 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-09-09T03:48:01.900617+00:00",
+  "generated_at": "2026-09-10T03:46:40.190521+00:00",
   "mode": "safe-metadata-only",
   "item_count": 48,
   "items": [
+    {
+      "id": "360b4e2ba35b7b22",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Any authenticated user can hang the server via message deletion in a cyclic chat tree",
+      "summary": "",
+      "published": "2026-09-09T23:54:22.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3cgp-3cqx-j8w2",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "cabe7c8980ed6bb1",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Server-side fetches reach blocked and internal hosts via unvalidated HTTP redirect targets",
+      "summary": "",
+      "published": "2026-09-09T23:54:08.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5x7x-4c3c-qf5w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "681dfa94f0aeff8d",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI: Any authenticated user can hang the server via a cyclic chat message history",
+      "summary": "",
+      "published": "2026-09-09T23:53:59.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jqhh-cjmq-vmv6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bba4103c061b631e",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[esphome-device-builder] ESPHome Device Builder Dashboard: Unauthenticated dashboard access via the HA add-on ingress site bound to all interfaces",
+      "summary": "",
+      "published": "2026-09-09T23:51:25.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vv4j-m4vr-f3g6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0bb701c4479293b2",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[weasyprint] weasyprint Has Server-Side Request Forgery (SSRF)",
+      "summary": "",
+      "published": "2026-09-09T18:06:38.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jf6q-chmf-3h3v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b1601cbfe703674a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[sqladmin] SQLAdmin: Unvalidated sortBy parameter in `ModelView` bypasses `column_sortable_list`",
+      "summary": "",
+      "published": "2026-09-09T18:01:56.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-ccg5-9c8w-xh6v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "04b94c23d9cce477",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[githacker] GitHacker: Path traversal in ref/hash parsing enables existence oracle and hex-fragment exfiltration via malicious .git server",
+      "summary": "",
+      "published": "2026-09-09T18:00:32.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hr3m-4qwq-3mgc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0416127bff8e9603",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] Duplicate Advisory: NLTK: Missing Post-Download Integrity Verification Allows Malicious Package Injection",
+      "summary": "",
+      "published": "2026-08-22T15:31:03.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-gf32-cmjh-8m9v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "cd2f6c8c9314db41",
       "source": "github-advisory-pip",
@@ -234,17 +386,17 @@
       }
     },
     {
-      "id": "ad96351ce6161593",
-      "source": "github-advisory-pip",
+      "id": "ae995472bc48054b",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[httpx2] HTTPX2: Secure WebSocket traffic sent without TLS through SOCKS proxies",
+      "title": "[@openhop/server] @openhop/server: Path Traversal in Flow ID File Operations",
       "summary": "",
-      "published": "2026-09-08T20:45:18.000Z",
+      "published": "2026-09-09T23:51:59.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7mj9-2mp8-4m2p",
+      "url": "https://github.com/advisories/GHSA-g72f-jw3w-mgh7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +405,17 @@
       }
     },
     {
-      "id": "823cc92142ab9d13",
-      "source": "github-advisory-pip",
+      "id": "77f7e82b79a17381",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[httpcore2] HTTPX2: Secure WebSocket traffic sent without TLS through SOCKS proxies",
+      "title": "[nuxt] Duplicate Advisory: Cross-site scripting via <NoScript> slot content in Nuxt's head components",
       "summary": "",
-      "published": "2026-09-08T20:45:18.000Z",
+      "published": "2026-06-20T18:31:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7mj9-2mp8-4m2p",
+      "url": "https://github.com/advisories/GHSA-xppm-jmw6-fhmf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +424,17 @@
       }
     },
     {
-      "id": "9db91ac07dca86d3",
-      "source": "github-advisory-pip",
+      "id": "1c8a5a286c720882",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vllm] vLLM: SSRF + arbitrary local file read in MiMoV2OmniMultiModalProcessor `_fetch_image` and audio loader bypass MediaConnector protections",
+      "title": "[functype-mcp-server] functype-mcp-server: MCP `set_functype_version` Package Alias RCE via Unsanitized pnpm install + Dynamic Import",
       "summary": "",
-      "published": "2026-09-08T20:42:00.000Z",
+      "published": "2026-09-09T23:49:20.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4hhp-h66f-j5j7",
+      "url": "https://github.com/advisories/GHSA-wcjj-9m6g-2fr2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +443,17 @@
       }
     },
     {
-      "id": "7ee665a3a4a041d6",
-      "source": "github-advisory-pip",
+      "id": "228cf6becef35561",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nltk] NLTK: Pl196xCorpusReader has quadratic ReDoS on malformed TEI blocks",
+      "title": "[@yeger/turbo-graph] @yeger/turbo-graph: Unauthenticated Network-Exposed Task Execution via /api/run",
       "summary": "",
-      "published": "2026-09-08T20:28:46.000Z",
+      "published": "2026-09-09T23:47:55.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8mpw-7fpc-4gqj",
+      "url": "https://github.com/advisories/GHSA-2r5q-h53f-9rp3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +462,17 @@
       }
     },
     {
-      "id": "80c867d8495665c2",
-      "source": "github-advisory-pip",
+      "id": "1669aca6ccb1b58d",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nltk] NLTK: ReDoS in nltk.tgrep via unvalidated user-supplied regular expressions",
+      "title": "[nuxt-ollama] Nuxt Ollama: Public Runtime Config Exposes Ollama API Key to Browser Clients",
       "summary": "",
-      "published": "2026-09-08T20:28:28.000Z",
+      "published": "2026-09-09T23:47:44.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-w3v8-gmh9-3wv7",
+      "url": "https://github.com/advisories/GHSA-fxg7-897c-57mp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,55 +481,17 @@
       }
     },
     {
-      "id": "55610f6ca53e45e2",
-      "source": "github-advisory-pip",
+      "id": "15fcf827838c3657",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nltk]  NLTK: ReDoS in nltk.text.Text.findall() via unvalidated user-supplied regular expressions",
+      "title": "[smol-toml] smol-toml: Denial of Service via malformed TOML documents",
       "summary": "",
-      "published": "2026-09-08T20:28:13.000Z",
+      "published": "2026-09-09T18:07:11.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rrv8-h7p8-rx55",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "31b5f66ad968c46b",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[nltk] Duplicate Advisory:  ReDoS in nltk.text.Text.findall() via unvalidated user-supplied regular expressions",
-      "summary": "",
-      "published": "2026-08-26T18:31:54.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2rrw-hpqm-36pv",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "13d190fc8bc8fc86",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[vllm] vLLM: Cross-User Data Leak Vulnerability",
-      "summary": "",
-      "published": "2026-09-08T20:24:49.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-7m6h-x95x-82q5",
+      "url": "https://github.com/advisories/GHSA-7w5x-hrqm-74c2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -614,132 +728,17 @@
       }
     },
     {
-      "id": "8b5a496d54dc2433",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[astro] Astro: Authorization bypass from missing path-segment boundary check when stripping the configured base",
-      "summary": "",
-      "published": "2026-09-08T21:26:02.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-376h-93r7-7g6f",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f8b87989d17958a2",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[sharp] sharp: Vulnerabilities in libheif: GHSA-g89c-p67h-r497 and GHSA-2jg2-4ch7-h545",
-      "summary": "",
-      "published": "2026-09-08T21:25:11.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-rgj7-g3m4-5g8c",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7e95e1a4478351bd",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[js-yaml] js-yaml: maxTotalMergeKeys does not limit CPU use for empty merge sources",
-      "summary": "",
-      "published": "2026-09-08T21:24:51.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2883-xcg3-v3hh",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3c5bf45112a76853",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@tiptap/core] Tiptap: Quadratic ReDoS in block and inline Markdown attribute parsing",
-      "summary": "",
-      "published": "2026-09-08T21:24:09.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-j95f-988m-3j2f",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c736b67e103f1efb",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[hono] Hono: Incomplete fix for CVE-2026-39408: `toSSG()` still writes files outside the output directory",
-      "summary": "",
-      "published": "2026-09-08T21:23:51.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-gqvv-2mrq-wpjv",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7f6f5b1a417a234f",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[hono] Hono: Unbounded dot-notation nesting in `parseBody()` can cause memory exhaustion",
-      "summary": "",
-      "published": "2026-09-08T21:23:02.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g6gw-c38x-mqfc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "268ebb9f3dd36e8c",
+      "id": "fc6886dec2256c97",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Measuring LLM Sycophancy under Sustained Multi-Turn Pressure",
-      "summary": "Large language models (LLMs) may abandon correct positions when users push back, exhibiting a failure mode known as sycophancy. Existing evaluations typically use short, pre-specified conversations and may therefore miss failures that emerge under sustained, adaptive disagreement. We introduce SPINE, a benchmark in which an LLM proxy plays a persistent but mistaken user and adaptively challenges a target model for up to 25 turns. We evaluate four production systems and three Olmo3-7b variants on",
-      "published": "2026-09-08T17:35:04Z",
+      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+      "summary": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of implementation-facing research-method specifications, defined by whether they provide sufficient methodological information for a competent implementer or coding agent to construct the intended method without unsupported assumptions. We construct evidence-grounded specifications and their supported re",
+      "published": "2026-09-09T17:59:04Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CL",
-        "cs.AI"
+        "cs.CL"
       ],
-      "url": "https://arxiv.org/abs/2609.09090v1",
+      "url": "https://arxiv.org/abs/2609.10539v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -748,17 +747,17 @@
       }
     },
     {
-      "id": "fc7a1d65326e1908",
+      "id": "a98a0b3ea241deb9",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "PrivEscalate: Measuring and Augmenting the Threat of LLM-Automated Linux Privilege Escalation",
-      "summary": "As Large Language Model (LLM) agents increasingly automate offensive operations across the cyber kill chain, their efficacy in complex local post-exploitation tasks remains inadequately quantified. Among these, Linux privilege escalation is a key step between initial access and full system compromise. However, existing evaluations for this task are limited by small sample sizes (fewer than 15 scenarios), lacking the scale to compare model capabilities under executable verification. To address th",
-      "published": "2026-09-08T17:34:02Z",
+      "title": "Towards Tackling Application Logic Flaws through Autonomous Formal-Logic Modeling and Automated Reasoning",
+      "summary": "Logic flaws pose significant challenges in the design and implementation of modern, semantically rich systems and applications, impacting security, privacy, and trust. These flaws are inherently tied to business-specific semantics and threat models, making their discovery and reasoning difficult and hard to scale. Real-world systems often exhibit diverse application features, complex protocol logic, and domain-specific threat models, necessitating substantial human effort and domain expertise fo",
+      "published": "2026-09-09T17:58:58Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CR"
       ],
-      "url": "https://arxiv.org/abs/2609.09087v1",
+      "url": "https://arxiv.org/abs/2609.10537v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -767,17 +766,18 @@
       }
     },
     {
-      "id": "6434f3a08c0ae1b7",
+      "id": "fdcc381f449b16ca",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "It's Not RoPE that Creates Sinks: The Role of Self-Concentration and Value-Non-Mixing in Attention",
-      "summary": "Large Language Models (LLMs) often exhibit \"Attention Sink\" (AS) and the accompanying \"Massive Activations\" (MAs) at the initial position of a sequence. These phenomena frequently co-occur, and MAs can pose challenges for low-bit quantization. In this study, we analyze the factors underlying AS and MAs that emerge at the initial position regardless of the token occupying it. Our experiments suggest that self-concentration of attention, resulting from the causal mask, and the subsequent Value-non",
-      "published": "2026-09-08T17:32:31Z",
+      "title": "Private communication via zero-private-capacity quantum channels",
+      "summary": "Private communication over a noisy quantum channel requires reliable transmission to the receiver and secrecy from the environment. Whether two channels with zero private capacity can jointly enable private communication is a longstanding open problem in quantum information theory. Here we resolve this problem by exhibiting a four-level channel and a qubit erasure channel with half erasure probability, each with zero private capacity, whose joint use achieves more than 0.0001903 private bits per",
+      "published": "2026-09-09T17:51:54Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CL"
+        "quant-ph",
+        "cs.IT"
       ],
-      "url": "https://arxiv.org/abs/2609.09085v1",
+      "url": "https://arxiv.org/abs/2609.10520v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -786,17 +786,19 @@
       }
     },
     {
-      "id": "dc953f787cc80096",
+      "id": "61244a4ab6da7f68",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
-      "summary": "As LLMs are increasingly used for pre-submission self-review, there is growing demand for feedback that not only identifies weaknesses but also guides authors toward concrete revisions. We study this as Actionable Peer-review Generation and decompose it into two subtasks: diagnostic claim generation and revision suggestion generation. We introduce ActReview, a rebuttal-guided post-training framework that connects paper-specific diagnoses to concrete, grounded revision plans. Our central insight ",
-      "published": "2026-09-08T17:30:16Z",
+      "title": "PASCAL: A Phase-Aware Shared-Cache Model for Parallel Scans",
+      "summary": "In modern AI Accelerators and GPGPUs, many concurrent cores repeatedly access the same shared data. This pattern occurs in attention, where different query tiles share the same K/V block, GEMM, where every tile in a row reads the same panel, and many other operators. We name this pattern parallel scan. Due to a significant amount of data reuse in this pattern, the cache is expected to capture as much data reuse as possible and largely reduce requests sent to the main memory for both performance ",
+      "published": "2026-09-09T17:48:51Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CL"
+        "cs.PF",
+        "cs.AR",
+        "cs.DC"
       ],
-      "url": "https://arxiv.org/abs/2609.09076v1",
+      "url": "https://arxiv.org/abs/2609.10515v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -805,18 +807,18 @@
       }
     },
     {
-      "id": "7c34c12dadb1772d",
+      "id": "b25e6174c3cad79a",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "ThinkPrior: Zero-Rollout Difficulty Priors for Cold-Start Prompt Selection in RLVR",
-      "summary": "In reinforcement learning with verifiable rewards (RLVR) trained with group relative policy optimization (GRPO), the KL-free reward-advantage term studied here depends on within-group reward variation. If all rollouts in a group are correct or all are wrong, their group-relative advantages are identically zero; these zero-advantage silent groups provide no reward-advantage gradient, yet uniform sampling spends 39% of a run's rollouts on them. History-based prompt selection must first spend targe",
-      "published": "2026-09-08T17:30:12Z",
+      "title": "Avatar: Toward Autonomous End-to-End Orchestration of Scientific Workflows using LLMs",
+      "summary": "Scientific workflow management (WMSs) systems automate execution, yet orchestrate using fixed, hand-tuned rules. LLM agents promise more autonomous orchestration, but it remains unclear where to introduce agentic reasoning, how to bound its risk, and when it actually helps. We present Avatar, an actor-based architecture comprising an orchestrator, an executor, and a provenance monitor. Each actor's decision policy is pluggable (rule-based or LLM-backed) via a single adapter-validated action cata",
+      "published": "2026-09-09T17:45:36Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.LG",
-        "cs.AI"
+        "cs.DC",
+        "cs.MA"
       ],
-      "url": "https://arxiv.org/abs/2609.09075v1",
+      "url": "https://arxiv.org/abs/2609.10509v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -825,19 +827,18 @@
       }
     },
     {
-      "id": "fecbf4e763d23979",
+      "id": "9748c0ab03c6de8f",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Performance of Clinical AI System and Physicians and Frontier Language Models in primary care diagnostics",
-      "summary": "Clinical AI evaluation should encompass diagnosis and management after adaptive information gathering. We compared Doctorina, eight physicians and four standalone frontier language models in 150 synthetic Polish-language primary-care consultations. Doctorina achieved 82.0% Top-1 concordance versus 57.0% for physicians (difference, 25.0 percentage points; 95% confidence interval, 17.7-32.7) and 97.3% versus 85.0% primary-or-reference-differential concordance. Across 149 case pairs, normalized wor",
-      "published": "2026-09-08T17:25:47Z",
+      "title": "Wicked Problem, Parsimonious Solution: Securing Electric Vehicle Charging Station Software",
+      "summary": "Electric vehicle charging infrastructure presents a suite of novel cyber-physical threats. Among this infrastructure, charging stations are the most vulnerable elements. The software in the charging station supply equipment is particularly vulnerable. Currently, the software is an attack surface that is largely unprotected and poorly characterized. To represent the vulnerabilities in this attack surface, we advocate for applying modern software quality assurance to characterize vulnerabilities i",
+      "published": "2026-09-09T17:37:14Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CL",
-        "cs.AI",
-        "cs.HC"
+        "cs.CR",
+        "cs.SE"
       ],
-      "url": "https://arxiv.org/abs/2609.09070v1",
+      "url": "https://arxiv.org/abs/2609.10502v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -846,17 +847,18 @@
       }
     },
     {
-      "id": "8ad9b8a17b372ae8",
+      "id": "1b96d96fc1973994",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games",
-      "summary": "While many video-game environments (VGEs) have played crucial roles in advancing reinforcement learning (RL), developing novel VGEs or modifying existing ones to support new features, has been a laborious process requiring extensive hand-coding. Here we present PlayTrain, an RL framework that combines the abilities of large language models (LLMs) to robustly generate JavaScript (JS) games from a minimal human prompt, and an efficient pipeline that can run any JS game in a standard 'gym' environm",
-      "published": "2026-09-08T17:15:39Z",
+      "title": "Cross-Model Agreement as a Deployment-Time Reliability Signal for Automatic Polyp Segmentation",
+      "summary": "In real-time colonoscopy, ground-truth annotations are unavailable at inference, so polyp segmentation models can fail silently. We propose Referee-Based Quality Estimation (RBQE), a reference-free framework measuring agreement between a primary segmentation model and an independently trained referee on the same image. RBQE is evaluated on a standardized 1,223-image external benchmark drawn from four public datasets, using four referee configurations chosen to separate two design axes: referee i",
+      "published": "2026-09-09T17:32:43Z",
       "impact_scope": "metadata-only",
       "tags": [
+        "cs.CV",
         "cs.LG"
       ],
-      "url": "https://arxiv.org/abs/2609.09059v1",
+      "url": "https://arxiv.org/abs/2609.10495v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -865,39 +867,19 @@
       }
     },
     {
-      "id": "910efad516a0af77",
+      "id": "c8f9fc7c969b9329",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Training-Free Task Vectors for LLM Behavioral Control",
-      "summary": "Task vectors enable post-training model editing by identifying semantically meaningful directions in weight space, typically computed as the difference between a fine-tuned model and its pretrained initialization. However, this reliance on fine-tuning makes discovering such directions costly and limits the practicality of post-training model editing. To address this limitation, we introduce Training-Free Task Vectors (TFTVs), a novel method to compute task-vector-like directions without requirin",
-      "published": "2026-09-08T17:10:28Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2609.09054v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4cab315820fd7b1d",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "The Audit Decides the Verdict: Instrument Effects Rival Demographic Bias in LLM Decision Audits",
-      "summary": "Whether a language model looks demographically biased can depend on how the audit asks its question. A charitable-aid benchmark reports that the same models favor minority applicants when rating requests one at a time and penalize some when ranking side by side. We test whether that reversal generalizes to hiring, lending, and medical triage: 40,726 requests to five models, applications differing only in the applicant's name, and a primary test fixed before collection. It does not. None of 36 pl",
-      "published": "2026-09-08T17:08:53Z",
+      "title": "IBIB: A Protocol for Measuring Enterprise AI Systems by Serving Route, Not Model Identifier",
+      "summary": "Enterprises deploy systems, not checkpoints. Usable capability depends jointly on weights, serving route, precision, output contract, and harness, yet all 18 audited benchmarks score advertised model identifiers. We treat this as measurement error and give a protocol that makes it reportable. It has three parts. A gold-blind capability-binding preflight verifies that a route can execute the evaluation contract before any task reaches it; a reliability-inclusive first-pass scoring rule keeps fail",
+      "published": "2026-09-09T17:31:29Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CL",
         "cs.AI",
-        "cs.CY"
+        "cs.LG"
       ],
-      "url": "https://arxiv.org/abs/2609.09048v1",
+      "url": "https://arxiv.org/abs/2609.10494v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -906,18 +888,38 @@
       }
     },
     {
-      "id": "dc199b82643a2c3f",
+      "id": "db385a186fd3b385",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Do Reasoning Representations Help Humans Evaluate LLM Outputs?",
-      "summary": "Reasoning representations are increasingly used as explanations for large language model outputs. Yet they are typically evaluated with model-centric criteria, such as answer accuracy and faithfulness, leaving it unclear whether they help people evaluate model responses. In this work, we study reasoning representations as human-facing interfaces rather than proxies for model reasoning ability. We conduct a controlled human study of six reasoning formats across tasks of varying complexity, suppor",
-      "published": "2026-09-08T17:03:57Z",
+      "title": "Artificial Intelligence Literacy and Sustainable Development: An Ethical Governance and Development Goals Framework",
+      "summary": "AI literacy provides foundational competencies that support ethical, transparent, and sustainable technological development, although higher-order capabilities such as governance, critical evaluation, and strategic decision-making extend beyond basic literacy into advanced levels of AI competency. This study positions AI literacy as a governance capacity that complements and strengthens all 17 SDGs. It introduces a six-level taxonomy of artificial intelligence reasoning and ethics that extends t",
+      "published": "2026-09-09T17:28:08Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.LG",
-        "cs.HC"
+        "cs.CV"
       ],
-      "url": "https://arxiv.org/abs/2609.09038v1",
+      "url": "https://arxiv.org/abs/2609.10489v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f758474b8240f7f6",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Deep Learning-Based Detection of Electrical Faults and Power Quality Disturbances in Aerospace Power Systems",
+      "summary": "More Electric Aircraft require fast and reliable monitoring of high-frequency electrical networks, yet most power quality disturbance and fault diagnosis methods are developed for conventional 50 or 60 Hz grids. This work presents a hardware-aware deep learning framework for multiclass detection of electrical faults and power quality disturbances in a 400 Hz aerospace power system. A high-fidelity simulation model inspired by the Boeing 787 electrical architecture generates voltage and current w",
+      "published": "2026-09-09T17:19:14Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "eess.SP",
+        "cs.LG",
+        "eess.SY"
+      ],
+      "url": "https://arxiv.org/abs/2609.10479v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
