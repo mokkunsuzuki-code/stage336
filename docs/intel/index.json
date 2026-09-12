@@ -1,10 +1,200 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-09-11T03:43:49.086920+00:00",
+  "generated_at": "2026-09-12T03:47:31.865943+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 40,
+  "item_count": 35,
   "items": [
+    {
+      "id": "2d6f73b50bb4de3a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[doris-mcp-server] Apache Doris MCP Server is vulnerable to SQL Injection via metadata query path",
+      "summary": "",
+      "published": "2026-06-22T09:30:45.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-pqrj-4gwg-h5f7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "64c5dddce8105a92",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[prowler-cloud] Prowler: SAML Domain Claiming Enables Cross-Tenant Account Takeover",
+      "summary": "",
+      "published": "2026-09-11T21:38:24.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-h8m9-jgf8-vwvp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7316f1fb1a92b1cf",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mysql-mcp-server] MySQL MCP Server: Missing Origin/Host Validation in SSE Transport Enables Unauthenticated SQL Execution (DNS Rebinding / Direct Exposure)",
+      "summary": "",
+      "published": "2026-09-11T20:35:42.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rqfv-2mw9-78g2",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "61ba0470fc03da09",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[picklescan] Duplicate Advisory: Picklescan missing detection when calling pytorch function torch.utils._config_module.load_config",
+      "summary": "",
+      "published": "2026-06-21T15:31:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qvp4-q2p5-22gg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1dcbad92c80e6375",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[picklescan] Duplicate Advisory: Picklescan missing detection when calling built-in python library function timeit.timeit()",
+      "summary": "",
+      "published": "2026-06-21T15:31:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fh2f-24rh-r2vq",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2ba33c509babc652",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[picklescan] Duplicate Advisory: Picklescan is missing detection when calling built-in python idlelib.pyshell.ModifiedInterpreter.runcommand",
+      "summary": "",
+      "published": "2026-06-21T15:31:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8mc5-7w9m-fqv6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "57edcada062b0c43",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[picklescan] Duplicate Advisory: Picklescan is missing detection when calling built-in Python cProfile.runctx",
+      "summary": "",
+      "published": "2026-06-21T15:31:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fcqg-3mwf-cfcf",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8d8ad8b7593ebae5",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[vllm] vLLM introduced enhanced protection for CVE-2025-62164",
+      "summary": "",
+      "published": "2026-01-08T21:47:43.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mcmc-2m55-j8jj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8208d6531747c494",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[vllm] Duplicate Advisory: vLLM introduced enhanced protection for CVE-2025-62164",
+      "summary": "",
+      "published": "2026-06-20T21:31:21.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-78fp-cf4h-g36p",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "919bef9dde72208b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[vllm] Duplicate Advisory: vLLM Vulnerable to Regular Expression Denial of Service",
+      "summary": "",
+      "published": "2026-06-20T21:31:21.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vfm7-4h43-gp6m",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "413c7618352b6f6d",
       "source": "github-advisory-pip",
@@ -196,17 +386,17 @@
       }
     },
     {
-      "id": "952c6623af7927c5",
-      "source": "github-advisory-pip",
+      "id": "72902c1e66394cb9",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[litellm] LiteLLM: M2M JWT Handler Has Improper Authorization",
+      "title": "[yayson] yayson: Prototype pollution in Store/LegacyStore deserialization",
       "summary": "",
-      "published": "2026-06-21T03:30:24.000Z",
+      "published": "2026-09-11T22:11:38.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qmf3-4767-5fg3",
+      "url": "https://github.com/advisories/GHSA-325j-mg25-8q58",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +405,17 @@
       }
     },
     {
-      "id": "97d07cff12aff3b4",
-      "source": "github-advisory-pip",
+      "id": "b79c19fec30adb99",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[litellm] LiteLLM: PROXY_ADMIN database API Key Generator Has Insufficient Session Expiration",
+      "title": "[@mockoon/cli] @Mockoon/commons-server: Unauthenticated admin API + wildcard CORS allows mock-state hijack and secret theft",
       "summary": "",
-      "published": "2026-06-21T03:30:24.000Z",
+      "published": "2026-09-11T22:04:42.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mf52-j94g-746m",
+      "url": "https://github.com/advisories/GHSA-rqx4-3f6q-3x2v",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +424,17 @@
       }
     },
     {
-      "id": "897e55a3b541202e",
-      "source": "github-advisory-pip",
+      "id": "2947edb4458a1dd3",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Inaccessible knowledge bases are exposed through the built-in knowledge tool on most vector backends",
+      "title": "[@mockoon/commons-server] @Mockoon/commons-server: Unauthenticated admin API + wildcard CORS allows mock-state hijack and secret theft",
       "summary": "",
-      "published": "2026-09-10T15:10:41.000Z",
+      "published": "2026-09-11T22:04:42.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-pcvc-8vrv-8q6w",
+      "url": "https://github.com/advisories/GHSA-rqx4-3f6q-3x2v",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +443,17 @@
       }
     },
     {
-      "id": "92bcf50ee0b399dd",
-      "source": "github-advisory-pip",
+      "id": "390cd3928336c8b0",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Channel members can overwrite another member's message via the chat completions endpoint",
+      "title": "[@mockoon/cli] @Mockoon/commons-server: Path traversal in templated `filePath` lets a request escape the served directory (prefix-only base check)",
       "summary": "",
-      "published": "2026-09-10T15:10:29.000Z",
+      "published": "2026-09-11T22:04:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fmqh-xp37-5hr8",
+      "url": "https://github.com/advisories/GHSA-8wqc-v2q8-vff2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +462,17 @@
       }
     },
     {
-      "id": "745534774286be4b",
-      "source": "github-advisory-pip",
+      "id": "fb9ff82a86cafcc6",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Same-origin XSS to account takeover via terminal port-preview iframe hardcoding allow-same-origin",
+      "title": "[@mockoon/commons-server] @Mockoon/commons-server: Path traversal in templated `filePath` lets a request escape the served directory (prefix-only base check)",
       "summary": "",
-      "published": "2026-09-10T15:10:20.000Z",
+      "published": "2026-09-11T22:04:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jmc6-2wr8-h3wj",
+      "url": "https://github.com/advisories/GHSA-8wqc-v2q8-vff2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +481,17 @@
       }
     },
     {
-      "id": "90c002690d4af98b",
-      "source": "github-advisory-pip",
+      "id": "8e17414e9af575f7",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: SSRF into internal services via DNS rebinding in the Playwright web loader",
+      "title": "[frontmcp] FrontMCP and mcp-from-openapi have bypass of OpenAPI external $ref SSRF fix",
       "summary": "",
-      "published": "2026-09-10T15:10:12.000Z",
+      "published": "2026-09-11T22:02:04.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4v28-j6q3-5m4r",
+      "url": "https://github.com/advisories/GHSA-65h7-9wrw-629c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +500,17 @@
       }
     },
     {
-      "id": "468a3143877b028c",
-      "source": "github-advisory-pip",
+      "id": "c23ec57868f1f40d",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Any authenticated user can inject chats into another user's folder via chat completions",
+      "title": "[@frontmcp/adapters] FrontMCP and mcp-from-openapi have bypass of OpenAPI external $ref SSRF fix",
       "summary": "",
-      "published": "2026-09-10T15:10:04.000Z",
+      "published": "2026-09-11T22:02:04.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3pf7-q2g3-wj28",
+      "url": "https://github.com/advisories/GHSA-65h7-9wrw-629c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,55 +519,17 @@
       }
     },
     {
-      "id": "d86d4da5012de2ff",
-      "source": "github-advisory-pip",
+      "id": "3c32ccc13f062206",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Non-admin users can delete admin-owned external knowledge connections via knowledge base deletion",
+      "title": "[mcp-from-openapi] FrontMCP and mcp-from-openapi have bypass of OpenAPI external $ref SSRF fix",
       "summary": "",
-      "published": "2026-09-10T15:09:52.000Z",
+      "published": "2026-09-11T22:02:04.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2724-6cpj-gf3v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e9346782e22074ae",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Any authenticated user can reach the Azure platform channel via server-side web fetch",
-      "summary": "",
-      "published": "2026-09-10T15:09:36.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-34r3-9m95-vq73",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "be7be5bd47dc1cab",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Users denied by the OAuth domain allowlist or role policy can still sign in via token exchange",
-      "summary": "",
-      "published": "2026-09-10T15:09:20.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4qg5-cxx4-g927",
+      "url": "https://github.com/advisories/GHSA-65h7-9wrw-629c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -511,258 +663,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-cqr2-h44g-v75v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "99a8426c55f13805",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[n8n] n8n: Log Streaming Event Destinations Decrypt Generic-Auth Credentials Without Ownership Check",
-      "summary": "",
-      "published": "2026-09-10T21:07:45.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-pq6c-vh67-xpm3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "281ec8a5c216a9ff",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[n8n] n8n: Disabled OIDC SSO Endpoints Remain Active and Issue Valid Sessions",
-      "summary": "",
-      "published": "2026-09-10T21:07:24.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-pf83-w3f9-8m37",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b286ccdcb521ec0c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[n8n] n8n: GitHub Trigger 422 Reuse Path Skips Webhook Secret Storage, Causing Signature Verification to Fail-Open",
-      "summary": "",
-      "published": "2026-09-10T21:06:37.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5m98-cgcr-xx3q",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "85565f8349e7aaf2",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
-      "summary": "We launch SenseNova-U1.5, an 8B-MoT native unified multimodal model that understands, reasons about, and generates visual content within an encoder-free and VAE-free architecture. We strengthen its visual interface through spatially coherent patch reconstruction and scale its training with carefully curated generation and editing data, improved task formulation, structural prompt enhancement, and native resolutions of up to 4K. For post-training, we optimize specialized experts for visual aesthe",
-      "published": "2026-09-10T17:59:55Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV"
-      ],
-      "url": "https://arxiv.org/abs/2609.11929v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a3be2f823d034a75",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Can Edge-Deployable Vision-Language Models Identify Species?",
-      "summary": "Camera traps often run in the field on edge hardware with limited or no connectivity, making small, locally-deployable vision-language models (VLMs) -- not frontier-scale ones -- the practically relevant class to evaluate for species identification. We test whether models in this deployment-relevant 2--8B range carry genuine taxonomic knowledge, evaluating four such VLMs (Qwen3-VL 2B/4B/8B, Gemma3 4B) against the domain-specific specialist BioCLIP (300M parameters) on a 96-species task, comparin",
-      "published": "2026-09-10T17:57:32Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2609.11916v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1caa734e6824a0e9",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
-      "summary": "Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries. That shift creates a control problem that current harnesses largely solve by hand: objectives, retries, verification, stopping rules and other behavioral transitions are specified externally. We propose an artificial id, an adaptive internal drive for determining whether behavior should continue, stop or change. In a minimal virtual Petri-dish expe",
-      "published": "2026-09-10T17:56:41Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2609.11911v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b02fbd4406162387",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "From Protocols to Evidence: Bounded Claims for AI in Service of the Common Good",
-      "summary": "Artificial Intelligence does more than create a governance problem. It can also reveal where institutions have already failed to provide responsiveness, belonging, care, and accountability. Once deployed, AI becomes an intervention in those conditions. It can repair, compound, substitute for, or conceal the failures it encounters. Responsible AI must therefore evaluate both the system and the institutional rupture into which it is introduced. The move from principles to protocols is already unde",
-      "published": "2026-09-10T17:56:36Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2609.11910v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "53e4ae6f0d9a052d",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "AccelForge: Comprehensive Modeling and Co-Design Framework for AI Accelerators",
-      "summary": "Tensor algebra workloads, of which deep neural networks are prominent examples, are energy-intensive workloads in modern datacenter and edge deployments, making accelerators necessary to achieve energy efficiency and high throughput. To quickly evaluate and iterate on accelerator designs, we need an accelerator modeling framework that captures salient attributes of devices, circuits, architectures, workloads, as well as optimizing the mapping of the workload onto the hardware.   In this paper, w",
-      "published": "2026-09-10T17:56:27Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AR"
-      ],
-      "url": "https://arxiv.org/abs/2609.11906v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2e3112a3ec94f872",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "EFI Pairs Without One-Way Puzzles: Oracle Separations from Communication Complexity",
-      "summary": "EFI pairs (Brakerski, Canetti, and Qian, ITCS 2023) and one-way puzzles (Khurana and Tomer, STOC 2024) are the leading candidates for the minimal assumption of quantum cryptography. The first are efficiently preparable quantum states, statistically far yet computationally indistinguishable; the second are classical puzzles, easy to sample and hard to solve. One-way puzzles imply EFI pairs, and whether the converse holds is open.   We construct a single classical oracle relative to which one-way ",
-      "published": "2026-09-10T17:54:55Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "quant-ph",
-        "cs.CR"
-      ],
-      "url": "https://arxiv.org/abs/2609.11901v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d11a6baaf5f68800",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Nuha-Speech: Building General-Purpose Arabic Speech-LLMs",
-      "summary": "As Speech Large Language Models (speech-LLMs) become increasingly multilingual, Arabic remains significantly underrepresented, highlighting the need for dedicated infrastructure to train and evaluate Arabic speech-LLMs.   To address this gap, we introduce Nuha-Speech, a comprehensive initiative to develop general-purpose Arabic speech-LLMs spanning dataset construction, model training, and systematic evaluation. Specifically, we constructed a large-scale Arabic Speech Question-Answering (SQA) co",
-      "published": "2026-09-10T17:50:35Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2609.11892v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f97bcb8d474e44cb",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Hierarchical Population Inference with Normalizing Flows for Binary Black Holes",
-      "summary": "Low-dimensional parametric mass models are standard in gravitational-wave population inference, but their rigidity can bias the recovered distribution and the conclusions drawn from it. We present a pipeline in which the source-frame binary-black-hole population in $(z,m_1,m_2)$ is represented by a normalizing flow trained directly through the hierarchical likelihood, with event posterior samples propagating measurement uncertainty and detected injections accounting for selection effects. We res",
-      "published": "2026-09-10T17:49:31Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "astro-ph.HE",
-        "gr-qc"
-      ],
-      "url": "https://arxiv.org/abs/2609.11885v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "293a2253ad031f4c",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "From Specs to Apps: Verifying and Monitoring Models of Signal and WhatsApp",
-      "summary": "The Signal protocol is a prominent messaging protocol that secures communication for billions of users. It powers WhatsApp, the most widely used messaging application worldwide, and the Signal app, popular among privacy-conscious users. Extensive research in the computational and Dolev-Yao settings provides strong formal security guarantees for the protocol itself. However, a gap remains between the guarantees of the protocol specification and the implementation's actual behavior at runtime. In ",
-      "published": "2026-09-10T17:48:49Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CR"
-      ],
-      "url": "https://arxiv.org/abs/2609.11882v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "eea6faa79099ec4d",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Biology-in-the-loop: Amortized Adaptive Hit Discovery in CRISPR Screens",
-      "summary": "Many biological discovery problems require experiments to be selected sequentially under constrained budgets. CRISPR screening is a prominent example, as exhaustive perturbation testing is often infeasible and candidate perturbations must instead be prioritized over multiple experimental rounds. Despite the importance of this problem, existing benchmarks for adaptive hit discovery remain limited in scale and diversity. Here, we introduce AssayBench-Loop, a large-scale benchmark for adaptive hit ",
-      "published": "2026-09-10T17:45:18Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "q-bio.QM",
-        "cs.AI",
-        "cs.CL",
-        "q-bio.GN"
-      ],
-      "url": "https://arxiv.org/abs/2609.11877v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
