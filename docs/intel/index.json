@@ -1,10 +1,124 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-09-14T04:03:06.917731+00:00",
+  "generated_at": "2026-09-15T04:02:01.832395+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 35,
+  "item_count": 36,
   "items": [
+    {
+      "id": "0019cc9dbc4e81e4",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[litellm] BerriAI litellm: UI User Enumeration leads to System-Wide Information Disclosure",
+      "summary": "",
+      "published": "2026-06-21T12:30:52.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-m2v5-74w2-qhcj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5adf4c8ec168641b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[litellm] BerriAI litellm has SSRF via Unvalidated spec_path URL in MCP OpenAPI Spec Loader",
+      "summary": "",
+      "published": "2026-06-21T12:30:52.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-c693-x898-5g4h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7c50114656b4aabb",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[litellm] BerriAI litellm has Security Feature Bypass in BannedKeywords and AzureContentSafety Guardrails via call_type Mismatch on Async Endpoints",
+      "summary": "",
+      "published": "2026-06-21T12:30:52.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-p897-vf7j-f5h8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2fd2c81e4628e2de",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[esphome-device-builder] ESPHome Device Builder: Renamed auth env vars silently disable dashboard authentication on upgrade",
+      "summary": "",
+      "published": "2026-09-14T18:08:57.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rrxg-g2pf-6hh4",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9dbfe0a8250fe189",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[crawl4ai] Crawl4AI: authentication bypass vulnerability due to a hardcoded default JWT signing key in the Docker API server",
+      "summary": "",
+      "published": "2026-06-21T15:31:24.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8qrg-7j2f-rf2h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "61f7385d21edddbd",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[litellm] BerriAI litellm: SSO Login Does Not Invalidate Previous UI Session Tokens",
+      "summary": "",
+      "published": "2026-06-21T12:30:52.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w2mh-qq9q-453x",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "2d6f73b50bb4de3a",
       "source": "github-advisory-pip",
@@ -272,112 +386,17 @@
       }
     },
     {
-      "id": "6663da47c381fafe",
-      "source": "github-advisory-pip",
+      "id": "630cb1fdf8ac0988",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Admin demoted through SSO role sync keeps read and write access to all users' notes",
+      "title": "[flowise] Duplicate Advisory: Flowise OverrideConfig security vulnerability",
       "summary": "",
-      "published": "2026-09-10T22:41:34.000Z",
+      "published": "2026-06-20T18:31:28.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-wjwr-xfp9-r66p",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "5a195c7e6a023322",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[litellm] LiteLLM: SSO Debug Flow Has Improper Authentication",
-      "summary": "",
-      "published": "2026-06-21T09:30:51.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-j37q-q7p9-vpwm",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6c6dc59585e90668",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[litellm] LiteLLM: Admin Key Handler Has Improper Authorization",
-      "summary": "",
-      "published": "2026-06-21T03:30:24.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6qr3-3g89-m4jj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3bc45068e37b03bc",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[litellm] LiteLLM: MCP Proxy Has Improper Authentication",
-      "summary": "",
-      "published": "2026-06-21T06:32:07.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4jcj-7x88-m979",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "42aa21a155d4e76c",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: A user's session cookies are sent to tool servers configured for bearer authentication",
-      "summary": "",
-      "published": "2026-09-10T21:23:44.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-p78m-89r6-pgf7",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "9ebfd97851051a0c",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Sign-in as another user via wildcard characters in the OAuth subject claim on SQLite",
-      "summary": "",
-      "published": "2026-09-10T21:23:25.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wpmr-8h3q-fwj7",
+      "url": "https://github.com/advisories/GHSA-5w6g-rc45-wvv9",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
