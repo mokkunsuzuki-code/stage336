@@ -1,9 +1,9 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-09-15T04:02:01.832395+00:00",
+  "generated_at": "2026-09-16T03:58:59.172592+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 36,
+  "item_count": 48,
   "items": [
     {
       "id": "0019cc9dbc4e81e4",
@@ -386,6 +386,63 @@
       }
     },
     {
+      "id": "9f3a9c8118ca9b58",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@zereight/mcp-gitlab] @zereight/mcp-gitlab Vulnerable to Server-Side Request Forgery",
+      "summary": "",
+      "published": "2026-09-15T20:57:28.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2h44-8472-frjj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bc1d73cdd4c534af",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@zereight/mcp-gitlab] @zereight/mcp-gitlab: DNS rebinding reaches local Streamable HTTP MCP transport",
+      "summary": "",
+      "published": "2026-09-15T20:54:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vmp7-252j-cwp7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2d554eac43caf890",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@zereight/mcp-gitlab] @zereight/mcp-gitlab has multiple safety-control bypasses: execute_graphql read-only + allow-list bypass, unauthenticated transports, session-exhaustion DoS",
+      "summary": "",
+      "published": "2026-09-15T20:48:22.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5648-rgj9-v224",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
       "id": "630cb1fdf8ac0988",
       "source": "github-advisory-npm",
       "category": "software-advisory",
@@ -671,17 +728,198 @@
       }
     },
     {
-      "id": "2666326e50a683fe",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[n8n] n8n: Cross-Tenant Project-Member PII Disclosure via Missing Per-Project Scope Check on Role Assignment Endpoints",
-      "summary": "",
-      "published": "2026-09-10T21:13:24.000Z",
+      "id": "eecd4dd62c36161d",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Vanilla Scotogenic Model at the future Muon Collider",
+      "summary": "The vanilla scotogenic model (VSM) featuring three right-handed neutrinos and an inert scalar doublet, offers a unified explanation of neutrino masses, dark matter (DM), and the baryon asymmetry of the Universe through leptogenesis. The typical mass scale of such a scenario lies in the vicinity of $\\sim$ 10 TeV and above, whereas enhanced second-generation Yukawa couplings lower the leptogenesis scale to $\\sim 1$ \\TeV, allowing the model to be probed at the future muon colliders. Adhering to DM,",
+      "published": "2026-09-15T17:58:07Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "hep-ph",
+        "astro-ph.CO",
+        "hep-ex"
       ],
-      "url": "https://github.com/advisories/GHSA-cqr2-h44g-v75v",
+      "url": "https://arxiv.org/abs/2609.17530v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "facf249dd71c84cc",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Agentic Societies Need a Social Harness",
+      "summary": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic societies even honest, competent agents often fail to reach satisfactory outcomes with existing harnesses and messaging primitives, and that faulty or malicious agents can stall collaboration, influence outcomes, and pursue other harmful goals by exploiting vulnerabilities in commu",
+      "published": "2026-09-15T17:57:27Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.MA",
+        "cs.AI",
+        "cs.NI"
+      ],
+      "url": "https://arxiv.org/abs/2609.17527v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e092177f391f74fc",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "You Shall Not Pass into Ring-0! A User Privacy-Friendly Anti-Cheat Architecture for Personal Computers",
+      "summary": "Kernel-level anti-cheats are effective against malicious player behavior in competitive video games, but raise significant user privacy concerns regarding installing unverifiable components at privileged modes (i.e., ring-0 in x86). While existing research has focused on improving the effectiveness of anti-cheats, the user privacy concern has been largely ignored. Tirith is an anti-cheat architecture that addresses this problem using two key ideas. First, instead of running video games within re",
+      "published": "2026-09-15T17:56:31Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CR"
+      ],
+      "url": "https://arxiv.org/abs/2609.17525v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "cfb130d35551bf07",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+      "summary": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution evidence into tasks and evaluation rubrics for continual learning. At its core is recursive-in-recursive self-improvement, a paradigm that couples harness evolution with model reinforcement learning: ",
+      "published": "2026-09-15T17:55:28Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2609.17523v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b51a9294df0c80b7",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
+      "summary": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control schedule before generation starts, or use pixel-space signals that dictate object positions rather than physical dynamics. To address these limitations, we propose PhysStream, an autoregressive model for physics-grounded image-to-video synthesis that incorporates structured scene memory-",
+      "published": "2026-09-15T17:55:13Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "url": "https://arxiv.org/abs/2609.17521v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "12d5c4bd4ecc8059",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+      "summary": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three CoSQ variants under seventeen conditions on the 817-item TruthfulQA multiple-choice validation set using eleven open-weight and hosted model families. In the final balanced-option protocol, Grounded-C",
+      "published": "2026-09-15T17:52:24Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2609.17516v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d46b2b3c73b4cb74",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity",
+      "summary": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-induced degradation in smart-home tool calling across four LLMs spanning dense Transformer, dense hybrid, and mixture-of-experts (MoE) architectures, together with depth, width, hybrid, and expert pruning methods. After post-pruning supervised fine-tuning (SFT), we evaluate more than 19,500 instances from three smart-ho",
+      "published": "2026-09-15T17:51:48Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2609.17515v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a7dc7805676c3740",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Constraints on the central engine of merger-driven long gamma-ray bursts",
+      "summary": "Recent observations have identified a new class of long-duration gamma-ray bursts (GRBs) likely produced by compact binary mergers. Using radio observations and lightcurve modelling, we investigate whether a magnetar remnant can power the long-lasting prompt emission observed in this merger-driven GRB sample. We derive constraints on the magnetars' rotational energy and magnetic-field strength, and assess whether the magnetar central-engine model is viable for the observed events. We conducted 2",
+      "published": "2026-09-15T17:46:35Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "astro-ph.HE"
+      ],
+      "url": "https://arxiv.org/abs/2609.17507v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "43da5c3c685af37c",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Stellar Ages of M Dwarf Hosts of Temperate Sub-Neptunes",
+      "summary": "Measuring M dwarf ages is a central challenge in stellar astrophysics. These stars evolve so slowly that isochrone fitting gives little constraint, requiring alternative methods based on rotation, activity, and kinematics. Reliable ages help constrain the formation and evolution of planetary systems around M dwarfs, including the temperate sub-Neptunes now being characterised with the James Webb Space Telescope (JWST). We present an age analysis of six nearby M dwarf planet hosts (TOI-732, TOI-7",
+      "published": "2026-09-15T17:44:39Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "astro-ph.EP",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2609.17505v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a2c38313d00a78ff",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "summary": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others' intentions, typically lack verifiable ground truth. To address these challenges, we introduce Fuse, a multi-agent simulation framework for studying user-mediated social reasoning. In Fuse, a target a",
+      "published": "2026-09-15T17:37:29Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2609.17496v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
