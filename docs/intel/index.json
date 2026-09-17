@@ -1,10 +1,276 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-09-16T03:58:59.172592+00:00",
+  "generated_at": "2026-09-17T04:06:22.541248+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 48,
+  "item_count": 39,
   "items": [
+    {
+      "id": "cbf8144526705d90",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[vllm] vLLM: Unauthenticated audio decompression-bomb DoS in /v1/chat/completions",
+      "summary": "",
+      "published": "2026-09-16T22:12:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hcwq-8wjf-3gcr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5deecdd3ae2e8a58",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[djust] djust has an unauthenticated arbitrary module import via the WebSocket/SSE view-mount path",
+      "summary": "",
+      "published": "2026-09-16T22:09:38.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-7prp-2623-8g45",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "836c2dc5ac5a7fea",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[djust] djust: WebSocket/runtime reconstructed request omits the client Host, causing host/subdomain TenantResolvers to misresolve the tenant on the live path",
+      "summary": "",
+      "published": "2026-09-16T22:07:52.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-v9rj-xjfv-xj9r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "59c2121177a452e5",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[djust] djust has broken object-level access control (IDOR)",
+      "summary": "",
+      "published": "2026-09-16T22:06:02.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-c7c5-5j6r-q957",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6d8a60fd6d65724c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[djust] djust's Django model serialization has no sensitive-field denylist: password hashes, privilege flags, and PII on a public view attribute are sent to the client",
+      "summary": "",
+      "published": "2026-09-16T22:02:49.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-pvg3-6q9j-mj3x",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "dd76f26a83754bc3",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[djust] djust has an authorization bypass on the WebSocket/SSE mount path",
+      "summary": "",
+      "published": "2026-09-16T21:58:05.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xhhm-f6hp-2qwj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "dab93ca4a1aaae85",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[djust] djust: Unsigned client state snapshot is restored as trusted view state (privilege escalation / state injection)",
+      "summary": "",
+      "published": "2026-09-16T21:56:12.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-c67v-vqrp-m5wj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d05903fb0ff18c0c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[djust] djust: SSE sessions are not bound to the authenticated user; the client-chosen session_id is the sole authorization capability (session hijack)",
+      "summary": "",
+      "published": "2026-09-16T21:53:43.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f795-p5jw-j6g2",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5f6d115d624d4b35",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[djust] djust is vulnerable to stored/reflected XSS via javascript: URLs in built-in component template tags",
+      "summary": "",
+      "published": "2026-09-16T21:50:53.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-4mf4-73j6-mvrw",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6eaf0e94ec7a6fe8",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[djust] djust has Cross-Site Request Forgery on the Server-Sent-Events transport: a cross-origin page can drive a victim-authenticated SSE session",
+      "summary": "",
+      "published": "2026-09-16T15:45:03.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-pg97-jvmf-qfvc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ccf74bf8d7981586",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lmdeploy] LMdeploy has Remote Code Execution by Pickle Deserialization via zmq_rpc.call_and_response() in InterLM/lmdeploy",
+      "summary": "",
+      "published": "2026-09-16T15:34:27.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5h8j-6crg-7rmw",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6117ce3b0f1e6792",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[djust] djust: Multi-tenant isolation fails open on the WebSocket/SSE path, disclosing other tenants' data",
+      "summary": "",
+      "published": "2026-09-16T15:32:10.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3492-cvg7-9mr2",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c14dfaf7d035585e",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[djust] djust: Client mass-assignment of arbitrary view attributes via the default dj-model update_model handler",
+      "summary": "",
+      "published": "2026-09-16T13:55:48.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-cc7c-9jff-58wj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "878a2e1f139ee3c6",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[djust] djust's observability endpoints are network-exposed: the localhost gate is an opt-in middleware the docs omit, and the views enforce only DEBUG",
+      "summary": "",
+      "published": "2026-09-16T13:49:19.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8g2f-g3gq-5rjv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "0019cc9dbc4e81e4",
       "source": "github-advisory-pip",
@@ -120,17 +386,17 @@
       }
     },
     {
-      "id": "2d6f73b50bb4de3a",
-      "source": "github-advisory-pip",
+      "id": "b94fed01951eee7f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[doris-mcp-server] Apache Doris MCP Server is vulnerable to SQL Injection via metadata query path",
+      "title": "[@nuxtjs/mdc] @nuxtjs/mdc's URL sanitizer misses SVG xlink:href and data:text/html, allowing XSS from untrusted markdown at the default configuration",
       "summary": "",
-      "published": "2026-06-22T09:30:45.000Z",
+      "published": "2026-09-16T22:14:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-pqrj-4gwg-h5f7",
+      "url": "https://github.com/advisories/GHSA-mxm6-v9r6-r94c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +405,17 @@
       }
     },
     {
-      "id": "64c5dddce8105a92",
-      "source": "github-advisory-pip",
+      "id": "015dbd4f2e087044",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[prowler-cloud] Prowler: SAML Domain Claiming Enables Cross-Tenant Account Takeover",
+      "title": "[@jhb.software/payload-alt-text-plugin] @jhb.software/payload-alt-text-plugin: Alt Text Endpoint Authorization Bypass via Payload Local API `overrideAccess` Omission",
       "summary": "",
-      "published": "2026-09-11T21:38:24.000Z",
+      "published": "2026-09-10T22:39:14.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-h8m9-jgf8-vwvp",
+      "url": "https://github.com/advisories/GHSA-4qpv-39hg-f7fx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +424,17 @@
       }
     },
     {
-      "id": "7316f1fb1a92b1cf",
-      "source": "github-advisory-pip",
+      "id": "5a3d011fe834e0eb",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[mysql-mcp-server] MySQL MCP Server: Missing Origin/Host Validation in SSE Transport Enables Unauthenticated SQL Execution (DNS Rebinding / Direct Exposure)",
+      "title": "[immutable] Immutable.js `List` 32-bit trie overflow → unrecoverable DoS",
       "summary": "",
-      "published": "2026-09-11T20:35:42.000Z",
+      "published": "2026-07-21T18:36:27.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rqfv-2mw9-78g2",
+      "url": "https://github.com/advisories/GHSA-v56q-mh7h-f735",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +443,17 @@
       }
     },
     {
-      "id": "61ba0470fc03da09",
-      "source": "github-advisory-pip",
+      "id": "1f94c55ac9787c65",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[picklescan] Duplicate Advisory: Picklescan missing detection when calling pytorch function torch.utils._config_module.load_config",
+      "title": "[node-opcua] node-opcua: TCP Socket Leak (FIN-WAIT-2) via keepalive reconnection cycle - Resource Exhaustion",
       "summary": "",
-      "published": "2026-06-21T15:31:23.000Z",
+      "published": "2026-09-16T16:19:21.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qvp4-q2p5-22gg",
+      "url": "https://github.com/advisories/GHSA-r2pf-9cw4-5j65",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +462,17 @@
       }
     },
     {
-      "id": "1dcbad92c80e6375",
-      "source": "github-advisory-pip",
+      "id": "e003a118edf50adb",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[picklescan] Duplicate Advisory: Picklescan missing detection when calling built-in python library function timeit.timeit()",
+      "title": "[node-opcua-client] node-opcua: TCP Socket Leak (FIN-WAIT-2) via keepalive reconnection cycle - Resource Exhaustion",
       "summary": "",
-      "published": "2026-06-21T15:31:23.000Z",
+      "published": "2026-09-16T16:19:21.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fh2f-24rh-r2vq",
+      "url": "https://github.com/advisories/GHSA-r2pf-9cw4-5j65",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +481,17 @@
       }
     },
     {
-      "id": "2ba33c509babc652",
-      "source": "github-advisory-pip",
+      "id": "ce3aac5a590118a1",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[picklescan] Duplicate Advisory: Picklescan is missing detection when calling built-in python idlelib.pyshell.ModifiedInterpreter.runcommand",
+      "title": "[node-opcua-transport] node-opcua: TCP Socket Leak (FIN-WAIT-2) via keepalive reconnection cycle - Resource Exhaustion",
       "summary": "",
-      "published": "2026-06-21T15:31:23.000Z",
+      "published": "2026-09-16T16:19:21.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8mc5-7w9m-fqv6",
+      "url": "https://github.com/advisories/GHSA-r2pf-9cw4-5j65",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,150 +500,17 @@
       }
     },
     {
-      "id": "57edcada062b0c43",
-      "source": "github-advisory-pip",
+      "id": "b720fec5e16a5ce9",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[picklescan] Duplicate Advisory: Picklescan is missing detection when calling built-in Python cProfile.runctx",
+      "title": "[@zereight/mcp-gitlab] @zereight/mcp-gitlab: Unauthenticated arbitrary file read via `upload_markdown` enables PAT exfiltration and full account takeover",
       "summary": "",
-      "published": "2026-06-21T15:31:23.000Z",
+      "published": "2026-09-16T13:48:28.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fcqg-3mwf-cfcf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8d8ad8b7593ebae5",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[vllm] vLLM introduced enhanced protection for CVE-2025-62164",
-      "summary": "",
-      "published": "2026-01-08T21:47:43.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mcmc-2m55-j8jj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8208d6531747c494",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[vllm] Duplicate Advisory: vLLM introduced enhanced protection for CVE-2025-62164",
-      "summary": "",
-      "published": "2026-06-20T21:31:21.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-78fp-cf4h-g36p",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "919bef9dde72208b",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[vllm] Duplicate Advisory: vLLM Vulnerable to Regular Expression Denial of Service",
-      "summary": "",
-      "published": "2026-06-20T21:31:21.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-vfm7-4h43-gp6m",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "413c7618352b6f6d",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Users denied by the OAuth role policy can still sign in via token exchange",
-      "summary": "",
-      "published": "2026-09-10T23:04:57.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wvm9-9g5j-623f",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "02f3747d185d7907",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Unauthenticated requests can stall the server via uncached OIDC fetches in back-channel logout",
-      "summary": "",
-      "published": "2026-09-10T22:44:42.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3g9q-v48f-hh9w",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6fba1a5aef4b783f",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Any authenticated user can suppress calendar alerts instance-wide via a non-numeric alert value",
-      "summary": "",
-      "published": "2026-09-10T22:42:48.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-v39v-59xw-j98g",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "aeeab2bbc24cbd39",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[open-webui] Open WebUI: Any authenticated user can start a non-terminating request via a folder parent cycle",
-      "summary": "",
-      "published": "2026-09-10T22:42:25.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8r35-5x5r-hv74",
+      "url": "https://github.com/advisories/GHSA-cv3r-c5h8-f4g5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -606,320 +739,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-65h7-9wrw-629c",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "015dbd4f2e087044",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@jhb.software/payload-alt-text-plugin] @jhb.software/payload-alt-text-plugin: Alt Text Endpoint Authorization Bypass via Payload Local API `overrideAccess` Omission",
-      "summary": "",
-      "published": "2026-09-10T22:39:14.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4qpv-39hg-f7fx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e3d9a5f0e11878da",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@argos-ci/core] @argos-ci/core: CI Branch Name OS Command Injection",
-      "summary": "",
-      "published": "2026-09-10T22:34:17.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4x45-gxvp-6283",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b6000abc5ad022a8",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[omniroute]  OmniRoute ACP Custom-Agent Remote Code Execution (RCE)",
-      "summary": "",
-      "published": "2026-09-10T21:22:12.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-hf57-cqmx-p4gr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f21d1aed2c2beb90",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[n8n] n8n: Per-Resource OAuth Consent Bypass via Unbound Refresh Token Resource Substitution",
-      "summary": "",
-      "published": "2026-09-10T21:21:49.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cw9w-vv67-hf73",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f538185b42f55f7a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[n8n] n8n: Instance AI Credential Setup Accepts Unvalidated Probe URL from Fetched Content",
-      "summary": "",
-      "published": "2026-09-10T21:18:48.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q5wm-mgqx-fv2f",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e1bd38a215db01d5",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[n8n] n8n: Git Node branch.<name>.remote Config Key Bypasses Sandbox Path Restriction, Enabling Local Git Repository Read",
-      "summary": "",
-      "published": "2026-09-10T21:16:36.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qgpw-8g46-w95v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "eecd4dd62c36161d",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Vanilla Scotogenic Model at the future Muon Collider",
-      "summary": "The vanilla scotogenic model (VSM) featuring three right-handed neutrinos and an inert scalar doublet, offers a unified explanation of neutrino masses, dark matter (DM), and the baryon asymmetry of the Universe through leptogenesis. The typical mass scale of such a scenario lies in the vicinity of $\\sim$ 10 TeV and above, whereas enhanced second-generation Yukawa couplings lower the leptogenesis scale to $\\sim 1$ \\TeV, allowing the model to be probed at the future muon colliders. Adhering to DM,",
-      "published": "2026-09-15T17:58:07Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "hep-ph",
-        "astro-ph.CO",
-        "hep-ex"
-      ],
-      "url": "https://arxiv.org/abs/2609.17530v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "facf249dd71c84cc",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Agentic Societies Need a Social Harness",
-      "summary": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic societies even honest, competent agents often fail to reach satisfactory outcomes with existing harnesses and messaging primitives, and that faulty or malicious agents can stall collaboration, influence outcomes, and pursue other harmful goals by exploiting vulnerabilities in commu",
-      "published": "2026-09-15T17:57:27Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.MA",
-        "cs.AI",
-        "cs.NI"
-      ],
-      "url": "https://arxiv.org/abs/2609.17527v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e092177f391f74fc",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "You Shall Not Pass into Ring-0! A User Privacy-Friendly Anti-Cheat Architecture for Personal Computers",
-      "summary": "Kernel-level anti-cheats are effective against malicious player behavior in competitive video games, but raise significant user privacy concerns regarding installing unverifiable components at privileged modes (i.e., ring-0 in x86). While existing research has focused on improving the effectiveness of anti-cheats, the user privacy concern has been largely ignored. Tirith is an anti-cheat architecture that addresses this problem using two key ideas. First, instead of running video games within re",
-      "published": "2026-09-15T17:56:31Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CR"
-      ],
-      "url": "https://arxiv.org/abs/2609.17525v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "cfb130d35551bf07",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
-      "summary": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution evidence into tasks and evaluation rubrics for continual learning. At its core is recursive-in-recursive self-improvement, a paradigm that couples harness evolution with model reinforcement learning: ",
-      "published": "2026-09-15T17:55:28Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2609.17523v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b51a9294df0c80b7",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
-      "summary": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control schedule before generation starts, or use pixel-space signals that dictate object positions rather than physical dynamics. To address these limitations, we propose PhysStream, an autoregressive model for physics-grounded image-to-video synthesis that incorporates structured scene memory-",
-      "published": "2026-09-15T17:55:13Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV",
-        "cs.AI",
-        "cs.GR"
-      ],
-      "url": "https://arxiv.org/abs/2609.17521v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "12d5c4bd4ecc8059",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
-      "summary": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three CoSQ variants under seventeen conditions on the 817-item TruthfulQA multiple-choice validation set using eleven open-weight and hosted model families. In the final balanced-option protocol, Grounded-C",
-      "published": "2026-09-15T17:52:24Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2609.17516v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d46b2b3c73b4cb74",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity",
-      "summary": "Pruning can reduce the deployment cost of large language models (LLMs), but its impact on context-grounded tool calling remains poorly understood. We systematically study pruning-induced degradation in smart-home tool calling across four LLMs spanning dense Transformer, dense hybrid, and mixture-of-experts (MoE) architectures, together with depth, width, hybrid, and expert pruning methods. After post-pruning supervised fine-tuning (SFT), we evaluate more than 19,500 instances from three smart-ho",
-      "published": "2026-09-15T17:51:48Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2609.17515v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a7dc7805676c3740",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Constraints on the central engine of merger-driven long gamma-ray bursts",
-      "summary": "Recent observations have identified a new class of long-duration gamma-ray bursts (GRBs) likely produced by compact binary mergers. Using radio observations and lightcurve modelling, we investigate whether a magnetar remnant can power the long-lasting prompt emission observed in this merger-driven GRB sample. We derive constraints on the magnetars' rotational energy and magnetic-field strength, and assess whether the magnetar central-engine model is viable for the observed events. We conducted 2",
-      "published": "2026-09-15T17:46:35Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "astro-ph.HE"
-      ],
-      "url": "https://arxiv.org/abs/2609.17507v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "43da5c3c685af37c",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Stellar Ages of M Dwarf Hosts of Temperate Sub-Neptunes",
-      "summary": "Measuring M dwarf ages is a central challenge in stellar astrophysics. These stars evolve so slowly that isochrone fitting gives little constraint, requiring alternative methods based on rotation, activity, and kinematics. Reliable ages help constrain the formation and evolution of planetary systems around M dwarfs, including the temperate sub-Neptunes now being characterised with the James Webb Space Telescope (JWST). We present an age analysis of six nearby M dwarf planet hosts (TOI-732, TOI-7",
-      "published": "2026-09-15T17:44:39Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "astro-ph.EP",
-        "astro-ph.SR"
-      ],
-      "url": "https://arxiv.org/abs/2609.17505v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a2c38313d00a78ff",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Verifiable Social Reasoning for LLM Assistants",
-      "summary": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others' intentions, typically lack verifiable ground truth. To address these challenges, we introduce Fuse, a multi-agent simulation framework for studying user-mediated social reasoning. In Fuse, a target a",
-      "published": "2026-09-15T17:37:29Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2609.17496v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
