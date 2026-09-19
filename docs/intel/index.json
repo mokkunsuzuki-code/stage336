@@ -1,10 +1,143 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-09-18T03:51:41.278216+00:00",
+  "generated_at": "2026-09-19T03:48:32.163355+00:00",
   "mode": "safe-metadata-only",
   "item_count": 34,
   "items": [
+    {
+      "id": "e0c581bff2baae37",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mnemosyne-memory] Mnemosyne has JWT signature verification bypass sync server that allows authentication bypass",
+      "summary": "",
+      "published": "2026-09-18T17:54:26.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xcw4-53cc-hv32",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7fccdbdd9864249e",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[anyio] AnyIO run_process/open_process ignores extra_groups and can retain parent supplementary groups",
+      "summary": "",
+      "published": "2026-09-18T17:17:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3w57-8xmc-8v26",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "66965750019b95d3",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[anyio] AnyIO: TLSStream IDNA 2003 host name encoding enables potential TLS certificate spoofing",
+      "summary": "",
+      "published": "2026-09-18T17:17:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-82r6-8w77-94w6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bb4f5b1007488585",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[anyio] AnyIO process-pool workers can block indefinitely on undrained stderr",
+      "summary": "",
+      "published": "2026-09-18T17:17:10.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5p39-cfhj-2xmp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3f4496d12d1fb63c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lmdeploy] LMDeploy has an SSRF bypass",
+      "summary": "",
+      "published": "2026-09-18T17:14:06.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-39wr-7q6h-cf68",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d495701714f830b1",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lmdeploy] LMDeploy vulnerable to arbitrary code execution via eval() of untrusted quant_dtype in model config loading",
+      "summary": "",
+      "published": "2026-09-18T17:04:01.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3hmm-rh5q-gwwr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "aa3a047d41362d3f",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lmdeploy] LMDeploy has Remote Code Execution by Pickle Deserialization via handle_zmq_recv in lmdeploy/lmdeploy/pytorch/disagg/conn/engine_conn.py",
+      "summary": "",
+      "published": "2026-09-18T17:03:56.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2vh9-42vm-xmv2",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "7c1ecd73db4a09d6",
       "source": "github-advisory-pip",
@@ -234,17 +367,17 @@
       }
     },
     {
-      "id": "cbf8144526705d90",
-      "source": "github-advisory-pip",
+      "id": "b22acbe97d1aad28",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vllm] vLLM: Unauthenticated audio decompression-bomb DoS in /v1/chat/completions",
+      "title": "[msdoc-viewer] File Viewer: DOM XSS via unsafe hyperlink schemes in the legacy DOC renderer",
       "summary": "",
-      "published": "2026-09-16T22:12:17.000Z",
+      "published": "2026-09-18T17:19:42.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hcwq-8wjf-3gcr",
+      "url": "https://github.com/advisories/GHSA-3753-m2x2-q623",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +386,17 @@
       }
     },
     {
-      "id": "5deecdd3ae2e8a58",
-      "source": "github-advisory-pip",
+      "id": "feb7fd5dc6be7ce3",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[djust] djust has an unauthenticated arbitrary module import via the WebSocket/SSE view-mount path",
+      "title": "[@file-viewer/doc] File Viewer: DOM XSS via unsafe hyperlink schemes in the legacy DOC renderer",
       "summary": "",
-      "published": "2026-09-16T22:09:38.000Z",
+      "published": "2026-09-18T17:19:42.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7prp-2623-8g45",
+      "url": "https://github.com/advisories/GHSA-3753-m2x2-q623",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +405,17 @@
       }
     },
     {
-      "id": "836c2dc5ac5a7fea",
-      "source": "github-advisory-pip",
+      "id": "dbeb1326bdd1c1a2",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[djust] djust: WebSocket/runtime reconstructed request omits the client Host, causing host/subdomain TenantResolvers to misresolve the tenant on the live path",
+      "title": "[adm-zip] adm-zip: Uncontrolled memory allocation via the declared uncompressed size (DoS)",
       "summary": "",
-      "published": "2026-09-16T22:07:52.000Z",
+      "published": "2026-09-18T17:18:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-v9rj-xjfv-xj9r",
+      "url": "https://github.com/advisories/GHSA-7q85-xj36-vmfc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +424,17 @@
       }
     },
     {
-      "id": "59c2121177a452e5",
-      "source": "github-advisory-pip",
+      "id": "8c3f8e8652cb8711",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[djust] djust has broken object-level access control (IDOR)",
+      "title": "[md-editor-v3] md-editor-v3: XSS via fenced-code language rendering bypass",
       "summary": "",
-      "published": "2026-09-16T22:06:02.000Z",
+      "published": "2026-09-18T17:17:36.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-c7c5-5j6r-q957",
+      "url": "https://github.com/advisories/GHSA-3rm2-h79c-8qw6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,55 +443,17 @@
       }
     },
     {
-      "id": "6d8a60fd6d65724c",
-      "source": "github-advisory-pip",
+      "id": "969934780795a25f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[djust] djust's Django model serialization has no sensitive-field denylist: password hashes, privilege flags, and PII on a public view attribute are sent to the client",
+      "title": "[paella-core] Opencast: Stored XSS in Paella player via WebVTT/DFXP caption cue text",
       "summary": "",
-      "published": "2026-09-16T22:02:49.000Z",
+      "published": "2026-09-18T13:11:59.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-pvg3-6q9j-mj3x",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dd76f26a83754bc3",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[djust] djust has an authorization bypass on the WebSocket/SSE mount path",
-      "summary": "",
-      "published": "2026-09-16T21:58:05.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-xhhm-f6hp-2qwj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dab93ca4a1aaae85",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[djust] djust: Unsigned client state snapshot is restored as trusted view state (privilege escalation / state injection)",
-      "summary": "",
-      "published": "2026-09-16T21:56:12.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-c67v-vqrp-m5wj",
+      "url": "https://github.com/advisories/GHSA-m6c8-jcw2-5r25",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -549,101 +644,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-657c-g7qc-r9j2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "759b149e57ff5445",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@orpc/server] oRPC: Vary Header Injection in CORS Plugin leading to potential Cache/CORS Bypass",
-      "summary": "",
-      "published": "2026-09-17T14:52:37.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-j9v4-rhgr-4m5f",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d47b804a25b7266d",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@cyclonedx/cyclonedx-npm] @cyclonedx/cyclonedx-npm: Shell Injection via Unsanitized --workspace Argument on Windows",
-      "summary": "",
-      "published": "2026-09-17T14:50:40.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q69g-4hcv-6jg4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4e5f96ce5a5a0327",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@vendure/core] Vendure affected by external-authentication account takeover: external login linked to a pre-existing account by email without verification",
-      "summary": "",
-      "published": "2026-09-17T14:50:22.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6j36-r6pr-59x4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d3ac03932bf06a91",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@vendure/core] Vendure: Shop API list queries can return non-public entities when filterOperator is OR",
-      "summary": "",
-      "published": "2026-09-17T14:50:02.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-xf65-r35x-wmmv",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ba23dfcd7b01a499",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[vendure/core] Vendure: Unauthenticated ReDoS via `regex` filter on SQLite backends",
-      "summary": "",
-      "published": "2026-09-17T14:49:56.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-jgm3-qmp2-c4p7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
