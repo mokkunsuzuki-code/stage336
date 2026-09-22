@@ -1,10 +1,29 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-09-21T04:02:04.913173+00:00",
+  "generated_at": "2026-09-22T03:59:14.575172+00:00",
   "mode": "safe-metadata-only",
   "item_count": 34,
   "items": [
+    {
+      "id": "f84f21dcc20fdf34",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[chainlit] Chainlit contains a session hijacking vulnerability",
+      "summary": "",
+      "published": "2026-06-22T18:34:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-c39v-8hrw-h448",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "e0c581bff2baae37",
       "source": "github-advisory-pip",
@@ -340,25 +359,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-rw4j-r22c-9gc3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d8a3b314c573019e",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[litellm] LiteLLM Proxy has server-side request forgery via the `user_config` request parameter",
-      "summary": "",
-      "published": "2026-09-17T14:51:21.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-hx8v-g79f-8w5f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
