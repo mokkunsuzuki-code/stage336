@@ -1,22 +1,22 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-09-22T03:59:14.575172+00:00",
+  "generated_at": "2026-09-23T03:56:58.867406+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 34,
+  "item_count": 39,
   "items": [
     {
-      "id": "f84f21dcc20fdf34",
+      "id": "bd416fbdc074a2e8",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[chainlit] Chainlit contains a session hijacking vulnerability",
+      "title": "[homeassistant] Home Assistant: XSS in Statistics Graph Card",
       "summary": "",
-      "published": "2026-06-22T18:34:16.000Z",
+      "published": "2026-09-22T20:40:55.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-c39v-8hrw-h448",
+      "url": "https://github.com/advisories/GHSA-wx4m-69m9-gx3m",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "e0c581bff2baae37",
+      "id": "e2394183be882e04",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[mnemosyne-memory] Mnemosyne has JWT signature verification bypass sync server that allows authentication bypass",
+      "title": "[homeassistant] Home Assistant: mDNS Server-Side Request Forgery",
       "summary": "",
-      "published": "2026-09-18T17:54:26.000Z",
+      "published": "2026-09-22T20:40:51.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xcw4-53cc-hv32",
+      "url": "https://github.com/advisories/GHSA-4ghv-53cq-7wp3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -44,17 +44,17 @@
       }
     },
     {
-      "id": "7fccdbdd9864249e",
+      "id": "fd2e4347789de8ed",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[anyio] AnyIO run_process/open_process ignores extra_groups and can retain parent supplementary groups",
+      "title": "[lightrag-hku] lightrag-hku: Stored Cross-Site Scripting (XSS) in the LightRAG WebUI chat/answer renderer via ingested content",
       "summary": "",
-      "published": "2026-09-18T17:17:23.000Z",
+      "published": "2026-09-22T20:40:27.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3w57-8xmc-8v26",
+      "url": "https://github.com/advisories/GHSA-xpjq-3w4w-w5wr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -63,17 +63,17 @@
       }
     },
     {
-      "id": "66965750019b95d3",
+      "id": "f0d477825aa83022",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[anyio] AnyIO: TLSStream IDNA 2003 host name encoding enables potential TLS certificate spoofing",
+      "title": "[lightrag-hku] lightrag-hku: SSRF via IPv6-transition address bypass (NAT64, IPv4-compatible, 6to4) of the native-markdown image-download guard",
       "summary": "",
-      "published": "2026-09-18T17:17:18.000Z",
+      "published": "2026-09-22T20:40:25.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-82r6-8w77-94w6",
+      "url": "https://github.com/advisories/GHSA-vv3m-f8x4-7377",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +82,17 @@
       }
     },
     {
-      "id": "bb4f5b1007488585",
+      "id": "15638a9527d279a9",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[anyio] AnyIO process-pool workers can block indefinitely on undrained stderr",
+      "title": "[lightrag-hku] lightrag-hku: No Rate Limiting on /login Endpoint Allows Brute-Force Attacks",
       "summary": "",
-      "published": "2026-09-18T17:17:10.000Z",
+      "published": "2026-09-22T20:40:22.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5p39-cfhj-2xmp",
+      "url": "https://github.com/advisories/GHSA-frch-4w6v-q5xx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +101,17 @@
       }
     },
     {
-      "id": "3f4496d12d1fb63c",
+      "id": "08e77acab1502aa5",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[lmdeploy] LMDeploy has an SSRF bypass",
+      "title": "[lightrag-hku] lightrag-hku: Plaintext Passwords Compared Without Constant-Time Function",
       "summary": "",
-      "published": "2026-09-18T17:14:06.000Z",
+      "published": "2026-09-22T20:40:19.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-39wr-7q6h-cf68",
+      "url": "https://github.com/advisories/GHSA-c759-cx9p-mrwq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +120,17 @@
       }
     },
     {
-      "id": "d495701714f830b1",
+      "id": "d8308ac50c8f65aa",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[lmdeploy] LMDeploy vulnerable to arbitrary code execution via eval() of untrusted quant_dtype in model config loading",
+      "title": "[lightrag-hku] lightrag-hku: Sensitive Information Exposure Through Raw Exception Messages in API Error Responses",
       "summary": "",
-      "published": "2026-09-18T17:04:01.000Z",
+      "published": "2026-09-22T20:37:36.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3hmm-rh5q-gwwr",
+      "url": "https://github.com/advisories/GHSA-hrmj-7rvj-4hg8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +139,17 @@
       }
     },
     {
-      "id": "aa3a047d41362d3f",
+      "id": "1a2e64fe103d07de",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[lmdeploy] LMDeploy has Remote Code Execution by Pickle Deserialization via handle_zmq_recv in lmdeploy/lmdeploy/pytorch/disagg/conn/engine_conn.py",
+      "title": "[nautobot] Nautobot: Authorization bypass in approval workflow REST API allows self-approval and unauthorized activation of scheduled jobs",
       "summary": "",
-      "published": "2026-09-18T17:03:56.000Z",
+      "published": "2026-09-22T20:37:33.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2vh9-42vm-xmv2",
+      "url": "https://github.com/advisories/GHSA-q4c5-2j6f-r476",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +158,17 @@
       }
     },
     {
-      "id": "7c1ecd73db4a09d6",
+      "id": "54497decca80e77a",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[soupsieve] Soup Sieve: Polynomial-time ReDoS (O(n²)) in the `IDENTIFIER` / `VALUE` selector sub-patterns",
+      "title": "[nautobot] Nautobot: Stored cross-site scripting (XSS) in object create/edit form help text",
       "summary": "",
-      "published": "2026-09-17T20:32:58.000Z",
+      "published": "2026-09-22T20:37:30.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gjv8-xp57-g29c",
+      "url": "https://github.com/advisories/GHSA-56v6-2fhr-wxgq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +177,17 @@
       }
     },
     {
-      "id": "67aa66f578c23e10",
+      "id": "ebb228ad99e3003c",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[soupsieve] Soup Sieve: Polynomial-time ReDoS (O(n²)) in the whitespace/comment trimming regex `RE_WS_END` (triggers on VALID selectors)",
+      "title": "[crossbar] Autobahn Python permessage-deflate bypasses maxMessagePayloadSize after inflation",
       "summary": "",
-      "published": "2026-09-17T20:32:53.000Z",
+      "published": "2026-09-22T20:37:28.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-j934-xhv5-fg8f",
+      "url": "https://github.com/advisories/GHSA-hxp9-w8x3-p566",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +196,17 @@
       }
     },
     {
-      "id": "98f6e65c4ab4d5fe",
+      "id": "8a801a2cf21df6d4",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[djust] djust: A template binding inherits a context safety grant it never earned (XSS)",
+      "title": "[autobahn] Autobahn Python permessage-deflate bypasses maxMessagePayloadSize after inflation",
       "summary": "",
-      "published": "2026-09-17T20:31:48.000Z",
+      "published": "2026-09-22T20:37:28.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xjw9-38cr-6372",
+      "url": "https://github.com/advisories/GHSA-hxp9-w8x3-p566",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +215,17 @@
       }
     },
     {
-      "id": "b68e3f87f6a52183",
+      "id": "bc4457f330561632",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[djust] djust: Six template-layer defects emit attacker-controlled markup unescaped (XSS)",
+      "title": "[mcp-atlassian] MCP Atlassian: Arbitrary file read/exfiltration via upload_attachment missing validate_safe_path()",
       "summary": "",
-      "published": "2026-09-17T20:31:43.000Z",
+      "published": "2026-09-22T20:36:37.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9395-2g46-rj3f",
+      "url": "https://github.com/advisories/GHSA-93xw-j965-9mx3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +234,17 @@
       }
     },
     {
-      "id": "1f1ba2a936e9fa14",
+      "id": "7d118f34a19fe3fe",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[jupyter_server] Jupyter Server: 5xx request logging leaks token-bearing Referer header values",
+      "title": "[mcp-atlassian] MCP Atlassian: OAuth fallback token storage writes plaintext access and refresh tokens with group-readable permissions",
       "summary": "",
-      "published": "2026-09-17T20:28:55.000Z",
+      "published": "2026-09-22T20:36:34.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-c3mw-737p-c7g2",
+      "url": "https://github.com/advisories/GHSA-g5xv-mhgm-v5f6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +253,17 @@
       }
     },
     {
-      "id": "4055a6c5b58f7646",
+      "id": "ea7a3b49dd6cc10e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vyper] incorrect order of evaluation of side effects for some builtins",
+      "title": "[mcp-atlassian] MCP Atlassian:  Incomplete fix for GHSA-7r34-79r5-rcc9: redirect-based SSRF via unhooked requests session in Jira user-permission lookup",
       "summary": "",
-      "published": "2023-09-04T16:39:49.000Z",
+      "published": "2026-09-22T20:36:31.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4hg4-9mf5-wxxq",
+      "url": "https://github.com/advisories/GHSA-v9m3-wfh8-5646",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +272,17 @@
       }
     },
     {
-      "id": "4f5c4029eda79ca7",
+      "id": "f6d35cdb93d51a90",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vllm] vLLM: Request-selected PyNvVideoCodec GPU decode bypasses static VRAM reservation",
+      "title": "[mcp-atlassian] MCP Atlassian: Arbitrary server-local file upload to Jira/Confluence attachments via unrestricted file_path parameters",
       "summary": "",
-      "published": "2026-09-17T17:17:39.000Z",
+      "published": "2026-09-22T20:36:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8pw2-6jv3-mj5j",
+      "url": "https://github.com/advisories/GHSA-f6pj-qv47-g96w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +291,17 @@
       }
     },
     {
-      "id": "da24c0918df68928",
+      "id": "df786bcc28c18ff2",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[AccessControl] Zope AccessControl vulnerable to information disclosure through Python string `format` and `format_map` functions",
+      "title": "[mcp-atlassian] [mcp-atlassian] Authentication bypass in HTTP transport: AtlassianOpaqueTokenVerifier accepts any non-empty token",
       "summary": "",
-      "published": "2026-09-17T16:30:37.000Z",
+      "published": "2026-09-22T20:36:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-pq59-9fq7-m886",
+      "url": "https://github.com/advisories/GHSA-wrhw-j3f9-8vc6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +310,17 @@
       }
     },
     {
-      "id": "313517186f795e1c",
+      "id": "fef0c706265b15fd",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[RestrictedPython] RestrictedPython vulnerable to sandbox escape via string.Formatter field resolution",
+      "title": "[mcp-atlassian] MCP Atlassian: SSRF Protection Bypass",
       "summary": "",
-      "published": "2026-09-17T16:30:22.000Z",
+      "published": "2026-09-22T20:36:22.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hp3v-5vw7-fx9w",
+      "url": "https://github.com/advisories/GHSA-hgcf-4mq8-5266",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +329,17 @@
       }
     },
     {
-      "id": "3f3d2d7f0b847ee2",
+      "id": "5070eb148bf0be61",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[sanic] sanic chunked trailer request smuggling allows hidden second request execution",
+      "title": "[mcp-atlassian] MCP Atlassian: Incomplete path traversal fix allows intra-CWD module overwrite and RCE (bypass of GHSA-xjgw-4wvw-rgm4)",
       "summary": "",
-      "published": "2026-09-17T14:59:16.000Z",
+      "published": "2026-09-22T20:36:20.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-wmj6-g64g-j7q5",
+      "url": "https://github.com/advisories/GHSA-6vmq-24h2-pj7j",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +348,359 @@
       }
     },
     {
-      "id": "a8ba91a17486ce57",
+      "id": "db739800e45a1e1e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[asyncssh] AsyncSSH: asyncio event-loop freeze via SSH maximum packet size = 0 in SSH_MSG_CHANNEL_OPEN / OPEN_CONFIRMATION",
+      "title": "[mcp-atlassian] mcp-atlassian has an incomplete SSRF remediation",
       "summary": "",
-      "published": "2026-09-17T14:53:01.000Z",
+      "published": "2026-09-22T20:36:17.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rw4j-r22c-9gc3",
+      "url": "https://github.com/advisories/GHSA-5wf4-jqxh-8gm3",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8f894d9c3c47a78e",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[unleash-server] Unleash: Missing await on permission check + cross-project IDOR in admin API",
+      "summary": "",
+      "published": "2026-09-22T20:36:42.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-72h8-wp98-7hch",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ee51cd63a021acb5",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[unleash-server] Unleash: A project member can reorder activation strategies belonging to any other project / environment (cross-project integrity write), bypassing project RBAC an",
+      "summary": "",
+      "published": "2026-09-22T20:36:39.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5ffh-6f9q-5hhr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "fcdbbff4c4b1a3ad",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[unleash-server] Unleash: Clone-feature lets a user copy a feature from a project they cannot read",
+      "summary": "",
+      "published": "2026-09-22T20:34:40.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8xcj-9hfr-fh9j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "35ee717bbce0e700",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[unleash-server] Unleash: CR-approval email renders user-controlled raw HTML",
+      "summary": "",
+      "published": "2026-09-22T20:34:38.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-7hvx-28gp-mf6j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2d8d3a890bad5f1e",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@novu/js] Novu: Stored XSS in In-App Inbox via notification redirect.url javascript: scheme",
+      "summary": "",
+      "published": "2026-09-22T20:34:35.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8gr3-5j6f-25gp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f832b727cf10fe87",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[mppx] mppx: Gas Draining with access list",
+      "summary": "",
+      "published": "2026-09-22T20:34:19.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vc9j-9wph-qghj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0ce2556d69c9bfb2",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[mppx] mppx: Gas Draining with padding",
+      "summary": "",
+      "published": "2026-09-22T20:34:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-727h-3vm5-qwq6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3d5a3f2cda9ad627",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@deepstream/server] deepstream: PATCH_MULTI action bypasses Valve permission system allowing unauthorized record writes",
+      "summary": "",
+      "published": "2026-09-22T19:56:34.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-89vx-jh4q-vg3w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e38dec1ec153bd1a",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[request-filtering-agent] request-filtering-agent: Synchronous throw from createConnection() for literal private-IP hosts bypasses req.on('error'), crashing the Node.js process",
+      "summary": "",
+      "published": "2026-09-22T19:54:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r3r9-wp5j-pq5g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e780b5aa00bc63d3",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[9router] 9Router has a Login Brute-Force Lockout Bypass via Spoofable X-9r-Real-Ip Header",
+      "summary": "",
+      "published": "2026-09-22T16:34:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-32gc-64m7-hj7v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "31a4e5024a7031f8",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[9router] 9Router has an Authentication Bypass in Public LLM API via Spoofable X-9r-Real-Ip Header",
+      "summary": "",
+      "published": "2026-09-22T16:34:06.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5mj8-gf6m-fhw8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9af231e1d0ac8a48",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@aborruso/ckan-mcp-server] @aborruso/ckan-mcp-server has SSRF via DNS-name → internal IP — incomplete fix of CVE-2026-53509",
+      "summary": "",
+      "published": "2026-09-22T14:51:20.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-798p-78g2-v556",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "18353e694cdf2daa",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@sync-in/server] Sync-in Server has Username/Login Enumeration via Timing Side-Channel on POST /api/auth/login (incomplete fix of the prior timing-attack advisory)",
+      "summary": "",
+      "published": "2026-09-22T14:49:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-29hq-23m2-2j47",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b2dea2db3a64a32f",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@sync-in/server] Sync-in Server has a ReDoS via Unsanitized Regex in Sync Diff `pathFilters`",
+      "summary": "",
+      "published": "2026-09-22T14:47:56.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jx63-h26r-8cph",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d588032c1395d909",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@sync-in/server] Sync-in Server has a complete 2FA Bypass via `POST /api/auth/token`",
+      "summary": "",
+      "published": "2026-09-22T14:46:30.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-92cr-jxw4-5wjg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b14924b197935161",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@sync-in/server] @sync-in/server vulnerable to TOTP Brute-Force via `POST /api/app/sync/register`",
+      "summary": "",
+      "published": "2026-09-22T14:44:43.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-274f-6w77-8qm9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ebb9f0cc3cb1e07d",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@roomi-fields/notebooklm-mcp] @roomi-fields/notebooklm-mcp has a path traversal in vault.batch tool that allows arbitrary file write outside intended vault directory",
+      "summary": "",
+      "published": "2026-09-22T14:43:26.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jjhp-8crj-mppq",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "fdbb5a51f789020e",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[expr-eval] expr-eval vulnerable to Code Execution",
+      "summary": "",
+      "published": "2026-06-23T06:30:41.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q9v2-7m5w-4693",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -397,253 +739,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-3753-m2x2-q623",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dbeb1326bdd1c1a2",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[adm-zip] adm-zip: Uncontrolled memory allocation via the declared uncompressed size (DoS)",
-      "summary": "",
-      "published": "2026-09-18T17:18:01.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-7q85-xj36-vmfc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8c3f8e8652cb8711",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[md-editor-v3] md-editor-v3: XSS via fenced-code language rendering bypass",
-      "summary": "",
-      "published": "2026-09-18T17:17:36.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3rm2-h79c-8qw6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "969934780795a25f",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[paella-core] Opencast: Stored XSS in Paella player via WebVTT/DFXP caption cue text",
-      "summary": "",
-      "published": "2026-09-18T13:11:59.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-m6c8-jcw2-5r25",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fcad9ffd6cb570ad",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@platejs/core] @platejs/core HTML deserialization can trigger browser behavior during parsing",
-      "summary": "",
-      "published": "2026-09-17T20:32:47.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qrfj-mgw8-j9c6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2169890577e9dbf7",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[devalue] Svelte devalue: DoS via malformed input",
-      "summary": "",
-      "published": "2026-09-17T20:28:21.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9rgm-9g3h-6x36",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6bba99df84ec39ae",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@sap/cds-mtxs] @sap/cds-mtx: Credential disclosure in multitenant applications using SAP Cloud Application Programming Model (CAP)",
-      "summary": "",
-      "published": "2026-09-08T03:31:13.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-955m-rr6m-2f9v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d26b0f56a4ebb82d",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@libp2p/peer-store] libp2p: PeerStore accepts attacker-signed PeerRecords for a victim peer ID and stores certified attacker addresses",
-      "summary": "",
-      "published": "2026-09-17T18:01:38.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-vrf4-mx87-p53w",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "9ccb12b9c0e61607",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@libp2p/gossipsub] libp2p: Gossipsub StrictSign accepts attacker-signed messages as a victim RSA peer ID",
-      "summary": "",
-      "published": "2026-09-17T17:29:31.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-c3gv-825q-fvmp",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "431b5cbce7d76ec3",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@tak-ps/cloudtak] TAK-PS-Stats Web UI: Authenticated full-read SSRF in CloudTAK basemap import (PUT /api/basemap) — no IP-classification guard",
-      "summary": "",
-      "published": "2026-07-17T19:02:37.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-vqrw-qphh-p34v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8c63976c14d15a07",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[exifreader] ExifReader: DoS via Crafted HEIC/AVIF iloc Box - Memory Exhaustion",
-      "summary": "",
-      "published": "2026-09-17T16:30:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-pj96-35fp-cfcc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "65f67c4c08ddd98a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[next-tinacms-azure] Tina: [Broken Access Control] letting any TinaCloud user authorize against any self-hosted site",
-      "summary": "",
-      "published": "2026-09-17T14:59:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g74q-6g2f-874x",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f8403beb3d62350d",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@tinacms/auth] Tina: [Broken Access Control] letting any TinaCloud user authorize against any self-hosted site",
-      "summary": "",
-      "published": "2026-09-17T14:59:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g74q-6g2f-874x",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c72b1705639b176e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@redocly/cli] Redocly CLI: Path traversal when using `split` command",
-      "summary": "",
-      "published": "2026-09-17T14:58:50.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-657c-g7qc-r9j2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
