@@ -1,10 +1,48 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-09-25T04:05:22.690796+00:00",
+  "generated_at": "2026-09-26T04:10:13.783893+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 38,
+  "item_count": 36,
   "items": [
+    {
+      "id": "d6a0074c62869377",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[scbe-aethermoore] SCBE-AETHERMOORE Unauthenticated AetherBrowser Ops API Exposes Operator Email Digests",
+      "summary": "",
+      "published": "2026-09-25T21:48:03.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q986-4x7x-gx39",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4876e51b4204f165",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[khoj] khoj has an unauthenticated path traversal in /home/ endpoint that allows file read from server filesystem",
+      "summary": "",
+      "published": "2026-09-25T21:38:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-62mm-xwmv-crhg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "4ee77f3c83b2b9d0",
       "source": "github-advisory-pip",
@@ -310,17 +348,17 @@
       }
     },
     {
-      "id": "975b05ac0e2d9512",
-      "source": "github-advisory-pip",
+      "id": "3b8c4b049fcb7a67",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[langflow] Langflow: Logout button does not clear session",
+      "title": "[knowns] Knowns Unrestricted Path Traversal leading to out-of-bounds arbitrary .md file read, write, and deletion in MCP Docs + Memory Tools",
       "summary": "",
-      "published": "2026-06-19T21:17:01.000Z",
+      "published": "2026-09-25T19:32:05.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7hw8-6q6r-4276",
+      "url": "https://github.com/advisories/GHSA-9gfj-28hw-jchp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +367,93 @@
       }
     },
     {
-      "id": "085b81792227a3d2",
-      "source": "github-advisory-pip",
+      "id": "6b0922dc48188bc3",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[psd-tools] Potential buffer overflow in psd-tools",
+      "title": "[@openzeppelin/confidential-contracts] OpenZeppelin Confidential Contracts `VestingWalletConfidential`: a malicious ERC-7984 token is able to extract private data from the vesting ",
       "summary": "",
-      "published": "2020-03-16T22:46:19.000Z",
+      "published": "2026-09-25T19:31:08.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-22jr-vc7j-g762",
+      "url": "https://github.com/advisories/GHSA-29h2-jr22-frmh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ec79b4691c2b43f8",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@vendure/core] Vendure: Unauthenticated ReDoS via `regex` filter on SQLite backends",
+      "summary": "",
+      "published": "2026-09-17T14:49:56.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jgm3-qmp2-c4p7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3fb8ab484e493c21",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[knowns] Duplicate Advisory: Knowns Unrestricted Path Traversal leading to out-of-bounds arbitrary .md file read, write, and deletion in MCP Docs + Memory Tools",
+      "summary": "",
+      "published": "2026-09-08T00:30:22.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qjrq-cvv4-3g9w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a022dbaa4897e0de",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[knowns] Duplicate Advisory: Knowns Sandbox Escape: Unauthenticated Header Injection Grants AI Agent Unrestricted Access to Host Filesystem",
+      "summary": "",
+      "published": "2026-09-10T18:31:45.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w47m-jpv2-qfw5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b280a0dde0f0aedd",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[parse-server] Parse Server's GraphQL WebSocket endpoint bypasses security middleware",
+      "summary": "",
+      "published": "2026-03-13T20:04:44.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-p2x3-8689-cwpg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -568,158 +682,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-5p2g-fcmc-qvqq",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d33bd4e3bbd5c1be",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[hono] Duplicate Advisory: Hono missing validation of cookie name on write path in setCookie()",
-      "summary": "",
-      "published": "2026-06-23T15:32:37.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-55cm-p4ww-685g",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "67f71021cfcce023",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[image-size] image-size: ICNS parser allows denial of service through an infinite loop",
-      "summary": "",
-      "published": "2026-06-10T15:31:30.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-w3rx-r6r6-pgpr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8206895684bfba0e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[suneditor] SunEditor: Critical XSS vulnerability - sanitizer bypass",
-      "summary": "",
-      "published": "2026-09-24T14:57:55.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6rf4-v2fh-m6p4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e7b9e14e382a139e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[socket.io] socket.io has an unhandled 'error' event",
-      "summary": "",
-      "published": "2024-06-19T15:04:41.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-25hc-qcg6-38wj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8891fc78d11e5f2f",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[systeminformation] Command Injection via Unsanitized `locate` Output in `versions()` — systeminformation",
-      "summary": "",
-      "published": "2026-02-18T22:36:50.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5vv4-hvf7-2h46",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a8f4e91f97bec3c8",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[elysia] elysia has Inefficient Algorithmic Complexity and Interpretation Conflict",
-      "summary": "",
-      "published": "2026-09-23T21:54:50.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9643-4qgh-g8mx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "93282359a9ae3445",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@fecommunity/reactpress] ReactPress has SQL injection via dynamic column names in TypeORM query builders",
-      "summary": "",
-      "published": "2026-09-23T21:51:59.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wmw4-mw6x-6vfm",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e5e7409163565c57",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nuxt] Duplicate Advisory: Nuxt dev server vite-node IPC socket is world-connectable on Linux",
-      "summary": "",
-      "published": "2026-06-23T15:32:36.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2x6f-57hp-86fx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
