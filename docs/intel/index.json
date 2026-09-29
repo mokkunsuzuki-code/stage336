@@ -1,9 +1,9 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-09-28T04:26:15.864921+00:00",
+  "generated_at": "2026-09-29T04:56:04.642031+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 36,
+  "item_count": 38,
   "items": [
     {
       "id": "d6a0074c62869377",
@@ -348,17 +348,17 @@
       }
     },
     {
-      "id": "3b8c4b049fcb7a67",
+      "id": "5d113feadc54ef09",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[knowns] Knowns Unrestricted Path Traversal leading to out-of-bounds arbitrary .md file read, write, and deletion in MCP Docs + Memory Tools",
+      "title": "[nodemailer] Nodemailer: Process-global DNS cache reuses TLS `servername` across transports, enabling cross-tenant SMTP credential disclosure",
       "summary": "",
-      "published": "2026-09-25T19:32:05.000Z",
+      "published": "2026-09-28T21:56:05.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9gfj-28hw-jchp",
+      "url": "https://github.com/advisories/GHSA-6vj9-mwq6-2f5v",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +367,17 @@
       }
     },
     {
-      "id": "6b0922dc48188bc3",
+      "id": "6d501c6e286054f4",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@openzeppelin/confidential-contracts] OpenZeppelin Confidential Contracts `VestingWalletConfidential`: a malicious ERC-7984 token is able to extract private data from the vesting ",
+      "title": "[undici] undici vulnerable to Denial of Service via unhandled error in WebSocket permessage-deflate decompression",
       "summary": "",
-      "published": "2026-09-25T19:31:08.000Z",
+      "published": "2026-09-28T21:42:37.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-29h2-jr22-frmh",
+      "url": "https://github.com/advisories/GHSA-3wwx-pv8p-q78v",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -386,17 +386,17 @@
       }
     },
     {
-      "id": "ec79b4691c2b43f8",
+      "id": "ca10f7db5ff4e2cc",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@vendure/core] Vendure: Unauthenticated ReDoS via `regex` filter on SQLite backends",
+      "title": "[multer] multer vulnerable to Denial of Service via orphaned disk writes on aborted uploads",
       "summary": "",
-      "published": "2026-09-17T14:49:56.000Z",
+      "published": "2026-09-28T21:34:58.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jgm3-qmp2-c4p7",
+      "url": "https://github.com/advisories/GHSA-3pph-fpjx-jg34",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +405,17 @@
       }
     },
     {
-      "id": "3fb8ab484e493c21",
+      "id": "c7d834879dfe4c2a",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[knowns] Duplicate Advisory: Knowns Unrestricted Path Traversal leading to out-of-bounds arbitrary .md file read, write, and deletion in MCP Docs + Memory Tools",
+      "title": "[morgan] morgan vulnerable to Log Injection via unescaped double quote in quoted log fields",
       "summary": "",
-      "published": "2026-09-08T00:30:22.000Z",
+      "published": "2026-09-28T21:33:08.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qjrq-cvv4-3g9w",
+      "url": "https://github.com/advisories/GHSA-9f6g-j8ch-79g4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +424,17 @@
       }
     },
     {
-      "id": "a022dbaa4897e0de",
+      "id": "ba61930cef6d9906",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[knowns] Duplicate Advisory: Knowns Sandbox Escape: Unauthenticated Header Injection Grants AI Agent Unrestricted Access to Host Filesystem",
+      "title": "[@angular/platform-server] Angular SSR: Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE",
       "summary": "",
-      "published": "2026-09-10T18:31:45.000Z",
+      "published": "2026-09-28T21:31:21.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-w47m-jpv2-qfw5",
+      "url": "https://github.com/advisories/GHSA-f67j-2jqw-jpq7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +443,17 @@
       }
     },
     {
-      "id": "b280a0dde0f0aedd",
+      "id": "2576e179b60b0d0c",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[parse-server] Parse Server's GraphQL WebSocket endpoint bypasses security middleware",
+      "title": "[fast-uri] fast-uri vulnerable to authority injection via an unvalidated port in serialize",
       "summary": "",
-      "published": "2026-03-13T20:04:44.000Z",
+      "published": "2026-09-28T21:24:39.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p2x3-8689-cwpg",
+      "url": "https://github.com/advisories/GHSA-qw65-cvwx-89v3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +462,17 @@
       }
     },
     {
-      "id": "97f7d6034bf7cbe9",
+      "id": "2400c7afcd27c05c",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[cline] Cline: Cross-Origin WebSocket Hijacking in Cline Hub Dashboard (`/browser` endpoint)",
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via an unclosed bracket in the URI authority",
       "summary": "",
-      "published": "2026-09-24T19:48:34.000Z",
+      "published": "2026-09-28T21:23:35.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3cj3-hqcr-g934",
+      "url": "https://github.com/advisories/GHSA-58mr-gqgx-xq4g",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +481,17 @@
       }
     },
     {
-      "id": "0122e2f4254ad9fa",
+      "id": "4693262c01f10825",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@rsdoctor/rspack-plugin] @rsdoctor/rspack-plugin has Unauthenticated HTTP API that Exposes Project Source Code and Build Metadata",
+      "title": "[ip-address] ip-address: Address6.isLinkLocal() recognizes fe80::/64 rather than fe80::/10, allowing SSRF and trust-boundary bypass to on-link hosts",
       "summary": "",
-      "published": "2026-09-24T19:42:10.000Z",
+      "published": "2026-09-28T20:43:55.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jmg2-rcxh-w8q3",
+      "url": "https://github.com/advisories/GHSA-rpw4-54j3-4h4q",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +500,17 @@
       }
     },
     {
-      "id": "795a9d7b09bc433d",
+      "id": "265f05f689b0f132",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@bytebase/dbhub] @bytebase/dbhub's read-only mode does not prevent database writes",
+      "title": "[ip-address] ip-address: no classifier recognizes the NAT64 local-use range 64:ff9b:1::/48, allowing SSRF and trust-boundary bypass",
       "summary": "",
-      "published": "2026-09-24T19:37:59.000Z",
+      "published": "2026-09-28T20:43:03.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mwwr-p57h-56pf",
+      "url": "https://github.com/advisories/GHSA-2vr4-cq9g-pvrc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +519,17 @@
       }
     },
     {
-      "id": "22f883560c5ed0a5",
+      "id": "ac17b69b5965bded",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@bytebase/dbhub] DBHub HTTP transport DNS rebinding allows unauthenticated browser-origin SQL execution",
+      "title": "[@angular/platform-server] Angular SSR: XSS via Unescaped Processing Instruction (<?...?>) Nodes in Fallback Raw-Content Elements",
       "summary": "",
-      "published": "2026-09-24T19:36:57.000Z",
+      "published": "2026-09-28T20:39:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fm8p-53ww-hf6w",
+      "url": "https://github.com/advisories/GHSA-j3r3-mxqp-r2p4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +538,17 @@
       }
     },
     {
-      "id": "417162ba82cad80c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[xhtml-purifier] xhtml-purifier has HTML attribute-injection (sanitizer bypass) that leads to XSS",
-      "summary": "",
-      "published": "2026-09-24T19:33:23.000Z",
+      "id": "f1bf462728b83c48",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Peppy: An AI-Assisted Workflow for Tight Convergence Analysis of Optimization Algorithms",
+      "summary": "This paper presents Peppy, an AI-assisted workflow for discovering tight, analytic convergence proofs for first-order optimization algorithms. Generic approaches to using LLMs to conduct mathematical research target an unspecified, broad spectrum of problems and sometimes use the Lean 4 proof assistant for formalization. On the other hand, Peppy leverages domain-specific knowledge more heavily and is thereby capable of constructing the proofs in a more structured manner, which allow a minimal an",
+      "published": "2026-09-28T17:59:12Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "math.OC"
       ],
-      "url": "https://github.com/advisories/GHSA-j8r4-32c5-33rc",
+      "url": "https://arxiv.org/abs/2609.35762v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +557,17 @@
       }
     },
     {
-      "id": "c6609771db9272d1",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@bsv/wallet-toolbox-mobile] `@bsv/wallet-toolbox` / `-client` / `-mobile` don't verify storage-supplied recipient output scripts against caller-requested outputs in createAction",
-      "summary": "",
-      "published": "2026-09-24T19:32:00.000Z",
+      "id": "4674b52d3a2c3ceb",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Scaling Long-Form Story Generation via Narrative State Tracking",
+      "summary": "LLMs have demonstrated strong capabilities in creative writing. However, scaling them to full-length novels remains challenging, as maintaining narrative consistency becomes increasingly difficult. Existing story-generation methods typically focus on stories of up to about ten thousand words, leaving their ability to scale to full-length novels underexplored. In this work, we introduce Narrative State Tracking Agent (NstAgent), a training-free agentic framework that allows LLMs to track a struct",
+      "published": "2026-09-28T17:59:09Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CL"
       ],
-      "url": "https://github.com/advisories/GHSA-36f9-7rg5-cpf8",
+      "url": "https://arxiv.org/abs/2609.35759v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,17 +576,19 @@
       }
     },
     {
-      "id": "d47c0f104e693115",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@bsv/wallet-toolbox-client] `@bsv/wallet-toolbox` / `-client` / `-mobile` don't verify storage-supplied recipient output scripts against caller-requested outputs in createAction",
-      "summary": "",
-      "published": "2026-09-24T19:32:00.000Z",
+      "id": "81ed912b8306b00f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
+      "summary": "When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool feedback and intermediate results, while the growing context steadily inflates the input size of every subsequent call. The total consumption of a task is therefore hard to predict before execution and the prediction must be revised as the run unfolds. In this paper, we propose TokenCast, which learns a composable cos",
+      "published": "2026-09-28T17:59:09Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.LG",
+        "cs.AI",
+        "cs.SE"
       ],
-      "url": "https://github.com/advisories/GHSA-36f9-7rg5-cpf8",
+      "url": "https://arxiv.org/abs/2609.35760v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -595,17 +597,17 @@
       }
     },
     {
-      "id": "480e8a512695a117",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@bsv/wallet-toolbox] `@bsv/wallet-toolbox` / `-client` / `-mobile` don't verify storage-supplied recipient output scripts against caller-requested outputs in createAction",
-      "summary": "",
-      "published": "2026-09-24T19:32:00.000Z",
+      "id": "16fe4649e1ad368d",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "AutoCF: An Automated LLM-Assisted Ecosystem for Compound Flood Simulation, Evaluation, and Impact Attribution",
+      "summary": "Compound coastal flooding (CCF) arises from interacting coastal, precipitation, and river processes, yet modeling workflows often separate simulation, evaluation, and impact analysis. We present AutoCF, an automated ecosystem integrating data harmonization, model construction, observational evaluation, exposure analysis, complete factorial driver attribution, and cross-platform execution. The automated Hurricane Harvey simulation achieves a median root mean square error of 0.147 m and correlatio",
+      "published": "2026-09-28T17:58:14Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "physics.geo-ph"
       ],
-      "url": "https://github.com/advisories/GHSA-36f9-7rg5-cpf8",
+      "url": "https://arxiv.org/abs/2609.35753v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -614,17 +616,18 @@
       }
     },
     {
-      "id": "641cee998a47840b",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[cyberchef] CyberChef: Prototype pollution in Series Chart operation",
-      "summary": "",
-      "published": "2026-09-24T19:24:30.000Z",
+      "id": "1228f507e8bd2fb4",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "KV-streams for Efficient Compaction in Agentic Reinforcement Learning",
+      "summary": "Scaling the horizon of agentic LLMs is bottlenecked by the need to fit ever longer context traces in GPU memory. Context compaction has been the most popular mechanism to alleviate this issue, keeping GPU memory constant for a given trace. Unfortunately, most compaction strategies rely on prefilling the LLM context many times over, hindering training throughput. To alleviate this bottleneck and enable efficient trainable compaction, we propose KV-streams, a plug-and-play strategy compatible with",
+      "published": "2026-09-28T17:57:42Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.LG",
+        "cs.AI"
       ],
-      "url": "https://github.com/advisories/GHSA-fx6f-382r-j72c",
+      "url": "https://arxiv.org/abs/2609.35750v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -633,17 +636,18 @@
       }
     },
     {
-      "id": "a4cf5894dcecc183",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@aws/lsp-codewhisperer] Language Servers for AWS vulnerable to arbitrary file write",
-      "summary": "",
-      "published": "2026-09-24T19:15:39.000Z",
+      "id": "3fbaf9f95533ce30",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "FinAutoRubric: Expert-Guided Automatic Rubric Generation for Evaluating Financial Research Agents",
+      "summary": "Evaluating finance research agents requires rubrics that reflect expert standards and fix the values correct as of an information cutoff. Expert-reviewed finance benchmarks rely on fixed, per-item rubrics, which are costly to extend and cannot encode each institution's own standard. In FinAutoRubric, experts specify reusable evaluation guidance, while agents and code carry out query-specific rubric generation, review, and validation. This expert guidance governs every agent, as prompts and as ru",
+      "published": "2026-09-28T17:55:06Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI",
+        "q-fin.CP"
       ],
-      "url": "https://github.com/advisories/GHSA-6v3r-4p5c-mrp5",
+      "url": "https://arxiv.org/abs/2609.35744v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -652,17 +656,18 @@
       }
     },
     {
-      "id": "3ac5fbec87c9aabd",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@aws/lsp-codewhisperer] Language Servers for AWS Vulnerable to Arbitrary Code Execution",
-      "summary": "",
-      "published": "2026-09-24T19:13:53.000Z",
+      "id": "0e31bb199acad196",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "MINT: Modeling GenAI Impact on Network Traffic",
+      "summary": "Generative AI (GenAI) is becoming a mainstream network workload, yet packet-level simulators lack measure\\-ment-driven GenAI traffic models. Currently researchers must approximate GenAI services using traditional sources such as file transfer and video streaming, limiting realistic network evaluation of scheduling and capacity planning. We present MINT, a measurement and modeling framework for GenAI network traffic. Using an isolated net\\-work-namespace capture pipeline, we collect client-side t",
+      "published": "2026-09-28T17:54:31Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.NI",
+        "eess.SY"
       ],
-      "url": "https://github.com/advisories/GHSA-xhcr-j4j9-3gh7",
+      "url": "https://arxiv.org/abs/2609.35742v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -671,17 +676,56 @@
       }
     },
     {
-      "id": "d2e6227a0f9f4a3c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[image-size] image-size: JXL and HEIF parsers allow denial of service through infinite loops",
-      "summary": "",
-      "published": "2026-06-10T15:31:30.000Z",
+      "id": "15e03c23bcaa3ce1",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Shockingly Simple Self-retrospection Improves Agentic Models Without RL",
+      "summary": "People learn not only by repeating successful actions, but also by recounting and explaining their experiences, revising their understanding to guide future behavior. Can a language-model agent improve its future actions by training only on explanations of its own experience? We investigate this question by studying Retrospection-Only Fine-Tuning (ROFT), a minimal online procedure designed to isolate the effect of explanation-only training on subsequent behavior. The agent attempts a task, obser",
+      "published": "2026-09-28T17:54:24Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI",
+        "cs.CL"
       ],
-      "url": "https://github.com/advisories/GHSA-5p2g-fcmc-qvqq",
+      "url": "https://arxiv.org/abs/2609.35741v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3fd7430382181be8",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Rubric-Calibrated Preferences: Cross-Query Calibration of LLM Judgments via Item Response Theory",
+      "summary": "Rerankers decide which documents users and LLMs see, yet their standard metric, nDCG, relies on human relevance labels that are costly, sparse, noisy, and discretely graded. As rerankers approach each other in quality, nDCG on these labels therefore increasingly fails to separate them. LLM judges could supply dense labels. Relative judgments within one query tell even close candidates apart, yet their scores share no scale across queries. Absolute grades share one scale but are too coarse to dis",
+      "published": "2026-09-28T17:54:16Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.IR"
+      ],
+      "url": "https://arxiv.org/abs/2609.35739v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "503e6bf4bc1bffe1",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "GeoVerse: World-Consistent Novel View Synthesis in Geometric Latent Space",
+      "summary": "Novel view synthesis from sparse images must reconcile faithful reconstruction of observed regions with plausible completion of unseen content, while maintaining world consistency across viewpoints. Existing geometry-based methods preserve observed scene structure but often struggle to complete unseen regions, whereas video generative models offer rich appearance priors but accumulate inconsistencies during sequential view generation. We propose GeoVerse, a framework that synthesizes world-consi",
+      "published": "2026-09-28T17:51:48Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2609.35734v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
