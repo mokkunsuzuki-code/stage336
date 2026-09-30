@@ -1,10 +1,238 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-09-29T04:56:04.642031+00:00",
+  "generated_at": "2026-09-30T04:42:31.158160+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 38,
+  "item_count": 40,
   "items": [
+    {
+      "id": "64cd04792d357b0c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[PyJWT] PyJWT: PyJWK accepts empty HMAC keys, bypassing PyJWT's empty-key validation",
+      "summary": "",
+      "published": "2026-09-29T23:43:19.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9j54-fg26-wv3r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "970af4aa5f4794ff",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pyJWT] PyJWT: Uncaught RecursionError in jwt.decode() on deeply nested token header",
+      "summary": "",
+      "published": "2026-09-29T23:43:06.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8wjv-2p76-3863",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "96a08ece002dec5f",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[PyJWT] PyJWT: Non-canonical signature segments enable raw-token revocation bypass",
+      "summary": "",
+      "published": "2026-09-29T23:17:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hxm8-2xgr-2p9m",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "cda30b01df19ce16",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[PyJWT] PyJWT: Asymmetric-PEM detection bypass: whitespace/line-ending-mutated public keys skip the HS/asymmetric confusion guard",
+      "summary": "",
+      "published": "2026-09-29T23:17:33.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-ffc3-869f-jxw9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4e995d358f0d1ab7",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[PyJWT] PyJWT accepts public JWK containers as HMAC secrets",
+      "summary": "",
+      "published": "2026-09-29T23:16:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w2cx-738m-mc7w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2acd214b868b6b89",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[PyJWT] PyJWT: PyJWKClient follows redirects when fetching JWKS",
+      "summary": "",
+      "published": "2026-09-29T23:15:00.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9v7f-9g4p-ffgj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "41912e1900fc19b4",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pyjwt] PyJWT: Public keys in DER form are accepted as HMAC secrets, bypassing the CVE-2022-29217 guard",
+      "summary": "",
+      "published": "2026-09-29T23:14:33.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-p4g4-x82p-q773",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "47488d364dcfe6b1",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[PyJWT] PyJWT BOM Bypass",
+      "summary": "",
+      "published": "2026-09-29T23:14:00.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r6x4-923q-g947",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c5e0cbbaecc4b00c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pyjwt] PyJWT: PyJWKClient still amplifies unauthenticated JWKS fetches on unknown kid values (incomplete fix of CVE-2026-48524)",
+      "summary": "",
+      "published": "2026-09-29T23:11:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2gx3-rcp4-g85q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f5243d92224e5d67",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[PyJWT] PyJWT: Malformed RSA JWK aborts parsing of an entire JWK Set",
+      "summary": "",
+      "published": "2026-09-29T18:23:01.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w6j9-cwv2-h6wq",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "62d6c2b65a631de6",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[oauthlib] Oauthlib: Timing Attack Vulnerability in PKCE code_verifier Comparison (CWE-208)",
+      "summary": "",
+      "published": "2026-09-29T17:56:31.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xpv3-w29h-x7cv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "211ee3df0da848fb",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[oauthlib] Oauthlib : Unsafe JSONP callback injection in RevocationEndpoint allows arbitrary JavaScript response generation",
+      "summary": "",
+      "published": "2026-09-29T17:53:41.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hj66-6f7g-4r5v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "d6a0074c62869377",
       "source": "github-advisory-pip",
@@ -158,207 +386,17 @@
       }
     },
     {
-      "id": "4e5e6b0ece6f85ea",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[compliance-trestle] Trestle SSTI in Jinja2 include tags allows arbitrary code execution (Incomplete fix of CVE-2026-46439)",
-      "summary": "",
-      "published": "2026-09-24T19:50:27.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mr95-65j8-9mxp",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7ed87ab4bff486dc",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[hpack] hpack: Unbounded variable integer decoding can cause run-away computation on malformed input",
-      "summary": "",
-      "published": "2026-09-24T19:43:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8v8h-hg4w-mvq2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b191c9cd2404313f",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[langchain-nvidia-ai-endpoints] langchain-nvidia-ai-endpoints has local file disclosure through VLM image inputs",
-      "summary": "",
-      "published": "2026-09-24T19:25:36.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g28h-2cmm-rj9x",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7957427d1bc17831",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[decepticon-sdk] Decepticon: Role-boundary forgery via ChatML special-token literals in web crawl output composed into LLM context",
-      "summary": "",
-      "published": "2026-09-24T19:17:49.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g5f9-3xfg-p9mf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b79d70e29d90bf14",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[decepticon] Decepticon: Role-boundary forgery via ChatML special-token literals in web crawl output composed into LLM context",
-      "summary": "",
-      "published": "2026-09-24T19:17:49.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g5f9-3xfg-p9mf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dddf9c0f025e5881",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[decepticon-core] Decepticon: Role-boundary forgery via ChatML special-token literals in web crawl output composed into LLM context",
-      "summary": "",
-      "published": "2026-09-24T19:17:49.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-g5f9-3xfg-p9mf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "08ac658bb3d6a443",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[foreman-mcp-server] foreman-mcp-server Inserts Sensitive Information into Log File",
-      "summary": "",
-      "published": "2026-06-23T21:30:33.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-7rcj-2493-83x3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "5f8eac0e075636f9",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[swift] OpenStack Swift vulnerable to authenticated server-side request forgery",
-      "summary": "",
-      "published": "2026-06-23T18:31:44.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-h8rc-w822-q8vq",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a3855e7447579c9d",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[lightning]  PyTorch Lightning allows arbitrary code execution through checkpoint _instantiator hyperparameters",
-      "summary": "",
-      "published": "2026-07-15T18:31:58.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qqmf-gpg7-g8gw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "aa562b225f436fb8",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[streamlink] Streamlink: HTTPSession follows HTTP redirects into file:// URLs, reading local files",
-      "summary": "",
-      "published": "2026-09-24T14:58:04.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-vf2x-4v53-pm7v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "5d113feadc54ef09",
+      "id": "3f86d781e1935c5a",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nodemailer] Nodemailer: Process-global DNS cache reuses TLS `servername` across transports, enabling cross-tenant SMTP credential disclosure",
+      "title": "[@nestjs/microservices] Nest: Remote process termination via a deeply nested microservice message pattern",
       "summary": "",
-      "published": "2026-09-28T21:56:05.000Z",
+      "published": "2026-09-29T23:54:44.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6vj9-mwq6-2f5v",
+      "url": "https://github.com/advisories/GHSA-m8vh-jmq9-5rjg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +405,17 @@
       }
     },
     {
-      "id": "6d501c6e286054f4",
+      "id": "083427357ce1ca6d",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[undici] undici vulnerable to Denial of Service via unhandled error in WebSocket permessage-deflate decompression",
+      "title": "[fast-uri] fast-uri vulnerable to inconsistent host case normalization via percent-encoded octets",
       "summary": "",
-      "published": "2026-09-28T21:42:37.000Z",
+      "published": "2026-09-29T23:54:25.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3wwx-pv8p-q78v",
+      "url": "https://github.com/advisories/GHSA-hrr3-gc8f-f4qj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -386,17 +424,17 @@
       }
     },
     {
-      "id": "ca10f7db5ff4e2cc",
+      "id": "53e7eac759d6941b",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[multer] multer vulnerable to Denial of Service via orphaned disk writes on aborted uploads",
+      "title": "[fast-uri] fast-uri vulnerable to mailto header injection via percent-encoded field-name desynchronization",
       "summary": "",
-      "published": "2026-09-28T21:34:58.000Z",
+      "published": "2026-09-29T23:51:16.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3pph-fpjx-jg34",
+      "url": "https://github.com/advisories/GHSA-jvvf-x445-j334",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +443,17 @@
       }
     },
     {
-      "id": "c7d834879dfe4c2a",
+      "id": "2341576327e1f331",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[morgan] morgan vulnerable to Log Injection via unescaped double quote in quoted log fields",
+      "title": "[decompress] @xhmikosr/decompress: Path traversal via symlink chain",
       "summary": "",
-      "published": "2026-09-28T21:33:08.000Z",
+      "published": "2026-09-29T23:49:42.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9f6g-j8ch-79g4",
+      "url": "https://github.com/advisories/GHSA-hrh2-vp3x-79xf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +462,17 @@
       }
     },
     {
-      "id": "ba61930cef6d9906",
+      "id": "42f8c5c01f4aadf8",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@angular/platform-server] Angular SSR: Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE",
+      "title": "[@xhmikosr/decompress] @xhmikosr/decompress: Path traversal via symlink chain",
       "summary": "",
-      "published": "2026-09-28T21:31:21.000Z",
+      "published": "2026-09-29T23:49:42.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-f67j-2jqw-jpq7",
+      "url": "https://github.com/advisories/GHSA-hrh2-vp3x-79xf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +481,17 @@
       }
     },
     {
-      "id": "2576e179b60b0d0c",
+      "id": "14abcfddfce6974f",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[fast-uri] fast-uri vulnerable to authority injection via an unvalidated port in serialize",
+      "title": "[ip-address] ip-address: isInSubnet() and isHostInSubnet() compare addresses of different families as if they shared an address space, allowing an allowlist check to admit an addre",
       "summary": "",
-      "published": "2026-09-28T21:24:39.000Z",
+      "published": "2026-09-29T23:46:52.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qw65-cvwx-89v3",
+      "url": "https://github.com/advisories/GHSA-j6r3-76f7-8jcv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +500,17 @@
       }
     },
     {
-      "id": "2400c7afcd27c05c",
+      "id": "e81f0d4f8a79cee4",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via an unclosed bracket in the URI authority",
+      "title": "[ip-address] ip-address: Address6 builds a parse diagnostic proportional to the input with no length bound, allowing a single long string to stall or crash the process",
       "summary": "",
-      "published": "2026-09-28T21:23:35.000Z",
+      "published": "2026-09-29T23:46:39.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-58mr-gqgx-xq4g",
+      "url": "https://github.com/advisories/GHSA-h3mg-xc3c-68pw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +519,17 @@
       }
     },
     {
-      "id": "4693262c01f10825",
+      "id": "a99ad24137b589b0",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ip-address] ip-address: Address6.isLinkLocal() recognizes fe80::/64 rather than fe80::/10, allowing SSRF and trust-boundary bypass to on-link hosts",
+      "title": "[moment] moment vulnerable to Path Traversal via crafted non-string locale name",
       "summary": "",
-      "published": "2026-09-28T20:43:55.000Z",
+      "published": "2026-09-29T23:46:02.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rpw4-54j3-4h4q",
+      "url": "https://github.com/advisories/GHSA-4p3w-j4w9-5jqw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +538,17 @@
       }
     },
     {
-      "id": "265f05f689b0f132",
+      "id": "75a19e004ab6ca52",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ip-address] ip-address: no classifier recognizes the NAT64 local-use range 64:ff9b:1::/48, allowing SSRF and trust-boundary bypass",
+      "title": "[brace-expansion] brace-expansion: Quadratic-time expansion of the `{a},b}` rewrite causes CPU denial of service",
       "summary": "",
-      "published": "2026-09-28T20:43:03.000Z",
+      "published": "2026-09-29T23:45:39.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2vr4-cq9g-pvrc",
+      "url": "https://github.com/advisories/GHSA-q2hr-2g5m-vwhr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +557,17 @@
       }
     },
     {
-      "id": "ac17b69b5965bded",
+      "id": "930e0e0eefe9ed70",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@angular/platform-server] Angular SSR: XSS via Unescaped Processing Instruction (<?...?>) Nodes in Fallback Raw-Content Elements",
+      "title": "[brace-expansion] brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion",
       "summary": "",
-      "published": "2026-09-28T20:39:26.000Z",
+      "published": "2026-09-29T23:45:17.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-j3r3-mxqp-r2p4",
+      "url": "https://github.com/advisories/GHSA-qhr7-859c-m2p7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +576,17 @@
       }
     },
     {
-      "id": "f1bf462728b83c48",
+      "id": "d80fb9338da8c21e",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Peppy: An AI-Assisted Workflow for Tight Convergence Analysis of Optimization Algorithms",
-      "summary": "This paper presents Peppy, an AI-assisted workflow for discovering tight, analytic convergence proofs for first-order optimization algorithms. Generic approaches to using LLMs to conduct mathematical research target an unspecified, broad spectrum of problems and sometimes use the Lean 4 proof assistant for formalization. On the other hand, Peppy leverages domain-specific knowledge more heavily and is thereby capable of constructing the proofs in a more structured manner, which allow a minimal an",
-      "published": "2026-09-28T17:59:12Z",
+      "title": "Point2Part: Unified 3D Partitioning from Point Prompts",
+      "summary": "Existing 3D part decomposition methods do not necessarily partition the original shape into non-overlapping parts that collectively cover the entire shape, allowing overlaps or gaps that hinder downstream part-level applications. We instead formulate part decomposition as a joint partitioning of the entire shape, where the predicted parts are non-overlapping and jointly recover the entire shape. Our key insight is that part decomposition should consider all desired parts jointly, rather than mod",
+      "published": "2026-09-29T17:59:58Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "math.OC"
+        "cs.CV"
       ],
-      "url": "https://arxiv.org/abs/2609.35762v1",
+      "url": "https://arxiv.org/abs/2609.38180v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +595,18 @@
       }
     },
     {
-      "id": "4674b52d3a2c3ceb",
+      "id": "b0906b5e84da8495",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Scaling Long-Form Story Generation via Narrative State Tracking",
-      "summary": "LLMs have demonstrated strong capabilities in creative writing. However, scaling them to full-length novels remains challenging, as maintaining narrative consistency becomes increasingly difficult. Existing story-generation methods typically focus on stories of up to about ten thousand words, leaving their ability to scale to full-length novels underexplored. In this work, we introduce Narrative State Tracking Agent (NstAgent), a training-free agentic framework that allows LLMs to track a struct",
-      "published": "2026-09-28T17:59:09Z",
+      "title": "Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering",
+      "summary": "Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work attempts to close this gap by injecting 3D awareness into MLLMs, either by boosting fine-grained pixel-level cross-view correspondence or by fusing features from 3D geometry foundation models, yet a s",
+      "published": "2026-09-29T17:59:52Z",
       "impact_scope": "metadata-only",
       "tags": [
+        "cs.CV",
         "cs.CL"
       ],
-      "url": "https://arxiv.org/abs/2609.35759v1",
+      "url": "https://arxiv.org/abs/2609.38177v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,19 +615,17 @@
       }
     },
     {
-      "id": "81ed912b8306b00f",
+      "id": "5d9d6fc3b625cd26",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
-      "summary": "When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool feedback and intermediate results, while the growing context steadily inflates the input size of every subsequent call. The total consumption of a task is therefore hard to predict before execution and the prediction must be revised as the run unfolds. In this paper, we propose TokenCast, which learns a composable cos",
-      "published": "2026-09-28T17:59:09Z",
+      "title": "In-context Robot Learning Made Simple: A Democratized Recipe for Manipulation Tasks",
+      "summary": "We study robotic in-context learning (ICL), an emerging paradigm that enables robots to infer and execute tasks from visual demonstrations. Despite its growing promise, the problem itself remains under-defined: a visual demonstration simultaneously conveys action trajectories, object semantics, manipulation affordances, spatial relations, and task goals, making it unclear what information the robot is actually expected to follow. In this work, we first provide a clear problem definition of robot",
+      "published": "2026-09-29T17:59:45Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.LG",
-        "cs.AI",
-        "cs.SE"
+        "cs.RO"
       ],
-      "url": "https://arxiv.org/abs/2609.35760v1",
+      "url": "https://arxiv.org/abs/2609.38173v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -597,17 +634,17 @@
       }
     },
     {
-      "id": "16fe4649e1ad368d",
+      "id": "bacf3d66f6df76aa",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "AutoCF: An Automated LLM-Assisted Ecosystem for Compound Flood Simulation, Evaluation, and Impact Attribution",
-      "summary": "Compound coastal flooding (CCF) arises from interacting coastal, precipitation, and river processes, yet modeling workflows often separate simulation, evaluation, and impact analysis. We present AutoCF, an automated ecosystem integrating data harmonization, model construction, observational evaluation, exposure analysis, complete factorial driver attribution, and cross-platform execution. The automated Hurricane Harvey simulation achieves a median root mean square error of 0.147 m and correlatio",
-      "published": "2026-09-28T17:58:14Z",
+      "title": "Adversarial Training for Pixel Diffusion",
+      "summary": "Pixel diffusion models generate RGB images directly, avoiding the bottleneck of an autoencoder, yet their outputs still systematically underrepresent fine-scale natural-image statistics. We show that adversarial learning provides an effective post-training correction for this deficiency. Starting from a pretrained model, we retain its original diffusion or flow-matching objective and add an adversarial loss to the predicted output at non-high-noise timesteps, leaving the model architecture and s",
+      "published": "2026-09-29T17:59:41Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "physics.geo-ph"
+        "cs.CV"
       ],
-      "url": "https://arxiv.org/abs/2609.35753v1",
+      "url": "https://arxiv.org/abs/2609.38170v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -616,18 +653,18 @@
       }
     },
     {
-      "id": "1228f507e8bd2fb4",
+      "id": "22e37266bcf24de7",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "KV-streams for Efficient Compaction in Agentic Reinforcement Learning",
-      "summary": "Scaling the horizon of agentic LLMs is bottlenecked by the need to fit ever longer context traces in GPU memory. Context compaction has been the most popular mechanism to alleviate this issue, keeping GPU memory constant for a given trace. Unfortunately, most compaction strategies rely on prefilling the LLM context many times over, hindering training throughput. To alleviate this bottleneck and enable efficient trainable compaction, we propose KV-streams, a plug-and-play strategy compatible with",
-      "published": "2026-09-28T17:57:42Z",
+      "title": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
+      "summary": "Recent LLMs increasingly adopt hybrid designs that replace standard attention with linear attention, such as Gated DeltaNet (GDN) and Kimi Delta Attention (KDA). Although they compress the context into a fixed-size recurrent state and substantially reduce the cost of long-context processing, repeatedly reading and updating that state remains a major inference bottleneck. Quantization offers a natural way to reduce this cost, but can significantly degrade model quality, due to the accumulation of",
+      "published": "2026-09-29T17:59:34Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.LG",
         "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2609.35750v1",
+      "url": "https://arxiv.org/abs/2609.38166v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -636,18 +673,17 @@
       }
     },
     {
-      "id": "3fbaf9f95533ce30",
+      "id": "234fcc71c1e7e733",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "FinAutoRubric: Expert-Guided Automatic Rubric Generation for Evaluating Financial Research Agents",
-      "summary": "Evaluating finance research agents requires rubrics that reflect expert standards and fix the values correct as of an information cutoff. Expert-reviewed finance benchmarks rely on fixed, per-item rubrics, which are costly to extend and cannot encode each institution's own standard. In FinAutoRubric, experts specify reusable evaluation guidance, while agents and code carry out query-specific rubric generation, review, and validation. This expert guidance governs every agent, as prompts and as ru",
-      "published": "2026-09-28T17:55:06Z",
+      "title": "Rho: A Foundation for Efficiently Adaptable VLA Models",
+      "summary": "General-purpose physical AI models must combine broad visual and linguistic capabilities with precise control across robot embodiments and efficient adaptation to downstream tasks. We introduce Rho, a family of open-weights VLA models for bimanual manipulation designed for data-light task adaptation on 3 embodiments representative of dual-arm robots across research labs and the industry -- YAM Box, UR AI Trainer, and FR3 Duo. We systematically ablate Rho's action-expert architecture and training",
+      "published": "2026-09-29T17:59:28Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.AI",
-        "q-fin.CP"
+        "cs.RO"
       ],
-      "url": "https://arxiv.org/abs/2609.35744v1",
+      "url": "https://arxiv.org/abs/2609.38164v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -656,18 +692,18 @@
       }
     },
     {
-      "id": "0e31bb199acad196",
+      "id": "c0ffbe647ed12471",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "MINT: Modeling GenAI Impact on Network Traffic",
-      "summary": "Generative AI (GenAI) is becoming a mainstream network workload, yet packet-level simulators lack measure\\-ment-driven GenAI traffic models. Currently researchers must approximate GenAI services using traditional sources such as file transfer and video streaming, limiting realistic network evaluation of scheduling and capacity planning. We present MINT, a measurement and modeling framework for GenAI network traffic. Using an isolated net\\-work-namespace capture pipeline, we collect client-side t",
-      "published": "2026-09-28T17:54:31Z",
+      "title": "A Spectral Theory of Distortion in LLM Graph Reconstruction: Sharp Bounds and Empirical Characterization",
+      "summary": "Evaluations of graph reconstruction by language models typically report a single aggregate distance between the original and the reconstructed graph. We prove that for the Wasserstein distance between Laplacian spectra such a summary is bracketed by two edge counts, the net change in edge number from below and the symmetric difference from above, each scaled by $2/n$ where $n$ is the number of vertices. The bracket is sharp: its two ends coincide exactly when the reconstruction only adds edges o",
+      "published": "2026-09-29T17:59:16Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.NI",
-        "eess.SY"
+        "cs.LG",
+        "cs.DM"
       ],
-      "url": "https://arxiv.org/abs/2609.35742v1",
+      "url": "https://arxiv.org/abs/2609.38161v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -676,56 +712,57 @@
       }
     },
     {
-      "id": "15e03c23bcaa3ce1",
+      "id": "f13c68d73ac38d73",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Shockingly Simple Self-retrospection Improves Agentic Models Without RL",
-      "summary": "People learn not only by repeating successful actions, but also by recounting and explaining their experiences, revising their understanding to guide future behavior. Can a language-model agent improve its future actions by training only on explanations of its own experience? We investigate this question by studying Retrospection-Only Fine-Tuning (ROFT), a minimal online procedure designed to isolate the effect of explanation-only training on subsequent behavior. The agent attempts a task, obser",
-      "published": "2026-09-28T17:54:24Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2609.35741v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3fd7430382181be8",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Rubric-Calibrated Preferences: Cross-Query Calibration of LLM Judgments via Item Response Theory",
-      "summary": "Rerankers decide which documents users and LLMs see, yet their standard metric, nDCG, relies on human relevance labels that are costly, sparse, noisy, and discretely graded. As rerankers approach each other in quality, nDCG on these labels therefore increasingly fails to separate them. LLM judges could supply dense labels. Relative judgments within one query tell even close candidates apart, yet their scores share no scale across queries. Absolute grades share one scale but are too coarse to dis",
-      "published": "2026-09-28T17:54:16Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.IR"
-      ],
-      "url": "https://arxiv.org/abs/2609.35739v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "503e6bf4bc1bffe1",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "GeoVerse: World-Consistent Novel View Synthesis in Geometric Latent Space",
-      "summary": "Novel view synthesis from sparse images must reconcile faithful reconstruction of observed regions with plausible completion of unseen content, while maintaining world consistency across viewpoints. Existing geometry-based methods preserve observed scene structure but often struggle to complete unseen regions, whereas video generative models offer rich appearance priors but accumulate inconsistencies during sequential view generation. We propose GeoVerse, a framework that synthesizes world-consi",
-      "published": "2026-09-28T17:51:48Z",
+      "title": "DMA$^2$: Pixel-space Distribution Matching with Adversarial and Anchor Losses",
+      "summary": "Distribution matching distillation (DMD) provides a general framework for few-step diffusion generation, but its modern text-to-image instantiations have been developed primarily around latent diffusion. It therefore overlooks key properties and design opportunities of native RGB. We revisit two DMD interfaces for pixel-space teachers. On the teacher-matching side, diagnostics show low-noise RGB matching is dominated by a local-texture cue, motivating a fixed high-noise matching band. On the rea",
+      "published": "2026-09-29T17:59:03Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CV"
       ],
-      "url": "https://arxiv.org/abs/2609.35734v1",
+      "url": "https://arxiv.org/abs/2609.38156v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "73b2baaf9493c38c",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "CMB Injection Bounds on Moduli Fields",
+      "summary": "Light scalar fields with gravitational strength interactions (moduli) are ubiquitous in string, supergravity, and extra-dimensional models. If produced in the early universe with lifetimes exceeding the epoch of recombination, slowly decaying moduli inject energetic particles into the Standard Model plasma, leaving distinct imprints on the cosmic microwave background (CMB). In this paper we systematically derive CMB injection bounds on light moduli ($10^3\\ {\\rm eV}\\leq m_{\\rm{mod}}\\leq 10^8\\ {\\r",
+      "published": "2026-09-29T17:58:06Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "hep-th",
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.38151v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "dad60bce76530a5f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "LIFT: Layout-In-Future Video Generation under Large Viewpoint Change via On-Policy Self-Distillation",
+      "summary": "We introduce LIFT, a unified image-to-video generation framework that complements camera control with Layout-In-FuTure control, enabling users to specify what should appear in a future view and where it should appear. This addresses a practical need in controllable video generation: given an initial image, users often care not only about how the camera moves, but also about what the scene should look like at key future moments, especially the final frame. Existing camera controls specify viewpoi",
+      "published": "2026-09-29T17:57:20Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2609.38146v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
