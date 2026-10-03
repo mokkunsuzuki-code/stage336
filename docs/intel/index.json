@@ -1,22 +1,22 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-02T04:45:13.966133+00:00",
+  "generated_at": "2026-10-03T04:27:32.795282+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 47,
+  "item_count": 50,
   "items": [
     {
-      "id": "c8d787f55fce90c7",
+      "id": "899d99c894454ac8",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[jupyterlite-core] JupyterLab: Cross-site scripting (XSS) in JupyterLab via crafted language package (jupyterlab.json)",
+      "title": "[apache-airflow] Apache Airflow missing team context permits cross-team Dag actions and XCom reads",
       "summary": "",
-      "published": "2026-10-01T15:22:17.000Z",
+      "published": "2026-08-12T18:31:19.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3jqq-pw4j-pqcj",
+      "url": "https://github.com/advisories/GHSA-5247-m8w9-2v4m",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "6103c648c294dfd6",
+      "id": "f7700b14a5f2b0f8",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[jupyterlab] JupyterLab: Cross-site scripting (XSS) in JupyterLab via crafted language package (jupyterlab.json)",
+      "title": "[apache-airflow] Apache Airflow scheduler unsafely deserializes human-in-the-loop task next_kwargs",
       "summary": "",
-      "published": "2026-10-01T15:22:17.000Z",
+      "published": "2026-08-12T18:31:18.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3jqq-pw4j-pqcj",
+      "url": "https://github.com/advisories/GHSA-q4c3-7575-55j2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -44,17 +44,17 @@
       }
     },
     {
-      "id": "d4af2805bc50df5d",
+      "id": "e24793abb0037b78",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[jupyterlab] JupyterLab: Argument injection in JupyterLab extension uninstall exposes server-readable files and internal URLs",
+      "title": "[apache-airflow] Apache Airflow Task SDK Callback deserialization can import arbitrary modules in the scheduler",
       "summary": "",
-      "published": "2026-10-01T15:21:17.000Z",
+      "published": "2026-08-12T18:31:18.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3325-v43h-43rv",
+      "url": "https://github.com/advisories/GHSA-2qjv-p2gc-mjg2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -63,17 +63,17 @@
       }
     },
     {
-      "id": "5768f5c0772f3533",
+      "id": "d5cc7e60a3d6e058",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[jupyterlite-core] JupyterLab: Cross-site scripting (XSS) in JupyterLab via notebook cells pasted from the system clipboard",
+      "title": "[apache-airflow] Apache Airflow environment-variable secrets backend permits cross-team credential use",
       "summary": "",
-      "published": "2026-10-01T15:20:41.000Z",
+      "published": "2026-08-12T18:31:18.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6966-vjj6-99xv",
+      "url": "https://github.com/advisories/GHSA-75mg-c62r-v95g",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +82,17 @@
       }
     },
     {
-      "id": "316ae102612c0043",
+      "id": "f76f2dcd8580734b",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[jupyterlite] JupyterLab: Cross-site scripting (XSS) in JupyterLab via notebook cells pasted from the system clipboard",
+      "title": "[apache-airflow] Apache Airflow Task SDK fails to mask list-shaped JSON Variables",
       "summary": "",
-      "published": "2026-10-01T15:20:41.000Z",
+      "published": "2026-08-12T18:31:19.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6966-vjj6-99xv",
+      "url": "https://github.com/advisories/GHSA-f3c2-j7g8-vpp8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +101,17 @@
       }
     },
     {
-      "id": "397244b6346a6fba",
+      "id": "d73d0f7f042e4ebd",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[notebook] JupyterLab: Cross-site scripting (XSS) in JupyterLab via notebook cells pasted from the system clipboard",
+      "title": "[apache-airflow] Apache Airflow bulk endpoints log Variable and Connection secrets in cleartext",
       "summary": "",
-      "published": "2026-10-01T15:20:41.000Z",
+      "published": "2026-08-12T18:31:19.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6966-vjj6-99xv",
+      "url": "https://github.com/advisories/GHSA-cjv4-7hp2-2x9h",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +120,17 @@
       }
     },
     {
-      "id": "f76681693d2a1026",
+      "id": "012d604d1d80b7dc",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[jupyterlab] JupyterLab: Cross-site scripting (XSS) in JupyterLab via notebook cells pasted from the system clipboard",
+      "title": "[apache-airflow] Apache Airflow Backfill API parser discrepancy permits cross-DAG authorization bypass",
       "summary": "",
-      "published": "2026-10-01T15:20:41.000Z",
+      "published": "2026-08-12T18:31:18.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6966-vjj6-99xv",
+      "url": "https://github.com/advisories/GHSA-j4jc-cq9h-xrhr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +139,17 @@
       }
     },
     {
-      "id": "067aafabe27706c1",
+      "id": "023281027dae73a1",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[virtualenv] virtualenv bash and fish activation scripts execute commands embedded in paths",
+      "title": "[apache-airflow] Apache Airflow Variables UI fails to mask sensitive values in deeply nested iterables",
       "summary": "",
-      "published": "2026-10-01T15:09:17.000Z",
+      "published": "2026-08-12T18:31:18.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p58f-9548-mpm2",
+      "url": "https://github.com/advisories/GHSA-g4qj-5vxv-wggf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +158,17 @@
       }
     },
     {
-      "id": "7fbcfbf4fe64e2ce",
+      "id": "6f35999da9541146",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[virtualenv] virtualenv: Command injection via --prompt in activate.bat (batch activator)",
+      "title": "[apache-airflow] Apache Airflow exposes dict-valued var.json secrets in Rendered Templates",
       "summary": "",
-      "published": "2026-10-01T15:08:29.000Z",
+      "published": "2026-08-12T18:31:17.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-x78j-v8h9-3j2q",
+      "url": "https://github.com/advisories/GHSA-f643-3rc2-j27w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +177,17 @@
       }
     },
     {
-      "id": "954eee2c16e96238",
+      "id": "a0ea10b3bbb07137",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pypdf] pypdf: Possible long runtimes with large amount of embedded files",
+      "title": "[apache-airflow] Apache Airflow Config API exposes team-scoped sensitive configuration values",
       "summary": "",
-      "published": "2026-10-01T15:07:35.000Z",
+      "published": "2026-08-12T18:31:18.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-v247-6f48-mgcj",
+      "url": "https://github.com/advisories/GHSA-c56v-8w4g-3mfm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +196,17 @@
       }
     },
     {
-      "id": "cb521782ee963f97",
+      "id": "d60fbac3aff2d643",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pypdf] pypdf: Possible long runtimes when generating appearance streams",
+      "title": "[apache-airflow] Apache Airflow XCom API permits unsafe deserialization through JSON string literals",
       "summary": "",
-      "published": "2026-10-01T15:07:21.000Z",
+      "published": "2026-08-12T18:31:18.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-php9-fj8v-98fj",
+      "url": "https://github.com/advisories/GHSA-fcmm-42r9-mmmm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +215,17 @@
       }
     },
     {
-      "id": "604485cfe4a72671",
+      "id": "a2ac20e5a179c2fb",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pypdf] pypdf: Possible large memory usage when retrieving alphabetical page labels",
+      "title": "[apache-airflow] Apache Airflow exception-node deserialization permits arbitrary callable execution",
       "summary": "",
-      "published": "2026-10-01T15:07:08.000Z",
+      "published": "2026-08-12T18:31:17.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-w23x-9jrw-r45c",
+      "url": "https://github.com/advisories/GHSA-8prw-8m6x-8w6f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +234,17 @@
       }
     },
     {
-      "id": "aaaebdd17b8d65a8",
+      "id": "4f959969a4960667",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pypdf] pypdf: Possible long runtimes for partially malformed FlateDecode streams (Follow-up)",
+      "title": "[apache-airflow-providers-yandex] Apache Airflow Yandex Lockbox backend allows cross-team secret disclosure",
       "summary": "",
-      "published": "2026-10-01T15:06:33.000Z",
+      "published": "2026-08-10T21:32:02.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jw7q-gvrg-4vj3",
+      "url": "https://github.com/advisories/GHSA-qmrf-jrpr-rjx6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +253,17 @@
       }
     },
     {
-      "id": "1962d1a3a98f39bd",
+      "id": "9e90f2f1b0bd0216",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pypdf] pypdf: Possible large memory usage when parsing font data",
+      "title": "[nltk] NLTK network URL validation permits SSRF to RFC 6598 shared-address-space hosts",
       "summary": "",
-      "published": "2026-10-01T15:06:13.000Z",
+      "published": "2026-08-10T00:31:42.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g9cg-prrw-2r8q",
+      "url": "https://github.com/advisories/GHSA-2jhm-w3mp-jcwr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +272,17 @@
       }
     },
     {
-      "id": "e0b930f8ce6a688c",
+      "id": "0c6c625aba92ba4e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pypdf] pypdf: Possible large memory usage for large /ToUnicode streams (Follow-up 2)",
+      "title": "[nltk] NLTK downloader allows cross-package resource and model poisoning",
       "summary": "",
-      "published": "2026-10-01T15:06:04.000Z",
+      "published": "2026-08-07T09:31:52.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fp3h-c4fm-7vvf",
+      "url": "https://github.com/advisories/GHSA-ffj6-66c4-86gw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +291,17 @@
       }
     },
     {
-      "id": "d3039f5df7210a3c",
+      "id": "44a3b2457971f26a",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pypdf] pypdf: Possible long runtimes/large memory usage when parsing indirect objects",
+      "title": "[headroom-ai] Headroom vulnerable to Cross-Site WebSocket Hijacking (CSWSH)",
       "summary": "",
-      "published": "2026-10-01T15:05:53.000Z",
+      "published": "2026-10-02T23:09:15.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5jq2-8x83-x246",
+      "url": "https://github.com/advisories/GHSA-h46j-26q3-rggf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +310,17 @@
       }
     },
     {
-      "id": "3c81c3744dc94332",
+      "id": "8d0272cf1c963acc",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pypdf] pypdf: Possible large memory usage when retrieving Roman page labels",
+      "title": "[vibe-trading-ai] Vibe-Trading FastAPI endpoints permit unauthenticated access, file upload, and an RCE chain",
       "summary": "",
-      "published": "2026-10-01T15:03:45.000Z",
+      "published": "2026-10-02T22:44:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qv6h-rv94-w285",
+      "url": "https://github.com/advisories/GHSA-v2f8-6655-7grj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +329,17 @@
       }
     },
     {
-      "id": "aa39583fd756dcb2",
-      "source": "github-advisory-npm",
+      "id": "6d72559c18e5cd5f",
+      "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[node-forge] node-forge RSA PKCS#1 v1.5 signature verification accepts extra nested DigestAlgorithm elements",
+      "title": "[vibe-trading-ai] Vibe-Trading file-read tools expose arbitrary server-readable files",
       "summary": "",
-      "published": "2026-09-03T21:31:15.000Z",
+      "published": "2026-10-02T22:44:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-86w9-cpqp-85rv",
+      "url": "https://github.com/advisories/GHSA-5rmq-chc7-m22f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +348,17 @@
       }
     },
     {
-      "id": "9909724cfc153629",
-      "source": "github-advisory-npm",
+      "id": "c4533833919de5bd",
+      "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[react-dev-utils]  react-dev-utils openBrowser permits command injection on macOS",
+      "title": "[vibe-trading-ai] Vibe-Trading LLM-callable tools permit command execution, code injection, and SSRF",
       "summary": "",
-      "published": "2026-07-06T09:30:27.000Z",
+      "published": "2026-10-02T22:44:03.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g9g6-gvq9-j4vp",
+      "url": "https://github.com/advisories/GHSA-jqmf-mx4f-hfr6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +367,17 @@
       }
     },
     {
-      "id": "589177bd8c00f197",
-      "source": "github-advisory-npm",
+      "id": "d4b6af248e6d0e1d",
+      "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[vm2] vm2: Incomplete nodejs.* symbol filtering lets sandbox override host WebStream state checks",
+      "title": "[blender-mcp] BlenderMCP path traversal in download_polyhaven_asset allows arbitrary file writes",
       "summary": "",
-      "published": "2026-10-01T15:42:15.000Z",
+      "published": "2026-07-24T15:33:04.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jf8q-945g-9q4c",
+      "url": "https://github.com/advisories/GHSA-4h8q-hh2j-755w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -386,17 +386,17 @@
       }
     },
     {
-      "id": "d28ab657baca9e09",
+      "id": "9ece21d8a4ef3d4f",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] Duplicate Advisory: Incomplete nodejs.* symbol filtering lets sandbox override host WebStream state checks",
+      "title": "[probe-image-size] probe-image-size: Quadratic-time Denial of Service in the SVG Parser",
       "summary": "",
-      "published": "2026-09-17T15:32:16.000Z",
+      "published": "2026-10-02T23:18:02.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hmpr-c9rf-qcrf",
+      "url": "https://github.com/advisories/GHSA-gjj5-9665-rwrc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +405,17 @@
       }
     },
     {
-      "id": "336ec7e6b77dc104",
+      "id": "ef8a62acbb09c6e5",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] vm2: NodeVM builtin allowlist bypass via node:test.run() execArgv allows sandbox escape",
+      "title": "[@fastify/busboy] @fastify/busboy vulnerable to Denial of Service via oversized multipart boundary",
       "summary": "",
-      "published": "2026-10-01T15:41:31.000Z",
+      "published": "2026-10-02T23:16:17.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qhwx-74w5-xhxq",
+      "url": "https://github.com/advisories/GHSA-xjh9-v7x6-24jw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +424,17 @@
       }
     },
     {
-      "id": "727e8e3994e2c0e2",
+      "id": "73f7993d478c9d65",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] Duplicate Advisory: NodeVM builtin allowlist bypass via node:test.run() execArgv allows sandbox escape",
+      "title": "[@fastify/busboy] @fastify/busboy vulnerable to Denial of Service via prototype-named multipart part header",
       "summary": "",
-      "published": "2026-09-17T15:32:15.000Z",
+      "published": "2026-10-02T23:16:36.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-wqg3-r97q-73xm",
+      "url": "https://github.com/advisories/GHSA-x8mw-p69m-v3mx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +443,17 @@
       }
     },
     {
-      "id": "9e68e86d4db52d27",
+      "id": "e1b6683734557281",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] vm2 CLI provides no sandbox isolation - host-realm require() is reachable from sandboxed scripts",
+      "title": "[@a2ui/web_core] @a2ui/web_core: `openUrl` permits `javascript:` URI execution via agent-supplied button actions",
       "summary": "",
-      "published": "2026-10-01T15:40:45.000Z",
+      "published": "2026-10-02T22:55:49.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jxxv-8r27-vm4p",
+      "url": "https://github.com/advisories/GHSA-72qq-p3r5-f7wq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +462,17 @@
       }
     },
     {
-      "id": "99f9e5897dea47a9",
+      "id": "ce6e19590eb369d4",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] Duplicate Advisory: vm2 CLI provides no sandbox isolation - host-realm require() is reachable from sandboxed scripts",
+      "title": "[@a2ui/web_core] Duplicate Advisory: @a2ui/web_core: `openUrl` permits `javascript:` URI execution via agent-supplied button actions",
       "summary": "",
-      "published": "2026-09-17T15:32:16.000Z",
+      "published": "2026-08-04T18:31:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hc6q-4vvg-jf79",
+      "url": "https://github.com/advisories/GHSA-w72q-x6w3-7rj3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +481,17 @@
       }
     },
     {
-      "id": "1a9c745fbe763e1e",
+      "id": "fbba7fe0a1d83759",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] vm2 exposes host HTTPS credentials and TLS traffic through globalAgent",
+      "title": "[trigger.dev] Trigger.dev: Trigger CLI debug deployment logs expose resolved environment secret values",
       "summary": "",
-      "published": "2026-10-01T15:38:26.000Z",
+      "published": "2026-10-02T22:45:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-h85j-hv3c-qfgq",
+      "url": "https://github.com/advisories/GHSA-fj2x-mqqp-3v2w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +500,17 @@
       }
     },
     {
-      "id": "e3f315f0794214aa",
+      "id": "f644852481bfacbc",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] Duplicate Advisory: vm2 exposes host HTTPS credentials and TLS traffic through globalAgent",
+      "title": "[dompurify] Duplicate Advisory: DOMPurify: `CUSTOM_ELEMENT_HANDLING` bypasses `afterSanitizeElements` for allowed custom elements.",
       "summary": "",
-      "published": "2026-09-17T15:32:14.000Z",
+      "published": "2026-07-24T15:33:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5843-9mh5-hhgw",
+      "url": "https://github.com/advisories/GHSA-jxrp-r7gx-q4j8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +519,17 @@
       }
     },
     {
-      "id": "562693c1b348edaa",
+      "id": "e95c18e6522955b5",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] vm2 Custom Module Resolver Can Bypass the External Package Allowlist by Loading a Colliding Host Package",
+      "title": "[trigger.dev] Trigger.dev: Cross-environment deployment cancel",
       "summary": "",
-      "published": "2026-10-01T15:37:19.000Z",
+      "published": "2026-10-02T22:42:40.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-c48m-32m9-vx93",
+      "url": "https://github.com/advisories/GHSA-4672-hwv6-gq62",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +538,17 @@
       }
     },
     {
-      "id": "fb62daa4a46337af",
+      "id": "adfacf3c5278fa29",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] Duplicate Advisory: vm2 Custom Module Resolver Can Bypass the External Package Allowlist by Loading a Colliding Host Package",
+      "title": "[trigger.dev] Trigger.dev: Cross-tenant SQL injection in the TSQL query compiler (POST /api/v1/query) via unsanitized window-function name",
       "summary": "",
-      "published": "2026-09-17T15:32:16.000Z",
+      "published": "2026-10-02T22:42:20.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6fvh-fgmg-3x7v",
+      "url": "https://github.com/advisories/GHSA-9q4r-4842-93vw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +557,17 @@
       }
     },
     {
-      "id": "18f7146c3eb83cba",
+      "id": "6bd00438f52d0814",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] vm2: NodeVM builtin denylist bypass via fs/promises despite -fs, allowing host filesystem writes",
+      "title": "[trigger.dev] Trigger.dev: Unauthenticated Realtime Stream Data Injection via Run FriendlyId",
       "summary": "",
-      "published": "2026-10-01T15:36:48.000Z",
+      "published": "2026-10-02T22:39:57.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6rh5-qq4q-97xh",
+      "url": "https://github.com/advisories/GHSA-59h8-w5q6-mfmp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,17 +576,17 @@
       }
     },
     {
-      "id": "c751c0028efc59fb",
+      "id": "35f61a0644f96dec",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] Duplicate Advisory: vm2: NodeVM builtin denylist bypass via fs/promises despite -fs, allowing host filesystem writes",
+      "title": "[trigger.dev] Trigger.dev Self-Hosted Deployment: Default Secrets allow Unauthenticated Infrastructure Compromise",
       "summary": "",
-      "published": "2026-09-17T15:32:16.000Z",
+      "published": "2026-10-02T22:39:48.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7c3p-84r8-h79q",
+      "url": "https://github.com/advisories/GHSA-pqxw-g93w-hj9x",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -595,17 +595,17 @@
       }
     },
     {
-      "id": "4e530a65a6c15467",
+      "id": "c9d61c877d05af3e",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] vm2: NodeVM node:-prefixed negative builtin deny bypass exposes child_process",
+      "title": "[figlet] figlet is vulnerable to denial of service via unbounded loop when whitespaceBreak is used with a small width",
       "summary": "",
-      "published": "2026-10-01T15:36:01.000Z",
+      "published": "2026-10-02T22:39:16.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8686-vhfx-7r3j",
+      "url": "https://github.com/advisories/GHSA-62ch-8vmq-8xm7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -614,17 +614,17 @@
       }
     },
     {
-      "id": "bc4f940e29bf31f7",
+      "id": "6d86c0fc595e382c",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] Duplicate Advisory: vm2: NodeVM node:-prefixed negative builtin deny bypass exposes child_process",
+      "title": "[trigger.dev] Trigger.dev: V1 coordinator default-secret unauth Socket.IO",
       "summary": "",
-      "published": "2026-09-17T15:32:16.000Z",
+      "published": "2026-10-02T22:39:00.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-28q4-xrqh-9479",
+      "url": "https://github.com/advisories/GHSA-gg6r-gp4c-89hp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -633,17 +633,17 @@
       }
     },
     {
-      "id": "a7eaa296bf3ad524",
+      "id": "9debced01ca2293e",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] vm2: vm.freeze()/vm.readonly() bypass via accessor descriptor",
+      "title": "[http-cache-semantics] http-cache-semantics max-stale handling can disclose cross-user cached responses",
       "summary": "",
-      "published": "2026-10-01T15:35:25.000Z",
+      "published": "2026-09-18T18:31:44.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-633r-hq9m-c4ff",
+      "url": "https://github.com/advisories/GHSA-ch52-4w7c-c8xp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -652,17 +652,17 @@
       }
     },
     {
-      "id": "a67a96b1d38eaa9e",
+      "id": "771e547b5d9e7c50",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] Duplicate Advisory: vm2: vm.freeze()/vm.readonly() bypass via accessor descriptor",
+      "title": "[braces] braces vulnerable to stack-exhaustion denial of service through deeply nested patterns",
       "summary": "",
-      "published": "2026-09-17T15:32:16.000Z",
+      "published": "2026-09-18T18:31:41.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9f3g-34x8-92jc",
+      "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -671,17 +671,17 @@
       }
     },
     {
-      "id": "509296804db0aac5",
+      "id": "0074fce2030c8bb2",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] vm2: NodeVM nesting guard accepts array-shaped require and permits host RCE",
+      "title": "[hono] Duplicate Advisory: Hono vulnerable to Prototype Pollution possible through __proto__ key allowed in parseBody({ dot: true })",
       "summary": "",
-      "published": "2026-10-01T15:34:58.000Z",
+      "published": "2026-07-11T15:30:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8hr7-r645-pc6w",
+      "url": "https://github.com/advisories/GHSA-3wcj-gjvf-fvch",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -690,17 +690,74 @@
       }
     },
     {
-      "id": "aae00496568ab8a9",
+      "id": "f6fb3355acedd33f",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vm2] Duplicate Advisory: NodeVM nesting guard accepts array-shaped require and permits host RCE",
+      "title": "[trigger.dev] Trigger.dev: Blind SSRF via alert-channel webhook",
       "summary": "",
-      "published": "2026-09-17T15:32:14.000Z",
+      "published": "2026-10-02T22:35:31.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9fxx-mv6c-j5xp",
+      "url": "https://github.com/advisories/GHSA-q567-cr4x-96w4",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "69e1081a898df476",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[trigger.dev] Trigger.dev: Missing Authentication in Run Replay Action Allows Cross-Organization Task Execution (IDOR)",
+      "summary": "",
+      "published": "2026-10-02T22:35:24.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-pp95-gc86-jq6q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5468ce375ebfff95",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[trigger.dev] Trigger.dev: Server-side request forgery via unvalidated webhook alert-channel URL",
+      "summary": "",
+      "published": "2026-10-02T19:31:33.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xxv7-2vv3-h682",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "01e54d3b8b06c676",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[trigger.dev] Trigger.dev: Run replay injects a task run into an attacker-chosen environment (cross-tenant write)",
+      "summary": "",
+      "published": "2026-10-02T19:31:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qxpp-qjg8-x4jv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
