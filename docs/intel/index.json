@@ -1,7 +1,7 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-04T04:58:34.985191+00:00",
+  "generated_at": "2026-10-05T04:45:38.338188+00:00",
   "mode": "safe-metadata-only",
   "item_count": 50,
   "items": [
@@ -766,17 +766,17 @@
       }
     },
     {
-      "id": "532f7bc58ca53bde",
+      "id": "a8f5974acb891c85",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Moore, Escher, Penrose: A Conformal Golden Braid",
-      "summary": "I don't think I have ever done anything as peculiar in my life. Among other things, it shows a young man looking with interest at a print on the wall of an exhibition that features himself. How can this be? Perhaps I am not far removed from Einstein's curved universe.'' So wrote M.C. Escher about his 1956 lithograph Print Gallery. Nearly half a century later, a mathematical analysis related its geometry to an untwisted source image through a conformal power map $z \\mapsto z^α$, $α\\in \\mathbb{C}$",
-      "published": "2026-10-01T17:59:59Z",
+      "title": "How to Build Pseudorandom Unitaries in Microcrypt",
+      "summary": "We provide the first evidence relative to a classical oracle that pseudorandom unitaries (PRUs) can exist without quantum-computable one-way functions.   To obtain this result, we first prove that five independent random diagonal phase layers interleaved with Hadamard transforms \\[ U=F_5HF_4HF_3HF_2HF_1 \\] form a strong PRU with security under adaptive, controlled access to the unitary, its inverse, transpose, and complex conjugate.   Our main result is that, when the phase layers are implemente",
+      "published": "2026-10-02T17:58:06Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CV"
+        "quant-ph"
       ],
-      "url": "https://arxiv.org/abs/2610.02210v1",
+      "url": "https://arxiv.org/abs/2610.03711v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -785,19 +785,19 @@
       }
     },
     {
-      "id": "97bb98c27980ba68",
+      "id": "8b2fd6b8c8961c76",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
-      "summary": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable commands for real-world cybersecurity tools. This gap is critical because cybersecurity operations rely on strict command-line interfaces (CLIs), where minor syntax errors, incorrect flag--value bindings,",
-      "published": "2026-10-01T17:59:55Z",
+      "title": "Unitary complexity in polynomial space",
+      "summary": "We show that if quantum commitments exist, then either there is no polynomial-time solution to the unitary synthesis problem, or $\\mathsf{BPP} \\neq \\mathsf{NEXP}$. Thus, showing unconditionally that quantum commitments exist would require answering at least one of two longstanding open questions in complexity theory. We prove our main result as a consequence of a more general lemma, which shows that every unitary in $\\mathsf{unitaryPSPACE}$ either cannot be synthesized efficiently relative to an",
+      "published": "2026-10-02T17:56:15Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CL",
-        "cs.AI",
+        "quant-ph",
+        "cs.CC",
         "cs.CR"
       ],
-      "url": "https://arxiv.org/abs/2610.02206v1",
+      "url": "https://arxiv.org/abs/2610.03705v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -806,19 +806,17 @@
       }
     },
     {
-      "id": "dd1022574e7ef797",
+      "id": "428ffd3743156d08",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
-      "summary": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems without updating model weights. RPG identifies manipulation capabilities in an offline dataset and constructs related practice tasks in simulation. During practice, RPG uses execution feedback, privileged s",
-      "published": "2026-10-01T17:59:50Z",
+      "title": "Transcriptome-informed multi-modal AI for predicting neoadjuvant therapy response from breast cancer biopsies",
+      "summary": "Scarcity of labeled data limits development of deep learning biomarkers in oncology. We develop a two-stage AI model predicting pathological complete response (pCR) to neoadjuvant therapy in breast cancer. The first stage learns the transcriptome from histopathology using 8,742 patients across 32 cancer types, corroborated by pathologist review and spatial agreement with measured expression. This simplifies the second stage to predicting pCR from inferred expression and clinical variables. Devel",
+      "published": "2026-10-02T17:52:57Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.RO",
-        "cs.AI",
-        "eess.SY"
+        "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2610.02204v1",
+      "url": "https://arxiv.org/abs/2610.03693v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -827,18 +825,81 @@
       }
     },
     {
-      "id": "00b8021e8a836fa3",
+      "id": "bfcabe5df5bcb9df",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Embedding Prediction Helps Image Generation",
-      "summary": "In diffusion transformers, a class label or a text prompt is embedded once, and the same condition is reused at every denoising step. We ask whether predicted embeddings can serve as this condition instead. Next-Embedding Predictive Autoregression (NEPA) trains a Transformer to predict the next continuous embedding in a sequence. In generation, the clean image follows the noisy image, so its embeddings are the next embeddings after the condition and the noisy image. We train a NEPA model to pred",
-      "published": "2026-10-01T17:59:49Z",
+      "title": "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
+      "summary": "LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. However, prior work typically optimizes performance gain over a fixed number of iterations. We argue that practical optimization should maximize gain per unit cost. To this end, we propose FrugalEvo, a cost-aware evolutionary framework where a stronger, higher-cost LLM explores solution strategies, and a cheaper LLM implements them",
+      "published": "2026-10-02T17:44:05Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.NE",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.03675v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4c840b000144db37",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Planning to Learn",
+      "summary": "Policy-gradient methods are central to modern reinforcement learning, including LLM post-training. When they struggle, the usual suspects are exploration, credit assignment and action-sampling noise. Classification has none of them. A classifier is a policy whose expected reward, its \\emph{expected accuracy}, is the probability it assigns to the correct label, and because that label is known, the policy gradient is exact and smooth. Yet exact policy gradient loses to cross-entropy, even on expec",
+      "published": "2026-10-02T17:38:28Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
+        "math.OC",
+        "stat.ML"
+      ],
+      "url": "https://arxiv.org/abs/2610.03667v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1d0543ef882815c4",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "PoCoFL: POlicy-COmpliant Federated Learning",
+      "summary": "Federated Learning (FL) is a privacy-oriented learning paradigm that enables collaborative model training while keeping training data local to participating clients. However, it does not guarantee that clients submit policy-compliant contributions or that aggregators process admitted contributions correctly. Existing verifiable FL systems tailor validation rules to specific FL settings, learning workflows, and cryptographic constructions, limiting their applicability across network topologies, p",
+      "published": "2026-10-02T17:33:01Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.03650v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8f89199773e3a65e",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "On-Board Anomaly Detection for Efficient Marine Environmental Monitoring",
+      "summary": "Marine ecosystems are impacted by various threats such as oil spills, algal blooms, and sediment floods, which disrupt habitats, wildlife, and human activities. Advances in satellite imagery and Artificial Intelligence (AI) have enhanced our capabilities for early detection and mitigation of such hazards. In this paper, we propose a marine event detection pipeline for Earth observation satellites equipped with multi- or hyperspectral sensors. Our approach includes a self-supervised neural networ",
+      "published": "2026-10-02T17:32:34Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CV",
+        "cs.AI",
         "cs.LG"
       ],
-      "url": "https://arxiv.org/abs/2610.02203v1",
+      "url": "https://arxiv.org/abs/2610.03649v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -847,118 +908,59 @@
       }
     },
     {
-      "id": "aa0973a819725f23",
+      "id": "f77c12b7c369aaf6",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
-      "summary": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which earlier work advanced their completed projects, with papers serving as pointers to the ideas within. Using our automated pipeline that makes author annotation scalable, we build ScholarCatalyst by having",
-      "published": "2026-10-01T17:59:47Z",
+      "title": "Do Large Language Models Know Colombian Law? A Reliability Benchmark for the Colombian Legal System",
+      "summary": "Large language models (LLMs) are increasingly used to support legal practice, education, and research, yet their reliability in national legal systems outside the United States remains largely undocumented. We introduce an expert-validated benchmark for evaluating LLM reliability on the Colombian legal system. The benchmark comprises 1,042 items spanning ten areas of law and three question formats (closed multiple-choice, semi-open, and open-ended IRAC), built through a human-in-the-loop pipelin",
+      "published": "2026-10-02T17:27:41Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.AI",
+        "cs.CY"
+      ],
+      "url": "https://arxiv.org/abs/2610.03639v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4eda583fceb9e651",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "NeutronGym: Physics-Graded Neutron Instrument Design for LLM Agents",
+      "summary": "Designing a scientific instrument tests whether language-model agents can do physics rather than recall it, provided the grading cannot be argued with. We introduce NeutronGym, to our knowledge the first executable environment for neutron instrument design: agents build instruments through validating tools, McStas ray-traces what they build, and a level-resolved ladder grades syntax, runtime, structure and science with no LLM judge. Procedural families supply unlimited instances of a fixed layou",
+      "published": "2026-10-02T17:23:52Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "physics.ins-det"
+      ],
+      "url": "https://arxiv.org/abs/2610.03631v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "dfecefb8d7a96795",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "FALCON: A Model and Dataset Agnostic Framework for Synthetic Data Generation for NL2SQL Pairs",
+      "summary": "Relational databases are among the most widely deployed forms of structured knowledge, and natural language access to them requires grounding language onto schema entities and relations while handling the ambiguity inherent in how people phrase requests. Existing synthetic NL-to-SQL data generation methods largely ignore this ambiguity and produce oversimplified queries that fail to prepare models for the complexity of real-world structured knowledge access. We present FALCON, a framework that g",
+      "published": "2026-10-02T17:19:50Z",
+      "impact_scope": "metadata-only",
+      "tags": [
         "cs.CL",
-        "cs.IR"
-      ],
-      "url": "https://arxiv.org/abs/2610.02202v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "5a7eab3f236e649d",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning",
-      "summary": "Full-parameter fine-tuning of large language models (LLMs) incurs substantial optimizer state memory overhead, limiting the model sizes that fit on modern GPUs. Existing approaches either compress optimizer state, abandon first-order gradients, or change the update geometry while retaining dense state. The recently introduced Muon optimizer reduces optimizer memory through matrix-valued updates. Still, its geometry differs from AdamW and can lead to performance degradation when fine-tuning AdamW",
-      "published": "2026-10-01T17:59:42Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "math.OC"
-      ],
-      "url": "https://arxiv.org/abs/2610.02199v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2aafe459a6ac6ad1",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "HiPhy: Hierarchical Alignment for Physically-Plausible Multi-Principle Video Generation",
-      "summary": "Video generation models have achieved remarkable visual fidelity and have strong potential to become general-purpose world simulators. Despite this progress, they still fail to generate videos which adhere to laws of physics. The problem becomes even more apparent in realistic settings where multiple physical principles must work together within the same video; for example, \"a balloon floating upward while steam rises from a pot\" requires buoyancy and fluid dynamics to unfold coherently and simu",
-      "published": "2026-10-01T17:59:41Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV"
-      ],
-      "url": "https://arxiv.org/abs/2610.02197v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "53a4c9187a669302",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
-      "summary": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage interaction",
-      "published": "2026-10-01T17:59:40Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.RO",
-        "cs.CV",
-        "cs.GR"
-      ],
-      "url": "https://arxiv.org/abs/2610.02196v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "21a899d9d76e567d",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
-      "summary": "While Large Language Models (LLMs) have demonstrated striking capabilities on frontier mathematical problems, it remains unclear whether they possess the structural mathematical understanding underlying their solutions. In this paper, we take a first step toward systematically studying mathematical understanding in LLMs, from diagnosing its distinct capabilities to leveraging these findings to improve post-training. First, we introduce the notion of Mathematical Primitive to probe structural mat",
-      "published": "2026-10-01T17:59:32Z",
-      "impact_scope": "metadata-only",
-      "tags": [
+        "cs.DB",
         "cs.LG"
       ],
-      "url": "https://arxiv.org/abs/2610.02191v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "76ca9ffe75d28edb",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Trust the Direction, Search the Step: Zero-and-First-Order Methods for LLM Fine-Tuning",
-      "summary": "Step-size selection remains a central challenge in large-scale neural network optimization; conservative steps slow convergence, while aggressive steps can destabilize it. We combine \\textbf{Z}ero-and-\\textbf{F}irst-\\textbf{O}rder optimization~(ZFO) and propose a lightweight framework that decouples direction selection from step-size. ZFO uses a trusted first-order optimizer to determine the direction and performs zeroth-order evaluations only along this one-dimensional subspace to choose how fa",
-      "published": "2026-10-01T17:59:28Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "math.OC"
-      ],
-      "url": "https://arxiv.org/abs/2610.02190v1",
+      "url": "https://arxiv.org/abs/2610.03625v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
