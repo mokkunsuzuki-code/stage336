@@ -1,7 +1,7 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-11T04:48:45.816083+00:00",
+  "generated_at": "2026-10-12T05:03:54.229787+00:00",
   "mode": "safe-metadata-only",
   "item_count": 48,
   "items": [
@@ -728,18 +728,18 @@
       }
     },
     {
-      "id": "f821040a692a0d8e",
+      "id": "fafa3c7bd20953b1",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "CSF: Contextual Safety Filtering for Motion Generators",
-      "summary": "Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, or enforce geometric constraints; therefore, they do not directly account for how scene context changes a motion's meaning. We introduce contextual safety filtering (CSF), a training-free filter that grounds natural-language safety rules in safe and u",
-      "published": "2026-10-08T17:59:50Z",
+      "title": "Can Language Models Play the Wikipedia Game?",
+      "summary": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wikipedia Game to test language models on an analogous information retrieval task. In the game, players must reach a target article using only article links. We compared sentence embedding models and LLMs across five Wikipedia languages and five academic-literature datasets. We const",
+      "published": "2026-10-09T17:59:56Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.RO",
-        "cs.LG"
+        "cs.AI",
+        "cs.IR"
       ],
-      "url": "https://arxiv.org/abs/2610.12467v1",
+      "url": "https://arxiv.org/abs/2610.13948v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -748,56 +748,17 @@
       }
     },
     {
-      "id": "20f13bf22c327de8",
+      "id": "4c323bfd10532e3f",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
-      "summary": "METR's 50\\% time horizon measures the human completion time of software tasks that an AI solves with 50\\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and 26 AIs, we recompute the time horizons using splines and item-response theory to relax the assumption that the AI difficulty of a task depends linearly on the log of human time. Our fitted spline can be interpreted as a function that \\emph{converts} human time to AI difficulty; it is nearly flat in",
-      "published": "2026-10-08T17:59:50Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2610.12466v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c655acd3d78cb1ef",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-      "summary": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment. Anthropic reported cases in which a misconfigured third-party environment exposed real systems to agents pursuing simulated cyber tasks. In a separately reported evaluation, Google's Gemini access",
-      "published": "2026-10-08T17:59:49Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CR",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2610.12463v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d272164ef3fbd355",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
-      "summary": "Multimodal large language models (MLLMs) are rapidly evolving toward continuous audio--visual reasoning, creating an urgent need for evaluations that expose their capability limits. Audio--visual captioning is an ideal diagnostic task, yet current benchmarks face a coupled trade-off: whole-caption scores provide coverage without localization, local probes provide localization without coverage, and unconstrained LLM judges introduce instability. We introduce OmniCapBench (Omni-Video Caption Bench",
-      "published": "2026-10-08T17:59:21Z",
+      "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+      "summary": "In this paper, we study physically grounded articulated 3D asset generation---moving the goal from reproducing how objects look to capturing how they move and function. Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articraft by introducing a multi-agent pipeline with physical simulation feedback, enabling comprehensive attributes beyond geometry, appearance, and physically plausible articulation, such as collision-fre",
+      "published": "2026-10-09T17:59:41Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CV"
       ],
-      "url": "https://arxiv.org/abs/2610.12458v1",
+      "url": "https://arxiv.org/abs/2610.13947v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -806,119 +767,155 @@
       }
     },
     {
-      "id": "2b5c35dd30bbb6c3",
+      "id": "f2d986a70a989746",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Mental-Models for Multi-Agent Systems",
-      "summary": "Large foundation models have accelerated progress toward general-purpose agents that interact with humans and other agents through language and multimodal signals. However, robust multi-agent decision-making requires reasoning about what other agents know, intend, and are likely to do under partial observability. Current agentic systems often operate through prompt design, memory, or end-to-end behavioral shaping, but typically do not learn an explicit partner-state representation that can be re",
-      "published": "2026-10-08T17:59:01Z",
+      "title": "Images Talk Back: Guiding MMDiTs by Suppressing Image-to-Text Feedback",
+      "summary": "Multimodal diffusion transformers (MMDiTs) allow the evolving image to update internal text representations through joint attention. These representations then guide subsequent image updates, raising a question: does this feedback help correct deviations from the prompt, or preserve them? We find that image-to-text (I2T) feedback can preserve the objects and attributes already represented in the evolving image, including errors. Transplanting I2T messages can rescue failures or disrupt successes",
+      "published": "2026-10-09T17:58:15Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.13941v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "84ab46ed8439b758",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "The Haagerup VOA at $c=8$",
+      "summary": "We announce an explicit construction of a unitary, strongly rational vertex operator algebra $U$ of central charge $8$ inside $V_{E_6\\oplus A_2}$, with a ribbon equivalence $\\mathrm{Rep}(U)\\simeq Z(\\mathcal H_3)$ realizing the Haagerup double. The vertex algebra is generated by six affine currents and three specified weight-two fields; its weight-one Lie algebra is $\\mathfrak{sl}_2\\oplus\\mathfrak{sl}_2$, at levels $1$ and $39$. We outline the argument, which combines exact lattice calculations, ",
+      "published": "2026-10-09T17:56:26Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "math.QA",
+        "math.CT"
+      ],
+      "url": "https://arxiv.org/abs/2610.13933v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "cd87afe926785aef",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+      "summary": "Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon receiving a secret trigger. Using digital lockers, these hidden circuits remain provably hard to elicit and interpret under",
+      "published": "2026-10-09T17:55:06Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
+        "cs.CR"
+      ],
+      "url": "https://arxiv.org/abs/2610.13928v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "626e176958be23b9",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Task Context Shapes Component Roles in Language Models",
+      "summary": "Large language models reuse the same attention heads across tasks, but identifying these shared heads does not explain what they do differently in each task. A natural source of inspiration is task-dependent interactions among shared brain regions, which motivate a network view of language-model computation. Here, we compare fixed model components across tasks using identical graph facts, statements specifying which directed connections are present. We measure how interventions affect attention ",
+      "published": "2026-10-09T17:40:53Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.13895v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a39ad4fa25cf251c",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
+      "summary": "As AI agents increasingly rely on external tools, accurate retrieval is essential for reliable behavior. Existing methods optimize semantic relevance but largely ignore tool availability during execution. To address this gap, we propose RATED (Reliability-Aware Tool Retrieval via Execution Dynamics), a retrieval framework that combines robust semantic matching with dynamic reliability adaptation. RATED employs a frozen dual-encoder with contrastive fine-tuning for semantic matching, and a lightw",
+      "published": "2026-10-09T17:38:11Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "url": "https://arxiv.org/abs/2610.13889v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "dbaf806c603c5249",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "X-AgentRed: Red-Teaming Personal Agents in Evolving Multi-Service Ecosystems",
+      "summary": "Personal agents increasingly connect to services across the web and applications by using tools. As the effects of their actions accumulate and interact across services, unintended or harmful outcomes can arise when agents fulfill benign user requests. Proactively identifying these compositional failures requires systematically exploring diverse cross-service paths. Existing red-teaming methods often simply prompt LLMs to identify potentially harmful paths from task and environment descriptions ",
+      "published": "2026-10-09T17:34:44Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.13886v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4876ab524849df80",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Necessary conditions for benchmarking next-generation AI in materials discovery",
+      "summary": "Current AI predicts materials by speeding up energy minimisation and training on large databases. However, scaling data generation prevents manual analysis by domain experts. If novelty is evaluated by chemical compositions or traditional representations in Crystallographic Information Files, or standard structure matchers based on manually chosen thresholds, one can easily generate millions of ``new'' compositions or files without discovering truly novel materials.   This paper uses a hierarchy",
+      "published": "2026-10-09T17:30:08Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cond-mat.mtrl-sci",
+        "math.MG"
+      ],
+      "url": "https://arxiv.org/abs/2610.13885v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e0a27d72839fedef",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Ask Your Advisor: Learning When to Consult Stronger Models in Agentic Systems",
+      "summary": "To balance task performance and computational cost, agentic workflows can use a lower-cost model for execution and selectively consult a stronger model. In such executor-advisor systems, the executor decides when to seek advice, making escalation depend on self-assessment, although current language models struggle to detect where their own reasoning fails. The need for stronger reasoning emerges during execution and varies across workflow phases. We introduce ARIA, a meta-controller that learns ",
+      "published": "2026-10-09T17:19:54Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.MA"
       ],
-      "url": "https://arxiv.org/abs/2610.12453v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ffacc399b6e26205",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "BrickBench: Evaluating Agentic Brick Design",
-      "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discrete library and reason jointly about local and global constraints. We score validity, alignment, and design across three settings that vary in scale and part availability. We provide BrickAgent, an environment for coding ",
-      "published": "2026-10-08T17:58:56Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CV",
-        "cs.GR"
-      ],
-      "url": "https://arxiv.org/abs/2610.12452v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1b7b86e5ad00ede7",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "VersaCamVLA: Camera-Configurable VLA Policies for Robotic Manipulation",
-      "summary": "Vision-Language-Action (VLA) models have emerged as powerful foundations for robotic manipulation, but their reliance on fixed camera configurations during training makes them brittle to changes in camera count or pose during deployment. To overcome these limitations, we propose VersaCamVLA, a camera-configurable framework that decouples camera-set representation from action learning. VersaCamVLA learns a unified scene-token interface that maps an arbitrary, variable set of posed RGB views into ",
-      "published": "2026-10-08T17:58:47Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV",
-        "cs.RO"
-      ],
-      "url": "https://arxiv.org/abs/2610.12451v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bac0389d68f0b5a7",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Self-intersecting sections of polar actions on simply connected manifolds",
-      "summary": "We construct a polar action of $\\mathrm{SU}(3)$ on a closed simply connected $11$-manifold with a compact three-dimensional section that is not injectively immersed. The section is injective over the regular part and has two distinct local branches along a singular stratum. All isotropy groups are connected, and all orbits are simply connected. This gives a negative answer to the injectivity question raised by Grove and Ziller.",
-      "published": "2026-10-08T17:58:29Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "math.DG"
-      ],
-      "url": "https://arxiv.org/abs/2610.12446v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "42b5d215b605b79c",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
-      "summary": "Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. We show that white-box deception detection via probes can be scaled up to frontier monitoring settings by collecting the largest deception dataset to date for training probes and introducing a novel probe architecture which can aggregate information across many layers and tokens. Our probes achieve 98.8% AUC in SHADE-Arena, surpassing an Opus 5.5 text-monitoring baseline, and show ",
-      "published": "2026-10-08T17:58:13Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2610.12445v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8d493dc9dffd7991",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
-      "summary": "AI agents can now conduct real-world cyberattacks, scale up capabilities with the number of agents, and collectively pursue misaligned goals to obtain rewards. Together, these factors raise the risk of a population explosion of misaligned agents: agents could compromise computers and secretly deploy additional agents, creating a self-reinforcing cycle where larger populations develop greater collective cyber capability and expand further. This raises a fundamental question: What determines wheth",
-      "published": "2026-10-08T17:57:32Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cond-mat.dis-nn",
-        "cs.MA",
-        "physics.bio-ph"
-      ],
-      "url": "https://arxiv.org/abs/2610.12436v1",
+      "url": "https://arxiv.org/abs/2610.13870v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
