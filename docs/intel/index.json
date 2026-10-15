@@ -1,10 +1,48 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-14T04:06:38.098942+00:00",
+  "generated_at": "2026-10-15T03:50:01.860949+00:00",
   "mode": "safe-metadata-only",
   "item_count": 39,
   "items": [
+    {
+      "id": "2cc5e06897be82d7",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[bbot] BBOT's Symlink guard bypass in unarchive module allows planting symlinks during extraction",
+      "summary": "",
+      "published": "2026-10-14T19:34:31.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xpf3-p7gm-7756",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "94ccfe75f27ce046",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[apprise] Apprise forwards configured auth headers across cross-origin HTTP redirects",
+      "summary": "",
+      "published": "2026-10-14T18:38:05.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-856c-92hv-3vxx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "eb89d59615cf0490",
       "source": "github-advisory-pip",
@@ -340,44 +378,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-cw24-x4mj-fw3q",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "84609a9488f8e6dd",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[indico] Indico: Cross-Site-Scripting in link fields",
-      "summary": "",
-      "published": "2026-10-08T22:09:41.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-c4wc-ggrj-jg9v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8014ea009fcbb683",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[praisonai-platform] PraisonAI: Platform member PATCH routes allow owner resource rewrites and project lead reassignment delete bypass",
-      "summary": "",
-      "published": "2026-10-08T22:01:11.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-c78w-2q4r-68r7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
