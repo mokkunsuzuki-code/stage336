@@ -1,10 +1,86 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-16T03:45:09.505217+00:00",
+  "generated_at": "2026-10-17T03:35:01.249949+00:00",
   "mode": "safe-metadata-only",
   "item_count": 46,
   "items": [
+    {
+      "id": "bb243859cb44612a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lmcache] Duplicate Advisory: Remote code execution via unsafe deserialization in multiprocess mode transport",
+      "summary": "",
+      "published": "2026-10-07T12:31:58.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vv44-hjm2-qw2f",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "59a633dc3c4a1e1f",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[lmcache] LMCache: Remote code execution via unsafe deserialization in multiprocess mode transport",
+      "summary": "",
+      "published": "2026-10-16T20:08:44.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w5f2-9q9c-ff4h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0f2157765c173985",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[claude-agent-sdk] Claude Agent SDK: Argument Injection via resume Option Allows Arbitrary Command Execution",
+      "summary": "",
+      "published": "2026-10-16T19:44:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-h4mw-j7qp-8mwm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "06fdcd63e6c4a13c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[ClickMigrate] ClickMigrate has Path Traversal in \"revision -m\" argument",
+      "summary": "",
+      "published": "2026-10-16T19:17:28.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vgf9-9mxx-hq54",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "a1b228439d6e9090",
       "source": "github-advisory-pip",
@@ -253,74 +329,17 @@
       }
     },
     {
-      "id": "eb89d59615cf0490",
-      "source": "github-advisory-pip",
+      "id": "8d11d7eb2722fdc0",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[shiny] Shiny for Python has path traversal in bookmark restore",
+      "title": "[@aborruso/ckan-mcp-server] ckan-mcp-server: DataStore Table UI resource does not validate postMessage origin (in) and posts to targetOrigin \"*\" (out)",
       "summary": "",
-      "published": "2026-10-09T20:56:37.000Z",
+      "published": "2026-10-16T19:23:48.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-47c3-hpmg-7j6p",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "572b205ce8a65343",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pacioli-guard] pacioli: A submit consent marker licensed cancellation of caller-named pre-existing documents",
-      "summary": "",
-      "published": "2026-10-09T20:42:51.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3hj7-6vmj-h8v4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "56e055c0baad240d",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pyload-ng] pyload-ng: getUserData/get_userdata exposed at Perms.ANY allow any authenticated account to brute-force the administrator password",
-      "summary": "",
-      "published": "2026-10-09T17:09:15.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-68w4-83fh-f2w8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "5dd32cf24cf97589",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pyload-ng] pyLoad: Rate-Limit Bypass and Audit-Log Spoofing via Trusted Client-Controlled `X-Forwarded-For` Header",
-      "summary": "",
-      "published": "2026-10-09T17:09:12.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9q47-3cm2-2rp8",
+      "url": "https://github.com/advisories/GHSA-vqff-r82h-9crc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -663,25 +682,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-x937-hj6v-793p",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "02307c800476a6f9",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@adonisjs/http-server] AdonisJS: Unencoded route parameters can produce open redirects",
-      "summary": "",
-      "published": "2026-10-08T22:09:06.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2m6q-8v3h-jqww",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
