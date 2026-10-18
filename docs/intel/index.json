@@ -1,7 +1,7 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-17T03:35:01.249949+00:00",
+  "generated_at": "2026-10-18T03:41:40.704133+00:00",
   "mode": "safe-metadata-only",
   "item_count": 46,
   "items": [
@@ -321,6 +321,25 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-856c-92hv-3vxx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0141fccb0899f476",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[devalue] devalue: Custom ArrayBuffer revivers can bypass typed-array allocation validation",
+      "summary": "",
+      "published": "2026-10-01T15:15:56.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r9w8-h9r3-54w4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -663,25 +682,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-c42q-qvc3-j6vg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b73e731f912b169d",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[fast-jwt] fast-jwt: Verifier cache accepts expired JWTs without iat.",
-      "summary": "",
-      "published": "2026-10-08T22:10:35.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-x937-hj6v-793p",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
