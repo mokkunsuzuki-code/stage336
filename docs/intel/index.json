@@ -1,10 +1,162 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-19T03:51:35.396504+00:00",
+  "generated_at": "2026-10-20T04:03:05.719185+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 36,
+  "item_count": 48,
   "items": [
+    {
+      "id": "c2f5e08ae38040e2",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[aiohttp] aiohttp server lacks an initial request/header timeout",
+      "summary": "",
+      "published": "2026-10-19T17:08:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5wr8-gcqf-gqf3",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6dc7eae60d86025f",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[aiohttp] AIOHTTP: Secure attribute not enforced for shared cookie",
+      "summary": "",
+      "published": "2026-10-19T17:07:47.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-494j-54xm-rwp3",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d246ea4987585590",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[aiohttp] aiohttp: Multiple instances of excessive or unbounded memory/CPU use",
+      "summary": "",
+      "published": "2026-10-19T17:07:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2g87-pp6c-29x5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "79f80135a376d02f",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mercury] Mercury: Stored / DOM Cross-Site Scripting (XSS): mr.Markdown renders untrusted content as raw, unsanitized HTML",
+      "summary": "",
+      "published": "2026-10-19T17:01:20.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2658-85cv-9wwq",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "cf16fea2749bb867",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mercury] Mercury: Unauthenticated Remote Code Execution in /api/terminals - access control bypass",
+      "summary": "",
+      "published": "2026-10-19T17:00:54.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f8c7-rwf9-fmgm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d606332ee939c133",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[graphifyy] Graphify Fortran extractor: incomplete cpp #include hardening allows arbitrary host-file read/exfiltration when indexing an untrusted repo",
+      "summary": "",
+      "published": "2026-10-19T16:51:36.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-pcc4-rvhr-2pr8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3da5198b6c3cb936",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mercury] Mercury: Unauthenticated Remote Code Execution via /api/kernels",
+      "summary": "",
+      "published": "2026-10-19T16:49:08.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rv4m-xm3f-3ccq",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "032de31dbc167cc6",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[loopx] LoopX serve-status permissive CORS policy exposes control-plane state and private Markdown files",
+      "summary": "",
+      "published": "2026-10-19T16:11:57.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vx2m-gpq4-8j5q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "bb243859cb44612a",
       "source": "github-advisory-pip",
@@ -215,17 +367,17 @@
       }
     },
     {
-      "id": "3fb4c80eedfd4390",
-      "source": "github-advisory-pip",
+      "id": "a48678b191a366d3",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[mcp] MCP Python SDK: Unbounded Session Accumulation in StreamableHTTP Transport Enables Resource Exhaustion",
+      "title": "[json-web-token] json-web-token library is vulnerable to a JWT algorithm confusion attack",
       "summary": "",
-      "published": "2026-10-15T20:13:13.000Z",
+      "published": "2023-11-17T22:48:15.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-84m7-p3x7-pcfv",
+      "url": "https://github.com/advisories/GHSA-4xw9-cx39-r355",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +386,17 @@
       }
     },
     {
-      "id": "58297e13739f3ea3",
-      "source": "github-advisory-pip",
+      "id": "296eec029f08e96f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[borgbackup] borg extract might modify out-of-tree files when extracting maliciously crafted archives",
+      "title": "[@opentelemetry/auto-instrumentations-node] Prometheus exporter process crash via malformed HTTP request",
       "summary": "",
-      "published": "2026-10-15T20:09:23.000Z",
+      "published": "2026-05-11T14:42:10.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gfp8-w835-v44j",
+      "url": "https://github.com/advisories/GHSA-q7rr-3cgh-j5r3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +405,17 @@
       }
     },
     {
-      "id": "8a836b0f31accb24",
-      "source": "github-advisory-pip",
+      "id": "d47ae78d2e95593c",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[social-auth-core] Python Social Auth: Login CSRF in LINE backend (LineOAuth2) — missing OAuth state validation (incomplete fix of 5.0.0 campaign)",
+      "title": "[@opentelemetry/sdk-node] Prometheus exporter process crash via malformed HTTP request",
       "summary": "",
-      "published": "2026-10-15T20:09:11.000Z",
+      "published": "2026-05-11T14:42:10.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-526j-582w-7fm9",
+      "url": "https://github.com/advisories/GHSA-q7rr-3cgh-j5r3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,55 +424,17 @@
       }
     },
     {
-      "id": "16d5bca8d0d5a24c",
-      "source": "github-advisory-pip",
+      "id": "94339fcdc1d5e652",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[Twisted] Twisted: IMAP wildcardToRegexp() ReDoS",
+      "title": "[msgpack5] msgpack5: Truncated map32 headers throw an unexpected error",
       "summary": "",
-      "published": "2026-10-07T16:18:30.000Z",
+      "published": "2026-10-08T17:40:10.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8pqf-f4m5-798g",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2cc5e06897be82d7",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[bbot] BBOT's Symlink guard bypass in unarchive module allows planting symlinks during extraction",
-      "summary": "",
-      "published": "2026-10-14T19:34:31.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-xpf3-p7gm-7756",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "94ccfe75f27ce046",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[apprise] Apprise forwards configured auth headers across cross-origin HTTP redirects",
-      "summary": "",
-      "published": "2026-10-14T18:38:05.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-856c-92hv-3vxx",
+      "url": "https://github.com/advisories/GHSA-8f34-f56x-9xph",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -614,17 +728,19 @@
       }
     },
     {
-      "id": "5b8f5a74e5e4bf7a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@tinacms/cli] Tina: Code injection via unescaped Git branch name in generated client source",
-      "summary": "",
-      "published": "2026-10-09T20:56:52.000Z",
+      "id": "0cd09302b11e5599",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
+      "summary": "While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requirements in physical simulation. Verifying these requirements is nontrivial: different candidate mechanisms may realize the same function through entirely different components, controls, and operating",
+      "published": "2026-10-19T17:59:58Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CV",
+        "cs.CL",
+        "cs.GR"
       ],
-      "url": "https://github.com/advisories/GHSA-pwhx-cvv3-qj5c",
+      "url": "https://arxiv.org/abs/2610.26861v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -633,17 +749,17 @@
       }
     },
     {
-      "id": "71e61ba8aa5b9334",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@tinacms/app] TinaCMS admin preview iframe loads an attacker-controlled origin from the URL fragment",
-      "summary": "",
-      "published": "2026-10-09T20:56:48.000Z",
+      "id": "802eeb7a24bbb4a4",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "GenOlympiad: Benchmarking Frontier Image Models at Their Capability Boundaries",
+      "summary": "Text-to-image models have made tremendous progress and can produce high-quality images. However, a question which would be asked in any other discipline is where the frontier models fall short. We introduce GenOlympiad, a benchmark which provides the most challenging text prompts from nine capability axes for stress-testing frontier text-to-image models. The assessed capabilities include generating large quantities, performing deep reasoning, ensuring hard physical consistency, following complex",
+      "published": "2026-10-19T17:59:41Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CV"
       ],
-      "url": "https://github.com/advisories/GHSA-x34j-47hf-4xg7",
+      "url": "https://arxiv.org/abs/2610.26850v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -652,17 +768,17 @@
       }
     },
     {
-      "id": "4d8199bc1d9004bf",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[tinacms] TinaCMS admin preview iframe loads an attacker-controlled origin from the URL fragment",
-      "summary": "",
-      "published": "2026-10-09T20:56:48.000Z",
+      "id": "d0f69e5b65fdd179",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SARP: An On-SSD Index for KVCache with Fast Prefix Matching and Recovery",
+      "summary": "Distributed LLM serving relies on a global index to locate reusable key-value cache (KVCache) blocks through prefix matching. Losing the index after a crash or restart forces affected requests to recompute existing KVCache on GPUs. Persisting the index restores access after a failure. Existing persistent indexes face a tension between prefix-matching performance and recovery time. A snapshot-backed in-memory index supports fast prefix matching, but rebuilding the full index delays recovery. An o",
+      "published": "2026-10-19T17:59:39Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.DB"
       ],
-      "url": "https://github.com/advisories/GHSA-x34j-47hf-4xg7",
+      "url": "https://arxiv.org/abs/2610.26849v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -671,17 +787,139 @@
       }
     },
     {
-      "id": "5322ff07a97b0c7f",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@tinacms/web-components] @tinacms/web-components: `tina-markdown` writes rich-text link URLs into `href` without scheme validation, allowing stored XSS",
-      "summary": "",
-      "published": "2026-10-09T20:56:45.000Z",
+      "id": "1862ee87c047bd48",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
+      "summary": "In this paper, we systematically investigate the mechanisms, scaling behavior, and generalization of physical Recursive self-improvement. We introduce PhysRSI-eval to quantify physical RSI through a five-axis metric: First-Attempt Performance, Efficiency, Success, Budget and Improvement from failure. Different VLMs are evaluated on 18 manipulation tasks under a fixed interaction budget. The analysis of experimental results motivates the Physical Barrel Hypothesis: different capabilities may cons",
+      "published": "2026-10-19T17:59:30Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
       ],
-      "url": "https://github.com/advisories/GHSA-c42q-qvc3-j6vg",
+      "url": "https://arxiv.org/abs/2610.26848v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "74e8b5964a8c27a3",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "LatComm: Reusable Context Compression for Latent Communication between Large Language Models",
+      "summary": "Systems that combine several large language models (LLMs) often use one context for many questions. When the context is passed between models as text, the receiving model processes all of its tokens again for every question. Avoiding this cost requires a context representation that is compact, reusable across questions, and readable by a different LLM. Existing compression and latent communication methods each provide only some of these properties. We introduce LatComm, a Latent Communication in",
+      "published": "2026-10-19T17:58:41Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.26840v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ed645bb97933dcb0",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
+      "summary": "LLM agents that compute the right answer can still answer wrongly. Agent harnesses increasingly keep long tool outputs out of the context window, saving them to files that the agent searches or reads on demand. We ask where this costs accuracy with a real scientific tool: PHREEQC, a widely used geochemistry simulator from the USGS, whose reports reach 846.8k characters and whose determinism lets every printed value be traced. Agents use it to answer 158 execution-verified multiple-choice items. ",
+      "published": "2026-10-19T17:57:41Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.26836v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "95f5c61173cad32d",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Kronecker Delta Rule for Long Context Linear Attention",
+      "summary": "We propose KronLSTM, a linear attention architecture based on the Kronecker Delta Rule, a novel update rule for associative matrix memories. KronLSTM extends the xLSTM family with a memory-revision mechanism that corrects targeted associations while modifying the memory only along a single direction in matrix space. This minimally invasive memory revision reduces interference with previously stored information compared with delta-rule updates, making it particularly well suited for long-context ",
+      "published": "2026-10-19T17:56:52Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.26834v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3762da1870c41105",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "AGR: Agentic Generative Retrieval with Tool-Augmented Search",
+      "summary": "Large-scale search and recommendation systems derive much of their retrieval quality from rich, heterogeneous features, yet existing generative retrieval (GR) methods struggle to exploit such feature ecosystems efficiently. Static feature injection either encodes all available signals or places them according to predetermined schemes, increasing serving cost and introducing irrelevant or conflicting evidence. More fundamentally, existing methods cannot adaptively determine when a feature is need",
+      "published": "2026-10-19T17:56:04Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.IR"
+      ],
+      "url": "https://arxiv.org/abs/2610.26831v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b7103e8cf85f110c",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "ProteinGeoBench: Frontier Structural-Biology Agents Are Fluent at Lookup but Lost in Geometry",
+      "summary": "Frontier agents retrieve structural metadata well and compute geometry from coordinates less reliably. We ask how much of a benchmark score reflects that gap and how much reflects the evaluation configuration around the model. We study ProteinGeoBench, a suite of 131 protein-structure tasks, using 4,249 rollouts from four frontier models and 4,486 further trials across 26 models. Three of the four frontier models fall within 0.031 of one another (0.785 to 0.816) with no difference between them r",
+      "published": "2026-10-19T17:55:38Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.LG",
+        "q-bio.BM"
+      ],
+      "url": "https://arxiv.org/abs/2610.26829v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2ef0355ccf4d4309",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+      "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents (CUAs). Whereas existing approaches typically specialize in a single agent interact",
+      "published": "2026-10-19T17:55:35Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.26828v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
