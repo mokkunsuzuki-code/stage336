@@ -1,22 +1,22 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-22T03:52:15.264292+00:00",
+  "generated_at": "2026-10-23T03:56:34.594504+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 34,
+  "item_count": 26,
   "items": [
     {
-      "id": "97b46df53fa8ee0d",
+      "id": "d176edf95b37c016",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[virtualenv] virtualenv: Builtin creation follows linked environment directories",
+      "title": "[virtualenv] virtualenv: Generated files can follow existing destination links",
       "summary": "",
-      "published": "2026-10-21T21:35:56.000Z",
+      "published": "2026-10-22T17:03:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cw65-gx24-rc82",
+      "url": "https://github.com/advisories/GHSA-558c-9hv2-4prj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "aeff3789547270ab",
+      "id": "da2873941b900259",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[virtualenv] virtualenv: Deletion recovery can change a symlink target's mode",
+      "title": "[pillow] Pillow: Bundled libopenjp2 2.5.4 in all wheels since 11.1.0 carries OSV-2025-219 heap-buffer-overflow write reachable from Image.open().load()",
       "summary": "",
-      "published": "2026-10-21T21:31:34.000Z",
+      "published": "2026-10-22T17:01:08.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-43mp-35q3-x3fq",
+      "url": "https://github.com/advisories/GHSA-78g4-xqwv-q3g8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -44,17 +44,17 @@
       }
     },
     {
-      "id": "56576333ea3c0471",
+      "id": "c20bc153b0ccf2eb",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[virtualenv] virtualenv: Generated POSIX console launchers interpret destination paths as shell syntax",
+      "title": "[pypdf] pypdf: Possible long runtimes/large memory usage when retrieving form fields",
       "summary": "",
-      "published": "2026-10-21T21:30:12.000Z",
+      "published": "2026-10-22T16:49:56.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-c978-59m8-c77v",
+      "url": "https://github.com/advisories/GHSA-6vvc-x485-93v7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -63,17 +63,17 @@
       }
     },
     {
-      "id": "784b2a0ff7f658cf",
+      "id": "412fd7424d56cbc0",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow]  Pillow: Memory disclosure and segfault in libtiff encoder via crafted TIFF tags",
+      "title": "[pypdf] pypdf: Possible large memory usage when parsing arrays and dictionaries",
       "summary": "",
-      "published": "2026-10-21T21:29:16.000Z",
+      "published": "2026-10-22T16:49:40.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xvh5-g6gv-559v",
+      "url": "https://github.com/advisories/GHSA-f54x-cmq8-qg57",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +82,17 @@
       }
     },
     {
-      "id": "efe815b6129388eb",
+      "id": "4acb1ff953fe4045",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: Heap buffer overflow in _tiffWriteProc when saving TIFF to BytesIO",
+      "title": "[pypdf] pypdf: Possible large memory usage when parsing content streams",
       "summary": "",
-      "published": "2026-10-21T21:28:09.000Z",
+      "published": "2026-10-22T16:49:22.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-332p-7hrc-92wf",
+      "url": "https://github.com/advisories/GHSA-cgf9-327m-v77c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +101,17 @@
       }
     },
     {
-      "id": "719510da231260b3",
+      "id": "7dfb4c9bc83a18d8",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pillow] Pillow: Heap use-after-free when encoding TIFF to an in-memory buffer",
+      "title": "[Gitpython] GitPython validates a submodule's \".git\" path only after cloning into it (RCE)",
       "summary": "",
-      "published": "2026-10-21T21:24:19.000Z",
+      "published": "2026-10-22T16:41:14.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4rr5-89j8-mwwm",
+      "url": "https://github.com/advisories/GHSA-83vg-56qc-22m7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +120,17 @@
       }
     },
     {
-      "id": "e2c72ed811a35399",
+      "id": "1989219256658b4f",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: Infinite loop in PdfParser.rewrite_pages on page tree Parent cycle",
+      "title": "[graphql-core] GraphQL-core: Denial of service via comment tokens bypassing the parser's max_tokens limit",
       "summary": "",
-      "published": "2026-10-21T21:21:07.000Z",
+      "published": "2026-10-22T16:27:14.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-f2g6-542v-9j58",
+      "url": "https://github.com/advisories/GHSA-r77w-qph3-7vf8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +139,17 @@
       }
     },
     {
-      "id": "0a020f21b55e3f23",
+      "id": "e7436398ce60e2a4",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: APNG background disposal allocates full canvas before decompression bomb check",
+      "title": "[graphql-core] GraphQL-core: Denial of service via quadratic complexity in the OverlappingFieldsCanBeMerged validation rule",
       "summary": "",
-      "published": "2026-10-21T21:17:56.000Z",
+      "published": "2026-10-22T16:26:40.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5xm2-6676-qcp9",
+      "url": "https://github.com/advisories/GHSA-vj8h-fx38-h3vc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +158,17 @@
       }
     },
     {
-      "id": "5656e5829b792bc6",
+      "id": "d0b851fa924984fc",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pillow] Pillow: MSP RLE decoder expands a tiny file into unbounded memory",
+      "title": "[nbconvert] nbconvert: Arbitrary file write through path traversal in cell output filenames when exporting to md, latex, rst and asciidoc",
       "summary": "",
-      "published": "2026-10-21T21:12:56.000Z",
+      "published": "2026-10-22T16:23:28.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gg2r-wvfm-q9rx",
+      "url": "https://github.com/advisories/GHSA-pjvx-prjx-h659",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +177,17 @@
       }
     },
     {
-      "id": "fa3b191236eed8b1",
+      "id": "e9e691115ef12e12",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: Quadratic-time DoS in PDF save_all (PdfParser.next_object_id)",
+      "title": "[opentelemetry-api] OpenTelemetry Python: Unbounded tracestate parsing in opentelemetry-api",
       "summary": "",
-      "published": "2026-10-21T21:11:44.000Z",
+      "published": "2026-10-22T16:22:07.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jg86-v3jv-hrpm",
+      "url": "https://github.com/advisories/GHSA-xcq7-p3pf-p88h",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +196,17 @@
       }
     },
     {
-      "id": "62f10cf9db5c9570",
+      "id": "221cc021ebc2c756",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: PdfParser can recurse without limit in get_value() and linearize_page_tree()",
+      "title": "[black] Black: GitHub Action installs unvalidated required-version from pyproject.toml",
       "summary": "",
-      "published": "2026-10-21T21:11:07.000Z",
+      "published": "2026-10-22T16:18:57.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-254f-3936-288h",
+      "url": "https://github.com/advisories/GHSA-cg8m-r9f2-5wm2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +215,17 @@
       }
     },
     {
-      "id": "6a0ce6c131ae4dc8",
+      "id": "1339aee3d16b7a19",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: ReDoS in XbmImagePlugin: 512-byte file stalls Image.open() for minutes",
+      "title": "[djangorestframework] Django REST framework: TokenProxy.delete() reports success and revokes nothing",
       "summary": "",
-      "published": "2026-10-21T20:45:06.000Z",
+      "published": "2026-10-22T16:18:05.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xgh8-jp6q-p5x8",
+      "url": "https://github.com/advisories/GHSA-xw6w-gcfp-cf8m",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +234,17 @@
       }
     },
     {
-      "id": "0adc980b12968837",
+      "id": "4c7dfe0038a52f3a",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: Image.quantize() with empty palette leaks uninitialized stack memory",
+      "title": "[djangorestframework] Django REST framework: Accept header with many large quoted parameters burns ~19s of CPU per request in content negotiation",
       "summary": "",
-      "published": "2026-10-21T20:44:07.000Z",
+      "published": "2026-10-22T16:17:13.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rfgq-q3w2-pmv2",
+      "url": "https://github.com/advisories/GHSA-33wh-fxxf-88vv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +253,17 @@
       }
     },
     {
-      "id": "c506e24d7b5b55dc",
+      "id": "d419fdfe6608b8e0",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: Quadratic GIF comment concatenation allows DoS in Image.open()",
+      "title": "[djangorestframework] Django REST framework: JSONParser applies an attacker-named codec to the request stream",
       "summary": "",
-      "published": "2026-10-21T20:42:11.000Z",
+      "published": "2026-10-22T16:16:09.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-74r2-7ff9-mjj2",
+      "url": "https://github.com/advisories/GHSA-3547-9m27-7rxg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +272,17 @@
       }
     },
     {
-      "id": "7660bec791bb7416",
+      "id": "0b67fdd1f63d3b3d",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: Infinite loop in MIC n_frames when the embedded TIFF",
+      "title": "[Pillow] Pillow: Heap buffer overflow writing JPEG comment after ICC profile fills buffer",
       "summary": "",
-      "published": "2026-10-21T20:39:49.000Z",
+      "published": "2026-10-22T16:05:39.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-22hg-r758-rrw9",
+      "url": "https://github.com/advisories/GHSA-g7cr-3p24-7wf7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +291,17 @@
       }
     },
     {
-      "id": "b05f4f9351649cc3",
+      "id": "d086598fca69d949",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pillow] Pillow: Quadratic GIF comment copying during save",
+      "title": "[Pillow] Pillow: Heap over-read in WMF/EMF rendering via 16-bit dimension truncation (Windows builds)",
       "summary": "",
-      "published": "2026-10-21T20:38:43.000Z",
+      "published": "2026-10-22T16:03:14.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fc9g-5qg7-mf45",
+      "url": "https://github.com/advisories/GHSA-9v9v-9qvf-h2hj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +310,17 @@
       }
     },
     {
-      "id": "2699225e889db986",
+      "id": "ece5e0270a0ac243",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: NULL dereference in ImagingExpand via rank filters on zero-size images",
+      "title": "[Pillow] Pillow: PNG eXIf chunk makes EXIF parsing run in quadratic time",
       "summary": "",
-      "published": "2026-10-21T20:32:37.000Z",
+      "published": "2026-10-22T16:02:39.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-27h8-gf7j-v5hc",
+      "url": "https://github.com/advisories/GHSA-g4qv-2jxx-769h",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +329,17 @@
       }
     },
     {
-      "id": "3b0367a59945ff41",
+      "id": "025f6b19120db05f",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pillow] Pillow: NULL pointer dereference in Image.merge via an unvalidated band 0",
+      "title": "[Pillow] Pillow: TarIO negative size field causes infinite CPU-spin loop",
       "summary": "",
-      "published": "2026-10-21T20:30:25.000Z",
+      "published": "2026-10-22T16:01:46.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cp9v-662q-vvx9",
+      "url": "https://github.com/advisories/GHSA-3j72-p6qg-6xp7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,55 +348,17 @@
       }
     },
     {
-      "id": "a1dcb0f49b544652",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pillow] Pillow: Invalid free in FreeType glyph rendering when a stroker is active",
-      "summary": "",
-      "published": "2026-10-21T20:06:34.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-j4m9-6w36-pw47",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e2d9b60e33ce0683",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[Pillow] Pillow: Double free in ImagingScaleAffine on calloc failure via Image.transform",
-      "summary": "",
-      "published": "2026-10-21T20:03:56.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-7mwm-ghpf-9vrm",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4113dc59d98a50e4",
+      "id": "0d19acc28c969985",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vite-plus] Vitest: Servers misapply `server.fs.deny`, serving `.env`, private keys, `.git`, and the API token file",
+      "title": "[@nuxt/nitro-server] Nuxt: Server-side route rules (`redirect`, `headers`, `proxy`, `ssr`) are skipped for case-variant paths when routing is case-insensitive",
       "summary": "",
-      "published": "2026-10-21T19:57:00.000Z",
+      "published": "2026-10-22T16:59:55.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p458-7748-mcp3",
+      "url": "https://github.com/advisories/GHSA-vjh5-4x84-xrqp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +367,17 @@
       }
     },
     {
-      "id": "6392337d41ab3a65",
+      "id": "71b3e33e484dc21f",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@vitest/browser] Vitest: Servers misapply `server.fs.deny`, serving `.env`, private keys, `.git`, and the API token file",
+      "title": "[nuxt] Nuxt: Server-side route rules (`redirect`, `headers`, `proxy`, `ssr`) are skipped for case-variant paths when routing is case-insensitive",
       "summary": "",
-      "published": "2026-10-21T19:57:00.000Z",
+      "published": "2026-10-22T16:59:55.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p458-7748-mcp3",
+      "url": "https://github.com/advisories/GHSA-vjh5-4x84-xrqp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +386,17 @@
       }
     },
     {
-      "id": "35dc14eb5e1a010c",
+      "id": "0cd60f5dda2a9f3d",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@vitest/ui] Vitest: Servers misapply `server.fs.deny`, serving `.env`, private keys, `.git`, and the API token file",
+      "title": "[nuxt] Nuxt server islands render `useHeadSafe` input without sanitisation",
       "summary": "",
-      "published": "2026-10-21T19:57:00.000Z",
+      "published": "2026-10-22T16:58:00.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p458-7748-mcp3",
+      "url": "https://github.com/advisories/GHSA-xfq5-w38q-pc2x",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +405,17 @@
       }
     },
     {
-      "id": "78d364ea47d5f450",
+      "id": "b0809bef2504b939",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@vitest/mocker] Vitest: Code injection via unauthenticated manual mock registration",
+      "title": "[nuxt] Nuxt: Incomplete fix for GHSA-934w-87qh-qr26: a `javascript:` URL prefixed with an ASCII control character executes from `<NuxtLink>` when `pages` is disabled",
       "summary": "",
-      "published": "2026-10-21T19:54:26.000Z",
+      "published": "2026-10-22T16:51:37.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qxg6-89mg-rqv8",
+      "url": "https://github.com/advisories/GHSA-jjm6-p2m9-9w4x",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +424,17 @@
       }
     },
     {
-      "id": "b0f072a4b24d2b1e",
+      "id": "bcab02be3a912287",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@vitest/mocker] Vitest: Windows backslash traversal bypasses the @vitest/mocker redirect allowlist fix",
+      "title": "[nuxt] Nuxt: Route rules are matched against the raw request path, so a percent-encoded segment can bypass `appMiddleware` on dynamic and catch-all routes",
       "summary": "",
-      "published": "2026-10-21T19:48:38.000Z",
+      "published": "2026-10-22T16:50:53.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xp26-3454-mjgp",
+      "url": "https://github.com/advisories/GHSA-6gq8-jgmh-3ffp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +443,17 @@
       }
     },
     {
-      "id": "3d52403c7b84875c",
+      "id": "439da42615eb4203",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@apostrophecms/import-export] ApostropheCMS: Exposure of Sensitive Information via predictable export filenames",
+      "title": "[electron] Electron: SameSite cookie restrictions are not applied to windows opened from links",
       "summary": "",
-      "published": "2026-10-21T19:45:03.000Z",
+      "published": "2026-10-22T16:47:54.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5gc8-frw3-3vqm",
+      "url": "https://github.com/advisories/GHSA-2p8c-gr87-2676",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +462,17 @@
       }
     },
     {
-      "id": "3066cf1c7c906fa0",
+      "id": "87071dc61e81b290",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] OpenClaw: Browser CDP discovery could accept blocked WebSocket URLs",
+      "title": "[electron] Electron: Pointer lock permission requests can be attributed to the wrong frame",
       "summary": "",
-      "published": "2026-10-21T19:37:42.000Z",
+      "published": "2026-10-22T16:47:15.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3x84-qq85-fj65",
+      "url": "https://github.com/advisories/GHSA-x562-297c-g43g",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,131 +481,17 @@
       }
     },
     {
-      "id": "0ad4cd130b0d2a54",
+      "id": "a92592956775351f",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] Duplicate Advisory: Browser CDP discovery could accept blocked WebSocket URLs",
+      "title": "[electron] Electron: Extension tabs.query returns tab URLs and titles without the tabs permission",
       "summary": "",
-      "published": "2026-07-14T00:31:04.000Z",
+      "published": "2026-10-22T16:46:33.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jw7v-5mp7-ghgm",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "71c18badd941631e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@storybook/addon-mcp] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
-      "summary": "",
-      "published": "2026-10-21T17:23:29.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b27e8bc5d9f5b3ef",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@storybook/addon-vitest] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
-      "summary": "",
-      "published": "2026-10-21T17:23:29.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "16a5cd58e9545e41",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@storybook/experimental-addon-test] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
-      "summary": "",
-      "published": "2026-10-21T17:23:29.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "5cac6f8218045184",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@storybook/core-server] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
-      "summary": "",
-      "published": "2026-10-21T17:23:29.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "62c43f9cb1505c1a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@storybook/core] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
-      "summary": "",
-      "published": "2026-10-21T17:23:29.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e54987251353f414",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[storybook] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
-      "summary": "",
-      "published": "2026-10-21T17:23:29.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
+      "url": "https://github.com/advisories/GHSA-98mx-cjp9-gchm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
