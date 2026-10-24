@@ -1,22 +1,22 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-23T03:56:34.594504+00:00",
+  "generated_at": "2026-10-24T03:51:01.260500+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 26,
+  "item_count": 35,
   "items": [
     {
-      "id": "d176edf95b37c016",
+      "id": "e096ef14be5805b7",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[virtualenv] virtualenv: Generated files can follow existing destination links",
+      "title": "[filelock] filelock: ReadWriteLock on the hard-link route deletes any directory another user renames onto its .filelock-* link directory name",
       "summary": "",
-      "published": "2026-10-22T17:03:12.000Z",
+      "published": "2026-10-23T22:28:41.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-558c-9hv2-4prj",
+      "url": "https://github.com/advisories/GHSA-jqc4-5cvw-7w85",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "da2873941b900259",
+      "id": "274e4de827f80435",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pillow] Pillow: Bundled libopenjp2 2.5.4 in all wheels since 11.1.0 carries OSV-2025-219 heap-buffer-overflow write reachable from Image.open().load()",
+      "title": "[filelock] filelock: ReadWriteLock on Windows acts on SQLite side files another local user places beside its database",
       "summary": "",
-      "published": "2026-10-22T17:01:08.000Z",
+      "published": "2026-10-23T22:28:19.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-78g4-xqwv-q3g8",
+      "url": "https://github.com/advisories/GHSA-9vhv-jxww-xfm5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -44,17 +44,17 @@
       }
     },
     {
-      "id": "c20bc153b0ccf2eb",
+      "id": "35e7cd16abbc52ac",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pypdf] pypdf: Possible long runtimes/large memory usage when retrieving form fields",
+      "title": "[filelock] filelock: On Windows an oplock on a soft lock's marker holds SoftFileLock.acquire() past its timeout and blocks the stale break",
       "summary": "",
-      "published": "2026-10-22T16:49:56.000Z",
+      "published": "2026-10-23T22:27:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6vvc-x485-93v7",
+      "url": "https://github.com/advisories/GHSA-567q-5qvw-pf92",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -63,17 +63,17 @@
       }
     },
     {
-      "id": "412fd7424d56cbc0",
+      "id": "72476df012fda421",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pypdf] pypdf: Possible large memory usage when parsing arrays and dictionaries",
+      "title": "[virtualenv] virtualenv: Temporary app-data can leave dangling seed package links",
       "summary": "",
-      "published": "2026-10-22T16:49:40.000Z",
+      "published": "2026-10-23T22:26:57.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-f54x-cmq8-qg57",
+      "url": "https://github.com/advisories/GHSA-4f8h-vr72-p32c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +82,17 @@
       }
     },
     {
-      "id": "4acb1ff953fe4045",
+      "id": "c7701bcb2969d15e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[pypdf] pypdf: Possible large memory usage when parsing content streams",
+      "title": "[virtualenv] virtualenv: Pip seeding with download omits wheel digest verification",
       "summary": "",
-      "published": "2026-10-22T16:49:22.000Z",
+      "published": "2026-10-23T22:26:04.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cgf9-327m-v77c",
+      "url": "https://github.com/advisories/GHSA-cx28-75q4-x26q",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +101,17 @@
       }
     },
     {
-      "id": "7dfb4c9bc83a18d8",
+      "id": "35d83a3268c8fee5",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Gitpython] GitPython validates a submodule's \".git\" path only after cloning into it (RCE)",
+      "title": "[virtualenv] virtualenv: Downloaded wheel selection and caching precede verification",
       "summary": "",
-      "published": "2026-10-22T16:41:14.000Z",
+      "published": "2026-10-23T22:25:22.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-83vg-56qc-22m7",
+      "url": "https://github.com/advisories/GHSA-494p-63j8-28p3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +120,17 @@
       }
     },
     {
-      "id": "1989219256658b4f",
+      "id": "c3f3a6ec3fb2efb8",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[graphql-core] GraphQL-core: Denial of service via comment tokens bypassing the parser's max_tokens limit",
+      "title": "[virtualenv] virtualenv: Xonsh activation literals depend on the script decoding codec",
       "summary": "",
-      "published": "2026-10-22T16:27:14.000Z",
+      "published": "2026-10-23T22:24:43.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r77w-qph3-7vf8",
+      "url": "https://github.com/advisories/GHSA-394h-qwmc-48pf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +139,17 @@
       }
     },
     {
-      "id": "e7436398ce60e2a4",
+      "id": "684257d0508f8ea2",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[graphql-core] GraphQL-core: Denial of service via quadratic complexity in the OverlappingFieldsCanBeMerged validation rule",
+      "title": "[virtualenv] virtualenv: Seeded files retain permissions from an older cache",
       "summary": "",
-      "published": "2026-10-22T16:26:40.000Z",
+      "published": "2026-10-23T22:23:11.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-vj8h-fx38-h3vc",
+      "url": "https://github.com/advisories/GHSA-fc2g-4w5p-6whm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +158,17 @@
       }
     },
     {
-      "id": "d0b851fa924984fc",
+      "id": "21c42906fab97f73",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nbconvert] nbconvert: Arbitrary file write through path traversal in cell output filenames when exporting to md, latex, rst and asciidoc",
+      "title": "[virtualenv] virtualenv: Bash prompt values can change meaning under older compatibility modes",
       "summary": "",
-      "published": "2026-10-22T16:23:28.000Z",
+      "published": "2026-10-23T22:21:57.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-pjvx-prjx-h659",
+      "url": "https://github.com/advisories/GHSA-6w3r-xr62-4xcp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +177,17 @@
       }
     },
     {
-      "id": "e9e691115ef12e12",
+      "id": "fb2fe95d20934a40",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[opentelemetry-api] OpenTelemetry Python: Unbounded tracestate parsing in opentelemetry-api",
+      "title": "[virtualenv] virtualenv: Venv configuration readback can reinterpret path boundaries",
       "summary": "",
-      "published": "2026-10-22T16:22:07.000Z",
+      "published": "2026-10-23T22:20:43.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xcq7-p3pf-p88h",
+      "url": "https://github.com/advisories/GHSA-qmx5-4p3x-wvqf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +196,17 @@
       }
     },
     {
-      "id": "221cc021ebc2c756",
+      "id": "7fdfcfdbf7922850",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[black] Black: GitHub Action installs unvalidated required-version from pyproject.toml",
+      "title": "[virtualenv] virtualenv: Seed replacement does not contain metadata deletion paths",
       "summary": "",
-      "published": "2026-10-22T16:18:57.000Z",
+      "published": "2026-10-23T22:19:15.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cg8m-r9f2-5wm2",
+      "url": "https://github.com/advisories/GHSA-hhxq-47xx-j5xx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +215,17 @@
       }
     },
     {
-      "id": "1339aee3d16b7a19",
+      "id": "705553e0f2da0b21",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[djangorestframework] Django REST framework: TokenProxy.delete() reports success and revokes nothing",
+      "title": "[mlflow] MLflow: SSRF on unauthenticated MLflow servers via third-party scorer kwargs in the scorer invoke, register, and GenAI evaluate endpoints",
       "summary": "",
-      "published": "2026-10-22T16:18:05.000Z",
+      "published": "2026-10-23T22:07:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xw6w-gcfp-cf8m",
+      "url": "https://github.com/advisories/GHSA-2wqp-q3c6-ccj5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +234,17 @@
       }
     },
     {
-      "id": "4c7dfe0038a52f3a",
+      "id": "e599e155a45e86b8",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[djangorestframework] Django REST framework: Accept header with many large quoted parameters burns ~19s of CPU per request in content negotiation",
+      "title": "[langgraph-checkpoint-sqlite] LangGraph: Namespace labels containing `.` reach other namespaces in Postgres and SQLite stores",
       "summary": "",
-      "published": "2026-10-22T16:17:13.000Z",
+      "published": "2026-10-23T22:06:44.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-33wh-fxxf-88vv",
+      "url": "https://github.com/advisories/GHSA-6hmw-9432-67qq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +253,17 @@
       }
     },
     {
-      "id": "d419fdfe6608b8e0",
+      "id": "3053e6fd2cbb6dec",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[djangorestframework] Django REST framework: JSONParser applies an attacker-named codec to the request stream",
+      "title": "[langgraph-checkpoint-postgres] LangGraph: Namespace labels containing `.` reach other namespaces in Postgres and SQLite stores",
       "summary": "",
-      "published": "2026-10-22T16:16:09.000Z",
+      "published": "2026-10-23T22:06:44.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3547-9m27-7rxg",
+      "url": "https://github.com/advisories/GHSA-6hmw-9432-67qq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +272,17 @@
       }
     },
     {
-      "id": "0b67fdd1f63d3b3d",
+      "id": "c61a640e9df9c85e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: Heap buffer overflow writing JPEG comment after ICC profile fills buffer",
+      "title": "[filelock] filelock: SoftFileLock evicts a fresh lock file whose watched age another local user's pre-dated file passed on through inode reuse",
       "summary": "",
-      "published": "2026-10-22T16:05:39.000Z",
+      "published": "2026-10-23T22:00:33.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g7cr-3p24-7wf7",
+      "url": "https://github.com/advisories/GHSA-2g95-wg33-c5x2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +291,17 @@
       }
     },
     {
-      "id": "d086598fca69d949",
+      "id": "b274fd0b3c6ef28e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: Heap over-read in WMF/EMF rendering via 16-bit dimension truncation (Windows builds)",
+      "title": "[filelock] filelock: SoftFileLock stale-break restore follows a swapped-in symbolic link and hard-links a file of the user running the lock into the lock directory",
       "summary": "",
-      "published": "2026-10-22T16:03:14.000Z",
+      "published": "2026-10-23T22:00:11.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9v9v-9qvf-h2hj",
+      "url": "https://github.com/advisories/GHSA-crv4-6mhj-j5jh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +310,17 @@
       }
     },
     {
-      "id": "ece5e0270a0ac243",
+      "id": "7d978b1341edb71e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: PNG eXIf chunk makes EXIF parsing run in quadratic time",
+      "title": "[filelock] filelock ReadWriteLock: SQLite reopens the lock database by name, so a planted symlink or journal file makes the lock user's process overwrite or unlink its own files",
       "summary": "",
-      "published": "2026-10-22T16:02:39.000Z",
+      "published": "2026-10-23T21:59:08.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g4qv-2jxx-769h",
+      "url": "https://github.com/advisories/GHSA-v4x8-3wr5-3wq8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +329,17 @@
       }
     },
     {
-      "id": "025f6b19120db05f",
+      "id": "36d5ef25db7aa25d",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: TarIO negative size field causes infinite CPU-spin loop",
+      "title": "[pillow] Pillow: Heap buffer overflow in FlashPix (FPX) JPEG decoding leads to code execution",
       "summary": "",
-      "published": "2026-10-22T16:01:46.000Z",
+      "published": "2026-10-23T21:55:21.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3j72-p6qg-6xp7",
+      "url": "https://github.com/advisories/GHSA-5x8w-8jj5-q52h",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +348,55 @@
       }
     },
     {
-      "id": "0d19acc28c969985",
+      "id": "e09fb5aa492373ad",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[Pillow] Pillow: Arrow export leaks stale heap memory when PILLOW_ALIGNMENT > 1",
+      "summary": "",
+      "published": "2026-10-23T21:53:21.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-654x-cwwv-5j9c",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d3f6e44535e971ec",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[gitpython] Duplicate Advisory: GitPython: git-config section-name injection enables arbitrary config directives (core.sshCommand RCE)",
+      "summary": "",
+      "published": "2026-08-03T15:32:49.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9xx9-hw38-h2w9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "918f2ceb69557415",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@nuxt/nitro-server] Nuxt: Server-side route rules (`redirect`, `headers`, `proxy`, `ssr`) are skipped for case-variant paths when routing is case-insensitive",
+      "title": "[@azure/msal-node] MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint",
       "summary": "",
-      "published": "2026-10-22T16:59:55.000Z",
+      "published": "2026-10-23T22:16:44.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-vjh5-4x84-xrqp",
+      "url": "https://github.com/advisories/GHSA-xcx6-jx8p-x3h5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +405,17 @@
       }
     },
     {
-      "id": "71b3e33e484dc21f",
+      "id": "cc93db2ac10ed150",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nuxt] Nuxt: Server-side route rules (`redirect`, `headers`, `proxy`, `ssr`) are skipped for case-variant paths when routing is case-insensitive",
+      "title": "[undici] undici vulnerable to Denial of Service via unhandled error on excessive content-encodings",
       "summary": "",
-      "published": "2026-10-22T16:59:55.000Z",
+      "published": "2026-10-23T22:14:31.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-vjh5-4x84-xrqp",
+      "url": "https://github.com/advisories/GHSA-xjj6-f33q-929c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -386,17 +424,17 @@
       }
     },
     {
-      "id": "0cd60f5dda2a9f3d",
+      "id": "7873c3f07cb742b5",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nuxt] Nuxt server islands render `useHeadSafe` input without sanitisation",
+      "title": "[undici] undici vulnerable to Denial of Service via unbounded memory in the EventSource parser",
       "summary": "",
-      "published": "2026-10-22T16:58:00.000Z",
+      "published": "2026-10-23T22:13:29.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xfq5-w38q-pc2x",
+      "url": "https://github.com/advisories/GHSA-4qv8-2p9j-2685",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +443,17 @@
       }
     },
     {
-      "id": "b0809bef2504b939",
+      "id": "1389a41e0ca43cc5",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nuxt] Nuxt: Incomplete fix for GHSA-934w-87qh-qr26: a `javascript:` URL prefixed with an ASCII control character executes from `<NuxtLink>` when `pages` is disabled",
+      "title": "[undici] undici vulnerable to Subresource Integrity bypass via non-lowercase algorithm tokens",
       "summary": "",
-      "published": "2026-10-22T16:51:37.000Z",
+      "published": "2026-10-23T22:12:57.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jjm6-p2m9-9w4x",
+      "url": "https://github.com/advisories/GHSA-f72v-6w45-q472",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +462,17 @@
       }
     },
     {
-      "id": "bcab02be3a912287",
+      "id": "49a81968a93d1597",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nuxt] Nuxt: Route rules are matched against the raw request path, so a percent-encoded segment can bypass `appMiddleware` on dynamic and catch-all routes",
+      "title": "[serialize-javascript] Serialize JavaScript: Cross-site scripting (XSS) via unescaped </script at the end of a serialized function body",
       "summary": "",
-      "published": "2026-10-22T16:50:53.000Z",
+      "published": "2026-10-23T22:09:52.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6gq8-jgmh-3ffp",
+      "url": "https://github.com/advisories/GHSA-m5mm-p8h7-m29v",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +481,17 @@
       }
     },
     {
-      "id": "439da42615eb4203",
+      "id": "f632b7393eb32751",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[electron] Electron: SameSite cookie restrictions are not applied to windows opened from links",
+      "title": "[multer] multer vulnerable to Denial of Service via a pending asynchronous fileFilter after request teardown",
       "summary": "",
-      "published": "2026-10-22T16:47:54.000Z",
+      "published": "2026-10-23T22:08:22.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2p8c-gr87-2676",
+      "url": "https://github.com/advisories/GHSA-q7qp-rjg7-q26m",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +500,17 @@
       }
     },
     {
-      "id": "87071dc61e81b290",
+      "id": "fd88a733eec1bd57",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[electron] Electron: Pointer lock permission requests can be attributed to the wrong frame",
+      "title": "[happy-dom] Happy DOM: Incomplete fix for CVE-2026-33943: unsanitized import alias leads to host code execution",
       "summary": "",
-      "published": "2026-10-22T16:47:15.000Z",
+      "published": "2026-10-23T22:06:13.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-x562-297c-g43g",
+      "url": "https://github.com/advisories/GHSA-834v-8h66-3h79",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +519,150 @@
       }
     },
     {
-      "id": "a92592956775351f",
+      "id": "4af6cc29e777daa2",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[electron] Electron: Extension tabs.query returns tab URLs and titles without the tabs permission",
+      "title": "[@fallow-cli/fallow-node] Fallow: A `.*` glob segment let an analyzed repository make Fallow test paths in the parent of the project root",
       "summary": "",
-      "published": "2026-10-22T16:46:33.000Z",
+      "published": "2026-10-23T21:58:16.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-98mx-cjp9-gchm",
+      "url": "https://github.com/advisories/GHSA-h4fr-cmh5-qr62",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f36be73d065dd5a0",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[fallow] Fallow: A `.*` glob segment let an analyzed repository make Fallow test paths in the parent of the project root",
+      "summary": "",
+      "published": "2026-10-23T21:58:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-h4fr-cmh5-qr62",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1880ff6b7ed5c219",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@fallow-cli/fallow-node] Fallow: Jest and Vitest `projects` entries let an analyzed repository make Fallow read files outside the project root",
+      "summary": "",
+      "published": "2026-10-23T21:57:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jfwm-3p3c-6hx5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ea51de078daad122",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[fallow] Fallow: Jest and Vitest `projects` entries let an analyzed repository make Fallow read files outside the project root",
+      "summary": "",
+      "published": "2026-10-23T21:57:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jfwm-3p3c-6hx5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "72e339e1435e9144",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[postal-mime] postal-mime: Quadratic CPU consumption when decoding a header of many joinable RFC 2047 base64 encoded words",
+      "summary": "",
+      "published": "2026-10-23T21:54:36.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f2hq-32vh-53cc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c42e8b4bb2501b6e",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[nodemailer] Nodemailer: A nested comment ends early in addressparser, releasing the rest of the comment as a recipient",
+      "summary": "",
+      "published": "2026-10-23T21:53:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8c8m-p3m8-cjg8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "529cfd4ac45591ba",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[nodemailer] Nodemailer: A \";\" inside a quoted string or comment ends an address group early in addressparser, turning display text into a recipient",
+      "summary": "",
+      "published": "2026-10-23T21:51:52.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-m943-m63m-w62w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e90f1520c2647962",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[nodemailer] Nodemailer: A \">\" inside a quoted local part ends an angle-addr early in addressparser, delivering to a domain the header does not name",
+      "summary": "",
+      "published": "2026-10-23T21:51:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-85x2-q946-cp5h",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
