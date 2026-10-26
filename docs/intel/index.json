@@ -1,9 +1,9 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-25T03:50:07.936003+00:00",
+  "generated_at": "2026-10-26T03:53:23.305077+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 35,
+  "item_count": 45,
   "items": [
     {
       "id": "e096ef14be5805b7",
@@ -663,6 +663,205 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-85x2-q946-cp5h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "df75a79082f5cf03",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "The Language of Instruction: Genre and Generative AI",
+      "summary": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run through these massive neural networks. It is instantiated in applications through instruction fine-tuning, the inclusion of a pretext known as a system prompt, and the formalization of inputs in mark",
+      "published": "2026-10-23T17:59:56Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.CY"
+      ],
+      "url": "https://arxiv.org/abs/2610.32982v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "cdbc98b2d106eb5c",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Separating Thinking from Spelling for Efficient Generative Recommendation",
+      "summary": "Generative recommenders retrieve items by writing their semantic IDs (SIDs) code by code under trie-constrained beam search, an approach now deployed on large web platforms. Standard autoregressive interfaces pay for the SID length K twice: a history of T items enters the backbone as TK code tokens, and every beam-search step runs through the backbone, so returning B candidates costs O(BK) backbone decode tokens per user. The second cost often dominates, and it grows with the backbone, the SID d",
+      "published": "2026-10-23T17:59:24Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.IR"
+      ],
+      "url": "https://arxiv.org/abs/2610.32980v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f9ccdd8c27a20166",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
+      "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protocol (stratified sampling, frozen snapshots, thread-grouped splits, pre-registered hypotheses, human labels in the agent's review loop) that yields ground truth before any training. O",
+      "published": "2026-10-23T17:49:43Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.32955v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c7163294b66d74c2",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
+      "summary": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existing remedies align the entire inference and training stacks, change global precision, or modify the learning algorithm. We ask whether aligning selected parts of the execution stack can stabilize BF16 RL while other implementation differences",
+      "published": "2026-10-23T17:45:03Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.32951v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ef5d0b69bdec490c",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
+      "summary": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-based numerical prediction. Methods: This article presents HAD-VLM, a hybrid autoregressive-diffusion framework that combines autoregressive text generation with continuous measurement prediction within a shared backbone. Visual prompt tuning adapts the vision encoder to ultrasound images. A diffusio",
+      "published": "2026-10-23T17:40:58Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.32948v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "dedc54e4c92bcbe1",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
+      "summary": "Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to avoid ads. We study a monopolistic platform that jointly chooses costly response quality, advertising intensity, and subscription prices when advertising reduces user value but better service raises advertising returns. Three findings follow. First, when partly ad-supported and ad-free plans coexist, advertising can finance useful service for consum",
+      "published": "2026-10-23T17:39:42Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "econ.TH",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.32945v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "da85170a81b959c0",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "STROKE: Simple Sparse Structural Occlusions for Black-Box Adversarial Attacks",
+      "summary": "We introduce STROKE, a query-efficient score-based black-box adversarial attack that constructs perturbations from simple oriented rectangular occlusions. STROKE optimizes these perturbations through a lightweight greedy add-and-refine procedure. Across diverse image classifiers, STROKE achieves high attack success with low query counts at nominal 1--2\\% area settings, showing favorable performance relative to existing patch-based attacks in several configurations. Matched comparisons further de",
+      "published": "2026-10-23T17:29:00Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV",
+        "cs.CR",
+        "cs.HC"
+      ],
+      "url": "https://arxiv.org/abs/2610.32932v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "64e232e2aa2a4067",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Vertex operator algebra realizations of untwisted Haagerup--Izumi centers",
+      "summary": "For every odd integer $N\\geq3$, we construct an untwisted Haagerup--Izumi fusion category $\\mathcal H_N$ on the negative spherical branch and a simple, self-contragredient, regular, $C_2$-cofinite vertex operator algebra $E_N$ of central charge $-16N$, together with an equivalence of modular fusion categories: \\[   \\operatorname{Rep}(E_N)\\simeq Z(\\mathcal H_N). \\]   The VOA $E_N$ is rational, has exactly $N^2+3$ irreducible modules, and is lower bounded and integer graded, with least conformal d",
+      "published": "2026-10-23T17:25:31Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "math.QA",
+        "math.CT"
+      ],
+      "url": "https://arxiv.org/abs/2610.32928v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "aa3098d00869a403",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "One-sided-DIQKD using any pure bipartite entangled state secure against all attacks",
+      "summary": "Quantum Key Distribution (QKD) allows spatially separated parties to establish a secret key among themselves based on quantum principles. While QKD systems are being deployed worldwide, their reliance on trusted measurements makes them vulnerable. Moreover, existing protocols have largely focussed on the qubit cases, and rely on the maximally entangled state, a costly resource to generate. Here, we consider the one-sided-device-independent (1SDI) QKD protocols, where one of the measurement devic",
+      "published": "2026-10-23T17:21:46Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.32923v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1a98d0c1e6a6e8a4",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SemantEq: Faithful Bidirectional Equivalence of Formal Statements",
+      "summary": "Statement autoformalization translates mathematics from natural language into a proof assistant such as Lean 4, and models now do it at scale. As provers get stronger, the burden of correctness shifts from the proof to the statement, that is, to whether the formal statement faithfully translates its source. Given a trusted reference formalization, the natural test is logical equivalence, and it proves too much. $P \\leftrightarrow Q$ holds trivially for any two statements $P$ and $Q$ that the lib",
+      "published": "2026-10-23T17:20:12Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.32919v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
