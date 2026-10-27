@@ -1,10 +1,124 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-26T03:53:23.305077+00:00",
+  "generated_at": "2026-10-27T04:16:37.595077+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 45,
+  "item_count": 33,
   "items": [
+    {
+      "id": "599b378d4cbc2be6",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[certifi] certifi bundles emSign root CAs with compromised intermediate CA keys",
+      "summary": "",
+      "published": "2026-10-20T19:35:05.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6q48-6c7w-9gw2",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4ef8e7bb9daba967",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pyload-ng] pyload-ng has a WebUI JSON permission mismatch that lets ADD/DELETE users invoke MODIFY-only actions",
+      "summary": "",
+      "published": "2026-04-08T00:18:20.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rfgh-63mg-8pwm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "43d3be9d2e993fd3",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI has vulnerable dependency on starlette via fastapi",
+      "summary": "",
+      "published": "2025-03-20T12:32:44.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w466-2wfc-8g58",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b68f26c06c4fc489",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI Stored Cross-Site Scripting Vulnerability",
+      "summary": "",
+      "published": "2024-08-08T00:31:44.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5jp3-wp5v-5363",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1625ddbfeaf57e09",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] open-webui Insecure Direct Object Reference (IDOR) vulnerability",
+      "summary": "",
+      "published": "2024-10-09T21:31:08.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xcvc-5hgv-phqg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b574441fab09a408",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
+      "summary": "",
+      "published": "2026-08-20T18:45:27.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "e096ef14be5805b7",
       "source": "github-advisory-pip",
@@ -253,131 +367,17 @@
       }
     },
     {
-      "id": "3053e6fd2cbb6dec",
-      "source": "github-advisory-pip",
+      "id": "381326683611c63f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[langgraph-checkpoint-postgres] LangGraph: Namespace labels containing `.` reach other namespaces in Postgres and SQLite stores",
+      "title": "[postcss-selector-parser] PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
       "summary": "",
-      "published": "2026-10-23T22:06:44.000Z",
+      "published": "2026-10-05T22:53:54.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6hmw-9432-67qq",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c61a640e9df9c85e",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[filelock] filelock: SoftFileLock evicts a fresh lock file whose watched age another local user's pre-dated file passed on through inode reuse",
-      "summary": "",
-      "published": "2026-10-23T22:00:33.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2g95-wg33-c5x2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b274fd0b3c6ef28e",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[filelock] filelock: SoftFileLock stale-break restore follows a swapped-in symbolic link and hard-links a file of the user running the lock into the lock directory",
-      "summary": "",
-      "published": "2026-10-23T22:00:11.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-crv4-6mhj-j5jh",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7d978b1341edb71e",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[filelock] filelock ReadWriteLock: SQLite reopens the lock database by name, so a planted symlink or journal file makes the lock user's process overwrite or unlink its own files",
-      "summary": "",
-      "published": "2026-10-23T21:59:08.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-v4x8-3wr5-3wq8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "36d5ef25db7aa25d",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pillow] Pillow: Heap buffer overflow in FlashPix (FPX) JPEG decoding leads to code execution",
-      "summary": "",
-      "published": "2026-10-23T21:55:21.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5x8w-8jj5-q52h",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e09fb5aa492373ad",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[Pillow] Pillow: Arrow export leaks stale heap memory when PILLOW_ALIGNMENT > 1",
-      "summary": "",
-      "published": "2026-10-23T21:53:21.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-654x-cwwv-5j9c",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d3f6e44535e971ec",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[gitpython] Duplicate Advisory: GitPython: git-config section-name injection enables arbitrary config directives (core.sshCommand RCE)",
-      "summary": "",
-      "published": "2026-08-03T15:32:49.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9xx9-hw38-h2w9",
+      "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -625,243 +625,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-8c8m-p3m8-cjg8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "529cfd4ac45591ba",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nodemailer] Nodemailer: A \";\" inside a quoted string or comment ends an address group early in addressparser, turning display text into a recipient",
-      "summary": "",
-      "published": "2026-10-23T21:51:52.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-m943-m63m-w62w",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e90f1520c2647962",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nodemailer] Nodemailer: A \">\" inside a quoted local part ends an angle-addr early in addressparser, delivering to a domain the header does not name",
-      "summary": "",
-      "published": "2026-10-23T21:51:18.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-85x2-q946-cp5h",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "df75a79082f5cf03",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "The Language of Instruction: Genre and Generative AI",
-      "summary": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run through these massive neural networks. It is instantiated in applications through instruction fine-tuning, the inclusion of a pretext known as a system prompt, and the formalization of inputs in mark",
-      "published": "2026-10-23T17:59:56Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL",
-        "cs.CY"
-      ],
-      "url": "https://arxiv.org/abs/2610.32982v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "cdbc98b2d106eb5c",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Separating Thinking from Spelling for Efficient Generative Recommendation",
-      "summary": "Generative recommenders retrieve items by writing their semantic IDs (SIDs) code by code under trie-constrained beam search, an approach now deployed on large web platforms. Standard autoregressive interfaces pay for the SID length K twice: a history of T items enters the backbone as TK code tokens, and every beam-search step runs through the backbone, so returning B candidates costs O(BK) backbone decode tokens per user. The second cost often dominates, and it grows with the backbone, the SID d",
-      "published": "2026-10-23T17:59:24Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.IR"
-      ],
-      "url": "https://arxiv.org/abs/2610.32980v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f9ccdd8c27a20166",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox",
-      "summary": "Personal email agents decide, for every message, what it is, whether it is urgent, whether to draft a reply, create a task, or ignore it. Their error rate is rarely measured: the stored labels were written by the system itself. We present Foyer, a self-hosted personal inbox agent in daily use, and a measurement protocol (stratified sampling, frozen snapshots, thread-grouped splits, pre-registered hypotheses, human labels in the agent's review loop) that yields ground truth before any training. O",
-      "published": "2026-10-23T17:49:43Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL",
-        "cs.HC",
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2610.32955v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c7163294b66d74c2",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning",
-      "summary": "Reinforcement learning for large language models often uses separate systems for inference and training. Even with identical weights and BF16 tensors, implementation differences can make an intended on-policy update off-policy and destabilize training. Existing remedies align the entire inference and training stacks, change global precision, or modify the learning algorithm. We ask whether aligning selected parts of the execution stack can stabilize BF16 RL while other implementation differences",
-      "published": "2026-10-23T17:45:03Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2610.32951v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ef5d0b69bdec490c",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
-      "summary": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-based numerical prediction. Methods: This article presents HAD-VLM, a hybrid autoregressive-diffusion framework that combines autoregressive text generation with continuous measurement prediction within a shared backbone. Visual prompt tuning adapts the vision encoder to ultrasound images. A diffusio",
-      "published": "2026-10-23T17:40:58Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2610.32948v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dedc54e4c92bcbe1",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
-      "summary": "Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to avoid ads. We study a monopolistic platform that jointly chooses costly response quality, advertising intensity, and subscription prices when advertising reduces user value but better service raises advertising returns. Three findings follow. First, when partly ad-supported and ad-free plans coexist, advertising can finance useful service for consum",
-      "published": "2026-10-23T17:39:42Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "econ.TH",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2610.32945v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "da85170a81b959c0",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "STROKE: Simple Sparse Structural Occlusions for Black-Box Adversarial Attacks",
-      "summary": "We introduce STROKE, a query-efficient score-based black-box adversarial attack that constructs perturbations from simple oriented rectangular occlusions. STROKE optimizes these perturbations through a lightweight greedy add-and-refine procedure. Across diverse image classifiers, STROKE achieves high attack success with low query counts at nominal 1--2\\% area settings, showing favorable performance relative to existing patch-based attacks in several configurations. Matched comparisons further de",
-      "published": "2026-10-23T17:29:00Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV",
-        "cs.CR",
-        "cs.HC"
-      ],
-      "url": "https://arxiv.org/abs/2610.32932v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "64e232e2aa2a4067",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Vertex operator algebra realizations of untwisted Haagerup--Izumi centers",
-      "summary": "For every odd integer $N\\geq3$, we construct an untwisted Haagerup--Izumi fusion category $\\mathcal H_N$ on the negative spherical branch and a simple, self-contragredient, regular, $C_2$-cofinite vertex operator algebra $E_N$ of central charge $-16N$, together with an equivalence of modular fusion categories: \\[   \\operatorname{Rep}(E_N)\\simeq Z(\\mathcal H_N). \\]   The VOA $E_N$ is rational, has exactly $N^2+3$ irreducible modules, and is lower bounded and integer graded, with least conformal d",
-      "published": "2026-10-23T17:25:31Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "math.QA",
-        "math.CT"
-      ],
-      "url": "https://arxiv.org/abs/2610.32928v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "aa3098d00869a403",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "One-sided-DIQKD using any pure bipartite entangled state secure against all attacks",
-      "summary": "Quantum Key Distribution (QKD) allows spatially separated parties to establish a secret key among themselves based on quantum principles. While QKD systems are being deployed worldwide, their reliance on trusted measurements makes them vulnerable. Moreover, existing protocols have largely focussed on the qubit cases, and rely on the maximally entangled state, a costly resource to generate. Here, we consider the one-sided-device-independent (1SDI) QKD protocols, where one of the measurement devic",
-      "published": "2026-10-23T17:21:46Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "quant-ph"
-      ],
-      "url": "https://arxiv.org/abs/2610.32923v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1a98d0c1e6a6e8a4",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "SemantEq: Faithful Bidirectional Equivalence of Formal Statements",
-      "summary": "Statement autoformalization translates mathematics from natural language into a proof assistant such as Lean 4, and models now do it at scale. As provers get stronger, the burden of correctness shifts from the proof to the statement, that is, to whether the formal statement faithfully translates its source. Given a trusted reference formalization, the natural test is logical equivalence, and it proves too much. $P \\leftrightarrow Q$ holds trivially for any two statements $P$ and $Q$ that the lib",
-      "published": "2026-10-23T17:20:12Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2610.32919v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
