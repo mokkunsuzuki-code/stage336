@@ -1,10 +1,67 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-29T04:56:45.168292+00:00",
+  "generated_at": "2026-10-30T04:56:39.277320+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 48,
+  "item_count": 45,
   "items": [
+    {
+      "id": "293d8c220c1f0a0a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[Twisted] Twisted: Unauthenticated Remote Denial of Service in the Twisted HTTP/2 Server via Rapid Stream Reset",
+      "summary": "",
+      "published": "2026-10-29T16:41:06.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vpp8-g58w-m8mp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "73b4676cd3cc604a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[praisonai] PraisonAI vulnerable to Remote Code Execution via Broken AST Sandbox",
+      "summary": "",
+      "published": "2026-10-29T16:34:26.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-26mh-57q7-jfvr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5f093d042be7c7b4",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[PraisonAI] Duplicate Advisory: PraisonAI vulnerable to Remote Code Execution via Broken AST Sandbox",
+      "summary": "",
+      "published": "2026-07-15T12:32:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qh3g-555w-f82q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "cd05893ff7a268c9",
       "source": "github-advisory-pip",
@@ -329,17 +386,17 @@
       }
     },
     {
-      "id": "4be9f6a5881aa344",
-      "source": "github-advisory-pip",
+      "id": "2ee10769988011cc",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vllm] vLLM: DoS via unbounded chat_template Jinja2 rendering exhausts the renderer thread pool",
+      "title": "[@rog0x/mcp-git-tools] @rog0x/mcp-git-tools executes arbitrary code via the resolveBaseBranch function",
       "summary": "",
-      "published": "2026-10-28T21:14:52.000Z",
+      "published": "2026-10-23T15:31:39.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-542m-9234-8gvf",
+      "url": "https://github.com/advisories/GHSA-jwc4-922r-f2rw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +405,17 @@
       }
     },
     {
-      "id": "4b6b21c427f8dd5f",
-      "source": "github-advisory-pip",
+      "id": "6a7bf847136e284b",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[langgraph-cli] LangGraph CLI prints the registry push token in `langgraph deploy --verbose` output",
+      "title": "[@justice8096/sagemath-mcp-server] @justice8096/sagemath-mcp-server: executes arbitrary code via the escapeShellString and sanitizeCode functions",
       "summary": "",
-      "published": "2026-10-28T21:13:18.000Z",
+      "published": "2026-10-23T15:31:39.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8prr-f582-jqq3",
+      "url": "https://github.com/advisories/GHSA-2vq3-mpmf-9xgr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +424,150 @@
       }
     },
     {
-      "id": "2bfa12831f3ee2c8",
-      "source": "github-advisory-pip",
+      "id": "728820bc2016b761",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[autobahn] Autobahn Python: permessage-brotli inflates a whole frame before maxMessagePayloadSize is checked (incomplete fix of GHSA-hxp9-w8x3-p566)",
+      "title": "[liquidjs] LiquidJS has Exponential Memory Amplification through its replace_first Filter $& Pattern",
       "summary": "",
-      "published": "2026-10-28T21:10:17.000Z",
+      "published": "2026-03-25T17:44:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-pjh6-c8mg-3x7m",
+      "url": "https://github.com/advisories/GHSA-6q5m-63h6-5x4v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3b1010c8aea2ad9d",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[decode-uri-component] decode-uri-component vulnerable to denial of service via quadratic replacement of percent-encoded runs",
+      "summary": "",
+      "published": "2026-10-29T16:41:28.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qr28-fpjm-wq7f",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e9dd2a4d23a0be03",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[vite] Vite: `server.fs.deny` bypassed with queries",
+      "summary": "",
+      "published": "2026-10-29T16:39:56.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8g5g-mxqh-grgj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bfca632ed2b704aa",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@eeacms/volto-chatbot] @eeacms/volto-chatbot has Unauthenticated Danswer API Confused Deputy Proxy",
+      "summary": "",
+      "published": "2026-10-29T16:35:48.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w9x9-j56r-h98r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7505dd511a059b81",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@cedar-policy/cedar-wasm] Cedar: JSON template is in scope missing slot-id validation allows link panic and decision divergence",
+      "summary": "",
+      "published": "2026-10-29T16:35:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-c33x-vcv4-vg3g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ba598f7342957ae1",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@sylphx/pdf-reader-mcp] @sylphx/pdf-reader-mcp: HTTP transport accepts unauthenticated requests despite a configured MCP_API_KEY",
+      "summary": "",
+      "published": "2026-10-29T16:34:35.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q344-5v34-gm84",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "40e96629c2374301",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[parse-server] Parse Server vulnerable to stored XSS via malformed Content-Type bypassing file upload extension blocklist",
+      "summary": "",
+      "published": "2026-10-29T16:33:48.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r899-h629-j84r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8498a39b1f62f9a6",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[parse-server] Duplicate Advisory: Parse Server vulnerable to stored XSS via malformed Content-Type bypassing file upload extension blocklist",
+      "summary": "",
+      "published": "2026-07-11T15:30:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-p6c5-mjgj-m4rm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,266 +671,17 @@
       }
     },
     {
-      "id": "0fc33135049f0584",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[seroval] Seroval: fromJSON deserializer trusts node-supplied array length and sequence doneAt (unauthenticated event-loop DoS)",
-      "summary": "",
-      "published": "2026-10-28T21:17:27.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-97r2-qh9m-474h",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b97cb18846c41ced",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[seroval] Seroval `fromJSON`/`fromCrossJSON` denial of service via unvalidated array node length",
-      "summary": "",
-      "published": "2026-10-28T21:17:20.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-wp97-x4hv-qvhp",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f3abbf8f1e468c9c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[seroval] Seroval: Deserialization invokes attacker-chosen callables: AsyncIteratorFactoryInstance calls source.on(listener) without type check",
-      "summary": "",
-      "published": "2026-10-28T21:17:15.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-7rv5-mrxv-xcr9",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e56ad631398431f8",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[mem0ai] Mem0: Cross-tenant conversation leak via unescaped delimiter collision in session-scope key (_build_session_scope)",
-      "summary": "",
-      "published": "2026-10-28T21:17:08.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5324-3w58-qpp2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4e015816b360eb1a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[systeminformation] systeminformation has path traversal in Linux networkStats() that allows symlink-based file disclosure outside /sys/class/net",
-      "summary": "",
-      "published": "2026-10-28T21:13:50.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4vjg-vx72-qq4g",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "63e7e48417393af8",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[systeminformation] systeminformation has prototype pollution in `networkStats()` via the interface name",
-      "summary": "",
-      "published": "2026-10-28T21:13:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-7648-jmwf-vw7j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fe764140ac805b2d",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[graphql-scalars] graphql-scalars PhoneNumber scalar is vulnerable to regular expression denial of service",
-      "summary": "",
-      "published": "2026-10-28T21:13:10.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-x8rm-f576-gq67",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ff2ad0e1289e6153",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[i18next-http-backend] i18next-http-backend: Query-parameter injection through & and = in lng when loadPath/addPath puts {{lng}} in the query string",
-      "summary": "",
-      "published": "2026-10-28T21:10:08.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3cmx-xjww-583x",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7117b4357d40877a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[re2js] RE2JS: Quadratic-time denial of service in re2js lookbehind matching",
-      "summary": "",
-      "published": "2026-10-28T21:10:01.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-gg6h-894w-4m9c",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f1b77cf7098c5373",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[i18next-http-backend] i18next-http-backend: Namespace value starting with / forms a protocol-relative URL when loadPath/addPath places {{ns}} right after a / (bypass of the // che",
-      "summary": "",
-      "published": "2026-10-28T21:07:57.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9jhj-wvmw-cfx5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1091d24d8541b11e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[i18next-http-backend] Duplicate Advisory: Namespace value starting with / forms a protocol-relative URL when loadPath/addPath places {{ns}} right after a / (bypass of the // check",
-      "summary": "",
-      "published": "2026-10-23T15:31:30.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-w47m-j727-m843",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "37d4662758141037",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nodejs-whisper] nodejs-whisper allows OS command injection through crafted audio file paths",
-      "summary": "",
-      "published": "2026-10-14T15:32:28.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2f48-3555-fpx6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0292a81c2e926018",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[happy-dom] Happy DOM: SSRF via iframe and link stylesheet when parsing untrusted HTML",
-      "summary": "",
-      "published": "2026-10-28T21:06:42.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-c8p4-j97h-3vg8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e755301b613b656e",
+      "id": "8a04c3527d1ef0d2",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
-      "summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason over untrusted content without following injected instructions. We evaluate HoS on Llama-3.3-70B-Instruct and GPT-OSS-20B. We compare it against SecAlign++, a state-of-the-art finetuning-based defense, and ASIDE, a defens",
-      "published": "2026-10-27T17:58:52Z",
+      "title": "Hybrid AI Patterns: Thirteen Ways to Couple Language Models with Rules, and How to Choose Among Them",
+      "summary": "Language models handle text well, and rule engines give conclusions with proofs. Systems that combine the two are usually described by example, and the same coupling turns up under different names in agent frameworks, guardrail toolkits and neuro-symbolic research. This document defines thirteen patterns for coupling a language model with an executable rule language, in the catalogue form introduced for object-oriented design: intent, motivation, applicability, participants, collaborations, cons",
+      "published": "2026-10-29T13:37:28Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.LG",
-        "cs.CL",
-        "cs.CR"
+        "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2610.37657v1",
+      "url": "https://arxiv.org/abs/2610.40036v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -749,17 +690,17 @@
       }
     },
     {
-      "id": "8dd92575a2e7bee7",
+      "id": "d6e171c1cc3daadf",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
-      "summary": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitations, stochastic execution, or noisy judges. We argue that such failures may not provide useful learning signal, and may even be harmful; and thus it is essential to curate which tasks are provided to t",
-      "published": "2026-10-27T17:58:11Z",
+      "title": "AI Cosmos: An Agentic Infra for Situated Learning",
+      "summary": "Large language models (LLMs) can improve task performance during learning, yet these gains do not necessarily reflect learners' ability to thereafter apply the knowledge and skills independently. We present AI Cosmos, an agentic infrastructure for situated learning that organizes learning around two complementary principles: scenario-based participation and cumulative assets of practice. AI Cosmos organizes learners and role-specialized agents within learning scenarios that integrate task-releva",
+      "published": "2026-10-29T13:36:31Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CL"
       ],
-      "url": "https://arxiv.org/abs/2610.37651v1",
+      "url": "https://arxiv.org/abs/2610.40031v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -768,19 +709,18 @@
       }
     },
     {
-      "id": "1d81e2bb86cfc43c",
+      "id": "2e858305726794ec",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
-      "summary": "Scientific discovery often begins with an unexpected observation that prompts a new research question. In a world with altered physical laws, can large language models (LLMs) notice unexpected behavior, such as heavier objects falling more slowly, and discover the law through experiments without being told what to investigate? To evaluate this ability, we introduce LongChang, an automated framework that creates simulated worlds with altered physics, where one or more laws differ from ordinary ph",
-      "published": "2026-10-27T17:57:00Z",
+      "title": "HEMO: Harness Self-Evolution for Multi-Objective Combinatorial Optimization",
+      "summary": "Automatic operator design (AOD) has increasingly adopted large language models (LLMs) to generate problem-specific search and variation operators for multi-objective combinatorial optimization (MOCO). Yet most methods evolve the operators while leaving the process that discovers them fixed. This limits adaptation as new Pareto trade-offs and operator interactions change where and how the search should proceed. We introduce HEMO, which makes the AOD harness itself a self-evolving optimization tar",
+      "published": "2026-10-29T13:32:00Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CL",
-        "cs.AI",
-        "cs.MA"
+        "cs.NE",
+        "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2610.37649v1",
+      "url": "https://arxiv.org/abs/2610.40023v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -789,142 +729,133 @@
       }
     },
     {
-      "id": "c9802f83b7971f16",
+      "id": "b31bd611b907f356",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
-      "summary": "We explore how to build performant large language model (LLM) tool-use agents that complete complex, multi-step tasks. Specifically, we study how data composition in synthetically generated tool-use environments affects the training of such agents. To do so, we propose the SynthAPI pipeline, which explicitly controls the diversity of generated environments along the axes of tools, tasks, and the databases on which the tools operate. By systematically varying SynthAPI's generation controls in 458",
-      "published": "2026-10-27T17:56:46Z",
+      "title": "LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks",
+      "summary": "Agentic robots must turn a high-level goal into actions while keeping the physical conditions needed for future steps valid. A completed action does not ensure that its effects will persist: a later disturbance can invalidate support that the remaining plan still assumes. We present LOGIV, a graph engineering framework for agentic robot execution that uses an explicit task graph to connect symbolic planning, observation-based verification, and embodied action. LOGIV compiles a validated plan int",
+      "published": "2026-10-29T13:30:16Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2610.40016v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "156173b6b207bac5",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Human--AI Interactions as First-Class Data: A Formal Interaction Model and Runtime for Explainable AI Collaboration",
+      "summary": "AI assistants are increasingly embedded in computational notebooks, scientific workflows, software engineering tools, and learning systems, yet human-AI interactions are often treated as transient prompt-response exchanges rather than durable data products, hindering reproducibility, explainability, replay, behavioral analysis, and adaptive AI support. We argue that these interactions form a new data class requiring formal representation and introduce the Human-AI Interaction Description Languag",
+      "published": "2026-10-29T13:23:54Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "url": "https://arxiv.org/abs/2610.40006v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4171c9c765e1994c",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "NORmal: Architecting 3D Ferroelectric NOR Flash as Main Memory -- From Co-Fabricated BEOL Arrays to 200B-Class Multi-Agent LLMs in a Smartphone",
+      "summary": "Smartphone agents increasingly work as teams, in which a large planner directs parallel workers across long sessions. Running such a team on the device requires 200B-class models and contexts that exceed phone DRAM many times over, yet existing tiers treat flash as storage: UFS starves per-token weight streaming, and mobile High-Bandwidth Flash (HBF) needs a redesigned SoC and cannot absorb continuous KV writes. We show that a non-volatile memory can join an unmodified LPDDR6 bus as a plain rank",
+      "published": "2026-10-29T13:19:45Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AR"
+      ],
+      "url": "https://arxiv.org/abs/2610.40000v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a5b81684e2903f9d",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "How Different are Different Differences-in-Differences? A Large-Scale Meta-Analysis",
+      "summary": "I use AI-assisted replication to assess the empirical importance of negative weights in two-way fixed effects (TWFE) estimation, drawing on 1,346 staggered-adoption specifications from 108 economics papers. TWFE estimates are highly correlated with estimates from modern difference-in-differences methods, with observed sign reversals in 10.8-14.5% of comparisons and greater precision for TWFE. Hierarchical models that account for estimation noise imply a 91-98% correlation between estimands and a",
+      "published": "2026-10-29T13:16:00Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "econ.EM"
+      ],
+      "url": "https://arxiv.org/abs/2610.39995v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b5a5a7d8a8e692d8",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "An Exact Parallel Dense Gauss-Seidel Algorithm with Trade-Offs between Parallel Execution Time and Preprocessing Time",
+      "summary": "The Gauss-Seidel iterative method is commonly used for solving systems of linear equations because of its good convergence properties. However, the Gauss-Seidel algorithm cannot be easily parallelized because of the data dependencies existing at each iteration. The best parallel execution time for dense systems of equations is $O(n)$ given that enough processors are available and no preprocessing is performed. In this paper we propose a new parallel Gauss-Seidel algorithm which is capable of ach",
+      "published": "2026-10-29T13:11:38Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.DC",
+        "cs.DS"
+      ],
+      "url": "https://arxiv.org/abs/2610.39990v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f64e0989cdd10892",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Can LLMs Ignore What They Know? Measuring Knowledge Leakage in Persona-Based User Simulation",
+      "summary": "When persona-conditioned responses are read as respondent-level simulations, each response should reflect the described persona's knowledge, and the respondent written to know nothing must act as if the model's knowledge were not there. We test whether it can, and find persistent favourable-item real-twin rating separation under the tested low-knowledge and explicit-ignorance prompts. We define the resulting problem (knowledge leakage: a response bias that arises when knowledge the real user cou",
+      "published": "2026-10-29T12:38:03Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.39939v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c95638388da3b8fa",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "H$^2$R: Hierarchical Hint-Based Reward for Mathematical Reasoning via Reinforcement Learning",
+      "summary": "Reinforcement Learning with Verifiable Rewards has shown great promise in enhancing mathematical reasoning in large language models. However, existing approaches provide limited intermediate supervision for complex, multi-step reasoning tasks. To bridge this gap, we propose \\textbf{Hierarchical Hint-based Reward}, a framework that leverages the intrinsic sub-question structure of mathematical problems as structured intermediate conditioning signals during RLVR training. Unlike chain-of-thought p",
+      "published": "2026-10-29T12:36:21Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.LG"
       ],
-      "url": "https://arxiv.org/abs/2610.37648v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4cd8d6182690be92",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control",
-      "summary": "Weight decay and explicit weight-norm constraints improve optimizer performance in language model pretraining, yet a unified understanding of why such control helps and how much is needed remains incomplete. We analyze norm control in Muon over the entire training trajectory using the \\emph{accumulated effective learning rate}, $C_T=\\sum_{t<T}η_t/\\|W_t\\|_F$, where $η_t$ is the nominal learning rate and $η_t/\\|W_t\\|_F$ is the effective learning rate relative to the weight norm. For bounded update",
-      "published": "2026-10-27T17:56:40Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.AI",
-        "math.OC"
-      ],
-      "url": "https://arxiv.org/abs/2610.37647v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "085cc1995fbf3170",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Classical Verification of Quantum Computation Beyond the Polynomial Hierarchy",
-      "summary": "It is not known whether a classical polynomial-time verifier can verify arbitrary polynomial-time quantum computations with an efficient quantum honest prover without computational assumptions. We show that, relative to a classical oracle, such verification is possible for a language beyond the polynomial hierarchy that is decided exactly in quantum polynomial time. The protocol is public-coin, with perfect completeness and soundness error at most 1/4. To our knowledge, no language with such a p",
-      "published": "2026-10-27T17:54:01Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "quant-ph",
-        "cs.CC",
-        "cs.CR"
-      ],
-      "url": "https://arxiv.org/abs/2610.37635v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "823d002e69a9a30f",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Approximate Counting for Mixed $p$-Spin Glasses in Weak External Fields via Cluster Expansion",
-      "summary": "We give algorithms for approximating the partition function $Z_N$ of the Sherrington--Kirkpatrick (SK) model and finite mixed Ising $p$-spin models with $p\\ge 3$. The algorithms apply at a fixed margin below the second-moment threshold $β_{\\mathrm f}$ with homogeneous weak external fields $|h|\\leqρ_0N^{-1/4}$, for fixed $ρ_0>0$. For any accuracy $\\varepsilon\\in(0,1)$ and failure parameter $δ\\in(0,1)$, they approximate $\\log Z_N$ to additive error $\\varepsilon$. The number of exact operations is ",
-      "published": "2026-10-27T17:51:50Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "math.PR",
-        "cond-mat.dis-nn",
-        "cs.DS"
-      ],
-      "url": "https://arxiv.org/abs/2610.37630v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "81e3cf80e2651ac4",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
-      "summary": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria. On hidden-profile tasks both look attractive, because how widely a fact is held is confounded with whether it helps. We introduce CrossProfile, a diagnostic benchmark of 60 templates with automatically verified answer keys, in which the ownership of supporting, decoy, and irrelevant",
-      "published": "2026-10-27T17:49:39Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CL",
-        "cs.MA",
-        "cs.SI"
-      ],
-      "url": "https://arxiv.org/abs/2610.37624v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f0f6466191d30db2",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "On Khovanov local equivalence groups",
-      "summary": "Inspired by work in Seiberg--Witten and Heegaard Floer homology, Dunfield, Schütz, and the author constructed an abelian \"local equivalence group\" built from pairs of chain complexes, and a homomorphism from the smooth concordance group to this group that uses the odd Khovanov complex and the Bar-Natan deformation of the even Khovanov complex. Lewark independently gave a related local equivalence group and concordance invariant, using only the Bar-Natan deformation. In this paper, we construct $",
-      "published": "2026-10-27T17:29:57Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "math.GT"
-      ],
-      "url": "https://arxiv.org/abs/2610.37595v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f5c649de87be7d9c",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Zero-Shot Multimodal Event Spotting in Soccer Broadcasts",
-      "summary": "Automatic soccer event spotting supports highlight generation, video indexing, and sports analytics, but existing methods depend on large annotated datasets and soccer-specific training. We present a zero-shot framework that detects, classifies, and temporally localizes events in full-length soccer broadcasts without task-specific parameter training. Each match is segmented into overlapping clips represented by a compact visual storyboard and the aligned commentary transcript, which a general-pu",
-      "published": "2026-10-27T17:24:35Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV",
-        "cs.LG",
-        "cs.MM"
-      ],
-      "url": "https://arxiv.org/abs/2610.37583v1",
+      "url": "https://arxiv.org/abs/2610.39934v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
