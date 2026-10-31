@@ -1,10 +1,333 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-30T04:56:39.277320+00:00",
+  "generated_at": "2026-10-31T04:42:46.969850+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 45,
+  "item_count": 39,
   "items": [
+    {
+      "id": "0b9f79a8cf853497",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pypdf] pypdf has possible infinite loop when hitting EOF in standard xref table during trailer search",
+      "summary": "",
+      "published": "2026-10-30T23:13:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5849-834g-hvw5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "799295db56015f31",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pypdf] pypdf has possible large memory usage when parsing page tree",
+      "summary": "",
+      "published": "2026-10-30T23:13:01.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-cggf-277g-3q54",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "dd0073a330120169",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pypdf] pypdf has possible infinite loop when cloning dictionaries",
+      "summary": "",
+      "published": "2026-10-30T23:12:20.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mfr5-77xh-9j7h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "983fb9f302bbb1fa",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[Authlib] Authlib RFC 7592 examples omit registration-access-token client binding",
+      "summary": "",
+      "published": "2026-10-30T23:09:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-c73q-w75p-j82v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e3bb62eea2120d55",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pypdf] pypdf has possible long runtimes when retrieving page labels",
+      "summary": "",
+      "published": "2026-10-30T23:08:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-42gh-23hr-vphw",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b9527284cb24eb54",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pypdf] pypdf has possible large memory usage for exceptions in strict mode",
+      "summary": "",
+      "published": "2026-10-30T23:08:39.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-4vqv-7265-gm2w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b8f68467e8621ba5",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pypdf] pypdf has possible long runtimes/large memory usage for encrypted PDF files",
+      "summary": "",
+      "published": "2026-10-30T23:08:24.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-62m5-6wh8-28x7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c81a30f50ee1ccf1",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pypdf] pypdf has possible large memory usage when parsing cross-reference streams",
+      "summary": "",
+      "published": "2026-10-30T23:07:28.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-x3rh-gjgm-fmqc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7a1df37032bdd222",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pyasn1] pyasn1 has quadratic CPU consumption in constructed BIT STRING decoding",
+      "summary": "",
+      "published": "2026-10-30T23:07:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2qm8-x737-gmw5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "fef48dbe3c4c7766",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pyasn1] pyasn1 has quadratic-complexity denial of service in binary REAL decoding",
+      "summary": "",
+      "published": "2026-10-30T23:06:46.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mm57-4v3p-rchx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a11801d61e6c22fd",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pyasn1] pyasn1 has quadratic-time denial of service in constructed string and indefinite-length ANY decoding",
+      "summary": "",
+      "published": "2026-10-30T23:03:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9m75-vc3g-4x39",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9a7acd967742c4c5",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pyasn1] pyasn1 has quadratic CPU use in schemaless BER/CER/DER container decoding",
+      "summary": "",
+      "published": "2026-10-30T23:03:37.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fm9c-5rcf-2q5p",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c791f12035f2a4eb",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[graphql-core] GraphQL-core has denial of service via memory leak in aborted validations",
+      "summary": "",
+      "published": "2026-10-30T22:58:31.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mpqx-q82w-9x46",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9d8c3ba4b2eaa70f",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[oauthlib] OAuthLib: Token grants can use attacker-supplied client_id for authorization after authenticating a different client",
+      "summary": "",
+      "published": "2026-10-30T22:58:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-7984-qgvg-3j9c",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "cf69a9dbe392c514",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[openwisp-controller] OpenWISP Controller CA CRL REST API does not scope requests to managed organizations",
+      "summary": "",
+      "published": "2026-10-30T22:58:10.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9gh4-xw24-9xh5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "110c937ae9ae5e6e",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[joserfc] joserfc: Compact JWS size guard allocates attacker-controlled segments before rejection",
+      "summary": "",
+      "published": "2026-10-30T14:54:25.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9pg5-8c7x-5hfx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "07f022f04ab3fde5",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[joserfc] joserfc: Unbounded JWE General JSON `recipients` Array Leads to CPU Exhaustion (DoS) via Repeated RSA Private-Key Decryption",
+      "summary": "",
+      "published": "2026-10-30T14:54:20.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jpxq-7h8p-2q76",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "293d8c220c1f0a0a",
       "source": "github-advisory-pip",
@@ -63,340 +386,17 @@
       }
     },
     {
-      "id": "cd05893ff7a268c9",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[tornado] Tornado: Event loop blocking and excess memory use from chunked bodies with many small chunks",
-      "summary": "",
-      "published": "2026-10-28T22:43:50.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-r4j5-9xpp-3985",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4a588316c0520789",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[tornado] Tornado: Open redirect in RedirectHandler via protocol-relative URLs",
-      "summary": "",
-      "published": "2026-10-28T22:43:45.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-pw9p-v7r6-gx4p",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8a181a40f161e139",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[tornado] Tornado: Quadratic CPU usage when parsing HTTP headers with line folding",
-      "summary": "",
-      "published": "2026-10-28T22:43:41.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-pcg2-g6cj-q92c",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "9a2d837d6f861eb4",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[electrum] Electrum: Malicious server can replace a just-broadcast tx and try to trick user into RBF-ing it",
-      "summary": "",
-      "published": "2026-10-28T21:23:44.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6jp4-8v48-cc5v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7f37a2e0a462a62d",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[mem0ai] Mem0: Cross-tenant conversation leak via unescaped delimiter collision in session-scope key (_build_session_scope)",
-      "summary": "",
-      "published": "2026-10-28T21:17:08.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5324-3w58-qpp2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a8c41b0b0af071e0",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[social-auth-core] Python Social Auth: OpenID Connect nonce is not bound to the browser session, so a stolen authorization code logs the attacker in as the victim",
-      "summary": "",
-      "published": "2026-10-28T21:16:51.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-h2r5-x5m7-3935",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "60ee9ce8fcc418bf",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[onnx] ONNX: Out-of-bounds read in ConvTranspose shape inference via undersized weight rank",
-      "summary": "",
-      "published": "2026-10-28T21:16:42.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6pwm-x34p-fvj2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "cd6fd15380eae45f",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[onnx] ONNX: Denial of service via unchecked expansion of packed sub-byte tensors in ONNX Python APIs",
-      "summary": "",
-      "published": "2026-10-28T21:16:37.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q69g-f4f5-v8m7",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a3cad4f56adf15e0",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[onnx] ONNX: Null Pointer Dereference in ScanInferenceFunction Due to Missing Required Attribute",
-      "summary": "",
-      "published": "2026-10-28T21:16:30.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-m4pr-6v3c-6fgr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b2b2b64ad338995a",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[onnx] ONNX: Out-of-Bounds Read in RNN/GRU/LSTM Shape Inference (Old Opsets, Missing Rank Check)",
-      "summary": "",
-      "published": "2026-10-28T21:16:24.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-48m4-24cq-37qf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "085a1959df53507e",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[vllm] vLLM: Permissive default CORS origins allow cross-origin requests to the vLLM HTTP server",
-      "summary": "",
-      "published": "2026-10-28T21:15:49.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-vvpg-rrww-wpmh",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "870f75261d6518eb",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[vllm] vLLM: Phi-4 multimodal audio encoder materializes and retains full attention matrices: a single max-length audio OOM-crashes the vLLM engine",
-      "summary": "",
-      "published": "2026-10-28T21:15:41.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8397-8qf6-f2gm",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "850c26b7b2340904",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[vllm] vLLM DeepSeek-OCR image processing vulnerable to denial of service",
-      "summary": "",
-      "published": "2026-10-28T21:15:35.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-gq5q-89c7-vhvx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "61d6021f7df1c1f7",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[vllm] vLLM: Untrusted EPS inputs can trigger denial of service or Ghostscript RCE",
-      "summary": "",
-      "published": "2026-10-28T21:15:29.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-h3rc-j82p-2c3h",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "5a43eed9fa676daa",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[vllm] vLLM: Public multimodal SHM handle forgery reaches worker-side `pickle.loads()` with insecure serialization disabled",
-      "summary": "",
-      "published": "2026-10-28T21:15:15.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6757-hggm-hp2w",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0dfef784686ffbe8",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[vllm] vLLM: Out-of-vocabulary prompt token id passes input validation and triggers a CUDA device-side assert (engine crash / DoS)",
-      "summary": "",
-      "published": "2026-10-28T21:15:08.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q97c-p368-75c4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "769035e42312902f",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[vllm] vLLM: Responses API bypasses trust_request_chat_template for chat_template_kwargs",
-      "summary": "",
-      "published": "2026-10-28T21:14:59.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-x567-49g5-p4cf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2ee10769988011cc",
+      "id": "5ef2699f98b1eef5",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@rog0x/mcp-git-tools] @rog0x/mcp-git-tools executes arbitrary code via the resolveBaseBranch function",
+      "title": "[joi] joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
       "summary": "",
-      "published": "2026-10-23T15:31:39.000Z",
+      "published": "2026-10-30T23:10:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jwc4-922r-f2rw",
+      "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +405,17 @@
       }
     },
     {
-      "id": "6a7bf847136e284b",
+      "id": "55add8f0bc2320c0",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@justice8096/sagemath-mcp-server] @justice8096/sagemath-mcp-server: executes arbitrary code via the escapeShellString and sanitizeCode functions",
+      "title": "[@hapi/joi] joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
       "summary": "",
-      "published": "2026-10-23T15:31:39.000Z",
+      "published": "2026-10-30T23:10:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-2vq3-mpmf-9xgr",
+      "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +424,17 @@
       }
     },
     {
-      "id": "728820bc2016b761",
+      "id": "fd94760b134636a6",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[liquidjs] LiquidJS has Exponential Memory Amplification through its replace_first Filter $& Pattern",
+      "title": "[content] @hapi/content: quadratic-time parsing of Content-Disposition parameters allows denial of service",
       "summary": "",
-      "published": "2026-03-25T17:44:23.000Z",
+      "published": "2026-10-30T23:10:13.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6q5m-63h6-5x4v",
+      "url": "https://github.com/advisories/GHSA-8494-f6mr-cjpv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +443,17 @@
       }
     },
     {
-      "id": "3b1010c8aea2ad9d",
+      "id": "9f499db39763baad",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[decode-uri-component] decode-uri-component vulnerable to denial of service via quadratic replacement of percent-encoded runs",
+      "title": "[@hapi/content] @hapi/content: quadratic-time parsing of Content-Disposition parameters allows denial of service",
       "summary": "",
-      "published": "2026-10-29T16:41:28.000Z",
+      "published": "2026-10-30T23:10:13.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qr28-fpjm-wq7f",
+      "url": "https://github.com/advisories/GHSA-8494-f6mr-cjpv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +462,17 @@
       }
     },
     {
-      "id": "e9dd2a4d23a0be03",
+      "id": "29a30cfbbab9c4ad",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[vite] Vite: `server.fs.deny` bypassed with queries",
+      "title": "[minimatch] minimatch has potential denial of service via globparts amplification",
       "summary": "",
-      "published": "2026-10-29T16:39:56.000Z",
+      "published": "2026-10-30T23:09:55.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8g5g-mxqh-grgj",
+      "url": "https://github.com/advisories/GHSA-g3hv-75wg-m249",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +481,17 @@
       }
     },
     {
-      "id": "bfca632ed2b704aa",
+      "id": "ce4fd3c072b46e0e",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@eeacms/volto-chatbot] @eeacms/volto-chatbot has Unauthenticated Danswer API Confused Deputy Proxy",
+      "title": "[glob] Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal",
       "summary": "",
-      "published": "2026-10-29T16:35:48.000Z",
+      "published": "2026-10-30T23:09:11.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-w9x9-j56r-h98r",
+      "url": "https://github.com/advisories/GHSA-3g3m-2fjr-6pw4",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +500,17 @@
       }
     },
     {
-      "id": "7505dd511a059b81",
+      "id": "adc366d2b06b4db0",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@cedar-policy/cedar-wasm] Cedar: JSON template is in scope missing slot-id validation allows link panic and decision divergence",
+      "title": "[node-forge] Forge: ASN.1 OID first arc truncation in asn1.oidToDer",
       "summary": "",
-      "published": "2026-10-29T16:35:04.000Z",
+      "published": "2026-10-30T23:02:40.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-c33x-vcv4-vg3g",
+      "url": "https://github.com/advisories/GHSA-4642-5mcj-2rqw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +519,17 @@
       }
     },
     {
-      "id": "ba598f7342957ae1",
+      "id": "929f26689b727567",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@sylphx/pdf-reader-mcp] @sylphx/pdf-reader-mcp: HTTP transport accepts unauthenticated requests despite a configured MCP_API_KEY",
+      "title": "[node-forge] Forge: Prototype Pollution in forge.http cookie handling via a malicious Set-Cookie",
       "summary": "",
-      "published": "2026-10-29T16:34:35.000Z",
+      "published": "2026-10-30T23:02:35.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-q344-5v34-gm84",
+      "url": "https://github.com/advisories/GHSA-6wvx-3r32-xmcg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +538,17 @@
       }
     },
     {
-      "id": "40e96629c2374301",
+      "id": "199bee0fd516808e",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[parse-server] Parse Server vulnerable to stored XSS via malformed Content-Type bypassing file upload extension blocklist",
+      "title": "[node-forge] Forge: TLS client crash when the server sends no certificate",
       "summary": "",
-      "published": "2026-10-29T16:33:48.000Z",
+      "published": "2026-10-30T23:02:30.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r899-h629-j84r",
+      "url": "https://github.com/advisories/GHSA-525v-9gp9-w22h",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +557,17 @@
       }
     },
     {
-      "id": "8498a39b1f62f9a6",
+      "id": "1a578bfb4dd6f507",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[parse-server] Duplicate Advisory: Parse Server vulnerable to stored XSS via malformed Content-Type bypassing file upload extension blocklist",
+      "title": "[node-forge] Forge: Regular expression denial of service in PEM decoding (pem.decode)",
       "summary": "",
-      "published": "2026-07-11T15:30:23.000Z",
+      "published": "2026-10-30T23:02:25.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p6c5-mjgj-m4rm",
+      "url": "https://github.com/advisories/GHSA-7wch-p9px-956x",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,17 +576,17 @@
       }
     },
     {
-      "id": "81ebb3e269f8f44d",
+      "id": "bfc80c5efa9184da",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[systeminformation] systeminformation vulnerable to Windows command injection in services() through Unicode quotation marks",
+      "title": "[node-forge] Forge: Denial of Service via infinite loop in BigInteger.modInverse() with negative input (incomplete fix of CVE-2026-33891)",
       "summary": "",
-      "published": "2026-10-28T22:42:49.000Z",
+      "published": "2026-10-30T23:02:20.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3f7j-7jwc-fxfj",
+      "url": "https://github.com/advisories/GHSA-h6cr-wjv9-3cpp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -595,17 +595,17 @@
       }
     },
     {
-      "id": "4ef16479cdaac4a4",
+      "id": "d34a905872424fd1",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@backstage/plugin-catalog-backend] Backstage catalog rules can be bypassed for URL locations using encoded path segments",
+      "title": "[node-forge] Forge: verifyCertificateChain() removes trusted CA certificates with the same subject from the CA store",
       "summary": "",
-      "published": "2026-10-28T22:42:36.000Z",
+      "published": "2026-10-30T23:02:14.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-w658-mh9p-ww8f",
+      "url": "https://github.com/advisories/GHSA-4487-j8r4-4g2f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -614,17 +614,17 @@
       }
     },
     {
-      "id": "0d3e271dc0d8bea6",
+      "id": "d49748dd17f6146e",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@waline/vercel] Waline login accepts a non-string email as a match-all MongoDB query",
+      "title": "[node-forge] Forge: AES-GCM authentication bypass via unvalidated tagLength option",
       "summary": "",
-      "published": "2026-10-28T21:17:58.000Z",
+      "published": "2026-10-30T23:02:09.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jf75-q64q-g65r",
+      "url": "https://github.com/advisories/GHSA-5cwg-6vw7-rj6p",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -633,17 +633,17 @@
       }
     },
     {
-      "id": "5ba820e4ed82e087",
+      "id": "2104a90d96f067cb",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[seroval] Seroval: Code injection through a typed array's own constructor property",
+      "title": "[node-forge] Forge: PKCS#12 MAC forgery and constant-key PBE via zero iteration count",
       "summary": "",
-      "published": "2026-10-28T21:17:36.000Z",
+      "published": "2026-10-30T23:02:05.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-f86p-h4j2-7qgj",
+      "url": "https://github.com/advisories/GHSA-jc66-7q78-782g",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -652,17 +652,17 @@
       }
     },
     {
-      "id": "e1d1a5ae9786b31a",
+      "id": "d0ea66739bdb0227",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[seroval] Seroval: Script injection through RegExp sources in serialized output",
+      "title": "[node-forge] Forge: Denial of service in TLS record processing via a record interleaved with a fragmented handshake message",
       "summary": "",
-      "published": "2026-10-28T21:17:31.000Z",
+      "published": "2026-10-30T23:02:00.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9wx9-5pv9-3349",
+      "url": "https://github.com/advisories/GHSA-8hrf-8g6f-7xwp",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -671,17 +671,17 @@
       }
     },
     {
-      "id": "8a04c3527d1ef0d2",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Hybrid AI Patterns: Thirteen Ways to Couple Language Models with Rules, and How to Choose Among Them",
-      "summary": "Language models handle text well, and rule engines give conclusions with proofs. Systems that combine the two are usually described by example, and the same coupling turns up under different names in agent frameworks, guardrail toolkits and neuro-symbolic research. This document defines thirteen patterns for coupling a language model with an executable rule language, in the catalogue form introduced for object-oriented design: intent, motivation, applicability, participants, collaborations, cons",
-      "published": "2026-10-29T13:37:28Z",
+      "id": "41f85c76cec7e825",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[node-forge] Forge: Denial of service in TLS record processing via call stack exhaustion",
+      "summary": "",
+      "published": "2026-10-30T23:01:54.000Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.AI"
+        "severity"
       ],
-      "url": "https://arxiv.org/abs/2610.40036v1",
+      "url": "https://github.com/advisories/GHSA-hqq3-7jhf-c5jx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -690,17 +690,17 @@
       }
     },
     {
-      "id": "d6e171c1cc3daadf",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "AI Cosmos: An Agentic Infra for Situated Learning",
-      "summary": "Large language models (LLMs) can improve task performance during learning, yet these gains do not necessarily reflect learners' ability to thereafter apply the knowledge and skills independently. We present AI Cosmos, an agentic infrastructure for situated learning that organizes learning around two complementary principles: scenario-based participation and cumulative assets of practice. AI Cosmos organizes learners and role-specialized agents within learning scenarios that integrate task-releva",
-      "published": "2026-10-29T13:36:31Z",
+      "id": "9e53d5c0229a154b",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[node-forge] Forge: X.509 basicConstraints bypass in verifyCertificateChain() via deprecated extension OIDs 2.5.29.10 and 2.5.29.13",
+      "summary": "",
+      "published": "2026-10-30T23:01:46.000Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CL"
+        "severity"
       ],
-      "url": "https://arxiv.org/abs/2610.40031v1",
+      "url": "https://github.com/advisories/GHSA-5x38-2vff-x55p",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -709,18 +709,17 @@
       }
     },
     {
-      "id": "2e858305726794ec",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "HEMO: Harness Self-Evolution for Multi-Objective Combinatorial Optimization",
-      "summary": "Automatic operator design (AOD) has increasingly adopted large language models (LLMs) to generate problem-specific search and variation operators for multi-objective combinatorial optimization (MOCO). Yet most methods evolve the operators while leaving the process that discovers them fixed. This limits adaptation as new Pareto trade-offs and operator interactions change where and how the search should proceed. We introduce HEMO, which makes the AOD harness itself a self-evolving optimization tar",
-      "published": "2026-10-29T13:32:00Z",
+      "id": "22879f0d402343e5",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@nuxt/vite-builder] Nuxt dev server exposes generated appSecret through Vite file serving",
+      "summary": "",
+      "published": "2026-10-30T23:01:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.NE",
-        "cs.AI"
+        "severity"
       ],
-      "url": "https://arxiv.org/abs/2610.40023v1",
+      "url": "https://github.com/advisories/GHSA-3xf4-9g3c-4h4w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -729,133 +728,17 @@
       }
     },
     {
-      "id": "b31bd611b907f356",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "LOGIV: Graph-Verified Execution with Causal Local Repair for Long-Horizon Robot Tasks",
-      "summary": "Agentic robots must turn a high-level goal into actions while keeping the physical conditions needed for future steps valid. A completed action does not ensure that its effects will persist: a later disturbance can invalidate support that the remaining plan still assumes. We present LOGIV, a graph engineering framework for agentic robot execution that uses an explicit task graph to connect symbolic planning, observation-based verification, and embodied action. LOGIV compiles a validated plan int",
-      "published": "2026-10-29T13:30:16Z",
+      "id": "7eed00f2239c718a",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@nuxt/nitro-server] Nuxt: Dot segments in the request path bypass `server/middleware` path checks and server route rules on page routes",
+      "summary": "",
+      "published": "2026-10-30T23:00:53.000Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.RO"
+        "severity"
       ],
-      "url": "https://arxiv.org/abs/2610.40016v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "156173b6b207bac5",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Human--AI Interactions as First-Class Data: A Formal Interaction Model and Runtime for Explainable AI Collaboration",
-      "summary": "AI assistants are increasingly embedded in computational notebooks, scientific workflows, software engineering tools, and learning systems, yet human-AI interactions are often treated as transient prompt-response exchanges rather than durable data products, hindering reproducibility, explainability, replay, behavioral analysis, and adaptive AI support. We argue that these interactions form a new data class requiring formal representation and introduce the Human-AI Interaction Description Languag",
-      "published": "2026-10-29T13:23:54Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.HC"
-      ],
-      "url": "https://arxiv.org/abs/2610.40006v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4171c9c765e1994c",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "NORmal: Architecting 3D Ferroelectric NOR Flash as Main Memory -- From Co-Fabricated BEOL Arrays to 200B-Class Multi-Agent LLMs in a Smartphone",
-      "summary": "Smartphone agents increasingly work as teams, in which a large planner directs parallel workers across long sessions. Running such a team on the device requires 200B-class models and contexts that exceed phone DRAM many times over, yet existing tiers treat flash as storage: UFS starves per-token weight streaming, and mobile High-Bandwidth Flash (HBF) needs a redesigned SoC and cannot absorb continuous KV writes. We show that a non-volatile memory can join an unmodified LPDDR6 bus as a plain rank",
-      "published": "2026-10-29T13:19:45Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AR"
-      ],
-      "url": "https://arxiv.org/abs/2610.40000v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a5b81684e2903f9d",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "How Different are Different Differences-in-Differences? A Large-Scale Meta-Analysis",
-      "summary": "I use AI-assisted replication to assess the empirical importance of negative weights in two-way fixed effects (TWFE) estimation, drawing on 1,346 staggered-adoption specifications from 108 economics papers. TWFE estimates are highly correlated with estimates from modern difference-in-differences methods, with observed sign reversals in 10.8-14.5% of comparisons and greater precision for TWFE. Hierarchical models that account for estimation noise imply a 91-98% correlation between estimands and a",
-      "published": "2026-10-29T13:16:00Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "econ.EM"
-      ],
-      "url": "https://arxiv.org/abs/2610.39995v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b5a5a7d8a8e692d8",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "An Exact Parallel Dense Gauss-Seidel Algorithm with Trade-Offs between Parallel Execution Time and Preprocessing Time",
-      "summary": "The Gauss-Seidel iterative method is commonly used for solving systems of linear equations because of its good convergence properties. However, the Gauss-Seidel algorithm cannot be easily parallelized because of the data dependencies existing at each iteration. The best parallel execution time for dense systems of equations is $O(n)$ given that enough processors are available and no preprocessing is performed. In this paper we propose a new parallel Gauss-Seidel algorithm which is capable of ach",
-      "published": "2026-10-29T13:11:38Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.DC",
-        "cs.DS"
-      ],
-      "url": "https://arxiv.org/abs/2610.39990v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f64e0989cdd10892",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Can LLMs Ignore What They Know? Measuring Knowledge Leakage in Persona-Based User Simulation",
-      "summary": "When persona-conditioned responses are read as respondent-level simulations, each response should reflect the described persona's knowledge, and the respondent written to know nothing must act as if the model's knowledge were not there. We test whether it can, and find persistent favourable-item real-twin rating separation under the tested low-knowledge and explicit-ignorance prompts. We define the resulting problem (knowledge leakage: a response bias that arises when knowledge the real user cou",
-      "published": "2026-10-29T12:38:03Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2610.39939v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c95638388da3b8fa",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "H$^2$R: Hierarchical Hint-Based Reward for Mathematical Reasoning via Reinforcement Learning",
-      "summary": "Reinforcement Learning with Verifiable Rewards has shown great promise in enhancing mathematical reasoning in large language models. However, existing approaches provide limited intermediate supervision for complex, multi-step reasoning tasks. To bridge this gap, we propose \\textbf{Hierarchical Hint-based Reward}, a framework that leverages the intrinsic sub-question structure of mathematical problems as structured intermediate conditioning signals during RLVR training. Unlike chain-of-thought p",
-      "published": "2026-10-29T12:36:21Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2610.39934v1",
+      "url": "https://github.com/advisories/GHSA-9v7c-q64q-vv33",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
