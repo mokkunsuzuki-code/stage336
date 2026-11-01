@@ -1,9 +1,9 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-10-31T04:42:46.969850+00:00",
+  "generated_at": "2026-11-01T05:03:32.157855+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 39,
+  "item_count": 49,
   "items": [
     {
       "id": "0b9f79a8cf853497",
@@ -739,6 +739,209 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-9v7c-q64q-vv33",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8037e9032eda272f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Elucidating the Design Space of LM Data Attribution",
+      "summary": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures, we explore the design space of LLM data attribution, with a primary focus on evaluation. We introduce the Controlled Attribution Benchmark (CATT) for fact tracing, in which we fine-tune LLMs on enti",
+      "published": "2026-10-29T17:59:53Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.40655v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9125c13daebbd419",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Micro-Edits: Computational Support for Fine-Scale Edits in Film",
+      "summary": "In film editing, every frame matters. While macro, content-level edits shape the high-level narrative of a film, small local edits often control timing and direct visual attention. For example, editors can adjust the precise timing of clips to control the length of a meaningful silence, or cut to shots that highlight a specific character's reactions to important moments. These small, detailed edits are slow and tedious to make in standard editing tools because users have to map high-level narrat",
+      "published": "2026-10-29T17:59:49Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.HC",
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2610.40653v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8b532ddf9be6c3bc",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Luggage re-identification: A study of strategies towards a real-world application",
+      "summary": "Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same luggage across disjoint camera views in complex environments such as airports, train stations and border crossing. While existing approaches primarily focus on appearance-based cropped image matching under relatively clean c",
+      "published": "2026-10-29T17:58:59Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.40643v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8afc450799a206eb",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "From extreme weather to agricultural consequences with agentic AI",
+      "summary": "Extreme weather is forecast days ahead, yet its consequences for agriculture remain hard to predict: a forecast says where a storm will strike, not which crops will suffer or how much is at risk, and the records that could tell span many sources. We present WxCrop, the first agent that judges agricultural hazards from physically interpretable weather indices examined by causal analysis, and the first that combines weather and agricultural information to predict crop loss reliably for past and fo",
+      "published": "2026-10-29T17:58:53Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "physics.ao-ph",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.40641v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bdf13ca12f6ab65b",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Gravitational-Wave Echoes and Greybody Cutoff from Logarithmic Throats at a Marginal-Trapping Threshold",
+      "summary": "When a static, spherically symmetric configuration is brought close to a marginal-trapping threshold, it develops a long throat. As the nondegenerate minimum of $F=1-2m/r$ approaches zero, $F\\simeqΔ+β(r-R_M)^2$, the proper length across the throat grows as $-\\lnΔ/\\sqrtβ$, even though the local curvature stays finite. We study how axial gravitational waves propagate in an effective model of this throat, in which the lapse is parametrized as $N\\propto F^{s/2}$. For $s>0$ the throat acts as a cavit",
+      "published": "2026-10-29T17:57:40Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "gr-qc",
+        "astro-ph.HE",
+        "hep-th"
+      ],
+      "url": "https://arxiv.org/abs/2610.40631v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9e1fc55783802cc7",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
+      "summary": "Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This brittleness has a mechanistic root: Alignment is shallow, with safety behavior concentrated in a model's first few output tokens, and existing defenses inherit the weakness, supervising the surface form of the response without ever giving the model an explicit safety decision to learn. We take the opp",
+      "published": "2026-10-29T17:56:53Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.40627v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "cd08b3e0521259c0",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Difficulty Calibration Across Time for Membership Inference in Diffusion Models",
+      "summary": "Modern diffusion models are trained on massive datasets that often include copyrighted or private images. Membership inference attacks (MIAs) address this by testing whether a given image was in a model's training set. The standard approach scores an image by its reconstruction loss and flags low-loss images as members. This often fails because some images are simply easier to reconstruct than others, so a simple unseen image can score a lower loss than a complex training image. Difficulty calib",
+      "published": "2026-10-29T17:54:54Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.40616v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a2d94281cfb173df",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
+      "summary": "We present TextSeal2, a distortion-free watermark for large language models that keeps its signal under speculative decoding: tokens that replace rejected drafts remain watermarked with the same keys, and the acceptance rate is unchanged. It also preserves output diversity and adds no measurable inference latency. Its predecessor, TextSeal, restores diversity in the Gumbel-max scheme by routing each token to one of two keys via a coin flip. This is suboptimal because the detector averages the sc",
+      "published": "2026-10-29T17:54:12Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CR",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2610.40613v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "8281411c0141ef2d",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "On Zeros and Algorithms for Disordered Systems II: The Antiferromagnetic Ising Model up to Kesten-Stigum",
+      "summary": "We give the first polynomial-time algorithm to estimate the partition function of the antiferromagnetic Ising model on the uniformly random $d$-regular graph to arbitrarily high accuracy for all inverse temperatures up to the Kesten-Stigum threshold. This is the entire regime in which the model is \"replica symmetric,\" and is conjectured to be optimal for polynomial-time counting and sampling. To achieve our algorithmic result, we establish the absence of Fisher zeros for the partition function i",
+      "published": "2026-10-29T17:50:26Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.DS",
+        "cond-mat.dis-nn",
+        "math-ph",
+        "math.PR"
+      ],
+      "url": "https://arxiv.org/abs/2610.40598v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a5025563066a9021",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Probing fluctuations in photon emission statistics of spin injected quantum dots with time dependent electronic excitation",
+      "summary": "Electrically spin-injected ensembles of InGaAs/GaAs quantum dots emit circularly polarized single photons, with the emission helicity determined by the spin polarization of the injected electrons. A ferromagnetic CoFeB spin-injection layer with perpendicular magnetic anisotropy, combined with an MgO tunnel barrier, enables spin-polarized electron injection into the quantum-dot active region, resulting in circularly polarized photon emission at zero applied magnetic field. These devices realize d",
+      "published": "2026-10-29T17:49:21Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "quant-ph",
+        "cond-mat.mes-hall"
+      ],
+      "url": "https://arxiv.org/abs/2610.40593v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
