@@ -1,10 +1,48 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-02T05:03:50.725980+00:00",
+  "generated_at": "2026-11-03T05:51:31.121612+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 49,
+  "item_count": 39,
   "items": [
+    {
+      "id": "2957c1dcd312d559",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[apache-airflow] Apache Airflow: Authenticated users can bypass the `is_safe_url` check",
+      "summary": "",
+      "published": "2026-06-01T09:31:13.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6hcw-qqr8-pjj8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e3cfaaa48415896e",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] NLTK: Model-artifact APIs bypass pathsec and touch files outside allowed roots",
+      "summary": "",
+      "published": "2026-09-02T14:35:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8mgp-746c-j5xp",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "0b9f79a8cf853497",
       "source": "github-advisory-pip",
@@ -348,17 +386,17 @@
       }
     },
     {
-      "id": "73b4676cd3cc604a",
-      "source": "github-advisory-pip",
+      "id": "70aed5f25ccd1d9c",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonai] PraisonAI vulnerable to Remote Code Execution via Broken AST Sandbox",
+      "title": "[obsidian-local-rest-api] obsidian-local-rest-api: Authenticated path traversal via URL-encoded %2F in /vault/{path} — arbitrary host file read/write/delete",
       "summary": "",
-      "published": "2026-10-29T16:34:26.000Z",
+      "published": "2026-07-15T21:56:45.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-26mh-57q7-jfvr",
+      "url": "https://github.com/advisories/GHSA-62gx-5q78-wrvx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +405,55 @@
       }
     },
     {
-      "id": "5f093d042be7c7b4",
-      "source": "github-advisory-pip",
+      "id": "24c8f7ebc242c86a",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[PraisonAI] Duplicate Advisory: PraisonAI vulnerable to Remote Code Execution via Broken AST Sandbox",
+      "title": "[@bytebase/dbhub] DBHub: MySQL and MariaDB comment interpretation bypasses read-only SQL validation",
       "summary": "",
-      "published": "2026-07-15T12:32:04.000Z",
+      "published": "2026-11-02T17:57:51.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qh3g-555w-f82q",
+      "url": "https://github.com/advisories/GHSA-j656-3hf2-fvjc",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "30837c257a2a4430",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@sd-jwt/core] SD JWT JS: Tampered disclosures silently dropped instead of rejected",
+      "summary": "",
+      "published": "2026-11-02T17:54:39.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f9j6-8p6x-r9j6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "664ed82e0f8ba50b",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@sd-jwt/decode] SD JWT JS: Tampered disclosures silently dropped instead of rejected",
+      "summary": "",
+      "published": "2026-11-02T17:54:39.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f9j6-8p6x-r9j6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -663,278 +739,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-8hrf-8g6f-7xwp",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "41f85c76cec7e825",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[node-forge] Forge: Denial of service in TLS record processing via call stack exhaustion",
-      "summary": "",
-      "published": "2026-10-30T23:01:54.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-hqq3-7jhf-c5jx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "9e53d5c0229a154b",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[node-forge] Forge: X.509 basicConstraints bypass in verifyCertificateChain() via deprecated extension OIDs 2.5.29.10 and 2.5.29.13",
-      "summary": "",
-      "published": "2026-10-30T23:01:46.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5x38-2vff-x55p",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "22879f0d402343e5",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@nuxt/vite-builder] Nuxt dev server exposes generated appSecret through Vite file serving",
-      "summary": "",
-      "published": "2026-10-30T23:01:12.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3xf4-9g3c-4h4w",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7eed00f2239c718a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@nuxt/nitro-server] Nuxt: Dot segments in the request path bypass `server/middleware` path checks and server route rules on page routes",
-      "summary": "",
-      "published": "2026-10-30T23:00:53.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9v7c-q64q-vv33",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "625bd55835867f0e",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
-      "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribute this failure to a fundamental modality mismatch: reasoning is performed in a discrete token space,",
-      "published": "2026-10-30T17:59:43Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CV",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2610.42149v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8663d483fb5499ed",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
-      "summary": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectively, suffering from severe prefix recomputation overheads or distorted output probabilities. To address this challenge, we propose Flide, an efficient and exact inference engine that decouples the logical tree structure ",
-      "published": "2026-10-30T17:59:38Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2610.42148v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "cb4fe12355c5b42c",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "SemEllipsoid: Semantic-aware Shape Abstraction with Ellipsoid",
-      "summary": "Representing 3D shapes using a set of primitives - known as shape abstraction - is an actively studied problem in computer graphics with wide applications in shape understanding, analysis, and simulation due to the compactness and computational efficiency of the primitive-based representation. Prior work has primarily focused on geometry-aware shape abstraction, where the objective is to approximate the input shape with a minimal set of primitives while preserving geometric fidelity. However, th",
-      "published": "2026-10-30T17:59:14Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.GR",
-        "cs.CV"
-      ],
-      "url": "https://arxiv.org/abs/2610.42145v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f1c75f55a3bcbf4a",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Dittany: Contribution-Guided Repair Framework for MAS Applications",
-      "summary": "LLM-based multi-agent system (MAS) applications can produce useful intermediate results while leaving task requirements unsatisfied. Repairing such executions requires identifying the work still needed and the completed results that can support it. We present \\tool, a contribution-guided runtime repair framework for MAS applications. \\tool derives expected contributions and acceptance conditions from task requirements and method specifications, and connects their dependencies in a contribution g",
-      "published": "2026-10-30T17:59:12Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.SE"
-      ],
-      "url": "https://arxiv.org/abs/2610.42144v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4c99c4b3271ff78d",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches",
-      "summary": "In many practical deployments of Differentially Private Stochastic Gradient Descent (DP-SGD), the server processes data in batches. Randomly sampling these batches allows for better privacy bounds via privacy amplification results. Most sampling schemes with provable privacy amplification, including Poisson sampling and random allocation, result in variable batch sizes. The privacy guarantee of these schemes requires that the batch sizes are not revealed. In distributed settings, the server perf",
-      "published": "2026-10-30T17:58:42Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.CR"
-      ],
-      "url": "https://arxiv.org/abs/2610.42139v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d0da85c200612cd8",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Value of Adding AI Weather Model Ensembles to a Multi-model Probabilistic Blend",
-      "summary": "Many weather forecasting organizations use a multi-model blend of ensemble members from different prediction systems to obtain a more accurate forecast. Recent studies have shown that blending deterministic AI-based models alongside physics-based models improves the overall forecast skill. However, the incorporation of an ensemble AI-based model into a multi-model blend is yet to be investigated. This study explores the value of blending the ensemble version of the Artificial Intelligence Foreca",
-      "published": "2026-10-30T17:57:25Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "physics.ao-ph",
-        "stat.AP"
-      ],
-      "url": "https://arxiv.org/abs/2610.42130v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "9b1dc995e4fa4cd4",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
-      "summary": "Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position. To bridge this gap, we introduce DecisionRank, a decision model trained through item-space on-policy distilla",
-      "published": "2026-10-30T17:56:58Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2610.42128v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "01c59397ef224f73",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Where ADS Crashes Differ: A Harmonized Comparison Against Human Baselines",
-      "summary": "Crash-rate comparisons between automated driving systems (ADS) and human drivers require an exposure denominator that only a few operators publish. We instead ask a composition question: given a crash, does the mix of crash types differ between ADS and human-driven vehicles? The question needs no mileage and can therefore cover every ADS operator. We assemble the NHTSA Standing General Order (SGO) ADS incident files across both file generations into 2,450 distinct in-scope incidents (2021-2026),",
-      "published": "2026-10-30T17:53:28Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CY"
-      ],
-      "url": "https://arxiv.org/abs/2610.42121v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2cd82db235875985",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "ACCT: Asymmetric Cross-LLM Context Transfer",
-      "summary": "In real-world deployments, large language model (LLM) systems are increasingly evolving from single-model invocation toward heterogeneous deployments in which different models are dynamically invoked for inference. When the same context is reused across models, however, each newly selected target model typically has to process it again, repeatedly incurring substantial computational costs. Therefore, we propose ACCT (Asymmetric Cross-LLM Context Transfer), which targets KV cache transfer between",
-      "published": "2026-10-30T17:50:49Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2610.42116v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b6db3ab2e7df77c8",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Subquadratic Attention with a Hierarchical Tree-Structured Indexer",
-      "summary": "The quadratic scaling of attention is a fundamental bottleneck limiting the long-context capabilities of large language models (LLMs). A variety of approaches have attempted to circumvent this, but they either fail to match attention's expressiveness (e.g., sliding-window or linear attention variants with fixed-size state) or only achieve constant-factor speedups (e.g., sparse attention methods whose indexers themselves scale quadratically). In this paper, we derive an asymptotically subquadrati",
-      "published": "2026-10-30T17:48:37Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2610.42112v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
