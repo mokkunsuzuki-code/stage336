@@ -1,10 +1,181 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-03T05:51:31.121612+00:00",
+  "generated_at": "2026-11-04T05:27:51.940088+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 39,
+  "item_count": 50,
   "items": [
+    {
+      "id": "8fa8e177238ef2c0",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] NLTK has a Downloader Path Traversal Vulnerability (AFO) - Arbitrary File Overwrite",
+      "summary": "",
+      "published": "2026-03-19T12:42:42.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-469j-vmhf-r6v7",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6b2ce8c0f8dc7557",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] NLTK has a Path Traversal issue",
+      "summary": "",
+      "published": "2026-03-04T21:32:45.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-68j8-pq59-fqgm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "550444805821f9c4",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[torch] PyTorch Vulnerable to Remote Code Execution via Untrusted Checkpoint Files",
+      "summary": "",
+      "published": "2026-01-27T20:10:54.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-63cw-57p8-fm3p",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "463ea2ed4fdaeca5",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI's API key endpoint restrictions bypassed via `x-api-key` header — full message processing on restricted endpoints",
+      "summary": "",
+      "published": "2026-05-14T20:21:26.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-57q6-fvp4-pqmm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "af6a764a335dba3e",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[feast] Feast vulnerable to unsafe deserialization RCE in registry server via UDF proto",
+      "summary": "",
+      "published": "2026-06-24T18:32:40.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q63x-9pfm-mjx4",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5530071fc7f61228",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[prefect] Prefect has Git Flag Injection via commit_sha and directories Parameters Leading to Remote Code Execution (RCE)",
+      "summary": "",
+      "published": "2026-06-20T18:31:29.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-7pm4-56h2-5rxr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "906ab5fa10041d0a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[stanza] Stanza: RCE via pickle deserialization in the lemmatizer",
+      "summary": "",
+      "published": "2026-11-03T20:29:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-gh9r-c94j-cmp5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0b1d58866b5d1623",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[picklescan] Duplicate Advisory : Picklescan is missing detection when calling built-in python idlelib.pyshell.ModifiedInterpreter.runcode",
+      "summary": "",
+      "published": "2026-06-26T00:32:05.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mq7r-vm99-p7vx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4da7e578dcb2dd3d",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[feast] Feast vulnerable to arbitrary code execution via unsafe deserialization of dill-serialized UDFs",
+      "summary": "",
+      "published": "2026-08-10T21:32:07.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-gg2p-37pv-v7fq",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "2957c1dcd312d559",
       "source": "github-advisory-pip",
@@ -215,17 +386,17 @@
       }
     },
     {
-      "id": "fef48dbe3c4c7766",
-      "source": "github-advisory-pip",
+      "id": "e3262011f3fe235c",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pyasn1] pyasn1 has quadratic-complexity denial of service in binary REAL decoding",
+      "title": "[js-toml] js-toml vulnerable to CPU exhaustion via O(n^2) BigInt construction on radix-prefixed integer literals",
       "summary": "",
-      "published": "2026-10-30T23:06:46.000Z",
+      "published": "2026-06-26T22:21:43.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mm57-4v3p-rchx",
+      "url": "https://github.com/advisories/GHSA-wp3c-266w-4qfq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +405,17 @@
       }
     },
     {
-      "id": "a11801d61e6c22fd",
-      "source": "github-advisory-pip",
+      "id": "ceb4339e85a1a999",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pyasn1] pyasn1 has quadratic-time denial of service in constructed string and indefinite-length ANY decoding",
+      "title": "[vm2] VM2 Has a Sandbox Escape Issue via SuppressedError",
       "summary": "",
-      "published": "2026-10-30T23:03:51.000Z",
+      "published": "2026-05-05T16:33:45.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9m75-vc3g-4x39",
+      "url": "https://github.com/advisories/GHSA-55hx-c926-fr95",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +424,17 @@
       }
     },
     {
-      "id": "9a7acd967742c4c5",
-      "source": "github-advisory-pip",
+      "id": "0b8b085a28b0b23a",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pyasn1] pyasn1 has quadratic CPU use in schemaless BER/CER/DER container decoding",
+      "title": "[vm2] VM2 Sandbox Breakout Through __lookupGetter__",
       "summary": "",
-      "published": "2026-10-30T23:03:37.000Z",
+      "published": "2026-05-04T16:29:15.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fm9c-5rcf-2q5p",
+      "url": "https://github.com/advisories/GHSA-grj5-jjm8-h35p",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +443,17 @@
       }
     },
     {
-      "id": "c791f12035f2a4eb",
-      "source": "github-advisory-pip",
+      "id": "67def4a00fdf9bd6",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[graphql-core] GraphQL-core has denial of service via memory leak in aborted validations",
+      "title": "[vm2] VM2 Has Sandbox Breakout Through Inspect Function",
       "summary": "",
-      "published": "2026-10-30T22:58:31.000Z",
+      "published": "2026-05-05T16:33:14.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mpqx-q82w-9x46",
+      "url": "https://github.com/advisories/GHSA-v37h-5mfm-c47c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +462,17 @@
       }
     },
     {
-      "id": "9d8c3ba4b2eaa70f",
-      "source": "github-advisory-pip",
+      "id": "676a15afcd6bc699",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[oauthlib] OAuthLib: Token grants can use attacker-supplied client_id for authorization after authenticating a different client",
+      "title": "[lodash.unset] Lodash has Prototype Pollution Vulnerability in `_.unset`, `_.omit`, and `_.pullAt` functions",
       "summary": "",
-      "published": "2026-10-30T22:58:16.000Z",
+      "published": "2026-01-21T23:01:22.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7984-qgvg-3j9c",
+      "url": "https://github.com/advisories/GHSA-xxjr-mmjv-4gpg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +481,17 @@
       }
     },
     {
-      "id": "cf69a9dbe392c514",
-      "source": "github-advisory-pip",
+      "id": "d1f80d3567700ca4",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openwisp-controller] OpenWISP Controller CA CRL REST API does not scope requests to managed organizations",
+      "title": "[lodash.omit] Lodash has Prototype Pollution Vulnerability in `_.unset`, `_.omit`, and `_.pullAt` functions",
       "summary": "",
-      "published": "2026-10-30T22:58:10.000Z",
+      "published": "2026-01-21T23:01:22.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9gh4-xw24-9xh5",
+      "url": "https://github.com/advisories/GHSA-xxjr-mmjv-4gpg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +500,17 @@
       }
     },
     {
-      "id": "110c937ae9ae5e6e",
-      "source": "github-advisory-pip",
+      "id": "2aa62c73c19b34cb",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[joserfc] joserfc: Compact JWS size guard allocates attacker-controlled segments before rejection",
+      "title": "[lodash-es] Lodash has Prototype Pollution Vulnerability in `_.unset`, `_.omit`, and `_.pullAt` functions",
       "summary": "",
-      "published": "2026-10-30T14:54:25.000Z",
+      "published": "2026-01-21T23:01:22.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9pg5-8c7x-5hfx",
+      "url": "https://github.com/advisories/GHSA-xxjr-mmjv-4gpg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +519,17 @@
       }
     },
     {
-      "id": "07f022f04ab3fde5",
-      "source": "github-advisory-pip",
+      "id": "024ac480b4ecdcde",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[joserfc] joserfc: Unbounded JWE General JSON `recipients` Array Leads to CPU Exhaustion (DoS) via Repeated RSA Private-Key Decryption",
+      "title": "[@enspirit/elo] Elo JavaScript emitter has sandbox escape to arbitrary Node.js / browser code execution via unfiltered `.constructor` member access",
       "summary": "",
-      "published": "2026-10-30T14:54:20.000Z",
+      "published": "2026-11-03T17:53:42.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jpxq-7h8p-2q76",
+      "url": "https://github.com/advisories/GHSA-33r5-xmm8-v6x5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +538,188 @@
       }
     },
     {
-      "id": "293d8c220c1f0a0a",
-      "source": "github-advisory-pip",
+      "id": "a4b876ece6a3dd15",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[Twisted] Twisted: Unauthenticated Remote Denial of Service in the Twisted HTTP/2 Server via Rapid Stream Reset",
+      "title": "[@enspirit/elo] Elo Ruby backend has Remote Code Execution via unescaped `#{...}` interpolation in emitted string literals and subtype-constraint labels",
       "summary": "",
-      "published": "2026-10-29T16:41:06.000Z",
+      "published": "2026-11-03T17:51:30.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-vpp8-g58w-m8mp",
+      "url": "https://github.com/advisories/GHSA-7w38-ggh5-v542",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a5c698a27a26f7c4",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@enspirit/elo] Elo backends have code injection via unvalidated emission of programmatic AST fields",
+      "summary": "",
+      "published": "2026-11-03T17:48:09.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-x9rp-7wh3-2rj5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9a87b53f5aaaffc9",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[flowise] Duplicate Advisory : Flowise allows arbitrary file write to RCE",
+      "summary": "",
+      "published": "2026-06-26T00:32:05.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-c3hj-m5hq-59xw",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a95d1477b1f851bb",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[flowise] Duplicate Advisory: Flowise has unsandboxed remote code execution via Custom MCP",
+      "summary": "",
+      "published": "2026-06-26T00:32:05.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q2xp-j85q-883h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6773e9eaf1973f1d",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[flowise] Duplicate Advisory : Flowise has arbitrary file access due to missing chat flow id validation",
+      "summary": "",
+      "published": "2026-06-26T00:32:05.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-w5r9-j49j-2m55",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c4b592b43239980f",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[lodash.omit] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
+      "summary": "",
+      "published": "2026-04-01T23:50:27.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "b716c4669e3c1c12",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[lodash.unset] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
+      "summary": "",
+      "published": "2026-04-01T23:50:27.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "402419f9d745cc3a",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[lodash-amd] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
+      "summary": "",
+      "published": "2026-04-01T23:50:27.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "74e92eeba2592069",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[lodash-es] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
+      "summary": "",
+      "published": "2026-04-01T23:50:27.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c6d1616aaf923ac7",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[lodash] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
+      "summary": "",
+      "published": "2026-04-01T23:50:27.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +766,18 @@
       }
     },
     {
-      "id": "30837c257a2a4430",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@sd-jwt/core] SD JWT JS: Tampered disclosures silently dropped instead of rejected",
-      "summary": "",
-      "published": "2026-11-02T17:54:39.000Z",
+      "id": "b88c440aa5a5203f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, atte",
+      "published": "2026-11-03T18:59:52Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CL",
+        "cs.AI"
       ],
-      "url": "https://github.com/advisories/GHSA-f9j6-8p6x-r9j6",
+      "url": "https://arxiv.org/abs/2611.05376v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +786,19 @@
       }
     },
     {
-      "id": "664ed82e0f8ba50b",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@sd-jwt/decode] SD JWT JS: Tampered disclosures silently dropped instead of rejected",
-      "summary": "",
-      "published": "2026-11-02T17:54:39.000Z",
+      "id": "787fa9a3de7f3842",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
+      "summary": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher's gold response, large-margin preference-pair selection and a DPO-style contrastive update. We re-implement DNO-Prct independently and study it on two open-weight instruct models, Llama 3.1 8B Instruct and Mistral 7B Instru",
+      "published": "2026-11-03T18:59:15Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
       ],
-      "url": "https://github.com/advisories/GHSA-f9j6-8p6x-r9j6",
+      "url": "https://arxiv.org/abs/2611.05373v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +807,18 @@
       }
     },
     {
-      "id": "5ef2699f98b1eef5",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[joi] joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
-      "summary": "",
-      "published": "2026-10-30T23:10:23.000Z",
+      "id": "13edd066717ca4c6",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Geometry of Spaces of Subrings",
+      "summary": "Motivated by examples such as the local rings of projective integral schemes and the Zariski-Riemann space of a field, we develop a geometry for continuously indexed families of subrings of a commutative ring $R$. The indexing spaces are Stone spaces, and continuity is taken with respect to the Zariski topology on the space of subrings. To each such family we associate a subsheaf of the constant sheaf with value $R$ whose stalks are the indexed subrings. This gives a patch ringed space. Its glob",
+      "published": "2026-11-03T18:58:35Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "math.AC",
+        "math.AG"
       ],
-      "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
+      "url": "https://arxiv.org/abs/2611.05370v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +827,19 @@
       }
     },
     {
-      "id": "55add8f0bc2320c0",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@hapi/joi] joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
-      "summary": "",
-      "published": "2026-10-30T23:10:23.000Z",
+      "id": "ded7ed4367132045",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+      "summary": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberately trained to exhibit a specific misalignment--that differ in what triggers the behavior. The narrow-trigger organism misbehaves only when the prompt contains a specific cue: it cheats on multiple-choice questions by following a planted hint that points to a wrong answer, and beha",
+      "published": "2026-11-03T18:54:08Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
       ],
-      "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
+      "url": "https://arxiv.org/abs/2611.05358v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +848,17 @@
       }
     },
     {
-      "id": "fd94760b134636a6",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[content] @hapi/content: quadratic-time parsing of Content-Disposition parameters allows denial of service",
-      "summary": "",
-      "published": "2026-10-30T23:10:13.000Z",
+      "id": "886dccea860b1663",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Whose Guardrail? User Identity Shapes the Effectiveness of Model Disclaimers in Mitigating LLM Political Persuasion",
+      "summary": "Politically biased AI can shift users' opinions, yet it remains unclear whether model disclaimers protect against such persuasion. We report a preregistered experiment (N=1,586) examining how disclaimer design and user characteristics shape susceptibility to politically biased AI. We varied whether disclaimers identified political bias versus potential inaccuracies and whether they included an explanation. Participants completed two decision-making tasks with an LLM biased against their politica",
+      "published": "2026-11-03T18:46:42Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.HC"
       ],
-      "url": "https://github.com/advisories/GHSA-8494-f6mr-cjpv",
+      "url": "https://arxiv.org/abs/2611.05347v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +867,18 @@
       }
     },
     {
-      "id": "9f499db39763baad",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@hapi/content] @hapi/content: quadratic-time parsing of Content-Disposition parameters allows denial of service",
-      "summary": "",
-      "published": "2026-10-30T23:10:13.000Z",
+      "id": "8550d23885807213",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "A Circuit for In-Context Learning",
+      "summary": "In-context learning (ICL) lets a pretrained language model perform a task specified by demonstrations in its prompt, with no parameter updates. With arbitrary labels the model must acquire a mapping it cannot have memorized, so the learning happens within a single forward pass. Prior work found candidate parts but not how they compose. We give the composition for few-shot sentence classification with arbitrary labels in three 3-4B-parameter transformers. The model implements a key-value memory o",
+      "published": "2026-11-03T18:44:34Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CL",
+        "cs.LG"
       ],
-      "url": "https://github.com/advisories/GHSA-8494-f6mr-cjpv",
+      "url": "https://arxiv.org/abs/2611.05344v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +887,18 @@
       }
     },
     {
-      "id": "29a30cfbbab9c4ad",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[minimatch] minimatch has potential denial of service via globparts amplification",
-      "summary": "",
-      "published": "2026-10-30T23:09:55.000Z",
+      "id": "7b585bd74422ebda",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+      "summary": "Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request and one calibration episode of the robot in the target scene and rebuilds the task in simulation: it writes the scene, an expert controller, and a success judge. The simulator supplies exact actions, and a video model con",
+      "published": "2026-11-03T18:25:14Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.RO",
+        "cs.AI"
       ],
-      "url": "https://github.com/advisories/GHSA-g3hv-75wg-m249",
+      "url": "https://arxiv.org/abs/2611.05320v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +907,18 @@
       }
     },
     {
-      "id": "ce4fd3c072b46e0e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[glob] Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal",
-      "summary": "",
-      "published": "2026-10-30T23:09:11.000Z",
+      "id": "4e965aaccebbe5e5",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation",
+      "summary": "In LLM-based recommendation, memory acts as a user-level agent in a memory-augmented backbone. Yet users and items remain asymmetric: only the user is given a structured profile; it enters a bandwidth-limited reranker prompt; and it is frozen after warmup. We recast LLM-based recommendation as an agentic-communication process in four stages: BUILD a self-description, TRANSMIT it along the collaborative graph, UNDERSTAND the other side, and SYNC it from the next interaction. This formulation reve",
+      "published": "2026-11-03T18:24:20Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.IR",
+        "cs.AI"
       ],
-      "url": "https://github.com/advisories/GHSA-3g3m-2fjr-6pw4",
+      "url": "https://arxiv.org/abs/2611.05319v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,17 +927,17 @@
       }
     },
     {
-      "id": "adc366d2b06b4db0",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[node-forge] Forge: ASN.1 OID first arc truncation in asn1.oidToDer",
-      "summary": "",
-      "published": "2026-10-30T23:02:40.000Z",
+      "id": "4b9137ec7fced8fc",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Quantitative non-Gaussian and Gaussian approximation for exponential random graphs in the single-phase critical regime",
+      "summary": "We establish quantitative non-Gaussian and Gaussian approximations for edge-count fluctuations in dense exponential random graphs at single-phase criticality of any fixed even order $2m_*\\ge 4$. The Hamiltonians use injective homomorphism counts of fixed simple graphs, with nonnegative leading coefficients for the higher-order terms. In bounded calibrated windows, edge-density fluctuations on the scale $n^{-1/m_*}$ admit an explicit non-Gaussian approximation with error $O(n^{-1/m_*})$. For para",
+      "published": "2026-11-03T18:24:07Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "math.PR"
       ],
-      "url": "https://github.com/advisories/GHSA-4642-5mcj-2rqw",
+      "url": "https://arxiv.org/abs/2611.05318v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -595,150 +946,17 @@
       }
     },
     {
-      "id": "929f26689b727567",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[node-forge] Forge: Prototype Pollution in forge.http cookie handling via a malicious Set-Cookie",
-      "summary": "",
-      "published": "2026-10-30T23:02:35.000Z",
+      "id": "7538cc4ab7ff41e9",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "MDSKILL: Learning to Internalize Skill Memory through Multi-View Distillation for Efficient Dynamic Agent Self-Evolution",
+      "summary": "Skill memories encode past experiences as textual prompts to improve reinforcement learning (RL) for self-evolving agents. Complementing RL, On-Policy Self-Distillation (OPSD) provides dense, fine-grained supervision to internalize knowledge from skill-guided trajectories and accelerate policy learning. However, self-generated memories often contain noisy supervision and functionally entangled, redundant, or conflicting knowledge, making direct distillation difficult. Under limited training budg",
+      "published": "2026-11-03T18:19:55Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.CL"
       ],
-      "url": "https://github.com/advisories/GHSA-6wvx-3r32-xmcg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "199bee0fd516808e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[node-forge] Forge: TLS client crash when the server sends no certificate",
-      "summary": "",
-      "published": "2026-10-30T23:02:30.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-525v-9gp9-w22h",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1a578bfb4dd6f507",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[node-forge] Forge: Regular expression denial of service in PEM decoding (pem.decode)",
-      "summary": "",
-      "published": "2026-10-30T23:02:25.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-7wch-p9px-956x",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bfc80c5efa9184da",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[node-forge] Forge: Denial of Service via infinite loop in BigInteger.modInverse() with negative input (incomplete fix of CVE-2026-33891)",
-      "summary": "",
-      "published": "2026-10-30T23:02:20.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-h6cr-wjv9-3cpp",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d34a905872424fd1",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[node-forge] Forge: verifyCertificateChain() removes trusted CA certificates with the same subject from the CA store",
-      "summary": "",
-      "published": "2026-10-30T23:02:14.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4487-j8r4-4g2f",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d49748dd17f6146e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[node-forge] Forge: AES-GCM authentication bypass via unvalidated tagLength option",
-      "summary": "",
-      "published": "2026-10-30T23:02:09.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5cwg-6vw7-rj6p",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2104a90d96f067cb",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[node-forge] Forge: PKCS#12 MAC forgery and constant-key PBE via zero iteration count",
-      "summary": "",
-      "published": "2026-10-30T23:02:05.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-jc66-7q78-782g",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d0ea66739bdb0227",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[node-forge] Forge: Denial of service in TLS record processing via a record interleaved with a fragmented handshake message",
-      "summary": "",
-      "published": "2026-10-30T23:02:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8hrf-8g6f-7xwp",
+      "url": "https://arxiv.org/abs/2611.05313v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
