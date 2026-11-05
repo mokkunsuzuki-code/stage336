@@ -1,9 +1,9 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-04T05:27:51.940088+00:00",
+  "generated_at": "2026-11-05T05:46:43.941185+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 50,
+  "item_count": 48,
   "items": [
     {
       "id": "8fa8e177238ef2c0",
@@ -386,6 +386,82 @@
       }
     },
     {
+      "id": "a030567215ef01dd",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[protobufjs] protobufjs has an arbitrary code execution issue",
+      "summary": "",
+      "published": "2026-04-16T22:34:57.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xq3m-2v4x-88gg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ea9912b2dd2e8db7",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@payloadcms/storage-vercel-blob] @payloadcms/storage-vercel-blob has access control bypass of uploads in Vercel Storage adapter",
+      "summary": "",
+      "published": "2026-11-04T17:00:39.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mc8m-rr6c-r5qr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "29a30cfbbab9c4ad",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[minimatch] minimatch has potential denial of service via globparts amplification",
+      "summary": "",
+      "published": "2026-10-30T23:09:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-g3hv-75wg-m249",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "97192590f8f3aa95",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[odf-kit] odf-kit: HTML injection leading to XSS in odtToHtml() and odsToHtml() via unescaped style attribute values",
+      "summary": "",
+      "published": "2026-11-04T16:14:34.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3cgg-c5pp-57h6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
       "id": "e3262011f3fe235c",
       "source": "github-advisory-npm",
       "category": "software-advisory",
@@ -652,132 +728,18 @@
       }
     },
     {
-      "id": "b716c4669e3c1c12",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[lodash.unset] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
-      "summary": "",
-      "published": "2026-04-01T23:50:27.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "402419f9d745cc3a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[lodash-amd] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
-      "summary": "",
-      "published": "2026-04-01T23:50:27.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "74e92eeba2592069",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[lodash-es] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
-      "summary": "",
-      "published": "2026-04-01T23:50:27.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c6d1616aaf923ac7",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[lodash] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
-      "summary": "",
-      "published": "2026-04-01T23:50:27.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "70aed5f25ccd1d9c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[obsidian-local-rest-api] obsidian-local-rest-api: Authenticated path traversal via URL-encoded %2F in /vault/{path} — arbitrary host file read/write/delete",
-      "summary": "",
-      "published": "2026-07-15T21:56:45.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-62gx-5q78-wrvx",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "24c8f7ebc242c86a",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@bytebase/dbhub] DBHub: MySQL and MariaDB comment interpretation bypasses read-only SQL validation",
-      "summary": "",
-      "published": "2026-11-02T17:57:51.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-j656-3hf2-fvjc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b88c440aa5a5203f",
+      "id": "36a2151492cd69a2",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
-      "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, atte",
-      "published": "2026-11-03T18:59:52Z",
+      "title": "Preparing for the Gaia DR4 Epochalypse: Simulated Epoch Astrometry for Substellar Companion Orbit-Modeling Benchmarks",
+      "summary": "Gaia's fourth data release (DR4) will provide epoch astrometry for billions of sources, enabling the detection of potentially tens of thousands of substellar companions. We present the epochalypse catalog: Gaia DR4-like epoch astrometry for testing orbit-modeling pipelines on a common set of injected systems with known parameters. Onto each of the $5{,}040{,}328$ main-sequence Gaia stars within $500\\,{ \\rm pc}$ in the G23H catalog, we inject a zero-, one-, and two-companions system, for $15{,}12",
+      "published": "2026-11-04T18:59:05Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.CL",
-        "cs.AI"
+        "astro-ph.EP",
+        "astro-ph.IM"
       ],
-      "url": "https://arxiv.org/abs/2611.05376v1",
+      "url": "https://arxiv.org/abs/2611.06915v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -786,99 +748,19 @@
       }
     },
     {
-      "id": "787fa9a3de7f3842",
+      "id": "a4ee0333b6410a03",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
-      "summary": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher's gold response, large-margin preference-pair selection and a DPO-style contrastive update. We re-implement DNO-Prct independently and study it on two open-weight instruct models, Llama 3.1 8B Instruct and Mistral 7B Instru",
-      "published": "2026-11-03T18:59:15Z",
+      "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
+      "summary": "Researchers use large language models as agents in social simulations, where agents are prompted with observations and background information intended to shape their actions. Yet LLM agents have been shown to substantially change their behavior under meaning-preserving prompt variations, creating a validation problem for social simulation. One plausible hypothesis is that this brittleness reflects a lack of grounding and can be reduced by enriching the context provided to the agents. Whether ric",
+      "published": "2026-11-04T18:58:23Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2611.05373v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "13edd066717ca4c6",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Geometry of Spaces of Subrings",
-      "summary": "Motivated by examples such as the local rings of projective integral schemes and the Zariski-Riemann space of a field, we develop a geometry for continuously indexed families of subrings of a commutative ring $R$. The indexing spaces are Stone spaces, and continuity is taken with respect to the Zariski topology on the space of subrings. To each such family we associate a subsheaf of the constant sheaf with value $R$ whose stalks are the indexed subrings. This gives a patch ringed space. Its glob",
-      "published": "2026-11-03T18:58:35Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "math.AC",
-        "math.AG"
-      ],
-      "url": "https://arxiv.org/abs/2611.05370v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ded7ed4367132045",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
-      "summary": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberately trained to exhibit a specific misalignment--that differ in what triggers the behavior. The narrow-trigger organism misbehaves only when the prompt contains a specific cue: it cheats on multiple-choice questions by following a planted hint that points to a wrong answer, and beha",
-      "published": "2026-11-03T18:54:08Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2611.05358v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "886dccea860b1663",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Whose Guardrail? User Identity Shapes the Effectiveness of Model Disclaimers in Mitigating LLM Political Persuasion",
-      "summary": "Politically biased AI can shift users' opinions, yet it remains unclear whether model disclaimers protect against such persuasion. We report a preregistered experiment (N=1,586) examining how disclaimer design and user characteristics shape susceptibility to politically biased AI. We varied whether disclaimers identified political bias versus potential inaccuracies and whether they included an explanation. Participants completed two decision-making tasks with an LLM biased against their politica",
-      "published": "2026-11-03T18:46:42Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.HC"
-      ],
-      "url": "https://arxiv.org/abs/2611.05347v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8550d23885807213",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "A Circuit for In-Context Learning",
-      "summary": "In-context learning (ICL) lets a pretrained language model perform a task specified by demonstrations in its prompt, with no parameter updates. With arbitrary labels the model must acquire a mapping it cannot have memorized, so the learning happens within a single forward pass. Prior work found candidate parts but not how they compose. We give the composition for few-shot sentence classification with arbitrary labels in three 3-4B-parameter transformers. The model implements a key-value memory o",
-      "published": "2026-11-03T18:44:34Z",
-      "impact_scope": "metadata-only",
-      "tags": [
+        "cs.MA",
         "cs.CL",
         "cs.LG"
       ],
-      "url": "https://arxiv.org/abs/2611.05344v1",
+      "url": "https://arxiv.org/abs/2611.06914v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -887,18 +769,17 @@
       }
     },
     {
-      "id": "7b585bd74422ebda",
+      "id": "4792d0d1818b3405",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
-      "summary": "Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request and one calibration episode of the robot in the target scene and rebuilds the task in simulation: it writes the scene, an expert controller, and a success judge. The simulator supplies exact actions, and a video model con",
-      "published": "2026-11-03T18:25:14Z",
+      "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
+      "summary": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety, anomaly detection, or general scientific understanding, leaving their execution-o",
+      "published": "2026-11-04T18:57:17Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.RO",
         "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2611.05320v1",
+      "url": "https://arxiv.org/abs/2611.06911v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -907,18 +788,17 @@
       }
     },
     {
-      "id": "4e965aaccebbe5e5",
+      "id": "cf222e81d4aaf91d",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation",
-      "summary": "In LLM-based recommendation, memory acts as a user-level agent in a memory-augmented backbone. Yet users and items remain asymmetric: only the user is given a structured profile; it enters a bandwidth-limited reranker prompt; and it is frozen after warmup. We recast LLM-based recommendation as an agentic-communication process in four stages: BUILD a self-description, TRANSMIT it along the collaborative graph, UNDERSTAND the other side, and SYNC it from the next interaction. This formulation reve",
-      "published": "2026-11-03T18:24:20Z",
+      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across theoretical, computational, and experimental physics. Each task requires agents to review",
+      "published": "2026-11-04T18:56:22Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.IR",
         "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2611.05319v1",
+      "url": "https://arxiv.org/abs/2611.06910v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -927,17 +807,17 @@
       }
     },
     {
-      "id": "4b9137ec7fced8fc",
+      "id": "13d11500296e4e98",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Quantitative non-Gaussian and Gaussian approximation for exponential random graphs in the single-phase critical regime",
-      "summary": "We establish quantitative non-Gaussian and Gaussian approximations for edge-count fluctuations in dense exponential random graphs at single-phase criticality of any fixed even order $2m_*\\ge 4$. The Hamiltonians use injective homomorphism counts of fixed simple graphs, with nonnegative leading coefficients for the higher-order terms. In bounded calibrated windows, edge-density fluctuations on the scale $n^{-1/m_*}$ admit an explicit non-Gaussian approximation with error $O(n^{-1/m_*})$. For para",
-      "published": "2026-11-03T18:24:07Z",
+      "title": "A Simple Subquadratic Cut Query Protocol for Directed Reachability",
+      "summary": "We study $s$--$t$ reachability in an unweighted directed graph on $n$ vertices, accessed through a directed cut oracle: given $S\\subseteq V$, the oracle returns the number of edges directed from $S$ to $V\\setminus S$. Directed cut functions are submodular, and reachability asks whether the minimum $s$--$t$ cut has positive value. This connects the problem to the query complexity of submodular function minimisation. Whether or not reachability can be solved in truly subquadratic query complexity ",
+      "published": "2026-11-04T18:53:36Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "math.PR"
+        "cs.DS"
       ],
-      "url": "https://arxiv.org/abs/2611.05318v1",
+      "url": "https://arxiv.org/abs/2611.06906v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -946,17 +826,97 @@
       }
     },
     {
-      "id": "7538cc4ab7ff41e9",
+      "id": "0d5a729575da642b",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "MDSKILL: Learning to Internalize Skill Memory through Multi-View Distillation for Efficient Dynamic Agent Self-Evolution",
-      "summary": "Skill memories encode past experiences as textual prompts to improve reinforcement learning (RL) for self-evolving agents. Complementing RL, On-Policy Self-Distillation (OPSD) provides dense, fine-grained supervision to internalize knowledge from skill-guided trajectories and accelerate policy learning. However, self-generated memories often contain noisy supervision and functionally entangled, redundant, or conflicting knowledge, making direct distillation difficult. Under limited training budg",
-      "published": "2026-11-03T18:19:55Z",
+      "title": "MCP-Eco: A Linked Dataset of MCP Servers, Consumers, and Development Activity",
+      "summary": "The Model Context Protocol (MCP) enables LLM agents to access external tools and data. Studying its software ecosystem requires connecting server interfaces, the projects that configure these servers, and their development activity. However, this information is scattered across directories, package registries, configuration files, and repository histories. We present MCP-Eco, a relational dataset that integrates these sources and links consumer configuration declarations to candidate server proj",
+      "published": "2026-11-04T18:47:50Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.SE"
+      ],
+      "url": "https://arxiv.org/abs/2611.06897v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1f546c2e7f02daa4",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
+      "summary": "Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations. Higher exposure is associated with lower condition scores under a large language model (LLM) measure and AI Occupational Exposure (AIOE), with equal occupation weights and employment weights. Adjustment for physical demands, required education, training and experience, and wages reduces the composite associ",
+      "published": "2026-11-04T18:41:40Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.HC",
+        "econ.GN"
+      ],
+      "url": "https://arxiv.org/abs/2611.06888v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a732718d572ec9ca",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Odd Capillarity",
+      "summary": "Capillarity governs interfacial relaxation and hydrodynamic motion in binary fluids through parity-even mechanical stresses. Here, we introduce \\emph{odd capillarity}, a parity-breaking interfacial mechanical response, by incorporating a symmetric, nonvariational, parity-odd capillary stress into the Cahn--Hilliard--Navier--Stokes (CHNS) equations. This stress generates forces along interfaces, transverse to ordinary capillary forces, and performs mechanical work that is not balanced by changes ",
+      "published": "2026-11-04T18:38:40Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "physics.flu-dyn",
+        "cond-mat.soft",
+        "nlin.CD"
+      ],
+      "url": "https://arxiv.org/abs/2611.06882v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2d7525b159fbd865",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "VABAR: A Variational Automation Benchmark for Agentic Robotics",
+      "summary": "For robots to operate reliably in commercial and industrial applications, they must persistently perform specific tasks with known variations in object shape and pose. We call this Variational Automation (VA) to differentiate these settings from fixed automation. Inspired by recent papers on Agentic Robotics, where pretrained LLM and VLM coding agents combine interpretable robot programming with the open-world adaptability of model free policies, we propose a general set of agentic robotics benc",
+      "published": "2026-11-04T18:38:01Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2611.06881v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "60a411e545e650ac",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification",
+      "summary": "LLM agents use context compaction to manage growing interaction histories, but summarizing long histories with large models can introduce substantial delays. Compaction therefore requires balancing information retention against latency. We observe that structured summary slots can retain information when generated independently. Based on this observation, we present SpecCompact, a framework that accelerates compaction through slot-parallel semantic speculation. SpecCompact fine-tunes a small dra",
+      "published": "2026-11-04T18:34:41Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CL"
       ],
-      "url": "https://arxiv.org/abs/2611.05313v1",
+      "url": "https://arxiv.org/abs/2611.06876v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
