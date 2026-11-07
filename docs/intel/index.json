@@ -1,10 +1,143 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-06T05:43:41.747034+00:00",
+  "generated_at": "2026-11-07T05:14:52.191877+00:00",
   "mode": "safe-metadata-only",
   "item_count": 48,
   "items": [
+    {
+      "id": "391676f9a491f557",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[paramiko] Paramiko rsakey.py allows the SHA-1 algorithm",
+      "summary": "",
+      "published": "2026-05-06T00:31:33.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r374-rxx8-8654",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "973b6164a5475a51",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[misp-modules] misp-modules has unsafe remote resource fetching in expansion",
+      "summary": "",
+      "published": "2026-05-06T22:31:03.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fhq3-2gf3-8f3j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e7c17506130c66e1",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[GeoNode] GeoNode has Stored XSS in Documents metadata abstract field",
+      "summary": "",
+      "published": "2026-11-06T19:50:34.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r4hm-p9f9-fj9v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "32146e9ea085a3fd",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[GeoNode] GeoNode has Unrestricted File Upload",
+      "summary": "",
+      "published": "2026-11-06T19:41:23.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fqpv-mq26-pr4j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3caa6933f1e47aba",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[GeoNode] GeoNode has OS command injection via uploaded file layer name",
+      "summary": "",
+      "published": "2026-11-06T19:39:38.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9fpx-fr6j-2vh6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "62f7428a6ed14951",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[trapster] Trapster Community: Unauthenticated malformed DNS compression pointers crash per-packet honeypot handler",
+      "summary": "",
+      "published": "2026-07-08T20:24:46.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mxwc-wh95-pw4g",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "72164d7efda2607a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nbconvert] jupyter/nbconvert allows Cross-site Scripting (XSS) via unsanitized `text/vnd.mermaid` output in HTML exports",
+      "summary": "",
+      "published": "2026-06-26T12:30:29.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-9754-6rhw-gj3h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "5d74bf47a675f59b",
       "source": "github-advisory-pip",
@@ -245,139 +378,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-6hcw-qqr8-pjj8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e3cfaaa48415896e",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[nltk] NLTK: Model-artifact APIs bypass pathsec and touch files outside allowed roots",
-      "summary": "",
-      "published": "2026-09-02T14:35:04.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-8mgp-746c-j5xp",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0b9f79a8cf853497",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pypdf] pypdf has possible infinite loop when hitting EOF in standard xref table during trailer search",
-      "summary": "",
-      "published": "2026-10-30T23:13:16.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5849-834g-hvw5",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "799295db56015f31",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pypdf] pypdf has possible large memory usage when parsing page tree",
-      "summary": "",
-      "published": "2026-10-30T23:13:01.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cggf-277g-3q54",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dd0073a330120169",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pypdf] pypdf has possible infinite loop when cloning dictionaries",
-      "summary": "",
-      "published": "2026-10-30T23:12:20.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mfr5-77xh-9j7h",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "983fb9f302bbb1fa",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[Authlib] Authlib RFC 7592 examples omit registration-access-token client binding",
-      "summary": "",
-      "published": "2026-10-30T23:09:04.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-c73q-w75p-j82v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e3bb62eea2120d55",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pypdf] pypdf has possible long runtimes when retrieving page labels",
-      "summary": "",
-      "published": "2026-10-30T23:08:55.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-42gh-23hr-vphw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b9527284cb24eb54",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[pypdf] pypdf has possible large memory usage for exceptions in strict mode",
-      "summary": "",
-      "published": "2026-10-30T23:08:39.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4vqv-7265-gm2w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
