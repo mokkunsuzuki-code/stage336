@@ -1,7 +1,7 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-08T05:09:30.022467+00:00",
+  "generated_at": "2026-11-09T05:20:55.939712+00:00",
   "mode": "safe-metadata-only",
   "item_count": 48,
   "items": [
@@ -728,37 +728,17 @@
       }
     },
     {
-      "id": "5c23fd6bfc849e21",
+      "id": "caea419d5ea52336",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "BeAR: The Bern Atmospheric Retrieval code - A GPU-accelerated framework for low-resolution, high-resolution, and joint retrievals of exoplanet atmospheres",
-      "summary": "We present BeAR, the Bern Atmospheric Retrieval code and successor of Helios-r, and its new high-resolution cross-correlation framework for emission and transmission spectra. BeAR performs joint retrievals by adding the log-likelihoods of high- and low-resolution data computed from the same model atmosphere. The framework implements established cross-correlation log-likelihoods, with the line-depth scaling either fitted analytically or sampled as a free parameter, their per-pixel generalization,",
-      "published": "2026-11-05T18:59:48Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "astro-ph.EP",
-        "astro-ph.IM"
-      ],
-      "url": "https://arxiv.org/abs/2611.08489v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2d94663929e82c69",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Do You Miss the Nights We Spent Crafting Figures? Rethinking Teaser and Framework Figures in the Age of Generative AI",
-      "summary": "Scientific figures give research ideas a visual form through choices of abstraction, composition, and emphasis. Generative AI offers new ways to realize these choices, raising questions about explanatory clarity and purposeful visual expression. We examine these questions through a visual retrospective of 371 motivation and framework figures from 200 papers. The corpus comprises a quota-based main sample of 160 papers spanning four temporal periods and a separate purposive style-contrast sample ",
-      "published": "2026-11-05T18:59:33Z",
+      "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+      "summary": "Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Coder, the first attempt to train a code-driven video generation agent, which autonomously writes and executes code to construct a dynamic 3D scene (Draft Video) that provides structure and motion signals",
+      "published": "2026-11-06T18:59:57Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CV"
       ],
-      "url": "https://arxiv.org/abs/2611.08486v1",
+      "url": "https://arxiv.org/abs/2611.09894v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -767,138 +747,20 @@
       }
     },
     {
-      "id": "97b729c1e5665eea",
+      "id": "1f6b9fdf06e1e933",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-      "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework in which hundreds of low-cost agents per round work in swarms, reason in latent space without decod",
-      "published": "2026-11-05T18:59:29Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.NE"
-      ],
-      "url": "https://arxiv.org/abs/2611.08483v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1942b24768cd122d",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Scientist World: Grow a Research World for AI-Scientists",
-      "summary": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment. Our autonomous pipeline extracts each paper's open-ended research question and reproduces its proposed method as the baseline; an AI-Scientist entering the",
-      "published": "2026-11-05T18:58:17Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LG"
-      ],
-      "url": "https://arxiv.org/abs/2611.08478v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0c8c2a36f84dd050",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
-      "summary": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and noisy interventions. We ask when such a quantity is identifiable from an experiment's access, continuous in the mechanism and certifiable from finite data, and answer exactly for a deliberately demanding case - the integra",
-      "published": "2026-11-05T18:55:31Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.AI",
-        "q-bio.NC"
-      ],
-      "url": "https://arxiv.org/abs/2611.08469v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a8570c3aae04a0a0",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Joint Bayesian Inference for Extraction of Charmonium Long Distance Matrix Elements Using PYTHIA",
-      "summary": "We present a joint Bayesian extraction of the nonrelativistic QCD long-distance matrix elements (LDMEs) for $J/ψ$, $ψ(2S)$, and $χ_c$ production, using short-distance coefficients and feed-down structure implemented in PYTHIA 8.317. Rather than fitting each charmonium state separately, we construct channel-resolved responses that link parent production to daughter feed-down and infer all LDMEs simultaneously from 286 prompt charmonium measurements in $pp$ collisions at $\\sqrt{s}=5.02$-13 TeV at ",
-      "published": "2026-11-05T18:53:36Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "hep-ph"
-      ],
-      "url": "https://arxiv.org/abs/2611.08463v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8a7aeb4a0550bab7",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Cognitive Tours: Making Understanding a Deliverable in AI-Assisted Development",
-      "summary": "Generative AI and agentic coding are accelerating software development, leading to concerns about technical debt. But two less visible forms of debt, cognitive debt and intent debt, are emerging as key risks to software health. Cognitive debt is the absence or erosion of a team's shared understanding where no one can confidently explain how a system works or predict the impact of a change. Intent debt is the lack of clearly articulated goals, constraints, and rationale that explain what the syst",
-      "published": "2026-11-05T18:48:06Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.SE"
-      ],
-      "url": "https://arxiv.org/abs/2611.08456v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b1d1e2b0c647717f",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
-      "summary": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla reverse-KL OPD with Group Relative Policy Optimization (GRPO) across task difficulty, student and teacher size, domain, and optimization choices, measuring held-out accuracy against training FLOPs. With an external post-trained tea",
-      "published": "2026-11-05T18:47:05Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2611.08453v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0a59fadf29694465",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
-      "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known st",
-      "published": "2026-11-05T18:44:43Z",
+      "title": "On Agentic Manipulation Policies",
+      "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze agentic manipulation policies (AMPs), in which a generalist AI model commands the manipulator directly, adapting its actions as the task unfolds. We present AMP1, a reference harness that runs unchanged ",
+      "published": "2026-11-06T18:59:34Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.RO",
-        "cs.CV"
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
       ],
-      "url": "https://arxiv.org/abs/2611.08449v1",
+      "url": "https://arxiv.org/abs/2611.09892v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -907,18 +769,153 @@
       }
     },
     {
-      "id": "585f5585008258bc",
+      "id": "6373abefee1bd340",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions",
-      "summary": "Standardised post-quantum cryptography (PQC) is critical for protecting software systems against future quantum threats, but standardised algorithms alone do not provide a pathway for their secure integration into software. This paper presents a Systematisation of Knowledge (SoK) of PQC integration in software development, synthesising existing approaches across implementation, migration, and developer education. We analyse these approaches against NIST PQC standards and PQC migration guidance, ",
-      "published": "2026-11-05T18:34:08Z",
+      "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+      "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and with little involvement from language models. We introduce agentic reasoning caching, a method for constructing robust CPU-executable agentic reasoning caches (ARCs) from LLM reasonin",
+      "published": "2026-11-06T18:58:50Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.SE",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2611.09891v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "41ad96a408fa4e22",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SciCheck: A Framework for Verifying the Integrity of Deep Learning Training",
+      "summary": "Deep learning training is difficult to verify within a scientific workflow: its architecture, hyperparameters, and procedure are rarely fixed until training has been attempted, and two honest runs never produce the same weights, so recomputation cannot serve as a check. We present SciCheck, a framework in which the scientist explores training configurations freely and posts a blueprint to a provenance ledger for each candidate they want verified, and a verifying scientist judges the resulting ru",
+      "published": "2026-11-06T18:58:38Z",
+      "impact_scope": "metadata-only",
+      "tags": [
         "cs.CR"
       ],
-      "url": "https://arxiv.org/abs/2611.08442v1",
+      "url": "https://arxiv.org/abs/2611.09889v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "3018df6d73b86b21",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "PhotoFinish: Portable Timerless Probing of Microarchitectural Latencies",
+      "summary": "Timing measurements are a fundamental building block of microarchitectural attacks, enabling software to convert otherwise invisible latency differences into architectural observations. Thus, restricting high-resolution timers is a common defense, especially in constrained environments such as web browsers. Timerless probing primitives provide an alternative approach. Instead of reading or constructing a timer, they observe architectural events that correlate with the microarchitectural state. H",
+      "published": "2026-11-06T18:54:16Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CR"
+      ],
+      "url": "https://arxiv.org/abs/2611.09879v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f3c4de6d4c737e61",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "SN 2026ahvu in NGC 1433 May Be a Prompt Type Ia Supernova with a Delay Time Under 100 Myr",
+      "summary": "SN 2026ahvu is a Type Ia supernova (SN) that occurred in the nearby galaxy NGC 1433. Using archival Hubble and JWST imaging from the PHANGS survey, we show that the SN lies within 0.19$''$ and 0.26$''$ of two UV-bright star clusters. This $0.19/0.26''$ separation corresponds to $8/11$ pc ($17/24$ pc) at the reported distances of $9.1$ and $18.9$ Mpc, respectively. The probability of finding an unrelated Type Ia SN this close to a cataloged star cluster by chance is only $\\sim$0.4 %. Thus, SN 202",
+      "published": "2026-11-06T18:52:29Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "astro-ph.GA",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2611.09875v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f986d8510d8839db",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
+      "summary": "Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze majority-vote supervision for TTRL with online Direct Preference Optimization (DPO) and decompose its error into population-majority bias and prompt-dependent finite-rollout variation. Because population-majority bias is generally unidentifiable without external supervision, we focus on mitigating the",
+      "published": "2026-11-06T18:49:02Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2611.09872v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "038aa45b037d3ed6",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "AI Exposure and the Changing Responsibilities in Job Postings",
+      "summary": "The growing adoption of artificial intelligence (AI) in the workplace has raised questions about how employer demand for different work activities is changing. We examine how the prevalence and content of work activities in online job postings change in association with activity-level measures of AI exposure, derived from Copilot and Claude usage. To enable systematic comparisons, we develop a pipeline that extracts the responsibilities from job advertisements and maps them onto O*NET's standard",
+      "published": "2026-11-06T18:48:36Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CY"
+      ],
+      "url": "https://arxiv.org/abs/2611.09870v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "49909538954e6024",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "How far does a hash-only sender go? A pre-registered map of sender memory versus bits for short text messages",
+      "summary": "Can a sender that only computes hashes, with a language model only at the receiver, transmit short human text more cheaply than a classical sender trained on the same domain? We answer with one pre-registered run on 1,000 English user utterances from Taskmaster-1. The primary endpoint is the cost per message to deliver 100% of the messages (hash bits, plus a 2-byte negative acknowledgement and the raw text when the first attempt fails), paired against an in-domain PPM order-1 sender. The hash-on",
+      "published": "2026-11-06T18:31:24Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.IT",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2611.09848v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "32518c22586cce31",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Computer-Use Agents Are Embodied Generalists",
+      "summary": "In many areas of AI, general-purpose models have increasingly replaced handcrafted methods and specialized architectures. We argue that embodied AI is poised for a similar shift. Our key claim is that embodied tasks can be formulated as interaction with digital software. Specifically, we build software that renders an agent's view of a physical environment on a screen and provides controls for acting in it. A computer-use agent (CUA) can then perform embodied tasks through the same screenshots a",
+      "published": "2026-11-06T18:31:17Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2611.09847v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
