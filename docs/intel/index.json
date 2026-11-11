@@ -1,10 +1,314 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-10T06:33:52.124157+00:00",
+  "generated_at": "2026-11-11T05:20:05.043893+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 36,
+  "item_count": 44,
   "items": [
+    {
+      "id": "20a88af8ac30790c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compose-lint] compose-lint: File paths embedded in pull requests can inject CI workflow commands through command-line error messages",
+      "summary": "",
+      "published": "2026-11-10T21:58:53.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8v59-qmwv-4p6q",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "29dbdb4113ed372f",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compose-lint] compose-lint: Text in a pull request can issue CI workflow commands through JSON and SARIF output on stdout",
+      "summary": "",
+      "published": "2026-11-10T21:40:50.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-hr4h-4c45-v4q4",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "784b2a0ff7f658cf",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[Pillow]  Pillow: Memory disclosure and segfault in libtiff encoder via crafted TIFF tags",
+      "summary": "",
+      "published": "2026-10-21T21:29:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xvh5-g6gv-559v",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "deda0674625d657d",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compose-lint] compose-lint: Text in a pull request can still issue CI workflow commands through compose-lint 0.31.0's output",
+      "summary": "",
+      "published": "2026-11-10T18:28:35.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-r7j4-crjv-h467",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ad508ff6d5f511d7",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[OctoPrint] OctoPrint: Stored XSS via saved connection parameters",
+      "summary": "",
+      "published": "2026-11-10T15:57:29.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-p623-mxf7-qxjm",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "0d9ff740308ecff3",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compose-lint] compose-lint: Incomplete fix for GHSA-jf3h-8jvx-vcrg: a run stopped at the finding limit quotes a secret from a CI-generated `.env`",
+      "summary": "",
+      "published": "2026-11-10T15:57:22.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rm8w-w798-g545",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a2742d222fa4cca4",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[gpustack] GPUStack: Missing authorization on several cluster and resource endpoints allows cross-user access and cluster takeover",
+      "summary": "",
+      "published": "2026-11-10T15:57:20.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-3hch-x692-6qj3",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c9efa6085f0128d0",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[gpustack] GPUStack: SAML callback trusts an unverified SAMLResponse, allowing authentication bypass and account takeover",
+      "summary": "",
+      "published": "2026-11-10T15:57:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-62m9-f875-rqw6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "394ccb4a7c2fbf18",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[autogen] AG2: Newline injection in SandboxShellTool bypasses allowed=[...] and readonly=True, enabling arbitrary command execution",
+      "summary": "",
+      "published": "2026-11-10T15:57:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2h4w-29cv-2cmv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "90534aee0793249b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[ag2] AG2: Newline injection in SandboxShellTool bypasses allowed=[...] and readonly=True, enabling arbitrary command execution",
+      "summary": "",
+      "published": "2026-11-10T15:57:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2h4w-29cv-2cmv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d4b049b5938fcafe",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compose-lint] compose-lint: A pull request can make compose-lint quote a secret from a CI-generated `.env` into its findings",
+      "summary": "",
+      "published": "2026-11-10T15:57:05.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jf3h-8jvx-vcrg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a4e7571f36f92feb",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compose-lint] compose-lint: `fix --apply` can delete a line the user did not select, including a security setting",
+      "summary": "",
+      "published": "2026-11-10T15:57:02.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-65v8-q222-64xx",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9a99b41b124c5117",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compose-lint] compose-lint: .env read through a symlink outside the project can expose the CI job's environment",
+      "summary": "",
+      "published": "2026-11-10T15:56:56.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6wcv-rj3c-mhv3",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "14dd99e8f34171db",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compose-lint] compose-lint: A committed symlink makes compose-lint quote a file from outside the project into its output",
+      "summary": "",
+      "published": "2026-11-10T15:57:10.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-whr6-fgpq-fpv9",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "4a420cadc0634ccb",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compose-lint] compose-lint: Compose file text can issue GitHub Actions workflow commands through the compose-lint Action",
+      "summary": "",
+      "published": "2026-11-10T15:56:59.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6f4g-xm8v-pgv6",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "242d161152950b5a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[compose-lint] compose-lint: A `.compose-lint.yml` symlinked outside the project is read, and a parse error quotes part of the target",
+      "summary": "",
+      "published": "2026-11-10T15:57:07.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-88f4-frh5-gmcr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "e2b8b4cae01a6cd2",
       "source": "github-advisory-pip",
@@ -82,302 +386,17 @@
       }
     },
     {
-      "id": "701847b940d714c7",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[urwid] Urwid: handle_short_request() crashes on non-ASCII POST body (UnicodeEncodeError DoS)",
-      "summary": "",
-      "published": "2026-11-09T22:05:06.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-cp25-j9x5-p5xm",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bbaf5432d5a26ae9",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[fast-agent-mcp] fast-agent: `fast-agent serve` binds HTTP to 0.0.0.0 with no authentication by default; with --shell this is unauthenticated remote command execution",
-      "summary": "",
-      "published": "2026-11-09T22:01:34.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9vhv-g5hf-m7m7",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "9f94bc94b7df2b3f",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[zizmor] zizmor: Debug logging prints available GitHub credentials in cleartext",
-      "summary": "",
-      "published": "2026-11-09T21:56:25.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f42p-wjw5-97qh",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f90d52954a089841",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[cornac] Cornac: Path Traversal via _extract_archive() in download.py",
-      "summary": "",
-      "published": "2026-07-15T15:33:06.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-rrh3-cwwj-g5mg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "c53106c258a111da",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[code-graph-rag] Code Graph RAG: MCP paginated read_file path traversal / arbitrary file read",
-      "summary": "",
-      "published": "2026-11-09T21:21:32.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-vvr2-h2jp-838m",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "15c4fcf929694c2c",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[fastapi-code-generator] fastapi-code-generator: Import-time RCE via route path -> unescaped @app.get('...') decorator",
-      "summary": "",
-      "published": "2026-11-09T19:48:08.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-p2mm-64f6-gmpp",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ad584d34cc6c9b00",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[fastapi-code-generator] fastapi-code-generator: Import-time RCE via response status-code key -> unescaped @app.get(..., responses={...}) dict",
-      "summary": "",
-      "published": "2026-11-09T19:46:27.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-6xmv-cjr5-w3q8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fe6d486064830f53",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[fastapi-code-generator] fastapi-code-generator: Call-time RCE via operation summary -> unescaped route-handler docstring",
-      "summary": "",
-      "published": "2026-11-09T18:50:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-h667-4jj2-cgv4",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3b9e0b523ad640f9",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[loggingredactor] Logging Redactor: PII data in str/repr of non primitive objects was not being redacted",
-      "summary": "",
-      "published": "2026-11-09T18:15:18.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-w7qv-268h-9h3f",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "391676f9a491f557",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[paramiko] Paramiko rsakey.py allows the SHA-1 algorithm",
-      "summary": "",
-      "published": "2026-05-06T00:31:33.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-r374-rxx8-8654",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "973b6164a5475a51",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[misp-modules] misp-modules has unsafe remote resource fetching in expansion",
-      "summary": "",
-      "published": "2026-05-06T22:31:03.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-fhq3-2gf3-8f3j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e7c17506130c66e1",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[GeoNode] GeoNode has Stored XSS in Documents metadata abstract field",
-      "summary": "",
-      "published": "2026-11-06T19:50:34.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-r4hm-p9f9-fj9v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "32146e9ea085a3fd",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[GeoNode] GeoNode has Unrestricted File Upload",
-      "summary": "",
-      "published": "2026-11-06T19:41:23.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-fqpv-mq26-pr4j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "3caa6933f1e47aba",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[GeoNode] GeoNode has OS command injection via uploaded file layer name",
-      "summary": "",
-      "published": "2026-11-06T19:39:38.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-9fpx-fr6j-2vh6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "62f7428a6ed14951",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[trapster] Trapster Community: Unauthenticated malformed DNS compression pointers crash per-packet honeypot handler",
-      "summary": "",
-      "published": "2026-07-08T20:24:46.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mxwc-wh95-pw4g",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7884ca40eeca7a92",
+      "id": "14f80178799ce0f0",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@anthropic-ai/claude-code] Claude Code: TOCTOU Race in Edit Tool Allows File Writes Outside the Workspace",
+      "title": "[@microsoft/aspire-cli-osx-arm64] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
       "summary": "",
-      "published": "2026-11-09T22:42:03.000Z",
+      "published": "2026-11-11T00:31:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5xjx-9qx6-jcrv",
+      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -386,17 +405,17 @@
       }
     },
     {
-      "id": "5e5c892220d7c2be",
+      "id": "e045e723f86e9a57",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[moleculer] Moleculer: Unauthenticated Denial of Service via negative length field in the TCP transporter packet parser",
+      "title": "[@microsoft/aspire-cli-osx-x64] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
       "summary": "",
-      "published": "2026-11-09T22:31:16.000Z",
+      "published": "2026-11-11T00:31:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-h89v-g948-47vp",
+      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +424,17 @@
       }
     },
     {
-      "id": "d2690c87b274243a",
+      "id": "710e226cf283cdc3",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@tsparticles/mcp-server] tsParticles: A single anonymous MCP session can monopolize HTTP mode and deny new clients",
+      "title": "[@microsoft/aspire-cli-linux-musl-x64] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
       "summary": "",
-      "published": "2026-11-09T21:14:51.000Z",
+      "published": "2026-11-11T00:31:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-h7c4-q426-7jh9",
+      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +443,17 @@
       }
     },
     {
-      "id": "58bcd496dbc16f68",
+      "id": "8fb224705876071e",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@tsparticles/mcp-server] tsParticles: Malformed JSON requests can terminate the @tsparticles/mcp-server HTTP process",
+      "title": "[@microsoft/aspire-cli-linux-arm64] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
       "summary": "",
-      "published": "2026-11-09T21:13:55.000Z",
+      "published": "2026-11-11T00:31:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4p8p-pjpq-2w7h",
+      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +462,17 @@
       }
     },
     {
-      "id": "bbbb574395c655e0",
+      "id": "e17c208803fe1445",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@tsparticles/mcp-server] tsParticles: Unbounded HTTP Request Body Buffering in @tsparticles/mcp-server Leads to Remote DoS",
+      "title": "[@microsoft/aspire-cli-linux-x64] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
       "summary": "",
-      "published": "2026-11-09T21:10:46.000Z",
+      "published": "2026-11-11T00:31:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-447x-qqwf-m7xq",
+      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +481,17 @@
       }
     },
     {
-      "id": "455556e53a7dd2ba",
+      "id": "213420f30c4c9e60",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ag-psd] ag-psd: Uncontrolled Memory Allocation in PSD Layer Decoding (totalMemoryLimit bypass)",
+      "title": "[@microsoft/aspire-cli] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
       "summary": "",
-      "published": "2026-11-09T21:08:28.000Z",
+      "published": "2026-11-11T00:31:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6w3r-6hpr-hp6p",
+      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +500,17 @@
       }
     },
     {
-      "id": "cef1eb415a14cb6c",
+      "id": "ed8c2a310d7090c2",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[isomorphic-git] isomorphic-git: Path traversal via a \"..\" tree-entry name writes files outside the working directory on clone/checkout",
+      "title": "[@microsoft/aspire-cli-osx-arm64] Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
       "summary": "",
-      "published": "2026-11-09T20:13:52.000Z",
+      "published": "2026-11-11T00:30:06.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cw2g-2vwq-88w6",
+      "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +519,17 @@
       }
     },
     {
-      "id": "5d2d23daa4f4342c",
+      "id": "910d485f7f026418",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[isomorphic-git] isomorphic-git: Circular symbolic references cause non-terminating resolution (DoS)",
+      "title": "[@microsoft/aspire-cli-osx-x64] Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
       "summary": "",
-      "published": "2026-11-09T19:58:32.000Z",
+      "published": "2026-11-11T00:30:06.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-96wc-2m84-2cj7",
+      "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +538,17 @@
       }
     },
     {
-      "id": "d9ea0fa96cf8f5a9",
+      "id": "6d862bc200396f4c",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[isomorphic-git] isomorphic-git: Arbitrary file write outside of working tree via directory symlink during checkout (potential RCE)",
+      "title": "[@microsoft/aspire-cli-linux-musl-x64] Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
       "summary": "",
-      "published": "2026-11-09T19:53:44.000Z",
+      "published": "2026-11-11T00:30:06.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9qw7-j9xw-fv9c",
+      "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +557,17 @@
       }
     },
     {
-      "id": "548037420549e589",
+      "id": "593ceb4bbb44340d",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[qwc2] QGIS QWC2 Cross-Site Scripting vulnerability",
+      "title": "[@microsoft/aspire-cli-linux-arm64] Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
       "summary": "",
-      "published": "2025-10-13T12:31:10.000Z",
+      "published": "2026-11-11T00:30:06.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gxp8-m5rq-3m38",
+      "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +576,17 @@
       }
     },
     {
-      "id": "873999da23caf51d",
+      "id": "5fd90ef19937002d",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[openclaw] OpenClaw is vulnerable to Path Traversal through path validation bypass",
+      "title": "[@microsoft/aspire-cli-linux-x64] Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
       "summary": "",
-      "published": "2026-03-26T18:31:41.000Z",
+      "published": "2026-11-11T00:30:06.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hggm-x7r9-mm7v",
+      "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,17 +595,17 @@
       }
     },
     {
-      "id": "82337e2b6724975f",
+      "id": "5bbc595c1626f967",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[filecoin-pin] filecoin-pin: Unbounded DAG pinning can exhaust server resources",
+      "title": "[@microsoft/aspire-cli] Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
       "summary": "",
-      "published": "2026-11-05T18:07:30.000Z",
+      "published": "2026-11-11T00:30:06.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-m5ph-mmg5-6w5h",
+      "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -595,17 +614,17 @@
       }
     },
     {
-      "id": "8e9b3e0579e6b5a8",
+      "id": "e20f860eb32c4408",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@siteboon/claude-code-ui] @siteboon/claude-code-ui is Vulnerable to Command Injection via Multiple Parameters",
+      "title": "[react-server-dom-webpack] React: Unauthenticated Remote Code Execution in React Server Components",
       "summary": "",
-      "published": "2026-03-11T00:25:43.000Z",
+      "published": "2026-11-10T22:44:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-f2fc-vc88-6w7q",
+      "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -614,17 +633,17 @@
       }
     },
     {
-      "id": "99ecd556d490a195",
+      "id": "63711e04b4628b0d",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[flowise] Duplicate Advisory: INVITED users auto-promoted via SSO email match (invite-token bypass)",
+      "title": "[react-server-dom-turbopack] React: Unauthenticated Remote Code Execution in React Server Components",
       "summary": "",
-      "published": "2026-09-26T15:31:13.000Z",
+      "published": "2026-11-10T22:44:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mgrx-3hqw-485h",
+      "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -633,17 +652,18 @@
       }
     },
     {
-      "id": "a030567215ef01dd",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[protobufjs] protobufjs has an arbitrary code execution issue",
-      "summary": "",
-      "published": "2026-04-16T22:34:57.000Z",
+      "id": "e3284f697fc33f80",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way to turn this information into guidance, but their design and adaptation are largely left to humans and tailored to specific domains. We introduce AutoScaffold, a unified AI-for-AI framework that turn",
+      "published": "2026-11-10T18:58:46Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.LG",
+        "cs.CL"
       ],
-      "url": "https://github.com/advisories/GHSA-xq3m-2v4x-88gg",
+      "url": "https://arxiv.org/abs/2611.14515v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -652,17 +672,19 @@
       }
     },
     {
-      "id": "ea9912b2dd2e8db7",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@payloadcms/storage-vercel-blob] @payloadcms/storage-vercel-blob has access control bypass of uploads in Vercel Storage adapter",
-      "summary": "",
-      "published": "2026-11-04T17:00:39.000Z",
+      "id": "a2f4ec5e4fe11d2f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
+      "summary": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternative the evidence supports. To recover that alternative, we introduce Contrastive Discovery, which replaces the single hypothesis with a contrast set, a scientific question paired with mutually exclusiv",
+      "published": "2026-11-10T18:58:43Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
       ],
-      "url": "https://github.com/advisories/GHSA-mc8m-rr6c-r5qr",
+      "url": "https://arxiv.org/abs/2611.14514v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -671,17 +693,157 @@
       }
     },
     {
-      "id": "29a30cfbbab9c4ad",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[minimatch] minimatch has potential denial of service via globparts amplification",
-      "summary": "",
-      "published": "2026-10-30T23:09:55.000Z",
+      "id": "99bf82be58ce2378",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+      "summary": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging. We introduce Pyrite, a pairwise pose-ranking benchmark comprising 1,500 pose pairs across diverse protein-ligand complexes. Expert chemists equipped with 3D visualization tools and physics-based scores perform near chance, highlighting the difficulty of interpreting available chemical sign",
+      "published": "2026-11-10T18:56:32Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "severity"
+        "cs.LG",
+        "q-bio.QM"
       ],
-      "url": "https://github.com/advisories/GHSA-g3hv-75wg-m249",
+      "url": "https://arxiv.org/abs/2611.14511v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "061504deac6446e3",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+      "summary": "Agent harnesses have emerged as a promising mechanism for continual learning, alongside test-time parametric learning. However, the current benchmarks have several limitations: they generally focus on a single applied domain, serve each instance only once, and assume a single family of learner, so memory-based and weight-based systems are rarely compared on the same scale. We propose Continual-ARC, a lifelong stream built from the three ARC-AGI editions, whose tasks need no domain knowledge. The",
+      "published": "2026-11-10T18:55:01Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2611.14505v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a2657f92f2098352",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "$G_2'$-Slodowy Slices II: Anosov Representations",
+      "summary": "We find \\emph{exotic} connected components of Anosov representations of surface groups in the higher rank group $G=G_2'$ that are neither $ι$-Fuchsian deformations nor higher rank Teichmüller spaces. These representations are found through the non-abelian Hodge correspondence via $G_2'$-Higgs bundles that we call \\emph{$α$-bundles} and \\emph{$β$-bundles}, which are particular cyclic Higgs bundles in the Slodowy slices of the $\\mathfrak{sl}_2$-triples associated to the simple roots $α$ and $β$ of",
+      "published": "2026-11-10T18:52:47Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "math.DG",
+        "math.GT"
+      ],
+      "url": "https://arxiv.org/abs/2611.14503v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "a4410b120266a48c",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
+      "summary": "Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative study of three evaluation frameworks, each representing a distinct evaluation paradigm (trace-based LLM judging, text-only LLM judging with red-teaming, and deterministic heuristics), applied to two analytics agents in a controlled research setting using frozen execution traces. Phase 1 quantifies e",
+      "published": "2026-11-10T18:50:06Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "url": "https://arxiv.org/abs/2611.14493v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "137df8b7357e3220",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+      "summary": "Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every run, which adds latency and cost at scale. We present ReTrace, which turns an SOP and a few logged agent runs into a reusable workflow in which code, not an LLM, selects the next step. The agent's reasoning, the explanation it writes with each tool call, often",
+      "published": "2026-11-10T18:49:47Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "url": "https://arxiv.org/abs/2611.14492v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "823d5ae5ee9f7f0f",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+      "summary": "Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell waiting from working. We show that it does not. On the counting tasks of RoboMME, we make the robot briefly pause or fidget its wrist. Such a null event changes nothing the task depends on, yet a relea",
+      "published": "2026-11-10T18:47:57Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2611.14488v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "64750416760b4cb9",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
+      "summary": "Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress. We introduce Re-Search, which adapts the format of Twenty Questions to research ideation: given only the research problem of a published paper, a model must rediscover the paper's core idea by asking yes-or-no questions. Built from 200 ICML",
+      "published": "2026-11-10T18:47:22Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2611.14487v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c6e2a65f71911d8a",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Pterodactyl: Pushing the Limits of Efficient Automated Translation Evaluation",
+      "summary": "In this paper, we present 1020 Group's submission to the WMT26 shared task on automated quality evaluation. Our system, Pterodactyl, was engineered specifically for subtasks 2 and 3, that is, segment-level quality score prediction and the detection of error-free segments. Pterodactyl is a highly customizable, ultra-low cost system optimized for binary classification in translation triage and data curation. It is based on an LLM-as-a-judge approach, with prompt engineering and model selection gui",
+      "published": "2026-11-10T18:41:37Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2611.14480v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
