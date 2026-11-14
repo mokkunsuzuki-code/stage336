@@ -1,10 +1,333 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-13T05:44:20.298011+00:00",
+  "generated_at": "2026-11-14T05:34:13.476191+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 45,
+  "item_count": 43,
   "items": [
+    {
+      "id": "c1ff288068fdac14",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] NLTK: BllipParser passes caller-supplied model paths to the bllipparser C extension with no pathsec check, enabling arbitrary read",
+      "summary": "",
+      "published": "2026-11-13T23:20:56.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fg9w-wfp5-j933",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1b8e25decf99aa9b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] Duplicate Advisory: BllipParser passes caller-supplied model paths to the bllipparser C extension with no pathsec check, enabling arbitrary read",
+      "summary": "",
+      "published": "2026-11-13T12:31:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-f7j6-hf97-9v99",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e7bde8c609703693",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] Duplicate Advisory: Quadratic-time CPU denial of service in NLTK CCG lexicon parser (fromstring) on wide bracket bodies and operator chains",
+      "summary": "",
+      "published": "2026-11-13T12:31:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jh6r-h4rx-2j3w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "765be387e5b5c57b",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] Duplicate Advisory: Path Traversal in save_maxent_params / load_maxent_params Allow Arbitrary File READ/WRITE",
+      "summary": "",
+      "published": "2026-11-13T12:31:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-g5wx-957h-f4wj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f8706635024d28c4",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] NLTK: Quadratic CPU exhaustion in LegalitySyllableTokenizer.tokenize via unguarded onset reversal loop",
+      "summary": "",
+      "published": "2026-11-13T21:16:34.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-gpwc-27cw-rh9r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "bf7a8f3d08da3da8",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] NLTK: Quadratic CPU exhaustion in TreebankWordTokenizer.span_tokenize via list.pop(0) in quote-restore loop",
+      "summary": "",
+      "published": "2026-11-13T21:08:55.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-ffr9-mgrr-wcvr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "f466a1312ccad6d5",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] Duplicate Advisory: Quadratic CPU exhaustion in TreebankWordTokenizer.span_tokenize via list.pop(0) in quote-restore loop",
+      "summary": "",
+      "published": "2026-11-13T12:31:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-rg32-vgf9-927c",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e2575cefdae79daf",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] NLTK: Unbounded CPU consumption in SteppingRecursiveDescentParser.parse() with ambiguous or self-embedding grammars",
+      "summary": "",
+      "published": "2026-11-13T21:02:19.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-8fx7-8jr8-84rv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d0fa2910d1b0377f",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] Duplicate Advisory: Unbounded CPU consumption in NLTK SteppingRecursiveDescentParser.parse() with ambiguous or self-embedding grammars",
+      "summary": "",
+      "published": "2026-11-13T12:31:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-4hvg-fv5c-9936",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e53fb530591017a3",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] NLTK: Symlink escape in YCOECorpusReader lets a psd/pos directory symlink read files outside the corpus root within the data sandbox",
+      "summary": "",
+      "published": "2026-11-13T20:55:16.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-qg35-44qx-7vrr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1da4a5ec49fee9ec",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[nltk] Duplicate Advisory: Symlink escape in YCOECorpusReader lets a psd/pos directory symlink read files outside the corpus root within the data sandbox",
+      "summary": "",
+      "published": "2026-11-13T12:31:17.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-7r4r-6ppg-7ff8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ffa2fda941acd809",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[tornado] Tornado: Open redirect via triple-slash redirect paths",
+      "summary": "",
+      "published": "2026-11-13T20:31:22.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5cjw-f85j-cv6r",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ad8c15a345521fd2",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[dnspython] dnspython has excessive memory and CPU use",
+      "summary": "",
+      "published": "2026-11-13T20:19:13.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vvf4-9x63-8xvv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "05f5fdb30a8407fe",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[envd] envd: Host file disclosure through requirements path traversal and TOCTOU",
+      "summary": "",
+      "published": "2026-11-13T18:05:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jv6m-48w5-5rpr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "265f7595467f8d27",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[opentelemetry-api] OpenTelemetry Python API: Denial of service through quadratic-time traceparent parsing",
+      "summary": "",
+      "published": "2026-11-13T16:43:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-mf5v-w3w3-f6cg",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "51ed145fb5af4c52",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[soupsieve] Soup Sieve: Exponential ReDoS in selector compilation via \\9-run in CSS_ESCAPES/IDENTIFIER",
+      "summary": "",
+      "published": "2026-11-13T16:39:43.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6655-6qjp-jx7x",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "13f974391c055026",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[soupsieve] Soup Sieve: Uncontrolled recursion in CSS parser lets nested pseudo-class selectors exhaust the Python call stack",
+      "summary": "",
+      "published": "2026-11-13T16:34:59.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-7g44-g9rc-x53w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "9a5dbaab37e659e2",
       "source": "github-advisory-pip",
@@ -25,17 +348,17 @@
       }
     },
     {
-      "id": "ab082c5635db2b1d",
-      "source": "github-advisory-pip",
+      "id": "ee365f7bb20d1e6f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[soupsieve] Soup Sieve: Polynomial-time denial of service in the descendant combinator",
+      "title": "[ag-psd] ag-psd can exhaust memory when parsing crafted PSD dimensions",
       "summary": "",
-      "published": "2026-11-13T00:49:46.000Z",
+      "published": "2026-11-13T23:19:38.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mmhr-3c5m-f64f",
+      "url": "https://github.com/advisories/GHSA-qfx6-q44v-9qqw",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -44,17 +367,17 @@
       }
     },
     {
-      "id": "6da9464199721195",
-      "source": "github-advisory-pip",
+      "id": "789752b042b88683",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[soupsieve] Soup Sieve: General sibling combinator inside :has() matches untrusted HTML in quadratic time",
+      "title": "[@sveltejs/kit] SvelteKit: adapter-node crashes with an unhandled URIError when `reroute` rewrites malformed pathnames",
       "summary": "",
-      "published": "2026-11-13T00:45:18.000Z",
+      "published": "2026-11-13T20:51:44.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4j63-6c4x-wfg4",
+      "url": "https://github.com/advisories/GHSA-mw6w-2fmv-pvw3",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -63,17 +386,17 @@
       }
     },
     {
-      "id": "ccce07b06a459482",
-      "source": "github-advisory-pip",
+      "id": "a551025ef2fa69e2",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: Memory DoS in TIFF and EXIF IFD parsing via overlapping tag data",
+      "title": "[@sveltejs/adapter-static] SvelteKit: Prerendered paths are interpreted as regular expressions in Vercel route config generated by @sveltejs/adapter-vercel and @sveltejs/adapter-st",
       "summary": "",
-      "published": "2026-11-12T23:35:39.000Z",
+      "published": "2026-11-13T20:43:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-wqgw-9xfh-qf2g",
+      "url": "https://github.com/advisories/GHSA-jf9x-2fg2-hx4w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +405,17 @@
       }
     },
     {
-      "id": "0b94fa5e4cd7da07",
-      "source": "github-advisory-pip",
+      "id": "3dad3c7327fe9150",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[Pillow] Pillow: Heap buffer overflow saving TIFF with libtiff when tags override image size",
+      "title": "[@sveltejs/adapter-vercel] SvelteKit: Prerendered paths are interpreted as regular expressions in Vercel route config generated by @sveltejs/adapter-vercel and @sveltejs/adapter-st",
       "summary": "",
-      "published": "2026-11-12T23:34:43.000Z",
+      "published": "2026-11-13T20:43:23.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xcvg-w56q-r89m",
+      "url": "https://github.com/advisories/GHSA-jf9x-2fg2-hx4w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +424,17 @@
       }
     },
     {
-      "id": "20a88af8ac30790c",
-      "source": "github-advisory-pip",
+      "id": "175ec23e9270d35b",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[compose-lint] compose-lint: File paths embedded in pull requests can inject CI workflow commands through command-line error messages",
+      "title": "[@sveltejs/adapter-cloudflare] SvelteKit: Prerendered redirect paths can inject arbitrary rules into the `_redirects` file generated by `@sveltejs/adapter-cloudflare`",
       "summary": "",
-      "published": "2026-11-10T21:58:53.000Z",
+      "published": "2026-11-13T20:39:15.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8v59-qmwv-4p6q",
+      "url": "https://github.com/advisories/GHSA-5wg4-q3ww-283h",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +443,17 @@
       }
     },
     {
-      "id": "29dbdb4113ed372f",
-      "source": "github-advisory-pip",
+      "id": "55f8fae39f1853d4",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[compose-lint] compose-lint: Text in a pull request can issue CI workflow commands through JSON and SARIF output on stdout",
+      "title": "[@sveltejs/adapter-node] SvelteKit: `@sveltejs/adapter-node` crashes when proxying certain requests via `fetch`",
       "summary": "",
-      "published": "2026-11-10T21:40:50.000Z",
+      "published": "2026-11-13T20:36:53.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-hr4h-4c45-v4q4",
+      "url": "https://github.com/advisories/GHSA-rqw3-x7hx-mm3p",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +462,17 @@
       }
     },
     {
-      "id": "784b2a0ff7f658cf",
-      "source": "github-advisory-pip",
+      "id": "cae72a02bc31015a",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[Pillow]  Pillow: Memory disclosure and segfault in libtiff encoder via crafted TIFF tags",
+      "title": "[@nuxt/nitro-server] Nuxt: Incomplete fix for GHSA-9v7c-q64q-vv33: a leading `//` in the request path bypasses `server/middleware` path checks and server route rules on page routes",
       "summary": "",
-      "published": "2026-10-21T21:29:16.000Z",
+      "published": "2026-11-13T19:32:21.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xvh5-g6gv-559v",
+      "url": "https://github.com/advisories/GHSA-r99w-jh2x-3mg9",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +481,17 @@
       }
     },
     {
-      "id": "deda0674625d657d",
-      "source": "github-advisory-pip",
+      "id": "6e5df4ab2fb38705",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[compose-lint] compose-lint: Text in a pull request can still issue CI workflow commands through compose-lint 0.31.0's output",
+      "title": "[@opentelemetry/instrumentation-http] OpenTelemetry JavaScript: Insertion of Sensitive Information into Log File and Exposure of Sensitive Information to an Unauthorized Actor in @",
       "summary": "",
-      "published": "2026-11-10T18:28:35.000Z",
+      "published": "2026-11-13T19:29:20.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r7j4-crjv-h467",
+      "url": "https://github.com/advisories/GHSA-3v2p-hm54-8qcq",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +500,17 @@
       }
     },
     {
-      "id": "ad508ff6d5f511d7",
-      "source": "github-advisory-pip",
+      "id": "55e3b850e6521cbc",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[OctoPrint] OctoPrint: Stored XSS via saved connection parameters",
+      "title": "[astro] Astro: XSS via attribute injection in dynamic tag names",
       "summary": "",
-      "published": "2026-11-10T15:57:29.000Z",
+      "published": "2026-11-13T18:39:54.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-p623-mxf7-qxjm",
+      "url": "https://github.com/advisories/GHSA-mh32-jxcr-mh9f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +519,17 @@
       }
     },
     {
-      "id": "0d9ff740308ecff3",
-      "source": "github-advisory-pip",
+      "id": "2883e671f487e723",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[compose-lint] compose-lint: Incomplete fix for GHSA-jf3h-8jvx-vcrg: a run stopped at the finding limit quotes a secret from a CI-generated `.env`",
+      "title": "[astro] Astro: Image endpoint in @astrojs/node can read files from a case-variant sibling of the output directory on case-sensitive filesystems",
       "summary": "",
-      "published": "2026-11-10T15:57:22.000Z",
+      "published": "2026-11-13T18:35:59.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rm8w-w798-g545",
+      "url": "https://github.com/advisories/GHSA-r3h5-4585-7x3w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +538,17 @@
       }
     },
     {
-      "id": "a2742d222fa4cca4",
-      "source": "github-advisory-pip",
+      "id": "f83634f7f385ffdb",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[gpustack] GPUStack: Missing authorization on several cluster and resource endpoints allows cross-user access and cluster takeover",
+      "title": "[@astrojs/node] Astro: Image endpoint in @astrojs/node can read files from a case-variant sibling of the output directory on case-sensitive filesystems",
       "summary": "",
-      "published": "2026-11-10T15:57:20.000Z",
+      "published": "2026-11-13T18:35:59.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3hch-x692-6qj3",
+      "url": "https://github.com/advisories/GHSA-r3h5-4585-7x3w",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,93 +557,17 @@
       }
     },
     {
-      "id": "c9efa6085f0128d0",
-      "source": "github-advisory-pip",
+      "id": "7df7f7c09b3d0cce",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[gpustack] GPUStack: SAML callback trusts an unverified SAMLResponse, allowing authentication bypass and account takeover",
+      "title": "[@nuxt/schema] Nuxt dev server serves files from a parent directory with a stray lockfile or workspace file",
       "summary": "",
-      "published": "2026-11-10T15:57:15.000Z",
+      "published": "2026-11-13T18:11:49.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-62m9-f875-rqw6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "394ccb4a7c2fbf18",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[autogen] AG2: Newline injection in SandboxShellTool bypasses allowed=[...] and readonly=True, enabling arbitrary command execution",
-      "summary": "",
-      "published": "2026-11-10T15:57:17.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2h4w-29cv-2cmv",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "90534aee0793249b",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[ag2] AG2: Newline injection in SandboxShellTool bypasses allowed=[...] and readonly=True, enabling arbitrary command execution",
-      "summary": "",
-      "published": "2026-11-10T15:57:17.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2h4w-29cv-2cmv",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d4b049b5938fcafe",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[compose-lint] compose-lint: A pull request can make compose-lint quote a secret from a CI-generated `.env` into its findings",
-      "summary": "",
-      "published": "2026-11-10T15:57:05.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-jf3h-8jvx-vcrg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a4e7571f36f92feb",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[compose-lint] compose-lint: `fix --apply` can delete a line the user did not select, including a security setting",
-      "summary": "",
-      "published": "2026-11-10T15:57:02.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-65v8-q222-64xx",
+      "url": "https://github.com/advisories/GHSA-mjrq-cffv-q4qc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -386,303 +633,120 @@
       }
     },
     {
-      "id": "d310b1b183fbe5ab",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[hono] Hono: RegExpRouter skips wildcard middleware for some route sets and for paths with an encoded line terminator",
-      "summary": "",
-      "published": "2026-11-12T23:23:30.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-h7mg-cq63-vhpq",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "a6e772f17727e154",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[hono] Hono: `css` helper does not escape a closing tag split between the template and an interpolated value, allowing HTML injection",
-      "summary": "",
-      "published": "2026-11-12T23:22:36.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3gg2-335m-rxc6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7e4f73ccb2de36c6",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@grpc/grpc-js-xds] @grpc/grpc-js: safe_regex incorrectly applies partial string matching for patterns with alternation",
-      "summary": "",
-      "published": "2026-11-12T23:21:57.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-r7hq-q2xm-6c5m",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7a772d92a1035cbd",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@grpc/grpc-js-xds] @grpc/grpc-js: RBAC override configs in VirtualHost and Route resources are not applied",
-      "summary": "",
-      "published": "2026-11-12T22:55:47.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-gg5j-6742-v827",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "aa38809c2e438aba",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@astrojs/solid-js] Astro: Reflected XSS via unescaped slot names in @astrojs/solid-js",
-      "summary": "",
-      "published": "2026-11-12T22:34:44.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-jmv2-qgxf-f995",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4051e7a836c90c1d",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@astrojs/svelte] Astro: Reflected XSS via unescaped slot names in @astrojs/svelte",
-      "summary": "",
-      "published": "2026-11-12T22:34:04.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f4j9-crrj-867q",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "dd394de8236cc9cb",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[basic-ftp] basic-ftp: Uncaught exception crashes the Node.js process when a password (or resumed-download path) contains CR/LF",
-      "summary": "",
-      "published": "2026-11-12T22:23:50.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-r4jh-29pc-gfqr",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "288d210b8fe58c3f",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[basic-ftp] basic-ftp: Uncaught TypeError in MLSD directory-listing parser via __proto__ fact name causes DoS in Client.list()",
-      "summary": "",
-      "published": "2026-11-12T21:42:12.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-5pm8-86m8-9m6r",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "59d877d95e55f64e",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@hono/node-server] @hono/node-server: Unhandled `ECONNRESET` on the socket during an asynchronous WebSocket upgrade crashes the process",
-      "summary": "",
-      "published": "2026-11-12T21:32:48.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-qv5m-9pm6-hqp3",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1cb791229d25b3d2",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@hono/node-server] @hono/node-server: Backslash in the request path is parsed as a path separator, bypassing path-based access control at a reverse proxy",
-      "summary": "",
-      "published": "2026-11-12T21:28:02.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-jpvv-r467-5p4w",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e14dd515f757dcb5",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[signalk-server] Signal K Server: Buffered logs exposed to unauthenticated WebSocket clients",
-      "summary": "",
-      "published": "2026-11-12T19:14:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-7m8x-x364-m26j",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "155d49fc440a8c80",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[toml] toml-node: Prototype pollution: parsing a TOML document can write to Object.prototype",
-      "summary": "",
-      "published": "2026-10-22T16:39:55.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-h895-cgqg-jf52",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "14f80178799ce0f0",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@microsoft/aspire-cli-osx-arm64] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
-      "summary": "",
-      "published": "2026-11-11T00:31:23.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e045e723f86e9a57",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@microsoft/aspire-cli-osx-x64] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
-      "summary": "",
-      "published": "2026-11-11T00:31:23.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "710e226cf283cdc3",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@microsoft/aspire-cli-linux-musl-x64] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
-      "summary": "",
-      "published": "2026-11-11T00:31:23.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0922970377c21c2c",
+      "id": "1927b953da0b0b19",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision",
-      "summary": "When language models revise a decision after another agent disagrees, neither reversal counts nor final accuracy shows whether they are fixing mistakes or abandoning correct answers. We introduce a controlled two-pass audit that holds the question, the evidence, and the model's initial answer fixed and varies only the revision context: neutral reflection, anonymous disagreement, or disagreement attributed to a domain expert. For binary decisions the accounting is exact: revision raises accuracy ",
-      "published": "2026-11-12T12:11:03Z",
+      "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "summary": "Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document which ideas succeeded, which were abandoned, and why. In academia, limited compute and inconsistent baselines often restrict evaluations to small-scale, single-point comparisons, making it difficult ",
+      "published": "2026-11-12T18:59:52Z",
       "impact_scope": "metadata-only",
       "tags": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2611.17332v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "9ca90d9775edc3ce",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "BrickFlow: Connectivity-Guided Brick Reconstruction",
+      "summary": "Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object. In contrast with traditional 3D reconstruction, doing so requires satisfying discrete physical constraints, which provide structure but render the problem combinatorial and highly sensitive to small pose errors. To learn a prior over how parts fit together, we train a set-conditioned SE(3) flow model on procedurally generated assemblies. We then finetune this model to",
+      "published": "2026-11-12T18:58:51Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "url": "https://arxiv.org/abs/2611.17321v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ba0bdeb5be149024",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Sketching Language Models for Context Attribution",
+      "summary": "Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function. Computing all LOO values directly requires $n$ model evaluations. Under a stability assumption, our algorithm estimates all LOO values to error proportional to $\\varepsilon$ with constant probability using $O(\\sqrt{\\log(1/\\varepsilon)}/\\varepsilon)$ evaluation calls. To complement our upper bound, we prove",
+      "published": "2026-11-12T18:57:48Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.DS",
         "cs.AI",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "url": "https://arxiv.org/abs/2611.17313v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "79c69dadc6e1e6e8",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Where LLM Agents Get Stuck Debugging Databases: Access More Than Reasoning",
+      "summary": "Large language model (LLM) coding agents are increasingly asked not only to write code but to debug running systems from live runtime data. We report a field observation of one such agent (Claude Code) as it diagnosed eight database incidents in a production message-dispatch engine. In every incident whose root cause depended on runtime concurrency, the agent announced a cause, shipped a fix, and later walked it back, and each wrong guess cost a deploy-and-observe cycle. Mapping each incident to",
+      "published": "2026-11-12T18:56:22Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.SE"
+      ],
+      "url": "https://arxiv.org/abs/2611.17304v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e7e380f8a7a5b1f6",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Goal Encoding in LLMs",
+      "summary": "We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We construct a coding setting with multiple sub-tasks that allows us to evaluate goal-seeking behavior and the selection of sub-goals. In this setting, we localize an encoding of the next sub-goal in the outputs of a sparse set of attention heads. The same heads can be used to decode the LM's future ac",
+      "published": "2026-11-12T18:55:06Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2611.17297v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "857f0db859a334c2",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) typically relies on a verifier that can reliably judge whether sampled solutions are correct. However, in many realistic settings, complete verification is generally unavailable, while cheap checks can only falsify failures. We formalize this regime as one-sided verifiability (OSV): verified negatives are reliable counterexamples, but verified positives are merely non-falsified candidates and may contain many false positives. This asymmetry m",
+      "published": "2026-11-12T18:52:33Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "cs.LG",
         "cs.CL"
       ],
-      "url": "https://arxiv.org/abs/2611.16694v1",
+      "url": "https://arxiv.org/abs/2611.17287v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -691,97 +755,18 @@
       }
     },
     {
-      "id": "c17322f06d65b37c",
+      "id": "0bc8f00dcf868093",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "MobileProbe: Adaptive Security Evaluation of Mobile Agents via Trajectory-Aware Injection",
-      "summary": "Mobile GUI agents read the screen of a phone and operate apps on a user's behalf to complete multi-step tasks such as online shopping or messaging. Because the agent acts on whatever the screen shows, an attacker can embed malicious instructions into ordinary UI content and redirect its actions. We refer to this threat as environmental injection attack (EIA). Existing benchmarks measure this risk by pinning hand-crafted payloads to a fixed step of a fixed task. This approach faces two limitation",
-      "published": "2026-11-12T12:08:43Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CR",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2611.16693v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "73810c1ba3a7727c",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Next-to-leading-order QCD corrections to prompt $Υ(1S)$ pair hadroproduction",
-      "summary": "Working at next-to-leading order in nonrelativistic-QCD factorization, we study prompt $Υ(1S)$ pair hadroproduction, including feed-down from the excited $Υ(2S)$ and $Υ(3S)$ states and focusing on the color singlet contributions, which are known to be dominant. Besides the integrated cross section $σ^{ΥΥ}$, we predict distributions in the invariant mass $m_{ΥΥ}$, transverse momentum $p_T^{ΥΥ}$, and rapidity separation $|Δy|$ of the $Υ(1S)$ pair, as well as the one in the transverse momentum $p_T",
-      "published": "2026-11-12T12:01:21Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "hep-ph"
-      ],
-      "url": "https://arxiv.org/abs/2611.16686v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bdd9a47808fb0fc1",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Immaculate complexes and Strong Generation by Injectives",
-      "summary": "We study the category of bounded complexes of finite sums of indecomposable injectives over a locally Noetherian scheme, which we call the immaculate complexes. We show that regularity and finiteness of dimension can be detected from this category using strong generation. Our methods involve studying when the unbounded derived category of a Grothendieck category is strongly generated by injectives. As applications we prove a conjecture of Hartshorne and recover a result of Keller and Krause. To ",
-      "published": "2026-11-12T11:55:23Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "math.AG",
-        "math.AC",
-        "math.KT"
-      ],
-      "url": "https://arxiv.org/abs/2611.16680v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "737be9673ab1ec55",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "People prefer AI to human advice in multi-turn conversations but neither changes incentivised behaviour",
-      "summary": "People increasingly ask AI chatbots for advice, yet large language models (LLMs) are sycophantic, overconfident, and can amplify human cognitive biases. In this article, we investigate how people perceive advice from humans versus LLMs and whether AI advice reshapes incentive-compatible donation decisions. Using Carrier, a new experimental platform, we designed an experiment where participants made a donation decision after discussing it with an AI chatbot advisor, another human, or receiving no",
-      "published": "2026-11-12T11:42:54Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.HC"
-      ],
-      "url": "https://arxiv.org/abs/2611.16667v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "133eee93945cc424",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "MuSeToM: Multi-Sensory Evaluation of Belief Revision with Textual Cues Across Six Senses",
-      "summary": "Theory of Mind (ToM), the ability to infer mental states in others, is pivotal for human social cognition. Existing evaluations of ToM in large language models (LLMs) mainly focus on static belief attribution and false-belief reasoning, leaving a critical aspect of social reasoning underexplored: can LLMs decide whether perceptual evidence is sufficient to justify another person's belief revision? To address this gap, we present MuSeToM, a human-validated, text-based benchmark for evaluating epi",
-      "published": "2026-11-12T11:38:52Z",
+      "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+      "summary": "We propose Synthesis Smuggling, a novel threat model in which an adversarial LLM infers sensitive information about a user from routine assistance-seeking interactions and steganographically encodes that into innocuous-looking model-generated content. The user may then unknowingly transmit that information by sharing the generated artifact, say as an email, social-media post, or message, through ordinary communication channels. An adversary monitoring these channels can discover this information",
+      "published": "2026-11-12T18:51:05Z",
       "impact_scope": "metadata-only",
       "tags": [
         "cs.CL",
         "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2611.16662v1",
+      "url": "https://arxiv.org/abs/2611.17280v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -790,18 +775,36 @@
       }
     },
     {
-      "id": "022c61c297d0c0e9",
+      "id": "91a97a3f6f90f8b1",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination",
-      "summary": "Efficient batch execution of agent tasks is critical to LLM training and development workflows, including benchmark evaluation, synthetic-data generation, and RL rollouts. Since these tasks alternate between LLM inference and environment interaction, we present coordinated optimizations to reduce batch makespan, the time required to complete all tasks in a batch. For hybrid LLMs, a workload-based resource model guides GPU-memory allocation between key-value (KV) cache and recurrent state and pro",
-      "published": "2026-11-12T11:38:21Z",
+      "title": "Patterns for Designing CI/CD Workflows",
+      "summary": "CI/CD pipelines are difficult to build and maintain, and information about them is scattered across empirical studies, practitioner books, and catalogues of 'smells'. We collected candidate practices and anti-practices converted them into patterns, and then consolidated these into patterns. These patterns address issues such as security, pipeline scheduling, workflow structure, performance and failure and release management. Each pattern is contextualised and describes the problem it solves, the",
+      "published": "2026-11-12T18:50:29Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.DC",
+        "cs.SE"
+      ],
+      "url": "https://arxiv.org/abs/2611.17276v1",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "df10718e66251287",
+      "source": "arxiv-ai-security",
+      "category": "research",
+      "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+      "summary": "We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using GeoWorld. Unlike existing evaluations that largely reason and plan over fixed geographic states, GeoWorld is grounded in real-world geographic structure and allows external world states to evolve along their own temporal processes while preserving verifiable state histories. Liv",
+      "published": "2026-11-12T18:45:58Z",
+      "impact_scope": "metadata-only",
+      "tags": [
         "cs.AI"
       ],
-      "url": "https://arxiv.org/abs/2611.16661v1",
+      "url": "https://arxiv.org/abs/2611.17267v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -810,56 +813,17 @@
       }
     },
     {
-      "id": "b1bda1bac1a7b74d",
+      "id": "f612fef9eaef8812",
       "source": "arxiv-ai-security",
       "category": "research",
-      "title": "Rethinking Actions: Continuity-Aware Priors for World-Model Planning",
-      "summary": "Actions in expert demonstrations exhibit temporal structure. An ordered-versus-shuffled analysis across five environments confirms this dependence. We ask whether action proposals that better reflect expert continuity can improve visual world-model planning. Rather than imposing generic smoothness, we learn continuations from the temporal structure of demonstrated actions. Our locality-gated deep-kernel Gaussian-process prior, LG-DKGP, combines recent and longer-range executed action history, pr",
-      "published": "2026-11-12T11:18:50Z",
+      "title": "Global Fit Inference for LISA with samsara++",
+      "summary": "The Laser Interferometer Space Antenna (LISA) will observe a superposition of gravitational-wave signals, requiring joint inference of an unknown number of sources, parameters, and instrumental noise. To disentangle these contributions, that overlap in both time and frequency, a Global Fit (GF) analysis is needed. We present samsara++, a C++/CUDA sampler designed to address this trans-dimensional GF problem. Building on the continuous-time MCMC framework of samsara, the algorithm combines birth-",
+      "published": "2026-11-12T18:45:15Z",
       "impact_scope": "metadata-only",
       "tags": [
-        "cs.RO",
-        "cs.LG"
+        "astro-ph.IM"
       ],
-      "url": "https://arxiv.org/abs/2611.16645v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6e6d0c9f27c3bac1",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Empowering AI towards 6G: Realistic UAV Channel Data Acquisition using Open-Source Solutions",
-      "summary": "The \"sim-to-real\" gap introduced by hardware impairments motivates realistic experimental platforms for AI-native research in Non-Terrestrial Networks (NTN). This paper presents an open-source UAV-to-Ground measurement testbed built on the OpenAirInterface (OAI) stack and commodity Software Defined Radios (SDRs), enabling direct extraction of raw Sub-6 GHz Channel State Information (CSI) synchronized with flight telemetry. Through real-world flight campaigns, we observe a velocity-bandwidth deco",
-      "published": "2026-11-12T11:18:49Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "eess.SP"
-      ],
-      "url": "https://arxiv.org/abs/2611.16644v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "4dda5513dbb56d67",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "The Unseen Threat: How Complementary Combinations of Acoustic Features Compromise Speech Privacy",
-      "summary": "The interaction of acoustic features in leaking private information remains underexplored. This work focuses on time-domain features, i.e., broadband RMS level and pitch, alone and combined with temporally smoothed and subsampled Mel spectrograms. Privacy is assessed using informed automatic speech recognition and speaker-verification attacks, while utility for conversational analysis is evaluated using voice activity detection and speaker diarisation. RMS level and pitch alone exposed limited i",
-      "published": "2026-11-12T11:12:11Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "eess.AS"
-      ],
-      "url": "https://arxiv.org/abs/2611.16637v1",
+      "url": "https://arxiv.org/abs/2611.17266v1",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
