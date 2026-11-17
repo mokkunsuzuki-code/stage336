@@ -1,22 +1,22 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-16T05:30:59.169832+00:00",
+  "generated_at": "2026-11-17T07:09:15.560308+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 45,
+  "item_count": 33,
   "items": [
     {
-      "id": "58c67d1d863ab8fe",
+      "id": "44b92ab3aa7e6566",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] NLTK: Quadratic-time CPU denial of service in CCG lexicon parser (fromstring) on wide bracket bodies and operator chains",
+      "title": "[chainlit] chainlit : Chainlit allows authenticated arbitrary file reads through custom element updates",
       "summary": "",
-      "published": "2026-11-14T00:08:50.000Z",
+      "published": "2026-01-20T00:30:28.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-89p3-fcch-88ph",
+      "url": "https://github.com/advisories/GHSA-gm79-2pvc-wc75",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "7a84d78d4773f0ab",
+      "id": "4c2b6342a9a68f5e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] NLTK: Quadratic-time CPU denial of service in Tree.chomsky_normal_form right-factor binarization via list.pop(0)",
+      "title": "[mail-parser] mail-parser: One hostile attachment aborts `write_attachments()` and silently drops the rest of the batch",
       "summary": "",
-      "published": "2026-11-14T00:07:59.000Z",
+      "published": "2026-11-16T22:22:13.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r53h-rw34-8h97",
+      "url": "https://github.com/advisories/GHSA-8cgq-x343-p74c",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -44,17 +44,17 @@
       }
     },
     {
-      "id": "ffab063364769fbe",
+      "id": "e21cc7f554fbc63e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] Duplicate Advisory: Quadratic-time CPU denial of service in Tree.chomsky_normal_form right-factor binarization via list.pop(0)",
+      "title": "[mail-parser] mail-parser: Uncaught `OverflowError` / `OSError` on an out-of-range `Received` date",
       "summary": "",
-      "published": "2026-11-13T12:31:16.000Z",
+      "published": "2026-11-16T22:20:32.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-6665-2vj3-h76r",
+      "url": "https://github.com/advisories/GHSA-xhrq-2mqv-q8wx",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -63,17 +63,17 @@
       }
     },
     {
-      "id": "43c3cd7ebea60d01",
+      "id": "13c8ef7984830241",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] NLTK: Quadratic-time CPU denial of service in ConllCorpusReader SRL instance builder via nested span rescan",
+      "title": "[mail-parser] mail-parser: Uncaught exceptions and silent header loss in mail-parser on attacker-controlled input",
       "summary": "",
-      "published": "2026-11-14T00:05:57.000Z",
+      "published": "2026-11-16T22:12:51.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-v8f3-6phw-6mh9",
+      "url": "https://github.com/advisories/GHSA-24mq-4vc6-2prf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -82,17 +82,17 @@
       }
     },
     {
-      "id": "45521d5244f4e0d6",
+      "id": "b7ffaa25a93814ba",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] Duplicate Advisory: Quadratic-time CPU denial of service in ConllCorpusReader SRL instance builder via nested span rescan",
+      "title": "[mail-parser] mail-parser: Sender IP address spoofing in get_server_ipaddress()",
       "summary": "",
-      "published": "2026-11-13T12:31:16.000Z",
+      "published": "2026-11-16T22:11:54.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qvhx-rvgc-jhwf",
+      "url": "https://github.com/advisories/GHSA-72px-j8gh-p79x",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -101,17 +101,17 @@
       }
     },
     {
-      "id": "c1ff288068fdac14",
+      "id": "73266dc945b74cae",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] NLTK: BllipParser passes caller-supplied model paths to the bllipparser C extension with no pathsec check, enabling arbitrary read",
+      "title": "[mail-parser] mail-parser is vulnerable to polynomial ReDoS in email header parsing",
       "summary": "",
-      "published": "2026-11-13T23:20:56.000Z",
+      "published": "2026-11-16T22:11:08.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-fg9w-wfp5-j933",
+      "url": "https://github.com/advisories/GHSA-r7w7-vpq8-c5vv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -120,17 +120,17 @@
       }
     },
     {
-      "id": "1b8e25decf99aa9b",
+      "id": "497ec5b745ecf6fa",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] Duplicate Advisory: BllipParser passes caller-supplied model paths to the bllipparser C extension with no pathsec check, enabling arbitrary read",
+      "title": "[mail-parser] mail-parser: Path Traversal vulnerability in attachment extraction",
       "summary": "",
-      "published": "2026-11-13T12:31:16.000Z",
+      "published": "2026-11-16T22:10:55.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-f7j6-hf97-9v99",
+      "url": "https://github.com/advisories/GHSA-fr3h-cpq2-9496",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -139,17 +139,17 @@
       }
     },
     {
-      "id": "e7bde8c609703693",
+      "id": "b459479c209ecf36",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] Duplicate Advisory: Quadratic-time CPU denial of service in NLTK CCG lexicon parser (fromstring) on wide bracket bodies and operator chains",
+      "title": "[termux-sync] termux-sync: Arbitrary file write during restore via attacker-controlled manifest source path",
       "summary": "",
-      "published": "2026-11-13T12:31:16.000Z",
+      "published": "2026-11-16T22:09:24.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jh6r-h4rx-2j3w",
+      "url": "https://github.com/advisories/GHSA-259w-wmqg-fp76",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -158,17 +158,17 @@
       }
     },
     {
-      "id": "765be387e5b5c57b",
+      "id": "a09229274d078af7",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] Duplicate Advisory: Path Traversal in save_maxent_params / load_maxent_params Allow Arbitrary File READ/WRITE",
+      "title": "[nltk] NLTK dot2img runs Graphviz 'dot' without the trusted-exec chokepoint, enabling local code execution via a writable PATH element",
       "summary": "",
-      "published": "2026-11-13T12:31:16.000Z",
+      "published": "2026-11-16T18:45:51.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-g5wx-957h-f4wj",
+      "url": "https://github.com/advisories/GHSA-7mxv-7h3q-9324",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -177,17 +177,17 @@
       }
     },
     {
-      "id": "f8706635024d28c4",
+      "id": "2ca10cf256565e42",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] NLTK: Quadratic CPU exhaustion in LegalitySyllableTokenizer.tokenize via unguarded onset reversal loop",
+      "title": "[sentry] Sentry's improper authentication on SAML SSO process allows user identity linking",
       "summary": "",
-      "published": "2026-11-13T21:16:34.000Z",
+      "published": "2026-04-30T20:44:24.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-gpwc-27cw-rh9r",
+      "url": "https://github.com/advisories/GHSA-rcmw-7mc7-3rj7",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -196,17 +196,17 @@
       }
     },
     {
-      "id": "bf7a8f3d08da3da8",
+      "id": "66f9c006b39fb032",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] NLTK: Quadratic CPU exhaustion in TreebankWordTokenizer.span_tokenize via list.pop(0) in quote-restore loop",
+      "title": "[lightning] PyTorch Lightning path traversal vulnerability",
       "summary": "",
-      "published": "2026-11-13T21:08:55.000Z",
+      "published": "2025-03-20T12:32:46.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-ffr9-mgrr-wcvr",
+      "url": "https://github.com/advisories/GHSA-4cv3-v7pv-rfhf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +215,17 @@
       }
     },
     {
-      "id": "f466a1312ccad6d5",
+      "id": "7ecaee3ed769b3a2",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] Duplicate Advisory: Quadratic CPU exhaustion in TreebankWordTokenizer.span_tokenize via list.pop(0) in quote-restore loop",
+      "title": "[ironic-inspector] Injection vulnerability that affects ironic-discoverd",
       "summary": "",
-      "published": "2026-11-13T12:31:17.000Z",
+      "published": "2019-07-05T21:10:52.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rg32-vgf9-927c",
+      "url": "https://github.com/advisories/GHSA-x64g-wjmw-w328",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +234,17 @@
       }
     },
     {
-      "id": "e2575cefdae79daf",
+      "id": "9cd67a7ef698714c",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] NLTK: Unbounded CPU consumption in SteppingRecursiveDescentParser.parse() with ambiguous or self-embedding grammars",
+      "title": "[praisonai] PraisonAI: OS Command Injection in MCPHandler.parse_mcp_command()",
       "summary": "",
-      "published": "2026-11-13T21:02:19.000Z",
+      "published": "2026-04-01T23:20:00.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8fx7-8jr8-84rv",
+      "url": "https://github.com/advisories/GHSA-9gm9-c8mq-vq7m",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +253,17 @@
       }
     },
     {
-      "id": "d0fa2910d1b0377f",
+      "id": "d253f6022a5633da",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] Duplicate Advisory: Unbounded CPU consumption in NLTK SteppingRecursiveDescentParser.parse() with ambiguous or self-embedding grammars",
+      "title": "[ormar] ormar is vulnerable to SQL Injection through aggregate functions min() and max()",
       "summary": "",
-      "published": "2026-11-13T12:31:17.000Z",
+      "published": "2026-02-23T22:12:17.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-4hvg-fv5c-9936",
+      "url": "https://github.com/advisories/GHSA-xxh2-68g9-8jqr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +272,17 @@
       }
     },
     {
-      "id": "e53fb530591017a3",
+      "id": "2715078dcda87b82",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] NLTK: Symlink escape in YCOECorpusReader lets a psd/pos directory symlink read files outside the corpus root within the data sandbox",
+      "title": "[max] Modular Max Serve has Unsafe Deserialization vulnerability",
       "summary": "",
-      "published": "2026-11-13T20:55:16.000Z",
+      "published": "2025-11-18T21:32:31.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qg35-44qx-7vrr",
+      "url": "https://github.com/advisories/GHSA-7xcv-9j6c-2fmc",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,17 +291,17 @@
       }
     },
     {
-      "id": "1da4a5ec49fee9ec",
+      "id": "852d57d01e42326c",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[nltk] Duplicate Advisory: Symlink escape in YCOECorpusReader lets a psd/pos directory symlink read files outside the corpus root within the data sandbox",
+      "title": "[pytorch-lightning] Remote code execution in pytorch lightning",
       "summary": "",
-      "published": "2026-11-13T12:31:17.000Z",
+      "published": "2024-06-06T18:30:58.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7r4r-6ppg-7ff8",
+      "url": "https://github.com/advisories/GHSA-cgwc-qvrx-rf7f",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +310,17 @@
       }
     },
     {
-      "id": "ffa2fda941acd809",
+      "id": "29aeadbea3036242",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[tornado] Tornado: Open redirect via triple-slash redirect paths",
+      "title": "[aiohttp] AIOHTTP: Event loop stall in add_domain() wildcard matching",
       "summary": "",
-      "published": "2026-11-13T20:31:22.000Z",
+      "published": "2026-11-16T14:56:35.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5cjw-f85j-cv6r",
+      "url": "https://github.com/advisories/GHSA-jm3w-gw2p-xjfj",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +329,17 @@
       }
     },
     {
-      "id": "ad8c15a345521fd2",
+      "id": "cdf0058102fa216e",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[dnspython] dnspython has excessive memory and CPU use",
+      "title": "[aiohttp] AIOHTTP: Unbounded cookie storage in client CookieJar",
       "summary": "",
-      "published": "2026-11-13T20:19:13.000Z",
+      "published": "2026-11-16T14:55:06.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-vvf4-9x63-8xvv",
+      "url": "https://github.com/advisories/GHSA-5pv8-vvhc-h7jv",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +348,17 @@
       }
     },
     {
-      "id": "05f5fdb30a8407fe",
+      "id": "fc6bd8f0d56a697a",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[envd] envd: Host file disclosure through requirements path traversal and TOCTOU",
+      "title": "[aiohttp] AIOHTTP: Too many URL-encoded form fields block the event loop",
       "summary": "",
-      "published": "2026-11-13T18:05:15.000Z",
+      "published": "2026-11-16T14:54:10.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jv6m-48w5-5rpr",
+      "url": "https://github.com/advisories/GHSA-xgw8-8ccx-rmqh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +367,17 @@
       }
     },
     {
-      "id": "265f7595467f8d27",
+      "id": "25ac5f79503d27c6",
       "source": "github-advisory-pip",
       "category": "software-advisory",
-      "title": "[opentelemetry-api] OpenTelemetry Python API: Denial of service through quadratic-time traceparent parsing",
+      "title": "[aiohttp] AIOHTTP: Base64 multipart parts bypass client_max_size",
       "summary": "",
-      "published": "2026-11-13T16:43:18.000Z",
+      "published": "2026-11-16T14:53:12.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mf5v-w3w3-f6cg",
+      "url": "https://github.com/advisories/GHSA-24c4-3p7v-29cm",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -386,17 +386,17 @@
       }
     },
     {
-      "id": "ee365f7bb20d1e6f",
+      "id": "8698f0e4cc9406d1",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ag-psd] ag-psd can exhaust memory when parsing crafted PSD dimensions",
+      "title": "[directus] Directus: Share update allows reassigning user_created and role",
       "summary": "",
-      "published": "2026-11-13T23:19:38.000Z",
+      "published": "2026-11-16T22:25:53.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-qfx6-q44v-9qqw",
+      "url": "https://github.com/advisories/GHSA-7h45-q5jx-7r87",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -405,17 +405,17 @@
       }
     },
     {
-      "id": "789752b042b88683",
+      "id": "e0f02fed91092e32",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@sveltejs/kit] SvelteKit: adapter-node crashes with an unhandled URIError when `reroute` rewrites malformed pathnames",
+      "title": "[code-review-mcp-server] code-review-mcp-server: Command injection via unsanitized folderPath/baseBranch parameters",
       "summary": "",
-      "published": "2026-11-13T20:51:44.000Z",
+      "published": "2026-11-16T22:09:06.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mw6w-2fmv-pvw3",
+      "url": "https://github.com/advisories/GHSA-jq3q-62jc-fqq9",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -424,17 +424,17 @@
       }
     },
     {
-      "id": "a551025ef2fa69e2",
+      "id": "5ef337359d7b08b1",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@sveltejs/adapter-static] SvelteKit: Prerendered paths are interpreted as regular expressions in Vercel route config generated by @sveltejs/adapter-vercel and @sveltejs/adapter-st",
+      "title": "[next] Next.js: Information disclosure across root params when a 'use cache' function is called through unstable_cache()",
       "summary": "",
-      "published": "2026-11-13T20:43:23.000Z",
+      "published": "2026-11-16T18:51:22.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jf9x-2fg2-hx4w",
+      "url": "https://github.com/advisories/GHSA-mfr8-8qww-v76h",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -443,17 +443,17 @@
       }
     },
     {
-      "id": "3dad3c7327fe9150",
+      "id": "21d2ffec79ff8bbb",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@sveltejs/adapter-vercel] SvelteKit: Prerendered paths are interpreted as regular expressions in Vercel route config generated by @sveltejs/adapter-vercel and @sveltejs/adapter-st",
+      "title": "[@nuxt/nitro-server] Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
       "summary": "",
-      "published": "2026-11-13T20:43:23.000Z",
+      "published": "2026-11-16T15:02:22.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jf9x-2fg2-hx4w",
+      "url": "https://github.com/advisories/GHSA-hf59-9xwc-2g4p",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,17 +462,17 @@
       }
     },
     {
-      "id": "175ec23e9270d35b",
+      "id": "6ae8107eb4f31488",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@sveltejs/adapter-cloudflare] SvelteKit: Prerendered redirect paths can inject arbitrary rules into the `_redirects` file generated by `@sveltejs/adapter-cloudflare`",
+      "title": "[nuxt] Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
       "summary": "",
-      "published": "2026-11-13T20:39:15.000Z",
+      "published": "2026-11-16T15:02:22.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5wg4-q3ww-283h",
+      "url": "https://github.com/advisories/GHSA-hf59-9xwc-2g4p",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -481,17 +481,17 @@
       }
     },
     {
-      "id": "55f8fae39f1853d4",
+      "id": "d5a4f40e5e4715de",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@sveltejs/adapter-node] SvelteKit: `@sveltejs/adapter-node` crashes when proxying certain requests via `fetch`",
+      "title": "[nuxt] Nuxt exposes the message and data of unhandled errors thrown during server rendering",
       "summary": "",
-      "published": "2026-11-13T20:36:53.000Z",
+      "published": "2026-11-16T15:01:26.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rqw3-x7hx-mm3p",
+      "url": "https://github.com/advisories/GHSA-96x6-fvhx-49hg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -500,17 +500,17 @@
       }
     },
     {
-      "id": "cae72a02bc31015a",
+      "id": "2e122c78c65dc61f",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@nuxt/nitro-server] Nuxt: Incomplete fix for GHSA-9v7c-q64q-vv33: a leading `//` in the request path bypasses `server/middleware` path checks and server route rules on page routes",
+      "title": "[nuxt] Nuxt payload URL generation has quadratic cost for repeated slashes in the request path",
       "summary": "",
-      "published": "2026-11-13T19:32:21.000Z",
+      "published": "2026-11-16T15:00:41.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r99w-jh2x-3mg9",
+      "url": "https://github.com/advisories/GHSA-r9jc-w898-3fv6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -519,17 +519,17 @@
       }
     },
     {
-      "id": "6e5df4ab2fb38705",
+      "id": "7a6fba6f939acc5b",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@opentelemetry/instrumentation-http] OpenTelemetry JavaScript: Insertion of Sensitive Information into Log File and Exposure of Sensitive Information to an Unauthorized Actor in @",
+      "title": "[@nuxt/rspack-builder] @nuxt/webpack-builder and @nuxt/rspack-builder dev server serves built source to DNS rebinding pages",
       "summary": "",
-      "published": "2026-11-13T19:29:20.000Z",
+      "published": "2026-11-16T15:00:09.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-3v2p-hm54-8qcq",
+      "url": "https://github.com/advisories/GHSA-x2wv-5868-p7v2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -538,17 +538,17 @@
       }
     },
     {
-      "id": "55e3b850e6521cbc",
+      "id": "ce858613a5bc55ae",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[astro] Astro: XSS via attribute injection in dynamic tag names",
+      "title": "[@nuxt/webpack-builder] @nuxt/webpack-builder and @nuxt/rspack-builder dev server serves built source to DNS rebinding pages",
       "summary": "",
-      "published": "2026-11-13T18:39:54.000Z",
+      "published": "2026-11-16T15:00:09.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mh32-jxcr-mh9f",
+      "url": "https://github.com/advisories/GHSA-x2wv-5868-p7v2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -557,17 +557,17 @@
       }
     },
     {
-      "id": "2883e671f487e723",
+      "id": "f6cd32ba4fb64d59",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[astro] Astro: Image endpoint in @astrojs/node can read files from a case-variant sibling of the output directory on case-sensitive filesystems",
+      "title": "[@nuxt/vite-server] Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
       "summary": "",
-      "published": "2026-11-13T18:35:59.000Z",
+      "published": "2026-11-16T14:59:45.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r3h5-4585-7x3w",
+      "url": "https://github.com/advisories/GHSA-f3x9-2chm-73c8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -576,17 +576,17 @@
       }
     },
     {
-      "id": "f83634f7f385ffdb",
+      "id": "d9c75cc0955d227c",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@astrojs/node] Astro: Image endpoint in @astrojs/node can read files from a case-variant sibling of the output directory on case-sensitive filesystems",
+      "title": "[@nuxt/nitro-server] Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
       "summary": "",
-      "published": "2026-11-13T18:35:59.000Z",
+      "published": "2026-11-16T14:59:45.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-r3h5-4585-7x3w",
+      "url": "https://github.com/advisories/GHSA-f3x9-2chm-73c8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -595,17 +595,17 @@
       }
     },
     {
-      "id": "7df7f7c09b3d0cce",
+      "id": "d2a68ca505d41f61",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[@nuxt/schema] Nuxt dev server serves files from a parent directory with a stray lockfile or workspace file",
+      "title": "[nuxt] Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
       "summary": "",
-      "published": "2026-11-13T18:11:49.000Z",
+      "published": "2026-11-16T14:59:45.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-mjrq-cffv-q4qc",
+      "url": "https://github.com/advisories/GHSA-f3x9-2chm-73c8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -614,254 +614,17 @@
       }
     },
     {
-      "id": "48141f496a742cbc",
+      "id": "efa5b46b79971fd1",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[hono] Hono: `csrf()` does not check requests sent by hyperlink auditing (`text/ping`)",
+      "title": "[@sveltejs/kit] SvelteKit: Build-time server-only module import guard could fail, resulting in server secrets being statically replaced in client bundle",
       "summary": "",
-      "published": "2026-11-12T23:31:25.000Z",
+      "published": "2026-11-16T14:59:00.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-46wx-v44x-9hh2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d92a3e79eba8ed78",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[hono] Hono: `validator('form')` skips validation for `multipart/form-data` requests with extra parameters",
-      "summary": "",
-      "published": "2026-11-12T23:30:45.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4h7h-rv7c-7m2v",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e7b98e5490c20cd5",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[hono] Hono: `mount()` and `app.mount()` can forward a path that bypasses middleware scoped inside the mount prefix",
-      "summary": "",
-      "published": "2026-11-12T23:24:11.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4m76-xfj5-7975",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "167a138dbe8ce630",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
-      "summary": "Monitoring maritime activities is important for safety and security, particularly for detecting illegal activities, but remains challenging due to the size and complexity of the maritime domain. The Automatic Identification System (AIS) is commonly used for this purpose, despite its known vulnerabilities. In contrast, space-based radio frequency (RF) observations provide an independent source of vessel activity but lack ship identification and therefore cannot identify vessels on their own. Foll",
-      "published": "2026-11-13T18:59:43Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.CR"
-      ],
-      "url": "https://arxiv.org/abs/2611.18563v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "b98c2ef1384c5bb6",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
-      "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight-Space Programming (WSP). Exploring this new paradigm systematically requires a robust benchmark. We introduce WEIGHTBENCH, a benchmark that evaluates LLMs of increasing capability on 42 WSP tasks acr",
-      "published": "2026-11-13T18:58:08Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.LG",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2611.18553v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "1b88d651b1e43226",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
-      "summary": "Artificial intelligence (AI) agents are expected to complete tasks while following rules of conduct, but these objectives can conflict. We study how evolutionary selection shapes an agent's choices between them, and whether experience can make those choices reflect human judgments and withstand subsequent pressures. In our model, copies of an agent face a common uncertain reward state, and only those taking the rewarded action reproduce. We show that long-run growth is maximized when each action",
-      "published": "2026-11-13T18:43:24Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "q-bio.PE",
-        "q-fin.GN"
-      ],
-      "url": "https://arxiv.org/abs/2611.18531v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "6da56780a63e3364",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "WaferTetris: Efficient Freeform Mapping on Wafer-Scale Accelerators",
-      "summary": "Wafer-scale accelerators offer massive compute capacity through hundreds of thousands of processing elements (PEs) interconnected across a single wafer, but realizing this potential requires efficient application mapping. Their scale makes programming these systems and mapping applications onto them challenging. Existing approaches rely on template-based mappings to maintain productivity, but these templates restrict the mapping design space. In particular, they impose fixed geometric layouts ov",
-      "published": "2026-11-13T18:41:44Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AR",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2611.18527v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "0822a0406aa171d8",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Mutable Inference: Architecting LLM Accelerators for Inference-Time Learning",
-      "summary": "Long-context LLMs must retain growing histories, but full attention makes each new token increasingly expensive. Inference-time learning (ITL) offers another approach. The model keeps training on the context during inference, retaining what it learns in its weights. Recent work shows that ITL can match full-context attention quality while attending only to a recent fixed-size window. This bounds attention costs but adds Learning (backward computation and weight updates) alongside Prediction (the",
-      "published": "2026-11-13T18:37:52Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AR"
-      ],
-      "url": "https://arxiv.org/abs/2611.18523v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "fba7d93fff2b511f",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "OpenLayout: An Open and Agentic-Driven Platform for Holistic VLSI Physical Design and Benchmarking",
-      "summary": "Physical design automation of very large-scale integrated circuits (VLSI) has made significant strides, progressing from single-stage placement and routing toward increasingly integrated full-flow implementation. Yet, existing approaches struggle with the vast design space optimization (DSO) arising from diverse technology nodes, circuit designs, and varied constraints. The substantial runtime of physical-design tools further exacerbates this challenge, leaving industrial workflows heavily depen",
-      "published": "2026-11-13T18:36:22Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AR"
-      ],
-      "url": "https://arxiv.org/abs/2611.18517v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "34ad1e1a774f0ad3",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
-      "summary": "Mechanistic Interpretability (MI) has made significant progress in explaining the internal computations of Large Language Models (LLMs); however, these advances have yet to demonstrate comparable success in explaining the decision-making processes of LLM-based agents. This paper examines the challenges MI tools face when applied to realistic agentic failures. We focus on one such failure: web agents hallucinating actions that are not available on a website. We apply a series of mechanistic analy",
-      "published": "2026-11-13T18:30:58Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2611.18514v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "944b6cbeefc048fb",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading",
-      "summary": "This paper introduces MeReader, a privacy-preserving, offline and progress-aware AI assistant designed to function as a contextual companion for narrative reading on consumer hardware. Unlike conventional Large Language Model (LLM)-based systems that process documents/books online in an all-texts-at-once type of way, thereby risking narrative spoilers, MeReader confines both retrieval and generation to the reader's distinct position in the text. The system integrates a hybrid retrieval architect",
-      "published": "2026-11-13T18:29:51Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.IR",
-        "cs.AI",
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2611.18513v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "29aa3d199ef09fe3",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Agentic induction of common data elements and information extraction from sarcoma case report abstracts",
-      "summary": "Common data elements (CDEs) support clinical data comparability but are usually defined manually. We investigated whether large language model agents could derive a CDE schema from sarcoma case report abstracts and apply it at scale. An agent proposed 72,909 candidate CDEs from 24,588 PubMed abstracts; agentic consolidation yielded 1,570 CDEs. We retained 53 supported by at least 50 abstracts and attempted evidence-linked extraction across the corpus. Processing succeeded for all retained CDEs i",
-      "published": "2026-11-13T18:23:11Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "cs.CL"
-      ],
-      "url": "https://arxiv.org/abs/2611.18506v1",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "8a566f66ccb84a1f",
-      "source": "arxiv-ai-security",
-      "category": "research",
-      "title": "Agentic AI for Discovering Fault-Tolerant Quantum Circuits",
-      "summary": "Scaling quantum computing toward practical quantum advantage is currently limited by the efficiency of circuits that operate on information encoded by quantum error-correcting codes. The full stack of quantum computing encompasses several tasks: preparation of logical code states, implementation of logical gates, logical routines on encoded qubits, etc. Yet, these circuits are largely designed by hand for individual cases, with some recent works incorporating machine learning for certain aspects",
-      "published": "2026-11-13T18:20:23Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "quant-ph",
-        "cs.AI"
-      ],
-      "url": "https://arxiv.org/abs/2611.18504v1",
+      "url": "https://github.com/advisories/GHSA-m9j8-jcmv-hp69",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
