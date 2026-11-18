@@ -1,10 +1,67 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-17T07:09:15.560308+00:00",
+  "generated_at": "2026-11-18T06:34:03.732774+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 33,
+  "item_count": 34,
   "items": [
+    {
+      "id": "96117fb9cadcc084",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[mobsf] Mobile Security Framework (MobSF) Allows Web Server Resource Exhaustion via ZIP of Death Attack",
+      "summary": "",
+      "published": "2025-05-05T19:32:27.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-c5vg-26p8-q8cr",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "30e62e9f4b01043a",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[pympp] pympp allows excessive sponsored transaction fees through padded calldata",
+      "summary": "",
+      "published": "2026-11-17T20:04:56.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-v858-xh7w-8jr5",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "1da5c152f4ab565f",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[arize-phoenix] Phoenix: Format String Injection in applyChatTemplate",
+      "summary": "",
+      "published": "2026-11-17T20:02:29.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-gfv3-m769-5xm3",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "44b92ab3aa7e6566",
       "source": "github-advisory-pip",
@@ -329,17 +386,17 @@
       }
     },
     {
-      "id": "cdf0058102fa216e",
-      "source": "github-advisory-pip",
+      "id": "ff376d78140e25a5",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[aiohttp] AIOHTTP: Unbounded cookie storage in client CookieJar",
+      "title": "[fast-xml-parser] fast-xml-parser XMLBuilder: XML Comment and CDATA Injection via Unescaped Delimiters",
       "summary": "",
-      "published": "2026-11-16T14:55:06.000Z",
+      "published": "2026-04-22T20:04:17.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-5pv8-vvhc-h7jv",
+      "url": "https://github.com/advisories/GHSA-gh4j-gqv2-49f6",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +405,17 @@
       }
     },
     {
-      "id": "fc6bd8f0d56a697a",
-      "source": "github-advisory-pip",
+      "id": "767099e0658b2cd0",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[aiohttp] AIOHTTP: Too many URL-encoded form fields block the event loop",
+      "title": "[@libp2p/gossipsub] libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
       "summary": "",
-      "published": "2026-11-16T14:54:10.000Z",
+      "published": "2026-11-17T21:06:20.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xgw8-8ccx-rmqh",
+      "url": "https://github.com/advisories/GHSA-x2vm-cf3p-m2w8",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +424,55 @@
       }
     },
     {
-      "id": "25ac5f79503d27c6",
-      "source": "github-advisory-pip",
+      "id": "e67d11bf637fdbd3",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[aiohttp] AIOHTTP: Base64 multipart parts bypass client_max_size",
+      "title": "[@libp2p/crypto] libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
       "summary": "",
-      "published": "2026-11-16T14:53:12.000Z",
+      "published": "2026-11-17T21:05:08.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-24c4-3p7v-29cm",
+      "url": "https://github.com/advisories/GHSA-rvfr-cqwq-rc4j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e7027ae6f5f54db9",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[next] Next.js: Cache leak across root param values in nested 'use cache' functions via delayed inner stream metadata",
+      "summary": "",
+      "published": "2026-11-17T16:13:26.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vc7v-qv4w-wrv8",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "2a55e7edbed26e76",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[picomatch] picomatch vulnerable to ReDoS through single-branch repeated extglobs",
+      "summary": "",
+      "published": "2026-10-19T18:32:12.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-fc5q-39xc-vjpf",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -549,82 +644,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-x2wv-5868-p7v2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f6cd32ba4fb64d59",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@nuxt/vite-server] Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
-      "summary": "",
-      "published": "2026-11-16T14:59:45.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f3x9-2chm-73c8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d9c75cc0955d227c",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@nuxt/nitro-server] Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
-      "summary": "",
-      "published": "2026-11-16T14:59:45.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f3x9-2chm-73c8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d2a68ca505d41f61",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nuxt] Nuxt: Incomplete fix for GHSA-6gq8-jgmh-3ffp: an encoded slash (`%2F`) in the request path bypasses route rules on catch-all page routes",
-      "summary": "",
-      "published": "2026-11-16T14:59:45.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-f3x9-2chm-73c8",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "efa5b46b79971fd1",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@sveltejs/kit] SvelteKit: Build-time server-only module import guard could fail, resulting in server secrets being statically replaced in client bundle",
-      "summary": "",
-      "published": "2026-11-16T14:59:00.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-m9j8-jcmv-hp69",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
