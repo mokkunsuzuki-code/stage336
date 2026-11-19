@@ -1,10 +1,105 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-18T06:34:03.732774+00:00",
+  "generated_at": "2026-11-19T06:34:44.948479+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 34,
+  "item_count": 37,
   "items": [
+    {
+      "id": "52d409d7938db00d",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] open-webui is Vulnerable to Incorrect Access Control",
+      "summary": "",
+      "published": "2025-12-04T18:30:53.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-frv8-gffc-37px",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e50de19101e4d7bd",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI Vulnerable to Cross-Site Request Forgery (CSRF)",
+      "summary": "",
+      "published": "2025-03-20T12:32:46.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-p5vx-9hj8-cf4h",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "5fb2161372b2fe47",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[open-webui] Open WebUI Allows Arbitrary File Reading and Deletion",
+      "summary": "",
+      "published": "2025-03-20T12:32:45.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jrhc-9qg9-4qfq",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "ff3e001ea03327ec",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[django-filer] django-filer: Missing per-object authorization on `discard` and `edit_redirect` version transitions",
+      "summary": "",
+      "published": "2026-11-18T21:20:42.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-vf85-8ff2-3r9w",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "83354112623baf20",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[djangocms-versioning] djangocms-versioning: Authorization Bypass Through User-Controlled Key and Missing Authorization",
+      "summary": "",
+      "published": "2026-11-18T21:19:04.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-5g9x-qwh5-33x4",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "96117fb9cadcc084",
       "source": "github-advisory-pip",
@@ -291,17 +386,17 @@
       }
     },
     {
-      "id": "9cd67a7ef698714c",
-      "source": "github-advisory-pip",
+      "id": "453cfa7305f06baf",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[praisonai] PraisonAI: OS Command Injection in MCPHandler.parse_mcp_command()",
+      "title": "[@connorbritain/mssql-mcp-server] mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
       "summary": "",
-      "published": "2026-04-01T23:20:00.000Z",
+      "published": "2026-11-19T00:46:38.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9gm9-c8mq-vq7m",
+      "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -310,17 +405,17 @@
       }
     },
     {
-      "id": "d253f6022a5633da",
-      "source": "github-advisory-pip",
+      "id": "c2664fdfba8bf324",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[ormar] ormar is vulnerable to SQL Injection through aggregate functions min() and max()",
+      "title": "[@connorbritain/mssql-mcp-writer] mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
       "summary": "",
-      "published": "2026-02-23T22:12:17.000Z",
+      "published": "2026-11-19T00:46:38.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-xxh2-68g9-8jqr",
+      "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -329,17 +424,17 @@
       }
     },
     {
-      "id": "2715078dcda87b82",
-      "source": "github-advisory-pip",
+      "id": "db4bfdd2224dc5a4",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[max] Modular Max Serve has Unsafe Deserialization vulnerability",
+      "title": "[@connorbritain/mssql-mcp-reader] mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
       "summary": "",
-      "published": "2025-11-18T21:32:31.000Z",
+      "published": "2026-11-19T00:46:38.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-7xcv-9j6c-2fmc",
+      "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -348,17 +443,17 @@
       }
     },
     {
-      "id": "852d57d01e42326c",
-      "source": "github-advisory-pip",
+      "id": "925db5cd3eadd367",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[pytorch-lightning] Remote code execution in pytorch lightning",
+      "title": "[@connorbritain/mssql-mcp-core] mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
       "summary": "",
-      "published": "2024-06-06T18:30:58.000Z",
+      "published": "2026-11-19T00:46:38.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-cgwc-qvrx-rf7f",
+      "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -367,17 +462,55 @@
       }
     },
     {
-      "id": "29aeadbea3036242",
-      "source": "github-advisory-pip",
+      "id": "121f7a63fb0de7c1",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[aiohttp] AIOHTTP: Event loop stall in add_domain() wildcard matching",
+      "title": "[install-artifact-from-github] install-artifact-from-github loads downloaded native artifacts without integrity verification",
       "summary": "",
-      "published": "2026-11-16T14:56:35.000Z",
+      "published": "2026-11-18T21:17:37.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-jm3w-gw2p-xjfj",
+      "url": "https://github.com/advisories/GHSA-88q3-gch3-5396",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7ef1ecc6f412fc1d",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[outstatic] Outstatic: Authenticated GitHub REST proxy can send OAuth token to non-GitHub origins",
+      "summary": "",
+      "published": "2026-11-18T20:43:43.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-7jvc-9xq8-frff",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "59fff684227b71a3",
+      "source": "github-advisory-npm",
+      "category": "software-advisory",
+      "title": "[@augment-vir/node] augment-virShell allows Command Injection in `grep()` via Unsanitized `searchPattern`",
+      "summary": "",
+      "published": "2026-11-18T16:15:52.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-xvcc-vqjv-phqh",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -462,10 +595,10 @@
       }
     },
     {
-      "id": "2a55e7edbed26e76",
+      "id": "81c940b3cd504d04",
       "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[picomatch] picomatch vulnerable to ReDoS through single-branch repeated extglobs",
+      "title": "[picomatch] Withdrawn Advisory: picomatch vulnerable to ReDoS through single-branch repeated extglobs",
       "summary": "",
       "published": "2026-10-19T18:32:12.000Z",
       "impact_scope": "metadata-only",
@@ -568,82 +701,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-hf59-9xwc-2g4p",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "d5a4f40e5e4715de",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nuxt] Nuxt exposes the message and data of unhandled errors thrown during server rendering",
-      "summary": "",
-      "published": "2026-11-16T15:01:26.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-96x6-fvhx-49hg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2e122c78c65dc61f",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[nuxt] Nuxt payload URL generation has quadratic cost for repeated slashes in the request path",
-      "summary": "",
-      "published": "2026-11-16T15:00:41.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-r9jc-w898-3fv6",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7a6fba6f939acc5b",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@nuxt/rspack-builder] @nuxt/webpack-builder and @nuxt/rspack-builder dev server serves built source to DNS rebinding pages",
-      "summary": "",
-      "published": "2026-11-16T15:00:09.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-x2wv-5868-p7v2",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "ce858613a5bc55ae",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@nuxt/webpack-builder] @nuxt/webpack-builder and @nuxt/rspack-builder dev server serves built source to DNS rebinding pages",
-      "summary": "",
-      "published": "2026-11-16T15:00:09.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-x2wv-5868-p7v2",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
