@@ -1,10 +1,181 @@
 {
   "stage": 336,
   "system": "Safe Live Intelligence Fetcher",
-  "generated_at": "2026-11-20T06:22:07.410834+00:00",
+  "generated_at": "2026-11-21T06:12:06.343603+00:00",
   "mode": "safe-metadata-only",
-  "item_count": 47,
+  "item_count": 46,
   "items": [
+    {
+      "id": "d3ce68776d14e24f",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[wcmatch] wcmatch: Polynomial-time ReDoS when matching untrusted names against multi-star patterns (default flags)",
+      "summary": "",
+      "published": "2026-11-20T23:49:18.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-53pm-wgxf-c6qf",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "e9684139a90d77e6",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[inscriptis] Inscriptis: Quadratic memory growth from sibling <table> elements in get_text()",
+      "summary": "",
+      "published": "2026-11-20T23:48:51.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-q87h-c5m7-659j",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7587ff2671d5bb77",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[svglib] svglib: Exponential resource consumption via nested <use> references in svg2rlg",
+      "summary": "",
+      "published": "2026-11-20T23:47:58.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-555j-qj3j-c8jv",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c07c1118297bac81",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[memtomem-stm] memtomem-stm: Concurrent LTM recovery can duplicate reconnects or reuse a cancelled transport session",
+      "summary": "",
+      "published": "2026-11-20T23:38:15.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-72jh-722p-rqr3",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "7c11e0fd224123e4",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[memtomem-stm] memtomem-stm: Surfaced memory data can escape the Markdown compatibility boundary",
+      "summary": "",
+      "published": "2026-11-20T23:37:39.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-43hx-xm7w-3mhj",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "55a2254590bf0970",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[ait-gui] AIT-GUI route chain allows unauthenticated Python execution in server process",
+      "summary": "",
+      "published": "2026-11-20T23:36:41.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-jrjx-9jjw-747m",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "6718a5e70dbdab9c",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[ckan] CKAN: Session Fixation in Registration View",
+      "summary": "",
+      "published": "2026-11-20T16:25:26.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-6499-jgj4-2wpf",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "c902ab70bddfd8ff",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[amqtt] aMQTT: Denial of Service (DoS) via Memory Leak in Unmanaged QoS 2 Session Handshakes",
+      "summary": "",
+      "published": "2026-11-20T14:54:50.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-wcqj-wx85-c75p",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
+    {
+      "id": "d4507fc11a39c8fd",
+      "source": "github-advisory-pip",
+      "category": "software-advisory",
+      "title": "[amqtt] aMQTT: Inefficient Regular Expression Complexity and Uncontrolled Resource Consumption and Improper Input Validation",
+      "summary": "",
+      "published": "2026-11-20T14:43:41.000Z",
+      "impact_scope": "metadata-only",
+      "tags": [
+        "severity"
+      ],
+      "url": "https://github.com/advisories/GHSA-2hjf-7455-w946",
+      "safety_policy": {
+        "metadata_only": true,
+        "no_exploit_code": true,
+        "no_attack_prompt": true,
+        "no_payload_collection": true
+      }
+    },
     {
       "id": "fa0cc5c894fc8423",
       "source": "github-advisory-pip",
@@ -196,17 +367,17 @@
       }
     },
     {
-      "id": "cffcfb6dc1a57065",
-      "source": "github-advisory-pip",
+      "id": "d0e556245110ae55",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nltk] NLTK incomplete fix: additional JVM/JAR sandbox bypass through unvalidated launcher tokens in java() command arguments",
+      "title": "[@budibase/server] Budibase: Unauthenticated global-admin & database creation via tenant-confusion bypass of the one-time init guard (`POST /api/global/users/init`)",
       "summary": "",
-      "published": "2026-11-19T23:55:54.000Z",
+      "published": "2026-11-20T23:50:01.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-x8q7-6c7m-52gw",
+      "url": "https://github.com/advisories/GHSA-25qc-m4pw-2w8r",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -215,17 +386,17 @@
       }
     },
     {
-      "id": "0bd0c0520782e986",
-      "source": "github-advisory-pip",
+      "id": "c12e569801a3c0f4",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nltk] NLTK: XMLCorpusView comment and CDATA parsing permits quadratic CPU denial of service",
+      "title": "[@budibase/server] Budibase: Cross-privilege Stored XSS in the Budibase Builder via broken HTML-escaping in `jsonFormatter.format()` rendered through `{@html}` in the CSP-less Buil",
       "summary": "",
-      "published": "2026-11-19T23:54:59.000Z",
+      "published": "2026-11-20T23:49:47.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-j8g8-j4j7-8j54",
+      "url": "https://github.com/advisories/GHSA-r2q3-7m4h-63qg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -234,17 +405,17 @@
       }
     },
     {
-      "id": "d358a150f2c242ee",
-      "source": "github-advisory-pip",
+      "id": "386a3f0047dca66f",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nltk] NLTK: Downloader cyclic collection indices cause an infinite closure walk",
+      "title": "[aedes] Aedes has Uncaught Exception and Uncontrolled Resource Consumption",
       "summary": "",
-      "published": "2026-11-19T23:54:33.000Z",
+      "published": "2026-11-20T23:32:35.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-pcm8-fqjx-rvx8",
+      "url": "https://github.com/advisories/GHSA-xxqp-5qx8-gj5q",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -253,17 +424,17 @@
       }
     },
     {
-      "id": "4b87e3ab528503ea",
-      "source": "github-advisory-pip",
+      "id": "57a150cadec2b224",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nltk] NLTK: ARFF_Formatter Injects Weka ARFF Schema Directives via Attacker-Controlled Class Labels",
+      "title": "[storyblok-backup] storyblok-backup: Stored path traversal via unsanitized Storyblok component names in backup output",
       "summary": "",
-      "published": "2026-11-19T23:54:17.000Z",
+      "published": "2026-11-20T14:55:18.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-9ffx-rrgx-mhgx",
+      "url": "https://github.com/advisories/GHSA-vcx7-pfrh-mcfg",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -272,17 +443,17 @@
       }
     },
     {
-      "id": "7944e0aa2fc9e15b",
-      "source": "github-advisory-pip",
+      "id": "d7bf3b250c7cbd91",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nltk] Natural Language Toolkit (NLTK): Uncontrolled recursion (crash DoS) in DependencyGraph.tree()/triples()",
+      "title": "[js-toml] js-toml allows uncontrolled recursion in `load()` leading `RangeError` (stack exhaustion) on deeply nested input",
       "summary": "",
-      "published": "2026-11-19T23:53:41.000Z",
+      "published": "2026-11-20T14:40:45.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-rh8m-wqhc-qmrf",
+      "url": "https://github.com/advisories/GHSA-3g82-77xr-68x5",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -291,93 +462,17 @@
       }
     },
     {
-      "id": "51e6b9c48ea59e4b",
-      "source": "github-advisory-pip",
+      "id": "24aa175a2813c872",
+      "source": "github-advisory-npm",
       "category": "software-advisory",
-      "title": "[nltk] Natural Language Toolkit (NLTK): Uncontrolled recursion (crash DoS) in Synset.tree()/acyclic_tree() via WordNet relation traversal",
+      "title": "[@appium/storage-plugin] appium allows unauthenticated arbitrary file/directory deletion in @appium/storage-plugin",
       "summary": "",
-      "published": "2026-11-19T23:53:18.000Z",
+      "published": "2026-11-20T14:34:30.000Z",
       "impact_scope": "metadata-only",
       "tags": [
         "severity"
       ],
-      "url": "https://github.com/advisories/GHSA-8846-p9w9-5frf",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "90b580916caeba44",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[nltk] NLTK: Uncontrolled recursion in CCG lexicon parser causes denial of service via deeply nested category input",
-      "summary": "",
-      "published": "2026-11-19T23:52:54.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-3h95-x772-4765",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "7862ef715751d68c",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[nltk] NLTK: Uncontrolled recursion in DependencyGraph traversal causes denial of service via deep dependency chains",
-      "summary": "",
-      "published": "2026-11-19T23:52:20.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-xfcv-m889-fmqg",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "df5074891cfe0692",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[nltk] NLTK: Uncontrolled recursion in semantic-logic type parser causes denial of service via nested type strings",
-      "summary": "",
-      "published": "2026-11-19T23:51:48.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-w3pv-xfw4-ghr7",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "e6fa6c6ca08661bc",
-      "source": "github-advisory-pip",
-      "category": "software-advisory",
-      "title": "[nltk] NLTK: Uncontrolled recursion in Tree.fromlist causes denial of service via deeply nested list input",
-      "summary": "",
-      "published": "2026-11-19T23:51:08.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-63wh-5r5m-wxr7",
+      "url": "https://github.com/advisories/GHSA-jwgx-mp9m-jwcr",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
@@ -587,120 +682,6 @@
         "severity"
       ],
       "url": "https://github.com/advisories/GHSA-4rj4-rcrq-gr92",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "bcf953bbb7316093",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[effect] Effect: ReDoS in Schema.TemplateLiteral compiled regex",
-      "summary": "",
-      "published": "2026-11-19T20:51:01.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-7589-6fvf-x4pw",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "f8334926e87a4d65",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[obsidian-sync-mcp] obsidian-sync-mcp: Missing Host/Origin validation lets a public website drive a victim's Obsidian vault via DNS rebinding (no-auth mode)",
-      "summary": "",
-      "published": "2026-11-19T20:41:18.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-mx6p-3fg7-v6pj",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "916560695f39a968",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@doist/todoist-mcp] Todoist MCP Server: Browser DNS rebinding lets websites write and delete Todoist data through local MCP server",
-      "summary": "",
-      "published": "2026-11-19T20:38:35.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-833v-v58w-294h",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "89b6e1ada62778a9",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@openeudi/openid4vp] OpenID4VP: X.509 chain validation accepts a forged certificate that reuses a trusted anchor's Subject DN without verifying its signature",
-      "summary": "",
-      "published": "2026-11-19T20:35:57.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-4c2f-96cf-f5fc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "2179438035f52de8",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@apireno/domshell] DOMShell: domshell_eval classified as read-tier can execute side-effecting JavaScript without --allow-write",
-      "summary": "",
-      "published": "2026-11-19T16:10:53.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-vg83-hcp4-5qcc",
-      "safety_policy": {
-        "metadata_only": true,
-        "no_exploit_code": true,
-        "no_attack_prompt": true,
-        "no_payload_collection": true
-      }
-    },
-    {
-      "id": "453cfa7305f06baf",
-      "source": "github-advisory-npm",
-      "category": "software-advisory",
-      "title": "[@connorbritain/mssql-mcp-server] mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
-      "summary": "",
-      "published": "2026-11-19T00:46:38.000Z",
-      "impact_scope": "metadata-only",
-      "tags": [
-        "severity"
-      ],
-      "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25",
       "safety_policy": {
         "metadata_only": true,
         "no_exploit_code": true,
